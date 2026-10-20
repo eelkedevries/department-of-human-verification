@@ -607,6 +607,10 @@ hr.rule {
   background: var(--bad);
 }
 
+.verdict-badge.judgement {
+  background: var(--ink-soft);
+}
+
 .tile.miss {
   outline: 4px dashed var(--warn);
   outline-offset: -4px;

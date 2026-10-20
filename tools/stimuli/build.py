@@ -82,9 +82,12 @@ def main() -> None:
             })
         answer_key = [t["tile_id"] for t in grid["tiles"] if t["role"] == "target"]
         # Compact separators match JSON.stringify, so scripts/validate-stimuli.mjs can recompute the hash.
+        borderline_ids = [t["tile_id"] for t in grid["tiles"] if t["role"] == "borderline"]
+        hash_parts = [grid["instruction"], grid["mode"], answer_key, [t["sha256"] for t in tiles]]
+        if borderline_ids:
+            hash_parts.append(borderline_ids)
         grid_hash = hashlib.sha256(json.dumps(
-            [grid["instruction"], grid["mode"], answer_key, [t["sha256"] for t in tiles]],
-            separators=(",", ":"), ensure_ascii=False).encode()).hexdigest()
+            hash_parts, separators=(",", ":"), ensure_ascii=False).encode()).hexdigest()
         variants = {k: grid[f"{k}_variant"] for k in ("direct", "semantic") if f"{k}_variant" in grid}
         stimulus = {
             "stimulus_id": grid["grid_id"],
@@ -104,6 +107,8 @@ def main() -> None:
         }
         if "operational_definition" in grid:
             stimulus["operational_definition"] = grid["operational_definition"]
+        if borderline_ids:
+            stimulus["borderline_tile_ids"] = borderline_ids
         stimuli.append(stimulus)
 
     for stale in PUBLIC.glob("*.webp"):

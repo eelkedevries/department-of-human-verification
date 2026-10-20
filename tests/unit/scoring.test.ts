@@ -36,6 +36,15 @@ describe('evaluate', () => {
     expect([e.hits, e.misses, e.false_alarms, e.correct_rejections]).toEqual([0, 2, 0, 7]);
   });
 
+  it('records borderline selections without grading them right or wrong', () => {
+    const yes = evaluate(['t1', 't3'], ['t1'], tiles, false, ['t3', 't4']);
+    expect(yes).toEqual({ outcome: 'correct', correct: true, hits: 1, misses: 0, false_alarms: 0, correct_rejections: 6, borderline_selected: 1, borderline_total: 2 });
+    const no = evaluate(['t1'], ['t1'], tiles, false, ['t3', 't4']);
+    expect(no.correct).toBe(true);
+    expect(no.borderline_selected).toBe(0);
+    expect(evaluate(['t2', 't3'], ['t1'], tiles, false, ['t3']).false_alarms).toBe(1);
+  });
+
   it('ignores selections outside the grid', () => {
     const e = evaluate(['t1', 'elsewhere'], ['t1'], tiles, false);
     expect(e.outcome).toBe('correct');

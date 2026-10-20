@@ -281,7 +281,7 @@ export function renderRound(options: RoundOptions): HTMLElement {
     options.instrumentation?.onOffset(assignment.trial_index, endMs);
     const responseMs = timedOut ? null : Math.round(timer.elapsedMs());
     collector.log({ type: timedOut ? 'timeout' : 'submit', t_ms: endMs, trial_index: assignment.trial_index });
-    const evaluation = evaluate([...selected], stimulus.answer_key, assignment.layout, timedOut);
+    const evaluation = evaluate([...selected], stimulus.answer_key, assignment.layout, timedOut, stimulus.borderline_tile_ids ?? []);
     collector.log({ type: 'trial_end', t_ms: endMs, trial_index: assignment.trial_index, correct: evaluation.correct });
     const trial: TrialRecord = {
       trial_id: `${assignment.session_id}-${assignment.trial_index}`,
@@ -316,9 +316,12 @@ export function renderRound(options: RoundOptions): HTMLElement {
       const id = tiles[position].tile_id;
       el.setAttribute('aria-disabled', 'true');
       const isTarget = key.has(id);
+      const isBorderline = stimulus.borderline_tile_ids?.includes(id) ?? false;
       const isSelected = selected.has(id);
       let badge: [string, string] | null = null;
-      if (isTarget && isSelected) badge = ['hit', 'Correct'];
+      if (isBorderline && isSelected) badge = ['judgement', 'Judgement noted'];
+      else if (isBorderline) { /* Deliberately not graded as a miss. */ }
+      else if (isTarget && isSelected) badge = ['hit', 'Correct'];
       else if (isTarget) badge = ['miss', 'Missed'];
       else if (isSelected) badge = ['false-alarm', 'Not a match'];
       if (badge) {
@@ -333,7 +336,8 @@ export function renderRound(options: RoundOptions): HTMLElement {
         'div',
         { class: 'feedback' },
         stamp(STAMPS[evaluation.outcome], evaluation.outcome, !options.reducedMotion),
-        h('div', {}, h('p', { class: 'feedback-text' }, line), h('p', { class: 'feedback-explanation' }, stimulus.explanation)),
+        h('div', {}, h('p', { class: 'feedback-text' }, line), h('p', { class: 'feedback-explanation' }, stimulus.explanation),
+          ...(stimulus.borderline_tile_ids?.length ? [h('p', { class: 'fine-print' }, 'Borderline classifications have been recorded, not marked wrong.')] : [])),
       ),
       h('div', { class: 'submit-row' }, next),
     );

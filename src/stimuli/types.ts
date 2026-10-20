@@ -6,9 +6,10 @@ export type SelectionMode = 'single' | 'multiple';
 
 /**
  * `unambiguous`: one defensible answer set, suitable for scored and, later, confirmatory trials.
- * `entertainment`: scored with an explicit operational definition, but excluded from confirmatory analysis.
+ * `entertainment`: scored with a stated convention, excluded from confirmatory analysis.
+ * `category_judgement`: objective subset scored; borderline cases recorded without a verdict.
  */
-export type ResearchClass = 'unambiguous' | 'entertainment';
+export type ResearchClass = 'unambiguous' | 'entertainment' | 'category_judgement';
 
 export interface TileProvenance {
   model: string;
@@ -56,6 +57,8 @@ export interface Stimulus {
   feedback: { correct: string[]; partial?: string[]; incorrect: string[] };
   tiles: StimulusTile[];
   answer_key: string[];
+  /** Ambiguous category members; their selection is recorded but is never scored. */
+  borderline_tile_ids?: string[];
 }
 
 export interface Catalogue {

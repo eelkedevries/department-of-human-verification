@@ -46,7 +46,7 @@ for (const s of catalogue.stimuli) {
   for (const field of ['instruction', 'hint', 'explanation']) if (!s[field]?.trim()) fail(where, `missing ${field}`);
   if (!FAMILIES.includes(s.family)) fail(where, `unknown family ${s.family}`);
   if (!['single', 'multiple'].includes(s.mode)) fail(where, `unknown mode ${s.mode}`);
-  if (!['unambiguous', 'entertainment'].includes(s.research_class)) fail(where, `unknown research class ${s.research_class}`);
+  if (!['unambiguous', 'entertainment', 'category_judgement'].includes(s.research_class)) fail(where, `unknown research class ${s.research_class}`);
   if (s.research_class === 'entertainment' && !s.operational_definition) fail(where, 'entertainment grids need an operational definition');
   if (!Number.isInteger(s.version) || s.version < 1) fail(where, 'version must be a positive integer');
   const lines = (key) => Array.isArray(s.feedback?.[key]) && s.feedback[key].length > 0 && s.feedback[key].every((l) => typeof l === 'string' && l.trim());
@@ -58,6 +58,11 @@ for (const s of catalogue.stimuli) {
   const key = new Set(s.answer_key);
   if (key.size !== s.answer_key.length) fail(where, 'duplicate tile in the answer key');
   for (const id of key) if (!ids.has(id)) fail(where, `answer key names ${id}, which is not in the grid`);
+  const borderline = new Set(s.borderline_tile_ids ?? []);
+  if (borderline.size !== (s.borderline_tile_ids ?? []).length) fail(where, 'duplicate borderline tile');
+  for (const id of borderline) if (!ids.has(id) || key.has(id)) fail(where, `invalid borderline tile ${id}`);
+  if (s.research_class === 'category_judgement' && (s.mode !== 'multiple' || borderline.size === 0)) fail(where, 'category judgement requires multiple selection and borderline tiles');
+  if (s.research_class !== 'category_judgement' && borderline.size) fail(where, 'borderline tiles require category_judgement research class');
   if (s.mode === 'single' && key.size !== 1) fail(where, `single-selection grid has ${key.size} answers`);
   if (s.mode === 'multiple' && (key.size < 1 || key.size > 8)) fail(where, `multiple-selection grid has ${key.size} answers`);
 
@@ -89,8 +94,10 @@ for (const s of catalogue.stimuli) {
     if (t.width !== t.height) fail(at, 'tiles must be square');
   }
 
+  const hashParts = [s.instruction, s.mode, s.answer_key, s.tiles.map((t) => t.sha256)];
+  if (borderline.size) hashParts.push(s.borderline_tile_ids);
   const recomputed = createHash('sha256')
-    .update(JSON.stringify([s.instruction, s.mode, s.answer_key, s.tiles.map((t) => t.sha256)]))
+    .update(JSON.stringify(hashParts))
     .digest('hex');
   if (recomputed !== s.hash) fail(where, 'grid hash does not match its contents; rebuild the catalogue and bump the version');
 }

@@ -70,6 +70,7 @@ export function briefingScreen(current: TimeOption, onProceed: (option: TimeOpti
         h('li', {}, 'Press ', h('strong', {}, 'Submit selection'), ' before the time limit expires.'),
       ),
       h('p', {}, 'The Department appreciates promptness but does not insist on it. Choose a longer limit if you prefer.'),
+      h('p', {}, 'Some classifications are debatable. Use your judgement; disputed cases are recorded rather than marked wrong.'),
       h('p', { class: 'fine-print' }, 'Keyboard: arrow keys move between images, Space selects, and the keys 1 to 9 select an image directly.'),
     ),
     fieldset,
@@ -140,10 +141,13 @@ export function reportScreen(input: ReportInput): HTMLElement {
       'dl',
       { class: 'facts' },
       fact('Assessments passed', `${summary.passed} of ${summary.rounds}`),
-      fact('Images classified correctly', `${summary.tiles_correct} of ${summary.tiles_total}`),
+      fact('Clear-cut images classified correctly', `${summary.tiles_correct} of ${summary.tiles_total}`),
       fact('Average response', seconds(summary.mean_response_time_ms)),
       fact('Timeouts', String(summary.timeouts)),
     ),
+    input.rounds.some(({ result }) => (result.evaluation.borderline_total ?? 0) > 0)
+      ? h('p', { class: 'fine-print' }, 'Borderline images are judgements: their selections are recorded but excluded from the accuracy count.')
+      : null,
     h(
       'div',
       { class: 'verdict' },

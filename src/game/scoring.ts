@@ -10,30 +10,37 @@ export interface Evaluation {
   misses: number;
   false_alarms: number;
   correct_rejections: number;
+  borderline_selected?: number;
+  borderline_total?: number;
 }
 
 /**
  * A timed-out round is scored on whatever was selected when time ran out, but its
  * outcome is always `timeout` and it never counts as passed.
  */
-export function evaluate(selected: readonly string[], answerKey: readonly string[], allTiles: readonly string[], timedOut: boolean): Evaluation {
+export function evaluate(selected: readonly string[], answerKey: readonly string[], allTiles: readonly string[], timedOut: boolean, borderlineIds: readonly string[] = []): Evaluation {
   const chosen = new Set(selected);
   const key = new Set(answerKey);
+  const borderline = new Set(borderlineIds.filter((id) => allTiles.includes(id) && !key.has(id)));
   let hits = 0;
   let falseAlarms = 0;
   for (const tile of allTiles) {
+    if (borderline.has(tile)) continue;
     if (chosen.has(tile) && key.has(tile)) hits++;
     else if (chosen.has(tile)) falseAlarms++;
   }
   const misses = key.size - hits;
-  const correctRejections = allTiles.length - key.size - falseAlarms;
+  const correctRejections = allTiles.length - key.size - falseAlarms - borderline.size;
   const exact = hits === key.size && falseAlarms === 0;
   let outcome: Outcome;
   if (timedOut) outcome = 'timeout';
   else if (exact) outcome = 'correct';
   else if (hits > 0 && key.size > 1) outcome = 'partial';
   else outcome = 'incorrect';
-  return { outcome, correct: exact && !timedOut, hits, misses, false_alarms: falseAlarms, correct_rejections: correctRejections };
+  return {
+    outcome, correct: exact && !timedOut, hits, misses, false_alarms: falseAlarms, correct_rejections: correctRejections,
+    ...(borderline.size ? { borderline_selected: [...chosen].filter((id) => borderline.has(id)).length, borderline_total: borderline.size } : {}),
+  };
 }
 
 export interface RoundSummary {
