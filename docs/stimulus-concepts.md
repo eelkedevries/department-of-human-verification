@@ -10,7 +10,7 @@ Each row specifies **2 ordinary clear members (O), 2 bizarre but clear members (
 
 | ID | Ordinary CAPTCHA instruction | O: normal (2) | B: bizarre but still members (2) | ?: debatable (3) | N: non-members (2) | Useful dimensions |
 |---|---|---|---|---|---|---|
-| C01 | **Select all images containing a bicycle.** | Dutch bicycle; racing bicycle | Square-wheeled bicycle; bicycle with implausibly many saddles | Stationary exercise bike inspired by the *Ass Pounder 4000* idea; real horse fitted with bicycle wheels and pedals; pedal-powered office chair | Rocking horse; motorcycle | Form, propulsion, transport, object fusion |
+| C01 | **Select all images containing a bicycle.** | Dutch bicycle; racing bicycle | Square-wheeled bicycle; bicycle with implausibly many saddles | Stationary exercise bike; real horse fitted with bicycle wheels and pedals; pedal-powered office chair | Rocking horse; motorcycle | Form, propulsion, transport, object fusion |
 | C02 | **Select all images containing a chair.** | Dining chair; armchair | Chair made of smaller chairs; chair with an implausible number of legs | Toilet with chair back; tree stump with armrests; enormous hand-shaped seat | Floor lamp; chest of drawers | Purpose versus sitting affordance |
 | C03 | **Select all images containing a duck.** | Mallard; white domestic duck | Duck in office attire; duck riding on bicycle wheels | Rubber duck; goose disguised as a duck; duck-shaped pedal boat | Swan; penguin | Animal identity versus representation |
 | C04 | **Select all images containing a car.** | Hatchback; estate car | Car with horse legs instead of wheels; car with absurdly many doors | Foot-powered cartoon-style vehicle; shopping trolley with a tiny driving cabin; full-size toy car | Motorbike; bicycle | Appearance, driving function, scale |
@@ -26,7 +26,7 @@ Each row specifies **2 ordinary clear members (O), 2 bizarre but clear members (
 | C14 | **Select all images containing a bridge.** | Stone footbridge; suspension bridge | Bridge looping through itself; bridge made of giant interlocking arms | Fallen tree across stream; stepping stones; connected boats forming a walkway | Tunnel; staircase | Crossing function versus structure |
 | C15 | **Select all images containing a sandwich.** | Cheese sandwich; club sandwich | Sandwich enclosing an entire bicycle; nested sandwich of tiny sandwiches | Two bricks enclosing lettuce; pancake burger; lettuce leaves enclosing sliced bread | Pizza; soup | Bread boundary, construction, filling |
 
-The *It's Always Sunny in Philadelphia* exercise-machine name is an inspiration, not permission to recreate a protected television prop or use programme stills. Prefer an original exercise contraption. All pictures must have documented provenance and rights-cleared assets.
+All pictures must have documented provenance and rights-cleared assets.
 
 ## Judgement mechanics
 
