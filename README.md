@@ -25,6 +25,7 @@ Vite and TypeScript, built as a static site with no runtime framework and no thi
 npm ci            # exact dependencies from the lockfile
 npm run dev       # development server at http://localhost:5173/department-of-human-verification/
 npm run check     # type-check, stimulus validation, unit tests, build and safety checks
+npm run test:e2e  # end-to-end tests in Chromium (desktop and phone); E2E_FIREFOX=1 adds Firefox
 ```
 
 User documentation is in [`docs/`](docs/). The development workflow, specification and plan are in [`docs-dev/`](docs-dev/): start with [`docs-dev/plan.md`](docs-dev/plan.md) and [`docs-dev/reference/primary_authoritative/specification.md`](docs-dev/reference/primary_authoritative/specification.md).

@@ -52,3 +52,29 @@ jobs:
       #
       # Optional: smoke test that the built site loads without console errors,
       # e.g. a Playwright check against the `dist/` preview.
+
+  # End-to-end tests of the production build in Chromium (desktop and phone
+  # profiles) and Firefox: five rounds, replay, keyboard play, timeouts,
+  # accessibility, and the version 1 guarantees (no camera, no storage, no
+  # outgoing data).
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies (reproducible)
+        run: npm ci
+
+      - name: Install browsers
+        run: npx playwright install --with-deps chromium firefox
+
+      - name: Run end-to-end tests
+        run: npm run test:e2e
+        env:
+          E2E_FIREFOX: '1'

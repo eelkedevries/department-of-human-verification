@@ -97,6 +97,8 @@ export function renderRound(options: RoundOptions): HTMLElement {
   });
   const error = h('p', { class: 'form-error', role: 'alert' });
   const submit = button('Submit selection', () => finish(false), { wide: true, icon: ICON_CHECKBOX });
+  // Disabled until the images are on screen, so an early press cannot vanish silently.
+  submit.disabled = true;
   const submitRow = h('div', { class: 'submit-row' }, submit, error);
   const feedbackSlot = h('div', { 'aria-live': 'polite' });
 
@@ -170,6 +172,7 @@ export function renderRound(options: RoundOptions): HTMLElement {
 
   function begin(): void {
     phase = 'active';
+    submit.disabled = false;
     onsetMs = collector.now();
     collector.log({ type: 'trial_start', t_ms: onsetMs, trial_index: assignment.trial_index, stimulus_id: stimulus.stimulus_id });
     timer = createRoundTimer(options.timeLimitMs, () => performance.now(), () => finish(true));

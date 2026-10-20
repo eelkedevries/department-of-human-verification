@@ -16,3 +16,6 @@ Version 1 must not contain camera, storage or network-submission APIs. If the ch
 
 The validator compares the catalogue with the image files. After changing a grid, rebuild with `python3 tools/stimuli/build.py` and bump the grid's `version` in `tools/stimuli/source.json` if its instruction, answer key or images changed.
 
+## The end-to-end tests cannot find a browser
+
+Set `PLAYWRIGHT_BROWSERS_PATH` to the directory containing Playwright's browser builds, or install them with `npx playwright install chromium firefox`.
