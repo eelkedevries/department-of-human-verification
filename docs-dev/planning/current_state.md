@@ -9,7 +9,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 ## Systems
 
 - **Scaffold** from `eek-a-template` (Vite + TypeScript, static, base path `/department-of-human-verification/`). No GitHub Pages: hosting is SiteGround under eelkedevries.com.
-- **Stimulus pipeline** (`tools/stimuli/`): `source.json` (ten grids, G01 published) → `generate.py` (FLUX.2 [klein] 4B on the CPU) → `review.py` contact sheets → `build.py` (opaque WebP files, `src/stimuli/catalogue.json`) → `scripts/validate-stimuli.mjs`.
+- **Stimulus pipeline** (`tools/stimuli/`): `source.json` (ten legacy grids, G01 published) → `generate.py` (FLUX.2 [klein] 4B on the CPU) → `review.py` contact sheets → `build.py` (opaque WebP files, `src/stimuli/catalogue.json`) → `scripts/validate-stimuli.mjs`.
 - **The game** (`src/`): controller and screens (`app/`), seeded sessions, rounds, scoring and timer (`game/`), local event log and developer export (`analytics/`), copy (`content/`). Unit tests in `tests/unit/`.
 - **End-to-end tests** (`tests/e2e/`, Playwright): Chromium desktop and phone, Firefox with `E2E_FIREFOX=1`; run in CI.
 - **Deployment**: `deploy-department-of-human-verification.yml` in eelkedevries.com, started by `npm run deploy`; the main site's deploy protects the folder.
@@ -22,11 +22,12 @@ This file records what *is* (current reality). The binding design canon is `docs
 - Stimuli are generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds; the concept mock-up is never used as interface or stimulus.
 - One published grid at launch (bicycles), shown in all five rounds with a new layout each time; nine more grids are drafted (owner's decision, 20 October 2026, because CPU rendering takes about 2.5 minutes per image).
 - Licence: GPL-3.0-or-later for the whole repository, matching WebGazer (owner's decision, 20 October 2026).
-- Ambiguous mock-up rounds are made fair in the drafts: undressed distractor animals; "designed for sitting"; absurd rounds scored by a stated operational definition and classed as entertainment.
+- **New design:** ordinary CAPTCHA questions and contextually bizarre photographs; clear targets/distractors are scored but genuinely borderline category-membership choices are recorded and unscored. See `docs/stimulus-concepts.md` for 15 proposed nine-tile sets. Unpublished G02–G10 drafts belong to the superseded direction.
 
 ## In progress / next
 
-- Real-webcam tests of the eye-tracking preview (the licence is settled). Publishing the drafted grids (needed for prompt 007's conditions).
+- **V1 next:** generate, review and publish new category-judgement grids from the concept table, replacing the old unpublished one-target drafts. The scoring, publisher, validator and UI can already handle borderline selections. No new image assets are yet live.
+- Real-webcam tests of the separately flagged preview remain a deferred project.
 
 ## Prompts run
 

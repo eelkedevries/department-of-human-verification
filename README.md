@@ -8,6 +8,12 @@ A fictional, excessively bureaucratic agency would like you to prove that you ar
 
 It is a game. The Department does not exist, its verdicts mean nothing, and it is not affiliated with any government, authority or verification service.
 
+## New stimulus direction: normal questions, unreasonable objects
+
+The Department asks ordinary multiple-choice CAPTCHA questions, but its images will mix normal members of a category with surreal versions and borderline cases: a square-wheeled bicycle, an exercise machine or a horse furnished with pedals. The interesting answer is sometimes a judgement, not a mistake. The game now supports recording borderline selections without scoring them as right or wrong. See the [15-grid candidate table](docs/stimulus-concepts.md).
+
+**Status:** The new catalogue consists of ideas, not rendered assets. Only the original bicycle grid is live; the other legacy drafts must be replaced and reviewed before publication. No camera or research collection is added to version 1.
+
 ## Versions
 
 - **Version 1 (current):** the complete game. Five timed rounds of nine images, feedback after each, a final report, and replay in a new order. **No eye-tracking:** it never asks for a camera, sets no cookies, stores nothing and sends nothing anywhere.

@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.3 · **Last updated:** 20 October 2026
+**Version:** 1.4 · **Last updated:** 20 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -11,6 +11,12 @@ The decisions below implement the owner's implementation brief of 20 October 202
 ## Scope
 
 *The Department of Human Verification* is a standalone browser game. A fictional, excessively bureaucratic agency subjects the player to five CAPTCHA-style visual assessments and issues a comic verdict. It is research-inspired, not a research instrument, in version 1.
+
+### Revised version 1 direction (owner decision, 20 October 2026)
+
+The Department's written instructions are wholly normal image-CAPTCHA tasks. Candidate images range from ordinary members through contextually bizarre but recognisable members to uncertain boundary cases (e.g., conventional bicycle, square-wheeled bicycle, stationary fitness cycle and a pedal-powered horse). Every newly designed grid has **multiple selectable targets**, with a mixture of clear members, clear non-members and debatable candidates. An odd image is not necessarily incorrect. Do not use “find what is suspicious/AI-generated/strange” as the standard instruction. More detailed candidates and design rules are in [`docs/stimulus-concepts.md`](../../../docs/stimulus-concepts.md).
+
+**Migration:** the original G01 bicycle grid remains a playable fallback. The unpublished G02–G10 one-answer drafts are superseded and must not be published unchanged. New images still need to be generated and reviewed: the concept table is not a built catalogue. The current V1 remains a fun game, not a validated behavioural experiment.
 
 The project ships in two successive releases. **Version 1 must be complete, deployed and verified before any version 2 code reaches the public build.**
 
@@ -55,7 +61,7 @@ TypeScript types in `src/stimuli/types.ts`, `src/app/session.ts` and `src/analyt
 
 ### `stimulus` (catalogue entry)
 
-`stimulus_id`, `version` (integer, bumped whenever a grid's instruction, answer key or images change), `hash` (SHA-256 over instruction, mode, answer key and tile hashes), `family`, `mode` (`single` | `multiple`), `instruction`, `instruction_variants` (`direct`, `semantic`; for version 2), `hint`, `operational_definition` (required for `entertainment` grids), `explanation`, `difficulty`, `research_class` (`unambiguous` | `entertainment`), `feedback` (alternative lines per outcome), `tiles[9]`, `answer_key` (tile IDs). Only grids marked `published` in the source become catalogue entries.
+`stimulus_id`, `version` (integer, bumped whenever a grid's instruction, answer key or images change), `hash` (SHA-256 over instruction, mode, answer key and tile hashes), `family`, `mode` (`single` | `multiple`), `instruction`, `instruction_variants` (`direct`, `semantic`; for version 2), `hint`, `operational_definition` (required for `entertainment` grids), `explanation`, `difficulty`, `research_class` (`unambiguous` | `entertainment` | `category_judgement`), optional `borderline_tile_ids`, `feedback` (alternative lines per outcome), `tiles[9]`, `answer_key` (tile IDs). Only grids marked `published` in the source become catalogue entries.
 
 Each tile: `tile_id` (stable, never written into the page), `src` and `src_small` (opaque content-hash file names), `width`, `height`, `sha256`, `alt` (human-checked description), `provenance` (`model`, `model_revision`, `licence`, `prompt`, `seed`, `steps`, `guidance_scale`, `generated_at`, `edits`).
 
@@ -79,10 +85,10 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 1. **Five rounds, fixed family order:** recognition, semantic description, odd one out, functional categorisation, absurd finale. Round *i* uses a grid of the *i*-th family; a family with no published grid borrows one from the rest of the pool. Grids already used in the session, then those of the previous session, are avoided where the pool allows. Every round has its own seeded layout, so a grid shown twice is laid out differently. **At launch the pool holds one grid (bicycles), shown in all five rounds** — the owner's decision of 20 October 2026, until more grids are rendered; nine further grids are drafted in `tools/stimuli/source.json`.
 2. **Seeded randomisation:** one 32-bit session seed (from `crypto.getRandomValues`, or `?seed=` for testing) drives grid choice, tile layout and feedback-line choice through labelled sub-seeds. The seed is recorded.
-3. **Scoring:** a round is passed only when the selected set equals the answer key exactly and the round did not time out. Outcomes are `correct`, `partial` (multiple-answer grids with at least one hit), `incorrect` and `timeout`. Tile-level hits, misses, false alarms and correct rejections are recorded.
+3. **Scoring:** in unambiguous grids, a round is passed only when the selected set equals the answer key exactly and the round did not time out. In `category_judgement` grids, borderline tile selections are recorded but ignored when computing correctness, hits, false alarms, correct rejections and the report's clear-cut accuracy denominator. Clear-category choices must match the answer key to pass. Outcomes are `correct`, `partial` (multiple-answer grids with at least one hit), `incorrect` and `timeout`. Tile-level hits, misses, false alarms and correct rejections are recorded.
 4. **Selection:** single-answer grids allow one selection (a new choice replaces the old); multiple-answer grids allow any number. Submitting with nothing selected is refused with a descriptive message; a timeout submits whatever is selected.
 5. **Timing:** the default limit is 15 seconds per round; players may choose 30 seconds or no limit before starting (WCAG 2.2.1). The timer starts only after all nine images have decoded and been painted, and counts active time only: it pauses while the page is hidden, and the round is flagged `interrupted`. Feedback time is excluded. Five rounds at the default limit cap timed gameplay at 75 seconds.
-6. **Answer keys must be defensible.** `unambiguous` grids have one defensible answer set under a literal reading of the instruction. `entertainment` grids (the absurd finale) are scored by a stated operational definition shown in the hint and are excluded from any confirmatory analysis.
+6. **Answer keys must be defensible.** `unambiguous` grids have one defensible answer set under a literal reading of the instruction. In the new `category_judgement` grids, tiles are `target`, `distractor` or `borderline`: only the first two are objectively graded; ambiguous choices must never receive a wrong-answer badge. `entertainment` grids in the older pool remain scored by a stated convention and excluded from confirmatory analysis. All newly designed candidate grids use ordinary instructions and multiple selections.
 7. **No answer leakage through the page:** file names are content hashes, tile IDs and roles never appear in the DOM, and alternative text describes only what is visible. The answer key is necessarily present in the client bundle of a static game; that is accepted, since the game is not a security control.
 8. **Stimuli:** every image is original and rights-cleared, with recorded provenance and licence. The concept mock-up is never used as interface or stimulus material.
 9. **Verdicts are fiction** and always appear with a notice saying so. They depend only on the number of rounds passed (and, for *Suspiciously competent*, a mean response under 2.5 seconds).
@@ -99,13 +105,15 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 ## Locked decisions
 
 - Version 1 contains no camera, tracking or gaze code of any kind, and sends nothing to any server. `scripts/check-public-build.sh` enforces the absence of camera and network-submission APIs in the build.
-- Five rounds, 3 × 3 grids, 15-second default limit with extended and untimed options. Grids are published one at a time; the game is playable with a single grid.
+- Five rounds, 3 × 3 grids, 15-second default limit with extended and untimed options. Grids are published one at a time; the game is playable with a single grid. New category-judgement grids use multiple selection and unscored borderline tiles.
 - Stimuli: generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds, published at 512 × 512 and 256 × 256 pixels as WebP.
 - Deployment: a dedicated workflow in `eelkedevries/eelkedevries.com`, which also protects `/department-of-human-verification/***` from the main site's `rsync --delete-after`.
 - Research data collection, when built, stays disabled until the owner explicitly approves the privacy, storage and consent arrangements.
 - Licence: GPL-3.0-or-later for the whole repository (owner's decision, 20 October 2026), so that the game can be published together with WebGazer.
 
 ## Changelog
+
+- **1.4 (20 October 2026):** ordinary CAPTCHA instructions with bizarre, contextual category members and genuinely borderline options become the preferred stimulus direction. Introduced `category_judgement` and unscored borderline tile IDs; legacy unpublished single-target drafts must be replaced, not released unchanged.
 
 - **1.3 (20 October 2026):** the project is licensed GPL-3.0-or-later; the licence no longer blocks deploying the eye-tracking preview.
 - **1.2 (20 October 2026):** version 2 preview: the build flag, the `eyetracking/` module, rule 11, and the condition that the preview is not deployed until the licence and real-hardware questions are settled.

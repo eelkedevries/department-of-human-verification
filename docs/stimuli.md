@@ -1,58 +1,47 @@
 # Stimuli
 
-Each assessment shows nine images in a 3 × 3 grid. A grid is one instruction, nine images and an answer key.
+Each assessment shows one ordinary instruction and nine individually selectable images in a 3 × 3 grid.
 
-## The pool
+## Current status and replacement direction
 
-For now one grid is published, and the game shows it in all five assessments, each time in a different order. Nine more are drafted in [`tools/stimuli/source.json`](../tools/stimuli/source.json) and can be rendered and published one at a time.
+**Currently published:** G01 — “Select all images containing a bicycle”, with four ordinary bicycle targets. Its images and current scoring are still valid; this grid is temporarily reused when no other published grid exists.
 
-| Grid | Family | Instruction | Answers | Status |
-|---|---|---|---|---|
-| G01 | Visual recognition | Select all images containing a bicycle. | 4 bicycles | published |
-| G02 | Visual recognition | Select all images containing a lighthouse. | 4 lighthouses | drafted |
-| G03 | Conceptual understanding | Select the animal dressed for a job interview. | the duck in a suit | drafted |
-| G04 | Conceptual understanding | Select the animal dressed for the rain. | the corgi in a raincoat | drafted |
-| G05 | Contextual judgement | Select the object that does not belong. | the tennis ball among fruit | drafted |
-| G06 | Contextual judgement | Select the object that does not belong. | the garden hose among instruments | drafted |
-| G07 | Functional reasoning | Select all objects designed for sitting. | chair, bench, sofa, bar stool | drafted |
-| G08 | Functional reasoning | Select all objects designed for cutting. | scissors, knife, pizza cutter, shears | drafted |
-| G09 | Advanced suspicion | Select the most suspicious duck. | the duck in a disguise | drafted |
-| G10 | Advanced suspicion | Select the pigeon that is not who it claims to be. | the pigeon in a disguise | drafted |
+**New direction:** ordinary instructions, absurd-but-category-relevant photographs and debatable category boundaries. The [candidate-stimulus table](stimulus-concepts.md) gives **15 fully sketched nine-image sets**, including ordinary members, bizarre clear members, borderline candidates and non-members. None of those images has been rendered and published yet.
 
-Round *i* uses a grid of the *i*-th family. A family without a published grid borrows one from the others, preferring grids not yet shown in the session, then grids not shown in the previous session. Every round has its own seeded layout.
+**Earlier unpublished drafts:** G02–G10 remain as legacy entries in [`tools/stimuli/source.json`](../tools/stimuli/source.json). Their single-target and unusual-instruction ideas are **superseded**. Do not publish them as-is. Replace them one grid at a time with the new approach.
 
-The full record of the published grids — instructions, hints, explanations, answer keys, image hashes and provenance — is [`src/stimuli/catalogue.json`](../src/stimuli/catalogue.json), generated from the source file.
+## Classification and scoring
 
-## Answer rules
+The new preferred task format is **“Select all images containing a [normal category].”** Everything genuinely doubtful must be treated as a judgement, never as a provably wrong answer.
 
-The concept art for this game contained two ambiguous rounds: several animals wore accessories, and "everything you could reasonably sit on" admits almost anything. The drafted grids resolve both.
+Each proposed tile receives a role in the source file:
 
-- **One defensible answer set.** In the semantic grids, only the target animal wears anything at all. Functional grids ask what an object was *designed* for, not what it could be used for: a tree stump can be sat on, but it was not designed for sitting.
-- **Single or multiple.** Single-answer grids say "Select the …"; multiple-answer grids say "Select all …". A single-answer grid accepts one selection at a time.
-- **Stated definitions for the absurd round.** "Suspicious" is not a property of ducks, so the hint defines it: wearing a disguise. These grids are classed as *entertainment* and will be excluded from any confirmatory analysis in version 2.
-- **Exact scoring.** An assessment is passed only when the selection matches the answer key exactly and in time. Partial credit appears in the feedback and in the report's image count, not in the pass count.
-- **Nothing in the page gives the answer away.** Image files have content-hash names, tile identifiers never reach the page, and the alternative text describes only what the image shows. A static game necessarily ships its answer key in its script; it is a game, not a security control.
+- `target`: clearly belongs to the category; selecting it counts as a hit.
+- `distractor`: clearly does not belong; selecting it counts as a false alarm.
+- `borderline`: reasonable people could disagree; its selection **or rejection is recorded but excluded** from objective accuracy.
 
-## How the images were made
+The built-in scoring now supports a `category_judgement` grid with a non-empty list of `borderline_tile_ids`. The publisher derives that list from source tiles with `"role": "borderline"`. Every such grid must use `"mode": "multiple"`. The summary's clear-cut accuracy denominator excludes those tiles. The Department is free to make bureaucratic jokes, but cannot mark a disputed judgement “incorrect”.
 
-Every image was generated for this game with [FLUX.2 [klein] 4B](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B), an openly licensed model (Apache 2.0), from a written prompt and a fixed seed, at 512 × 512 pixels with four steps. Rendering ran on a four-core CPU, at about 2.5 minutes per image; on a GPU it takes seconds. Each tile's prompt, seed, model revision, settings and generation time are recorded in the catalogue. The only edits are a 256-pixel copy for small screens and WebP encoding.
+For a new category-judgement grid, include at least one clear target and one clear non-member; keep the answer key to clear targets. Pilot test tentative tile roles before asserting they are clear. Don't hide uncertainty with arbitrary strict answer keys.
 
-Every render was checked by eye on a contact sheet. A render was replaced (with a clearer prompt or a new seed) when it did not show what its label says, or when a distractor could arguably satisfy the instruction.
+## Game selection and randomisation
 
-No image depicts a real person, brand or place, and none is taken from the concept art.
+The game currently samples five rounds in a fixed family order and shuffles tile positions using a recorded seed. When a family lacks published content it borrows another grid, so G01 appears five times at present. Future distinct categories must be integrated into the round-selection design without repeated base categories in one short playthrough where the pool allows. Existing time limits remain unchanged pending usability testing.
 
-## Adding or changing a grid
+For **systematic stimulus variation**, define matched grid variants that keep the wording, definite targets, image count, framing, and rendering quality stable. Independently vary visual resemblance, functional resemblance, or bizarreness; record a variant/condition ID and pilot the difference with human ratings. The concept table is a stimulus backlog, not yet a randomised factorial experiment.
 
-1. Edit [`tools/stimuli/source.json`](../tools/stimuli/source.json): the grid's instruction, mode, hint, explanation, feedback lines (one or more per outcome), difficulty and research class, and nine tiles with a label, role, prompt and seed. Set `"published": true` to include it. If a published grid changes, bump its `version`.
-2. Render the new or changed tiles (in a Python environment with PyTorch, diffusers and transformers; about 2.5 minutes per tile on a four-core CPU):
+## Image creation and provenance
 
-   ```bash
-   python tools/stimuli/generate.py            # every published tile that is missing or out of date
-   python tools/stimuli/generate.py G04-T1     # one tile
-   ```
+Images are generated locally with [FLUX.2 [klein] 4B](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B) and reviewed by eye. Preserve prompts, seeds, model revisions, licences, hashes, output dimensions and edits. Photographic context should be plausible and consistent; spectacular errors unrelated to the instructed category are not the goal.
 
-3. Review the renders by eye: `python3 tools/stimuli/review.py G04` writes a labelled contact sheet to `tools/stimuli/.cache/sheets/`.
-4. Publish and rebuild the catalogue: `python3 tools/stimuli/build.py`.
-5. Validate: `npm run check` (or `npm run validate:stimuli` alone).
+Never use TV-programme stills or reconstruct recognisable proprietary props because an idea mentioned a programme. Cultural references can inspire original, rights-cleared satire.
 
-Raw renders stay in `tools/stimuli/.cache/`, which is not committed.
+### Publishing a new set
+
+1. Write an ordinary `instruction` and nine source tiles in [`tools/stimuli/source.json`](../tools/stimuli/source.json), with roles `target`, `borderline`, or `distractor`. Use `research_class: "category_judgement"`, `mode: "multiple"`, and dry feedback that does not prejudge borderline cases.
+2. Generate the individual images (`python tools/stimuli/generate.py` or a single tile ID), review via `python3 tools/stimuli/review.py <GRID_ID>`, and revise failed images.
+3. When all nine pass manual inspection, mark the source grid `published: true`, and bump its version whenever an existing grid changes.
+4. Run `python3 tools/stimuli/build.py`, `npm run check`, and the relevant end-to-end tests before deploying.
+5. Only the published assets and catalogue reach the live game; drafts and raw renders remain in the source workflow.
+
+Nothing here activates webcam tracking, analytics, or remote research data collection.

@@ -44,6 +44,10 @@ The drafts already resolve the mock-up's ambiguities as the brief asks: distract
 
 To publish a drafted grid: set `"published": true`, render, review the contact sheet, build and validate (`docs/stimuli.md`). The game fills each round from its own family as soon as one exists. The path to 10–20 validated grids for research runs through the same pipeline; a GPU (or a Hugging Face PRO quota) would cut rendering from hours to minutes.
 
+## Revised V1 stimulus direction (20 October 2026)
+
+The owner prioritises a **fun category-boundary game**, not a clean laboratory-like identification test. Every new grid has a normal “Select all…” instruction, a blend of ordinary objects and contextual AI-style absurdity, and some defensible borderline items. See `docs/stimulus-concepts.md` for 15 nine-image candidate sets. The prototype's strict answer key was extended to allow unscored borderline judgements. G01 stays live until replacement assets are rendered and checked; G02–G10 are superseded draft ideas, not ready to publish. Future V1 implementation work: generate and review new images, upgrade session sampling to distinct new category grids, review score/feedback pacing and run a usability pilot. No V2 implementation is authorised by this revision.
+
 ## Later work (not scheduled)
 
 - More grids per family, and a pilot rating of each grid's difficulty.
