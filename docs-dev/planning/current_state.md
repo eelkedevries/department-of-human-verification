@@ -12,6 +12,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 - **Stimulus pipeline** (`tools/stimuli/`): `source.json` (ten grids, G01 published) → `generate.py` (FLUX.2 [klein] 4B on the CPU) → `review.py` contact sheets → `build.py` (opaque WebP files, `src/stimuli/catalogue.json`) → `scripts/validate-stimuli.mjs`.
 - **The game** (`src/`): controller and screens (`app/`), seeded sessions, rounds, scoring and timer (`game/`), local event log and developer export (`analytics/`), copy (`content/`). Unit tests in `tests/unit/`.
 - **End-to-end tests** (`tests/e2e/`, Playwright): Chromium desktop and phone, Firefox with `E2E_FIREFOX=1`; run in CI.
+- **Deployment**: `deploy-department-of-human-verification.yml` in eelkedevries.com, started by `npm run deploy`; the main site's deploy protects the folder.
 - **Verify command** `npm run check`: type-check, stimulus validation, unit tests, build, public-build check (including the version 1 ban on camera, storage and network-submission APIs) and prompt validation.
 
 ## Key decisions
@@ -23,7 +24,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 
 ## In progress / next
 
-- `005_v1_deployment.md`.
+- Version 2 preview (`006`); publishing the drafted grids.
 
 ## Prompts run
 
@@ -31,3 +32,4 @@ This file records what *is* (current reality). The binding design canon is `docs
 - `002_stimulus_library.md`
 - `003_v1_game.md`
 - `004_v1_verification.md`
+- `005_v1_deployment.md`

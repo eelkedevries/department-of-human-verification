@@ -50,9 +50,10 @@ export async function expectNothingLeft(page: Page, requests: { method: string; 
   expect(camera, 'camera requests').toBe(0);
   expect(storage, 'storage writes').toBe(0);
   expect(cookies, 'cookies').toBe('');
+  const host = new URL(page.url()).host;
   for (const r of requests) {
     expect(r.method, `${r.url}`).toBe('GET');
-    expect(new URL(r.url).host, `${r.url}`).toBe('localhost:4173');
+    expect(new URL(r.url).host, `${r.url}`).toBe(host);
   }
 }
 

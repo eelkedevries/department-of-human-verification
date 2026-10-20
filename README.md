@@ -4,7 +4,7 @@
 
 A fictional, excessively bureaucratic agency would like you to prove that you are human. Five short image assessments are marked with deadpan severity, and the Department issues its verdict in a *Human Verification Report*. For now the Department owns a single set of images, bicycles, which it shows five times in a different order; more are drafted.
 
-**Planned address:** <https://eelkedevries.com/department-of-human-verification/> (not yet live).
+**Live:** <https://eelkedevries.com/department-of-human-verification/> (version 1).
 
 It is a game. The Department does not exist, its verdicts mean nothing, and it is not affiliated with any government, authority or verification service.
 
@@ -26,6 +26,7 @@ npm ci            # exact dependencies from the lockfile
 npm run dev       # development server at http://localhost:5173/department-of-human-verification/
 npm run check     # type-check, stimulus validation, unit tests, build and safety checks
 npm run test:e2e  # end-to-end tests in Chromium (desktop and phone); E2E_FIREFOX=1 adds Firefox
+npm run deploy    # publish what is on GitHub to eelkedevries.com (see docs/deployment.md)
 ```
 
 User documentation is in [`docs/`](docs/). The development workflow, specification and plan are in [`docs-dev/`](docs-dev/): start with [`docs-dev/plan.md`](docs-dev/plan.md) and [`docs-dev/reference/primary_authoritative/specification.md`](docs-dev/reference/primary_authoritative/specification.md).
