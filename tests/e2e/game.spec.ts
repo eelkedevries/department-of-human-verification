@@ -204,6 +204,10 @@ test('reduced motion removes the stamp animation', async ({ page }) => {
 
 test('screens pass automated accessibility checks', async ({ page }) => {
   const check = async (label: string) => {
+    // The stamps fade in; contrast is judged on the settled page, not mid-animation.
+    await page.evaluate(() =>
+      Promise.all(document.getAnimations().filter((a) => a.effect?.getComputedTiming().endTime !== Infinity).map((a) => a.finished)),
+    );
     const result = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']).analyze();
     expect(result.violations.map((v) => `${label}: ${v.id} — ${v.help}`)).toEqual([]);
   };
