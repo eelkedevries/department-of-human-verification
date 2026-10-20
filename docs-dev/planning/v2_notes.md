@@ -57,7 +57,7 @@ The passed-check and Stop tests use a *synthetic* tracker that reports the point
 
 ## Blockers and decisions for the owner
 
-1. **Licence.** WebGazer is GPL-3.0-or-later; its README offers LGPL-3.0 to companies valued under 1 million US dollars. Publishing the eye-tracking build distributes WebGazer with the game. The options are to licence this repository under the GPL (it is public already), to rely on the LGPL option if it applies, or to obtain a different licence from Brown. Until this is decided, the eye-tracking build must not be deployed.
+1. **Licence: settled.** WebGazer is GPL-3.0-or-later. The owner decided on 20 October 2026 to license this repository GPL-3.0-or-later as well, so the eye-tracking build may be published with WebGazer once the remaining items allow it.
 2. **Real-hardware tests.** Run the preview on at least one Windows or macOS laptop in Chrome and Firefox, with good and poor lighting, and record the validation results honestly. Phones and tablets are excluded by design until a separate device test exists.
 3. **Pilot-based thresholds** for including sessions and for showing personal records, scaled to the tile size.
 4. **Research collection** (prompt 009) needs the owner's review of the information sheet, consent text, storage, retention and ethics before it is built, let alone enabled.

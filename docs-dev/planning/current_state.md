@@ -21,11 +21,12 @@ This file records what *is* (current reality). The binding design canon is `docs
 - Two releases with separate gates: version 1 (game, no eye-tracking) is deployed and verified before version 2 work reaches the public build; research data collection needs the owner's explicit approval.
 - Stimuli are generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds; the concept mock-up is never used as interface or stimulus.
 - One published grid at launch (bicycles), shown in all five rounds with a new layout each time; nine more grids are drafted (owner's decision, 20 October 2026, because CPU rendering takes about 2.5 minutes per image).
+- Licence: GPL-3.0-or-later for the whole repository, matching WebGazer (owner's decision, 20 October 2026).
 - Ambiguous mock-up rounds are made fair in the drafts: undressed distractor animals; "designed for sitting"; absurd rounds scored by a stated operational definition and classed as entertainment.
 
 ## In progress / next
 
-- Owner decisions: WebGazer licence; real-webcam tests of the preview. Publishing the drafted grids (needed for prompt 007's conditions).
+- Real-webcam tests of the eye-tracking preview (the licence is settled). Publishing the drafted grids (needed for prompt 007's conditions).
 
 ## Prompts run
 

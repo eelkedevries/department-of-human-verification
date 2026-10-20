@@ -38,6 +38,6 @@ This repository follows the `eek-a-dev` workflow: numbered prompts in `docs-dev/
 
 Served from SiteGround under eelkedevries.com. The deploy workflow lives in the [eelkedevries.com repository](https://github.com/eelkedevries/eelkedevries.com), which holds the credentials; this repository holds none.
 
-## Licence status
+## Licence
 
-No licence has been granted for the code yet; all rights are reserved unless a `LICENSE` file is added. The images were generated with an Apache 2.0 model; see the catalogue for each image's provenance.
+Licensed under the GNU General Public License, version 3 or (at your option) any later version; see [`LICENSE`](LICENSE). Unless stated otherwise, this covers everything in the repository, including the generated images, whose provenance is recorded in the catalogue. The eye-tracking preview uses [WebGazer](https://github.com/brownhci/WebGazer), which is licensed the same way.

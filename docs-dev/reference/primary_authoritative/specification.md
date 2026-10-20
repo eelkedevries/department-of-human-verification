@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.2 · **Last updated:** 20 October 2026
+**Version:** 1.3 · **Last updated:** 20 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -25,7 +25,7 @@ The project ships in two successive releases. **Version 1 must be complete, depl
 
 Version 2 keeps the version 1 game intact and adds an explicit, opt-in *Play with eye-tracking* path: consent before camera activation, face positioning, nine-point calibration, independent validation, quality gating, gaze recording with known coordinate frames, instruction-phrasing conditions, a reveal (*Your testimony* / *Surveillance record* / *Automated assessment*) only when quality permits, and later a secured, consented collection pipeline and dashboard. Research uploads are **disabled by default** and must not be enabled until the owner has reviewed privacy, storage and consent. Publishing a demo and collecting research data are distinct release gates.
 
-The preview exists only in builds made with `VITE_EYE_TRACKING=1`. The deployed build is made without it and must contain no eye-tracking module, no WebGazer and no camera API. The preview must not be deployed until the owner has decided the WebGazer licence question and it has been tested on real hardware (`docs-dev/planning/v2_notes.md`).
+The preview exists only in builds made with `VITE_EYE_TRACKING=1`. The deployed build is made without it and must contain no eye-tracking module, no WebGazer and no camera API. The preview must not be deployed until it has been tested on real hardware (`docs-dev/planning/v2_notes.md`). The licence question is settled: the project is GPL-3.0-or-later, like WebGazer.
 
 ### Never in scope
 
@@ -103,9 +103,11 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 - Stimuli: generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds, published at 512 × 512 and 256 × 256 pixels as WebP.
 - Deployment: a dedicated workflow in `eelkedevries/eelkedevries.com`, which also protects `/department-of-human-verification/***` from the main site's `rsync --delete-after`.
 - Research data collection, when built, stays disabled until the owner explicitly approves the privacy, storage and consent arrangements.
+- Licence: GPL-3.0-or-later for the whole repository (owner's decision, 20 October 2026), so that the game can be published together with WebGazer.
 
 ## Changelog
 
+- **1.3 (20 October 2026):** the project is licensed GPL-3.0-or-later; the licence no longer blocks deploying the eye-tracking preview.
 - **1.2 (20 October 2026):** version 2 preview: the build flag, the `eyetracking/` module, rule 11, and the condition that the preview is not deployed until the licence and real-hardware questions are settled.
 - **1.1 (20 October 2026):** the pool starts with one published grid, repeated in all five rounds with a new layout each time; families without a grid borrow from the pool; feedback has alternative lines per outcome.
 - **1.0 (20 October 2026):** first binding version: scope, architecture, schemas, rules and voice for version 1, and the version 2 boundary.
