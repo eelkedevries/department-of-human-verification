@@ -6,7 +6,7 @@ Each assessment shows one ordinary instruction and nine individually selectable 
 
 **Currently published:** G01 — “Select all images containing a bicycle”, with four ordinary bicycle targets. Its images and current scoring are still valid; this grid is temporarily reused when no other published grid exists.
 
-**New direction:** ordinary instructions, absurd-but-category-relevant photographs and debatable category boundaries. The [candidate-stimulus table](stimulus-concepts.md) gives **15 fully sketched nine-image sets**, including ordinary members, bizarre clear members, borderline candidates and non-members. None of those images has been rendered and published yet.
+**New direction:** ordinary instructions, absurd-but-category-relevant photographs and debatable category boundaries. The [candidate-stimulus table](stimulus-concepts.md) gives **15 twelve-image concept pools** (three normal members, three bizarre members, three debatable candidates and three non-members). Each pool supplies alternatives for a separately curated **nine-image playable grid**; it is not a change to the 3 × 3 game format. None of those images has been rendered and published yet.
 
 **Earlier unpublished drafts:** G02–G10 remain as legacy entries in [`tools/stimuli/source.json`](../tools/stimuli/source.json). Their single-target and unusual-instruction ideas are **superseded**. Do not publish them as-is. Replace them one grid at a time with the new approach.
 
@@ -57,7 +57,7 @@ Use **plausible different locations**, not necessarily nine identical backdrops.
 
 Backgrounds can themselves suggest category membership (a pedal-powered chair in an office versus on a cycle path). **Record the environment and review it as a possible cue or confound.** If comparing matched variants, preserve or deliberately match the background, viewpoint, scale and photographic style; any intentional contextual change must be defined as its own manipulation. Different natural backgrounds **are not a scientifically controlled factor by themselves**.
 
-### C01 — bicycle grid: suggested environments
+### C01 — bicycle grid: suggested environments (illustrative nine-image selection)
 
 | Candidate image | Plausible environment | Specific composition note |
 |---|---|---|
@@ -70,6 +70,8 @@ Backgrounds can themselves suggest category membership (a pedal-powered chair in
 | Pedal-powered office chair | Office corridor or quiet business park | The pedals and chair structure clearly visible |
 | Rocking horse | Child's room or nursery | Plain, recognisable domestic surroundings |
 | Motorcycle | Quiet street or parking area | No bicycles behind it; framing comparable to the bicycle tiles |
+
+The C01 [concept pool](stimulus-concepts.md#candidate-image-pools-12-examples-per-theme) now lists 12 alternatives rather than nine. The table above describes one possible nine-image selection. When selecting another candidate, specify its context using the same rules (e.g. a folding bicycle on a residential street, an unusually tall bicycle on a clear cycle path, a kick scooter on a pavement).
 
 ### Resolution and existing workflow
 
@@ -93,7 +95,7 @@ For every tile, verify: (1) the intended object and modification are visible; (2
 
 ### Publishing a new set
 
-1. Write an ordinary `instruction` and nine source tiles in [`tools/stimuli/source.json`](../tools/stimuli/source.json), with roles `target`, `borderline`, or `distractor`. Use `research_class: "category_judgement"`, `mode: "multiple"`, and dry feedback that does not prejudge borderline cases.
+1. Choose and document **nine of the twelve candidate images** from the relevant theme's planning pool, then write an ordinary `instruction` and nine source tiles in [`tools/stimuli/source.json`](../tools/stimuli/source.json), with roles `target`, `borderline`, or `distractor`. Use `research_class: "category_judgement"`, `mode: "multiple"`, and dry feedback that does not prejudge borderline cases.
 2. Generate the individual images (`python tools/stimuli/generate.py` or a single tile ID), review via `python3 tools/stimuli/review.py <GRID_ID>`, and revise failed images.
 3. When all nine pass manual inspection, mark the source grid `published: true`, and bump its version whenever an existing grid changes.
 4. Run `python3 tools/stimuli/build.py`, `npm run check`, and the relevant end-to-end tests before deploying.

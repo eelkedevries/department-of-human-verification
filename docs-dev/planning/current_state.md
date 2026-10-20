@@ -23,7 +23,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 - One published grid at launch (bicycles), shown in all five rounds with a new layout each time; nine more grids are drafted (owner's decision, 20 October 2026, because CPU rendering takes about 2.5 minutes per image).
 - Licence: GPL-3.0-or-later for the whole repository, matching WebGazer (owner's decision, 20 October 2026).
 - **Stimulus photography:** new candidate images use plausible object-specific real-world settings, a unified realistic photographic look, consistent low/moderate background complexity, and explicit environment/viewpoint prompts. The scene remains ordinary even when the object is absurd. See `docs/stimuli.md#stimulus-photography-and-background-guidelines`. This is a documented standard; source prompts and existing live images have not been changed.
-- **New design:** ordinary CAPTCHA questions and contextually bizarre photographs; clear targets/distractors are scored but genuinely borderline category-membership choices are recorded and unscored. See `docs/stimulus-concepts.md` for 15 proposed nine-tile sets. Unpublished G02–G10 drafts belong to the superseded direction.
+- **New design:** ordinary CAPTCHA questions and contextually bizarre photographs; clear targets/distractors are scored but genuinely borderline category-membership choices are recorded and unscored. See `docs/stimulus-concepts.md` for 15 proposed **12-image candidate pools** (three examples of each of four classes); choose nine for each published 3 × 3 grid. Unpublished G02–G10 drafts belong to the superseded direction.
 
 ## In progress / next
 
