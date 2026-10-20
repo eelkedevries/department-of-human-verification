@@ -20,13 +20,11 @@ Each gate is a separate decision. Passing one does not authorise the next.
 | `004_v1_verification.md` | End-to-end tests (Chromium desktop and mobile, Firefox where available), keyboard, reduced motion, no-camera and no-network checks. | 1 |
 | `005_v1_deployment.md` | Deploy workflow in `eelkedevries.com`, `deploy.sh` protection, live verification, Projects card. | 1 |
 | `006_v2_eye_tracking_preview.md` | Opt-in, consent, WebGazer camera and face positioning, nine-point calibration, held-out validation, quality gate, gaze recording with coordinate frames, testimony and a quality-gated reveal. Behind the build flag `VITE_EYE_TRACKING=1`; **not deployed**. | 2 |
-| `007_v2_conditions.md` | Direct versus semantic instruction conditions on single-target grids, counterbalanced and seeded. Needs published single-target grids. | 2 |
-| `008_v2_model_maps.md` | Precomputed model maps from eek-a-look's tooling for the exact composite grids; the *Automated assessment* account. | 2 |
-| `009_v2_collection_backend.md` | Hosting inspection, submission endpoint, private storage, schema validation, throttling, withdrawal. Disabled by default. | 3 |
-| `010_v2_analysis_and_dashboard.md` | R / Quarto analysis, restricted dashboard, interview guide and codebook templates. | 3 |
-| `011_v2_pilot.md` | Real-device checks and a pilot-quality report. | 3 |
+| `007_v1_surreal_bicycle_grid.md` | Generate, review and publish the first nine-image surreal bicycle category-judgement grid; keep original G01 playable. | Revised V1 |
+| `008_v1_category_sets.md` *(proposed, not yet written)* | Generate and review additional normal-instruction, bizarre-but-relevant category grids from `docs/stimulus-concepts.md`. | Revised V1 |
+| `009_v1_distinct_rounds_pilot.md` *(proposed, not yet written)* | Prefer five distinct category grids per session, check timing, feedback and selection behaviour, and run a playability pilot. | Revised V1 |
 
-Prompt 006 combines the brief's steps 4 to 6 as far as they can be built and tested without a real face, a licence decision on WebGazer and model maps; `planning/v2_notes.md` lists what remains. Prompts 007 onwards are drafted when their blockers are resolved.
+Prompt 006 was completed as a separately flagged, undeployed preview. **Further version 2 work is deferred**, and its previously proposed prompt numbers 007–011 have been withdrawn to avoid colliding with the revised version 1 roadmap. Possible later topics include instruction conditions, AI model maps, private data collection, analysis and a real-hardware pilot; these will receive new numbers only if the owner requests them.
 
 ## Stimulus pool (version 1)
 
