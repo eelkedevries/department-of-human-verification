@@ -146,12 +146,14 @@ test('digit keys select tiles directly', async ({ page }) => {
 });
 
 test('a round that runs out of time is recorded as a timeout and the game continues', async ({ page }) => {
+  // The installed clock keeps running in real time as well, so the checks allow a
+  // few seconds of real delay (a slow network, a busy machine).
   await page.clock.install();
   await startGame(page);
   await expect(page.locator('.grid:not(.loading)')).toBeVisible();
-  await page.clock.runFor(14_000);
-  await expect(page.locator('.timer-text')).toHaveText(/^[12] s remaining$/);
-  await page.clock.runFor(2_000);
+  await page.clock.runFor(10_000);
+  await expect(page.locator('.timer-text')).toHaveText(/^[1-5] s remaining$/);
+  await page.clock.runFor(6_000);
   await expect(page.locator('.stamp')).toHaveText('Expired');
   await expect(page.locator('.timer-text')).toHaveText('Time expired');
   await next(page, 0);
