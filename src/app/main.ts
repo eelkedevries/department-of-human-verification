@@ -15,7 +15,7 @@ import { summarise, verdictFor } from '../game/scoring';
 import { catalogue, stimulusById } from '../stimuli/catalogue';
 import type { Stimulus } from '../stimuli/types';
 import { aboutDialog, briefingScreen, noticeScreen, reportScreen } from './screens';
-import { caseNumber, createSession, TIME_LIMITS, type Session, type TimeOption } from './session';
+import { caseNumber, createSession, newSessionId, TIME_LIMITS, type Session, type TimeOption } from './session';
 import type { EyeTrackingContext, Testimony } from '../eyetracking';
 
 /** Null unless built with VITE_EYE_TRACKING=1, in which case the eye-tracking code is left out entirely. */
@@ -65,7 +65,7 @@ function show(view: HTMLElement, moveFocus = true): void {
 /** Drawn ahead of time so the notice and the first session share a case number. */
 let upcomingSeed = fixedSeed !== null ? Number(fixedSeed) >>> 0 : randomSeed();
 
-function startSession(sessionId: string = crypto.randomUUID()): void {
+function startSession(sessionId: string = newSessionId()): void {
   const seed = upcomingSeed;
   upcomingSeed = randomSeed();
   state.session = createSession({
@@ -201,7 +201,7 @@ function showBriefing(withTracking: boolean): void {
       state.timeOption = option;
       if (!withTracking || !loadEyeTracking) return startSession();
       const eyetracking = await loadEyeTracking();
-      const sessionId = crypto.randomUUID();
+      const sessionId = newSessionId();
       state.eye = await eyetracking.setUpEyeTracking(show, sessionId);
       startSession(sessionId);
     }),

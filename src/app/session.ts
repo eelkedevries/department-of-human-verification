@@ -53,6 +53,19 @@ export interface SessionOptions {
   now?: Date;
 }
 
+/**
+ * A random version 4 UUID. crypto.randomUUID would be shorter, but it exists only
+ * on secure (HTTPS or localhost) pages and in recent browsers; without it the game
+ * could not start a session.
+ */
+export function newSessionId(): string {
+  const bytes = crypto.getRandomValues(new Uint8Array(16));
+  bytes[6] = (bytes[6] & 0x0f) | 0x40;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+  const hex = Array.from(bytes, (b) => b.toString(16).padStart(2, '0')).join('');
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+}
+
 export function caseNumber(seed: number, year: number): string {
   return `DHV-${String(1000 + (seed % 9000)).padStart(4, '0')}-${year}`;
 }

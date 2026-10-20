@@ -49,6 +49,18 @@ test('five rounds answered correctly earn a verdict, and a replay starts a new s
   await expectNothingLeft(page, requests);
 });
 
+test('the game starts where crypto.randomUUID is missing (plain-http pages, older browsers)', async ({ page }) => {
+  await page.addInitScript(() => {
+    delete (Crypto.prototype as { randomUUID?: unknown }).randomUUID;
+  });
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await startGame(page);
+  await answerCorrectly(page);
+  await expect(page.locator('.stamp')).toHaveText('Verified');
+  expect(errors).toEqual([]);
+});
+
 test('wrong, partial and empty answers are handled and explained', async ({ page }) => {
   await startGame(page);
   await page.getByRole('button', { name: 'Submit selection' }).click();

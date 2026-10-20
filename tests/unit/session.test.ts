@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { caseNumber, createSession, FAMILY_ORDER, TIME_LIMITS, type Settings } from '../../src/app/session';
+import { caseNumber, createSession, FAMILY_ORDER, newSessionId, TIME_LIMITS, type Settings } from '../../src/app/session';
 import { buildExport, createCollector } from '../../src/analytics/collector';
 import data from '../../src/stimuli/catalogue.json';
 import type { Catalogue, Family, Stimulus } from '../../src/stimuli/types';
@@ -79,6 +79,12 @@ describe('session assignment', () => {
       const second = make(seed + 100, first, two).assignments.map((a) => a.stimulus_id);
       second.forEach((id) => expect(first).not.toContain(id));
     }
+  });
+
+  it('makes distinct version 4 session identifiers', () => {
+    const ids = new Set(Array.from({ length: 1000 }, newSessionId));
+    expect(ids.size).toBe(1000);
+    for (const id of ids) expect(id).toMatch(/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/);
   });
 
   it('formats a fictional case number from the seed and year', () => {
