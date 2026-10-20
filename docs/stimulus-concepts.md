@@ -4,6 +4,12 @@
 
 The Department asks completely ordinary CAPTCHA questions. The images are a mixture of normal category members, contextually bizarre but recognisable category members, and borderline category cases. The question is the straight man; the images provide the humour. Photographic absurdity should look intentional and locally plausible, not like indiscriminate glitch art. All new grids use **“Select all…”** and allow multiple selections.
 
+## Visual generation guidance
+
+Use **realistic, object-appropriate natural environments** rather than neutral studio backgrounds by default. Keep the surrounding world unremarkable even when the object is absurd. Across each grid, aim for comparable soft lighting, framing, object scale, background clutter and image quality, while allowing logically different locations (a bicycle on a street, an exercise bike in a gym, a rocking horse in a nursery). Avoid extra category members in the background.
+
+The full rules, **C01 background-by-background examples**, generation-prompt pattern, current 512 px pipeline specifications and manual review checklist are in [Stimulus photography and background guidelines](stimuli.md#stimulus-photography-and-background-guidelines). Apply these to all new candidate images before publication.
+
 ## Candidate grids (nine images per row)
 
 Each row specifies **2 ordinary clear members (O), 2 bizarre but clear members (B), 3 borderline judgements (?) and 2 clear non-members (N)**. These labels are **design hypotheses** to be checked by independent raters, not assertions of universal correctness. Do not show the labels to players.

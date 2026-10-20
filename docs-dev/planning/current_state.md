@@ -22,6 +22,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 - Stimuli are generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds; the concept mock-up is never used as interface or stimulus.
 - One published grid at launch (bicycles), shown in all five rounds with a new layout each time; nine more grids are drafted (owner's decision, 20 October 2026, because CPU rendering takes about 2.5 minutes per image).
 - Licence: GPL-3.0-or-later for the whole repository, matching WebGazer (owner's decision, 20 October 2026).
+- **Stimulus photography:** new candidate images use plausible object-specific real-world settings, a unified realistic photographic look, consistent low/moderate background complexity, and explicit environment/viewpoint prompts. The scene remains ordinary even when the object is absurd. See `docs/stimuli.md#stimulus-photography-and-background-guidelines`. This is a documented standard; source prompts and existing live images have not been changed.
 - **New design:** ordinary CAPTCHA questions and contextually bizarre photographs; clear targets/distractors are scored but genuinely borderline category-membership choices are recorded and unscored. See `docs/stimulus-concepts.md` for 15 proposed nine-tile sets. Unpublished G02–G10 drafts belong to the superseded direction.
 
 ## In progress / next
@@ -37,3 +38,4 @@ This file records what *is* (current reality). The binding design canon is `docs
 - `004_v1_verification.md`
 - `005_v1_deployment.md`
 - `006_v2_eye_tracking_preview.md`
+- `008_stimulus_photography_guidelines.md` (documentation update; 007 remains queued)
