@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.0 · **Last updated:** 20 October 2026
+**Version:** 1.1 · **Last updated:** 20 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -52,7 +52,7 @@ TypeScript types in `src/stimuli/types.ts`, `src/app/session.ts` and `src/analyt
 
 ### `stimulus` (catalogue entry)
 
-`stimulus_id`, `version` (integer, bumped whenever a grid's instruction, answer key or images change), `hash` (SHA-256 over instruction, mode, answer key and tile hashes), `family`, `mode` (`single` | `multiple`), `instruction`, `instruction_variants` (`direct`, `semantic`; for version 2), `hint`, `operational_definition` (required for `entertainment` grids), `explanation`, `difficulty`, `research_class` (`unambiguous` | `entertainment`), `feedback`, `tiles[9]`, `answer_key` (tile IDs).
+`stimulus_id`, `version` (integer, bumped whenever a grid's instruction, answer key or images change), `hash` (SHA-256 over instruction, mode, answer key and tile hashes), `family`, `mode` (`single` | `multiple`), `instruction`, `instruction_variants` (`direct`, `semantic`; for version 2), `hint`, `operational_definition` (required for `entertainment` grids), `explanation`, `difficulty`, `research_class` (`unambiguous` | `entertainment`), `feedback` (alternative lines per outcome), `tiles[9]`, `answer_key` (tile IDs). Only grids marked `published` in the source become catalogue entries.
 
 Each tile: `tile_id` (stable, never written into the page), `src` and `src_small` (opaque content-hash file names), `width`, `height`, `sha256`, `alt` (human-checked description), `provenance` (`model`, `model_revision`, `licence`, `prompt`, `seed`, `steps`, `guidance_scale`, `generated_at`, `edits`).
 
@@ -74,7 +74,7 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 ## Domain rules
 
-1. **Five rounds, fixed family order:** recognition, semantic description, odd one out, functional categorisation, absurd finale. Each session draws one grid per family from the pool, avoiding the previous session's grids where the pool allows.
+1. **Five rounds, fixed family order:** recognition, semantic description, odd one out, functional categorisation, absurd finale. Round *i* uses a grid of the *i*-th family; a family with no published grid borrows one from the rest of the pool. Grids already used in the session, then those of the previous session, are avoided where the pool allows. Every round has its own seeded layout, so a grid shown twice is laid out differently. **At launch the pool holds one grid (bicycles), shown in all five rounds** — the owner's decision of 20 October 2026, until more grids are rendered; nine further grids are drafted in `tools/stimuli/source.json`.
 2. **Seeded randomisation:** one 32-bit session seed (from `crypto.getRandomValues`, or `?seed=` for testing) drives grid choice, tile layout and feedback-line choice through labelled sub-seeds. The seed is recorded.
 3. **Scoring:** a round is passed only when the selected set equals the answer key exactly and the round did not time out. Outcomes are `correct`, `partial` (multiple-answer grids with at least one hit), `incorrect` and `timeout`. Tile-level hits, misses, false alarms and correct rejections are recorded.
 4. **Selection:** single-answer grids allow one selection (a new choice replaces the old); multiple-answer grids allow any number. Submitting with nothing selected is refused with a descriptive message; a timeout submits whatever is selected.
@@ -95,11 +95,12 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 ## Locked decisions
 
 - Version 1 contains no camera, tracking or gaze code of any kind, and sends nothing to any server. `scripts/check-public-build.sh` enforces the absence of camera and network-submission APIs in the build.
-- Five rounds, 3 × 3 grids, one grid per family per session, 15-second default limit with extended and untimed options.
+- Five rounds, 3 × 3 grids, 15-second default limit with extended and untimed options. Grids are published one at a time; the game is playable with a single grid.
 - Stimuli: generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds, published at 512 × 512 and 256 × 256 pixels as WebP.
 - Deployment: a dedicated workflow in `eelkedevries/eelkedevries.com`, which also protects `/department-of-human-verification/***` from the main site's `rsync --delete-after`.
 - Research data collection, when built, stays disabled until the owner explicitly approves the privacy, storage and consent arrangements.
 
 ## Changelog
 
+- **1.1 (20 October 2026):** the pool starts with one published grid, repeated in all five rounds with a new layout each time; families without a grid borrow from the pool; feedback has alternative lines per outcome.
 - **1.0 (20 October 2026):** first binding version: scope, architecture, schemas, rules and voice for version 1, and the version 2 boundary.

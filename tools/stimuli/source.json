@@ -1,0 +1,990 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "model_licence": "Apache-2.0",
+  "generator": "Generated locally with Hugging Face diffusers on CPU (tools/stimuli/generate.py)",
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "style": {
+    "object": "realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+    "animal": "realistic photograph, natural light, sharp focus, rich colour, the whole animal centred in a square frame, plain softly blurred natural background, no people, no text",
+    "portrait": "realistic photograph, soft studio light, sharp focus, rich colour, head and shoulders centred in a square frame, no people, no text"
+  },
+  "grids": [
+    {
+      "grid_id": "G01",
+      "family": "recognition",
+      "published": true,
+      "instruction": "Select all images containing a bicycle.",
+      "mode": "multiple",
+      "noun": "bicycles",
+      "direct_variant": "Select all images containing a bicycle.",
+      "semantic_variant": "Select all vehicles powered by pedals.",
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Four images contain a bicycle, including the child's bicycle with training wheels. Scooters, motorcycles, skateboards and cars are not bicycles, whatever their aspirations.",
+      "difficulty": "easy",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "Your understanding of bicycles has been noted.",
+          "All bicycles accounted for. A copy has been placed on file.",
+          "Correct. The Department had expected nothing less, and is mildly disappointed.",
+          "Bicycles identified. The Department is satisfied, for the time being."
+        ],
+        "partial": [
+          "Partially correct. Your relationship with bicycles will be reviewed.",
+          "Some bicycles escaped your attention. They have been informed.",
+          "Partially correct. A bicycle remains unaccounted for, or a non-bicycle has been accounted for."
+        ],
+        "incorrect": [
+          "Incorrect. The Department is not angry about the bicycles, merely disappointed.",
+          "Incorrect. Please do not take this personally; the Department takes it personally on your behalf.",
+          "Incorrect. The bicycles have asked not to be contacted further."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G01-T1",
+          "role": "target",
+          "label": "A black city bicycle leaning against a green wooden door on a cobbled street",
+          "prompt": "a black city bicycle leaning against a green wooden door on a cobbled street",
+          "style": "object",
+          "seed": 1001
+        },
+        {
+          "tile_id": "G01-T2",
+          "role": "target",
+          "label": "A red bicycle with a wicker basket parked against a brick wall",
+          "prompt": "a red bicycle with a wicker front basket parked against an old brick wall",
+          "style": "object",
+          "seed": 1002
+        },
+        {
+          "tile_id": "G01-T3",
+          "role": "target",
+          "label": "A blue road bicycle on an empty country road",
+          "prompt": "a blue road racing bicycle standing on its own on an empty country road, side view",
+          "style": "object",
+          "seed": 1003
+        },
+        {
+          "tile_id": "G01-T4",
+          "role": "target",
+          "label": "A small yellow child's bicycle with training wheels on a lawn",
+          "prompt": "a small yellow child's bicycle with training wheels standing on a garden lawn, side view",
+          "style": "object",
+          "seed": 1004
+        },
+        {
+          "tile_id": "G01-T5",
+          "role": "distractor",
+          "label": "A red vintage motor scooter parked on a street",
+          "prompt": "a red vintage motor scooter parked on a quiet European street, side view",
+          "style": "object",
+          "seed": 1005
+        },
+        {
+          "tile_id": "G01-T6",
+          "role": "distractor",
+          "label": "A blue motorcycle parked on a cobbled square",
+          "prompt": "a blue motorcycle parked on a cobbled square, side view",
+          "style": "object",
+          "seed": 1006
+        },
+        {
+          "tile_id": "G01-T7",
+          "role": "distractor",
+          "label": "A child's kick scooter on a pavement",
+          "prompt": "a silver child's kick scooter standing on a pavement, side view",
+          "style": "object",
+          "seed": 1007
+        },
+        {
+          "tile_id": "G01-T8",
+          "role": "distractor",
+          "label": "A skateboard on paving stones",
+          "prompt": "a wooden skateboard lying on grey paving stones",
+          "style": "object",
+          "seed": 1008
+        },
+        {
+          "tile_id": "G01-T9",
+          "role": "distractor",
+          "label": "A small white vintage car parked on a street",
+          "prompt": "a small white vintage car parked on a cobbled street, three-quarter view",
+          "style": "object",
+          "seed": 1009
+        }
+      ]
+    },
+    {
+      "grid_id": "G02",
+      "family": "recognition",
+      "published": false,
+      "instruction": "Select all images containing a lighthouse.",
+      "mode": "multiple",
+      "noun": "lighthouses",
+      "direct_variant": "Select all images containing a lighthouse.",
+      "semantic_variant": "Select all buildings intended to warn ships at night.",
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Four images contain a lighthouse. Windmills, church towers, water towers and chimneys are tall, but they do not guide ships, and the sailing boat is merely nearby.",
+      "difficulty": "easy",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "All lighthouses accounted for. Shipping may proceed."
+        ],
+        "partial": [
+          "Partially correct. Several vessels remain uncertain of their position."
+        ],
+        "incorrect": [
+          "Incorrect. The Department's coastline has been thrown into confusion."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G02-T1",
+          "role": "target",
+          "label": "A red-and-white striped lighthouse on a rocky coast",
+          "prompt": "a red and white striped lighthouse on a rocky coast under a blue sky",
+          "style": "object",
+          "seed": 1010
+        },
+        {
+          "tile_id": "G02-T2",
+          "role": "target",
+          "label": "A white lighthouse on a cliff at sunset",
+          "prompt": "a white lighthouse on a grassy cliff top at sunset",
+          "style": "object",
+          "seed": 1011
+        },
+        {
+          "tile_id": "G02-T3",
+          "role": "target",
+          "label": "A black-and-white lighthouse at the end of a stone pier",
+          "prompt": "a black and white lighthouse at the end of a long stone pier, calm sea",
+          "style": "object",
+          "seed": 1012
+        },
+        {
+          "tile_id": "G02-T4",
+          "role": "target",
+          "label": "A small green lighthouse at a harbour entrance",
+          "prompt": "a small green lighthouse at a harbour entrance on a bright day",
+          "style": "object",
+          "seed": 1013
+        },
+        {
+          "tile_id": "G02-T5",
+          "role": "distractor",
+          "label": "A traditional windmill beside a canal",
+          "prompt": "a traditional Dutch windmill beside a canal under a blue sky",
+          "style": "object",
+          "seed": 1014
+        },
+        {
+          "tile_id": "G02-T6",
+          "role": "distractor",
+          "label": "A stone church tower in a village",
+          "prompt": "a medieval stone church tower in an English village",
+          "style": "object",
+          "seed": 1015
+        },
+        {
+          "tile_id": "G02-T7",
+          "role": "distractor",
+          "label": "A water tower on steel legs in a field",
+          "prompt": "an old water tower on steel legs standing in a green field",
+          "style": "object",
+          "seed": 1016
+        },
+        {
+          "tile_id": "G02-T8",
+          "role": "distractor",
+          "label": "A tall brick factory chimney",
+          "prompt": "a tall red brick factory chimney against a pale sky",
+          "style": "object",
+          "seed": 1017
+        },
+        {
+          "tile_id": "G02-T9",
+          "role": "distractor",
+          "label": "A sailing boat at sea",
+          "prompt": "a small white sailing boat on a calm blue sea",
+          "style": "object",
+          "seed": 1018
+        }
+      ]
+    },
+    {
+      "grid_id": "G03",
+      "family": "semantic",
+      "published": false,
+      "instruction": "Select the animal dressed for a job interview.",
+      "mode": "single",
+      "noun": "candidates",
+      "direct_variant": "Select the duck.",
+      "semantic_variant": "Select the animal dressed for a job interview.",
+      "hint": "Select one image.",
+      "explanation": "Only the duck is wearing a suit and tie. The other animals are wearing nothing at all, which is not considered interview attire.",
+      "difficulty": "easy",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "Correct. The duck has been invited to a second interview."
+        ],
+        "incorrect": [
+          "Incorrect. That animal is not dressed for anything. The Department of Ducks has been notified."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G03-T1",
+          "role": "target",
+          "label": "A mallard duck in a navy suit jacket, white shirt and red tie",
+          "prompt": "a corporate headshot of a mallard duck wearing a tailored navy suit jacket, a white shirt and a red tie, soft grey studio background",
+          "style": "portrait",
+          "seed": 2001
+        },
+        {
+          "tile_id": "G03-T2",
+          "role": "distractor",
+          "label": "A golden retriever sitting on grass",
+          "prompt": "a golden retriever dog sitting on grass, no collar",
+          "style": "animal",
+          "seed": 1020
+        },
+        {
+          "tile_id": "G03-T3",
+          "role": "distractor",
+          "label": "A tabby cat sitting on a rug",
+          "prompt": "a tabby cat sitting on a woven rug, looking at the camera",
+          "style": "animal",
+          "seed": 1021
+        },
+        {
+          "tile_id": "G03-T4",
+          "role": "distractor",
+          "label": "A grey pigeon on a pavement",
+          "prompt": "a grey feral pigeon standing on a pavement",
+          "style": "animal",
+          "seed": 1022
+        },
+        {
+          "tile_id": "G03-T5",
+          "role": "distractor",
+          "label": "A pink flamingo standing on sand",
+          "prompt": "a pink flamingo standing on pale sand",
+          "style": "animal",
+          "seed": 1023
+        },
+        {
+          "tile_id": "G03-T6",
+          "role": "distractor",
+          "label": "A green frog sitting on a stone",
+          "prompt": "a green frog sitting on a mossy stone",
+          "style": "animal",
+          "seed": 1024
+        },
+        {
+          "tile_id": "G03-T7",
+          "role": "distractor",
+          "label": "A brown and white cow in a meadow",
+          "prompt": "a brown and white cow standing in a meadow",
+          "style": "animal",
+          "seed": 1025
+        },
+        {
+          "tile_id": "G03-T8",
+          "role": "distractor",
+          "label": "A red squirrel sitting on a log",
+          "prompt": "a red squirrel sitting on a mossy log",
+          "style": "animal",
+          "seed": 1026
+        },
+        {
+          "tile_id": "G03-T9",
+          "role": "distractor",
+          "label": "A brown rabbit sitting on grass",
+          "prompt": "a brown wild rabbit sitting on short grass",
+          "style": "animal",
+          "seed": 1027
+        }
+      ]
+    },
+    {
+      "grid_id": "G04",
+      "family": "semantic",
+      "published": false,
+      "instruction": "Select the animal dressed for the rain.",
+      "mode": "single",
+      "noun": "animals",
+      "direct_variant": "Select the corgi.",
+      "semantic_variant": "Select the animal dressed for the rain.",
+      "hint": "Select one image.",
+      "explanation": "Only the corgi is wearing a raincoat and boots. Fur, feathers and shells were considered and rejected as rainwear.",
+      "difficulty": "easy",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "Correct. The corgi remains dry and has been commended."
+        ],
+        "incorrect": [
+          "Incorrect. Fur is not, in the Department's view, rainwear."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G04-T1",
+          "role": "target",
+          "label": "A corgi wearing a yellow raincoat and red wellington boots",
+          "prompt": "a corgi dog wearing a bright yellow raincoat and small red wellington boots, standing on a wet pavement in light rain",
+          "style": "animal",
+          "seed": 1028
+        },
+        {
+          "tile_id": "G04-T2",
+          "role": "distractor",
+          "label": "A hedgehog on fallen leaves",
+          "prompt": "a hedgehog walking on fallen autumn leaves",
+          "style": "animal",
+          "seed": 1029
+        },
+        {
+          "tile_id": "G04-T3",
+          "role": "distractor",
+          "label": "A white sheep in a field",
+          "prompt": "a white sheep standing in a green field",
+          "style": "animal",
+          "seed": 1030
+        },
+        {
+          "tile_id": "G04-T4",
+          "role": "distractor",
+          "label": "A barn owl perched on a fence post",
+          "prompt": "a barn owl perched on a wooden fence post",
+          "style": "animal",
+          "seed": 1031
+        },
+        {
+          "tile_id": "G04-T5",
+          "role": "distractor",
+          "label": "A tortoise on grass",
+          "prompt": "a tortoise walking on short grass",
+          "style": "animal",
+          "seed": 1032
+        },
+        {
+          "tile_id": "G04-T6",
+          "role": "distractor",
+          "label": "A chestnut horse in a paddock",
+          "prompt": "a chestnut horse standing in a paddock, side view",
+          "style": "animal",
+          "seed": 1033
+        },
+        {
+          "tile_id": "G04-T7",
+          "role": "distractor",
+          "label": "A white goat on a rock",
+          "prompt": "a white goat standing on a rock",
+          "style": "animal",
+          "seed": 1034
+        },
+        {
+          "tile_id": "G04-T8",
+          "role": "distractor",
+          "label": "A golden hamster on wood shavings",
+          "prompt": "a golden hamster sitting on wood shavings",
+          "style": "animal",
+          "seed": 1035
+        },
+        {
+          "tile_id": "G04-T9",
+          "role": "distractor",
+          "label": "A peacock with its tail lowered on a lawn",
+          "prompt": "a peacock walking on a lawn with its tail lowered",
+          "style": "animal",
+          "seed": 1036
+        }
+      ]
+    },
+    {
+      "grid_id": "G05",
+      "family": "odd_one_out",
+      "published": false,
+      "instruction": "Select the object that does not belong.",
+      "mode": "single",
+      "noun": "objects",
+      "hint": "Select one image. Only one object is out of place.",
+      "explanation": "Eight images show fruit. The tennis ball is not fruit, however round and yellow it may be.",
+      "difficulty": "easy",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "Correct. The tennis ball has been removed from the fruit bowl and cautioned."
+        ],
+        "incorrect": [
+          "Incorrect. That is fruit. The tennis ball has been allowed to remain, for now."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G05-T1",
+          "role": "target",
+          "label": "A yellow tennis ball on a wooden table",
+          "prompt": "a single yellow tennis ball on a wooden kitchen table",
+          "style": "object",
+          "seed": 1037
+        },
+        {
+          "tile_id": "G05-T2",
+          "role": "distractor",
+          "label": "A red apple on a wooden table",
+          "prompt": "a single red apple on a wooden kitchen table",
+          "style": "object",
+          "seed": 1038
+        },
+        {
+          "tile_id": "G05-T3",
+          "role": "distractor",
+          "label": "A bunch of bananas on a wooden table",
+          "prompt": "a bunch of ripe bananas on a wooden kitchen table",
+          "style": "object",
+          "seed": 1039
+        },
+        {
+          "tile_id": "G05-T4",
+          "role": "distractor",
+          "label": "A green pear on a wooden table",
+          "prompt": "a single green pear on a wooden kitchen table",
+          "style": "object",
+          "seed": 1040
+        },
+        {
+          "tile_id": "G05-T5",
+          "role": "distractor",
+          "label": "A lemon on a wooden table",
+          "prompt": "a single lemon on a wooden kitchen table",
+          "style": "object",
+          "seed": 1041
+        },
+        {
+          "tile_id": "G05-T6",
+          "role": "distractor",
+          "label": "An orange on a wooden table",
+          "prompt": "a single orange on a wooden kitchen table",
+          "style": "object",
+          "seed": 1042
+        },
+        {
+          "tile_id": "G05-T7",
+          "role": "distractor",
+          "label": "A bunch of purple grapes on a wooden table",
+          "prompt": "a bunch of purple grapes on a wooden kitchen table",
+          "style": "object",
+          "seed": 1043
+        },
+        {
+          "tile_id": "G05-T8",
+          "role": "distractor",
+          "label": "A pineapple on a wooden table",
+          "prompt": "a single pineapple on a wooden kitchen table",
+          "style": "object",
+          "seed": 1044
+        },
+        {
+          "tile_id": "G05-T9",
+          "role": "distractor",
+          "label": "Three strawberries on a wooden table",
+          "prompt": "three strawberries on a wooden kitchen table",
+          "style": "object",
+          "seed": 1045
+        }
+      ]
+    },
+    {
+      "grid_id": "G06",
+      "family": "odd_one_out",
+      "published": false,
+      "instruction": "Select the object that does not belong.",
+      "mode": "single",
+      "noun": "objects",
+      "hint": "Select one image. Only one object is out of place.",
+      "explanation": "Eight images show musical instruments. The garden hose is not one, despite a passing resemblance to the French horn.",
+      "difficulty": "medium",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "Correct. The hose has been escorted from the orchestra."
+        ],
+        "incorrect": [
+          "Incorrect. That is a musical instrument. The garden hose remains in the brass section."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G06-T1",
+          "role": "target",
+          "label": "A coiled green garden hose on a wooden floor",
+          "prompt": "a coiled green garden hose lying on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1046
+        },
+        {
+          "tile_id": "G06-T2",
+          "role": "distractor",
+          "label": "A violin on a wooden floor",
+          "prompt": "a violin lying on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1047
+        },
+        {
+          "tile_id": "G06-T3",
+          "role": "distractor",
+          "label": "A brass trumpet on a wooden floor",
+          "prompt": "a brass trumpet lying on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1048
+        },
+        {
+          "tile_id": "G06-T4",
+          "role": "distractor",
+          "label": "An acoustic guitar against a plain wall",
+          "prompt": "an acoustic guitar leaning against a plain wall, studio photograph",
+          "style": "object",
+          "seed": 1049
+        },
+        {
+          "tile_id": "G06-T5",
+          "role": "distractor",
+          "label": "A snare drum on a wooden floor",
+          "prompt": "a snare drum standing on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1050
+        },
+        {
+          "tile_id": "G06-T6",
+          "role": "distractor",
+          "label": "An accordion on a wooden floor",
+          "prompt": "a red accordion standing on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1051
+        },
+        {
+          "tile_id": "G06-T7",
+          "role": "distractor",
+          "label": "A saxophone on a wooden floor",
+          "prompt": "a brass saxophone lying on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1052
+        },
+        {
+          "tile_id": "G06-T8",
+          "role": "distractor",
+          "label": "A French horn on a wooden floor",
+          "prompt": "a brass French horn lying on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1053
+        },
+        {
+          "tile_id": "G06-T9",
+          "role": "distractor",
+          "label": "A xylophone on a wooden floor",
+          "prompt": "a wooden xylophone with mallets on a wooden floor, studio photograph",
+          "style": "object",
+          "seed": 1054
+        }
+      ]
+    },
+    {
+      "grid_id": "G07",
+      "family": "functional",
+      "published": false,
+      "instruction": "Select all objects designed for sitting.",
+      "mode": "multiple",
+      "noun": "seats",
+      "hint": "Select all that apply. Designed for sitting means made for the purpose, not merely able to bear it.",
+      "explanation": "The chair, bench, sofa and bar stool were designed for sitting. Boulders, stumps, cones, hay bales and toadstools may tolerate it, but were not designed for it.",
+      "difficulty": "medium",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "Correct. Seating arrangements have been approved."
+        ],
+        "partial": [
+          "Partially correct. The Department's seating plan contains irregularities."
+        ],
+        "incorrect": [
+          "Incorrect. Please remain standing while your answer is reviewed."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G07-T1",
+          "role": "target",
+          "label": "A wooden dining chair",
+          "prompt": "a single wooden dining chair in an empty room",
+          "style": "object",
+          "seed": 1055
+        },
+        {
+          "tile_id": "G07-T2",
+          "role": "target",
+          "label": "A wooden park bench",
+          "prompt": "a wooden park bench with iron legs in a park",
+          "style": "object",
+          "seed": 1056
+        },
+        {
+          "tile_id": "G07-T3",
+          "role": "target",
+          "label": "A beige sofa",
+          "prompt": "a beige three-seat sofa in a bright living room",
+          "style": "object",
+          "seed": 1057
+        },
+        {
+          "tile_id": "G07-T4",
+          "role": "target",
+          "label": "A tall bar stool",
+          "prompt": "a tall wooden bar stool in a kitchen",
+          "style": "object",
+          "seed": 1058
+        },
+        {
+          "tile_id": "G07-T5",
+          "role": "distractor",
+          "label": "A large boulder in grass",
+          "prompt": "a large grey boulder in long grass",
+          "style": "object",
+          "seed": 1059
+        },
+        {
+          "tile_id": "G07-T6",
+          "role": "distractor",
+          "label": "A tree stump in a field",
+          "prompt": "a sawn tree stump in a field",
+          "style": "object",
+          "seed": 1060
+        },
+        {
+          "tile_id": "G07-T7",
+          "role": "distractor",
+          "label": "An orange traffic cone on a road",
+          "prompt": "an orange and white traffic cone on an asphalt road",
+          "style": "object",
+          "seed": 1061
+        },
+        {
+          "tile_id": "G07-T8",
+          "role": "distractor",
+          "label": "Stacked hay bales in a field",
+          "prompt": "rectangular hay bales stacked in a harvested field",
+          "style": "object",
+          "seed": 1062
+        },
+        {
+          "tile_id": "G07-T9",
+          "role": "distractor",
+          "label": "A red toadstool with white spots on moss",
+          "prompt": "a red fly agaric toadstool with white spots growing on moss",
+          "style": "object",
+          "seed": 1063
+        }
+      ]
+    },
+    {
+      "grid_id": "G08",
+      "family": "functional",
+      "published": false,
+      "instruction": "Select all objects designed for cutting.",
+      "mode": "multiple",
+      "noun": "implements",
+      "hint": "Select all that apply. Designed for cutting means made for the purpose.",
+      "explanation": "The scissors, chef's knife, pizza cutter and hedge shears were designed for cutting. The comb, wooden spoon, paintbrush, teacup and feather were not.",
+      "difficulty": "easy",
+      "research_class": "unambiguous",
+      "feedback": {
+        "correct": [
+          "Correct. The cutting implements have been identified and asked to wait outside."
+        ],
+        "partial": [
+          "Partially correct. A sharp object remains unaccounted for."
+        ],
+        "incorrect": [
+          "Incorrect. The Department will be using plastic cutlery for the foreseeable future."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G08-T1",
+          "role": "target",
+          "label": "A pair of scissors on a desk",
+          "prompt": "a pair of scissors with orange handles on a white desk",
+          "style": "object",
+          "seed": 1064
+        },
+        {
+          "tile_id": "G08-T2",
+          "role": "target",
+          "label": "A chef's knife on a chopping board",
+          "prompt": "a chef's knife on a wooden chopping board",
+          "style": "object",
+          "seed": 1065
+        },
+        {
+          "tile_id": "G08-T3",
+          "role": "target",
+          "label": "A pizza cutter on a wooden board",
+          "prompt": "a stainless steel pizza cutter wheel on a wooden board",
+          "style": "object",
+          "seed": 1066
+        },
+        {
+          "tile_id": "G08-T4",
+          "role": "target",
+          "label": "A pair of garden hedge shears on grass",
+          "prompt": "a pair of long garden hedge shears lying on grass",
+          "style": "object",
+          "seed": 1067
+        },
+        {
+          "tile_id": "G08-T5",
+          "role": "distractor",
+          "label": "A comb on a white desk",
+          "prompt": "a black hair comb on a white desk",
+          "style": "object",
+          "seed": 1068
+        },
+        {
+          "tile_id": "G08-T6",
+          "role": "distractor",
+          "label": "A wooden spoon on a wooden board",
+          "prompt": "a wooden cooking spoon on a wooden board",
+          "style": "object",
+          "seed": 1069
+        },
+        {
+          "tile_id": "G08-T7",
+          "role": "distractor",
+          "label": "A paintbrush on a white desk",
+          "prompt": "a paintbrush with a wooden handle on a white desk",
+          "style": "object",
+          "seed": 1070
+        },
+        {
+          "tile_id": "G08-T8",
+          "role": "distractor",
+          "label": "A teacup on a saucer",
+          "prompt": "a white porcelain teacup on a saucer on a table",
+          "style": "object",
+          "seed": 1071
+        },
+        {
+          "tile_id": "G08-T9",
+          "role": "distractor",
+          "label": "A white feather on a dark surface",
+          "prompt": "a single white feather on a dark wooden surface",
+          "style": "object",
+          "seed": 1072
+        }
+      ]
+    },
+    {
+      "grid_id": "G09",
+      "family": "absurd",
+      "published": false,
+      "instruction": "Select the most suspicious duck.",
+      "mode": "single",
+      "noun": "ducks",
+      "direct_variant": "Select the duck wearing sunglasses.",
+      "semantic_variant": "Select the most suspicious duck.",
+      "hint": "Select one image. For the purposes of this form, suspicious means wearing a disguise.",
+      "operational_definition": "The only duck wearing a disguise (sunglasses and a trench coat).",
+      "explanation": "Only one duck is wearing a disguise. The others are simply ducks, going about duck business.",
+      "difficulty": "easy",
+      "research_class": "entertainment",
+      "feedback": {
+        "correct": [
+          "Correct. The duck has been detained for questioning. It has declined to comment."
+        ],
+        "incorrect": [
+          "That duck is entirely innocent. An apology has been drafted."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G09-T1",
+          "role": "target",
+          "label": "A mallard duck wearing dark sunglasses and a beige trench coat",
+          "prompt": "a mallard drake wearing dark sunglasses and a small beige trench coat with the collar turned up, standing on a city pavement",
+          "style": "animal",
+          "seed": 1073
+        },
+        {
+          "tile_id": "G09-T2",
+          "role": "distractor",
+          "label": "A mallard drake swimming on a pond",
+          "prompt": "a mallard drake swimming on a calm pond",
+          "style": "animal",
+          "seed": 1074
+        },
+        {
+          "tile_id": "G09-T3",
+          "role": "distractor",
+          "label": "A female mallard duck on grass",
+          "prompt": "a female mallard duck standing on grass",
+          "style": "animal",
+          "seed": 1075
+        },
+        {
+          "tile_id": "G09-T4",
+          "role": "distractor",
+          "label": "A white domestic duck by a pond",
+          "prompt": "a white domestic duck standing beside a pond",
+          "style": "animal",
+          "seed": 1076
+        },
+        {
+          "tile_id": "G09-T5",
+          "role": "distractor",
+          "label": "A yellow duckling on grass",
+          "prompt": "a fluffy yellow duckling sitting on grass",
+          "style": "animal",
+          "seed": 1077
+        },
+        {
+          "tile_id": "G09-T6",
+          "role": "distractor",
+          "label": "A mandarin duck on water",
+          "prompt": "a colourful mandarin duck swimming on water",
+          "style": "animal",
+          "seed": 1078
+        },
+        {
+          "tile_id": "G09-T7",
+          "role": "distractor",
+          "label": "A wood duck on a log",
+          "prompt": "a wood duck standing on a log by a river",
+          "style": "animal",
+          "seed": 1079
+        },
+        {
+          "tile_id": "G09-T8",
+          "role": "distractor",
+          "label": "A mallard drake on a wooden jetty",
+          "prompt": "a mallard drake standing on a wooden jetty",
+          "style": "animal",
+          "seed": 1080
+        },
+        {
+          "tile_id": "G09-T9",
+          "role": "distractor",
+          "label": "A tufted duck on a lake",
+          "prompt": "a black and white tufted duck swimming on a lake",
+          "style": "animal",
+          "seed": 1081
+        }
+      ]
+    },
+    {
+      "grid_id": "G10",
+      "family": "absurd",
+      "published": false,
+      "instruction": "Select the pigeon that is not who it claims to be.",
+      "mode": "single",
+      "noun": "pigeons",
+      "direct_variant": "Select the pigeon wearing glasses.",
+      "semantic_variant": "Select the pigeon that is not who it claims to be.",
+      "hint": "Select one image. For the purposes of this form, an impostor is a pigeon wearing a disguise.",
+      "operational_definition": "The only pigeon wearing a disguise (novelty glasses with a fake nose).",
+      "explanation": "Only one pigeon is wearing a disguise. The others are pigeons, and claim nothing.",
+      "difficulty": "easy",
+      "research_class": "entertainment",
+      "feedback": {
+        "correct": [
+          "Correct. The pigeon's credentials have been revoked."
+        ],
+        "incorrect": [
+          "Incorrect. That pigeon is exactly who it claims to be. It has asked for this to be minuted."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "G10-T1",
+          "role": "target",
+          "label": "A pigeon wearing round novelty glasses with a fake nose",
+          "prompt": "a grey feral pigeon wearing novelty disguise glasses with a large fake nose and a black moustache, standing on a pavement",
+          "style": "animal",
+          "seed": 1082
+        },
+        {
+          "tile_id": "G10-T2",
+          "role": "distractor",
+          "label": "A grey pigeon on a pavement",
+          "prompt": "a grey feral pigeon standing on a city pavement",
+          "style": "animal",
+          "seed": 1083
+        },
+        {
+          "tile_id": "G10-T3",
+          "role": "distractor",
+          "label": "A wood pigeon on a branch",
+          "prompt": "a wood pigeon perched on a tree branch",
+          "style": "animal",
+          "seed": 1084
+        },
+        {
+          "tile_id": "G10-T4",
+          "role": "distractor",
+          "label": "A pigeon on a stone windowsill",
+          "prompt": "a grey pigeon sitting on a stone windowsill",
+          "style": "animal",
+          "seed": 1085
+        },
+        {
+          "tile_id": "G10-T5",
+          "role": "distractor",
+          "label": "A blue crowned pigeon on a forest floor",
+          "prompt": "a Victoria crowned pigeon standing on a forest floor",
+          "style": "animal",
+          "seed": 1086
+        },
+        {
+          "tile_id": "G10-T6",
+          "role": "distractor",
+          "label": "A speckled pigeon on a tiled roof",
+          "prompt": "a speckled pigeon standing on a terracotta tiled roof",
+          "style": "animal",
+          "seed": 1087
+        },
+        {
+          "tile_id": "G10-T7",
+          "role": "distractor",
+          "label": "A pigeon pecking at breadcrumbs",
+          "prompt": "a grey pigeon pecking at breadcrumbs on paving stones",
+          "style": "animal",
+          "seed": 1088
+        },
+        {
+          "tile_id": "G10-T8",
+          "role": "distractor",
+          "label": "A pigeon drinking from a fountain",
+          "prompt": "a grey pigeon drinking from the edge of a stone fountain",
+          "style": "animal",
+          "seed": 1089
+        },
+        {
+          "tile_id": "G10-T9",
+          "role": "distractor",
+          "label": "A pigeon on a railway platform",
+          "prompt": "a grey pigeon standing on a railway station platform",
+          "style": "animal",
+          "seed": 1090
+        }
+      ]
+    }
+  ]
+}

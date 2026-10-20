@@ -2,7 +2,7 @@
 
 *Humanity cannot be self-certified.*
 
-A fictional, excessively bureaucratic agency would like you to prove that you are human. Five short image assessments — bicycles, interview attire, fruit, furniture and one suspicious duck — are marked with deadpan severity, and the Department issues its verdict in a *Human Verification Report*.
+A fictional, excessively bureaucratic agency would like you to prove that you are human. Five short image assessments are marked with deadpan severity, and the Department issues its verdict in a *Human Verification Report*. For now the Department owns a single set of images, bicycles, which it shows five times in a different order; more are drafted.
 
 **Planned address:** <https://eelkedevries.com/department-of-human-verification/> (not yet live).
 
@@ -10,8 +10,12 @@ It is a game. The Department does not exist, its verdicts mean nothing, and it i
 
 ## Versions
 
-- **Version 1 (in development):** the complete game. Five timed rounds of nine images, feedback after each, a final report, and replay with different grids. **No eye-tracking:** it never asks for a camera, sets no cookies, stores nothing and sends nothing anywhere.
+- **Version 1 (current):** the complete game. Five timed rounds of nine images, feedback after each, a final report, and replay in a new order. **No eye-tracking:** it never asks for a camera, sets no cookies, stores nothing and sends nothing anywhere.
 - **Version 2 (planned):** an optional, clearly explained *Play with eye-tracking* mode for research — consent, calibration and validation first, a personal gaze reveal only when the measurement is good enough, and the ordinary game unchanged for everyone else. Research data collection will stay switched off until its privacy, storage and consent arrangements have been approved. See [`docs-dev/plan.md`](docs-dev/plan.md).
+
+## The images
+
+The images were generated for this game with FLUX.2 [klein] 4B (Apache 2.0) from written prompts and fixed seeds, checked by eye, and published with their provenance in [`src/stimuli/catalogue.json`](src/stimuli/catalogue.json). Nine more grids are drafted and can be published one at a time. See [`docs/stimuli.md`](docs/stimuli.md).
 
 ## Development
 
@@ -20,7 +24,7 @@ Vite and TypeScript, built as a static site with no runtime framework and no thi
 ```bash
 npm ci            # exact dependencies from the lockfile
 npm run dev       # development server at http://localhost:5173/department-of-human-verification/
-npm run check     # type-check, build and safety checks
+npm run check     # type-check, stimulus validation, build and safety checks
 ```
 
 The development workflow, specification and plan are in [`docs-dev/`](docs-dev/): start with [`docs-dev/plan.md`](docs-dev/plan.md) and [`docs-dev/reference/primary_authoritative/specification.md`](docs-dev/reference/primary_authoritative/specification.md).
@@ -33,4 +37,4 @@ Served from SiteGround under eelkedevries.com. The deploy workflow lives in the 
 
 ## Licence status
 
-No licence has been granted for the code yet; all rights are reserved unless a `LICENSE` file is added.
+No licence has been granted for the code yet; all rights are reserved unless a `LICENSE` file is added. The images were generated with an Apache 2.0 model; see the catalogue for each image's provenance.

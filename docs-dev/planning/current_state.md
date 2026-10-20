@@ -9,18 +9,21 @@ This file records what *is* (current reality). The binding design canon is `docs
 ## Systems
 
 - **Scaffold** from `eek-a-template` (Vite + TypeScript, static, base path `/department-of-human-verification/`). No GitHub Pages: hosting is SiteGround under eelkedevries.com.
-- **Verify command** `npm run check`: type-check, build, public-build check, prompt validation (later prompts add the stimulus validator and unit tests).
+- **Stimulus pipeline** (`tools/stimuli/`): `source.json` (ten grids, G01 published) → `generate.py` (FLUX.2 [klein] 4B on the CPU) → `review.py` contact sheets → `build.py` (opaque WebP files, `src/stimuli/catalogue.json`) → `scripts/validate-stimuli.mjs`.
+- **Verify command** `npm run check`: type-check, stimulus validation, build, public-build check (including the version 1 ban on camera, storage and network-submission APIs) and prompt validation.
 
 ## Key decisions
 
 - Two releases with separate gates: version 1 (game, no eye-tracking) is deployed and verified before version 2 work reaches the public build; research data collection needs the owner's explicit approval.
 - Stimuli are generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds; the concept mock-up is never used as interface or stimulus.
-- Ambiguous mock-up rounds are made fair: undressed distractor animals; "designed for sitting"; absurd rounds scored by a stated operational definition and classed as entertainment.
+- One published grid at launch (bicycles), shown in all five rounds with a new layout each time; nine more grids are drafted (owner's decision, 20 October 2026, because CPU rendering takes about 2.5 minutes per image).
+- Ambiguous mock-up rounds are made fair in the drafts: undressed distractor animals; "designed for sitting"; absurd rounds scored by a stated operational definition and classed as entertainment.
 
 ## In progress / next
 
-- `002_stimulus_library.md`, `003_v1_game.md`, `004_v1_verification.md`, `005_v1_deployment.md`.
+- `003_v1_game.md`, `004_v1_verification.md`, `005_v1_deployment.md`.
 
 ## Prompts run
 
 - `001_setup.md`
+- `002_stimulus_library.md`
