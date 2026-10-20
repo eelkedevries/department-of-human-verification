@@ -36,6 +36,24 @@ Images are generated locally with [FLUX.2 [klein] 4B](https://huggingface.co/bla
 
 Never use TV-programme stills or reconstruct recognisable proprietary props because an idea mentioned a programme. Cultural references can inspire original, rights-cleared satire.
 
+## Creative direction: ridiculous realities, not novelty products
+
+**Bizarre means clearly impossible, not merely unusual.** An uncomfortable chair, an eccentric commercially plausible product, an animal-shaped lamp or a slightly impractical hat is not a strong bizarre stimulus. Begin with a conventional and **identifiable member** of the category, then add one visually dominant absurdity that an ordinary photograph could never show: a chair walking on human legs, a square-wheeled bicycle, a miniature thunderstorm under a lamp shade, or a sandwich walking on sausage legs. The category should remain clear even though the reality is impossible.
+
+**Debatable means contested category membership, not just weirdness.** Create a conflict between **what an object looks like, what it is, what it was designed to do, and what it actually does**. A human wearing a chair backrest, a bath with an outboard motor, or a horse fitted with working pedals invites category judgement; an uncomfortable chair is still simply a chair. Humour and ambiguity are separate axes: a bizarre image can be a clear member, and a debatable one need not be visually bizarre.
+
+### Reject or retain an idea before rendering
+
+1. **Recognise:** Can viewers identify the main object in about a second, without zooming, at actual game tile size?
+2. **Understand the joke:** Is there an obvious, unexpected *visual* contradiction without a caption? Reject ordinary novelty design and ideas whose only funny part is a long description.
+3. **Classify:** For `member-bizarre`, does the item obviously still belong to the requested category? For `member-debatable`, can reasonable viewers argue both for and against its membership?
+4. **Photograph:** Can the concept look like a coherent real photograph in a normal setting, rather than an accidental image-model glitch? Is the impossible feature visually prominent and internally intentional?
+5. **Diversify:** Does the idea offer a different joke or conceptual mechanism from adjacent images, rather than yet another pair of human legs or simply a larger object?
+
+Prefer strong, legible absurdity: impossible physics, deliberately hybrid anatomy, scale contradictions, objects apparently acting by themselves, recursion and literalised phrases. Reject vague deformations, merely uncomfortable objects, extra limbs that look like generation errors, busy jokes illegible at 512 px, shock imagery and unrelated background surrealism.
+
+The standard is **an ordinary photograph of an impossible reality**. As a conceptual reference, [Erik Johansson](https://www.erikjo.com/about) uses realistic impossible imagery. [Katerina Kamprani's deliberately inconvenient objects](https://www.theuncomfortable.com/about/) illustrate why an impractical object alone does not necessarily meet this project's threshold. Do not reproduce existing artwork.
+
 ## Stimulus photography and background guidelines
 
 **Default: an ordinary photograph of an extraordinary object.** Use natural, object-appropriate settings rather than a plain studio backdrop. The Department's instruction remains entirely conventional; the image provides the humour. A square-wheeled bicycle should appear to have been parked on a street without anyone considering that unusual.
@@ -99,6 +117,6 @@ For every tile, verify: (1) the intended object and modification are visible; (2
 2. Generate the individual images (`python tools/stimuli/generate.py` or a single tile ID), review via `python3 tools/stimuli/review.py <GRID_ID>`, and revise failed images.
 3. When all nine pass manual inspection, mark the source grid `published: true`, and bump its version whenever an existing grid changes.
 4. Run `python3 tools/stimuli/build.py`, `npm run check`, and the relevant end-to-end tests before deploying.
-5. Only the published assets and catalogue reach the live game; drafts and raw renders remain in the source workflow.
+5. Only the published assets and catalogue reach the live game; drafts and raw renders remain in the source workflow. Apply the humour/category gate above as well as the photographic quality review.
 
 Nothing here activates webcam tracking, analytics, or remote research data collection.

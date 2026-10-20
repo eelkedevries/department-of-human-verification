@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.6 · **Last updated:** 20 October 2026
+**Version:** 1.7 · **Last updated:** 20 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -15,6 +15,8 @@ The decisions below implement the owner's implementation brief of 20 October 202
 ### Revised version 1 direction (owner decision, 20 October 2026)
 
 The Department's written instructions are wholly normal image-CAPTCHA tasks. Candidate images range from ordinary members through contextually bizarre but recognisable members to uncertain boundary cases (e.g., conventional bicycle, square-wheeled bicycle, stationary fitness cycle and a pedal-powered horse). Every newly designed grid has **multiple selectable targets**, with a mixture of clear members, clear non-members and debatable candidates. An odd image is not necessarily incorrect. Do not use “find what is suspicious/AI-generated/strange” as the standard instruction. More detailed candidates and design rules are in [`docs/stimulus-concepts.md`](../../../docs/stimulus-concepts.md). Each theme now has a **12-item candidate pool** with three ideas in each of four classes (normal member, bizarre member, debatable member, clear non-member). A **curated subset of nine** is still required for every playable grid; the app's 3 × 3 structure and source schema are unchanged.
+
+**Bizarre-category threshold (owner decision, 20 October 2026):** a `member-bizarre` item must remain recognisably within its category while showing an obvious, deliberately impossible and visually funny reality. Merely impractical or eccentric design, novelty animal-shaped products and accidental model artefacts are insufficient. `Member-debatable` images require plausible disagreement about **category membership** based on appearance, identity and function; bizarreness itself is not ambiguity. The image should communicate without captions at its actual grid-tile size. See [`docs/stimuli.md`](../../../docs/stimuli.md#creative-direction-ridiculous-realities-not-novelty-products) and [`docs/stimulus-concepts.md`](../../../docs/stimulus-concepts.md) for the updated editorial rules and table.
 
 **Visual generation decision:** new images should use natural, context-appropriate surroundings (not automatically blank studio backgrounds), with consistent realistic lighting, framing, object legibility and moderate background complexity across each nine-tile grid. The surrounding scene should look ordinary even when the object is absurd. Exceptions are allowed where a neutral studio is contextually appropriate or part of a controlled design. The specific environment and viewpoint must be described in each tile's generation prompt and reviewed for contextual confounds. Binding details for this production decision are elaborated in [`docs/stimuli.md`](../../../docs/stimuli.md#stimulus-photography-and-background-guidelines). The existing 512 px render and 512/256 px published formats remain unchanged.
 
@@ -114,6 +116,8 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 - Licence: GPL-3.0-or-later for the whole repository (owner's decision, 20 October 2026), so that the game can be published together with WebGazer.
 
 ## Changelog
+
+- **1.7 (20 October 2026):** raised the humour threshold to unmistakable surreal impossibilities instead of novelty product design, distinguished these from truly debatable category judgements, and revised the bizarre and debatable examples in all 15 twelve-image theme pools.
 
 - **1.6 (20 October 2026):** expanded each proposed theme to a 12-image candidate pool (three normal, three bizarre, three debatable, three non-members); a curated nine-tile subset remains the actual playable grid.
 

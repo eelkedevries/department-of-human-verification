@@ -10,13 +10,13 @@ Implement only the work described in this prompt. Do not implement adjacent syst
 
 ## Context
 
-Read `docs/stimulus-concepts.md` (C01), `docs/stimuli.md`, and the binding `docs-dev/reference/primary_authoritative/specification.md`. Existing G01 is the live fallback and must stay playable until a complete, reviewed replacement exists. The scoring and publishing pipeline already support `borderline` roles.
+Read `docs/stimulus-concepts.md` (C01 and the editorial filter), `docs/stimuli.md` (creative-direction and photography sections), and the binding `docs-dev/reference/primary_authoritative/specification.md`. Existing G01 is the live fallback and must stay playable until a complete, reviewed replacement exists. The scoring and publishing pipeline already support `borderline` roles.
 
 ## Required changes
 
 1. Design nine individually rendered and source-tracked photographs for a bicycle grid: two ordinary clear bicycles, two visually absurd but recognisable bicycles, three defensible borderline cases (stationary exercise bike, pedal-powered horse, pedal-powered office chair), and two clear non-members (e.g. rocking horse, motorcycle). Keep the stationary exercise bike a conventional, clearly recognisable fitness machine.
 2. Preserve the utterly ordinary instruction “Select all images containing a bicycle.” Use multiple selection and `research_class: "category_judgement"`. Provide accurate source labels, `target` / `borderline` / `distractor` roles, prompts, seeds, licence/provenance, a clear but playful explanation, and several outcome-appropriate dry feedback lines that do not declare ambiguous judgements wrong.
-3. Render the assets using the existing pipeline and review all nine images manually (or record clearly why publication cannot proceed); verify category legibility and ambiguity at the actual displayed tile size. Do not label an image “borderline” merely because it is bizarre.
+3. Ensure bizarre members meet the stronger visual-humour threshold (clearly impossible, not just impractical product design), borderline cases actually challenge category membership, and each gag is readable at tile size without captions. Render the assets using the existing pipeline and review all nine images manually (or record clearly why publication cannot proceed); verify category legibility and ambiguity at the actual displayed tile size. Do not label an image “borderline” merely because it is bizarre.
 4. Publish only a complete, verified grid; never flip `published` on an incomplete set. Keep the old G01 playable as fallback during the transition, including for session randomisation.
 5. Confirm that a player's selection of a borderline image appears as “Judgement noted” and never as a false alarm, and that the counted images exclude borderline tiles.
 6. Update the public stimulus documentation and current state to reflect exactly which candidate images actually exist.
@@ -33,7 +33,7 @@ Do not implement:
 ## Acceptance criteria
 
 The task is complete when:
-- the published grid contains nine separately reviewed original assets with defensible clear/borderline roles;
+- the published grid contains nine separately reviewed original assets with defensible clear/borderline roles and visible absurdities that are more than novelty design;
 - the ordinary instruction and multi-select controls work in browser;
 - borderline choices are preserved but not scored as errors;
 - the previous G01 can still be played;
