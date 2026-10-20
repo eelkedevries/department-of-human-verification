@@ -10,7 +10,8 @@ This file records what *is* (current reality). The binding design canon is `docs
 
 - **Scaffold** from `eek-a-template` (Vite + TypeScript, static, base path `/department-of-human-verification/`). No GitHub Pages: hosting is SiteGround under eelkedevries.com.
 - **Stimulus pipeline** (`tools/stimuli/`): `source.json` (ten grids, G01 published) → `generate.py` (FLUX.2 [klein] 4B on the CPU) → `review.py` contact sheets → `build.py` (opaque WebP files, `src/stimuli/catalogue.json`) → `scripts/validate-stimuli.mjs`.
-- **Verify command** `npm run check`: type-check, stimulus validation, build, public-build check (including the version 1 ban on camera, storage and network-submission APIs) and prompt validation.
+- **The game** (`src/`): controller and screens (`app/`), seeded sessions, rounds, scoring and timer (`game/`), local event log and developer export (`analytics/`), copy (`content/`). Unit tests in `tests/unit/`.
+- **Verify command** `npm run check`: type-check, stimulus validation, unit tests, build, public-build check (including the version 1 ban on camera, storage and network-submission APIs) and prompt validation.
 
 ## Key decisions
 
@@ -21,9 +22,10 @@ This file records what *is* (current reality). The binding design canon is `docs
 
 ## In progress / next
 
-- `003_v1_game.md`, `004_v1_verification.md`, `005_v1_deployment.md`.
+- `004_v1_verification.md`, `005_v1_deployment.md`.
 
 ## Prompts run
 
 - `001_setup.md`
 - `002_stimulus_library.md`
+- `003_v1_game.md`
