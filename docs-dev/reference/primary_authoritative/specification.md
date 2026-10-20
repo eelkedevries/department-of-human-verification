@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.1 · **Last updated:** 20 October 2026
+**Version:** 1.2 · **Last updated:** 20 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -21,9 +21,11 @@ The project ships in two successive releases. **Version 1 must be complete, depl
 - **Excluded from version 1, absolutely:** camera requests or permissions, eye-tracking or face libraries, calibration, gaze estimates, heatmaps or "your eyes looked here" displays, and any transmission or server-side storage of participant data.
 - Behavioural events are logged locally, in memory, and leave the page only through an explicitly labelled developer export.
 
-### Version 2 — optional eye-tracking and research mode (not yet built)
+### Version 2 — optional eye-tracking and research mode (preview built, not deployed)
 
 Version 2 keeps the version 1 game intact and adds an explicit, opt-in *Play with eye-tracking* path: consent before camera activation, face positioning, nine-point calibration, independent validation, quality gating, gaze recording with known coordinate frames, instruction-phrasing conditions, a reveal (*Your testimony* / *Surveillance record* / *Automated assessment*) only when quality permits, and later a secured, consented collection pipeline and dashboard. Research uploads are **disabled by default** and must not be enabled until the owner has reviewed privacy, storage and consent. Publishing a demo and collecting research data are distinct release gates.
+
+The preview exists only in builds made with `VITE_EYE_TRACKING=1`. The deployed build is made without it and must contain no eye-tracking module, no WebGazer and no camera API. The preview must not be deployed until the owner has decided the WebGazer licence question and it has been tested on real hardware (`docs-dev/planning/v2_notes.md`).
 
 ### Never in scope
 
@@ -40,7 +42,8 @@ Other games from the same proposal; a public leaderboard; any real verification 
   - `stimuli/` — typed catalogue (`catalogue.json`, generated) and its loader.
   - `analytics/` — event schema, the local collector and the developer export.
   - `content/` — all player-facing copy.
-  - `research/` — version 2 interfaces only; nothing in it may execute in version 1.
+  - `research/` — version 2 record types and pure analysis (coordinate frames, validation measures, per-tile attention); nothing in it executes in the deployed build.
+  - `eyetracking/` — the version 2 preview (consent, tracker adapter, calibration, validation, recording, testimony, reveal). Loaded only in eye-tracking builds, and only after the participant chooses it.
 - **Flow:** notice → briefing (time-limit choice) → round 1…5 (each round reveals its own feedback in place) → report → replay, which starts a new session directly at round 1 with the same settings.
 - Gameplay, display, stimulus data and metrics are separate modules so that version 2 can add a gaze source and research conditions without rewriting the game.
 - **Stimulus pipeline:** `tools/stimuli/source.json` (prompts, seeds, instructions, answer keys) → `generate.py` (local render) → human review with `review.py` contact sheets → `build.py` (publish WebP files with opaque names, write the catalogue) → `scripts/validate-stimuli.mjs` (part of `npm run check`).
@@ -68,9 +71,9 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 `session_start`, `trial_start`, `selection`, `submit`, `timeout`, `trial_end`, `visibility`, `session_end`, each with `t_ms` relative to the session's `performance.now()` origin. Schema version 1.
 
-### Version 2 records (types only; see `src/research/types.ts`)
+### Version 2 records (see `src/research/types.ts`)
 
-`gaze_sample`, `calibration_quality`, `qualitative_response`, `model_prediction`, `consent_record`, as listed in the brief, section 6.
+`gaze_sample`, `calibration_quality`, `qualitative_response`, `model_prediction`, `consent_record`, as listed in the brief, section 6. Gaze estimates are viewport CSS pixels with times relative to the trial's stimulus onset; each trial carries the coordinate frame captured at onset.
 
 ## Domain rules
 
@@ -84,6 +87,7 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 8. **Stimuli:** every image is original and rights-cleared, with recorded provenance and licence. The concept mock-up is never used as interface or stimulus material.
 9. **Verdicts are fiction** and always appear with a notice saying so. They depend only on the number of rounds passed (and, for *Suspiciously competent*, a mean response under 2.5 seconds).
 10. **No deceptive interaction:** no imitation system dialogues, no credential requests, no suggestion of real consequences.
+11. **Eye-tracking (version 2 preview).** The camera starts only after consent. Training happens only at the nine calibration points, never on answers. Validation uses separate points never used for training. A personal gaze record is shown only when the session's check passed and the trial was not flagged (scrolling, resizing, zoom, hidden page, layout change) and had enough estimates on the grid. The camera is released before the reveal and on **Stop**. Quality thresholds are provisional until a pilot sets them. Estimates are approximate and counted per whole tile; fixation order and latency are exploratory. A model prediction is never presented as a recording. Nothing is uploaded.
 
 ## Naming and voice
 
@@ -102,5 +106,6 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 ## Changelog
 
+- **1.2 (20 October 2026):** version 2 preview: the build flag, the `eyetracking/` module, rule 11, and the condition that the preview is not deployed until the licence and real-hardware questions are settled.
 - **1.1 (20 October 2026):** the pool starts with one published grid, repeated in all five rounds with a new layout each time; families without a grid borrow from the pool; feedback has alternative lines per outcome.
 - **1.0 (20 October 2026):** first binding version: scope, architecture, schemas, rules and voice for version 1, and the version 2 boundary.

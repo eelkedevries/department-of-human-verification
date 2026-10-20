@@ -28,7 +28,12 @@ export function footer(onAbout: () => void): HTMLElement {
     'footer',
     { class: 'footer' },
     h('p', {}, GAME_NOTICE),
-    h('p', {}, h('button', { type: 'button', class: 'link-button', onclick: onAbout }, 'About this game'), ' · No camera · Nothing leaves your device'),
+    h(
+      'p',
+      {},
+      h('button', { type: 'button', class: 'link-button', onclick: onAbout }, 'About this game'),
+      import.meta.env.VITE_EYE_TRACKING === '1' ? ' · Camera only if you opt in · Nothing leaves your device' : ' · No camera · Nothing leaves your device',
+    ),
   );
 }
 

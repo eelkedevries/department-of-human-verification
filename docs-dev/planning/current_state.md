@@ -13,6 +13,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 - **The game** (`src/`): controller and screens (`app/`), seeded sessions, rounds, scoring and timer (`game/`), local event log and developer export (`analytics/`), copy (`content/`). Unit tests in `tests/unit/`.
 - **End-to-end tests** (`tests/e2e/`, Playwright): Chromium desktop and phone, Firefox with `E2E_FIREFOX=1`; run in CI.
 - **Deployment**: `deploy-department-of-human-verification.yml` in eelkedevries.com, started by `npm run deploy`; the main site's deploy protects the folder.
+- **Version 2 preview** (`src/eyetracking/`, `src/research/`): opt-in, consent, WebGazer 3.5.3 (separate file), calibration, held-out validation, recording, testimony and reveal, only in builds with `VITE_EYE_TRACKING=1`; tested with a fake camera and a synthetic tracker (`tests/e2e-eyetracking/`); **not deployed**. Notes and blockers: `planning/v2_notes.md`.
 - **Verify command** `npm run check`: type-check, stimulus validation, unit tests, build, public-build check (including the version 1 ban on camera, storage and network-submission APIs) and prompt validation.
 
 ## Key decisions
@@ -24,7 +25,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 
 ## In progress / next
 
-- Version 2 preview (`006`); publishing the drafted grids.
+- Owner decisions: WebGazer licence; real-webcam tests of the preview. Publishing the drafted grids (needed for prompt 007's conditions).
 
 ## Prompts run
 
@@ -33,3 +34,4 @@ This file records what *is* (current reality). The binding design canon is `docs
 - `003_v1_game.md`
 - `004_v1_verification.md`
 - `005_v1_deployment.md`
+- `006_v2_eye_tracking_preview.md`

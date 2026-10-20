@@ -48,3 +48,7 @@ tools/stimuli/.cache/
 # Participant data must never be committed (V2 research exports, pilot data)
 data/private/
 *.participant.json
+
+# Eye-tracking preview builds
+dist-eyetracking/
+dist-eye/

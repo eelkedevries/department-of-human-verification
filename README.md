@@ -11,7 +11,7 @@ It is a game. The Department does not exist, its verdicts mean nothing, and it i
 ## Versions
 
 - **Version 1 (current):** the complete game. Five timed rounds of nine images, feedback after each, a final report, and replay in a new order. **No eye-tracking:** it never asks for a camera, sets no cookies, stores nothing and sends nothing anywhere.
-- **Version 2 (planned):** an optional, clearly explained *Play with eye-tracking* mode for research — consent, calibration and validation first, a personal gaze reveal only when the measurement is good enough, and the ordinary game unchanged for everyone else. Research data collection will stay switched off until its privacy, storage and consent arrangements have been approved. See [`docs-dev/plan.md`](docs-dev/plan.md).
+- **Version 2 (preview, not deployed):** an optional, clearly explained *Play with eye-tracking* mode for research — consent, calibration and validation first, a personal gaze reveal only when the measurement is good enough, and the ordinary game unchanged for everyone else. It exists only in builds made with `VITE_EYE_TRACKING=1` and waits on a licence decision and tests with a real webcam. Research data collection will stay switched off until its privacy, storage and consent arrangements have been approved. See [`docs-dev/planning/v2_notes.md`](docs-dev/planning/v2_notes.md).
 
 ## The images
 
@@ -26,6 +26,7 @@ npm ci            # exact dependencies from the lockfile
 npm run dev       # development server at http://localhost:5173/department-of-human-verification/
 npm run check     # type-check, stimulus validation, unit tests, build and safety checks
 npm run test:e2e  # end-to-end tests in Chromium (desktop and phone); E2E_FIREFOX=1 adds Firefox
+npm run test:e2e:eyetracking  # the eye-tracking preview, with a fake camera (code paths only)
 npm run deploy    # publish what is on GitHub to eelkedevries.com (see docs/deployment.md)
 ```
 

@@ -78,3 +78,32 @@ jobs:
         run: npm run test:e2e
         env:
           E2E_FIREFOX: '1'
+
+  # The optional eye-tracking preview (version 2), built with VITE_EYE_TRACKING=1.
+  # Chromium's fake camera has no face in it, and the synthetic tracker reports
+  # the pointer as gaze: these tests check the code paths (consent, fallbacks,
+  # calibration flow, recording, camera release), not measurement quality.
+  e2e-eyetracking:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies (reproducible)
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Check the eye-tracking build
+        run: |
+          VITE_EYE_TRACKING=1 npx vite build --outDir dist-eyetracking
+          EYE_TRACKING_BUILD=1 bash scripts/check-public-build.sh dist-eyetracking
+
+      - name: Run eye-tracking end-to-end tests
+        run: npm run test:e2e:eyetracking

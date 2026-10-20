@@ -8,6 +8,9 @@ import { FAMILY_LABELS, FICTION_NOTICE, STAMPS, VERDICTS } from '../content/copy
 import type { Stimulus } from '../stimuli/types';
 import { TIME_LIMITS, type TimeOption } from './session';
 
+/** Builds made with VITE_EYE_TRACKING=1 offer the optional eye-tracking preview, and say so. */
+const EYE_TRACKING_BUILD = import.meta.env.VITE_EYE_TRACKING === '1';
+
 export function noticeScreen(caseNumber: string, onBegin: () => void): HTMLElement {
   return h(
     'section',
@@ -74,7 +77,9 @@ export function briefingScreen(current: TimeOption, onProceed: (option: TimeOpti
     h(
       'p',
       { class: 'fine-print' },
-      'This is a game. The Department is fictional, as are its verdicts. No camera is used, and nothing you do here is sent anywhere.',
+      EYE_TRACKING_BUILD
+        ? 'This is a game. The Department is fictional, as are its verdicts. Nothing you do here is sent anywhere.'
+        : 'This is a game. The Department is fictional, as are its verdicts. No camera is used, and nothing you do here is sent anywhere.',
     ),
     h('div', { class: 'actions' }, button('Proceed to assessment 1', () => onProceed(chosen()), { wide: true, icon: ICON_CHECKBOX })),
   );
@@ -180,11 +185,15 @@ export function aboutDialog(): HTMLDialogElement {
       h(
         'ul',
         {},
-        h('li', {}, 'It contains no eye-tracking and never asks for your camera.'),
+        EYE_TRACKING_BUILD
+          ? h('li', {}, 'It never turns on your camera unless you choose eye-tracking and agree to it. The camera picture is processed in your browser and never saved or sent.')
+          : h('li', {}, 'It contains no eye-tracking and never asks for your camera.'),
         h('li', {}, 'It sends nothing to a server and stores nothing on your device. Your answers exist only in this tab and disappear when you close it.'),
         h('li', {}, 'It uses no cookies, analytics or third-party services.'),
       ),
-      h('p', {}, 'A later version may offer optional, clearly explained eye-tracking for research. It will ask first, and the game will always remain playable without it.'),
+      EYE_TRACKING_BUILD
+        ? h('p', {}, 'Eye-tracking is a research preview using WebGazer (Brown University, GPL-3.0). It is optional; the game is the same without it.')
+        : h('p', {}, 'A later version may offer optional, clearly explained eye-tracking for research. It will ask first, and the game will always remain playable without it.'),
       h('h3', {}, 'The images'),
       h(
         'p',

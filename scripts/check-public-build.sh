@@ -47,10 +47,15 @@ if grep -RIl --binary-files=without-match \
 fi
 
 # Version 1 promises no camera, no tracking and no data leaving the device. These
-# APIs have no place in its build; version 2 will replace this rule with a check
-# that they appear only in the opt-in eye-tracking chunk.
+# APIs have no place in its build.
 v1_forbidden='getUserMedia|mediaDevices|webgazer|sendBeacon|XMLHttpRequest|new WebSocket|localStorage|sessionStorage|indexedDB|document\.cookie'
-hits="$(grep -RIlE --binary-files=without-match "$v1_forbidden" "$BUILD_DIR" || true)"
+# An eye-tracking build (EYE_TRACKING_BUILD=1) may use them, but only in the
+# opt-in chunk and the separately served WebGazer files.
+if [[ "${EYE_TRACKING_BUILD:-0}" == "1" ]]; then
+  hits="$(grep -RIlE --binary-files=without-match "$v1_forbidden" "$BUILD_DIR" | grep -vE '/assets/eyetracking-[A-Za-z0-9_-]+\.(js|css)$|/eyetracking/webgazer/' || true)"
+else
+  hits="$(grep -RIlE --binary-files=without-match "$v1_forbidden" "$BUILD_DIR" || true)"
+fi
 if [[ -n "$hits" ]]; then
   printf 'Version 1 build uses camera, tracking, storage or network-submission APIs:\n%s\n' "$hits" >&2
   grep -RIoE --binary-files=without-match "$v1_forbidden" "$BUILD_DIR" | sort | uniq -c >&2

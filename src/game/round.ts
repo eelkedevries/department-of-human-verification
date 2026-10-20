@@ -31,6 +31,15 @@ export interface RoundOptions {
   onComplete(result: RoundResult): void;
   onNext(): void;
   nextLabel: string;
+  /** Optional observer of stimulus onset and offset (version 2 gaze recording). */
+  instrumentation?: RoundInstrumentation;
+}
+
+export interface RoundInstrumentation {
+  /** The grid has been painted and the timer starts; `onsetMs` is on the collector's clock. */
+  onOnset(grid: HTMLElement, tiles: HTMLElement[], trialIndex: number, onsetMs: number): void;
+  /** The answer was submitted or time ran out; the grid is still on screen, unchanged. */
+  onOffset(trialIndex: number, endMs: number): void;
 }
 
 const TILE_SIZES = '(max-width: 30rem) 31vw, 13rem';
@@ -177,6 +186,7 @@ export function renderRound(options: RoundOptions): HTMLElement {
     collector.log({ type: 'trial_start', t_ms: onsetMs, trial_index: assignment.trial_index, stimulus_id: stimulus.stimulus_id });
     timer = createRoundTimer(options.timeLimitMs, () => performance.now(), () => finish(true));
     timer.start();
+    options.instrumentation?.onOnset(grid, buttons, assignment.trial_index, onsetMs);
     document.addEventListener('visibilitychange', onVisibility);
     if (options.timeLimitMs !== null) {
       if (options.reducedMotion) interval = window.setInterval(tick, 250);
@@ -268,6 +278,7 @@ export function renderRound(options: RoundOptions): HTMLElement {
     clearInterval(interval);
     document.removeEventListener('visibilitychange', onVisibility);
     const endMs = collector.now();
+    options.instrumentation?.onOffset(assignment.trial_index, endMs);
     const responseMs = timedOut ? null : Math.round(timer.elapsedMs());
     collector.log({ type: timedOut ? 'timeout' : 'submit', t_ms: endMs, trial_index: assignment.trial_index });
     const evaluation = evaluate([...selected], stimulus.answer_key, assignment.layout, timedOut);
