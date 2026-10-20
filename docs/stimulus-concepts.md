@@ -6,9 +6,9 @@ The Department asks completely ordinary CAPTCHA questions. Images mix normal cat
 
 ## Visual generation guidance
 
-Use **realistic, object-appropriate natural environments** rather than neutral studio backgrounds by default. Keep the surrounding world unremarkable even when the object is absurd. Across each grid, aim for comparable soft lighting, framing, object scale, background clutter and image quality, while allowing logically different locations (a bicycle on a street, an exercise bike in a gym, a rocking horse in a nursery). Avoid extra category members in the background.
+Use **realistic, object-appropriate natural environments** rather than neutral studio backgrounds by default. Keep the surrounding world unremarkable even when the object is absurd. **Do not make the set visually monotonous:** vary natural object colours, material finishes, facing directions and photographed views (side, front-left/right three-quarter, modestly elevated) across all four stimulus classes. Maintain comparable legibility, soft lighting, object prominence and background clutter; protect the visibility of the bizarre feature. The [C01 shot plan](stimuli.md#c01--bicycle-pool-colour-angle-and-setting-plan) gives a concrete twelve-image example. Avoid additional category members in the background.
 
-The full rules, **C01 background-by-background examples**, generation-prompt pattern, current 512 px pipeline specifications and manual review checklist are in [Stimulus photography and background guidelines](stimuli.md#stimulus-photography-and-background-guidelines). Apply these to all new candidate images before publication.
+The full rules, **C01 colour/viewpoint/background plan**, generation-prompt pattern, current 512 px pipeline specifications and manual review checklist are in [Stimulus photography and background guidelines](stimuli.md#stimulus-photography-and-background-guidelines). Apply these to all new candidate images before publication.
 
 ## Candidate image pools (12 examples per theme)
 

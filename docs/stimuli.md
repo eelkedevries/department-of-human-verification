@@ -63,33 +63,48 @@ The standard is **an ordinary photograph of an impossible reality**. As a concep
 - Produce **one independent, square, photorealistic image per tile**. Use a documentary/product-documentary photographic look: credible materials, perspective, shadows and scale, including where the depicted object is impossible.
 - Use a **plausible environment for that object**. Prefer a quiet street, cycle path, home, gym, nursery, farmyard or office as relevant. A studio is acceptable only where it is natural to the concept or explicitly required by a controlled comparison; it is **not the default**.
 - Keep the scene **uncluttered but believable**: low to moderate background detail, no unrelated visual joke or deliberately surreal setting. A strange object in an otherwise ordinary place is the intended effect.
-- Keep the object **clearly readable in the 3 × 3 game grid**. Aim for approximately **65–80% of the frame** where the object's shape permits; use a side or three-quarter view, show its defining features and leave enough margins to avoid cropping wheels, legs, wings or handles. Extra-long objects may need smaller framing.
-- Use **soft natural daylight** or comparable diffused indoor light; consistent realistic sharpness, exposure, colour, contrast and depth of field. Avoid dramatic cinematic illumination, neon grading, heavy vignettes and excessively saturated colours.
+- Keep the object **clearly readable in the 3 × 3 game grid**. Aim for approximately **65–80% of the frame** where the object's shape permits; **vary camera angles between images** instead of making them all side-view catalogue shots. Use side views, left- and right-facing three-quarter views, and modestly elevated or lower perspectives where useful. Always show the defining features and leave enough margins to avoid cropping wheels, legs, wings or handles. Extra-long objects may need smaller framing.
+- Use **soft natural daylight** or comparable diffused indoor light; consistent realistic sharpness, exposure, colour, contrast and depth of field. Avoid dramatic cinematic illumination, neon grading, heavy vignettes and excessively saturated colours. **Vary realistic object colours deliberately**: do not render most bicycles black or every member of a theme in the same colour. Distinct reds, greens, blues, yellows, neutral metallic finishes and natural materials can coexist in the same photographic style.
 - Prefer **no people**, text overlays, logos, labels or watermarks. Avoid unintended instances of the instructed category elsewhere in a tile (e.g., another bicycle behind a motorcycle).
 - The absurdity must belong to the **object**, not to accidental model defects. Check for unintended deformed anatomy, missing parts, fused backgrounds, unreadable features and accidental extra targets. Intentional square wheels are acceptable; random mangled spokes are not.
-- Apply the same standards to **ordinary, bizarre, borderline and non-member** tiles. A target must not be identifiable merely because its image has different lighting, cleanliness, resolution or rendering style.
+- Apply the same standards to **ordinary, bizarre, borderline and non-member** tiles. A target must not be identifiable merely because its image has different lighting, cleanliness, resolution or rendering style. Similarly, **do not assign all vivid colours or unusual camera angles to the bizarre targets**; mix colours and views across the four categories.
 
-### Within-grid consistency versus natural context
+### Variety within a consistent photographic style
 
-Use **plausible different locations**, not necessarily nine identical backdrops. Keep camera distance, viewing angle, main-object coverage, background complexity and overall lighting **reasonably comparable** across the whole set. An indoor exercise bike and an outdoor road bike need different locations; neither should become conspicuous simply because its background is unusually colourful or busy.
+**Consistency does not mean identical camera angle, colour, orientation or backdrop.** The initial bicycle samples leaned heavily towards black objects photographed from the same side; the resulting set looked like repeated catalogue photographs. Future images should have the variety of ordinary photographs taken by different people in real places, while retaining comparable legibility and rendering quality.
 
-Backgrounds can themselves suggest category membership (a pedal-powered chair in an office versus on a cycle path). **Record the environment and review it as a possible cue or confound.** If comparing matched variants, preserve or deliberately match the background, viewpoint, scale and photographic style; any intentional contextual change must be defined as its own manipulation. Different natural backgrounds **are not a scientifically controlled factor by themselves**.
+- **Plan the complete 12-image candidate pool before rendering** (and review the final nine-image subset again). Avoid choosing each prompt independently without looking at the others.
+- **Vary the angle:** combine full side profiles, front-left and front-right three-quarter views, occasional rear three-quarter views and modestly higher or lower camera positions. Use direct frontal or overhead views only when the target remains unmistakably recognisable. Do not force one of each view at the expense of the joke.
+- **Vary facing direction:** some bicycles face left and others right. Do not simply mirror generated images if that makes mechanisms, writing, or lighting physically inconsistent; request a different shot during generation.
+- **Vary object colours and finishes:** use believable greens, reds, blues, yellow, cream, silver, natural wood and black across the set, not an almost exclusively black palette. Colour should suit the object and setting.
+- **Vary pose and placement:** parked against a wall, leaning on a kickstand, standing near a cycle path, photographed diagonally, or placed in an appropriate indoor setting. Avoid cloning the same “centred side profile against a brick wall” layout.
+- **Keep the visual task fair:** vary colours, angles and backgrounds across **all four roles** (normal, bizarre, debatable and non-member). Neither “black object” nor “three-quarter view” should be a shortcut to identifying a target or distractor. Do not add excessive clutter or dramatic blur to make a particular category harder.
+- **Preserve the punchline:** the camera must make the impossible feature visible. Square wheels benefit from an oblique/near-side view that shows both squares; a knotted frame needs its knot unobstructed; a six-saddle bicycle needs a wide-enough view to count saddles. Pick legibility over artificial variety.
 
-### C01 — bicycle grid: suggested environments (illustrative nine-image selection)
+**Shared constraints:** realistic physical lighting, crisp object boundaries, photographic credibility, moderate background complexity, object prominence and approximately similar resolution. Camera position, scene and palette may vary naturally within those limits.
 
-| Candidate image | Plausible environment | Specific composition note |
-|---|---|---|
-| Dutch bicycle | Quiet Dutch residential street, parked by a wall or fence | Side/three-quarter view; full frame and wheels visible |
-| Racing bicycle | Empty paved cycle path | Similar scale and lighting to the Dutch bicycle |
-| Square-wheeled bicycle | Ordinary residential street | Both square wheels legible; background completely unremarkable |
-| Bicycle with implausibly many saddles | Quiet open road or long cycle path | Allow extra space for the full extended frame |
-| Stationary exercise bike | Gym or home exercise room | No additional exercise bikes in the background |
-| Horse fitted with wheels and pedals | Farmyard or country lane | Full horse and its mechanical parts visible; plausible outdoor daylight |
-| Pedal-powered office chair | Office corridor or quiet business park | The pedals and chair structure clearly visible |
-| Rocking horse | Child's room or nursery | Plain, recognisable domestic surroundings |
-| Motorcycle | Quiet street or parking area | No bicycles behind it; framing comparable to the bicycle tiles |
+Backgrounds can themselves suggest category membership (a pedal-powered chair in an office versus on a cycle path). **Record colour, viewpoint, facing direction, environment and scale** in the generation brief/sidecar when available, and review them for category cues or confounds. If a later comparison *requires* matched variants, explicitly match or counterbalance these features for that comparison; do not impose uniformity on the entire entertainment set. A visually varied collection is more enjoyable, but not automatically an experimentally balanced one.
 
-The C01 [concept pool](stimulus-concepts.md#candidate-image-pools-12-examples-per-theme) now lists 12 alternatives rather than nine. The table above describes one possible nine-image selection. When selecting another candidate, specify its context using the same rules (e.g. a folding bicycle on a residential street, an unusually tall bicycle on a clear cycle path, a kick scooter on a pavement).
+### C01 — bicycle pool: colour, angle and setting plan
+
+The following are **twelve candidate shots**, not instructions to add twelve tiles to a nine-tile playable grid. The colours, viewpoints and locations are creative starting points; adjust if generation fails or a key category cue becomes difficult to see. Use enough varied angles and colours in any selected **nine-image subset** so it does not revert to a uniform black side-view series.
+
+| Candidate | Suggested colour / material | Suggested view and direction | Plausible background and visible detail |
+|---|---|---|---|
+| Dutch city bicycle (normal) | Deep burgundy, cream mudguards | Front-left three-quarter, facing right | Quiet brick residential street; full wheels and familiar frame visible |
+| Racing bicycle (normal) | Cobalt blue with silver accents | Drive-side profile, facing left | Cycle path among fields; clean drivetrain and drop handlebars |
+| Folding bicycle (normal) | Mustard yellow or red | Slightly elevated front-right three-quarter | Pavement near a station; folding joint and small wheels legible |
+| Square-wheeled bicycle (bizarre) | Bright red steel frame | Left three-quarter / near-side profile | Residential street; **both square wheels** recognisable immediately |
+| Six-saddle bicycle (bizarre) | Forest-green elongated frame | Wide side view, facing right | Open cycle path; **all saddles and pedal sets** fit in image |
+| Knotted-frame bicycle (bizarre) | Warm orange or turquoise | Right three-quarter with unobstructed centre | Quiet park lane; dramatic **frame knot** plainly visible between normal wheels |
+| Stationary exercise bike (debatable) | Teal and light grey | Front-right three-quarter, slightly elevated | Home gym; pedals, saddle and flywheel visible |
+| Pedal-powered horse (debatable) | Natural chestnut coat, mixed metal fittings | Left three-quarter, facing left | Country lane or farmyard; horse, wheels **and pedals** visible |
+| Pedal-powered office chair (debatable) | Grey fabric, silver mechanism, coloured trim | Front-left three-quarter | Office corridor; wheelbase, pedals and seating visible |
+| Rocking horse (non-member) | Painted cream wood with dark mane | Right three-quarter | Child's room; unmistakable curved rockers |
+| Motorcycle (non-member) | Metallic red or silver | Front-right three-quarter, facing left | Parking bay; engine and motorbike silhouette distinguish it from a bicycle |
+| Kick scooter (non-member) | Mint-green frame | Side/left three-quarter, facing right | Urban pavement; handlebar and standing deck distinct |
+
+**Review the whole set for colour and camera diversity** before packaging or publishing. The table is deliberately not a requirement that all categories receive identical views or colours. If the model outputs several same-looking dark objects from the same perspective, regenerate some of them—even when they are individually acceptable. Use a different viewpoint, facing direction and/or colour in the next prompt, but preserve the intended category, normal-looking environment and clear bizarre feature.
 
 ### Resolution and existing workflow
 
@@ -100,16 +115,18 @@ Write the **specific environment, viewpoint and visible features in each tile's 
 Example prompt pattern:
 
 ```text
-[object, including the precise intended oddity], [specific plausible location],
-[side or three-quarter view], full object and key features visible,
-soft natural/diffused light, believable documentary photograph,
-quiet background with low visual clutter, square composition,
-no people, no text, no additional objects from the named category
+[object and exact intended oddity, including a realistic colour/material],
+[plausible location DIFFERENT from other candidate shots],
+[specific camera view: left or right side / front-left or front-right three-quarter / modestly elevated],
+[object facing left or right; all defining features visible],
+soft natural or diffused indoor light, believable candid documentary photograph,
+quiet uncluttered background, square composition, no text,
+no unintended additional objects from the instructed category
 ```
 
 ### Manual review before publishing
 
-For every tile, verify: (1) the intended object and modification are visible; (2) the natural background is plausible; (3) the object is recognisable at **actual game tile size**; (4) the scene has no accidental extra target or misleading prop; (5) photograph quality, object scale and visual clutter are comparable to the other eight tiles; (6) any bizarre feature is intentional; and (7) the proposed `target`, `borderline` or `distractor` role remains defensible. Review the full nine-tile contact sheet as well as each image individually. Regenerate, edit with documented provenance, or discard failures before setting `published: true`.
+For every tile, verify: (1) the intended object and modification are visible; (2) the natural background is plausible; (3) the object is recognisable at **actual game tile size**; (4) the scene has no accidental extra target or misleading prop; (5) photograph quality, object scale and visual clutter are comparable to the other eight tiles; (6) any bizarre feature is intentional; and (7) the proposed `target`, `borderline` or `distractor` role remains defensible. **Across the set**, check that object colours, facing directions, views and backgrounds have useful variety rather than repetitive black side-on imagery, and that the variation is not concentrated in one target class. Review the full nine-tile contact sheet as well as each image individually. Regenerate, edit with documented provenance, or discard failures before setting `published: true`.
 
 ### Publishing a new set
 

@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.7 · **Last updated:** 20 October 2026
+**Version:** 1.8 · **Last updated:** 20 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -18,7 +18,7 @@ The Department's written instructions are wholly normal image-CAPTCHA tasks. Can
 
 **Bizarre-category threshold (owner decision, 20 October 2026):** a `member-bizarre` item must remain recognisably within its category while showing an obvious, deliberately impossible and visually funny reality. Merely impractical or eccentric design, novelty animal-shaped products and accidental model artefacts are insufficient. `Member-debatable` images require plausible disagreement about **category membership** based on appearance, identity and function; bizarreness itself is not ambiguity. The image should communicate without captions at its actual grid-tile size. See [`docs/stimuli.md`](../../../docs/stimuli.md#creative-direction-ridiculous-realities-not-novelty-products) and [`docs/stimulus-concepts.md`](../../../docs/stimulus-concepts.md) for the updated editorial rules and table.
 
-**Visual generation decision:** new images should use natural, context-appropriate surroundings (not automatically blank studio backgrounds), with consistent realistic lighting, framing, object legibility and moderate background complexity across each nine-tile grid. The surrounding scene should look ordinary even when the object is absurd. Exceptions are allowed where a neutral studio is contextually appropriate or part of a controlled design. The specific environment and viewpoint must be described in each tile's generation prompt and reviewed for contextual confounds. Binding details for this production decision are elaborated in [`docs/stimuli.md`](../../../docs/stimuli.md#stimulus-photography-and-background-guidelines). The existing 512 px render and 512/256 px published formats remain unchanged.
+**Visual generation decision:** new images should use natural, context-appropriate surroundings (not automatically blank studio backgrounds), with consistent realistic lighting, framing, object legibility and moderate background complexity across each nine-tile grid. The surrounding scene should look ordinary even when the object is absurd. Exceptions are allowed where a neutral studio is contextually appropriate or part of a controlled design. Images in the same pool must **not** all share one dark palette, facing direction, side-on camera angle or near-identical composition. Plan a mixture of realistic colours, left/right orientations and side/three-quarter/elevated views *across* target categories, while protecting object legibility and the bizarre feature. The specific environment, viewpoint, facing direction and colour must be described in the generation brief/prompt and reviewed for visual category cues or confounds. Binding details for this production decision are elaborated in [`docs/stimuli.md`](../../../docs/stimuli.md#stimulus-photography-and-background-guidelines). The existing 512 px render and 512/256 px published formats remain unchanged.
 
 **Migration:** the original G01 bicycle grid remains a playable fallback. The unpublished G02–G10 one-answer drafts are superseded and must not be published unchanged. New images still need to be generated and reviewed: the concept table is not a built catalogue. The current V1 remains a fun game, not a validated behavioural experiment.
 
@@ -116,6 +116,8 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 - Licence: GPL-3.0-or-later for the whole repository (owner's decision, 20 October 2026), so that the game can be published together with WebGazer.
 
 ## Changelog
+
+- **1.8 (20 October 2026):** stimulus-generation sets should vary believable colours, object orientation, side/three-quarter camera views and scene composition across categories; common photographic realism and legibility remain consistent. Added a 12-shot bicycle example plan to avoid repetitive black side-view renders.
 
 - **1.7 (20 October 2026):** raised the humour threshold to unmistakable surreal impossibilities instead of novelty product design, distinguished these from truly debatable category judgements, and revised the bizarre and debatable examples in all 15 twelve-image theme pools.
 
