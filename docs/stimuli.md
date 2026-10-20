@@ -69,6 +69,39 @@ The standard is **an ordinary photograph of an impossible reality**. As a concep
 - The absurdity must belong to the **object**, not to accidental model defects. Check for unintended deformed anatomy, missing parts, fused backgrounds, unreadable features and accidental extra targets. Intentional square wheels are acceptable; random mangled spokes are not.
 - Apply the same standards to **ordinary, bizarre, borderline and non-member** tiles. A target must not be identifiable merely because its image has different lighting, cleanliness, resolution or rendering style. Similarly, **do not assign all vivid colours or unusual camera angles to the bizarre targets**; mix colours and views across the four categories.
 
+### Natural placement, support and physical coherence — all categories
+
+**Stage the object as someone would normally encounter it, not as an isolated catalogue exhibit.** This applies to every theme and to normal, bizarre, debatable and non-member images. A suitable background alone is insufficient: the object's position, contact with its surroundings and means of support must also be believable.
+
+- **Plan a concrete placement before rendering:** name the supporting surface or object, the contact points and the pose. Use a mix of walls, railings, racks, floors, tables, shelves, water and other category-appropriate surroundings. Do not repeat the same conspicuous support device across a pool.
+- **Prefer ordinary contextual support.** Most parked bicycles should lean naturally against a wall, fence or railing, or rest against an ordinary bicycle rack (`fietsenrek`). A green wall, a weathered garden fence or a station rack can make the scene credible without becoming another visual joke. A deployed kickstand is acceptable for some shots when natural; do not solve the whole set with added kickstands, repair stands or showroom display stands.
+- **Show a credible load path:** the object must actually touch the wall, rack, ground or other support. A support merely placed nearby is insufficient. Leaning objects need a plausible lean; feet, tyres, bases and contact shadows must agree with the same surface and perspective. A stationary two-wheeled bicycle cannot balance upright unsupported.
+- **Keep support separate from function.** Stands must not replace pedals, crank arms, legs or other defining components. Check complete joints, frame connections, wheel axles, chain routing, handles and hinges after every edit. A plausible support does not compensate for a missing pedal or fused mechanism.
+- **Preserve only the intended impossibility.** Explicitly identify the deliberate absurd feature, then require ordinary physical coherence elsewhere. A square-wheeled bicycle may have square wheels, but it still needs believable parking support. A floating van is an exception to ground contact because hovering is the specified joke; do not add a stand that defeats it.
+- **Protect the category and punchline:** supports and surroundings must not obscure defining features, introduce another category member, or become an unintended clue to the answer. Apply comparable contextual care across all four roles. Genuine category ambiguity must come from the intended concept rather than rendering errors.
+
+Use the relevant placement principle for **all fifteen candidate themes**:
+
+| Theme | Natural placement and support checks |
+|---|---|
+| Bicycles | Mostly lean against walls, fences or railings, or park against ordinary racks; show actual contact. Use occasional deployed kickstands where appropriate. Preserve all pedals, chains and wheels. Exercise bikes use their normal stabiliser feet. |
+| Chairs | Place feet, rockers or the normal wheeled base on a plausible floor or ground surface. For walking-chair concepts, show the intended feet making credible contact; preserve the deliberate anatomy. |
+| Ducks | Show plausible feet on a bank, ground or perch, or believable immersion and ripples in water. Preserve intended hybrid features without unrelated anatomical errors. |
+| Cars | Park on tyres in an ordinary bay or street, with consistent ground contact and shadows. Use the specified legs or hovering behaviour only when integral to the joke. |
+| Houses | Relate foundations to the street or terrain; preserve plausible scale, access and perspective. Walking houses use the deliberately specified legs or boots as supports. |
+| Lamps | Rest bases on tables or floors, or show a conventional wall/ceiling attachment where appropriate. Preserve intended surreal light or anatomy without making the whole lamp inexplicably float. |
+| Shoes | Rest soles on a floor, shelf or other ordinary surface, or show them worn where required by the concept. Keep any intended walking legs, hand heel or other alteration deliberate and readable. |
+| Clocks | Show a credible wall fastening, shelf, bedside table or floor placement appropriate to the clock. Keep supports clear of the dial and preserve intentional arms, legs or cuckoo features. |
+| Boats | Show believable flotation, waterline, reflections and ripples, or ordinary shore/mooring support. For walking boats, relate the specified legs to the beach or ground. |
+| Computers | Place devices and peripherals coherently on desks, worktops or laps when essential to the scene. Screens, keyboards and supports must remain structurally distinct from the intended impossible content. |
+| Musical instruments | Use an ordinary case, instrument stand, floor or table placement appropriate to the instrument. Keep support away from keys, strings, valves and the central absurd feature. |
+| Vehicles | Use appropriate road, rail or ground contact and ordinary parking arrangements; departures such as legs or hovering must be explicitly part of the concept. |
+| Hats | Show headwear resting on a shelf, hook or table, or worn where the concept requires it. For walking hats, preserve the intended legs and their contact with the ground. |
+| Bridges | Show credible connections to both banks or their intended supports, consistent water/ground relationships and clear load-bearing contact, apart from the explicitly specified impossible feature. |
+| Sandwiches | Rest food on a plate, board, wrapping or tabletop with coherent contact and scale. Preserve intended sausage legs or oversized fillings without unrelated floating layers or props. |
+
+Record **placement, support, contact points and intended exception** in each generation prompt and provenance sidecar. Inspect these at full resolution and actual tile size, then re-check the whole pool for repeated catalogue staging. Edits require the same review as first renders: reject unsupported balancing, floating contact points, interpenetrating supports, displaced shadows and replacement of functional parts.
+
 ### Variety within a consistent photographic style
 
 **Consistency does not mean identical camera angle, colour, orientation or backdrop.** The initial bicycle samples leaned heavily towards black objects photographed from the same side; the resulting set looked like repeated catalogue photographs. Future images should have the variety of ordinary photographs taken by different people in real places, while retaining comparable legibility and rendering quality.
@@ -77,7 +110,7 @@ The standard is **an ordinary photograph of an impossible reality**. As a concep
 - **Vary the angle:** combine full side profiles, front-left and front-right three-quarter views, occasional rear three-quarter views and modestly higher or lower camera positions. Use direct frontal or overhead views only when the target remains unmistakably recognisable. Do not force one of each view at the expense of the joke.
 - **Vary facing direction:** some bicycles face left and others right. Do not simply mirror generated images if that makes mechanisms, writing, or lighting physically inconsistent; request a different shot during generation.
 - **Vary object colours and finishes:** use believable greens, reds, blues, yellow, cream, silver, natural wood and black across the set, not an almost exclusively black palette. Colour should suit the object and setting.
-- **Vary pose and placement:** parked against a wall, leaning on a kickstand, standing near a cycle path, photographed diagonally, or placed in an appropriate indoor setting. Avoid cloning the same “centred side profile against a brick wall” layout.
+- **Vary pose and placement:** lean against a wall or fence, park against an ordinary rack, rest on an appropriate surface, or use an occasional natural kickstand. Name and show the actual support; merely standing near a cycle path does not explain an upright bicycle. Avoid cloning the same “centred side profile against a brick wall” layout.
 - **Keep the visual task fair:** vary colours, angles and backgrounds across **all four roles** (normal, bizarre, debatable and non-member). Neither “black object” nor “three-quarter view” should be a shortcut to identifying a target or distractor. Do not add excessive clutter or dramatic blur to make a particular category harder.
 - **Preserve the punchline:** the camera must make the impossible feature visible. Square wheels benefit from an oblique/near-side view that shows both squares; a knotted frame needs its knot unobstructed; a six-saddle bicycle needs a wide-enough view to count saddles. Pick legibility over artificial variety.
 
@@ -91,12 +124,12 @@ The following are **twelve candidate shots**, not instructions to add twelve til
 
 | Candidate | Suggested colour / material | Suggested view and direction | Plausible background and visible detail |
 |---|---|---|---|
-| Dutch city bicycle (normal) | Deep burgundy, cream mudguards | Front-left three-quarter, facing right | Quiet brick residential street; full wheels and familiar frame visible |
-| Racing bicycle (normal) | Cobalt blue with silver accents | Drive-side profile, facing left | Cycle path among fields; clean drivetrain and drop handlebars |
-| Folding bicycle (normal) | Mustard yellow or red | Slightly elevated front-right three-quarter | Pavement near a station; folding joint and small wheels legible |
-| Square-wheeled bicycle (bizarre) | Bright red steel frame | Left three-quarter / near-side profile | Residential street; **both square wheels** recognisable immediately |
-| Six-saddle bicycle (bizarre) | Forest-green elongated frame | Wide side view, facing right | Open cycle path; **all saddles and pedal sets** fit in image |
-| Knotted-frame bicycle (bizarre) | Warm orange or turquoise | Right three-quarter with unobstructed centre | Quiet park lane; dramatic **frame knot** plainly visible between normal wheels |
+| Dutch city bicycle (normal) | Deep burgundy, cream mudguards | Front-left three-quarter, facing right | Quiet brick residential street; leaning against a muted green wall with visible saddle/handlebar contact; full wheels and frame visible |
+| Racing bicycle (normal) | Cobalt blue with silver accents | Drive-side profile, facing left | Beside a cycle path among fields; leaning against a weathered wooden fence; clean drivetrain and drop handlebars |
+| Folding bicycle (normal) | Mustard yellow or red | Slightly elevated front-right three-quarter | Pavement near a station; resting against an ordinary empty bicycle rack; folding joint, pedals and small wheels legible |
+| Square-wheeled bicycle (bizarre) | Bright red steel frame | Left three-quarter / near-side profile | Residential street; leaning against a pale green wall with credible contact; **both square wheels** immediately recognisable |
+| Six-saddle bicycle (bizarre) | Forest-green elongated frame | Wide side view, facing right | Beside an open cycle path; leaning against a long timber railing behind the saddles; **all six saddles and pedal sets** fit in image |
+| Knotted-frame bicycle (bizarre) | Warm orange or turquoise | Right three-quarter with unobstructed centre | Quiet park lane; leaning against an ordinary park railing behind the bicycle; dramatic **frame knot** and pedals unobstructed |
 | Stationary exercise bike (debatable) | Teal and light grey | Front-right three-quarter, slightly elevated | Home gym; pedals, saddle and flywheel visible |
 | Pedal-powered horse (debatable) | Natural chestnut coat, mixed metal fittings | Left three-quarter, facing left | Country lane or farmyard; horse, wheels **and pedals** visible |
 | Pedal-powered office chair (debatable) | Grey fabric, silver mechanism, coloured trim | Front-left three-quarter | Office corridor; wheelbase, pedals and seating visible |
@@ -119,6 +152,7 @@ Example prompt pattern:
 [plausible location DIFFERENT from other candidate shots],
 [specific camera view: left or right side / front-left or front-right three-quarter / modestly elevated],
 [object facing left or right; all defining features visible],
+[specific natural placement, support and visible contact points; intended exception if any],
 soft natural or diffused indoor light, believable candid documentary photograph,
 quiet uncluttered background, square composition, no text,
 no unintended additional objects from the instructed category
@@ -126,7 +160,7 @@ no unintended additional objects from the instructed category
 
 ### Manual review before publishing
 
-For every tile, verify: (1) the intended object and modification are visible; (2) the natural background is plausible; (3) the object is recognisable at **actual game tile size**; (4) the scene has no accidental extra target or misleading prop; (5) photograph quality, object scale and visual clutter are comparable to the other eight tiles; (6) any bizarre feature is intentional; and (7) the proposed `target`, `borderline` or `distractor` role remains defensible. **Across the set**, check that object colours, facing directions, views and backgrounds have useful variety rather than repetitive black side-on imagery, and that the variation is not concentrated in one target class. Review the full nine-tile contact sheet as well as each image individually. Regenerate, edit with documented provenance, or discard failures before setting `published: true`.
+For every tile, verify: (1) the intended object and modification are visible; (2) the natural background is plausible; (3) the object is recognisable at **actual game tile size**; (4) the scene has no accidental extra target or misleading prop; (5) photograph quality, object scale and visual clutter are comparable to the other eight tiles; (6) any bizarre feature is intentional; (7) the proposed `target`, `borderline` or `distractor` role remains defensible; and (8) placement, actual support contact, ground/water relationships, shadows and functional components are coherent apart from the specified impossibility. Reject bikes balancing upright unsupported and edits that turn pedals into stands. **Across the set**, check that object colours, facing directions, views and backgrounds have useful variety rather than repetitive black side-on imagery, and that the variation is not concentrated in one target class. Review the full nine-tile contact sheet as well as each image individually. Regenerate, edit with documented provenance, or discard failures before setting `published: true`.
 
 ### Publishing a new set
 
