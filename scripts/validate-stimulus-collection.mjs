@@ -135,6 +135,7 @@ for (const [id, a] of assets) {
   strings(l.conditions, `${id}.licence.conditions`, { nonempty: true });
   for (const u of strings(l.evidence_urls, `${id}.licence.evidence_urls`, { nonempty: true })) url(u, id);
   if (l.evidence_status === 'verified' && (!text(l.verified_by) || !utc(l.verified_at) || !text(s.publisher_url))) fail(id, 'verified rights require source page, reviewer and time');
+  if (l.evidence_status === 'verified' && (!Array.isArray(l.evidence_urls) || !l.evidence_urls.includes(s.publisher_url) || !l.evidence_urls.includes(l.url) || !text(l.verification?.matching_basis) || !text(l.verification?.publisher_evidence) || !text(l.verification?.intended_use))) fail(id, 'verified rights require individual publisher/licence evidence, matching basis and intended use');
   if (l.evidence_status === 'inherited' && a.origin !== 'legacy-generated') fail(id, 'inherited rights are limited to existing generated imports');
 }
 
@@ -221,6 +222,7 @@ for (const [id, v] of versions) {
     if (!same(op.original_tile?.provenance, a.source.generation_provenance)) fail(id, 'legacy generation provenance changed');
     continue;
   }
+  if (v.levels.includes('suitable') && (!rightsCleared(id) || v.reviews?.rights?.status !== 'approved')) fail(id, 'suitable selection requires verified rights and derivative permission during the search');
   if ((processing || v.files.length) && (!rightsCleared(id) || v.reviews?.rights?.status !== 'approved')) fail(id, 'local/processed images require verified rights and derivative permission for all contributing sources');
   if (!processing) { if (op.type !== 'discovery') fail(id, 'raw/suitable versions use discovery operation'); continue; }
   if (!parents.length || v.reviews?.visual?.status !== 'approved') fail(id, 'processed version requires parents and visual approval');

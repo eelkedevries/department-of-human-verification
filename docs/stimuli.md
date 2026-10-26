@@ -6,9 +6,9 @@ Each assessment shows one ordinary instruction and nine individually selectable 
 
 All stimulus work uses the [staged collection](../stimuli/README.md) and its mandatory [agent instructions](../stimuli/AGENTS.md). The five levels are `raw`, `suitable`, `standardized`, `manipulated` and `final`, with theme folders within each. Raw/suitable can remain linked photographs; standardised files, edited masters and final selections are stored in the repository. The canonical registry records descriptions, keywords, theme-specific roles, creator/licence evidence, visual characteristics, parent versions and file hashes. Stage manifests select versions, and an append-only log records decisions and edits.
 
-Licensed photographs may supply ordinary images or inputs for later AI edits. Verify each source and its derivative permission before editing or committing its bytes. A visual shortlist with pending rights checks is not ready for publication. Third-party licences remain distinct from the code licence. Both ordinary and manipulated selections must meet the photography guidelines below; edited masters must be standardised before final selection.
+Licensed photographs may supply ordinary images or inputs for later AI edits. Verify each source and its derivative permission automatically during the search, before presenting it as suitable or adding it to `suitable`; see the search procedure below. Third-party licences remain distinct from the code licence. Both ordinary and manipulated selections must meet the photography guidelines below; edited masters must be standardised before final selection.
 
-The collection includes 20 linked candidates and nine visually suitable selections, plus a versioned snapshot of the existing G01 files. It does not replace the live catalogue or add a photograph-import path to the renderer-only publisher. Recording a final set is separate from changing the game or deploying it. The current 512/256 px WebP pipeline remains in use.
+The collection includes 24 linked raw candidates and 20 suitable selections with individual visual/rights reviews, plus a versioned snapshot of the existing G01 files. Four unresolved originals remain raw only; verified alternatives complete the twenty-image selection. The [source review](../stimuli/raw/bicycles/rights-review-2026-10-26.md) records the evidence. The collection does not replace the live catalogue or add a photograph-import path to the renderer-only publisher. Recording a final set is separate from changing the game or deploying it. The current 512/256 px WebP pipeline remains in use.
 
 ## Current status and replacement direction
 
@@ -65,6 +65,18 @@ The standard is **an ordinary photograph of an impossible reality**. As a concep
 ## Stimulus photography and background guidelines
 
 **Default: an ordinary photograph of an extraordinary object.** Use natural, object-appropriate settings rather than a plain studio backdrop. The Department's instruction remains entirely conventional; the image provides the humour. A square-wheeled bicycle should appear to have been parked on a street without anyone considering that unusual.
+
+### Automatic checks during image searches
+
+Source and rights verification belongs to the search procedure and must happen without a separate user request. For every photograph that will be presented as suitable:
+
+1. Find the original publisher page and match the exact photograph, creator and native image ID. Do not substitute a similar photograph or infer identity from a caption alone.
+2. Read the licence applying to that individual image and its current terms. Confirm that it permits the intended website/game use and later manipulation, including AI edits. Check any attribution, share-alike, non-commercial, branding, privacy and redistribution restrictions relevant to that use. An aggregator's `free` label or general platform terms without an image match is insufficient.
+3. Record the publisher URL, licence/evidence URLs, matching basis, permissions, conditions, reviewer and verification date in `stimuli/catalogue.json`; append the rights decision to `stimuli/history.jsonl`.
+4. Complete visual and quality review: no people for an unused-object search; natural placement and visible support; complete defining parts; appropriate perspective; sufficient resolution for a square crop and the 512/256 px outputs. Evaluate the proposed crop as well as the full source.
+5. Rank and present only verified, visually suitable images towards the requested total. Keep uncertain candidates in `raw`, explicitly flagged, and continue searching for verified replacements. Include clickable publisher and licence links in the delivered selection. Do not defer rights checks to a later editing or publication task.
+
+Verification records the evidence for the intended use; it does not remove licence conditions. Where a source prohibits AI training, later editing must use tools/settings that do not train on its inputs. Permission to modify an image does not authorise a training dataset. Re-check before editing or publication when the use changes or the earlier evidence does not cover it.
 
 ### Photographic style
 

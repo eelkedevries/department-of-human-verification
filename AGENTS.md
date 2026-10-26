@@ -34,6 +34,8 @@ Update `current_state.md` when a prompt adds a system or a key decision — for 
 
 Before finding, selecting, generating, standardising, manipulating or publishing any stimulus, read and follow [`stimuli/AGENTS.md`](stimuli/AGENTS.md), [`stimuli/README.md`](stimuli/README.md) and the photography guidelines in `docs/stimuli.md`. All future stimulus work must use this collection; inspect the existing registry before adding duplicates.
 
+Individual rights checks are an automatic part of every image search. Without waiting for a separate request, trace each shortlisted photograph to its original publisher page, match the exact image and creator, check its applicable licence permits the intended game use and later AI manipulation, and record the evidence URLs, conditions, reviewer and date. A stock catalogue's `free` label or a platform's general licence alone is insufficient. Complete these checks before presenting an image as suitable or adding it to `suitable`; retain unresolved candidates only in `raw`, clearly flagged, and continue searching for verified replacements when needed to fulfil the requested selection.
+
 | Level | Organisation and purpose |
 |---|---|
 | `stimuli/raw/<theme>/` | Linked source candidates with creator, licence evidence, description, tags and original rank |

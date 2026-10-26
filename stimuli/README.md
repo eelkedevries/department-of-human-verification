@@ -7,7 +7,7 @@ This folder holds possible stimuli and records how they become game images. Star
 | Level | Contents | Image storage |
 |---|---|---|
 | [raw](raw/bicycles/index.json) | Discovered sources, including candidates that still need review | External links are sufficient. Local downloads belong in the ignored `.cache/` folder. |
-| [suitable](suitable/bicycles/index.json) | A reviewed subset, with reasons and outstanding issues | References to raw versions; no duplicate photographs required |
+| [suitable](suitable/bicycles/index.json) | A visually reviewed, rights-verified subset, with reasons and preparation notes | References to raw versions; no duplicate photographs required |
 | [standardized](standardized/bicycles/index.json) | Suitable originals or edited versions converted to the game format | Commit the 512 px and 256 px WebP files and their metadata. |
 | [manipulated](manipulated/bicycles/index.json) | Edited variants, including AI edits, with their original inputs preserved | Commit the edited master and its provenance. |
 | [final](final/bicycles/index.json) | Versioned nine-image selections for a theme and game grid | Commit the exact selected image files in each set folder. |
@@ -20,8 +20,8 @@ The usual route is raw → suitable → standardized → final. For an edited st
 
 ## Current contents
 
-- Twenty linked photographs from the 26 October 2026 gallery, including 16 bicycles and four distractors. The original rank and source limitations are preserved.
-- Nine `Strong base` entries also listed as suitable. This records visual suitability; rights checks remain pending. Eleven of the 20 source publisher pages were not resolved, although each entry has an exact photograph URL.
+- Twenty-four linked raw photographs: the original twenty and four verified replacements. Original gallery ranks and discovery history are preserved.
+- Twenty suitable photographs with approved visual and individual rights reviews: sixteen bicycles, a motor scooter, a motorcycle, a skateboard and a quirky car. Sixteen originals are retained; four unresolved originals remain raw only. The [rights review](raw/bicycles/rights-review-2026-10-26.md) records publisher links, matching evidence, licence conditions and exclusions.
 - No new standardised or manipulated photographs. Empty manifests are intentional.
 - A [G01 version 1 snapshot](final/bicycles/G01/1/README.md) containing byte-identical copies of the existing published grid. It is an import of the existing selection, with inherited provenance and no invented intermediate stages.
 
@@ -39,7 +39,9 @@ Descriptions, object types and roles are version-specific. An edit may turn a cl
 
 Controlled fields are listed in `vocabulary.json`: levels, themes, roles, origins, semantic classes, review states, rights-evidence states and log actions. Keywords are descriptive lowercase kebab-case tags; add as many as are useful without creating synonyms for the same concept. Store colour, viewpoint, facing direction, environment, support, people and additional category members in `characteristics`. Use `unknown` or an explicit unresolved issue when a detail has not been checked.
 
-Each source licence records its name, URL, attribution, conditions, evidence status and modification permission. A catalogue's `free` label and a known publisher URL are not independent verification. For third-party images, record a verified source/licence and permission to make derivatives before committing image bytes or starting edits. The code's GPL licence does not relicense a photographer's work. Existing generated G01 files retain the repository's GPL terms and the recorded Apache-2.0 model provenance separately.
+Each source licence records its name, URL, attribution, conditions, evidence status and modification permission. A catalogue's `free` label and a known publisher URL are not independent verification. Automatically verify the exact photograph, creator, applicable licence and intended reuse/modification rights during the search, before presenting it as suitable or selecting it into `suitable`. Record the matching basis, publisher evidence, reviewer and date. Keep unresolved sources raw and search for verified replacements. Re-check before later work when the intended use changes or earlier evidence does not cover it. The code's GPL licence does not relicense a photographer's work. Existing generated G01 files retain the repository's GPL terms and the recorded Apache-2.0 model provenance separately.
+
+Licence conditions survive review: some sources restrict standalone distribution or model training. Use photographs within the authored game/review and use AI editing tools/settings that do not train on inputs where required. Permission to modify does not grant training-dataset rights. Keep third-party source files linked at raw/suitable rather than distributing a stock-image collection. The historical white folding bicycle is recorded as CC0 using its 2016 publisher date and Pixabay terms section 4; later Pixabay photographs retain their individual Content License records.
 
 `files` records repository-relative paths, SHA-256 hashes, dimensions, format, colour mode/space, byte count and purpose (`large`, `small` or `master`). A downloaded preview's hash identifies that preview only; do not present it as the unknown original master's hash. Crop coordinates state their reference dimensions and whether they describe a preview or verified master.
 
@@ -71,4 +73,4 @@ Recording a final set does not publish it. The existing `tools/stimuli/source.js
 
 Append one JSON object per line to `history.jsonl`. Include a unique event ID, UTC time, actor, action, affected asset/version/set IDs, parent/output IDs, previous/new level or state, and the reason. Add a new event to correct a decision. Never erase earlier decisions or invent an approval time that is not known. Git preserves previous snapshots; the validator checks the current log's references and current-state events, not the honesty of an agent's judgement.
 
-Run `npm run validate:collection` after collection changes and `npm run check` before committing. Validation is offline: it checks URL syntax, not whether a remote photograph is still available or legally cleared. Agents must perform and record those checks separately. The validator also checks local file hashes, WebP dimensions, lineage, stage membership and final-set completeness.
+Run `npm run validate:collection` after collection changes and `npm run check` before committing. Validation is offline: it checks URL syntax, not whether a remote photograph is still available or legally cleared. Agents must perform and record those checks during the search. The validator requires approved rights and verified modification permission for suitable selection, and also checks local file hashes, WebP dimensions, lineage, stage membership and final-set completeness.
