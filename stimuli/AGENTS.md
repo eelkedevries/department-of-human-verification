@@ -26,6 +26,6 @@ These instructions apply to every AI agent working on stimulus discovery, select
 
 Log events use unique IDs, UTC timestamps and a named actor. Record the action, affected IDs, parent/output IDs, old/new stage or state, and reason. Append corrections and reversals. Preserve previous log lines and immutable final sets in Git.
 
-Run `npm run validate:collection` and the root `npm run check`. Check remote URLs and licence evidence manually when selecting/editing a source; normal validation makes no network requests. Do not bypass validation with missing files, fake hashes, invented approval records or a legacy flag.
+Run `npm run validate:collection`, `npm run gallery:collection` to regenerate `GALLERY.md`, and the root `npm run check`. Check remote URLs and licence evidence manually when selecting/editing a source; normal validation makes no network requests. Do not bypass validation with missing files, fake hashes, invented approval records or a legacy flag.
 
 The collection belongs outside the deployed build. A final manifest does not update the game or authorise deployment. Use an explicit publishing task and the existing game catalogue/publisher, preserving opaque public filenames and the 512/256 px formats. Do not change the live fallback merely because a candidate has been selected here.

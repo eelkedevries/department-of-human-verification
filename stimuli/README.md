@@ -1,6 +1,6 @@
 # Stimulus collection
 
-This folder holds possible stimuli and records how they become game images. Start with [AGENTS.md](AGENTS.md) for mandatory agent instructions. The [catalogue](catalogue.json) is the canonical record; stage manifests select its version IDs without duplicating source metadata. [history.jsonl](history.jsonl) records decisions and transformations in order.
+This folder holds possible stimuli and records how they become game images. Browse the images in the [gallery](GALLERY.md). Start with [AGENTS.md](AGENTS.md) for mandatory agent instructions. The [catalogue](catalogue.json) is the canonical record; stage manifests select its version IDs without duplicating source metadata. [history.jsonl](history.jsonl) records decisions and transformations in order.
 
 ## Levels
 
@@ -73,4 +73,4 @@ Recording a final set does not publish it. The existing `tools/stimuli/source.js
 
 Append one JSON object per line to `history.jsonl`. Include a unique event ID, UTC time, actor, action, affected asset/version/set IDs, parent/output IDs, previous/new level or state, and the reason. Add a new event to correct a decision. Never erase earlier decisions or invent an approval time that is not known. Git preserves previous snapshots; the validator checks the current log's references and current-state events, not the honesty of an agent's judgement.
 
-Run `npm run validate:collection` after collection changes and `npm run check` before committing. Validation is offline: it checks URL syntax, not whether a remote photograph is still available or legally cleared. Agents must perform and record those checks during the search. The validator requires approved rights and verified modification permission for suitable selection, and also checks local file hashes, WebP dimensions, lineage, stage membership and final-set completeness.
+Run `npm run validate:collection` and `npm run gallery:collection` (which regenerates [GALLERY.md](GALLERY.md)) after collection changes, and `npm run check` before committing; the check fails when the gallery is stale. Validation is offline: it checks URL syntax, not whether a remote photograph is still available or legally cleared. Agents must perform and record those checks during the search. The validator requires approved rights and verified modification permission for suitable selection, and also checks local file hashes, WebP dimensions, lineage, stage membership and final-set completeness.
