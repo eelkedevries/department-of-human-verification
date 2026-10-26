@@ -1,0 +1,31 @@
+# Mandatory stimulus workflow
+
+These instructions apply to every AI agent working on stimulus discovery, selection, standardisation, editing, generation or publication. Read this file, [README.md](README.md), the relevant stage/theme manifests and the [photography guidelines](../docs/stimuli.md#stimulus-photography-and-background-guidelines) before starting.
+
+## Use the collection
+
+1. Search `catalogue.json` for the source URL/provider ID, description, keywords, object type and theme before adding a candidate. Reuse the asset identity for the same source. Check downloaded hashes when available; do not invent an original-file hash from a preview.
+2. Register every new source as `raw`, with creator, source/direct URLs, dimensions, licence evidence, keywords, short description, visual characteristics and provisional theme-specific role. Unknown values and unresolved rights must remain explicit. Keep external source photographs linked; download working copies to `stimuli/.cache/` rather than committing them by default.
+3. Promote only a reviewed subset to `suitable`. Record the reason, rank, planned crop, visible support and any limitations. Keep the raw membership. Visual selection alone does not clear rights or approve publication.
+4. Verify the source licence and derivative permission before committing third-party image bytes or editing them. Record who checked it, when, the evidence URLs and any conditions. A stock index's `free` label is insufficient. Preserve attribution, source licences and any share-alike obligations; do not label all third-party photographs GPL.
+5. Put actual standardised files under `standardized/<theme>/`. Match `webp-512-256-v1`, record all transformations, preserve parent versions and inspect the result at game tile size. Do not silently stretch, upscale or change content during standardisation.
+6. Put actual AI-edited masters under `manipulated/<theme>/`, with a new version ID and complete editing provenance. A URL alone is not an edited master. Record instructions, tool/provider, model/revision, seed or reason unavailable, actor, timestamp, parents and hashes. Visually review the intended alteration and all unaffected support/functional parts. Standardise each selected edit before final use.
+7. Put a final selection in `final/<theme>/<set-id>/<version>/`, with both sizes of every chosen image and a complete manifest. Pin exact versions, instruction, roles, answer key, game grid/version and selection review. Choose nine distinct images and retain previous set versions. Never overwrite a final set to reuse its version number.
+8. Update the canonical registry, affected stage manifests and append-only history together for each discovery, review, rejection, promotion, edit, rights decision or set selection. Rejections remove only the relevant selection membership, not the raw source/history. Existing generated final imports retain their original recorded provenance; do not fabricate missing ancestors or retrospective approvals.
+
+## IDs, tags and review gates
+
+- `asset_id` identifies the source; `version_id` identifies an unchanged source or a particular derivative. Unchanged raw/suitable records share a version. Pixel edits and re-encodes require new versions and parent references. Branches are allowed.
+- Level folders are exactly `raw`, `suitable`, `standardized`, `manipulated`, `final`; prose uses British English. Inside them use theme slugs from `vocabulary.json`. Create new themes as needed and update that vocabulary in the same change.
+- Keep actual `object_type` separate from the instructed theme. Record description, object type, keywords and theme-specific assessments on each version: an edit can change category membership without rewriting the original source. Use `target`, `distractor`, `borderline` or `unassigned`; a role is not a global property of an object. Use `member-normal`, `member-bizarre`, `member-debatable` or `non-member` only when defensible.
+- Use descriptive kebab-case keywords and record colour, camera view, facing direction, environment, support, people and additional category members. Do not infer an unchecked detail from the search query. A crop-specific assessment must identify its crop; the full source may contain something outside it.
+- Each new standardised/manipulated version requires approved parent visual review, cleared rights for every contributing source, recorded operations and local bytes. Each new final version copies an approved standardised version byte-for-byte. New final sets require approved visual/set review and defensible roles. Retain documented licence conditions on derivatives.
+- The G01 legacy import is a historical snapshot of the existing published catalogue, not a shortcut around these gates. Do not add new legacy exemptions.
+
+## History and verification
+
+Log events use unique IDs, UTC timestamps and a named actor. Record the action, affected IDs, parent/output IDs, old/new stage or state, and reason. Append corrections and reversals. Preserve previous log lines and immutable final sets in Git.
+
+Run `npm run validate:collection` and the root `npm run check`. Check remote URLs and licence evidence manually when selecting/editing a source; normal validation makes no network requests. Do not bypass validation with missing files, fake hashes, invented approval records or a legacy flag.
+
+The collection belongs outside the deployed build. A final manifest does not update the game or authorise deployment. Use an explicit publishing task and the existing game catalogue/publisher, preserving opaque public filenames and the 512/256 px formats. Do not change the live fallback merely because a candidate has been selected here.

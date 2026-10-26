@@ -12,6 +12,28 @@ echo "Inspecting build output: $BUILD_DIR"
 
 fail=0
 
+# The authoring collection is not a deployable asset directory. Public game
+# images still live directly under public/stimuli/ with opaque filenames.
+collection_files="$(find "$BUILD_DIR" \( \
+    -name 'history.jsonl' -o \
+    -name 'vocabulary.json' -o \
+    -path '*/stimuli/raw' -o \
+    -path '*/stimuli/suitable' -o \
+    -path '*/stimuli/standardized' -o \
+    -path '*/stimuli/manipulated' -o \
+    -path '*/stimuli/final' \
+  \) -print)"
+if [[ -n "$collection_files" ]]; then
+  printf 'Unpublished stimulus collection files found in build output:\n%s\n' "$collection_files" >&2
+  fail=1
+fi
+if grep -RIlE --binary-files=without-match \
+     'dhv-stimulus-(collection|stage|final-set)-v1|stimuli/(raw|suitable|standardized|manipulated|final)/' \
+     "$BUILD_DIR" >/dev/null 2>&1; then
+  echo 'Stimulus authoring metadata or source paths found inside build files.' >&2
+  fail=1
+fi
+
 matches="$(find "$BUILD_DIR" \( \
     -iname '*docs-dev*' -o \
     -iname '*.env*' -o \

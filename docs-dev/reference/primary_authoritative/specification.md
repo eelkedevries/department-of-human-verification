@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.9 · **Last updated:** 20 October 2026
+**Version:** 1.10 · **Last updated:** 26 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -57,6 +57,7 @@ Other games from the same proposal; a public leaderboard; any real verification 
 - **Flow:** notice → briefing (time-limit choice) → round 1…5 (each round reveals its own feedback in place) → report → replay, which starts a new session directly at round 1 with the same settings.
 - Gameplay, display, stimulus data and metrics are separate modules so that version 2 can add a gaze source and research conditions without rewriting the game.
 - **Stimulus pipeline:** `tools/stimuli/source.json` (prompts, seeds, instructions, answer keys) → `generate.py` (local render) → human review with `review.py` contact sheets → `build.py` (publish WebP files with opaque names, write the catalogue) → `scripts/validate-stimuli.mjs` (part of `npm run check`).
+- **Stimulus collection:** `stimuli/` is the mandatory authoring collection, organised by `raw`, `suitable`, `standardized`, `manipulated` and `final`, then theme. `catalogue.json` records source assets and immutable derived versions; stage manifests select them, `vocabulary.json` defines tags, and `history.jsonl` records decisions and edits. Raw/suitable photographs may remain external links. Standardised files, edited masters and versioned final nine-image sets are stored in the repository, with parent references, actual file hashes, source/creator/licence evidence, theme-specific roles and review records. Existing G01 is imported as a historical final snapshot without fabricated intermediate history. This collection does not automatically update the renderer-only publisher, live catalogue or deployment. Collection metadata, source links and edit prompts must remain outside the deployed bundle. See `stimuli/AGENTS.md` and `stimuli/README.md`.
 - **Hosting:** SiteGround under eelkedevries.com, deployed by a dedicated workflow in `eelkedevries/eelkedevries.com` that reuses that repository's SSH secrets. Never GitHub Pages. This repository holds no secrets.
 
 ## Data schemas
@@ -94,7 +95,7 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 5. **Timing:** the default limit is 15 seconds per round; players may choose 30 seconds or no limit before starting (WCAG 2.2.1). The timer starts only after all nine images have decoded and been painted, and counts active time only: it pauses while the page is hidden, and the round is flagged `interrupted`. Feedback time is excluded. Five rounds at the default limit cap timed gameplay at 75 seconds.
 6. **Answer keys must be defensible.** `unambiguous` grids have one defensible answer set under a literal reading of the instruction. In the new `category_judgement` grids, tiles are `target`, `distractor` or `borderline`: only the first two are objectively graded; ambiguous choices must never receive a wrong-answer badge. `entertainment` grids in the older pool remain scored by a stated convention and excluded from confirmatory analysis. All newly designed candidate grids use ordinary instructions and multiple selections.
 7. **No answer leakage through the page:** file names are content hashes, tile IDs and roles never appear in the DOM, and alternative text describes only what is visible. The answer key is necessarily present in the client bundle of a static game; that is accepted, since the game is not a security control.
-8. **Stimuli:** every image is original and rights-cleared, with recorded provenance and licence. The concept mock-up is never used as interface or stimulus material.
+8. **Stimuli:** every published image is original or appropriately licensed, with recorded provenance and rights to use it and make any intended derivatives. Linked candidates may retain unresolved rights checks, but they cannot be edited, committed as third-party image bytes or selected into new final sets until those checks pass. The collection records source/version lineage and theme-specific roles; AI-edited masters require full editing provenance and standardisation before final use. Third-party licences remain distinct from the code licence. The concept mock-up is never used as interface or stimulus material.
 9. **Verdicts are fiction** and always appear with a notice saying so. They depend only on the number of rounds passed (and, for *Suspiciously competent*, a mean response under 2.5 seconds).
 10. **No deceptive interaction:** no imitation system dialogues, no credential requests, no suggestion of real consequences.
 11. **Eye-tracking (version 2 preview).** The camera starts only after consent. Training happens only at the nine calibration points, never on answers. Validation uses separate points never used for training. A personal gaze record is shown only when the session's check passed and the trial was not flagged (scrolling, resizing, zoom, hidden page, layout change) and had enough estimates on the grid. The camera is released before the reveal and on **Stop**. Quality thresholds are provisional until a pilot sets them. Estimates are approximate and counted per whole tile; fixation order and latency are exploratory. A model prediction is never presented as a recording. Nothing is uploaded.
@@ -110,12 +111,14 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 - Version 1 contains no camera, tracking or gaze code of any kind, and sends nothing to any server. `scripts/check-public-build.sh` enforces the absence of camera and network-submission APIs in the build.
 - Five rounds, 3 × 3 grids, 15-second default limit with extended and untimed options. Grids are published one at a time; the game is playable with a single grid. New category-judgement grids use multiple selection and unscored borderline tiles.
-- Stimuli: generated locally with FLUX.2 [klein] 4B (Apache-2.0) from fixed prompts and seeds, published at 512 × 512 and 256 × 256 pixels as WebP.
+- Stimuli: the existing generator uses local FLUX.2 [klein] 4B (Apache-2.0) with fixed prompts/seeds. Licensed photographs and AI-edited derivatives may also enter the staged collection with verified permissions and complete provenance. New final sets require reviewed standardised files; publishing remains a separate task. Published formats remain 512 × 512 and 256 × 256 px WebP.
 - Deployment: a dedicated workflow in `eelkedevries/eelkedevries.com`, which also protects `/department-of-human-verification/***` from the main site's `rsync --delete-after`.
 - Research data collection, when built, stays disabled until the owner explicitly approves the privacy, storage and consent arrangements.
-- Licence: GPL-3.0-or-later for the whole repository (owner's decision, 20 October 2026), so that the game can be published together with WebGazer.
+- Licence: GPL-3.0-or-later for the code, documentation and existing generated assets (owner's decision, 20 October 2026), so that the game can be published together with WebGazer. Third-party images and derivatives retain their recorded licences and conditions (owner's source-photograph workflow decision, 26 October 2026).
 
 ## Changelog
+
+- **1.10 (26 October 2026):** added the mandatory five-level stimulus collection, linked raw/suitable candidates, versioned stored derivatives/final sets, controlled tags, append-only decision history and validation. Licensed source photographs are permitted with per-asset rights verification and retained licences. Existing G01 is snapshotted without changing the game or its publisher.
 
 - **1.9 (20 October 2026):** required natural placement and credible physical support across all fifteen stimulus themes, with ordinary leaning/rack parking for most bicycles, explicit contact and functional-part checks, and exceptions only for the intended absurdity.
 

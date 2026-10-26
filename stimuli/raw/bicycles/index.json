@@ -1,0 +1,28 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "raw",
+  "theme": "bicycles",
+  "version_ids": [
+    "photo-019e294a-a808-7bd3-8b64-191398afb207-source-v1",
+    "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd-source-v1",
+    "photo-019e2922-adab-744d-b31d-127e879330c3-source-v1",
+    "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-source-v1",
+    "photo-019e1dda-7a82-7950-8d92-51b335fed43a-source-v1",
+    "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9-source-v1",
+    "photo-019e1de1-dd6f-720d-b68e-7471fcfb7757-source-v1",
+    "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-source-v1",
+    "photo-019e23a6-5d30-793b-bd37-6789b6499899-source-v1",
+    "photo-019e2013-2936-7e0f-be55-db92f55205ac-source-v1",
+    "photo-019e16d6-9e99-74b9-b724-edfbe7a4c8b9-source-v1",
+    "photo-019e144a-b43a-738a-8bc8-a9756e805dba-source-v1",
+    "photo-019e2732-b457-73b7-9026-14b72e9692ba-source-v1",
+    "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-source-v1",
+    "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-source-v1",
+    "photo-019e144a-c76c-7a96-b721-6646821bfd2e-source-v1",
+    "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-source-v1",
+    "photo-019e24a0-8170-7687-ad86-d5bce14c1020-source-v1",
+    "photo-019e1970-796f-731f-90ce-232d86c4eb1e-source-v1",
+    "photo-019e2410-1c46-7e06-9780-259f972d58fa-source-v1"
+  ]
+}

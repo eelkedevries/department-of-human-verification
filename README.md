@@ -23,6 +23,8 @@ The Department asks ordinary multiple-choice CAPTCHA questions, but its images w
 
 The images were generated for this game with FLUX.2 [klein] 4B (Apache 2.0) from written prompts and fixed seeds, checked by eye, and published with their provenance in [`src/stimuli/catalogue.json`](src/stimuli/catalogue.json). Nine more grids are drafted and can be published one at a time. See [`docs/stimuli.md`](docs/stimuli.md).
 
+The [stimulus collection](stimuli/README.md) organises source candidates, suitable selections, standardised files, AI-edited variants and versioned final sets. It currently includes 20 linked photographs, a nine-image visual shortlist with rights checks pending, and a byte-identical snapshot of the existing G01 selection. It does not change the live game. AI agents must follow [the collection instructions](stimuli/AGENTS.md).
+
 ## Development
 
 Vite and TypeScript, built as a static site with no runtime framework and no third-party requests.
@@ -31,6 +33,7 @@ Vite and TypeScript, built as a static site with no runtime framework and no thi
 npm ci            # exact dependencies from the lockfile
 npm run dev       # development server at http://localhost:5173/department-of-human-verification/
 npm run check     # type-check, stimulus validation, unit tests, build and safety checks
+npm run validate:collection  # source/version metadata, stage manifests, logs and stored image files
 npm run test:e2e  # end-to-end tests in Chromium (desktop and phone); E2E_FIREFOX=1 adds Firefox
 npm run test:e2e:eyetracking  # the eye-tracking preview, with a fake camera (code paths only)
 npm run deploy    # publish what is on GitHub to eelkedevries.com (see docs/deployment.md)
@@ -46,4 +49,4 @@ Served from SiteGround under eelkedevries.com. The deploy workflow lives in the 
 
 ## Licence
 
-Licensed under the GNU General Public License, version 3 or (at your option) any later version; see [`LICENSE`](LICENSE). Unless stated otherwise, this covers everything in the repository, including the generated images, whose provenance is recorded in the catalogue. The eye-tracking preview uses [WebGazer](https://github.com/brownhci/WebGazer), which is licensed the same way.
+Licensed under the GNU General Public License, version 3 or (at your option) any later version; see [`LICENSE`](LICENSE). Unless stated otherwise, this covers the code, documentation and existing generated images, whose provenance is recorded in the catalogue. Third-party source photographs and their derivatives retain the licences and conditions recorded for each asset in [`stimuli/catalogue.json`](stimuli/catalogue.json); linking or importing them does not relicense them under the GPL. The eye-tracking preview uses [WebGazer](https://github.com/brownhci/WebGazer), which is licensed the same way.

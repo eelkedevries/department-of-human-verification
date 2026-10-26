@@ -19,6 +19,7 @@ Prompts need not be hand-written. When the user describes a task in plain langua
 - `docs-dev/reference/secondary_background/` — non-binding context and examples.
 - `docs-dev/planning/current_state.md` — living "where we are"; read at session start.
 - `docs/` — user-facing, publishable docs.
+- `stimuli/` — the staged stimulus collection, canonical source/version registry, tags and append-only history. Read `stimuli/AGENTS.md` before any stimulus work.
 - `.claude/skills/writing-style/` — the personal writing-style skill; it governs prose style for any written output (academic, professional, or essayistic).
 
 If the repository is public, everything in it — including `docs-dev/` — is publicly visible. Never put secrets, tokens, or `.env*` files in the repository. `docs-dev/` must never reach the deployed build output (see `scripts/check-public-build.sh`).
@@ -28,6 +29,20 @@ If the repository is public, everything in it — including `docs-dev/` — is p
 Treat `primary_authoritative/specification.md` as correct. Never contradict it; if a change would conflict, stop and flag it. Empty or stubbed sections mean "not yet decided" — no constraint. When a decision changes, update the spec and bump its version. `secondary_background/` is informational only.
 
 Update `current_state.md` when a prompt adds a system or a key decision — for genuinely useful orientation, not after routine commits.
+
+## Stimulus collection (mandatory for all AI agents)
+
+Before finding, selecting, generating, standardising, manipulating or publishing any stimulus, read and follow [`stimuli/AGENTS.md`](stimuli/AGENTS.md), [`stimuli/README.md`](stimuli/README.md) and the photography guidelines in `docs/stimuli.md`. All future stimulus work must use this collection; inspect the existing registry before adding duplicates.
+
+| Level | Organisation and purpose |
+|---|---|
+| `stimuli/raw/<theme>/` | Linked source candidates with creator, licence evidence, description, tags and original rank |
+| `stimuli/suitable/<theme>/` | Reviewed subsets referencing unchanged raw versions, with reasons and unresolved issues |
+| `stimuli/standardized/<theme>/` | Committed 512/256 px RGB WebP files ready for selection, with recorded transformations |
+| `stimuli/manipulated/<theme>/` | Committed edited masters, including AI instructions, tool/model details, source parents and output hashes |
+| `stimuli/final/<theme>/<set-id>/<version>/` | Versioned nine-image selections with actual files, instruction, roles and game-grid mapping |
+
+Use `stimuli/catalogue.json` as the canonical metadata registry, `vocabulary.json` for controlled tags, stage `index.json` manifests for selection and `history.jsonl` for append-only decisions. Keep theme-specific roles separate from actual object type. Preserve source and parent versions. Raw/suitable may remain linked; manipulated/final require repository image files. An edited image must be standardised before final selection. Update the registry, affected stage manifests and history together, verify rights before derivatives or committed third-party bytes, and run `npm run validate:collection` plus `npm run check`. A final set does not by itself change or deploy the game.
 
 ## Running and committing (always push directly to `main`)
 

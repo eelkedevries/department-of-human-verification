@@ -12,8 +12,9 @@
     "test:e2e": "playwright test",
     "test:e2e:eyetracking": "playwright test -c playwright.eyetracking.config.ts",
     "validate:stimuli": "node scripts/validate-stimuli.mjs",
-    "check": "tsc --noEmit && node scripts/validate-stimuli.mjs && vitest run && vite build && bash scripts/check-public-build.sh dist && bash scripts/validate-prompts.sh",
-    "deploy": "bash scripts/deploy.sh"
+    "check": "tsc --noEmit && node scripts/validate-stimuli.mjs && node scripts/validate-stimulus-collection.mjs && vitest run && vite build && bash scripts/check-public-build.sh dist && bash scripts/validate-prompts.sh",
+    "deploy": "bash scripts/deploy.sh",
+    "validate:collection": "node scripts/validate-stimulus-collection.mjs"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "5.3.0",

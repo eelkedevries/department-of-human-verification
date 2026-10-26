@@ -2,6 +2,14 @@
 
 Each assessment shows one ordinary instruction and nine individually selectable images in a 3 × 3 grid.
 
+## Collection and preparation workflow
+
+All stimulus work uses the [staged collection](../stimuli/README.md) and its mandatory [agent instructions](../stimuli/AGENTS.md). The five levels are `raw`, `suitable`, `standardized`, `manipulated` and `final`, with theme folders within each. Raw/suitable can remain linked photographs; standardised files, edited masters and final selections are stored in the repository. The canonical registry records descriptions, keywords, theme-specific roles, creator/licence evidence, visual characteristics, parent versions and file hashes. Stage manifests select versions, and an append-only log records decisions and edits.
+
+Licensed photographs may supply ordinary images or inputs for later AI edits. Verify each source and its derivative permission before editing or committing its bytes. A visual shortlist with pending rights checks is not ready for publication. Third-party licences remain distinct from the code licence. Both ordinary and manipulated selections must meet the photography guidelines below; edited masters must be standardised before final selection.
+
+The collection includes 20 linked candidates and nine visually suitable selections, plus a versioned snapshot of the existing G01 files. It does not replace the live catalogue or add a photograph-import path to the renderer-only publisher. Recording a final set is separate from changing the game or deploying it. The current 512/256 px WebP pipeline remains in use.
+
 ## Current status and replacement direction
 
 **Currently published:** G01 — “Select all images containing a bicycle”, with four ordinary bicycle targets. Its images and current scoring are still valid; this grid is temporarily reused when no other published grid exists.
@@ -32,7 +40,7 @@ For **systematic stimulus variation**, define matched grid variants that keep th
 
 ## Image creation and provenance
 
-Images are generated locally with [FLUX.2 [klein] 4B](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B) and reviewed by eye. Preserve prompts, seeds, model revisions, licences, hashes, output dimensions and edits. Photographic context should be plausible and consistent; spectacular errors unrelated to the instructed category are not the goal.
+The existing renderer generates images locally with [FLUX.2 [klein] 4B](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B), followed by visual review. The collection also accepts licensed photographs and AI-edited derivatives with verified permissions. Preserve source identity, creator, licences, parent versions, prompts/instructions, seeds where available, model revisions, hashes, output dimensions and edits. Do not invent FLUX provenance for a photograph. Photographic context should be plausible and consistent; spectacular errors unrelated to the instructed category are not the goal.
 
 Never use TV-programme stills or reconstruct recognisable proprietary props because an idea mentioned a programme. Cultural references can inspire original, rights-cleared satire.
 

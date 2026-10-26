@@ -1,0 +1,9 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "final",
+  "theme": "bicycles",
+  "set_keys": [
+    "G01@1"
+  ]
+}

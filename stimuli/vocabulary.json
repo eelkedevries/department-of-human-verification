@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "levels": [
+    "raw",
+    "suitable",
+    "standardized",
+    "manipulated",
+    "final"
+  ],
+  "themes": [
+    "bicycles",
+    "chairs",
+    "ducks",
+    "cars",
+    "houses",
+    "lamps",
+    "shoes",
+    "clocks",
+    "boats",
+    "computers",
+    "musical-instruments",
+    "vehicles",
+    "hats",
+    "bridges",
+    "sandwiches"
+  ],
+  "roles": [
+    "target",
+    "distractor",
+    "borderline",
+    "unassigned"
+  ],
+  "semantic_classes": [
+    "member-normal",
+    "member-bizarre",
+    "member-debatable",
+    "non-member",
+    "unassigned"
+  ],
+  "origins": [
+    "internet-photo",
+    "generated",
+    "legacy-generated"
+  ],
+  "review_statuses": [
+    "pending",
+    "approved",
+    "rejected",
+    "inherited"
+  ],
+  "licence_statuses": [
+    "catalogue-only",
+    "publisher-page-recorded",
+    "verified",
+    "inherited"
+  ],
+  "modification_permissions": [
+    "unknown",
+    "reported-allowed",
+    "allowed",
+    "forbidden"
+  ],
+  "actions": [
+    "collection_created",
+    "discovered",
+    "selected",
+    "rejected",
+    "standardized",
+    "manipulated",
+    "rights_verified",
+    "reviewed",
+    "final_selected",
+    "final_replaced",
+    "legacy_imported",
+    "legacy_set_imported",
+    "corrected"
+  ],
+  "set_statuses": [
+    "approved",
+    "superseded",
+    "legacy-import"
+  ],
+  "operations": [
+    "discovery",
+    "standardisation",
+    "ai-edit",
+    "final-copy",
+    "legacy-import"
+  ]
+}

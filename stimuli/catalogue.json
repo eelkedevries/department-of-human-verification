@@ -1,0 +1,4153 @@
+{
+  "schema": "dhv-stimulus-collection-v1",
+  "schema_version": 1,
+  "created_at": "2026-10-26T22:27:00Z",
+  "updated_at": "2026-10-26T22:27:00Z",
+  "standardisation_profiles": {
+    "webp-512-256-v1": {
+      "large": [
+        512,
+        512
+      ],
+      "small": [
+        256,
+        256
+      ],
+      "format": "webp",
+      "colour_mode": "RGB",
+      "colour_space": "sRGB",
+      "quality": 82,
+      "method": 6,
+      "resampling": "Lanczos",
+      "publisher": "tools/stimuli/build.py",
+      "content_changes": false,
+      "allow_upscale": false
+    }
+  },
+  "assets": [
+    {
+      "asset_id": "photo-019e294a-a808-7bd3-8b64-191398afb207",
+      "origin": "internet-photo",
+      "description": "White folding bicycle against a wall",
+      "source": {
+        "provider": "Pixabay",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e294a-a808-7bd3-8b64-191398afb207",
+          "licence_label": "free"
+        },
+        "creator": "zengfanfu",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e294a-a808-7bd3-8b64-191398afb207/1280w.jpg?s=c9981c618a29ff70",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3264,
+          "height": 2448,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pixabay Content License",
+          "url": "https://pixabay.com/service/license-summary/",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by zengfanfu on Pixabay",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://pixabay.com/service/license-summary/",
+            "https://thumb.pexafy.com/019e294a-a808-7bd3-8b64-191398afb207/1280w.jpg?s=c9981c618a29ff70"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd",
+      "origin": "internet-photo",
+      "description": "Blue motor scooter beside a white wall",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "21550488",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd",
+          "licence_label": "free"
+        },
+        "creator": "Mathias Reding",
+        "publisher_url": "https://www.pexels.com/photo/blue-scooter-parked-by-a-wall-21550488/",
+        "direct_url": "https://thumb.pexafy.com/019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd/1280w.jpg?s=b941452cb89fb694",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3940,
+          "height": 5911,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Mathias Reding on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://thumb.pexafy.com/019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd/1280w.jpg?s=b941452cb89fb694",
+            "https://www.pexels.com/photo/blue-scooter-parked-by-a-wall-21550488/"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e2922-adab-744d-b31d-127e879330c3",
+      "origin": "internet-photo",
+      "description": "Red bicycle against a grey metal wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e2922-adab-744d-b31d-127e879330c3",
+          "licence_label": "free"
+        },
+        "creator": "Marija Zaric",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e2922-adab-744d-b31d-127e879330c3/1280w.jpg?s=5c7383f63ff1ef2a",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 6000,
+          "height": 4000,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Marija Zaric on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://thumb.pexafy.com/019e2922-adab-744d-b31d-127e879330c3/1280w.jpg?s=5c7383f63ff1ef2a"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414",
+      "origin": "internet-photo",
+      "description": "Road bicycle leaning against a tree",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e1626-f1ef-7ffc-9319-08fb96ff3414",
+          "licence_label": "free"
+        },
+        "creator": "Frederick Adegoke Snr.",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e1626-f1ef-7ffc-9319-08fb96ff3414/1280w.jpg?s=645fb6ddffa1b3b7",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 6720,
+          "height": 4480,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Frederick Adegoke Snr. on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://thumb.pexafy.com/019e1626-f1ef-7ffc-9319-08fb96ff3414/1280w.jpg?s=645fb6ddffa1b3b7"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a",
+      "origin": "internet-photo",
+      "description": "Blue city bicycle beside a red bench",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "xmGkzY--Fgg",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e1dda-7a82-7950-8d92-51b335fed43a",
+          "licence_label": "free"
+        },
+        "creator": "Christian Stahl",
+        "publisher_url": "https://unsplash.com/photos/blue-step-through-bicycle-park-beside-of-red-bench-xmGkzY--Fgg",
+        "direct_url": "https://thumb.pexafy.com/019e1dda-7a82-7950-8d92-51b335fed43a/1280w.jpg?s=83bc8b22e4882320",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 2048,
+          "height": 1536,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Christian Stahl on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://thumb.pexafy.com/019e1dda-7a82-7950-8d92-51b335fed43a/1280w.jpg?s=83bc8b22e4882320",
+            "https://unsplash.com/photos/blue-step-through-bicycle-park-beside-of-red-bench-xmGkzY--Fgg"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9",
+      "origin": "internet-photo",
+      "description": "Skateboard resting on pavement",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e1d6c-7703-7a28-ab59-a40afa456fa9",
+          "licence_label": "free"
+        },
+        "creator": "Pict4life",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e1d6c-7703-7a28-ab59-a40afa456fa9/1280w.jpg?s=14419dab39791bb6",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3888,
+          "height": 2592,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Pict4life on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://thumb.pexafy.com/019e1d6c-7703-7a28-ab59-a40afa456fa9/1280w.jpg?s=14419dab39791bb6"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e1de1-dd6f-720d-b68e-7471fcfb7757",
+      "origin": "internet-photo",
+      "description": "Cream bicycle with a rear carrier",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "m3EQYkpteAo",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e1de1-dd6f-720d-b68e-7471fcfb7757",
+          "licence_label": "free"
+        },
+        "creator": "Waldemar Brandt",
+        "publisher_url": "https://unsplash.com/photos/black-and-yellow-city-bicycle-m3EQYkpteAo",
+        "direct_url": "https://images.unsplash.com/photo-1582732142755-c575e698599d?w=1280",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 5636,
+          "height": 3852,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Waldemar Brandt on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://images.unsplash.com/photo-1582732142755-c575e698599d?w=1280",
+            "https://unsplash.com/photos/black-and-yellow-city-bicycle-m3EQYkpteAo"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e",
+      "origin": "internet-photo",
+      "description": "Small green bicycle by a brick wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "1lE8ivHMQN8",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e",
+          "licence_label": "free"
+        },
+        "creator": "Cassie Matias",
+        "publisher_url": "https://unsplash.com/photos/black-and-green-full-suspension-bike-1lE8ivHMQN8",
+        "direct_url": "https://images.unsplash.com/photo-1518596306109-f402fdd955d8?w=1280",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 2486,
+          "height": 1868,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Cassie Matias on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://images.unsplash.com/photo-1518596306109-f402fdd955d8?w=1280",
+            "https://unsplash.com/photos/black-and-green-full-suspension-bike-1lE8ivHMQN8"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899",
+      "origin": "internet-photo",
+      "description": "Motorcycle parked in front of a brick wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "xzEbZjbS4cA",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e23a6-5d30-793b-bd37-6789b6499899",
+          "licence_label": "free"
+        },
+        "creator": "Kajetan Sumila",
+        "publisher_url": "https://unsplash.com/photos/a-motorcycle-parked-in-front-of-a-brick-wall-xzEbZjbS4cA",
+        "direct_url": "https://thumb.pexafy.com/019e23a6-5d30-793b-bd37-6789b6499899/1280w.jpg?s=6813c52eccd806fe",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 5851,
+          "height": 3901,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Kajetan Sumila on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://thumb.pexafy.com/019e23a6-5d30-793b-bd37-6789b6499899/1280w.jpg?s=6813c52eccd806fe",
+            "https://unsplash.com/photos/a-motorcycle-parked-in-front-of-a-brick-wall-xzEbZjbS4cA"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e2013-2936-7e0f-be55-db92f55205ac",
+      "origin": "internet-photo",
+      "description": "Black folding bicycle beside a drainpipe",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e2013-2936-7e0f-be55-db92f55205ac",
+          "licence_label": "free"
+        },
+        "creator": "Zhanna Filimonenko",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e2013-2936-7e0f-be55-db92f55205ac/1280w.jpg?s=1f6f3afccc0b02a7",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3768,
+          "height": 4710,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Zhanna Filimonenko on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://thumb.pexafy.com/019e2013-2936-7e0f-be55-db92f55205ac/1280w.jpg?s=1f6f3afccc0b02a7"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e16d6-9e99-74b9-b724-edfbe7a4c8b9",
+      "origin": "internet-photo",
+      "description": "Red-and-white bicycle against a pale wall",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e16d6-9e99-74b9-b724-edfbe7a4c8b9",
+          "licence_label": "free"
+        },
+        "creator": "Stefan",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e16d6-9e99-74b9-b724-edfbe7a4c8b9/1280w.jpg?s=8a5543a2b20c6bfc",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3888,
+          "height": 5184,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Stefan on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://thumb.pexafy.com/019e16d6-9e99-74b9-b724-edfbe7a4c8b9/1280w.jpg?s=8a5543a2b20c6bfc"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba",
+      "origin": "internet-photo",
+      "description": "Bicycle leaning against a metal fence",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "12322815",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e144a-b43a-738a-8bc8-a9756e805dba",
+          "licence_label": "free"
+        },
+        "creator": "Jan van der Wolf",
+        "publisher_url": "https://www.pexels.com/photo/bike-attached-to-a-fence-12322815",
+        "direct_url": "https://images.pexels.com/photos/12322815/pexels-photo-12322815.jpeg?w=1280",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 6000,
+          "height": 4000,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Jan van der Wolf on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://images.pexels.com/photos/12322815/pexels-photo-12322815.jpeg?w=1280",
+            "https://www.pexels.com/photo/bike-attached-to-a-fence-12322815"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba",
+      "origin": "internet-photo",
+      "description": "Silver bicycle beside a pastel wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e2732-b457-73b7-9026-14b72e9692ba",
+          "licence_label": "free"
+        },
+        "creator": "Kuyune",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e2732-b457-73b7-9026-14b72e9692ba/1280w.jpg?s=e7b7ea549c5558c9",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 6000,
+          "height": 4000,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Kuyune on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://thumb.pexafy.com/019e2732-b457-73b7-9026-14b72e9692ba/1280w.jpg?s=e7b7ea549c5558c9"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654",
+      "origin": "internet-photo",
+      "description": "Red road bicycle by a timber railing",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e1bc3-5b48-75d1-8ef8-8191e5a7e654",
+          "licence_label": "free"
+        },
+        "creator": "Emre Uğurlu",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e1bc3-5b48-75d1-8ef8-8191e5a7e654/1280w.jpg?s=92446dd54d00e149",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3024,
+          "height": 4032,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Emre Uğurlu on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://thumb.pexafy.com/019e1bc3-5b48-75d1-8ef8-8191e5a7e654/1280w.jpg?s=92446dd54d00e149"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9",
+      "origin": "internet-photo",
+      "description": "Green city bicycle against a stone wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "GmMTa8Mjngg",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e21c4-06ac-7d87-9a69-da4691fb9ad9",
+          "licence_label": "free"
+        },
+        "creator": "Ashley Baxter",
+        "publisher_url": "https://unsplash.com/photos/green-female-beach-cruiser-bike-leaning-on-wall-GmMTa8Mjngg",
+        "direct_url": "https://images.unsplash.com/photo-1510736594446-2832676f52c7?w=1280",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3840,
+          "height": 5760,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Ashley Baxter on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://images.unsplash.com/photo-1510736594446-2832676f52c7?w=1280",
+            "https://unsplash.com/photos/green-female-beach-cruiser-bike-leaning-on-wall-GmMTa8Mjngg"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e144a-c76c-7a96-b721-6646821bfd2e",
+      "origin": "internet-photo",
+      "description": "Red bicycle beside a stone building",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e144a-c76c-7a96-b721-6646821bfd2e",
+          "licence_label": "free"
+        },
+        "creator": "Stefan",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e144a-c76c-7a96-b721-6646821bfd2e/1280w.jpg?s=8fed9a0395c74d36",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3888,
+          "height": 5184,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Stefan on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://thumb.pexafy.com/019e144a-c76c-7a96-b721-6646821bfd2e/1280w.jpg?s=8fed9a0395c74d36"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2",
+      "origin": "internet-photo",
+      "description": "Turquoise road bicycle against a wooden fence",
+      "source": {
+        "provider": "Pixabay",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2",
+          "licence_label": "free"
+        },
+        "creator": "leep22725",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2/1280w.jpg?s=4ea65e42f49f822f",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 3024,
+          "height": 4032,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pixabay Content License",
+          "url": "https://pixabay.com/service/license-summary/",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by leep22725 on Pixabay",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://pixabay.com/service/license-summary/",
+            "https://thumb.pexafy.com/019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2/1280w.jpg?s=4ea65e42f49f822f"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e24a0-8170-7687-ad86-d5bce14c1020",
+      "origin": "internet-photo",
+      "description": "Red city bicycle against a light wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": null,
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e24a0-8170-7687-ad86-d5bce14c1020",
+          "licence_label": "free"
+        },
+        "creator": "Valentino Sacco",
+        "publisher_url": null,
+        "direct_url": "https://thumb.pexafy.com/019e24a0-8170-7687-ad86-d5bce14c1020/1280w.jpg?s=b9d377677be924be",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 4000,
+          "height": 5328,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "catalogue-only",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Valentino Sacco on Unsplash",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/license",
+            "https://thumb.pexafy.com/019e24a0-8170-7687-ad86-d5bce14c1020/1280w.jpg?s=b9d377677be924be"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e",
+      "origin": "internet-photo",
+      "description": "Blue bicycle with a yellow front fork",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "18999320",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e1970-796f-731f-90ce-232d86c4eb1e",
+          "licence_label": "free"
+        },
+        "creator": "Matheus Bertelli",
+        "publisher_url": "https://www.pexels.com/photo/bicycle-leaning-on-a-brick-wall-18999320",
+        "direct_url": "https://images.pexels.com/photos/18999320/pexels-photo-18999320.jpeg?w=1280",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 2822,
+          "height": 3763,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Matheus Bertelli on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://images.pexels.com/photos/18999320/pexels-photo-18999320.jpeg?w=1280",
+            "https://www.pexels.com/photo/bicycle-leaning-on-a-brick-wall-18999320"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "photo-019e2410-1c46-7e06-9780-259f972d58fa",
+      "origin": "internet-photo",
+      "description": "Mint-coloured microcar outside a café",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "13503005",
+        "catalogue_record": {
+          "provider": "Pexafy",
+          "photo_id": "019e2410-1c46-7e06-9780-259f972d58fa",
+          "licence_label": "free"
+        },
+        "creator": "Berat BAKI",
+        "publisher_url": "https://www.pexels.com/photo/vintage-vehicle-next-to-a-cafeteria-13503005",
+        "direct_url": "https://images.pexels.com/photos/13503005/pexels-photo-13503005.jpeg?w=1280",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 4000,
+          "height": 6000,
+          "status": "reported",
+          "basis": "Pexafy catalogue; display orientation reconciled with preview."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "publisher-page-recorded",
+          "modification_permission": "reported-allowed",
+          "attribution": "Photo by Berat BAKI on Pexels",
+          "conditions": [
+            "Platform terms permit modifications; verify this exact photograph and any conditions before derivatives or committed image bytes.",
+            "Preserve source credit and licence evidence; do not imply endorsement or redistribute as a competing stock-photo service."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/license/",
+            "https://images.pexels.com/photos/13503005/pexels-photo-13503005.jpeg?w=1280",
+            "https://www.pexels.com/photo/vintage-vehicle-next-to-a-cafeteria-13503005"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t1",
+      "origin": "legacy-generated",
+      "description": "A black city bicycle leaning against a green wooden door on a cobbled street",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T1",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/dcd2d84006fe66df.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T1; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a black city bicycle leaning against a green wooden door on a cobbled street, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1001,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:26:09+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t2",
+      "origin": "legacy-generated",
+      "description": "A red bicycle with a wicker basket parked against a brick wall",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T2",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/0b9440ab514dced4.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T2; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a red bicycle with a wicker front basket parked against an old brick wall, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1002,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:28:40+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t3",
+      "origin": "legacy-generated",
+      "description": "A blue road bicycle on an empty country road",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T3",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/ce37edf2dc0a2731.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T3; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a blue road racing bicycle standing on its own on an empty country road, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1003,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:31:13+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t4",
+      "origin": "legacy-generated",
+      "description": "A small yellow child's bicycle with training wheels on a lawn",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T4",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/1285019de39d43eb.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T4; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a small yellow child's bicycle with training wheels standing on a garden lawn, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1004,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T12:41:15+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t5",
+      "origin": "legacy-generated",
+      "description": "A red vintage motor scooter parked on a street",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T5",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/72718790afe43ab8.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T5; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a red vintage motor scooter parked on a quiet European street, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1005,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:33:39+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t6",
+      "origin": "legacy-generated",
+      "description": "A blue motorcycle parked on a cobbled square",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T6",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/9f7aeb69bd32e790.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T6; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a blue motorcycle parked on a cobbled square, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1006,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:36:07+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t7",
+      "origin": "legacy-generated",
+      "description": "A child's kick scooter on a pavement",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T7",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/4e5e0b454064aaf4.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T7; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a silver child's kick scooter standing on a pavement, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1007,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:38:26+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t8",
+      "origin": "legacy-generated",
+      "description": "A skateboard on paving stones",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T8",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/b2bf2dac95c24e8f.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T8; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a wooden skateboard lying on grey paving stones, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1008,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:40:47+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    },
+    {
+      "asset_id": "legacy-g01-t9",
+      "origin": "legacy-generated",
+      "description": "A small white vintage car parked on a street",
+      "source": {
+        "provider": "existing-repository-catalogue",
+        "provider_id": "G01-T9",
+        "creator": "Department of Human Verification",
+        "publisher_url": "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/src/stimuli/catalogue.json",
+        "direct_url": "https://raw.githubusercontent.com/eelkedevries/department-of-human-verification/5177c6aaa464adbed203ac7b5af67c440e29d7a9/public/stimuli/60c45b81b625a9a4.webp",
+        "discovered_at": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "original_dimensions": {
+          "width": 512,
+          "height": 512,
+          "status": "verified",
+          "basis": "Existing generated catalogue and copied WebP dimensions."
+        },
+        "licence": {
+          "name": "GPL-3.0-or-later",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "evidence_status": "inherited",
+          "modification_permission": "allowed",
+          "attribution": "Department of Human Verification, G01-T9; generated with black-forest-labs/FLUX.2-klein-4B.",
+          "conditions": [
+            "Existing generated-image terms inherited from the repository README and LICENSE; retain GPL notices and recorded model provenance."
+          ],
+          "evidence_urls": [
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/README.md#licence",
+            "https://github.com/eelkedevries/department-of-human-verification/blob/5177c6aaa464adbed203ac7b5af67c440e29d7a9/LICENSE"
+          ],
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "Historical import; no new third-party photograph or rights judgement."
+        },
+        "generation_provenance": {
+          "model": "black-forest-labs/FLUX.2-klein-4B",
+          "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+          "licence": "Apache-2.0",
+          "prompt": "a small white vintage car parked on a cobbled street, three-quarter view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+          "seed": 1009,
+          "steps": 4,
+          "guidance_scale": 1.0,
+          "generated_at": "2026-10-20T13:43:12+00:00",
+          "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+        }
+      },
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex"
+    }
+  ],
+  "versions": [
+    {
+      "version_id": "photo-019e294a-a808-7bd3-8b64-191398afb207-source-v1",
+      "asset_id": "photo-019e294a-a808-7bd3-8b64-191398afb207",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e294a-a808-7bd3-8b64-191398afb207/1280w.jpg?s=c9981c618a29ff70",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 960,
+        "sha256": "1e31b1b89b0b8f4e45dfdcc8ab388382a1779e41fe3b13ec2413043eb0364a61",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Near-side profile",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Complete folding frame, pedals and both wheels; quiet paving and wall; visible deployed kickstand. A strong base for changes to wheel shape or frame geometry. Preserve the folding joint and stand.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "White folding bicycle against a wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "folding-bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 1,
+          "grade": "Strong base",
+          "reason": "Complete folding frame, pedals and both wheels; quiet paving and wall; visible deployed kickstand.",
+          "preparation_notes": "A strong base for changes to wheel shape or frame geometry. Preserve the folding joint and stand.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 100,
+            "y": 0,
+            "side": 960,
+            "reference_width": 1280,
+            "reference_height": 960,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd-source-v1",
+      "asset_id": "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd/1280w.jpg?s=b941452cb89fb694",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1920,
+        "sha256": "8fd5dbff6162ba11fcf1046bb3e71a8d1da67982feb5eb52dee13ea23a9b63d1",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "blue",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Unoccupied scooter with a clear silhouette, deployed parking stand and simple street background. The conventional motor scooter requested as a distractor. Small brand details can be removed during preparation.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Blue motor scooter beside a white wall",
+      "object_type": "motor-scooter",
+      "keywords": [
+        "motor-scooter",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 2,
+          "grade": "Strong base",
+          "reason": "Unoccupied scooter with a clear silhouette, deployed parking stand and simple street background.",
+          "preparation_notes": "The conventional motor scooter requested as a distractor. Small brand details can be removed during preparation.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 640,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1920,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e2922-adab-744d-b31d-127e879330c3-source-v1",
+      "asset_id": "photo-019e2922-adab-744d-b31d-127e879330c3",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e2922-adab-744d-b31d-127e879330c3/1280w.jpg?s=5c7383f63ff1ef2a",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "ca75580fcc2ad61c2f7aa7578a117b515d353b01f1c193c3f3b6ef4900363e2e",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "One intact bicycle against a restrained background; both wheels and frame remain legible after a square crop. Useful neutral base for wheel or frame edits. The lower framing is corrected by the proposed crop.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Red bicycle against a grey metal wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 3,
+          "grade": "Strong base",
+          "reason": "One intact bicycle against a restrained background; both wheels and frame remain legible after a square crop.",
+          "preparation_notes": "Useful neutral base for wheel or frame edits. The lower framing is corrected by the proposed crop.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 220,
+            "y": 203,
+            "side": 650,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-source-v1",
+      "asset_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e1626-f1ef-7ffc-9319-08fb96ff3414/1280w.jpg?s=645fb6ddffa1b3b7",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "cf33d2e2dd34aeb860f59a0b2a5bb8b85d95348ddb88e6baad10cacee69b1382",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "dark metallic",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Credible contact with the tree, soft outdoor light, and clear drop handlebars, frame and wheels. Useful alternative to wall scenes. The tree partly overlaps the central frame, so wheel edits are easier than major frame edits.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Road bicycle leaning against a tree",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "road-bicycle",
+        "tree"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 4,
+          "grade": "Strong base",
+          "reason": "Credible contact with the tree, soft outdoor light, and clear drop handlebars, frame and wheels.",
+          "preparation_notes": "Useful alternative to wall scenes. The tree partly overlaps the central frame, so wheel edits are easier than major frame edits.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 340,
+            "y": 100,
+            "side": 700,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a-source-v1",
+      "asset_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e1dda-7a82-7950-8d92-51b335fed43a/1280w.jpg?s=83bc8b22e4882320",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 960,
+        "sha256": "401bd2ce666de67fa267a85a76abdbedd3e23d145baf5b12a6cb58cd38fd4649",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "blue",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Clear conventional bicycle in an ordinary street placement; readable wheels and contrasting colours. The crop removes much of the empty wall. The vivid red background should be balanced across target and distractor tiles.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Blue city bicycle beside a red bench",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 5,
+          "grade": "Strong base",
+          "reason": "Clear conventional bicycle in an ordinary street placement; readable wheels and contrasting colours.",
+          "preparation_notes": "The crop removes much of the empty wall. The vivid red background should be balanced across target and distractor tiles.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 500,
+            "y": 340,
+            "side": 600,
+            "reference_width": 1280,
+            "reference_height": 960,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9-source-v1",
+      "asset_id": "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e1d6c-7703-7a28-ab59-a40afa456fa9/1280w.jpg?s=14419dab39791bb6",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "486803b971f2e5a2eba62d4cb55bdb937fc379675b1515bdd2332c1e7542f8ce",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "dark deck",
+        "viewpoint": "Low three-quarter",
+        "facing_direction": "not-applicable",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "on its wheels on pavement",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Complete deck and wheels on a believable surface, with no rider, limbs or other target objects. A clear skateboard distractor. Soft background detail and visible ground contact make it a useful photographic match.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Skateboard resting on pavement",
+      "object_type": "skateboard",
+      "keywords": [
+        "outdoors",
+        "pavement",
+        "resting",
+        "skateboard"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 6,
+          "grade": "Strong base",
+          "reason": "Complete deck and wheels on a believable surface, with no rider, limbs or other target objects.",
+          "preparation_notes": "A clear skateboard distractor. Soft background detail and visible ground contact make it a useful photographic match.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 260,
+            "y": 0,
+            "side": 853,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1de1-dd6f-720d-b68e-7471fcfb7757-source-v1",
+      "asset_id": "photo-019e1de1-dd6f-720d-b68e-7471fcfb7757",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1582732142755-c575e698599d?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 875,
+        "sha256": "bce0188b2d3e3d3c7f02f47713d90213be9252d1f97290cbfd3f881400e792aa",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "cream",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "One complete bicycle against a natural exterior wall, with a readable step-through frame and credible support. The rear carrier adds ordinary detail. Keep it intact unless it is the intended part of a later manipulation.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Cream bicycle with a rear carrier",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "carrier",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 7,
+          "grade": "Strong base",
+          "reason": "One complete bicycle against a natural exterior wall, with a readable step-through frame and credible support.",
+          "preparation_notes": "The rear carrier adds ordinary detail. Keep it intact unless it is the intended part of a later manipulation.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 470,
+            "y": 135,
+            "side": 740,
+            "reference_width": 1280,
+            "reference_height": 875,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-source-v1",
+      "asset_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1518596306109-f402fdd955d8?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 962,
+        "sha256": "a7923023edcbe4ddab1b22bfcf9806fb22bbba0b250b674da281f5d66de3f6f6",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "green and grey",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "right",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Distinct small-wheel bicycle against a quiet textured wall; complete wheels, saddle and handlebars. Adds bicycle-type variety. Its proportions differ from a city bicycle, so keep its category cues clear in later edits.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Small green bicycle by a brick wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "brick",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 8,
+          "grade": "Strong base",
+          "reason": "Distinct small-wheel bicycle against a quiet textured wall; complete wheels, saddle and handlebars.",
+          "preparation_notes": "Adds bicycle-type variety. Its proportions differ from a city bicycle, so keep its category cues clear in later edits.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 202,
+            "side": 760,
+            "reference_width": 1280,
+            "reference_height": 962,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899-source-v1",
+      "asset_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e23a6-5d30-793b-bd37-6789b6499899/1280w.jpg?s=6813c52eccd806fe",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "df39e81a013a0b35284dbc850dd26e1f7e1e0eaf3d9cd95f10dbadd3a3aaa2b9",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "right",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "One unoccupied motorcycle on its parking stand; engine, fuel tank and front wheel make the non-bicycle category clear. The frontal three-quarter view avoids another side profile. Remove conspicuous manufacturer branding during final preparation.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Motorcycle parked in front of a brick wall",
+      "object_type": "motorcycle",
+      "keywords": [
+        "brick",
+        "motorcycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 9,
+          "grade": "Strong base",
+          "reason": "One unoccupied motorcycle on its parking stand; engine, fuel tank and front wheel make the non-bicycle category clear.",
+          "preparation_notes": "The frontal three-quarter view avoids another side profile. Remove conspicuous manufacturer branding during final preparation.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 335,
+            "y": 185,
+            "side": 600,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e2013-2936-7e0f-be55-db92f55205ac-source-v1",
+      "asset_id": "photo-019e2013-2936-7e0f-be55-db92f55205ac",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e2013-2936-7e0f-be55-db92f55205ac/1280w.jpg?s=1f6f3afccc0b02a7",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1600,
+        "sha256": "cdac0b49065baad4c4b4e421cfc865557144f01ef6045208df7fe6d2326625f5",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Natural street placement with visible contact and complete small wheels, pedals, saddle and folding frame. A useful compact bicycle alternative. The pipe overlaps the frame, making extensive frame edits less convenient.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Black folding bicycle beside a drainpipe",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "folding-bicycle",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 10,
+          "grade": "Good alternative",
+          "reason": "Natural street placement with visible contact and complete small wheels, pedals, saddle and folding frame.",
+          "preparation_notes": "A useful compact bicycle alternative. The pipe overlaps the frame, making extensive frame edits less convenient.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 100,
+            "y": 500,
+            "side": 1100,
+            "reference_width": 1280,
+            "reference_height": 1600,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e16d6-9e99-74b9-b724-edfbe7a4c8b9-source-v1",
+      "asset_id": "photo-019e16d6-9e99-74b9-b724-edfbe7a4c8b9",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e16d6-9e99-74b9-b724-edfbe7a4c8b9/1280w.jpg?s=8a5543a2b20c6bfc",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1707,
+        "sha256": "3d9155f97547788306617b4d245029d6418451c3778a97c44f6fe9a50f21d10f",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "red and white",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Single complete parked bicycle; a restrained background and oblique view make the silhouette readable. Useful for changing wheel geometry while retaining believable wall contact and ground shadows.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Red-and-white bicycle against a pale wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 11,
+          "grade": "Good alternative",
+          "reason": "Single complete parked bicycle; a restrained background and oblique view make the silhouette readable.",
+          "preparation_notes": "Useful for changing wheel geometry while retaining believable wall contact and ground shadows.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 180,
+            "y": 550,
+            "side": 1000,
+            "reference_width": 1280,
+            "reference_height": 1707,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba-source-v1",
+      "asset_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/12322815/pexels-photo-12322815.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "4f259df4450dc1fc37bb4f3688733ef79e2c721749fd9a4b898763f7c11675db",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "towards-camera",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Clear physical support, quiet pavement and soft light; a different viewpoint from the side-on candidates. The frontal angle overlaps the wheels and frame. Best when the intended modification remains visible from this angle.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Bicycle leaning against a metal fence",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fence",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 12,
+          "grade": "Good alternative",
+          "reason": "Clear physical support, quiet pavement and soft light; a different viewpoint from the side-on candidates.",
+          "preparation_notes": "The frontal angle overlaps the wheels and frame. Best when the intended modification remains visible from this angle.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 250,
+            "y": 0,
+            "side": 800,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba-source-v1",
+      "asset_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e2732-b457-73b7-9026-14b72e9692ba/1280w.jpg?s=e7b7ea549c5558c9",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "ae6abd602ebe58d9fe7911ad99c530a31b1d4b91feff123e636aee956addfaa5",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "silver",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "present-outside-proposed-crop",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Ordinary wall support and an uncluttered square-crop region; complete frame and wheels are visible. The square crop excludes a second bicycle at the far right of the full photograph. Retain that crop; the dappled wall adds some background texture.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Silver bicycle beside a pastel wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 13,
+          "grade": "Good alternative",
+          "reason": "Ordinary wall support and an uncluttered square-crop region; complete frame and wheels are visible.",
+          "preparation_notes": "The square crop excludes a second bicycle at the far right of the full photograph. Retain that crop; the dappled wall adds some background texture.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 325,
+            "y": 100,
+            "side": 650,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-source-v1",
+      "asset_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e1bc3-5b48-75d1-8ef8-8191e5a7e654/1280w.jpg?s=92446dd54d00e149",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1707,
+        "sha256": "c7a5e9c0d167a85e10a1a1b8c00734d4c4e11353691ed87e0505b36e8e47c958",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "right",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Plausible railing support with both wheels, drop handlebars and the frame visible; no rider. Adds a rural setting and a three-quarter view. Vegetation is busier than the higher-ranked wall backgrounds.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Red road bicycle by a timber railing",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "railing",
+        "road-bicycle"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 14,
+          "grade": "Good alternative",
+          "reason": "Plausible railing support with both wheels, drop handlebars and the frame visible; no rider.",
+          "preparation_notes": "Adds a rural setting and a three-quarter view. Vegetation is busier than the higher-ranked wall backgrounds.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 400,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1707,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-source-v1",
+      "asset_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1510736594446-2832676f52c7?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1920,
+        "sha256": "375f6f8d38c79fc06b747a97ce14bd7325cfd791a40012f46059922c1b568130",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "pale green",
+        "viewpoint": "Rear three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Natural wall contact, complete wheels and a recognisable city-bicycle silhouette from an alternative angle. The rear view hides some drivetrain detail. Prefer wheel or saddle edits over changes requiring a clear view of the crank.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Green city bicycle against a stone wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "stone",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 15,
+          "grade": "Good alternative",
+          "reason": "Natural wall contact, complete wheels and a recognisable city-bicycle silhouette from an alternative angle.",
+          "preparation_notes": "The rear view hides some drivetrain detail. Prefer wheel or saddle edits over changes requiring a clear view of the crank.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 550,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1920,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e144a-c76c-7a96-b721-6646821bfd2e-source-v1",
+      "asset_id": "photo-019e144a-c76c-7a96-b721-6646821bfd2e",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e144a-c76c-7a96-b721-6646821bfd2e/1280w.jpg?s=8fed9a0395c74d36",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1707,
+        "sha256": "fa4e61d497d4c3e02a2f784cf0c380606418619b568a9aa508536c2369428a5e",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Rear three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Single parked bicycle with clear railing/wall contact and recognisable wheels and handlebars. Provides an oblique view. Stonework and window details make the background less neutral than the highest-ranked choices.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Red bicycle beside a stone building",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "stone"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 16,
+          "grade": "Good alternative",
+          "reason": "Single parked bicycle with clear railing/wall contact and recognisable wheels and handlebars.",
+          "preparation_notes": "Provides an oblique view. Stonework and window details make the background less neutral than the highest-ranked choices.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 520,
+            "side": 1150,
+            "reference_width": 1280,
+            "reference_height": 1707,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-source-v1",
+      "asset_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2/1280w.jpg?s=4ea65e42f49f822f",
+      "files": [],
+      "observed_preview": {
+        "width": 960,
+        "height": 1280,
+        "sha256": "dda750b5b83ea028884c035437258ebcc2add466f7f4447d6f39e3749235aef2",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "turquoise",
+        "viewpoint": "Rear three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "A complete bicycle in a natural rural location, resting against a substantial fence; no people. Good colour and setting variety. The fence overlaps the bicycle, which complicates major frame edits.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Turquoise road bicycle against a wooden fence",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fence",
+        "outdoors",
+        "parked",
+        "road-bicycle"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 17,
+          "grade": "Good alternative",
+          "reason": "A complete bicycle in a natural rural location, resting against a substantial fence; no people.",
+          "preparation_notes": "Good colour and setting variety. The fence overlaps the bicycle, which complicates major frame edits.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 30,
+            "y": 330,
+            "side": 900,
+            "reference_width": 960,
+            "reference_height": 1280,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e24a0-8170-7687-ad86-d5bce14c1020-source-v1",
+      "asset_id": "photo-019e24a0-8170-7687-ad86-d5bce14c1020",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://thumb.pexafy.com/019e24a0-8170-7687-ad86-d5bce14c1020/1280w.jpg?s=b9d377677be924be",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1705,
+        "sha256": "885f958e942fa064fa5ee8543f7e882dc192158c6b46ed61706e7922547bd9be",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Rear three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Unoccupied bicycle with complete wheels, baskets and a conventional exterior-wall placement. The light is harder and the baskets add detail. A useful reserve when additional red city-bicycle images are needed.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page unresolved; identity and licence are catalogue-supplied."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page unresolved; identity and licence are catalogue-supplied.",
+        "The light is harder and the baskets add detail. A useful reserve when additional red city-bicycle images are needed."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Red city bicycle against a light wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 18,
+          "grade": "Reserve",
+          "reason": "Unoccupied bicycle with complete wheels, baskets and a conventional exterior-wall placement.",
+          "preparation_notes": "The light is harder and the baskets add detail. A useful reserve when additional red city-bicycle images are needed.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 425,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1705,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e-source-v1",
+      "asset_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/18999320/pexels-photo-18999320.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1707,
+        "sha256": "5abbc22854e27cc76dedf08a30e6ade3c267cd2c118c97882ab7036e86f27c05",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "blue and yellow",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Single bicycle parked against brickwork; the full object fits a square crop without losing a wheel. Lower prominence and more wall texture than the top candidates. The proposed crop improves tile-scale readability.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added.",
+        "Lower prominence and more wall texture than the top candidates. The proposed crop improves tile-scale readability."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Blue bicycle with a yellow front fork",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 19,
+          "grade": "Reserve",
+          "reason": "Single bicycle parked against brickwork; the full object fits a square crop without losing a wheel.",
+          "preparation_notes": "Lower prominence and more wall texture than the top candidates. The proposed crop improves tile-scale readability.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 80,
+            "y": 770,
+            "side": 900,
+            "reference_width": 1280,
+            "reference_height": 1707,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e2410-1c46-7e06-9780-259f972d58fa-source-v1",
+      "asset_id": "photo-019e2410-1c46-7e06-9780-259f972d58fa",
+      "levels": [
+        "raw"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/13503005/pexels-photo-13503005.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1920,
+        "sha256": "b122927c59f9dfbe176c9df4feb02b94db0be95907810f2949d870bb883a02ee",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the inspected preview, not the unknown higher-resolution original."
+      },
+      "characteristics": {
+        "colour": "mint",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "on its wheels on pavement",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "An unoccupied, unusually shaped small car parked in a believable street setting; no television still or performer. The requested funny-looking car alternative. The background is busier and the left margin is tighter; favour the displayed square crop.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "pending",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Publisher page identified; no independent rights-clearance record has been added."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "notes": "Imported from the 20-image ranked gallery; original rank preserved. The proposed crop has not been exported."
+      },
+      "unresolved_issues": [
+        "Publisher page identified; no independent rights-clearance record has been added.",
+        "The requested funny-looking car alternative. The background is busier and the left margin is tighter; favour the displayed square crop."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "Mint-coloured microcar outside a café",
+      "object_type": "car",
+      "keywords": [
+        "car",
+        "microcar",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 20,
+          "grade": "Reserve",
+          "reason": "An unoccupied, unusually shaped small car parked in a believable street setting; no television still or performer.",
+          "preparation_notes": "The requested funny-looking car alternative. The background is busier and the left margin is tighter; favour the displayed square crop.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 640,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1920,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t1-final-v1",
+      "asset_id": "legacy-g01-t1",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/dcd2d84006fe66df.webp",
+          "sha256": "dcd2d84006fe66df35faabcb40d7f77d4fc47f36f935fd11a412910e1c7abf90",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 66544
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/dcd2d84006fe66df-s.webp",
+          "sha256": "a75ffef5abdf3f5b1a94e664fce752e1ca1b452e0e1fd3e3d36d048d36a5a825",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18602
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T1",
+          "src": "dcd2d84006fe66df.webp",
+          "src_small": "dcd2d84006fe66df-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "dcd2d84006fe66df35faabcb40d7f77d4fc47f36f935fd11a412910e1c7abf90",
+          "alt": "A black city bicycle leaning against a green wooden door on a cobbled street",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a black city bicycle leaning against a green wooden door on a cobbled street, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1001,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:26:09+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A black city bicycle leaning against a green wooden door on a cobbled street",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t2-final-v1",
+      "asset_id": "legacy-g01-t2",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/0b9440ab514dced4.webp",
+          "sha256": "0b9440ab514dced406a42245ca6332da1c0783de53e25d47c5eb5cc80945e857",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 113088
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/0b9440ab514dced4-s.webp",
+          "sha256": "06f7847a582a4f737fe269f4fdccd90c59dd4a200b554a25205dc9fac24fb14a",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29918
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T2",
+          "src": "0b9440ab514dced4.webp",
+          "src_small": "0b9440ab514dced4-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "0b9440ab514dced406a42245ca6332da1c0783de53e25d47c5eb5cc80945e857",
+          "alt": "A red bicycle with a wicker basket parked against a brick wall",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a red bicycle with a wicker front basket parked against an old brick wall, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1002,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:28:40+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A red bicycle with a wicker basket parked against a brick wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t3-final-v1",
+      "asset_id": "legacy-g01-t3",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731.webp",
+          "sha256": "ce37edf2dc0a2731f47189d8bd56ad675f67796a544bfa4ada75e077d9f294ac",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 44246
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731-s.webp",
+          "sha256": "e3e12b5f683875bff8dab3b152ec46510497d63c007446037e241cd2afa5a745",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14876
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T3",
+          "src": "ce37edf2dc0a2731.webp",
+          "src_small": "ce37edf2dc0a2731-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "ce37edf2dc0a2731f47189d8bd56ad675f67796a544bfa4ada75e077d9f294ac",
+          "alt": "A blue road bicycle on an empty country road",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a blue road racing bicycle standing on its own on an empty country road, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1003,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:31:13+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A blue road bicycle on an empty country road",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t4-final-v1",
+      "asset_id": "legacy-g01-t4",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/1285019de39d43eb.webp",
+          "sha256": "1285019de39d43eb7295e9a6465d1a94a33812b9825c828e089ff8499c5495a7",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 63146
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/1285019de39d43eb-s.webp",
+          "sha256": "d7dc19d5a942d0a0bdce37390771ae4acd408cf0c0bd8cf7f57b5768c353c4d0",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 22032
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T4",
+          "src": "1285019de39d43eb.webp",
+          "src_small": "1285019de39d43eb-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "1285019de39d43eb7295e9a6465d1a94a33812b9825c828e089ff8499c5495a7",
+          "alt": "A small yellow child's bicycle with training wheels on a lawn",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a small yellow child's bicycle with training wheels standing on a garden lawn, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1004,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T12:41:15+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A small yellow child's bicycle with training wheels on a lawn",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t5-final-v1",
+      "asset_id": "legacy-g01-t5",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/72718790afe43ab8.webp",
+          "sha256": "72718790afe43ab8985c8c15cd5220e96fbda633426559ccf5f3bbf821298969",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 40438
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/72718790afe43ab8-s.webp",
+          "sha256": "65e2a9806164ca823287cd57e782fe8fd41f5bae3b8fc5f61b16b9ef91fff7d0",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16458
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T5",
+          "src": "72718790afe43ab8.webp",
+          "src_small": "72718790afe43ab8-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "72718790afe43ab8985c8c15cd5220e96fbda633426559ccf5f3bbf821298969",
+          "alt": "A red vintage motor scooter parked on a street",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a red vintage motor scooter parked on a quiet European street, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1005,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:33:39+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A red vintage motor scooter parked on a street",
+      "object_type": "motor-scooter",
+      "keywords": [
+        "motor-scooter",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t6-final-v1",
+      "asset_id": "legacy-g01-t6",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790.webp",
+          "sha256": "9f7aeb69bd32e790d1519a00d52d298bba22aab433a28e4ea680563d0af55371",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 50034
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790-s.webp",
+          "sha256": "f71c4e58e920668c7d3ff5ec1b3a1a1af8c062a8f625ac978672713e23de3647",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18458
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T6",
+          "src": "9f7aeb69bd32e790.webp",
+          "src_small": "9f7aeb69bd32e790-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "9f7aeb69bd32e790d1519a00d52d298bba22aab433a28e4ea680563d0af55371",
+          "alt": "A blue motorcycle parked on a cobbled square",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a blue motorcycle parked on a cobbled square, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1006,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:36:07+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A blue motorcycle parked on a cobbled square",
+      "object_type": "motorcycle",
+      "keywords": [
+        "motorcycle",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t7-final-v1",
+      "asset_id": "legacy-g01-t7",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4.webp",
+          "sha256": "4e5e0b454064aaf4a64450078685cc52fd0e78267c807b0336279da30a01ba12",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 28428
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4-s.webp",
+          "sha256": "074ba21238450122b6838a80f27a7abca581fb93909ea0ce7632d745de00f45a",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10346
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T7",
+          "src": "4e5e0b454064aaf4.webp",
+          "src_small": "4e5e0b454064aaf4-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "4e5e0b454064aaf4a64450078685cc52fd0e78267c807b0336279da30a01ba12",
+          "alt": "A child's kick scooter on a pavement",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a silver child's kick scooter standing on a pavement, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1007,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:38:26+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A child's kick scooter on a pavement",
+      "object_type": "kick-scooter",
+      "keywords": [
+        "kick-scooter",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t8-final-v1",
+      "asset_id": "legacy-g01-t8",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f.webp",
+          "sha256": "b2bf2dac95c24e8f5cc9e3c36d14f236fb87000e098ce6c6b67177864c153bfc",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 67784
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f-s.webp",
+          "sha256": "f56cee28db2ef3bbf8a2c259097ffb815e94dbda1a63134460e72f993c0de56e",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19796
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T8",
+          "src": "b2bf2dac95c24e8f.webp",
+          "src_small": "b2bf2dac95c24e8f-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "b2bf2dac95c24e8f5cc9e3c36d14f236fb87000e098ce6c6b67177864c153bfc",
+          "alt": "A skateboard on paving stones",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a wooden skateboard lying on grey paving stones, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1008,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:40:47+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A skateboard on paving stones",
+      "object_type": "skateboard",
+      "keywords": [
+        "skateboard",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    },
+    {
+      "version_id": "legacy-g01-t9-final-v1",
+      "asset_id": "legacy-g01-t9",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/G01/1/60c45b81b625a9a4.webp",
+          "sha256": "60c45b81b625a9a42fd186482b56d49030456174c7ef2de4f8d15acb9f2dd1c5",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 45950
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/G01/1/60c45b81b625a9a4-s.webp",
+          "sha256": "cdb36fe742626b7a7a08aafeaa71ae00cb81f1872850375704ba97c6052e81e2",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18086
+        }
+      ],
+      "characteristics": {
+        "colour": "unknown",
+        "viewpoint": "unknown",
+        "facing_direction": "unknown",
+        "environment": "see original description and generation prompt",
+        "support": "not re-reviewed on import",
+        "people": "not re-reviewed on import",
+        "additional_category_members": "not re-reviewed on import",
+        "assessment_scope": "existing-published-image"
+      },
+      "reviews": {
+        "visual": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        },
+        "rights": {
+          "status": "inherited",
+          "actor": "codex",
+          "timestamp": "2026-10-26T22:27:00Z",
+          "reason": "Existing published G01 record imported; not a new approval under the current photographic guidelines."
+        }
+      },
+      "operation": {
+        "type": "legacy-import",
+        "timestamp": "2026-10-26T22:27:00Z",
+        "actor": "codex",
+        "source_commit": "5177c6aaa464adbed203ac7b5af67c440e29d7a9",
+        "source_catalogue": "src/stimuli/catalogue.json",
+        "original_tile": {
+          "tile_id": "G01-T9",
+          "src": "60c45b81b625a9a4.webp",
+          "src_small": "60c45b81b625a9a4-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "60c45b81b625a9a42fd186482b56d49030456174c7ef2de4f8d15acb9f2dd1c5",
+          "alt": "A small white vintage car parked on a street",
+          "provenance": {
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "licence": "Apache-2.0",
+            "prompt": "a small white vintage car parked on a cobbled street, three-quarter view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
+            "seed": 1009,
+            "steps": 4,
+            "guidance_scale": 1.0,
+            "generated_at": "2026-10-20T13:43:12+00:00",
+            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+          }
+        },
+        "notes": "Byte-identical copy of an existing published image; raw/intermediate masters are not available in this collection."
+      },
+      "unresolved_issues": [
+        "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
+      ],
+      "created_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-26T22:27:00Z",
+      "actor": "codex",
+      "description": "A small white vintage car parked on a street",
+      "object_type": "car",
+      "keywords": [
+        "car",
+        "legacy-g01",
+        "generated"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "inherited",
+          "rank": null,
+          "grade": "Existing published tile",
+          "reason": "Role inherited from the existing G01 answer key.",
+          "preparation_notes": "Keep this imported snapshot unchanged; later replacements require a new set version.",
+          "scope": "existing-published-image",
+          "proposed_crop": null
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "set_key": "G01@1",
+      "set_id": "G01",
+      "version": 1,
+      "theme": "bicycles",
+      "manifest": "stimuli/final/bicycles/G01/1/manifest.json"
+    }
+  ]
+}
