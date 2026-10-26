@@ -95,7 +95,7 @@ for (const theme of vocabulary.themes) {
   out.push(grid(cardsFor(rawOnly, theme, (v) => `Original #${rank(v, theme) ?? '–'}`)));
 
   out.push('### Standardised', '');
-  out.push(grid(cardsFor(standardized?.version_ids ?? [], theme, () => '')));
+  out.push(grid(cardsFor([...(standardized?.version_ids ?? [])].sort(byRank(theme)), theme, (v) => `#${rank(v, theme) ?? '–'}`)));
 
   out.push('### Manipulated', '');
   out.push(grid(cardsFor(manipulated?.version_ids ?? [], theme, () => '')));

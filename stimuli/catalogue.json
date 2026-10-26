@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-26T23:03:03Z",
+  "updated_at": "2026-10-26T23:43:25Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -4828,6 +4828,2297 @@
             "coordinate_space": "downloaded-preview-pixels",
             "applied": false
           }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1",
+      "asset_id": "photo-019e294a-a808-7bd3-8b64-191398afb207",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e294a-a808-7bd3-8b64-191398afb207-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1.webp",
+          "sha256": "6a16d09c0691b9d77dd6406e038cbda824b7a0daf9190eda7dacacdd599a4d18",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 56644
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1-s.webp",
+          "sha256": "1c1b5561b045a89b3e76fc6347a32d46962113a0c492e6513a143482b58f9c09",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13598
+        }
+      ],
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Near-side profile",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole white folding bicycle with both wheels, pedals and deployed kickstand on paving before a block wall. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e294a-a808-7bd3-8b64-191398afb207/1280w.jpg?s=c9981c618a29ff70",
+          "sha256": "1e31b1b89b0b8f4e45dfdcc8ab388382a1779e41fe3b13ec2413043eb0364a61",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 960
+        },
+        "crop": {
+          "x": 100,
+          "y": 0,
+          "side": 960
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "White folding bicycle against a wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "folding-bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 1,
+          "grade": "Strong base",
+          "reason": "Complete folding frame, pedals and both wheels; quiet paving and wall; visible deployed kickstand.",
+          "preparation_notes": "A strong base for changes to wheel shape or frame geometry. Preserve the folding joint and stand.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 1
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd-standardized-v1",
+      "asset_id": "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd-standardized-v1.webp",
+          "sha256": "7b49a5ac9aeb43894323f76e2a6d81ef24fbb0dc655a2cbf54016a400a87e50e",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 35294
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd-standardized-v1-s.webp",
+          "sha256": "24e8b10cd93ada4130d8bc9cda7dab59bd0a8d6ce97a9cd0d25b81b8d1e696ee",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8708
+        }
+      ],
+      "characteristics": {
+        "colour": "blue",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole blue motor scooter, including mirror, both wheels and stand, on asphalt before a white wall. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd/1280w.jpg?s=b941452cb89fb694",
+          "sha256": "8fd5dbff6162ba11fcf1046bb3e71a8d1da67982feb5eb52dee13ea23a9b63d1",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1920
+        },
+        "crop": {
+          "x": 0,
+          "y": 640,
+          "side": 1280
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Blue motor scooter beside a white wall",
+      "object_type": "motor-scooter",
+      "keywords": [
+        "motor-scooter",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 2,
+          "grade": "Strong base",
+          "reason": "Unoccupied scooter with a clear silhouette, deployed parking stand and simple street background.",
+          "preparation_notes": "The conventional motor scooter requested as a distractor. Small brand details can be removed during preparation.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 2
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1",
+      "asset_id": "photo-019e2922-adab-744d-b31d-127e879330c3",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e2922-adab-744d-b31d-127e879330c3-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1.webp",
+          "sha256": "183068d1f1e04aaf6d195fc49ffa03cd4b0257c70f4bb85dc8387d496df1433c",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 26774
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1-s.webp",
+          "sha256": "5a5ca7b3e6fea62e4a99da1500eff83c5919f30c5ec35cbcdbdd64d0ddb759ba",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 7526
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole red bicycle leaning on a grey metal wall, both wheels on the ground. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e2922-adab-744d-b31d-127e879330c3/1280w.jpg?s=5c7383f63ff1ef2a",
+          "sha256": "ca75580fcc2ad61c2f7aa7578a117b515d353b01f1c193c3f3b6ef4900363e2e",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 220,
+          "y": 203,
+          "side": 650
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Red bicycle against a grey metal wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 3,
+          "grade": "Strong base",
+          "reason": "One intact bicycle against a restrained background; both wheels and frame remain legible after a square crop.",
+          "preparation_notes": "Useful neutral base for wheel or frame edits. The lower framing is corrected by the proposed crop.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 3
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1",
+      "asset_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1.webp",
+          "sha256": "df7d7738cbd742f93e73cef75eacecce91f06a5f12eb64820d6c90ad2e5d2db7",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 59286
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1-s.webp",
+          "sha256": "72a4a68039f7fe0dcd7c896e0cc90a456bbfdf10036e651a73c5315a65988851",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 17458
+        }
+      ],
+      "characteristics": {
+        "colour": "dark metallic",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole road bicycle leaning against a tree trunk on grass, both wheels visible. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e1626-f1ef-7ffc-9319-08fb96ff3414/1280w.jpg?s=645fb6ddffa1b3b7",
+          "sha256": "cf33d2e2dd34aeb860f59a0b2a5bb8b85d95348ddb88e6baad10cacee69b1382",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 340,
+          "y": 100,
+          "side": 700
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Road bicycle leaning against a tree",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "road-bicycle",
+        "tree"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 4,
+          "grade": "Strong base",
+          "reason": "Credible contact with the tree, soft outdoor light, and clear drop handlebars, frame and wheels.",
+          "preparation_notes": "Useful alternative to wall scenes. The tree partly overlaps the central frame, so wheel edits are easier than major frame edits.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 4
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1",
+      "asset_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1dda-7a82-7950-8d92-51b335fed43a-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1.webp",
+          "sha256": "671f27f119ea5f549dc2a060dc0b6eba1a90d7d3761d2390610ea29b8c616f96",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 37558
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1-s.webp",
+          "sha256": "fd8d9a08a6396b78b306ae3b5c650af0d188c61caeb43b1f056e38e87f9dd373",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9454
+        }
+      ],
+      "characteristics": {
+        "colour": "blue",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole blue city bicycle with front basket and kickstand against a red wall and step. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e1dda-7a82-7950-8d92-51b335fed43a/1280w.jpg?s=83bc8b22e4882320",
+          "sha256": "401bd2ce666de67fa267a85a76abdbedd3e23d145baf5b12a6cb58cd38fd4649",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 960
+        },
+        "crop": {
+          "x": 500,
+          "y": 340,
+          "side": 600
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Blue city bicycle beside a red bench",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 5,
+          "grade": "Strong base",
+          "reason": "Clear conventional bicycle in an ordinary street placement; readable wheels and contrasting colours.",
+          "preparation_notes": "The crop removes much of the empty wall. The vivid red background should be balanced across target and distractor tiles.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 5
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9-standardized-v1",
+      "asset_id": "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1d6c-7703-7a28-ab59-a40afa456fa9-standardized-v1.webp",
+          "sha256": "883715d692c922c3b0615485f008d97a69a001a2e11b471620ed36a33d27b838",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29888
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1d6c-7703-7a28-ab59-a40afa456fa9-standardized-v1-s.webp",
+          "sha256": "3ff32e039bb90a8f8bf2fddac46d98063353026e11d03e8f32155de844001ff9",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10196
+        }
+      ],
+      "characteristics": {
+        "colour": "dark deck",
+        "viewpoint": "Low three-quarter",
+        "facing_direction": "not-applicable",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "on its wheels on pavement",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole skateboard deck and all four wheels on pavement with fallen leaves. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e1d6c-7703-7a28-ab59-a40afa456fa9/1280w.jpg?s=14419dab39791bb6",
+          "sha256": "486803b971f2e5a2eba62d4cb55bdb937fc379675b1515bdd2332c1e7542f8ce",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 260,
+          "y": 0,
+          "side": 853
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Skateboard resting on pavement",
+      "object_type": "skateboard",
+      "keywords": [
+        "outdoors",
+        "pavement",
+        "resting",
+        "skateboard"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 6,
+          "grade": "Strong base",
+          "reason": "Complete deck and wheels on a believable surface, with no rider, limbs or other target objects.",
+          "preparation_notes": "A clear skateboard distractor. Soft background detail and visible ground contact make it a useful photographic match.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 6
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1de1-dd6f-720d-b68e-7471fcfb7757-standardized-v1",
+      "asset_id": "photo-019e1de1-dd6f-720d-b68e-7471fcfb7757",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1de1-dd6f-720d-b68e-7471fcfb7757-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1de1-dd6f-720d-b68e-7471fcfb7757-standardized-v1.webp",
+          "sha256": "d0fef4db02080a7dddde47eff90c93c51d9289d4562065cee154c6b2f6ab0957",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 28082
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1de1-dd6f-720d-b68e-7471fcfb7757-standardized-v1-s.webp",
+          "sha256": "c01aedc94e45b285fc6639564633ea278af94c55137838cd67dc53c31c6ddbcb",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9082
+        }
+      ],
+      "characteristics": {
+        "colour": "cream",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole cream bicycle with rear basket and kickstand on brick paving before a white wall. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1582732142755-c575e698599d?w=1280",
+          "sha256": "bce0188b2d3e3d3c7f02f47713d90213be9252d1f97290cbfd3f881400e792aa",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 875
+        },
+        "crop": {
+          "x": 470,
+          "y": 135,
+          "side": 740
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Cream bicycle with a rear carrier",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "carrier",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 7,
+          "grade": "Strong base",
+          "reason": "One complete bicycle against a natural exterior wall, with a readable step-through frame and credible support.",
+          "preparation_notes": "The rear carrier adds ordinary detail. Keep it intact unless it is the intended part of a later manipulation.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 7
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1",
+      "asset_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1.webp",
+          "sha256": "d1f9506d6555d77854cdab0075b4ecb3968767ae6d9c8dc2fddedb0401d22141",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 46908
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1-s.webp",
+          "sha256": "8009cdda9ebffa6f6f075d954f3f96c4e95f184a1f0388c886a5bde2237d54ab",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13184
+        }
+      ],
+      "characteristics": {
+        "colour": "green and grey",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "right",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole small green BMX-style bicycle on dusty ground by a whitewashed brick wall; dark doorway at the left edge. The CDN re-encoded preview matches the recorded dimensions, description and crop. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1518596306109-f402fdd955d8?w=1280",
+          "sha256": "9259900aa2d70dc37c4902108c66d6c9a96965e8b26ad72c7005152b3110e37f",
+          "format": "jpeg",
+          "reviewed_preview_sha256": "a7923023edcbe4ddab1b22bfcf9806fb22bbba0b250b674da281f5d66de3f6f6",
+          "notes": "The source CDN re-encoded the preview after review; same dimensions, content checked visually against the parent record."
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 962
+        },
+        "crop": {
+          "x": 0,
+          "y": 202,
+          "side": 760
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Small green bicycle by a brick wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "brick",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 8,
+          "grade": "Strong base",
+          "reason": "Distinct small-wheel bicycle against a quiet textured wall; complete wheels, saddle and handlebars.",
+          "preparation_notes": "Adds bicycle-type variety. Its proportions differ from a city bicycle, so keep its category cues clear in later edits.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 8
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1",
+      "asset_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e23a6-5d30-793b-bd37-6789b6499899-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1.webp",
+          "sha256": "71931b6aa1cba933dc90d72da10d60b41c478b07ea5e5ec537363f84b65d77d2",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 50194
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1-s.webp",
+          "sha256": "e7d90987a8e2f6db09dd434c109e688a15433ed7606bfd5004826ab2a5d25bd6",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16496
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "right",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole motorcycle on its stand before a brick wall. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e23a6-5d30-793b-bd37-6789b6499899/1280w.jpg?s=6813c52eccd806fe",
+          "sha256": "df39e81a013a0b35284dbc850dd26e1f7e1e0eaf3d9cd95f10dbadd3a3aaa2b9",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 335,
+          "y": 185,
+          "side": 600
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Motorcycle parked in front of a brick wall",
+      "object_type": "motorcycle",
+      "keywords": [
+        "brick",
+        "motorcycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 9,
+          "grade": "Strong base",
+          "reason": "One unoccupied motorcycle on its parking stand; engine, fuel tank and front wheel make the non-bicycle category clear.",
+          "preparation_notes": "The frontal three-quarter view avoids another side profile. Remove conspicuous manufacturer branding during final preparation.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 9
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1",
+      "asset_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e144a-b43a-738a-8bc8-a9756e805dba-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1.webp",
+          "sha256": "9499b7e4984ed97d2dec0e98f0f816935e95d5540d95f9684ff0a5ce935c941e",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 38112
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1-s.webp",
+          "sha256": "91063b87a8a579f3798b8bd6263077c95365dc57bcff42bd5806979434c524e8",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 11142
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "towards-camera",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole bicycle in an oblique front view leaning against a metal fence, both wheels on paving. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/12322815/pexels-photo-12322815.jpeg?w=1280",
+          "sha256": "4f259df4450dc1fc37bb4f3688733ef79e2c721749fd9a4b898763f7c11675db",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 250,
+          "y": 0,
+          "side": 800
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Bicycle leaning against a metal fence",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fence",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 10,
+          "grade": "Good alternative",
+          "reason": "Clear physical support, quiet pavement and soft light; a different viewpoint from the side-on candidates.",
+          "preparation_notes": "The frontal angle overlaps the wheels and frame. Best when the intended modification remains visible from this angle.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 12
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1",
+      "asset_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e2732-b457-73b7-9026-14b72e9692ba-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1.webp",
+          "sha256": "571cb8322a1285c28e00d63ad0c610beb54c79f505f52e040f42fe1898f24eb6",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 25486
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1-s.webp",
+          "sha256": "da6388376e56c0805759f28fc19d921cb59d3882417ee392143de0389215116e",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8552
+        }
+      ],
+      "characteristics": {
+        "colour": "silver",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "deployed parking stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "present-outside-proposed-crop",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole silver bicycle on its kickstand beside a pastel wall. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e2732-b457-73b7-9026-14b72e9692ba/1280w.jpg?s=e7b7ea549c5558c9",
+          "sha256": "ae6abd602ebe58d9fe7911ad99c530a31b1d4b91feff123e636aee956addfaa5",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 325,
+          "y": 100,
+          "side": 650
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Silver bicycle beside a pastel wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 11,
+          "grade": "Good alternative",
+          "reason": "Ordinary wall support and an uncluttered square-crop region; complete frame and wheels are visible.",
+          "preparation_notes": "The square crop excludes a second bicycle at the far right of the full photograph. Retain that crop; the dappled wall adds some background texture.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 13
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1",
+      "asset_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1.webp",
+          "sha256": "77cf4e2cd92bacf3b7709ecfa83dd17110569bcb849377bed1102054a91596e2",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 77682
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1-s.webp",
+          "sha256": "85cb8ffa9ebd909d978e1e0003e9a19cae91fd5cd268f053ddc262ec201dec83",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 22684
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "right",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole red road bicycle leaning on a timber-and-rope railing, both wheels on the path edge. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e1bc3-5b48-75d1-8ef8-8191e5a7e654/1280w.jpg?s=92446dd54d00e149",
+          "sha256": "c7a5e9c0d167a85e10a1a1b8c00734d4c4e11353691ed87e0505b36e8e47c958",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1707
+        },
+        "crop": {
+          "x": 0,
+          "y": 400,
+          "side": 1280
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Red road bicycle by a timber railing",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "railing",
+        "road-bicycle"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 12,
+          "grade": "Good alternative",
+          "reason": "Plausible railing support with both wheels, drop handlebars and the frame visible; no rider.",
+          "preparation_notes": "Adds a rural setting and a three-quarter view. Vegetation is busier than the higher-ranked wall backgrounds.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 14
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1",
+      "asset_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1.webp",
+          "sha256": "7aa99719461f9c695bd21c4361c6cc679eda0167b8b27485a9536d5e6b3e8376",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 48284
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1-s.webp",
+          "sha256": "1f3c1ba2b3deffce5e1e6dc4a4936b80ba0c2b5f3c994bca202b4c6e499972c8",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16022
+        }
+      ],
+      "characteristics": {
+        "colour": "pale green",
+        "viewpoint": "Rear three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole green city bicycle in a close oblique view against a stone wall and window grille, both wheels complete. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1510736594446-2832676f52c7?w=1280",
+          "sha256": "375f6f8d38c79fc06b747a97ce14bd7325cfd791a40012f46059922c1b568130",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1920
+        },
+        "crop": {
+          "x": 0,
+          "y": 550,
+          "side": 1280
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Green city bicycle against a stone wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "stone",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 13,
+          "grade": "Good alternative",
+          "reason": "Natural wall contact, complete wheels and a recognisable city-bicycle silhouette from an alternative angle.",
+          "preparation_notes": "The rear view hides some drivetrain detail. Prefer wheel or saddle edits over changes requiring a clear view of the crank.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 15
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1",
+      "asset_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1.webp",
+          "sha256": "482a516e0befe80f7d69b66e2eca237a878bdc82711de89e5fa3ace4235056b1",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 83078
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1-s.webp",
+          "sha256": "5352d596366f0daa7657567d38d55c9361ee4a92a5c26a2677d6e57dbfedb34f",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18400
+        }
+      ],
+      "characteristics": {
+        "colour": "turquoise",
+        "viewpoint": "Rear three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole turquoise road bicycle leaning on a wooden fence beside a field. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2/1280w.jpg?s=4ea65e42f49f822f",
+          "sha256": "dda750b5b83ea028884c035437258ebcc2add466f7f4447d6f39e3749235aef2",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 960,
+          "height": 1280
+        },
+        "crop": {
+          "x": 30,
+          "y": 330,
+          "side": 900
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Turquoise road bicycle against a wooden fence",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fence",
+        "outdoors",
+        "parked",
+        "road-bicycle"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 14,
+          "grade": "Good alternative",
+          "reason": "A complete bicycle in a natural rural location, resting against a substantial fence; no people.",
+          "preparation_notes": "Good colour and setting variety. The fence overlaps the bicycle, which complicates major frame edits.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 17
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e24a0-8170-7687-ad86-d5bce14c1020-standardized-v1",
+      "asset_id": "photo-019e24a0-8170-7687-ad86-d5bce14c1020",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e24a0-8170-7687-ad86-d5bce14c1020-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e24a0-8170-7687-ad86-d5bce14c1020-standardized-v1.webp",
+          "sha256": "50d5aaf13a93e119e76e637ef47c96bc275de35e0e61fac28325f51cba626587",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 40604
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e24a0-8170-7687-ad86-d5bce14c1020-standardized-v1-s.webp",
+          "sha256": "d6b00f92d4a668fb30662ff7526cbc03c0b1ed5c017f23f790ca64c315ab52c8",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 11668
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Rear three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole red city bicycle with front and rear baskets against a light wall; drain grate at the lower right. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://thumb.pexafy.com/019e24a0-8170-7687-ad86-d5bce14c1020/1280w.jpg?s=b9d377677be924be",
+          "sha256": "885f958e942fa064fa5ee8543f7e882dc192158c6b46ed61706e7922547bd9be",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1705
+        },
+        "crop": {
+          "x": 0,
+          "y": 425,
+          "side": 1280
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Red city bicycle against a light wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 15,
+          "grade": "Reserve",
+          "reason": "Unoccupied bicycle with complete wheels, baskets and a conventional exterior-wall placement.",
+          "preparation_notes": "The light is harder and the baskets add detail. A useful reserve when additional red city-bicycle images are needed.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 18
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1",
+      "asset_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1970-796f-731f-90ce-232d86c4eb1e-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1.webp",
+          "sha256": "d1032c98610e17a7892b3933d2c1e149f4694e09f69f0208a3ec18977500284c",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 92590
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1-s.webp",
+          "sha256": "8621eb1e2c987fb7711d9af91d396f150e99d8e4038b1d6f6fe3fbd90b2663f9",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 22178
+        }
+      ],
+      "characteristics": {
+        "colour": "blue and yellow",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "outdoor street, path or exterior wall; see content description",
+        "support": "leaning against the pictured wall, tree, fence or railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole blue bicycle with yellow front fork against a brick wall on paving. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/18999320/pexels-photo-18999320.jpeg?w=1280",
+          "sha256": "5abbc22854e27cc76dedf08a30e6ade3c267cd2c118c97882ab7036e86f27c05",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1707
+        },
+        "crop": {
+          "x": 80,
+          "y": 770,
+          "side": 900
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Blue bicycle with a yellow front fork",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 16,
+          "grade": "Reserve",
+          "reason": "Single bicycle parked against brickwork; the full object fits a square crop without losing a wheel.",
+          "preparation_notes": "Lower prominence and more wall texture than the top candidates. The proposed crop improves tile-scale readability.",
+          "scope": "standardised-crop",
+          "original_gallery_rank": 19
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1",
+      "asset_id": "photo-019e147c-0ae7-7793-8c79-b26344f176fb",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e147c-0ae7-7793-8c79-b26344f176fb-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1.webp",
+          "sha256": "da9729666a89872ebc4fe51dd8fd1107b97cd486e266e59e3971fda4d4fbfb69",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 78730
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1-s.webp",
+          "sha256": "b5001f74a556de1f9dd41f06989a2077c49230aff15312b26c1bc52e961a05ff",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 20192
+        }
+      ],
+      "characteristics": {
+        "colour": "dark grey",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "City bicycle at a worn street-corner wall",
+        "support": "leaning against the pictured wall or fence",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole city bicycle on its kickstand by a worn wall and pole; road marking at the bottom. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/4946807/pexels-photo-4946807.jpeg?w=1280",
+          "sha256": "84a78b6da267cfbc2f02b6bff8646da8298b410ceb92ab3a4a06b2137e148274",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1920
+        },
+        "crop": {
+          "x": 600,
+          "y": 1100,
+          "side": 680
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "City bicycle at a worn street-corner wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "scope": "standardised-crop",
+          "rank": 17,
+          "original_gallery_rank": null,
+          "grade": "Good alternative",
+          "reason": "An intact bicycle leans against a masonry wall; a lower square crop gives a readable three-quarter view and excludes the traffic mirror.",
+          "preparation_notes": "Keep the proposed lower-right crop: the full photograph includes a road and traffic mirror. The source crop remains well above 512 px."
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1",
+      "asset_id": "photo-019e0fed-2b99-7df3-9285-402da53ce583",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e0fed-2b99-7df3-9285-402da53ce583-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1.webp",
+          "sha256": "9eb81ec45d85b4e81e6f7bac710485256f897ba8f7c6189c118cf9d6a307e18b",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 28642
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1-s.webp",
+          "sha256": "6decec9ee637ac18a7c10a46c473abcc629e484d1e4bfa97999dc2bd9fd79493",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9374
+        }
+      ],
+      "characteristics": {
+        "colour": "silver / grey",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "Silver city bicycle against a weathered wall",
+        "support": "leaning against the pictured wall or fence",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole silver city bicycle leaning against a weathered wall. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/36095859/pexels-photo-36095859.jpeg?w=1280",
+          "sha256": "0f446690ca872555f0e82029a87026aa38671bb6eb460e9e8e404a6257c90760",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1613
+        },
+        "crop": {
+          "x": 200,
+          "y": 480,
+          "side": 1000
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Silver city bicycle against a weathered wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "outdoors",
+        "parked",
+        "silver",
+        "wall"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "scope": "standardised-crop",
+          "rank": 18,
+          "original_gallery_rank": null,
+          "grade": "Reserve",
+          "reason": "Complete bicycle in a front three-quarter view, leaning naturally against a quiet wall; no people or additional bicycles.",
+          "preparation_notes": "Reserve: the warm, muted colour cast needs comparison with the rest of the set during standardisation. Preserve the complete front wheel and visible pedals."
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1",
+      "asset_id": "photo-019e1476-12d8-7676-86f1-09354d8187c1",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1476-12d8-7676-86f1-09354d8187c1-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1.webp",
+          "sha256": "89bce4c1a7fc97496ac5c5b6f2b5dedec23d278aa1d11603aa72f0f7efb64ded",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 100864
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1-s.webp",
+          "sha256": "55ca1d4d69189a32e4f5fa1b4f821f5c544ebb543b906cbfee6f4a24b508ac4a",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 24856
+        }
+      ],
+      "characteristics": {
+        "colour": "orange / yellow",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "Orange road bicycle against a wire fence",
+        "support": "leaning against the pictured wall or fence",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole orange road bicycle leaning on a wire fence, grass at its base. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/25849065/pexels-photo-25849065.jpeg?w=1280",
+          "sha256": "d9247f419844b93962dffc981d3f4fdd40b7511c7e9104dd3db889cc13bc4f7a",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 913
+        },
+        "crop": {
+          "x": 100,
+          "y": 0,
+          "side": 900
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Orange road bicycle against a wire fence",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fence",
+        "orange",
+        "outdoors",
+        "parked"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "scope": "standardised-crop",
+          "rank": 19,
+          "original_gallery_rank": null,
+          "grade": "Reserve",
+          "reason": "Complete orange bicycle with yellow handlebars, resting against a fence with visible ground contact; useful colour and support variety.",
+          "preparation_notes": "Reserve: vines and wire mesh make the background busier than the strongest bases. Retain the saddle, both wheels and crank area."
+        }
+      ]
+    },
+    {
+      "version_id": "photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1",
+      "asset_id": "photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1.webp",
+          "sha256": "64d23cb330e38999deb4f7d78368c22f18a6b7392dd50a28a4495bf7efbcbd4d",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 63686
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1-s.webp",
+          "sha256": "2b9bd954faf54777a9725c70da2efe4200603b5233f4ed51bae358d151ee38af",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 20042
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side / slight three-quarter",
+        "facing_direction": "left",
+        "environment": "Small red microcar under a leafy tree",
+        "support": "tyres on cobblestones",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Whole red microcar on cobbles under a tree before a stone building. No clipping, stretching or content change; checked at 256 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-26T23:43:25Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-26T23:43:25Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/27851602/pexels-photo-27851602.jpeg?w=1280",
+          "sha256": "4ada2795da0db575010c67a312ab1ebca4c651bc26e4a2f785698dd92d570b36",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1920
+        },
+        "crop": {
+          "x": 100,
+          "y": 800,
+          "side": 1120
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-26T23:43:25Z",
+      "actor": "claude",
+      "description": "Small red microcar under a leafy tree",
+      "object_type": "car",
+      "keywords": [
+        "car",
+        "microcar",
+        "outdoors",
+        "parked",
+        "red",
+        "tree"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "scope": "standardised-crop",
+          "rank": 20,
+          "original_gallery_rank": null,
+          "grade": "Reserve",
+          "reason": "A complete, unusually small car parked on cobblestones beside a stone building; empty interior, natural tyre contact and no bicycles.",
+          "preparation_notes": "Reserve: foliage casts dappled light. Use the lower crop to keep the whole body and tyres; this is a real microcar, with no television material."
         }
       ]
     }

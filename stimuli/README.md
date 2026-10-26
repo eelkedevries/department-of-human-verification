@@ -22,7 +22,7 @@ The usual route is raw → suitable → standardized → final. For an edited st
 
 - Twenty-four linked raw photographs: the original twenty and four verified replacements. Original gallery ranks and discovery history are preserved.
 - Twenty suitable photographs with approved visual and individual rights reviews: sixteen bicycles, a motor scooter, a motorcycle, a skateboard and a quirky car. Sixteen originals are retained; four unresolved originals remain raw only. The [rights review](raw/bicycles/rights-review-2026-10-26.md) records publisher links, matching evidence, licence conditions and exclusions.
-- No new standardised or manipulated photographs. Empty manifests are intentional.
+- Twenty standardised 512/256 px WebP pairs, one for each suitable photograph, cropped as reviewed from the recorded previews. No manipulated photographs yet; the empty manifest is intentional.
 - A [G01 version 1 snapshot](final/bicycles/G01/1/README.md) containing byte-identical copies of the existing published grid. It is an import of the existing selection, with inherited provenance and no invented intermediate stages.
 
 ## Metadata and tags
@@ -48,6 +48,8 @@ Licence conditions survive review: some sources restrict standalone distribution
 ## Standardisation and editing
 
 The `webp-512-256-v1` profile matches the current publisher: square RGB images in sRGB, 512 × 512 and 256 × 256 px, WebP quality 82, method 6, with Lanczos resizing. Apply orientation and colour conversion, then a reviewed square crop. Preserve the full object and visible support. Do not stretch a rectangular photograph or silently upscale a small crop. Record the input dimensions, crop, orientation, colour conversion, resampling and encoder; keep the output files and hashes.
+
+`python3 tools/stimuli/standardise.py <theme>` applies this profile to every suitable photograph without a standardised child, using the reviewed preview and its recorded crop. It refuses a preview whose bytes changed at the source unless the version is passed to `--accept-reencoded` with unchanged dimensions, writes a contact sheet to `.cache/`, and registers the versions only after the reviewer inspects them and supplies approved visual reviews (`--reviews <file> --actor <name>`).
 
 For an AI edit, record the parent versions, intended change, complete instructions, tool/provider, model and revision, seed where available, timestamp, actor, output hash and visual review. If a value is unavailable, record `null` with an explanation. Check support, shadows, functional parts and the defining category features after editing. Preserve only the intended impossibility. The [photography guidelines](../docs/stimuli.md#stimulus-photography-and-background-guidelines) apply to all levels and roles.
 
