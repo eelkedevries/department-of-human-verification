@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-836e2fc371",
+  "catalogue_version": "2026-10-27-a3113a2ec4",
   "families": [
     "recognition",
     "semantic",
@@ -1288,6 +1288,219 @@
       "borderline_tile_ids": [
         "C14-T5",
         "C14-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C15",
+      "version": 1,
+      "hash": "2e2b2bdd397a869be534bb3e2b52ec5be1b042cf72f40b5e85234ad7f228b134",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a sandwich.",
+      "instruction_variants": {
+        "direct": "Select all images containing a sandwich.",
+        "semantic": "Select all foods served between slices of bread."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary sandwiches count, and so do the sandwich running on sausage legs and the turkey far too big for its bread: impossible, but still sandwiches. The hot dog and the calzone are borderline cases, recorded without a verdict. The pizza, the soup and the pasta salad are not sandwiches.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Sandwiches identified. Lunch has been approved.",
+          "Correct. Every sandwich has been filed, and eaten."
+        ],
+        "partial": [
+          "Partially correct. A sandwich has been left on the plate.",
+          "Partially correct. Some sandwiches went uneaten."
+        ],
+        "incorrect": [
+          "Incorrect. The Department has lost its appetite.",
+          "Incorrect. Your lunch break is under review."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C15-T1",
+          "src": "2cea59f92c7af827.webp",
+          "src_small": "2cea59f92c7af827-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "2cea59f92c7af8278db4542300a2ca4789944320bbef7476015a3560a79f9bfc",
+          "alt": "Triple-layer club sandwich triangle held with a cocktail stick on a white plate",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Suea Sivilaisith",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/triangle-slice-of-a-ham-sandwich-foHj73zCV3Y",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Suea Sivilaisith on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C15-T2",
+          "src": "b968f7c3b004aaf8.webp",
+          "src_small": "b968f7c3b004aaf8-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "b968f7c3b004aaf8c909c697e0409828196949e71632a5d60e355fdb9f25e594",
+          "alt": "Crusty baguette sandwich with ham and tomato on a grey plate",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Farhad Ibrahimzade",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/burger-on-white-ceramic-plate-0iHuxGxSnKU",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Farhad Ibrahimzade on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C15-T3",
+          "src": "11c0e7149269c453.webp",
+          "src_small": "11c0e7149269c453-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "11c0e7149269c453816cd3ccbfcb28f1a506935489856f12b2c8037bbcce8adc",
+          "alt": "Club sandwich running across a café table on sausage legs wearing tiny black shoes",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C15-T4",
+          "src": "852519aaa3dbfb2b.webp",
+          "src_small": "852519aaa3dbfb2b-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "852519aaa3dbfb2b5581b71e49a7d3c97bb561cb0d0b0a341dbcea0a75373594",
+          "alt": "Whole roast turkey far larger than the slice of bread it sits on, on a wooden table",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C15-T5",
+          "src": "bc63c1c71df95fec.webp",
+          "src_small": "bc63c1c71df95fec-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "bc63c1c71df95fec0bc9ba53b29141752ef33fccf8bdb0872c1729ad3aa31130",
+          "alt": "Hot dog with relish and a pickle spear in a paper tray on a blue background",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Drew Dempsey",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-hot-dog-with-relish-and-mustard-on-a-bun-8OH1QhIhWEM",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Drew Dempsey on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C15-T6",
+          "src": "b7af95d22898f807.webp",
+          "src_small": "b7af95d22898f807-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "b7af95d22898f807d74633d2809951e0fbb3b3945055d425f278fb450c32d141",
+          "alt": "Baked calzone on a round wooden board with salad leaves",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "bahareh moradian",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-delicious-calzone-sits-on-a-wooden-board-6jOG00umfag",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by bahareh moradian on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C15-T7",
+          "src": "580507a518be8406.webp",
+          "src_small": "580507a518be8406-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "580507a518be8406564aaf7458765e749644c1460c1cec8421e5878d0624b2f3",
+          "alt": "Margherita pizza with tomatoes and basil on a dark floured surface",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Inna Gurina",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/pizza-with-green-leaf-vegetable-JspLKUauwSI",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Inna Gurina on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C15-T8",
+          "src": "157f6075719ab356.webp",
+          "src_small": "157f6075719ab356-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "157f6075719ab356cd7684f43cfd9472708bc311eb956a627dfdb21c9f6bee5b",
+          "alt": "Orange soup with herbs in a white bowl on a blue-grey surface",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Hanna Balan",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/soup-in-white-ceramic-bowl-S0aApSK9i18",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Hanna Balan on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C15-T9",
+          "src": "5040842f68dc07a1.webp",
+          "src_small": "5040842f68dc07a1-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "5040842f68dc07a123d6869f205a55d2e117d03bae04b586f7bb7498c22ad3bd",
+          "alt": "Pasta salad with tuna, cherry tomatoes and peppers in a white bowl on white",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Eiliv Aceron",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/vegetable-salad-in-white-ceramic-bowl-mW0LIBBHNdE",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Eiliv Aceron on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C15-T1",
+        "C15-T2",
+        "C15-T3",
+        "C15-T4"
+      ],
+      "borderline_tile_ids": [
+        "C15-T5",
+        "C15-T6"
       ]
     }
   ]

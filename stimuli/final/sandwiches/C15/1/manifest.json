@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C15@1",
+  "set_id": "C15",
+  "version": 1,
+  "theme": "sandwiches",
+  "status": "approved",
+  "instruction": "Select all images containing a sandwich.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C15",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all foods served between slices of bread.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary sandwiches count, and so do the sandwich running on sausage legs and the turkey far too big for its bread: impossible, but still sandwiches. The hot dog and the calzone are borderline cases, recorded without a verdict. The pizza, the soup and the pasta salad are not sandwiches.",
+    "feedback": {
+      "correct": [
+        "Sandwiches identified. Lunch has been approved.",
+        "Correct. Every sandwich has been filed, and eaten."
+      ],
+      "partial": [
+        "Partially correct. A sandwich has been left on the plate.",
+        "Partially correct. Some sandwiches went uneaten."
+      ],
+      "incorrect": [
+        "Incorrect. The Department has lost its appetite.",
+        "Incorrect. Your lunch break is under review."
+      ]
+    },
+    "stimulus_id": "C15",
+    "version": 1,
+    "grid_hash": "2e2b2bdd397a869be534bb3e2b52ec5be1b042cf72f40b5e85234ad7f228b134"
+  },
+  "tiles": [
+    {
+      "tile_id": "C15-T1",
+      "version_id": "photo-unsplash-1567234669013-216f3a40e02e-c15-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C15-T2",
+      "version_id": "photo-unsplash-1626203050468-9308df7964fc-c15-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C15-T3",
+      "version_id": "generated-sandwiches-running-sandwich-c15-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C15-T4",
+      "version_id": "generated-sandwiches-turkey-sandwich-c15-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C15-T5",
+      "version_id": "photo-unsplash-1678033382919-fa907632fdda-c15-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C15-T6",
+      "version_id": "photo-unsplash-1753656681797-3234c89d6d4d-c15-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C15-T7",
+      "version_id": "photo-unsplash-1595854341625-f33ee10dbf94-c15-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C15-T8",
+      "version_id": "photo-unsplash-1603208614636-aa308b918a32-c15-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C15-T9",
+      "version_id": "photo-unsplash-1604497181015-76590d828b75-c15-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C15-T1",
+    "C15-T2",
+    "C15-T3",
+    "C15-T4"
+  ],
+  "borderline_tile_ids": [
+    "C15-T5",
+    "C15-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T09:47:53Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary sandwiches (triple-layer club sandwich triangle on a cocktail stick, side view; crusty baguette sandwich with ham and tomato), two impossible sandwiches (generated club sandwich standing on sausage legs in tiny shoes; generated whole roast turkey on a slice of bread far too small for it), two borderline foods (photographed hot dog in a paper tray; photographed calzone on a wooden board) and three non-members (margherita pizza seen from above, orange soup in a white bowl, pasta salad seen from above). Bread appears among targets, borderline cases and the pizza alike, so bread alone does not decide. Views, colours and settings vary within each role. The toasted cheese sandwich and the lettuce-wrapped burger remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T09:47:53Z",
+  "actor": "claude"
+}

@@ -3,5 +3,8 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "sandwiches",
-  "version_ids": []
+  "version_ids": [
+    "generated-sandwiches-running-sandwich-v1",
+    "generated-sandwiches-turkey-sandwich-v1"
+  ]
 }
