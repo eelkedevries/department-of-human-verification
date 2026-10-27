@@ -6,6 +6,7 @@
   "version_ids": [
     "generated-bridges-hand-bridge-v1",
     "generated-bridges-insect-bridge-v1",
-    "generated-bridges-knotted-bridge-v1"
+    "generated-bridges-knotted-bridge-v1",
+    "generated-bridges-handrail-tree-v1"
   ]
 }

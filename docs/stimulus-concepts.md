@@ -1,6 +1,6 @@
 # Normal questions, unreasonable objects
 
-**Design brief — 20 October 2026. Candidate sets only: no new artwork is published yet.**
+**Design brief — 20 October 2026.** All fifteen pools were published on 27 October 2026 as grids C01–C15, numbered as in the table below; most use two normal, two bizarre, two debatable and three non-member images. Items without a usable image are listed in the [source registry](../stimuli/SOURCES.md), and every image is in the [collection gallery](../stimuli/GALLERY.md).
 
 The Department asks completely ordinary CAPTCHA questions. Images mix normal category members, recognisable but **impossible or profoundly absurd** category members, and genuine category-boundary cases. The question is the straight man; the image is the joke. Not merely inconvenient product design, novelty animal-shaped lamps or accidental AI image artefacts. A viewer should recognise the object immediately, spot a ridiculous physical contradiction, and still find the photograph strangely believable. All new grids use **“Select all…”** and allow multiple selections.
 

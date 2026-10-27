@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C14@2",
+  "set_id": "C14",
+  "version": 2,
+  "theme": "bridges",
+  "status": "approved",
+  "instruction": "Select all images containing a bridge.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C14",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all structures built for crossing over something.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary bridges count, and so do the bridge held up by two giant hands and the footbridge standing on insect legs: impossible, but still bridges. The fallen tree with a handrail and the stepping stones are borderline crossings, recorded without a verdict. The tunnel entrance, the outdoor staircase and the railway platform are not bridges.",
+    "feedback": {
+      "correct": [
+        "Bridges identified. Please cross them when you come to them.",
+        "Correct. Every bridge has been inspected."
+      ],
+      "partial": [
+        "Partially correct. A bridge has been left uncrossed.",
+        "Partially correct. Some bridges escaped inspection."
+      ],
+      "incorrect": [
+        "Incorrect. That bridge has been burnt.",
+        "Incorrect. The Department remains on the other side."
+      ]
+    },
+    "stimulus_id": "C14",
+    "version": 2,
+    "grid_hash": "bd6c70da36b4e3ddf79028c518890d0fba89d54e8fbf023c82ac1a597a601a70"
+  },
+  "tiles": [
+    {
+      "tile_id": "C14-T1",
+      "version_id": "photo-unsplash-1618079266919-9613251ec24d-c14-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T2",
+      "version_id": "photo-unsplash-1667017898252-10a7894b428e-c14-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T3",
+      "version_id": "generated-bridges-hand-bridge-c14-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T4",
+      "version_id": "generated-bridges-insect-bridge-c14-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T5",
+      "version_id": "generated-bridges-handrail-tree-c14-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C14-T6",
+      "version_id": "photo-pexels-37358201-c14-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C14-T7",
+      "version_id": "photo-unsplash-1787372818035-787d68d5d1a7-c14-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C14-T8",
+      "version_id": "photo-pexels-8802009-c14-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C14-T9",
+      "version_id": "photo-unsplash-1776899228602-3200d9c0d0a4-c14-2-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C14-T1",
+    "C14-T2",
+    "C14-T3",
+    "C14-T4"
+  ],
+  "borderline_tile_ids": [
+    "C14-T5",
+    "C14-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:54:03Z",
+    "reason": "Version 2 of C14, replacing the photographed fallen log, which reads as a thin line at 128 px, with the re-rendered fallen tree fitted with a handrail. Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (stone packhorse arch; suspension bridge above a wooded gorge), two impossible bridges (generated road bridge held up by two giant hands; generated footbridge on insect-like legs), two borderline crossings (generated mossy fallen tree with a wooden handrail across a forest stream; photographed concrete stepping stones across a stream) and three non-members that are also built ways through or up (tunnel portal, dune staircase, railway platform). Water appears among targets and borderline cases alike; views, colours and settings vary within each role. The fallen-log photograph and the knotted bridge remain in the collection."
+  },
+  "created_at": "2026-10-27T10:54:03Z",
+  "actor": "claude"
+}

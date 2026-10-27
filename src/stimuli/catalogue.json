@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-6b4aeab26b",
+  "catalogue_version": "2026-10-27-48e403cf71",
   "families": [
     "recognition",
     "semantic",
@@ -2789,8 +2789,8 @@
     },
     {
       "stimulus_id": "C14",
-      "version": 1,
-      "hash": "27aad1ae52a50af8b91efbfc3279720517549c82afe8360ac350531179082ee3",
+      "version": 2,
+      "hash": "bd6c70da36b4e3ddf79028c518890d0fba89d54e8fbf023c82ac1a597a601a70",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a bridge.",
@@ -2799,7 +2799,7 @@
         "semantic": "Select all structures built for crossing over something."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Ordinary bridges count, and so do the bridge held up by two giant hands and the footbridge standing on insect legs: impossible, but still bridges. The fallen log across the river and the stepping stones are borderline crossings, recorded without a verdict. The tunnel entrance, the outdoor staircase and the railway platform are not bridges.",
+      "explanation": "Ordinary bridges count, and so do the bridge held up by two giant hands and the footbridge standing on insect legs: impossible, but still bridges. The fallen tree with a handrail and the stepping stones are borderline crossings, recorded without a verdict. The tunnel entrance, the outdoor staircase and the railway platform are not bridges.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
@@ -2895,21 +2895,21 @@
         },
         {
           "tile_id": "C14-T5",
-          "src": "9a554a1facee8dd8.webp",
-          "src_small": "9a554a1facee8dd8-s.webp",
+          "src": "81b368d8c48fd2b3.webp",
+          "src_small": "81b368d8c48fd2b3-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "9a554a1facee8dd8a7479ab82e87b43c7e6c2dd2ef238de62aaa3f3a5bb2ed39",
-          "alt": "Single fallen log lying across a rushing river between forested banks",
+          "sha256": "81b368d8c48fd2b36caffb54f111de28c8e397403a3bbb7b33276f6e6a30d3e6",
+          "alt": "Mossy fallen tree trunk lying across a forest stream with a wooden handrail fixed along it",
           "provenance": {
-            "kind": "photograph",
-            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Veronica Dudarev",
-            "source": "Unsplash",
-            "source_url": "https://unsplash.com/photos/a-log-bridge-spans-a-rushing-river-G4ntwNFLnNc",
-            "licence": "Unsplash License",
-            "licence_url": "https://unsplash.com/license",
-            "attribution": "Photo by Veronica Dudarev on Unsplash"
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
         },
         {
