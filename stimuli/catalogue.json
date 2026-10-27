@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T10:54:03Z",
+  "updated_at": "2026-10-27T13:00:12Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -11997,6 +11997,156 @@
       },
       "created_at": "2026-10-27T10:54:02Z",
       "updated_at": "2026-10-27T10:54:02Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1593642532973-d31b6557fa68",
+      "origin": "internet-photo",
+      "description": "White laptop open on a wooden café table, showing a mountain landscape on its screen",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "YNliXm_hMn8",
+        "creator": "Dell",
+        "publisher_url": "https://unsplash.com/photos/YNliXm_hMn8",
+        "direct_url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=1280",
+        "discovered_at": "2026-10-27T12:58:42Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 8640,
+          "height": 8640,
+          "status": "reported",
+          "basis": "Unsplash API record or publisher page, 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Dell on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/YNliXm_hMn8",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T12:58:42Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "Unsplash photo page (checked 27 October 2026) names Dell (@dell) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1593642532973-d31b6557fa68 matches the preview; original size 8640x8640 from the connector record. The account belongs to the manufacturer; no endorsement is implied.",
+            "matching_basis": "The publisher page's image key photo-1593642532973-d31b6557fa68 is the key of the reviewed preview URL.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/computers/review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T12:58:42Z",
+      "updated_at": "2026-10-27T12:58:42Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1538580486261-01980bbc7c8c",
+      "origin": "internet-photo",
+      "description": "Black desktop tower computer with its side panel removed, showing fans and drive bays, on a white background",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "plRVZ8MXw8Y",
+        "creator": "Rainier Ridao",
+        "publisher_url": "https://unsplash.com/photos/plRVZ8MXw8Y",
+        "direct_url": "https://images.unsplash.com/photo-1538580486261-01980bbc7c8c?w=1280",
+        "discovered_at": "2026-10-27T12:58:42Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4896,
+          "height": 3264,
+          "status": "reported",
+          "basis": "Unsplash API record or publisher page, 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Rainier Ridao on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/plRVZ8MXw8Y",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T12:58:42Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "Unsplash photo page (checked 27 October 2026) names Rainier Ridao (@rainierridao) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1538580486261-01980bbc7c8c matches the preview; original size 4896x3264 from the connector record.",
+            "matching_basis": "The publisher page's image key photo-1538580486261-01980bbc7c8c is the key of the reviewed preview URL.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/computers/review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T12:58:42Z",
+      "updated_at": "2026-10-27T12:58:42Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1638734255266-7597abac8571",
+      "origin": "internet-photo",
+      "description": "Bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "TZ4vpPY5VTQ",
+        "creator": "Denis Nuțiu",
+        "publisher_url": "https://unsplash.com/photos/TZ4vpPY5VTQ",
+        "direct_url": "https://images.unsplash.com/photo-1638734255266-7597abac8571?w=1280",
+        "discovered_at": "2026-10-27T12:58:42Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4560,
+          "height": 3648,
+          "status": "reported",
+          "basis": "Unsplash API record or publisher page, 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Denis Nuțiu on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/TZ4vpPY5VTQ",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T12:58:42Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "Unsplash photo page (checked 27 October 2026) names Denis Nuțiu (@ndcphoto) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1638734255266-7597abac8571 matches the preview; original size 4560x3648 from the connector record.",
+            "matching_basis": "The publisher page's image key photo-1638734255266-7597abac8571 is the key of the reviewed preview URL.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/computers/review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T12:58:42Z",
+      "updated_at": "2026-10-27T12:58:42Z",
       "actor": "claude"
     }
   ],
@@ -35556,7 +35706,7 @@
         "Water bottle partly visible at the left edge"
       ],
       "created_at": "2026-10-27T07:16:45Z",
-      "updated_at": "2026-10-27T07:16:45Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "White all-in-one desktop computer with keyboard and mouse on a white desk",
       "object_type": "desktop-computer",
@@ -35572,12 +35722,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "target",
-          "semantic_class": "member-normal",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
           "role_status": "reviewed",
           "rank": 3,
           "grade": "Meets target clarity",
-          "reason": "Meets the target clarity standard in the proposed crop: the desktop computer spans about 76% of the crop, shallow three-quarter from the left, silver and white, against bright home office with a white wall; one instance, unobstructed, recognisable at 128 px.",
+          "reason": "A white all-in-one desktop computer: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Use the proposed crop.",
           "scope": "proposed-preview-crop",
           "proposed_crop": {
@@ -41124,7 +41274,7 @@
         "Water bottle partly visible at the left edge"
       ],
       "created_at": "2026-10-27T07:17:48Z",
-      "updated_at": "2026-10-27T07:17:48Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "White all-in-one desktop computer with keyboard and mouse on a white desk",
       "object_type": "desktop-computer",
@@ -41140,12 +41290,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "target",
-          "semantic_class": "member-normal",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
           "role_status": "reviewed",
           "rank": 3,
           "grade": "Meets target clarity",
-          "reason": "Meets the target clarity standard in the proposed crop: the desktop computer spans about 76% of the crop, shallow three-quarter from the left, silver and white, against bright home office with a white wall; one instance, unobstructed, recognisable at 128 px.",
+          "reason": "A white all-in-one desktop computer: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Use the proposed crop.",
           "scope": "standardised-crop"
         }
@@ -56757,7 +56907,7 @@
         "Generated image."
       ],
       "created_at": "2026-10-27T09:09:25Z",
-      "updated_at": "2026-10-27T09:09:25Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "Desktop monitor containing a real ocean with fish, water spilling out of the screen onto the desk",
       "object_type": "desktop-computer",
@@ -56773,12 +56923,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "target",
-          "semantic_class": "member-bizarre",
+          "role": "distractor",
+          "semantic_class": "non-member",
           "role_status": "reviewed",
           "rank": 9,
           "grade": "Meets target clarity",
-          "reason": "A desktop monitor full of sea and fish, its water pouring out over the desk: plainly a computer, impossibly flooded. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "reason": "A desktop monitor and keyboard with an impossible ocean inside the screen: a monitor is a screen, not a computer, and no computer unit is shown. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "master"
         }
@@ -56858,7 +57008,7 @@
         "At tile size the office can be read as a picture on the screen."
       ],
       "created_at": "2026-10-27T09:09:25Z",
-      "updated_at": "2026-10-27T09:09:25Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "All-in-one computer whose screen holds a miniature office with a tiny worker climbing out",
       "object_type": "desktop-computer",
@@ -56873,12 +57023,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "target",
-          "semantic_class": "member-bizarre",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
           "role_status": "reviewed",
           "rank": 10,
           "grade": "Meets target clarity",
-          "reason": "A desktop computer whose screen is a little office room with a tiny worker stepping out: plainly a computer, impossibly inhabited. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "reason": "An all-in-one computer whose screen holds a miniature office: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "master"
         }
@@ -57075,7 +57225,7 @@
         "Generated image."
       ],
       "created_at": "2026-10-27T09:09:36Z",
-      "updated_at": "2026-10-27T09:09:36Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "Desktop monitor containing a real ocean with fish, water spilling out of the screen onto the desk",
       "object_type": "desktop-computer",
@@ -57091,12 +57241,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "target",
-          "semantic_class": "member-bizarre",
+          "role": "distractor",
+          "semantic_class": "non-member",
           "role_status": "reviewed",
           "rank": 9,
           "grade": "Meets target clarity",
-          "reason": "A desktop monitor full of sea and fish, its water pouring out over the desk: plainly a computer, impossibly flooded. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "reason": "A desktop monitor and keyboard with an impossible ocean inside the screen: a monitor is a screen, not a computer, and no computer unit is shown. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "standardised-crop"
         }
@@ -57194,7 +57344,7 @@
         "At tile size the office can be read as a picture on the screen."
       ],
       "created_at": "2026-10-27T09:09:36Z",
-      "updated_at": "2026-10-27T09:09:36Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "All-in-one computer whose screen holds a miniature office with a tiny worker climbing out",
       "object_type": "desktop-computer",
@@ -57209,12 +57359,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "target",
-          "semantic_class": "member-bizarre",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
           "role_status": "reviewed",
           "rank": 10,
           "grade": "Meets target clarity",
-          "reason": "A desktop computer whose screen is a little office room with a tiny worker stepping out: plainly a computer, impossibly inhabited. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "reason": "An all-in-one computer whose screen holds a miniature office: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "standardised-crop"
         }
@@ -69450,7 +69600,7 @@
         "Generated image."
       ],
       "created_at": "2026-10-27T10:32:55Z",
-      "updated_at": "2026-10-27T10:32:55Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "Black vintage typewriter with a lit touchscreen tablet mounted where the paper should be",
       "object_type": "typewriter-tablet",
@@ -69465,12 +69615,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-bizarre",
           "role_status": "reviewed",
           "rank": 13,
           "grade": "Meets target clarity",
-          "reason": "A vintage typewriter with a lit tablet screen in place of its paper: part typewriter, part computer, but is it a computer? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "reason": "A vintage typewriter with a lit tablet computer mounted where its paper should be: the tablet is a computer, so the image contains one, absurdly placed. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "master"
         }
@@ -69684,7 +69834,7 @@
         "Generated image."
       ],
       "created_at": "2026-10-27T10:32:56Z",
-      "updated_at": "2026-10-27T10:32:56Z",
+      "updated_at": "2026-10-27T12:59:07Z",
       "actor": "claude",
       "description": "Black vintage typewriter with a lit touchscreen tablet mounted where the paper should be",
       "object_type": "typewriter-tablet",
@@ -69699,12 +69849,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-bizarre",
           "role_status": "reviewed",
           "rank": 13,
           "grade": "Meets target clarity",
-          "reason": "A vintage typewriter with a lit tablet screen in place of its paper: part typewriter, part computer, but is it a computer? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "reason": "A vintage typewriter with a lit tablet computer mounted where its paper should be: the tablet is a computer, so the image contains one, absurdly placed. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "standardised-crop"
         }
@@ -79464,6 +79614,627 @@
           "reason": "Meets the target clarity standard in the proposed crop: the railway platform spans about 100% of the crop, perspective along the platform, terracotta and yellow, against small town station (Alexandroupoli, Greece); one instance, unobstructed, recognisable at 128 px.",
           "preparation_notes": "Use the proposed crop.",
           "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1593642532973-d31b6557fa68-source-v1",
+      "asset_id": "photo-unsplash-1593642532973-d31b6557fa68",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1280,
+        "sha256": "2732dfa3f61dba35e31136e0e748f74ff0823f85c97a2fbd9c39e8faa17e90ee",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "right",
+        "environment": "café with tables and large windows",
+        "support": "wooden table",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T12:58:42Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the laptop spans about 88% of the crop, front three-quarter, white, against café with tables and large windows; one instance, unobstructed, recognisable at 128 px.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T12:58:42Z",
+          "reason": "Unsplash photo page (checked 27 October 2026) names Dell (@dell) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1593642532973-d31b6557fa68 matches the preview; original size 8640x8640 from the connector record. The account belongs to the manufacturer; no endorsement is implied. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement. The publisher page's image key photo-1593642532973-d31b6557fa68 is the key of the reviewed preview URL."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T12:58:42Z",
+        "actor": "claude",
+        "notes": "Unsplash connector searches on 27 October 2026 for \"laptop\" (squarish), \"desktop computer tower\", \"pc tower case\" and \"raspberry pi board\" (120 results screened at thumbnail size) in the redone computers theme, where a screen or monitor on its own is not a computer (owner's correction); crop reviewed by claude at 256 and 128 px."
+      },
+      "unresolved_issues": [
+        "Small manufacturer lettering on the bezel",
+        "A glass and carafe stand beside the laptop"
+      ],
+      "created_at": "2026-10-27T12:58:42Z",
+      "updated_at": "2026-10-27T12:58:42Z",
+      "actor": "claude",
+      "description": "White laptop open on a wooden café table, showing a mountain landscape on its screen",
+      "object_type": "laptop",
+      "content_origin": "photograph",
+      "keywords": [
+        "laptop",
+        "computer",
+        "cafe",
+        "wooden-table",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "computers",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 14,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the laptop spans about 88% of the crop, front three-quarter, white, against café with tables and large windows; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 170,
+            "side": 1110,
+            "reference_width": 1280,
+            "reference_height": 1280,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1538580486261-01980bbc7c8c-source-v1",
+      "asset_id": "photo-unsplash-1538580486261-01980bbc7c8c",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1538580486261-01980bbc7c8c?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "23e9d5a3a07792670119e70bb1521bd72f2082058799187b6193fc25f883a4e3",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black and silver",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "plain white studio background",
+        "support": "standing on a white surface",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T12:58:42Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the desktop tower computer spans about 81% of the crop, front three-quarter, black and silver, against plain white studio background; one instance, unobstructed, recognisable at 128 px.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T12:58:42Z",
+          "reason": "Unsplash photo page (checked 27 October 2026) names Rainier Ridao (@rainierridao) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1538580486261-01980bbc7c8c matches the preview; original size 4896x3264 from the connector record. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement. The publisher page's image key photo-1538580486261-01980bbc7c8c is the key of the reviewed preview URL."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T12:58:42Z",
+        "actor": "claude",
+        "notes": "Unsplash connector searches on 27 October 2026 for \"laptop\" (squarish), \"desktop computer tower\", \"pc tower case\" and \"raspberry pi board\" (120 results screened at thumbnail size) in the redone computers theme, where a screen or monitor on its own is not a computer (owner's correction); crop reviewed by claude at 256 and 128 px."
+      },
+      "unresolved_issues": [
+        "Studio product shot rather than an everyday setting",
+        "Small maker's logo on the front panel"
+      ],
+      "created_at": "2026-10-27T12:58:42Z",
+      "updated_at": "2026-10-27T12:58:42Z",
+      "actor": "claude",
+      "description": "Black desktop tower computer with its side panel removed, showing fans and drive bays, on a white background",
+      "object_type": "desktop-tower-computer",
+      "content_origin": "photograph",
+      "keywords": [
+        "desktop-computer",
+        "pc-tower",
+        "system-unit",
+        "computer",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "computers",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 15,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the desktop tower computer spans about 81% of the crop, front three-quarter, black and silver, against plain white studio background; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 200,
+            "y": 0,
+            "side": 853,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1638734255266-7597abac8571-source-v1",
+      "asset_id": "photo-unsplash-1638734255266-7597abac8571",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1638734255266-7597abac8571?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1024,
+        "sha256": "ece6046af4fa0b800ecb195c98cad025716234fbec137670dc453f349ffd556a",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "green circuit board with silver ports",
+        "viewpoint": "Side, slightly from above",
+        "facing_direction": "front",
+        "environment": "plain beige surface and backdrop",
+        "support": "standing on its edge on the surface",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T12:58:42Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the single board computer spans about 76% of the crop, side, slightly from above, green circuit board with silver ports, against plain beige surface and backdrop; one instance, unobstructed, recognisable at 128 px.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T12:58:42Z",
+          "reason": "Unsplash photo page (checked 27 October 2026) names Denis Nuțiu (@ndcphoto) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1638734255266-7597abac8571 matches the preview; original size 4560x3648 from the connector record. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement. The publisher page's image key photo-1638734255266-7597abac8571 is the key of the reviewed preview URL."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T12:58:42Z",
+        "actor": "claude",
+        "notes": "Unsplash connector searches on 27 October 2026 for \"laptop\" (squarish), \"desktop computer tower\", \"pc tower case\" and \"raspberry pi board\" (120 results screened at thumbnail size) in the redone computers theme, where a screen or monitor on its own is not a computer (owner's correction); crop reviewed by claude at 256 and 128 px."
+      },
+      "unresolved_issues": [
+        "Tiny printed board lettering",
+        "Lay viewers may read it as a component rather than a whole computer, which is the intended category question"
+      ],
+      "created_at": "2026-10-27T12:58:42Z",
+      "updated_at": "2026-10-27T12:58:42Z",
+      "actor": "claude",
+      "description": "Bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface",
+      "object_type": "single-board-computer",
+      "content_origin": "photograph",
+      "keywords": [
+        "single-board-computer",
+        "circuit-board",
+        "raspberry-pi",
+        "computer",
+        "green"
+      ],
+      "assessments": [
+        {
+          "theme": "computers",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 16,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the single board computer spans about 76% of the crop, side, slightly from above, green circuit board with silver ports, against plain beige surface and backdrop; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 40,
+            "y": 24,
+            "side": 1000,
+            "reference_width": 1280,
+            "reference_height": 1024,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1593642532973-d31b6557fa68-standardized-v1",
+      "asset_id": "photo-unsplash-1593642532973-d31b6557fa68",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1593642532973-d31b6557fa68-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/computers/photo-unsplash-1593642532973-d31b6557fa68-standardized-v1.webp",
+          "sha256": "e4cf010715363e61542229bd591c73bf2f07a673720a664754759fe20a86f027",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 28924
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/computers/photo-unsplash-1593642532973-d31b6557fa68-standardized-v1-s.webp",
+          "sha256": "eed0d9a413e4e2c1e3221eef533360d8c42ed40326a6fe2d494d291420325166",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10224
+        }
+      ],
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "right",
+        "environment": "café with tables and large windows",
+        "support": "wooden table",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T13:00:12Z",
+          "reason": "Whole subject from the reviewed crop (white laptop open on a wooden café table, showing a mountain landscape on its screen), complete and uncut. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T13:00:12Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T13:00:12Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=1280",
+          "sha256": "2732dfa3f61dba35e31136e0e748f74ff0823f85c97a2fbd9c39e8faa17e90ee",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1280
+        },
+        "crop": {
+          "x": 0,
+          "y": 170,
+          "side": 1110
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "Small manufacturer lettering on the bezel",
+        "A glass and carafe stand beside the laptop"
+      ],
+      "created_at": "2026-10-27T13:00:12Z",
+      "updated_at": "2026-10-27T13:00:12Z",
+      "actor": "claude",
+      "description": "White laptop open on a wooden café table, showing a mountain landscape on its screen",
+      "object_type": "laptop",
+      "content_origin": "photograph",
+      "keywords": [
+        "laptop",
+        "computer",
+        "cafe",
+        "wooden-table",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "computers",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 14,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the laptop spans about 88% of the crop, front three-quarter, white, against café with tables and large windows; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1538580486261-01980bbc7c8c-standardized-v1",
+      "asset_id": "photo-unsplash-1538580486261-01980bbc7c8c",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1538580486261-01980bbc7c8c-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/computers/photo-unsplash-1538580486261-01980bbc7c8c-standardized-v1.webp",
+          "sha256": "62931813985806ddff29bc4fced7ea48c704a289c88531bf930cfc206a509979",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 24976
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/computers/photo-unsplash-1538580486261-01980bbc7c8c-standardized-v1-s.webp",
+          "sha256": "b000d55069aca997a4de132eb89fc6d4b2ae51f0dd8d31304df880c92f28c857",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 7380
+        }
+      ],
+      "characteristics": {
+        "colour": "black and silver",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "plain white studio background",
+        "support": "standing on a white surface",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T13:00:12Z",
+          "reason": "Whole subject from the reviewed crop (black desktop tower computer with its side panel removed, showing fans and drive bays, on a white background), complete and uncut. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T13:00:12Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T13:00:12Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1538580486261-01980bbc7c8c?w=1280",
+          "sha256": "23e9d5a3a07792670119e70bb1521bd72f2082058799187b6193fc25f883a4e3",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 200,
+          "y": 0,
+          "side": 853
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "Studio product shot rather than an everyday setting",
+        "Small maker's logo on the front panel"
+      ],
+      "created_at": "2026-10-27T13:00:12Z",
+      "updated_at": "2026-10-27T13:00:12Z",
+      "actor": "claude",
+      "description": "Black desktop tower computer with its side panel removed, showing fans and drive bays, on a white background",
+      "object_type": "desktop-tower-computer",
+      "content_origin": "photograph",
+      "keywords": [
+        "desktop-computer",
+        "pc-tower",
+        "system-unit",
+        "computer",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "computers",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 15,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the desktop tower computer spans about 81% of the crop, front three-quarter, black and silver, against plain white studio background; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1638734255266-7597abac8571-standardized-v1",
+      "asset_id": "photo-unsplash-1638734255266-7597abac8571",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1638734255266-7597abac8571-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/computers/photo-unsplash-1638734255266-7597abac8571-standardized-v1.webp",
+          "sha256": "9bb1f10189436c3976457a86d2f27303a786e458c52931d1a8d2fe66410ef7ff",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 21652
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/computers/photo-unsplash-1638734255266-7597abac8571-standardized-v1-s.webp",
+          "sha256": "c961069ce6b88f4784d11cff5a13d74c7c9600ce617fd213d068e513b2438973",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 7182
+        }
+      ],
+      "characteristics": {
+        "colour": "green circuit board with silver ports",
+        "viewpoint": "Side, slightly from above",
+        "facing_direction": "front",
+        "environment": "plain beige surface and backdrop",
+        "support": "standing on its edge on the surface",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T13:00:12Z",
+          "reason": "Whole subject from the reviewed crop (bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface), complete and uncut. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T13:00:12Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T13:00:12Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1638734255266-7597abac8571?w=1280",
+          "sha256": "ece6046af4fa0b800ecb195c98cad025716234fbec137670dc453f349ffd556a",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1024
+        },
+        "crop": {
+          "x": 40,
+          "y": 24,
+          "side": 1000
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "Tiny printed board lettering",
+        "Lay viewers may read it as a component rather than a whole computer, which is the intended category question"
+      ],
+      "created_at": "2026-10-27T13:00:12Z",
+      "updated_at": "2026-10-27T13:00:12Z",
+      "actor": "claude",
+      "description": "Bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface",
+      "object_type": "single-board-computer",
+      "content_origin": "photograph",
+      "keywords": [
+        "single-board-computer",
+        "circuit-board",
+        "raspberry-pi",
+        "computer",
+        "green"
+      ],
+      "assessments": [
+        {
+          "theme": "computers",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 16,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the single board computer spans about 76% of the crop, side, slightly from above, green circuit board with silver ports, against plain beige surface and backdrop; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "standardised-crop"
         }
       ]
     }
