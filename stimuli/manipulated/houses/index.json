@@ -3,5 +3,9 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "houses",
-  "version_ids": []
+  "version_ids": [
+    "generated-houses-chicken-legged-house-v1",
+    "generated-houses-human-dollhouse-v1",
+    "generated-houses-tortoise-caravan-v1"
+  ]
 }
