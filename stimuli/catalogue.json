@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T13:31:07Z",
+  "updated_at": "2026-10-27T14:20:04Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -82944,6 +82944,1083 @@
           "scope": "final-set"
         }
       ]
+    },
+    {
+      "version_id": "photo-unsplash-1592419044706-39796d40f98c-six-saddles-v1",
+      "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
+      "levels": [
+        "manipulated"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1592419044706-39796d40f98c-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "master",
+          "path": "stimuli/manipulated/bicycles/photo-unsplash-1592419044706-39796d40f98c-six-saddles-v1.png",
+          "sha256": "2fafcde6a2243e1742345ceabd6ac6e9ac67186e4034dc43fb5b19cfe44cc5cc",
+          "width": 512,
+          "height": 512,
+          "format": "png",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 477659
+        }
+      ],
+      "characteristics": {
+        "colour": "navy with brown saddles",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "street wall painted white and cream above a stone plinth",
+        "support": "leaning against the wall on both wheels",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "master"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:19:43Z",
+          "reason": "A navy road bicycle with six brown leather saddles crowded along its frame: plainly a bicycle, impossibly seated. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "scope": "master"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:19:43Z",
+          "reason": "Derivative of the parent's individually verified source, whose licence permits modification; edited with an Apache-2.0 model for inference only, not training. The source's recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "ai-edit",
+        "timestamp": "2026-10-27T14:19:43Z",
+        "actor": "claude",
+        "intended_change": "Give the bicycle six full-sized saddles in a row along its frame.",
+        "instructions": "Make the bicycle frame impossibly long, stretched to the right, carrying six full-sized saddles in a row along the top tube, each with its own pair of pedals beneath it, still standing on its two ordinary wheels. Keep the colours and the background unchanged.",
+        "tool": "tools/stimuli/manipulate.py",
+        "provider": "local CPU inference with Hugging Face diffusers (Flux2KleinPipeline)",
+        "model": "black-forest-labs/FLUX.2-klein-4B",
+        "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+        "seed": 4005,
+        "steps": 4,
+        "guidance_scale": 1.0,
+        "precision": "bfloat16 weights, float32 computation, CPU",
+        "software": {
+          "torch": "2.14.1+cpu",
+          "diffusers": "0.42.0",
+          "transformers": "5.21.0"
+        },
+        "rendered_at": "2026-10-27T14:16:50Z",
+        "output_sha256": "2fafcde6a2243e1742345ceabd6ac6e9ac67186e4034dc43fb5b19cfe44cc5cc",
+        "training_note": "Local inference only; no input or output is sent to a service or used for training.",
+        "input": {
+          "version_id": "photo-unsplash-1592419044706-39796d40f98c-standardized-v1",
+          "sha256": "585c7d19380d1327a8f996f47d2bd9cb417438408bc5b69582536bbbd317be45"
+        }
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The frame keeps its ordinary length and a single pair of pedals.",
+        "Maker's lettering on the down tube is legible at full size."
+      ],
+      "created_at": "2026-10-27T14:19:43Z",
+      "updated_at": "2026-10-27T14:19:43Z",
+      "actor": "claude",
+      "description": "Navy road bicycle carrying six leather saddles in a row along its frame, against a two-tone wall",
+      "object_type": "road-bicycle",
+      "content_origin": "ai-edited-photograph",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "six-saddles",
+        "impossible-object",
+        "navy"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 40,
+          "grade": "Meets target clarity",
+          "reason": "A navy road bicycle with six brown leather saddles crowded along its frame: plainly a bicycle, impossibly seated. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "master"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1592419044706-39796d40f98c-standardized-v2",
+      "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1592419044706-39796d40f98c-six-saddles-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1592419044706-39796d40f98c-standardized-v2.webp",
+          "sha256": "9f3893e864e5a72b8f2692a08d499fd9b279f1a8a7d89c36c52857bdae347d13",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 56738
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1592419044706-39796d40f98c-standardized-v2-s.webp",
+          "sha256": "c60d402c0a14e7e2a6ee2b4f3a42a0a6dd2319841fbdd77f2f0d25d1b23c8cb1",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14818
+        }
+      ],
+      "characteristics": {
+        "colour": "navy with brown saddles",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "street wall painted white and cream above a stone plinth",
+        "support": "leaning against the wall on both wheels",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:19:57Z",
+          "reason": "Whole subject from the edited master (navy road bicycle carrying six leather saddles in a row along its frame, against a two-tone wall), complete and uncut. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:19:57Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T14:19:57Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "path": "stimuli/manipulated/bicycles/photo-unsplash-1592419044706-39796d40f98c-six-saddles-v1.png",
+          "sha256": "2fafcde6a2243e1742345ceabd6ac6e9ac67186e4034dc43fb5b19cfe44cc5cc",
+          "format": "png"
+        },
+        "input_dimensions": {
+          "width": 512,
+          "height": 512
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "side": 512
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the parent's stored master file; the crop is its reviewed square."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The frame keeps its ordinary length and a single pair of pedals.",
+        "Maker's lettering on the down tube is legible at full size."
+      ],
+      "created_at": "2026-10-27T14:19:57Z",
+      "updated_at": "2026-10-27T14:19:57Z",
+      "actor": "claude",
+      "description": "Navy road bicycle carrying six leather saddles in a row along its frame, against a two-tone wall",
+      "object_type": "road-bicycle",
+      "content_origin": "ai-edited-photograph",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "six-saddles",
+        "impossible-object",
+        "navy"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 40,
+          "grade": "Meets target clarity",
+          "reason": "A navy road bicycle with six brown leather saddles crowded along its frame: plainly a bicycle, impossibly seated. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-4995281-c01-2-final",
+      "asset_id": "photo-pexels-4995281",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-4995281-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/photo-pexels-4995281-standardized-v1.webp",
+          "sha256": "4a0aaa6073b920ed3d6dc2cdcf16f6f725b64468646015270f9fbf00dbe2a617",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 44812
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/photo-pexels-4995281-standardized-v1-s.webp",
+          "sha256": "b76f638d58804f451e040f8f4ba6eb57555a72ee6e0afe6677ca6a35ef6eae1c",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 12566
+        }
+      ],
+      "characteristics": {
+        "colour": "orange and teal",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "grassy shore with driftwood logs under a pale sky",
+        "support": "deployed kickstand on grass",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-4995281-standardized-v1 for final set C01@2."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Orange and teal mountain bike on grass by driftwood",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "mountain-bicycle",
+        "outdoors",
+        "grass",
+        "orange"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 13,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, orange frame against a pale sky and dry grass; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1778800051130-a7466c7ae19a-c01-2-final",
+      "asset_id": "photo-unsplash-1778800051130-a7466c7ae19a",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1778800051130-a7466c7ae19a-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1778800051130-a7466c7ae19a-standardized-v1.webp",
+          "sha256": "b22f3aa52b96bd791038e689bd1073fa5baddf8f4ceb69748c0db7e32b77c659",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 67726
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1778800051130-a7466c7ae19a-standardized-v1-s.webp",
+          "sha256": "ea984f64bf350f739457c5e358817fe23ef8cd19f6fce1f06dd3eb524190aa01",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18150
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "grass verge before a pale blue clapboard house with a window",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1778800051130-a7466c7ae19a-standardized-v1 for final set C01@2."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Red vintage bicycle against a blue clapboard wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "vintage-bicycle",
+        "outdoors",
+        "wall",
+        "grass",
+        "red"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 17,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, red frame against a pale blue wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1507035895480-2b3156c31fc8-c01-2-final",
+      "asset_id": "photo-unsplash-1507035895480-2b3156c31fc8",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1507035895480-2b3156c31fc8-standardized-v2"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1507035895480-2b3156c31fc8-standardized-v2.webp",
+          "sha256": "d58686b955ebb6e774b23f78ad19c54b6adb581e4e6bf60b3ad78e158359162b",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 27436
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1507035895480-2b3156c31fc8-standardized-v2-s.webp",
+          "sha256": "63c199f4a956cc15217a56c26bbb34280a3cbdfdce683ae8f366e77f6b1c5f71",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8190
+        }
+      ],
+      "characteristics": {
+        "colour": "lavender frame, dark tyres",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "white-painted brick wall above pavement",
+        "support": "standing on the flat edges of its wheels",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1507035895480-2b3156c31fc8-standardized-v2 for final set C01@2."
+      },
+      "unresolved_issues": [
+        "The concept asks for square wheels; the edit produced hexagonal wheels, which serve the same joke."
+      ],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Lavender bicycle with hexagonal wheels against a white brick wall",
+      "object_type": "bicycle",
+      "content_origin": "ai-edited-photograph",
+      "keywords": [
+        "bicycle",
+        "impossible-wheels",
+        "hexagonal-wheels",
+        "outdoors",
+        "lavender"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 35,
+          "grade": "Meets target clarity",
+          "reason": "The whole bicycle is unchanged apart from its wheels, which are clearly hexagonal and still meet the ground; it reads at once as a bicycle with impossible wheels at 128 px. Frame, chain, saddle and wall are intact; no artefacts at tile size.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1592419044706-39796d40f98c-c01-2-final",
+      "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1592419044706-39796d40f98c-standardized-v2"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1592419044706-39796d40f98c-standardized-v2.webp",
+          "sha256": "9f3893e864e5a72b8f2692a08d499fd9b279f1a8a7d89c36c52857bdae347d13",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 56738
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1592419044706-39796d40f98c-standardized-v2-s.webp",
+          "sha256": "c60d402c0a14e7e2a6ee2b4f3a42a0a6dd2319841fbdd77f2f0d25d1b23c8cb1",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14818
+        }
+      ],
+      "characteristics": {
+        "colour": "navy with brown saddles",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "street wall painted white and cream above a stone plinth",
+        "support": "leaning against the wall on both wheels",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1592419044706-39796d40f98c-standardized-v2 for final set C01@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The frame keeps its ordinary length and a single pair of pedals.",
+        "Maker's lettering on the down tube is legible at full size."
+      ],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Navy road bicycle carrying six leather saddles in a row along its frame, against a two-tone wall",
+      "object_type": "road-bicycle",
+      "content_origin": "ai-edited-photograph",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "six-saddles",
+        "impossible-object",
+        "navy"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 40,
+          "grade": "Meets target clarity",
+          "reason": "A navy road bicycle with six brown leather saddles crowded along its frame: plainly a bicycle, impossibly seated. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1637714102098-6514a99eefd3-c01-2-final",
+      "asset_id": "photo-unsplash-1637714102098-6514a99eefd3",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1637714102098-6514a99eefd3-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1637714102098-6514a99eefd3-standardized-v1.webp",
+          "sha256": "d4da8273dad6138a93236dc06af0dd96c9bf5be691462b0468c052ba50cde68d",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 17740
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1637714102098-6514a99eefd3-standardized-v1-s.webp",
+          "sha256": "6490aaf659257e23c65e5471db55099c50274a3f9036d19f5050159f2a1787b4",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 5854
+        }
+      ],
+      "characteristics": {
+        "colour": "dark grey",
+        "viewpoint": "Front-right three-quarter",
+        "facing_direction": "right",
+        "environment": "pale concrete rooftop terrace with low walls and a white sky",
+        "support": "standing on its own base on the terrace floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1637714102098-6514a99eefd3-standardized-v1 for final set C01@2."
+      },
+      "unresolved_issues": [
+        "The photographer is the equipment maker; small product logos are visible and no endorsement is implied.",
+        "A recumbent model on a terrace rather than an upright bike in a gym; it still reads at once as a stationary exercise bike."
+      ],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Dark grey recumbent exercise bike on a pale rooftop terrace",
+      "object_type": "exercise-bike",
+      "content_origin": "photograph",
+      "keywords": [
+        "exercise-bike",
+        "stationary-bicycle",
+        "gym-equipment",
+        "outdoors",
+        "grey"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 32,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the exercise bike spans about 88% of the crop, front-right three-quarter, dark grey, against pale concrete rooftop terrace with low walls and a white sky; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-bicycles-pedal-horse-brown-c01-2-final",
+      "asset_id": "generated-bicycles-pedal-horse-brown",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-bicycles-pedal-horse-brown-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/generated-bicycles-pedal-horse-brown-standardized-v1.webp",
+          "sha256": "381c40d4243224fd50868170f5957f8718087ac13064ddfadff8a572a4ce7fb3",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 39028
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/generated-bicycles-pedal-horse-brown-standardized-v1-s.webp",
+          "sha256": "d5fe4800c39b47386a1c9f8f213a631c2ba7aabb7060f87415d0409852acd314",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13520
+        }
+      ],
+      "characteristics": {
+        "colour": "chestnut",
+        "viewpoint": "Front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "quiet country road between green fields and trees",
+        "support": "standing on its hooves and a rear bicycle wheel",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-bicycles-pedal-horse-brown-standardized-v1 for final set C01@2."
+      },
+      "unresolved_issues": [
+        "Generated image; only one bicycle wheel is visible."
+      ],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Chestnut horse fitted with handlebars, a saddle, pedals and a bicycle wheel on a country road",
+      "object_type": "horse",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "horse",
+        "bicycle-parts",
+        "hybrid",
+        "country-road",
+        "chestnut"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 38,
+          "grade": "Meets target clarity",
+          "reason": "A whole, realistic chestnut horse with bicycle handlebars on its neck, a bicycle saddle, pedals, a chain and a rear bicycle wheel; it raises the question of whether it is a bicycle. Clear at 128 px; no stray limbs, border or artefacts at tile size.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-bicycles-pedal-office-chair-c01-2-final",
+      "asset_id": "generated-bicycles-pedal-office-chair",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-bicycles-pedal-office-chair-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/generated-bicycles-pedal-office-chair-standardized-v1.webp",
+          "sha256": "00cf57301e7968147d56a16d5c9250bae70297a6ee727b09690dbdab406d2db6",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 45552
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/generated-bicycles-pedal-office-chair-standardized-v1-s.webp",
+          "sha256": "17ff66929248e2ef91e0c8a4e75c961ca6d391aec37cd964f7c8cf7f7132a635",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15106
+        }
+      ],
+      "characteristics": {
+        "colour": "grey and silver",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "underground car park with parked cars behind",
+        "support": "standing on its two bicycle wheels and a small office-chair base",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-bicycles-pedal-office-chair-standardized-v1 for final set C01@2."
+      },
+      "unresolved_issues": [
+        "Generated image; parked cars are visible behind it, which are not bicycles but are other vehicles."
+      ],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Grey mesh office chair mounted between two bicycle wheels with pedals, in a car park",
+      "object_type": "pedal-office-chair",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "office-chair",
+        "bicycle-wheels",
+        "pedal-vehicle",
+        "hybrid",
+        "grey"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 39,
+          "grade": "Meets target clarity",
+          "reason": "A recognisable mesh office chair carried on a frame between two bicycle wheels with pedals and a chain: a pedal-powered office chair that may or may not be a bicycle. The whole object is visible and clear at 128 px; no border or artefacts.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1755092756284-226aea1995b6-c01-2-final",
+      "asset_id": "photo-unsplash-1755092756284-226aea1995b6",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1755092756284-226aea1995b6-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1755092756284-226aea1995b6-standardized-v1.webp",
+          "sha256": "4acb4ea2debee15c1b5f54a68fbe275b4fd68acde6ae2a8eefa28a860e133024",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 17686
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1755092756284-226aea1995b6-standardized-v1-s.webp",
+          "sha256": "4fa46c242f5bfd0e4cb918b834a35a436654d420feb952c91bc4cc38021a9455",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 6604
+        }
+      ],
+      "characteristics": {
+        "colour": "pale grey with dark mane and red-brown rockers",
+        "viewpoint": "Front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "bright room with white walls and a pale wooden floor",
+        "support": "standing on its rockers on the floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1755092756284-226aea1995b6-standardized-v1 for final set C01@2."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Vintage dappled rocking horse on a wooden floor",
+      "object_type": "rocking-horse",
+      "content_origin": "photograph",
+      "keywords": [
+        "rocking-horse",
+        "toy",
+        "indoors",
+        "wooden-floor",
+        "grey"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 33,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the rocking horse spans about 85% of the crop, front-left three-quarter, pale grey with dark mane and red-brown rockers, against bright room with white walls and a pale wooden floor; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1792271031903-cbf76565581d-c01-2-final",
+      "asset_id": "photo-unsplash-1792271031903-cbf76565581d",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1792271031903-cbf76565581d-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1792271031903-cbf76565581d-standardized-v1.webp",
+          "sha256": "a7c3cae520ece5f0689fd2209643524d2170615917ccddf662410de398ec27f5",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 37106
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bicycles/C01/2/photo-unsplash-1792271031903-cbf76565581d-standardized-v1-s.webp",
+          "sha256": "798149e1fbca4a9b4e9df7eea6a8ba7c41fbc151a616aeecbc2cd5d4e5c2b1c1",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 12158
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved alcove before a sandstone building with a window",
+        "support": "side stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Selected for C01@2: Version 2 of C01, completing the composition of prompt 007: two ordinary bicycles, two impossible bicycles, three borderline cases and two clear non-members. Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), two impossible bicycles (lavender bicycle edited to roll on hexagonal wheels; navy road bicycle edited to carry six leather saddles), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and two non-members (rocking horse, motorcycle). The kick scooter of version 1 is dropped to make room for the second impossible bicycle. Colours (orange, red, lavender, navy, grey, chestnut), views and settings vary within each role; no view, colour or setting singles out the targets.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T14:20:04Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T14:20:04Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1792271031903-cbf76565581d-standardized-v1 for final set C01@2."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T14:20:04Z",
+      "updated_at": "2026-10-27T14:20:04Z",
+      "actor": "claude",
+      "description": "Black cruiser motorcycle against a stone building",
+      "object_type": "motorcycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "motorcycle",
+        "cruiser-motorcycle",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the motorcycle spans about 84% of the crop in a side profile facing left, black motorcycle against a pale sandstone wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "final-set"
+        }
+      ]
     }
   ],
   "sets": [
@@ -83100,6 +84177,13 @@
       "version": 3,
       "theme": "computers",
       "manifest": "stimuli/final/computers/C10/3/manifest.json"
+    },
+    {
+      "set_key": "C01@2",
+      "set_id": "C01",
+      "version": 2,
+      "theme": "bicycles",
+      "manifest": "stimuli/final/bicycles/C01/2/manifest.json"
     }
   ],
   "retired_sets": [

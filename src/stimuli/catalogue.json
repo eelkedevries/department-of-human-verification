@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-c4fe10014e",
+  "catalogue_version": "2026-10-27-52dc752c87",
   "families": [
     "recognition",
     "semantic",
@@ -11,8 +11,8 @@
   "stimuli": [
     {
       "stimulus_id": "C01",
-      "version": 1,
-      "hash": "56651a5edb4c8ca528f999671ee6e5cc29756ba4b350ad1849a6f5a458501466",
+      "version": 2,
+      "hash": "56134fb43875da22b640ae0b06d4c81a64904c07e6a24855dfbc12509f64fcb1",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a bicycle.",
@@ -21,14 +21,15 @@
         "semantic": "Select all vehicles powered by pedals."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Ordinary bicycles count, and so does the bicycle with hexagonal wheels: impossible to ride, but still a bicycle. The exercise bike, the horse with pedals and the pedal-powered office chair are borderline cases, recorded without a verdict. The rocking horse, the kick scooter and the motorcycle are not bicycles.",
+      "explanation": "Ordinary bicycles count, and so do the bicycle with hexagonal wheels and the bicycle carrying six saddles: impossible, but still bicycles. The exercise bike, the horse with pedals and the pedal-powered office chair are borderline cases, recorded without a verdict. The rocking horse and the motorcycle are not bicycles.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
         "correct": [
           "Your understanding of bicycles has been noted.",
           "All bicycles accounted for. A copy has been placed on file.",
-          "Correct. The square-wheeled bicycle has been recognised. Its roadworthiness has not."
+          "Correct. The square-wheeled bicycle has been recognised. Its roadworthiness has not.",
+          "Correct. All six saddles have been accounted for."
         ],
         "partial": [
           "Partially correct. Your relationship with bicycles will be reviewed.",
@@ -101,6 +102,27 @@
         },
         {
           "tile_id": "C01-T4",
+          "src": "9f3893e864e5a72b.webp",
+          "src_small": "9f3893e864e5a72b-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "9f3893e864e5a72b8f2692a08d499fd9b279f1a8a7d89c36c52857bdae347d13",
+          "alt": "Navy road bicycle carrying six leather saddles in a row along its frame, against a two-tone wall",
+          "provenance": {
+            "kind": "ai-edited-photograph",
+            "edits": "Edited with FLUX.2 [klein] 4B: Give the bicycle six full-sized saddles in a row along its frame. Then cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Zoltan Tasi",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/black-and-gray-city-bike-leaning-on-white-wall-6DTGGRoW5WI",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Zoltan Tasi on Unsplash",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C01-T5",
           "src": "d4da8273dad6138a.webp",
           "src_small": "d4da8273dad6138a-s.webp",
           "width": 512,
@@ -119,7 +141,7 @@
           }
         },
         {
-          "tile_id": "C01-T5",
+          "tile_id": "C01-T6",
           "src": "381c40d4243224fd.webp",
           "src_small": "381c40d4243224fd-s.webp",
           "width": 512,
@@ -138,7 +160,7 @@
           }
         },
         {
-          "tile_id": "C01-T6",
+          "tile_id": "C01-T7",
           "src": "00cf57301e796814.webp",
           "src_small": "00cf57301e796814-s.webp",
           "width": 512,
@@ -157,7 +179,7 @@
           }
         },
         {
-          "tile_id": "C01-T7",
+          "tile_id": "C01-T8",
           "src": "4acb4ea2debee15c.webp",
           "src_small": "4acb4ea2debee15c-s.webp",
           "width": 512,
@@ -173,25 +195,6 @@
             "licence": "Unsplash License",
             "licence_url": "https://unsplash.com/license",
             "attribution": "Photo by Georgii Eletskikh on Unsplash"
-          }
-        },
-        {
-          "tile_id": "C01-T8",
-          "src": "9daf811aae24cac6.webp",
-          "src_small": "9daf811aae24cac6-s.webp",
-          "width": 512,
-          "height": 512,
-          "sha256": "9daf811aae24cac60b3f4f265cae69fd25416dab9da7a68f0d6fdc93526a3f9e",
-          "alt": "Turquoise electric kick scooter by a waterfront railing",
-          "provenance": {
-            "kind": "photograph",
-            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Şahin Sezer Dinçer",
-            "source": "Pexels",
-            "source_url": "https://www.pexels.com/photo/blue-and-black-kick-scooter-near-the-fence-9371876/",
-            "licence": "Pexels License",
-            "licence_url": "https://www.pexels.com/license/",
-            "attribution": "Photo by Şahin Sezer Dinçer on Pexels"
           }
         },
         {
@@ -217,12 +220,13 @@
       "answer_key": [
         "C01-T1",
         "C01-T2",
-        "C01-T3"
+        "C01-T3",
+        "C01-T4"
       ],
       "borderline_tile_ids": [
-        "C01-T4",
         "C01-T5",
-        "C01-T6"
+        "C01-T6",
+        "C01-T7"
       ]
     },
     {

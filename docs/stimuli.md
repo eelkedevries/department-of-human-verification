@@ -192,6 +192,8 @@ The following are **twelve candidate shots**, not instructions to add twelve til
 | Motorcycle (non-member) | Metallic red or silver | Front-right three-quarter, facing left | Parking bay; engine and motorbike silhouette distinguish it from a bicycle |
 | Kick scooter (non-member) | Mint-green frame | Side/left three-quarter, facing right | Urban pavement; handlebar and standing deck distinct |
 
+**What exists (27 October 2026):** the published C01 version 2 uses photographs for the ordinary bicycles (orange and teal mountain bike, red vintage bicycle), the exercise bike, the rocking horse and the motorcycle; AI edits of photographs for the impossible bicycles (hexagonal rather than square wheels, and six saddles on an ordinary-length navy frame); and generated images for the pedal-powered horse and office chair. The knotted frame failed in generation and as an edit and has no image. Every C01 image and its provenance is in the [collection gallery](../stimuli/GALLERY.md).
+
 **Review the whole set for colour and camera diversity** before packaging or publishing. The table is deliberately not a requirement that all categories receive identical views or colours. If the model outputs several same-looking dark objects from the same perspective, regenerate some of them—even when they are individually acceptable. Use a different viewpoint, facing direction and/or colour in the next prompt, but preserve the intended category, normal-looking environment and clear bizarre feature.
 
 ### Resolution and existing workflow
