@@ -3,5 +3,8 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "shoes",
-  "version_ids": []
+  "version_ids": [
+    "generated-shoes-hand-heel-v1",
+    "generated-shoes-sock-shoe-v1"
+  ]
 }

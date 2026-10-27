@@ -524,7 +524,7 @@ None yet.
 
 ## shoes
 
-Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 7 · manipulated: 0 · final sets: 0
+Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 9 · manipulated: 2 · final sets: 0
 
 ### Suitable
 
@@ -561,12 +561,19 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="standardized/shoes/photo-unsplash-1673294861057-4584f92b91d2-standardized-v1.webp"><img src="standardized/shoes/photo-unsplash-1673294861057-4584f92b91d2-standardized-v1-s.webp" width="240" alt="Single worn yellow leather work glove lying flat on a light-grey surface"></a><br><sub><b>#7</b> Single worn yellow leather work glove lying flat on a light-grey surface<br>glove · photograph · distractor (non-member) · Meets target clarity<br>Nicolas Solerieu · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Plain studio-like background</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/shoes/generated-shoes-hand-heel-standardized-v1.webp"><img src="standardized/shoes/generated-shoes-hand-heel-standardized-v1-s.webp" width="240" alt="Red high-heeled shoe held up by a human hand in place of its heel on a marble floor"></a><br><sub><b>#8</b> Red high-heeled shoe held up by a human hand in place of its heel on a marble floor<br>high-heeled-shoe · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The hand can also be read as holding the shoe up from below.</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/shoes/generated-shoes-sock-shoe-standardized-v1.webp"><img src="standardized/shoes/generated-shoes-sock-shoe-standardized-v1-s.webp" width="240" alt="Grey knitted sock with a thick moulded black rubber sole standing on a gravel path"></a><br><sub><b>#9</b> Grey knitted sock with a thick moulded black rubber sole standing on a gravel path<br>sock-shoe · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
 ### Manipulated
 
-None yet.
+<table>
+<tr>
+<td width="33%" valign="top"><a href="manipulated/shoes/generated-shoes-hand-heel-v1.png"><img src="manipulated/shoes/generated-shoes-hand-heel-v1.png" width="240" alt="Red high-heeled shoe held up by a human hand in place of its heel on a marble floor"></a><br><sub>Red high-heeled shoe held up by a human hand in place of its heel on a marble floor<br>high-heeled-shoe · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The hand can also be read as holding the shoe up from below.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/shoes/generated-shoes-sock-shoe-v1.png"><img src="manipulated/shoes/generated-shoes-sock-shoe-v1.png" width="240" alt="Grey knitted sock with a thick moulded black rubber sole standing on a gravel path"></a><br><sub>Grey knitted sock with a thick moulded black rubber sole standing on a gravel path<br>sock-shoe · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+</tr>
+</table>
 
 ### Final sets
 
