@@ -3,5 +3,8 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "musical-instruments",
-  "version_ids": []
+  "version_ids": [
+    "generated-musical-instruments-giraffe-violin-v1",
+    "generated-musical-instruments-hose-horn-v1"
+  ]
 }

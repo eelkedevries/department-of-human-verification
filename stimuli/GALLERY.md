@@ -834,7 +834,7 @@ None yet.
 
 ## musical-instruments
 
-Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 7 · manipulated: 0 · final sets: 0
+Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 9 · manipulated: 2 · final sets: 0
 
 ### Suitable
 
@@ -871,12 +871,19 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="standardized/musical-instruments/photo-pexels-5641564-standardized-v1.webp"><img src="standardized/musical-instruments/photo-pexels-5641564-standardized-v1-s.webp" width="240" alt="White paint roller lying on brown kraft paper with small paint splashes"></a><br><sub><b>#7</b> White paint roller lying on brown kraft paper with small paint splashes<br>paint-roller · photograph · distractor (non-member) · Meets target clarity<br>Nataliya Vaitkevich · <a href="https://www.pexels.com/license/">Pexels License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>High-angle view of an object lying flat<br><br>Small white paint splashes; a flower lies just outside the lower-right corner</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/musical-instruments/generated-musical-instruments-giraffe-violin-standardized-v1.webp"><img src="standardized/musical-instruments/generated-musical-instruments-giraffe-violin-standardized-v1-s.webp" width="240" alt="Violin on a stand whose neck continues into the neck and head of a living giraffe"></a><br><sub><b>#8</b> Violin on a stand whose neck continues into the neck and head of a living giraffe<br>violin · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/musical-instruments/generated-musical-instruments-hose-horn-standardized-v1.webp"><img src="standardized/musical-instruments/generated-musical-instruments-hose-horn-standardized-v1-s.webp" width="240" alt="Green garden hose coiled like a French horn with a brass mouthpiece and bell, lying on a lawn"></a><br><sub><b>#9</b> Green garden hose coiled like a French horn with a brass mouthpiece and bell, lying on a lawn<br>hose-horn · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
 ### Manipulated
 
-None yet.
+<table>
+<tr>
+<td width="33%" valign="top"><a href="manipulated/musical-instruments/generated-musical-instruments-giraffe-violin-v1.png"><img src="manipulated/musical-instruments/generated-musical-instruments-giraffe-violin-v1.png" width="240" alt="Violin on a stand whose neck continues into the neck and head of a living giraffe"></a><br><sub>Violin on a stand whose neck continues into the neck and head of a living giraffe<br>violin · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/musical-instruments/generated-musical-instruments-hose-horn-v1.png"><img src="manipulated/musical-instruments/generated-musical-instruments-hose-horn-v1.png" width="240" alt="Green garden hose coiled like a French horn with a brass mouthpiece and bell, lying on a lawn"></a><br><sub>Green garden hose coiled like a French horn with a brass mouthpiece and bell, lying on a lawn<br>hose-horn · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+</tr>
+</table>
 
 ### Final sets
 
