@@ -3,5 +3,9 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "bridges",
-  "version_ids": []
+  "version_ids": [
+    "generated-bridges-hand-bridge-v1",
+    "generated-bridges-insect-bridge-v1",
+    "generated-bridges-knotted-bridge-v1"
+  ]
 }
