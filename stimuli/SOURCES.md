@@ -4,7 +4,7 @@ The registry of where stimulus images are found: how each source can be reached 
 
 Every `source.provider` and `source.catalogue_record.provider` in `catalogue.json` must have an entry under [Evaluated sources](#evaluated-sources), headed with exactly that name. `npm run validate:collection` enforces this, so a new source cannot be registered without being documented here.
 
-A source's status is no substitute for per-image verification. Every photograph is still traced to its original publisher page and checked individually, as `AGENTS.md` requires.
+Rights checks are quick and proportionate (see [Rights checks during image searches](../docs/stimuli.md#rights-checks-during-image-searches)). A source's status does not replace the short check on each image's own page, but nothing beyond that check is needed. Sources under [Excluded sources](#excluded-sources) are never used; `npm run validate:collection` rejects images whose source or page URL is on an excluded domain.
 
 ## How to use the registry
 
@@ -37,6 +37,15 @@ A source's status is no substitute for per-image verification. Every photograph 
 - **Yield:** 5 of the 20 suitable bicycle-theme photographs (27 October 2026).
 - **Last checked:** 27 October 2026.
 
+### Wikimedia Commons
+
+- **Status:** usable (owner's decision, 27 October 2026); good for documentary photographs and less common objects. Access from cloud agent sessions is limited.
+- **Access:** file pages (`https://commons.wikimedia.org/wiki/File:<name>`) load through the web fetcher and show the author, licence, original size and image URLs. The search API and `upload.wikimedia.org` images worked once with a descriptive `User-Agent` and are otherwise rate-limited (HTTP 429) from cloud sessions; retry with a pause, or search and download from a local machine.
+- **Licence:** Commons accepts only free licences: public domain, CC0, CC BY and CC BY-SA, among others. Record the author and licence for attribution; note share-alike (CC BY-SA) as a condition for publishing edited versions.
+- **Check on:** the file page's summary and licensing sections. Where the stated author differs from the embedded metadata, record the author named in the summary.
+- **Yield:** none yet.
+- **Last checked:** 27 October 2026.
+
 ### Pixabay
 
 - **Status:** limited; search only.
@@ -59,20 +68,30 @@ A source's status is no substitute for per-image verification. Every photograph 
 - **Status:** internal; closed.
 - **Use:** the project's own generated G01 images, imported once as a legacy snapshot. Do not add new imports from it (see `AGENTS.md`).
 
+## Excluded sources
+
+Never use these, nor their previews, watermarked comps or images syndicated from them elsewhere. They are commercial stock or editorial agencies that enforce their licences actively. Add any similar agency here when you meet one. The validator reads the `domains:` lists.
+
+- **Getty Images** (including iStock): domains: gettyimages.com, gettyimages.co.uk, gettyimages.nl, istockphoto.com
+- **Shutterstock**: domains: shutterstock.com
+- **Alamy**: domains: alamy.com
+- **Adobe Stock**: domains: stock.adobe.com
+- **Dreamstime, 123RF and Depositphotos**: domains: dreamstime.com, 123rf.com, depositphotos.com
+- **News and editorial agencies** (for example Reuters, AP, AFP, ANP): no automatic domain list; never use news photographs.
+- **Images without a licence statement**: search-engine results, social media, Pinterest and arbitrary websites.
+
 ## Unusable from agent sessions
 
 Recorded so that later searches do not repeat failed attempts. Re-test occasionally and update this section.
 
-- **Wikimedia Commons API:** HTTP 429 (rate limited) on 27 October 2026.
 - **Openverse API:** timed out on 27 October 2026.
 
 ## Candidate sources (not yet evaluated)
 
-Check access, licence and yield before relying on any of these. Their terms have not yet been verified for this project.
+These are expected to be usable under the proportionate rights check; confirm access and yield, then move an entry to Evaluated sources when it supplies a registered image.
 
-- **Wikimedia Commons:** per-file Creative Commons or public-domain licences. CC BY requires attribution. CC BY-SA would apply its share-alike terms to adapted (edited) images. NC and ND licences do not fit the intended game use and edits. API access failed from agent sessions.
 - **Openverse:** an index of openly licensed media; trace each image to its original page.
-- **Flickr** (Creative Commons and public-domain filters): per-photo licences, with the same Creative Commons caveats.
+- **Flickr** (Creative Commons and public-domain filters): per-photo licences; any Creative Commons licence except NoDerivatives for images to be edited.
 - **StockSnap** and **Burst**: free stock sites; terms not yet checked.
 
 ## Generated and edited images

@@ -122,6 +122,9 @@ const sourcesText = existsSync(resolve(ROOT, 'stimuli/SOURCES.md')) ? readFileSy
 const evaluated = sourcesText.split(/^## /m).find((s) => s.startsWith('Evaluated sources')) ?? '';
 const documentedProviders = new Set([...evaluated.matchAll(/^### (.+)$/gm)].map((m) => m[1].trim()));
 if (!documentedProviders.size) fail('stimuli/SOURCES.md', 'missing "Evaluated sources" entries');
+const excluded = sourcesText.split(/^## /m).find((s) => s.startsWith('Excluded sources')) ?? '';
+const excludedDomains = [...excluded.matchAll(/domains:\s*(.+)$/gm)].flatMap((m) => m[1].split(',').map((d) => d.trim().toLowerCase())).filter(Boolean);
+const excludedHost = (u) => { try { const h = new URL(u).hostname.toLowerCase(); return excludedDomains.find((d) => h === d || h.endsWith(`.${d}`)); } catch { return undefined; } };
 const sourceKeys = new Set();
 for (const [id, a] of assets) {
   if (!idPattern.test(id) || !text(a.description)) fail(id, 'invalid source identity or description');
@@ -129,6 +132,7 @@ for (const [id, a] of assets) {
   recordStamp(a, id, 'created_at'); if (!utc(a.updated_at)) fail(id, 'missing updated_at');
   const s = a.source ?? {}, l = s.licence ?? {};
   for (const k of ['provider', 'creator']) if (!text(s[k])) fail(id, `source lacks ${k}`);
+  for (const u of [s.publisher_url, s.direct_url]) if (text(u) && excludedHost(u)) fail(id, `source URL is on an excluded domain (${excludedHost(u)}); see Excluded sources in stimuli/SOURCES.md`);
   for (const p of [s.provider, s.catalogue_record?.provider]) if (text(p) && !documentedProviders.has(p)) fail(id, `source provider "${p}" has no entry under Evaluated sources in stimuli/SOURCES.md`);
   if (!text(s.provider_id) && !(text(s.catalogue_record?.provider) && text(s.catalogue_record?.photo_id))) fail(id, 'source needs a native provider ID or a known catalogue identity');
   const key = text(s.provider_id) ? `${s.provider}:${s.provider_id}` : `${s.catalogue_record?.provider}:${s.catalogue_record?.photo_id}`;
@@ -141,7 +145,6 @@ for (const [id, a] of assets) {
   strings(l.conditions, `${id}.licence.conditions`, { nonempty: true });
   for (const u of strings(l.evidence_urls, `${id}.licence.evidence_urls`, { nonempty: true })) url(u, id);
   if (l.evidence_status === 'verified' && (!text(l.verified_by) || !utc(l.verified_at) || !text(s.publisher_url))) fail(id, 'verified rights require source page, reviewer and time');
-  if (l.evidence_status === 'verified' && (!Array.isArray(l.evidence_urls) || !l.evidence_urls.includes(s.publisher_url) || !l.evidence_urls.includes(l.url) || !text(l.verification?.matching_basis) || !text(l.verification?.publisher_evidence) || !text(l.verification?.intended_use))) fail(id, 'verified rights require individual publisher/licence evidence, matching basis and intended use');
   if (l.evidence_status === 'inherited' && a.origin !== 'legacy-generated') fail(id, 'inherited rights are limited to existing generated imports');
 }
 

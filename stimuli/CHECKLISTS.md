@@ -20,7 +20,7 @@ For each image presented or selected:
 - [ ] Viewed at 256 px and about 128 px and recognised at once.
 - [ ] Crop side is at least 512 px of the reviewed preview, needs no upscaling and cuts nothing.
 - [ ] No people; natural placement with visible support; complete defining parts.
-- [ ] Rights verified on the original publisher page: exact image ID, creator, licence, modification permission and conditions (attribution, AI training, brands and people) recorded with evidence URLs, reviewer and date.
+- [ ] Quick rights check on the image's own page: a usable source (not a commercial stock agency such as Getty Images) and an open or free licence (avoid NoDerivatives for images to be edited); page URL, creator, licence, attribution, notable conditions, reviewer and date recorded.
 - [ ] `content_origin` recorded (`photograph` for an unedited photograph).
 - [ ] Description, object type, role, keywords and characteristics (colour, viewpoint, facing direction, environment, support, people) recorded from the image, not from the search query.
 
@@ -49,7 +49,7 @@ For the whole set, after selection:
 
 ## AI editing (→ manipulated)
 
-- [ ] The source licence permits modification, and the tool or settings do not train on the input where the terms prohibit training.
+- [ ] The source licence permits modification (not NoDerivatives), and the image is not added to any AI training dataset.
 - [ ] Instructions, tool, provider, model, revision, seed (or the reason it is unavailable), actor, timestamp, parents and output hash are recorded.
 - [ ] Only the intended change is present: support, shadows, functional parts and category features are otherwise intact.
 - [ ] The edited image still meets the target clarity standard; its role and semantic class are reassessed for the edited content.

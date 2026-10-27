@@ -23,7 +23,7 @@ The Department asks ordinary multiple-choice CAPTCHA questions, but its images w
 
 The images were generated for this game with FLUX.2 [klein] 4B (Apache 2.0) from written prompts and fixed seeds, checked by eye, and published with their provenance in [`src/stimuli/catalogue.json`](src/stimuli/catalogue.json). Nine more grids are drafted and can be published one at a time. See [`docs/stimuli.md`](docs/stimuli.md).
 
-The [stimulus collection](stimuli/README.md) organises source candidates, suitable selections, standardised files, AI-edited variants and versioned final sets. It currently includes 46 linked raw photographs, of which twenty meet the target clarity standard and are suitable (four of them standardised), and a byte-identical snapshot of the existing G01 selection. Five more are reserves; twenty-one are rejected and remain raw only. It does not change the live game. AI agents must follow [the collection instructions](stimuli/AGENTS.md), including automatic rights verification during every search.
+The [stimulus collection](stimuli/README.md) organises source candidates, suitable selections, standardised files, AI-edited variants and versioned final sets. It currently includes 46 linked raw photographs, of which twenty meet the target clarity standard and are suitable (four of them standardised), and a byte-identical snapshot of the existing G01 selection. Five more are reserves; twenty-one are rejected and remain raw only. It does not change the live game. AI agents must follow [the collection instructions](stimuli/AGENTS.md), including the quick rights check during every search and the source registry.
 
 ## Development
 
