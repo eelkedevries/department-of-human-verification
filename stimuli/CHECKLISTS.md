@@ -1,0 +1,70 @@
+# Stimulus procedure checklists
+
+**Mandatory.** Before finishing any stimulus procedure, work through its checklist below and then the [closing checklist](#closing-checklist-every-procedure). Fix every failed item before committing. Where an item cannot be met, for example because no verified image exists, do not hide it: state it in the final report with the reason. Include the completed checklists in the final report (section 1 of the report required by the root `AGENTS.md`), marking each item met, not met or not applicable.
+
+A check that passes for each image separately can still fail for the set. The set-level items are part of the procedure, not an optional extra.
+
+## Search and selection (raw → suitable)
+
+Before searching:
+
+- [ ] Read `AGENTS.md`, `README.md`, the stage manifests and the [photography guidelines](../docs/stimuli.md#stimulus-photography-and-background-guidelines).
+- [ ] Count what the request needs, by role (targets, distractors, borderline) and by object type.
+- [ ] Write a pool plan that meets the [set-level variety targets](../docs/stimuli.md#set-level-variety-targets), counting images already selected: views, facing directions, colours, supports and settings. Vary the search terms to match the plan (for example “side view”, “three-quarter”, “bike rack”, “fence”, “railing”), not only side profiles.
+- [ ] Check `catalogue.json` for duplicates and for previously rejected sources.
+
+For each image presented or selected:
+
+- [ ] Meets every criterion of the [target clarity standard](../docs/stimuli.md#target-clarity-standard) in its planned square crop: one dominant instance, about 75–90% of the crop, roughly centred, side or shallow three-quarter view, nothing crossing it, clear figure–ground contrast (including no same-hue background), sharp even light.
+- [ ] Viewed at 256 px and about 128 px and recognised at once.
+- [ ] Crop side is at least 512 px of the reviewed preview, needs no upscaling and cuts nothing.
+- [ ] No people; natural placement with visible support; complete defining parts.
+- [ ] Rights verified on the original publisher page: exact image ID, creator, licence, modification permission and conditions (attribution, AI training, brands and people) recorded with evidence URLs, reviewer and date.
+- [ ] Description, object type, role, keywords and characteristics (colour, viewpoint, facing direction, environment, support, people) recorded from the image, not from the search query.
+
+For the whole set, after selection:
+
+- [ ] Reviewed as one contact sheet at tile size, including the images already selected.
+- [ ] Meets the [set-level variety targets](../docs/stimuli.md#set-level-variety-targets) for views, facing direction, colour and support/setting, within each role as well as overall.
+- [ ] No near-duplicates in composition, colour or backdrop.
+- [ ] Neither view, colour, setting nor image quality distinguishes targets from distractors.
+- [ ] The set-level assessment (counts per view, facing direction, colour and support) is written in the dated review document.
+
+## Rejection or demotion
+
+- [ ] The reason is recorded on the version's review and in a history event.
+- [ ] Only the relevant stage membership is removed; the raw record remains so that the source is not added again.
+- [ ] Every unused standardised or edited derivative of a rejected source is withdrawn (files deleted, `withdrawn` entry and event).
+- [ ] The remaining selection is re-checked against the set-level variety targets, and any shortfall is reported.
+
+## Standardisation (suitable or manipulated → standardized)
+
+- [ ] Each parent has approved visual and rights reviews and a reviewed crop.
+- [ ] `tools/stimuli/standardise.py` is used; a preview whose bytes changed is accepted only after visual comparison and recorded as such.
+- [ ] Every output is inspected at 256 px and about 128 px; the object is complete, uncut and as clear as in the reviewed crop.
+- [ ] The versions are registered only with approved visual reviews; transformations, hashes and licence conditions are recorded.
+
+## AI editing (→ manipulated)
+
+- [ ] The source licence permits modification, and the tool or settings do not train on the input where the terms prohibit training.
+- [ ] Instructions, tool, provider, model, revision, seed (or the reason it is unavailable), actor, timestamp, parents and output hash are recorded.
+- [ ] Only the intended change is present: support, shadows, functional parts and category features are otherwise intact.
+- [ ] The edited image still meets the target clarity standard; its role and semantic class are reassessed for the edited content.
+- [ ] The edit is standardised before any final selection.
+
+## Final set (→ final)
+
+- [ ] Nine distinct, standardised and approved images; byte-identical copies in the versioned set folder.
+- [ ] Roles reviewed and defensible; the answer key contains exactly the clear targets; borderline tiles are listed.
+- [ ] The nine-tile contact sheet meets the set-level variety targets and gives no cue to the answer through view, colour, setting or quality.
+- [ ] The manifest, catalogue and history are complete; earlier set versions are unchanged.
+- [ ] Publishing to the game is a separate task and has not happened implicitly.
+
+## Closing checklist (every procedure)
+
+- [ ] `catalogue.json`, the affected stage manifests and `history.jsonl` are updated together.
+- [ ] `npm run gallery:collection` has regenerated [GALLERY.md](GALLERY.md).
+- [ ] Every document that states collection counts is updated: this folder's `README.md` and level READMEs, `docs/stimuli.md`, the root `README.md` and `docs-dev/planning/current_state.md`.
+- [ ] `npm run validate:collection` and `npm run check` pass.
+- [ ] The work is committed and pushed to `main`.
+- [ ] The final report includes these checklists and every unmet item with its reason.

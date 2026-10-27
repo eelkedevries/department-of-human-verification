@@ -49,3 +49,4 @@ This file records what *is* (current reality). The binding design canon is `docs
 - `013_target_clarity_search_standard.md` (target clarity standard for searches)
 - `014_remove_suboptimal_stimuli.md` (twenty photographs rejected for clarity; sixteen standardised versions withdrawn; four remain)
 - `015_search_clear_replacements.md` (sixteen clarity-screened, rights-verified Unsplash replacements; twenty suitable again)
+- `016_stimulus_procedure_checklists.md` (mandatory per-procedure checklists in `stimuli/CHECKLISTS.md`; measurable set-level variety targets)

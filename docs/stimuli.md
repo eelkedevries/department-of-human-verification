@@ -153,6 +153,20 @@ Record **placement, support, contact points and intended exception** in each gen
 - **Keep the visual task fair:** vary colours, angles and backgrounds across **all four roles** (normal, bizarre, debatable and non-member). Neither “black object” nor “three-quarter view” should be a shortcut to identifying a target or distractor. Do not add excessive clutter or dramatic blur to make a particular category harder.
 - **Preserve the punchline:** the camera must make the impossible feature visible. Square wheels benefit from an oblique/near-side view that shows both squares; a knotted frame needs its knot unobstructed; a six-saddle bicycle needs a wide-enough view to count saddles. Pick legibility over artificial variety.
 
+#### Set-level variety targets
+
+Apply these targets to every candidate pool and to every nine-image selection, counting images already selected. Check them within each role as well as across the whole set. All images must still meet the [target clarity standard](#target-clarity-standard); where both cannot be met, keep searching rather than relaxing either.
+
+| Feature | Target |
+|---|---|
+| View | At most about half the images in a strict side profile; at least a third in shallow front or rear three-quarter views (about 15–30° from side-on). |
+| Facing direction | Both directions; neither above about 60% of the images. |
+| Colour | No single colour above about a quarter of the images; avoid a predominantly black or dark set. |
+| Support and setting | At least four different supports or settings (for example a wall, a fence or railing, a bicycle rack, a kickstand on open pavement, a tree or post); none used by more than half the images. |
+| Backdrop | No two images with near-identical composition, colour and backdrop. |
+
+Record the counts in the dated review document. The [procedure checklists](../stimuli/CHECKLISTS.md) require this check before any search or selection is finished.
+
 **Shared constraints:** realistic physical lighting, crisp object boundaries, photographic credibility, moderate background complexity, object prominence and approximately similar resolution. Camera position, scene and palette may vary naturally within those limits.
 
 Backgrounds can themselves suggest category membership (a pedal-powered chair in an office versus on a cycle path). **Record colour, viewpoint, facing direction, environment and scale** in the generation brief/sidecar when available, and review them for category cues or confounds. If a later comparison *requires* matched variants, explicitly match or counterbalance these features for that comparison; do not impose uniformity on the entire entertainment set. A visually varied collection is more enjoyable, but not automatically an experimentally balanced one.

@@ -1,6 +1,6 @@
 # Stimulus collection
 
-This folder holds possible stimuli and records how they become game images. Browse the images in the [gallery](GALLERY.md). Start with [AGENTS.md](AGENTS.md) for mandatory agent instructions. The [catalogue](catalogue.json) is the canonical record; stage manifests select its version IDs without duplicating source metadata. [history.jsonl](history.jsonl) records decisions and transformations in order.
+This folder holds possible stimuli and records how they become game images. Browse the images in the [gallery](GALLERY.md). Start with [AGENTS.md](AGENTS.md) for mandatory agent instructions and [CHECKLISTS.md](CHECKLISTS.md) for the checklists that every procedure must complete. The [catalogue](catalogue.json) is the canonical record; stage manifests select its version IDs without duplicating source metadata. [history.jsonl](history.jsonl) records decisions and transformations in order.
 
 ## Levels
 
