@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T01:49:25Z",
+  "updated_at": "2026-10-27T02:39:07Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -2866,6 +2866,303 @@
       },
       "created_at": "2026-10-27T00:54:20Z",
       "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-flickr-13612564183",
+      "origin": "internet-photo",
+      "description": "Light-blue touring bicycle against a dry hillside",
+      "source": {
+        "provider": "Flickr",
+        "provider_id": "13612564183",
+        "creator": "cyclotourist",
+        "publisher_url": "https://www.flickr.com/photos/64942209@N00/13612564183",
+        "direct_url": "https://live.staticflickr.com/7419/13612564183_d370ce1b4f_b.jpg",
+        "discovered_at": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "status": "unknown",
+          "basis": "The Flickr page and the Openverse record give no original size; the 1024 × 620 px Flickr preview is the largest size reviewed."
+        },
+        "licence": {
+          "name": "CC BY-NC 2.0",
+          "url": "https://creativecommons.org/licenses/by-nc/2.0/",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "\"Bit of snow on San Jacinto!\" by cyclotourist, licensed under CC BY-NC 2.0 (Flickr)",
+          "conditions": [
+            "Attribution is required: credit the creator and title, name CC BY-NC 2.0 with a link to the licence, and link the Flickr page.",
+            "NonCommercial: use only while the project is non-commercial; any commercial use needs the creator's permission.",
+            "Indicate changes in adaptations (cropping, resizing, edits) and imply no endorsement by the creator.",
+            "Do not use in AI/ML datasets or train models; later AI editing must use tools/settings that do not train on these inputs."
+          ],
+          "evidence_urls": [
+            "https://www.flickr.com/photos/64942209@N00/13612564183",
+            "https://creativecommons.org/licenses/by-nc/2.0/"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T02:37:38Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual Flickr page, fetched on 27 October 2026, titles the photo \"Bit of snow on San Jacinto!\", names its owner cyclotourist and states \"Some rights reserved\" under CC BY-NC 2.0; taken on 3 April 2014.",
+            "matching_basis": "Found through the Openverse index; the Flickr photo ID 13612564183 in the page URL is the ID in the reviewed preview URL, and the page title and the inspected image agree.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1722872753122-1bd3e86af3e6",
+      "origin": "internet-photo",
+      "description": "Copper-orange custom cruiser bicycle on open asphalt",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "winpNmlYD9g",
+        "creator": "Sidral Mundet",
+        "publisher_url": "https://unsplash.com/photos/a-bike-that-is-sitting-in-the-middle-of-the-road-winpNmlYD9g",
+        "direct_url": "https://images.unsplash.com/photo-1722872753122-1bd3e86af3e6?w=1280",
+        "discovered_at": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 5409,
+          "height": 5845,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Sidral Mundet on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-bike-that-is-sitting-in-the-middle-of-the-road-winpNmlYD9g",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T02:37:38Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Sidral Mundet (@sidralmundet) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1722872753122-1bd3e86af3e6 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1676706079694-346cccd54ca4",
+      "origin": "internet-photo",
+      "description": "Yellow roadster bicycle between lavender rows",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "wCiWFwkc8Z4",
+        "creator": "Gunay Topaloglu",
+        "publisher_url": "https://unsplash.com/photos/a-yellow-bicycle-parked-in-front-of-a-field-of-lavender-flowers-wCiWFwkc8Z4",
+        "direct_url": "https://images.unsplash.com/photo-1676706079694-346cccd54ca4?w=1280",
+        "discovered_at": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4288,
+          "height": 2848,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Gunay Topaloglu on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-yellow-bicycle-parked-in-front-of-a-field-of-lavender-flowers-wCiWFwkc8Z4",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T02:37:38Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Gunay Topaloglu (@gunnay) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1676706079694-346cccd54ca4 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-pexels-38644968",
+      "origin": "internet-photo",
+      "description": "Silver-beige city bicycle with a basket by a lavender border",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "38644968",
+        "creator": "Teodor Buhl",
+        "publisher_url": "https://www.pexels.com/photo/bicycle-parked-in-lavender-garden-on-sunny-day-38644968/",
+        "direct_url": "https://images.pexels.com/photos/38644968/pexels-photo-38644968.jpeg?w=1280",
+        "discovered_at": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4096,
+          "height": 2608,
+          "status": "reported",
+          "basis": "Individual Pexels publisher page, fetched on 27 October 2026."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Teodor Buhl on Pexels",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell or distribute standalone source images; resizing or cropping alone does not remove this restriction. Keep repository copies within the authored game and its provenance context.",
+            "Observe the source terms on brands, people and misleading uses; no commercial brand endorsement is authorised.",
+            "Pexels terms prohibit scraping content for machine learning; do not use in AI/ML datasets or train models, and use AI editing tools/settings that do not train on these inputs."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/photo/bicycle-parked-in-lavender-garden-on-sunny-day-38644968/",
+            "https://www.pexels.com/license/",
+            "https://www.pexels.com/terms-of-service/"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T02:37:38Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Teodor Buhl (pexels.com/@mrgajowy3), labels the photo Free with a link to the Pexels License, and gives its original size as 4096 × 2608 px.",
+            "matching_basis": "The publisher page's photo ID 38644968 is the ID in the reviewed preview URL; the page's description and the inspected image agree.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1602528190586-757f42d99447",
+      "origin": "internet-photo",
+      "description": "Black hybrid bicycle on a tree-lined park road",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "yJV41IpTZlM",
+        "creator": "Ionut Zamfir",
+        "publisher_url": "https://unsplash.com/photos/black-and-white-road-bike-on-gray-concrete-road-yJV41IpTZlM",
+        "direct_url": "https://images.unsplash.com/photo-1602528190586-757f42d99447?w=1280",
+        "discovered_at": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 3024,
+          "height": 3024,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Ionut Zamfir on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-and-white-road-bike-on-gray-concrete-road-yJV41IpTZlM",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T02:37:38Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Ionut Zamfir (@ionuss) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1602528190586-757f42d99447 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1617993200240-9db09bec6b5e",
+      "origin": "internet-photo",
+      "description": "Black vintage roadster bicycle on a park lawn",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "1TkHLcAleYA",
+        "creator": "Alex Plesovskich",
+        "publisher_url": "https://unsplash.com/photos/black-and-gray-bicycle-on-brown-dirt-road-in-between-bare-trees-during-daytime-1TkHLcAleYA",
+        "direct_url": "https://images.unsplash.com/photo-1617993200240-9db09bec6b5e?w=1280",
+        "discovered_at": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 5444,
+          "height": 5444,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Alex Plesovskich on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-and-gray-bicycle-on-brown-dirt-road-in-between-bare-trees-during-daytime-1TkHLcAleYA",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T02:37:38Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Alex Plesovskich (@aples) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1617993200240-9db09bec6b5e is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
       "actor": "claude"
     }
   ],
@@ -10226,6 +10523,3657 @@
             "coordinate_space": "downloaded-preview-pixels",
             "applied": false
           }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-flickr-13612564183-source-v1",
+      "asset_id": "photo-flickr-13612564183",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://live.staticflickr.com/7419/13612564183_d370ce1b4f_b.jpg",
+      "files": [],
+      "observed_preview": {
+        "width": 1024,
+        "height": 620,
+        "sha256": "965d617aa7187d9114148c11d803ddf93d13267b5c970f7a286925965909ed9a",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1024 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "light blue",
+        "viewpoint": "Shallow rear-right three-quarter",
+        "facing_direction": "right",
+        "environment": "dry earth hillside with brush, distant mountains and blue sky",
+        "support": "leaning against the hillside bank",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow rear-right three-quarter facing right, light-blue frame and silver wheels against brown earth and sky; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "The individual Flickr page, fetched on 27 October 2026, titles the photo \"Bit of snow on San Jacinto!\", names its owner cyclotourist and states \"Some rights reserved\" under CC BY-NC 2.0; taken on 3 April 2014. Found through the Openverse index; the Flickr photo ID 13612564183 in the page URL is the ID in the reviewed preview URL, and the page title and the inspected image agree. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement; NonCommercial use only, with attribution."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "notes": "Found in a openverse search (Flickr results) for bicycles in open settings under the set-level variety targets. Screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude",
+      "description": "Light-blue touring bicycle against a dry hillside",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "touring-bicycle",
+        "outdoors",
+        "hillside",
+        "light-blue"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 26,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow rear-right three-quarter facing right, light-blue frame and silver wheels against brown earth and sky; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 9,
+            "side": 611,
+            "reference_width": 1024,
+            "reference_height": 620,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1722872753122-1bd3e86af3e6-source-v1",
+      "asset_id": "photo-unsplash-1722872753122-1bd3e86af3e6",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1722872753122-1bd3e86af3e6?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1383,
+        "sha256": "e4450f339479db1a53ebbc6d6d7372f6a6c4d140feb6e90ee14ba7462153cf2d",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "copper orange",
+        "viewpoint": "Shallow rear-right three-quarter",
+        "facing_direction": "right",
+        "environment": "open pale grey asphalt",
+        "support": "deployed kickstand on open asphalt",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 83% of the crop in a shallow rear-right three-quarter facing right, copper-orange frame and white-wall tyres against plain grey asphalt; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Sidral Mundet (@sidralmundet) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+). The publisher page's image key photo-1722872753122-1bd3e86af3e6 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "notes": "Found in a unsplash search for three-quarter views and non-wall settings under the set-level variety targets. Screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [
+        "Custom low-rider cruiser with long swept handlebars and a stretched frame: clearly a bicycle, but a less typical shape; confirm it reads as a normal member rather than a borderline item when composing a set."
+      ],
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude",
+      "description": "Copper-orange custom cruiser bicycle on open asphalt",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "cruiser-bicycle",
+        "outdoors",
+        "asphalt",
+        "orange"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 27,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 83% of the crop in a shallow rear-right three-quarter facing right, copper-orange frame and white-wall tyres against plain grey asphalt; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 40,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1383,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1676706079694-346cccd54ca4-source-v1",
+      "asset_id": "photo-unsplash-1676706079694-346cccd54ca4",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1676706079694-346cccd54ca4?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 850,
+        "sha256": "6f6561d563614959753b0270e5297cb05ffd5d7f13c36de39084fe5c94462f05",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "yellow",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "dirt path between rows of green lavender",
+        "support": "deployed kickstand on a dirt path",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 86% of the crop in a shallow front-left three-quarter facing left, saturated yellow frame and wheels against green lavender foliage; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Gunay Topaloglu (@gunnay) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+). The publisher page's image key photo-1676706079694-346cccd54ca4 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "notes": "Found in a unsplash search for three-quarter views and non-wall settings under the set-level variety targets. Screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [
+        "A few out-of-focus lavender stems at the lower left touch the front tyre; they do not hide any defining part. Reject if the owner reads this as an obstruction."
+      ],
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude",
+      "description": "Yellow roadster bicycle between lavender rows",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "roadster-bicycle",
+        "outdoors",
+        "lavender",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 28,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 86% of the crop in a shallow front-left three-quarter facing left, saturated yellow frame and wheels against green lavender foliage; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 356,
+            "y": 0,
+            "side": 850,
+            "reference_width": 1280,
+            "reference_height": 850,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-38644968-source-v1",
+      "asset_id": "photo-pexels-38644968",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/38644968/pexels-photo-38644968.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 815,
+        "sha256": "2e4c6bd9d7ffd9e0a7cc051fb32ff63d08818e053af3d3c1bfd661d68984ee87",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "silver beige",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "paved garden path before purple Russian sage, trees and a cloudy sky",
+        "support": "deployed kickstand on a paved path",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 80% of the crop in a shallow front-left three-quarter facing left, pale frame and dark tyres against purple flowers, sky and a light path; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Teodor Buhl (pexels.com/@mrgajowy3), labels the photo Free with a link to the Pexels License, and gives its original size as 4096 × 2608 px. The publisher page's photo ID 38644968 is the ID in the reviewed preview URL; the page's description and the inspected image agree. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "notes": "Found in a pexels search for three-quarter views and non-wall settings under the set-level variety targets. Screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [
+        "The front tyre comes within about 1–2% of the lower crop edge because the preview leaves no more room; nothing is cut."
+      ],
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude",
+      "description": "Silver-beige city bicycle with a basket by a lavender border",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "outdoors",
+        "garden",
+        "silver"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 29,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 80% of the crop in a shallow front-left three-quarter facing left, pale frame and dark tyres against purple flowers, sky and a light path; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 238,
+            "y": 4,
+            "side": 811,
+            "reference_width": 1280,
+            "reference_height": 815,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1602528190586-757f42d99447-source-v1",
+      "asset_id": "photo-unsplash-1602528190586-757f42d99447",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1602528190586-757f42d99447?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1280,
+        "sha256": "acfb16b87c5323945e5a4858405f7c9bea7ea62d6df576efb5eb9c92372a3f8b",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Shallow rear-left three-quarter",
+        "facing_direction": "left",
+        "environment": "pale park road with green trees behind",
+        "support": "deployed kickstand on an open road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 87% of the crop in a shallow rear-left three-quarter facing left, black frame and tyres against a pale road and bright green trees; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Ionut Zamfir (@ionuss) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+). The publisher page's image key photo-1602528190586-757f42d99447 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "notes": "Found in a unsplash search for three-quarter views and non-wall settings under the set-level variety targets. Screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude",
+      "description": "Black hybrid bicycle on a tree-lined park road",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "hybrid-bicycle",
+        "outdoors",
+        "road",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 30,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 87% of the crop in a shallow rear-left three-quarter facing left, black frame and tyres against a pale road and bright green trees; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 0,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1280,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1617993200240-9db09bec6b5e-source-v1",
+      "asset_id": "photo-unsplash-1617993200240-9db09bec6b5e",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1617993200240-9db09bec6b5e?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1280,
+        "sha256": "f97e4ef03d43a4da9910a24626136860f68807039a8a207495e1409b7dbf544d",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "sunlit park lawn by a path, with bare trees behind",
+        "support": "deployed kickstand on grass",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 81% of the crop in a shallow front-left three-quarter facing left, dark frame and tyres against sunlit grass and pale bare trees; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:37:38Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Alex Plesovskich (@aples) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+). The publisher page's image key photo-1617993200240-9db09bec6b5e is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T02:37:38Z",
+        "actor": "claude",
+        "notes": "Found in a unsplash search for three-quarter views and non-wall settings under the set-level variety targets. Screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [
+        "The dark frame is partly seen against green grass; it remains clear at 128 px because the frame is much darker than the lawn."
+      ],
+      "created_at": "2026-10-27T02:37:38Z",
+      "updated_at": "2026-10-27T02:37:38Z",
+      "actor": "claude",
+      "description": "Black vintage roadster bicycle on a park lawn",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "roadster-bicycle",
+        "outdoors",
+        "grass",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 31,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 81% of the crop in a shallow front-left three-quarter facing left, dark frame and tyres against sunlit grass and pale bare trees; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 260,
+            "y": 400,
+            "side": 820,
+            "reference_width": 1280,
+            "reference_height": 1280,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1593764592116-bfb2a97c642a-standardized-v1",
+      "asset_id": "photo-unsplash-1593764592116-bfb2a97c642a",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1593764592116-bfb2a97c642a-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1593764592116-bfb2a97c642a-standardized-v1.webp",
+          "sha256": "0a2161388a745eb060c6971fff8edd0426f4c640070312a4425df828ab137581",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 33320
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1593764592116-bfb2a97c642a-standardized-v1-s.webp",
+          "sha256": "473d3a911550977ba890c487b13b7a5e00794edbbd924e9949f2fb678fc6f78f",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 7690
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "outdoor pavement before a plain white wall",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (black track bicycle against a white wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1593764592116-bfb2a97c642a?w=1280",
+          "sha256": "6fa8e1f4274ae54e75178a04e8ec585e1387fa12ff8874ed907cf458f298df00",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1778
+        },
+        "crop": {
+          "x": 200,
+          "y": 493,
+          "side": 1045
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'Display P3' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black track bicycle against a white wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "track-bicycle",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame and deep-rim wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1505705694340-019e1e335916-standardized-v1",
+      "asset_id": "photo-unsplash-1505705694340-019e1e335916",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1505705694340-019e1e335916-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1505705694340-019e1e335916-standardized-v1.webp",
+          "sha256": "1392073fa64fe14feccc33106a8e6bda1629015dc6e459bf60c49973b7a00865",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 56258
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1505705694340-019e1e335916-standardized-v1-s.webp",
+          "sha256": "5f5e7164432362521f5d6925cc857e17bc473cff1b958253dbf382fbe03e5997",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 11590
+        }
+      ],
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "pale pavement before a teal timber wall",
+        "support": "deployed kickstand beside the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (white road bicycle against a teal wooden wall), with its wheels and support (deployed kickstand beside the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1505705694340-019e1e335916?w=1280",
+          "sha256": "d56e28935ca31ff6df013d56b3bd1f488aacbb4dcdca21304f5ae9e3e56aeeef",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 720
+        },
+        "crop": {
+          "x": 315,
+          "y": 33,
+          "side": 624
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "White road bicycle against a teal wooden wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "outdoors",
+        "wall",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 2,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, white frame and black tyres against a saturated teal wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1782851938244-7b632c31bd61-standardized-v1",
+      "asset_id": "photo-unsplash-1782851938244-7b632c31bd61",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1782851938244-7b632c31bd61-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1782851938244-7b632c31bd61-standardized-v1.webp",
+          "sha256": "315981bde36213b6ad3021861b0cfb012182f3f5da431415e86d2b559eaafe26",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 32868
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1782851938244-7b632c31bd61-standardized-v1-s.webp",
+          "sha256": "d2a9437a614d6222e175e52c91b466729f4c0c54f134c4112ca0f74e6eb314a1",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 12182
+        }
+      ],
+      "characteristics": {
+        "colour": "pink",
+        "viewpoint": "Shallow rear three-quarter",
+        "facing_direction": "right",
+        "environment": "garden edge with a mossy rock before dark foliage",
+        "support": "deployed kickstand on a rock",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (pink step-through bicycle before dark foliage), with its wheels and support (deployed kickstand on a rock) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1782851938244-7b632c31bd61?w=1280",
+          "sha256": "4a3791f91496ee9c095ee588a4f3ba31beafc84323f10331eed508061a634c03",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1600
+        },
+        "crop": {
+          "x": 87,
+          "y": 233,
+          "side": 1030
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Pink step-through bicycle before dark foliage",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "step-through-bicycle",
+        "outdoors",
+        "garden",
+        "pink"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow rear three-quarter facing right, pink frame against dark green foliage; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1776905252705-9d5c2fe29c84-standardized-v1",
+      "asset_id": "photo-unsplash-1776905252705-9d5c2fe29c84",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1776905252705-9d5c2fe29c84-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1776905252705-9d5c2fe29c84-standardized-v1.webp",
+          "sha256": "e6915e9c556eedb3e8dabd288f6abab1f88f0c3495af190188007b00a319b0de",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 30108
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1776905252705-9d5c2fe29c84-standardized-v1-s.webp",
+          "sha256": "e151ee23ad57078c7f178b79f90f4fb00293bf68f07915bbdd37d313a4fefb74",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8776
+        }
+      ],
+      "characteristics": {
+        "colour": "light blue",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "white wall beside a dark doorway, paved ground",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (light blue bicycle with a wooden crate against a white wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1776905252705-9d5c2fe29c84?w=1280",
+          "sha256": "64910d17c9618d886c0ef34359c875279e298af0d48c23bf71e144bdb3afc519",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1792
+        },
+        "crop": {
+          "x": 47,
+          "y": 746,
+          "side": 1045
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Light blue bicycle with a wooden crate against a white wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "crate",
+        "outdoors",
+        "wall",
+        "light-blue"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, light blue frame and dark tyres against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1507035895480-2b3156c31fc8-standardized-v1",
+      "asset_id": "photo-unsplash-1507035895480-2b3156c31fc8",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1507035895480-2b3156c31fc8-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1507035895480-2b3156c31fc8-standardized-v1.webp",
+          "sha256": "7730a5b6e4b22a932c0bc44c8827c6f5fe24dfdca0bc896433350cd35c393bfc",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 33118
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1507035895480-2b3156c31fc8-standardized-v1-s.webp",
+          "sha256": "6c672fc2223e0524f7f2ea9551f24d009dc9b9a34307779e3faa6690830810a0",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9138
+        }
+      ],
+      "characteristics": {
+        "colour": "lavender frame, orange tyres",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "white-painted brick wall above pavement",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (lavender bicycle with orange tyres against a white brick wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=1280",
+          "sha256": "47b1f0fc45531210df7285e713948cefa552df4a9e15889ae10326b121d62888",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 311,
+          "y": 182,
+          "side": 671
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Lavender bicycle with orange tyres against a white brick wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "fixed-gear-bicycle",
+        "outdoors",
+        "wall",
+        "orange"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, orange tyres and lavender frame against a white-painted wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1792271031903-cbf76565581d-standardized-v1",
+      "asset_id": "photo-unsplash-1792271031903-cbf76565581d",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1792271031903-cbf76565581d-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1792271031903-cbf76565581d-standardized-v1.webp",
+          "sha256": "a7c3cae520ece5f0689fd2209643524d2170615917ccddf662410de398ec27f5",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 37106
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1792271031903-cbf76565581d-standardized-v1-s.webp",
+          "sha256": "798149e1fbca4a9b4e9df7eea6a8ba7c41fbc151a616aeecbc2cd5d4e5c2b1c1",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 12158
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved alcove before a sandstone building with a window",
+        "support": "side stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole motorcycle from the reviewed crop (black cruiser motorcycle against a stone building), with its wheels and support (side stand) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1792271031903-cbf76565581d?w=1280",
+          "sha256": "228d3464b54abab9f24e07827bc7d978fe7c1769100b1c002a28d4f8a2bce76a",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 342,
+          "y": 0,
+          "side": 853
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'Display P3' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black cruiser motorcycle against a stone building",
+      "object_type": "motorcycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "motorcycle",
+        "cruiser-motorcycle",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the motorcycle spans about 84% of the crop in a side profile facing left, black motorcycle against a pale sandstone wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1603399301857-4871de8d64d9-standardized-v1",
+      "asset_id": "photo-unsplash-1603399301857-4871de8d64d9",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1603399301857-4871de8d64d9-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1603399301857-4871de8d64d9-standardized-v1.webp",
+          "sha256": "3bc08b6ba0b0790d106cd00bc845eeee05f296297102e75475501008f12fdb40",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 38574
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1603399301857-4871de8d64d9-standardized-v1-s.webp",
+          "sha256": "b4496b57a92146030f306e191f7fd7277c4a040da33dd5aa2aa35640a3f3a955",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9510
+        }
+      ],
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved ground before black, grey, white and red facade panels",
+        "support": "deployed kickstand beside the facade",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (white road bicycle against black and red facade panels), with its wheels and support (deployed kickstand beside the facade) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1603399301857-4871de8d64d9?w=1280",
+          "sha256": "f80d2855003a23c346c99f27e0a18e9a8ceed84f7ddf96ff53f95edecceddd69",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1601
+        },
+        "crop": {
+          "x": 71,
+          "y": 399,
+          "side": 1201
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "White road bicycle against black and red facade panels",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "outdoors",
+        "wall",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, white frame against dark facade panels; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1604946457342-39e980c6050e-standardized-v1",
+      "asset_id": "photo-unsplash-1604946457342-39e980c6050e",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1604946457342-39e980c6050e-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1604946457342-39e980c6050e-standardized-v1.webp",
+          "sha256": "9b9e6a966738c58fb03097b68180e75459c125121c6e8cee60a9de92b78527dc",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 52548
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1604946457342-39e980c6050e-standardized-v1-s.webp",
+          "sha256": "b77494eb9cac3eddbd93f4f04d44e8809b776bf18a39fb29cdb84142b434bfa2",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15924
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "cobbled street before a yellow house with white windows",
+        "support": "deployed kickstand beside the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (black city bicycle against a yellow house), with its wheels and support (deployed kickstand beside the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1604946457342-39e980c6050e?w=1280",
+          "sha256": "249c830903f3593d3da5006f6e48bf206ced780fad1381a2eb7b0dc5cbf29540",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1920
+        },
+        "crop": {
+          "x": 190,
+          "y": 866,
+          "side": 874
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black city bicycle against a yellow house",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "outdoors",
+        "wall",
+        "cobbles",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a plain yellow wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-4995281-standardized-v1",
+      "asset_id": "photo-pexels-4995281",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-4995281-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-pexels-4995281-standardized-v1.webp",
+          "sha256": "4a0aaa6073b920ed3d6dc2cdcf16f6f725b64468646015270f9fbf00dbe2a617",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 44812
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-pexels-4995281-standardized-v1-s.webp",
+          "sha256": "b76f638d58804f451e040f8f4ba6eb57555a72ee6e0afe6677ca6a35ef6eae1c",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 12566
+        }
+      ],
+      "characteristics": {
+        "colour": "orange and teal",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "grassy shore with driftwood logs under a pale sky",
+        "support": "deployed kickstand on grass",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (orange and teal mountain bike on grass by driftwood), with its wheels and support (deployed kickstand on grass) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/4995281/pexels-photo-4995281.jpeg?w=1280",
+          "sha256": "b3f30bf96f8fc63b4cf25df68774aa970cf59bc6c955e3c506fb513fef9f7741",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 176,
+          "y": 193,
+          "side": 608
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Orange and teal mountain bike on grass by driftwood",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "mountain-bicycle",
+        "outdoors",
+        "grass",
+        "orange"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 13,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, orange frame against a pale sky and dry grass; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1774722396639-a0a6fed00deb-standardized-v1",
+      "asset_id": "photo-unsplash-1774722396639-a0a6fed00deb",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1774722396639-a0a6fed00deb-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1774722396639-a0a6fed00deb-standardized-v1.webp",
+          "sha256": "218f8b9af479c65ac116bb45e3965eb154812fc9756b146051c0b17bf21acf2b",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 64028
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1774722396639-a0a6fed00deb-standardized-v1-s.webp",
+          "sha256": "0ad5c39ae726870e1bcbf776df1cb3e1f09c93f04df18a6cd2fe0d98bfa5ac91",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19594
+        }
+      ],
+      "characteristics": {
+        "colour": "yellow",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "paved street before a carved wooden door",
+        "support": "leaning against the door",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (yellow cruiser bicycle with a flower basket against a wooden door), with its wheels and support (leaning against the door) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1774722396639-a0a6fed00deb?w=1280",
+          "sha256": "63995d25af7ea664158fecd19aacb8f01f459e1e7981210b4afdff193b8f6fca",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1111
+        },
+        "crop": {
+          "x": 104,
+          "y": 0,
+          "side": 1111
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Yellow cruiser bicycle with a flower basket against a wooden door",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "cruiser-bicycle",
+        "basket",
+        "flowers",
+        "outdoors",
+        "door",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 14,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 86% of the crop in a shallow front-left three-quarter facing left, yellow frame against a dark wooden door; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-9078472-standardized-v1",
+      "asset_id": "photo-pexels-9078472",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-9078472-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-pexels-9078472-standardized-v1.webp",
+          "sha256": "aa759d5070044bc46194dc92682f5f9d5fcaa8eb503161dff105beb02bd2c7da",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 48082
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-pexels-9078472-standardized-v1-s.webp",
+          "sha256": "51f0db01239290b92a7bb49e2406d0bd720c41c7ee3209f28ef989a2c9d7af23",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16074
+        }
+      ],
+      "characteristics": {
+        "colour": "copper",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "street with road markings before a low building",
+        "support": "leaning against a metal pole behind the frame",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (copper city bicycle leaning against a street pole), with its wheels and support (leaning against a metal pole behind the frame) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/9078472/pexels-photo-9078472.jpeg?w=1280",
+          "sha256": "3b9d60ab3cd16340a5d34e9715690d8d5f99f9ef46c8fc10618478d4356a9f38",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1280
+        },
+        "crop": {
+          "x": 80,
+          "y": 55,
+          "side": 967
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Copper city bicycle leaning against a street pole",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "outdoors",
+        "street",
+        "pole",
+        "copper"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 15,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, copper frame against grey asphalt; the pole stays behind the frame; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1698366395517-688b6c1b4d90-standardized-v1",
+      "asset_id": "photo-unsplash-1698366395517-688b6c1b4d90",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1698366395517-688b6c1b4d90-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1698366395517-688b6c1b4d90-standardized-v1.webp",
+          "sha256": "8999c4e084d4a31d3c326042a1bb097990240d67f39db109dbebcc328dd267f5",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 109288
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1698366395517-688b6c1b4d90-standardized-v1-s.webp",
+          "sha256": "e3a961ea3e358d033fabdf7496998d0d02dfe2e6df267553d8fc1712b4b536bb",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 27184
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "grass verge before a hedge and a white house",
+        "support": "parked on its wheels",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole car from the reviewed crop (small red car parked before a hedge), with its wheels and support (parked on its wheels) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1698366395517-688b6c1b4d90?w=1280",
+          "sha256": "15cb6f0adfde7ba1b80c2dec0cab75a6432e9d3a06ca9d0a22ccdc1322d95fee",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 960
+        },
+        "crop": {
+          "x": 186,
+          "y": 0,
+          "side": 960
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'Display P3' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Small red car parked before a hedge",
+      "object_type": "car",
+      "content_origin": "photograph",
+      "keywords": [
+        "car",
+        "small-car",
+        "outdoors",
+        "hedge",
+        "red"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 16,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the car spans about 85% of the crop in a side profile facing right, red bodywork against a dark green hedge; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1778800051130-a7466c7ae19a-standardized-v1",
+      "asset_id": "photo-unsplash-1778800051130-a7466c7ae19a",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1778800051130-a7466c7ae19a-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1778800051130-a7466c7ae19a-standardized-v1.webp",
+          "sha256": "b22f3aa52b96bd791038e689bd1073fa5baddf8f4ceb69748c0db7e32b77c659",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 67726
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1778800051130-a7466c7ae19a-standardized-v1-s.webp",
+          "sha256": "ea984f64bf350f739457c5e358817fe23ef8cd19f6fce1f06dd3eb524190aa01",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18150
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "grass verge before a pale blue clapboard house with a window",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (red vintage bicycle against a blue clapboard wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1778800051130-a7466c7ae19a?w=1280",
+          "sha256": "1b10e6f4fe12cb20b93253e2a21abcf678d07177cf127921708db7387461308e",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1024
+        },
+        "crop": {
+          "x": 283,
+          "y": 146,
+          "side": 842
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Red vintage bicycle against a blue clapboard wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "vintage-bicycle",
+        "outdoors",
+        "wall",
+        "grass",
+        "red"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 17,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, red frame against a pale blue wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-10848028-standardized-v1",
+      "asset_id": "photo-pexels-10848028",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-10848028-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-pexels-10848028-standardized-v1.webp",
+          "sha256": "855a02f4632cafb007010d874c6ac68f50ba8945badd386d384f5a470b0a7bea",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 63118
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-pexels-10848028-standardized-v1-s.webp",
+          "sha256": "e9b36e6f352969f220e9a4e1e16627633c2da1ad0e47c127b7937723cd8f3553",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16748
+        }
+      ],
+      "characteristics": {
+        "colour": "turquoise",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "paved path before a wooden dune fence, with the sea behind",
+        "support": "leaning against the fence",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (turquoise bicycle with a crate against a dune fence), with its wheels and support (leaning against the fence) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/10848028/pexels-photo-10848028.jpeg?w=1280",
+          "sha256": "7f62899a098210b25ba76e734c15e0c95895435f07be2c32926792df9aeb8c5f",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1707
+        },
+        "crop": {
+          "x": 0,
+          "y": 427,
+          "side": 1280
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Turquoise bicycle with a crate against a dune fence",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "transport-bicycle",
+        "crate",
+        "outdoors",
+        "fence",
+        "beach",
+        "turquoise"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 18,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 83% of the crop in a side profile facing right, turquoise frame against a weathered fence and dune grass; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1698871999765-2fbadbaaae82-standardized-v1",
+      "asset_id": "photo-unsplash-1698871999765-2fbadbaaae82",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1698871999765-2fbadbaaae82-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1698871999765-2fbadbaaae82-standardized-v1.webp",
+          "sha256": "5cdbb26c3f8ea51de533a2744a604ae2af6e3e548964b315c4df17b6ff56e095",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 66406
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1698871999765-2fbadbaaae82-standardized-v1-s.webp",
+          "sha256": "11d62c39d91ffe3d04af76005e3cd5ee56a16801a6411e6bae7d28bdf34d8c81",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18700
+        }
+      ],
+      "characteristics": {
+        "colour": "teal with white tyres",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "wet canal bridge before water and trees",
+        "support": "leaning against the railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (teal city bicycle against a canal-bridge railing), with its wheels and support (leaning against the railing) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1698871999765-2fbadbaaae82?w=1280",
+          "sha256": "8880127c25829a2dcd470f2f5b3d435b6a63ba551a1c51ade6e1805546f47b21",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1123
+        },
+        "crop": {
+          "x": 175,
+          "y": 60,
+          "side": 764
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB-elle-V2-srgbtrc.icc' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Teal city bicycle against a canal-bridge railing",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "railing",
+        "canal",
+        "teal"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 19,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, teal frame and white tyres against grey water; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-35826964-standardized-v1",
+      "asset_id": "photo-pexels-35826964",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-35826964-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-pexels-35826964-standardized-v1.webp",
+          "sha256": "893d2d6021e03cfa17043a5c41fd8131898dea09288950a2d5a25c0dc0f9745d",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 45024
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-pexels-35826964-standardized-v1-s.webp",
+          "sha256": "375626e072032987a597cd01b2f1efba5eee424aa7da64b951cabdce41d9ee1c",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 11614
+        }
+      ],
+      "characteristics": {
+        "colour": "pale green",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "paved alley before a white wall and a slatted wooden door",
+        "support": "deployed kickstand beside the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (pale green bicycle with a basket beside a wooden door), with its wheels and support (deployed kickstand beside the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/35826964/pexels-photo-35826964.jpeg?w=1280",
+          "sha256": "01d5dbd9eff818e947b22d4a2987429d4cb35f23a4b169880f20dce655508984",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 960
+        },
+        "crop": {
+          "x": 298,
+          "y": 0,
+          "side": 952
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Pale green bicycle with a basket beside a wooden door",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "door",
+        "green"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 20,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, pale green frame against a white wall and brown door; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1631443412966-2a2ab5e18c3b-standardized-v1",
+      "asset_id": "photo-unsplash-1631443412966-2a2ab5e18c3b",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1631443412966-2a2ab5e18c3b-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1631443412966-2a2ab5e18c3b-standardized-v1.webp",
+          "sha256": "fbdde4b3c026411827c423540542f25b7acb21ec8380fcb26a8c497606c03d4d",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 43924
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1631443412966-2a2ab5e18c3b-standardized-v1-s.webp",
+          "sha256": "64ea3e1ddeae83ef66077fa7914f0ceb0c6ba0baacae98b68b25a9b3f98bab21",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 11570
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "white wall with a dark plinth above dusty ground",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (black roadster bicycle with a front basket against a white wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1631443412966-2a2ab5e18c3b?w=1280",
+          "sha256": "a0a32067107dfc0d3b4e0de494ae23a6d1ec12fa2e59fbd4078f605823ac3ac0",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1706
+        },
+        "crop": {
+          "x": 217,
+          "y": 638,
+          "side": 858
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black roadster bicycle with a front basket against a white wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "roadster-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 21,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1592419044706-39796d40f98c-standardized-v1",
+      "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1592419044706-39796d40f98c-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1592419044706-39796d40f98c-standardized-v1.webp",
+          "sha256": "585c7d19380d1327a8f996f47d2bd9cb417438408bc5b69582536bbbd317be45",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 56232
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1592419044706-39796d40f98c-standardized-v1-s.webp",
+          "sha256": "cbe37d342c50920f51724a377c8025ea277d876e966cdc6722ba761496a695b7",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14574
+        }
+      ],
+      "characteristics": {
+        "colour": "dark navy",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "pale two-tone rendered wall above a gravel verge",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (navy road bicycle against a two-tone wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=1280",
+          "sha256": "c0be1e05c3570b8044e65de804d93d8aa099c0e4a33b21c197068621c542ca0a",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 901
+        },
+        "crop": {
+          "x": 268,
+          "y": 50,
+          "side": 718
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'Adobe RGB (1998)' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Navy road bicycle against a two-tone wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "outdoors",
+        "wall",
+        "navy"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 22,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, dark frame against a pale rendered wall; a soft wall shadow does not cross the bicycle; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1667837896876-012372133bbd-standardized-v1",
+      "asset_id": "photo-unsplash-1667837896876-012372133bbd",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1667837896876-012372133bbd-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1667837896876-012372133bbd-standardized-v1.webp",
+          "sha256": "452fb93241df17882dbbf4a6ffaeb1a7cd918891a84f408ae091f672220ec551",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 25520
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1667837896876-012372133bbd-standardized-v1-s.webp",
+          "sha256": "cd8251ec7fc344f964a185906e27d4a5e1d198ad345fc69a4658ba40ea3ff5ff",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8964
+        }
+      ],
+      "characteristics": {
+        "colour": "copper",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "indoor corridor with a white wall and a reflective tiled floor",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (copper fixed-gear bicycle against a white wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1667837896876-012372133bbd?w=1280",
+          "sha256": "e1300243f661184b16fcd966ab721c54552243abe63892ba86048317d3b4022b",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 854
+        },
+        "crop": {
+          "x": 207,
+          "y": 0,
+          "side": 854
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'Adobe RGB (1998)' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Copper fixed-gear bicycle against a white wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "fixed-gear-bicycle",
+        "indoors",
+        "wall",
+        "copper"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 23,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing right, copper frame and black wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1",
+      "asset_id": "photo-unsplash-1777675024325-d93b5c5fc71c",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1777675024325-d93b5c5fc71c-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1.webp",
+          "sha256": "c1c378d4bffcde1876e1d4d7f4750538ae6adae3f86b814cea35c06e4bde8902",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29412
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1-s.webp",
+          "sha256": "ea7d53a868e0cea5876c1f2fdc4c166701e616cf29439ebc682927651cb19635",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8452
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved ground before a plain grey-white wall",
+        "support": "deployed kickstand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (black city bicycle with a basket against a grey wall), with its wheels and support (deployed kickstand) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1777675024325-d93b5c5fc71c?w=1280",
+          "sha256": "eeacfbbd5b9a4d3a077dcb2bccf88f72bbbda1a5d3275cf06e889d461213d776",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 503,
+          "y": 182,
+          "side": 671
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black city bicycle with a basket against a grey wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 24,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a light grey wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1559348349-86f1f65817fe-standardized-v1",
+      "asset_id": "photo-unsplash-1559348349-86f1f65817fe",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1559348349-86f1f65817fe-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1559348349-86f1f65817fe-standardized-v1.webp",
+          "sha256": "8b616c94774f17a0e4569cc0001212ae70bd50cdbbfa2c61c70f2f8d9fc1b4be",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 37112
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1559348349-86f1f65817fe-standardized-v1-s.webp",
+          "sha256": "c9c8d03c8eaa6a1782f38cd141bdc73730dd1717a3abfa098a784e3ac5f79321",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9510
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "kerbside before a grey concrete wall",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (black fixed-gear bicycle against a grey concrete wall), with its wheels and support (leaning against the wall) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1559348349-86f1f65817fe?w=1280",
+          "sha256": "b837465db07999fa4d886fedba31c097f3b075d44b26049b5a515004861b706a",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 326,
+          "y": 72,
+          "side": 640
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'ProPhoto RGB' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black fixed-gear bicycle against a grey concrete wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "fixed-gear-bicycle",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 25,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a mid-grey concrete wall; contrast adequate at 128 px; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-flickr-13612564183-standardized-v1",
+      "asset_id": "photo-flickr-13612564183",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-flickr-13612564183-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-flickr-13612564183-standardized-v1.webp",
+          "sha256": "79b5607fdec4f48026147a40011e5d0b238452ebe11126c3fb78f300b4e69083",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 93776
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-flickr-13612564183-standardized-v1-s.webp",
+          "sha256": "2c136b167f69af85c7c7e5a1085e2f45f0fc39d4e8acc9e9301beab933b6991f",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 23798
+        }
+      ],
+      "characteristics": {
+        "colour": "light blue",
+        "viewpoint": "Shallow rear-right three-quarter",
+        "facing_direction": "right",
+        "environment": "dry earth hillside with brush, distant mountains and blue sky",
+        "support": "leaning against the hillside bank",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (light-blue touring bicycle against a dry hillside), with its wheels and support (leaning against the hillside bank) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://live.staticflickr.com/7419/13612564183_d370ce1b4f_b.jpg",
+          "sha256": "965d617aa7187d9114148c11d803ddf93d13267b5c970f7a286925965909ed9a",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1024,
+          "height": 620
+        },
+        "crop": {
+          "x": 0,
+          "y": 9,
+          "side": 611
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Light-blue touring bicycle against a dry hillside",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "touring-bicycle",
+        "outdoors",
+        "hillside",
+        "light-blue"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 26,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow rear-right three-quarter facing right, light-blue frame and silver wheels against brown earth and sky; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1722872753122-1bd3e86af3e6-standardized-v1",
+      "asset_id": "photo-unsplash-1722872753122-1bd3e86af3e6",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1722872753122-1bd3e86af3e6-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1722872753122-1bd3e86af3e6-standardized-v1.webp",
+          "sha256": "0cc4a32ae5e2687a462b2af98c1e00f022aba849b1561e5707ad19873c7d350d",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 44080
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1722872753122-1bd3e86af3e6-standardized-v1-s.webp",
+          "sha256": "e9b9fb0e6356c0336c6064abcfefc40e68fe8f99d9b4d289cc9b6a2a8b9f58fb",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9676
+        }
+      ],
+      "characteristics": {
+        "colour": "copper orange",
+        "viewpoint": "Shallow rear-right three-quarter",
+        "facing_direction": "right",
+        "environment": "open pale grey asphalt",
+        "support": "deployed kickstand on open asphalt",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (copper-orange custom cruiser bicycle on open asphalt), with its wheels and support (deployed kickstand on open asphalt) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1722872753122-1bd3e86af3e6?w=1280",
+          "sha256": "e4450f339479db1a53ebbc6d6d7372f6a6c4d140feb6e90ee14ba7462153cf2d",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1383
+        },
+        "crop": {
+          "x": 0,
+          "y": 40,
+          "side": 1280
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "Custom low-rider cruiser with long swept handlebars and a stretched frame: clearly a bicycle, but a less typical shape; confirm it reads as a normal member rather than a borderline item when composing a set."
+      ],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Copper-orange custom cruiser bicycle on open asphalt",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "cruiser-bicycle",
+        "outdoors",
+        "asphalt",
+        "orange"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 27,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 83% of the crop in a shallow rear-right three-quarter facing right, copper-orange frame and white-wall tyres against plain grey asphalt; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1676706079694-346cccd54ca4-standardized-v1",
+      "asset_id": "photo-unsplash-1676706079694-346cccd54ca4",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1676706079694-346cccd54ca4-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1676706079694-346cccd54ca4-standardized-v1.webp",
+          "sha256": "b12ee8e2a616ed4a059b663694f7e4f7346aa91af09a65bccd2651041129a4ff",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 85374
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1676706079694-346cccd54ca4-standardized-v1-s.webp",
+          "sha256": "c15208be87f15bd5b47daf4682018c3086cfcdacdc23edd56717fe3e51a71676",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 23798
+        }
+      ],
+      "characteristics": {
+        "colour": "yellow",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "dirt path between rows of green lavender",
+        "support": "deployed kickstand on a dirt path",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (yellow roadster bicycle between lavender rows), with its wheels and support (deployed kickstand on a dirt path) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1676706079694-346cccd54ca4?w=1280",
+          "sha256": "6f6561d563614959753b0270e5297cb05ffd5d7f13c36de39084fe5c94462f05",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 850
+        },
+        "crop": {
+          "x": 356,
+          "y": 0,
+          "side": 850
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "A few out-of-focus lavender stems at the lower left touch the front tyre; they do not hide any defining part. Reject if the owner reads this as an obstruction."
+      ],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Yellow roadster bicycle between lavender rows",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "roadster-bicycle",
+        "outdoors",
+        "lavender",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 28,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 86% of the crop in a shallow front-left three-quarter facing left, saturated yellow frame and wheels against green lavender foliage; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-38644968-standardized-v1",
+      "asset_id": "photo-pexels-38644968",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-38644968-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-pexels-38644968-standardized-v1.webp",
+          "sha256": "faf21b206c783a861c8dabc0d13cf1789dbf511cfdb5f3784a3a804f7ad29ae8",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 84392
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-pexels-38644968-standardized-v1-s.webp",
+          "sha256": "8d23d5c436ecac98b815dea59334a25ffe226f4946534306245bf3920a2bf52f",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 21302
+        }
+      ],
+      "characteristics": {
+        "colour": "silver beige",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "paved garden path before purple Russian sage, trees and a cloudy sky",
+        "support": "deployed kickstand on a paved path",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (silver-beige city bicycle with a basket by a lavender border), with its wheels and support (deployed kickstand on a paved path) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.pexels.com/photos/38644968/pexels-photo-38644968.jpeg?w=1280",
+          "sha256": "2e4c6bd9d7ffd9e0a7cc051fb32ff63d08818e053af3d3c1bfd661d68984ee87",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 815
+        },
+        "crop": {
+          "x": 238,
+          "y": 4,
+          "side": 811
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "No embedded ICC profile; RGB input treated as sRGB; output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "The front tyre comes within about 1–2% of the lower crop edge because the preview leaves no more room; nothing is cut."
+      ],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Silver-beige city bicycle with a basket by a lavender border",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "outdoors",
+        "garden",
+        "silver"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 29,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 80% of the crop in a shallow front-left three-quarter facing left, pale frame and dark tyres against purple flowers, sky and a light path; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1602528190586-757f42d99447-standardized-v1",
+      "asset_id": "photo-unsplash-1602528190586-757f42d99447",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1602528190586-757f42d99447-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1602528190586-757f42d99447-standardized-v1.webp",
+          "sha256": "2263a8b88a16e18042bd35b8b8c67851b1f37fe8fa48e0cb2bd4586706be30f7",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 91642
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1602528190586-757f42d99447-standardized-v1-s.webp",
+          "sha256": "50bca0fb7b140094123764f6d80b8bd10c9b5b59484b2c1aaff6a6df4306c5ab",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 26320
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Shallow rear-left three-quarter",
+        "facing_direction": "left",
+        "environment": "pale park road with green trees behind",
+        "support": "deployed kickstand on an open road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (black hybrid bicycle on a tree-lined park road), with its wheels and support (deployed kickstand on an open road) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1602528190586-757f42d99447?w=1280",
+          "sha256": "acfb16b87c5323945e5a4858405f7c9bea7ea62d6df576efb5eb9c92372a3f8b",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1280
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "side": 1280
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black hybrid bicycle on a tree-lined park road",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "hybrid-bicycle",
+        "outdoors",
+        "road",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 30,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 87% of the crop in a shallow rear-left three-quarter facing left, black frame and tyres against a pale road and bright green trees; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1617993200240-9db09bec6b5e-standardized-v1",
+      "asset_id": "photo-unsplash-1617993200240-9db09bec6b5e",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1617993200240-9db09bec6b5e-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1617993200240-9db09bec6b5e-standardized-v1.webp",
+          "sha256": "1f65e48b7907828d2693f2fa429bb5d49a1265d1d7b483cccaaacc5c6e00f092",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 66424
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/bicycles/photo-unsplash-1617993200240-9db09bec6b5e-standardized-v1-s.webp",
+          "sha256": "813676d4f6351d354c00648f66f4edeb605a127016f86225691a86e2fa08722f",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 21550
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "sunlit park lawn by a path, with bare trees behind",
+        "support": "deployed kickstand on grass",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Whole bicycle from the reviewed crop (black vintage roadster bicycle on a park lawn), with its wheels and support (deployed kickstand on grass) inside the frame. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T02:39:07Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T02:39:07Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1617993200240-9db09bec6b5e?w=1280",
+          "sha256": "f97e4ef03d43a4da9910a24626136860f68807039a8a207495e1409b7dbf544d",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 1280
+        },
+        "crop": {
+          "x": 260,
+          "y": 400,
+          "side": 820
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "The dark frame is partly seen against green grass; it remains clear at 128 px because the frame is much darker than the lawn."
+      ],
+      "created_at": "2026-10-27T02:39:07Z",
+      "updated_at": "2026-10-27T02:39:07Z",
+      "actor": "claude",
+      "description": "Black vintage roadster bicycle on a park lawn",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "roadster-bicycle",
+        "outdoors",
+        "grass",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 31,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 81% of the crop in a shallow front-left three-quarter facing left, dark frame and tyres against sunlit grass and pale bare trees; no obstruction, one instance, no people, recognisable at 128 px. The whole bicycle and its support are visible. Added to close the set-level shortfall in three-quarter views and non-wall settings.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "standardised-crop"
         }
       ]
     }

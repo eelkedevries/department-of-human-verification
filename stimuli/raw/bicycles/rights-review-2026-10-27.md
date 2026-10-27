@@ -75,3 +75,39 @@ Two targets remain unmet: side profiles (13/20 (65%)) and wall settings (13/20 (
 ## Correction: no reserve status, 27 October 2026
 
 On the owner's decision, the five side-profile bicycles removed in the set-level variety review were restored to `suitable` as ranks 21–25, because they meet the clarity standard and the rights check. The suitable pool now holds 25 photographs; its view, setting and three-quarter shares are further from the targets, so variety must come from adding varied images and from choosing varied nine-image sets.
+
+## Additional photographs for the variety shortfall, 27 October 2026
+
+On the owner's request, further photographs were sought to close the shortfall in three-quarter views and settings other than walls, and new sources were tried. About 1,350 results were screened at thumbnail size: about 600 further Unsplash results (queries such as "bicycle on grass", "bike kickstand", "bicycle field", "bicycle park", "old bicycle", "cruiser bicycle", "gravel bike", "mountain bike resting" and colour queries), about 630 results from the Openverse index (39 queries such as "touring bicycle", "bicycle hill", "bicycle meadow", "bicycle sand" and "bicycle railing"; mostly Flickr, some StockSnap and Rawpixel) and about 120 Pexels results ("bicycle kickstand", "bike on grass", "bicycle beach", "mountain bike rock" and others). About 30 were inspected at 1,280 px with planned crops. Most failed on people, a second bicycle, obstructions, steep views, crops too tight for a square frame, monochrome processing or same-hue backgrounds. Shortlisted photographs that failed at crop stage were not registered: a mint bicycle by a tree (green foliage behind a mint frame), a red bicycle by a beach (people in the crop), a blue bicycle in a tulip field (a second bicycle touches its front wheel), a dark green mountain bike on a rock overlook (rock ledges hide the bottom of both wheels), a grey mountain bike by a field (more than 90% of any square crop) and a red fat bike against a garage door (steep view, too tight).
+
+Six photographs met the clarity standard and the plan. Each licence was confirmed on the photograph's own page:
+
+| Rank | Photograph | Creator and source | Licence | View | Support | Crop share |
+|---|---|---|---|---|---|---|
+| 26 | [Light-blue touring bicycle against a dry hillside](https://www.flickr.com/photos/64942209@N00/13612564183) ("Bit of snow on San Jacinto!") | cyclotourist (Flickr, found through Openverse) | CC BY-NC 2.0 | shallow rear-right three-quarter, facing right | leaning against the hillside bank | about 82% |
+| 27 | [Copper-orange custom cruiser bicycle on open asphalt](https://unsplash.com/photos/a-bike-that-is-sitting-in-the-middle-of-the-road-winpNmlYD9g) | Sidral Mundet (Unsplash) | Unsplash License | shallow rear-right three-quarter, facing right | kickstand on open asphalt | about 83% |
+| 28 | [Yellow roadster bicycle between lavender rows](https://unsplash.com/photos/a-yellow-bicycle-parked-in-front-of-a-field-of-lavender-flowers-wCiWFwkc8Z4) | Gunay Topaloglu (Unsplash) | Unsplash License | shallow front-left three-quarter, facing left | kickstand on a dirt path | about 86% |
+| 29 | [Silver-beige city bicycle with a basket by a lavender border](https://www.pexels.com/photo/bicycle-parked-in-lavender-garden-on-sunny-day-38644968/) | Teodor Buhl (Pexels) | Pexels License | shallow front-left three-quarter, facing left | kickstand on a paved path | about 80% |
+| 30 | [Black hybrid bicycle on a tree-lined park road](https://unsplash.com/photos/black-and-white-road-bike-on-gray-concrete-road-yJV41IpTZlM) | Ionut Zamfir (Unsplash) | Unsplash License | shallow rear-left three-quarter, facing left | kickstand on an open road | about 87% |
+| 31 | [Black vintage roadster bicycle on a park lawn](https://unsplash.com/photos/black-and-gray-bicycle-on-brown-dirt-road-in-between-bare-trees-during-daytime-1TkHLcAleYA) | Alex Plesovskich (Unsplash) | Unsplash License | shallow front-left three-quarter, facing left | kickstand on grass | about 81% |
+
+The Flickr photograph is licensed under [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/): it requires credit with the title, creator, licence and a link, an indication of changes, and non-commercial use only. It may be used while the project is non-commercial. Unsplash and Pexels photographs carry the conditions recorded above. Minor limitations are recorded on the versions: a few out-of-focus lavender stems touch the yellow bicycle's front tyre (rank 28), the silver-beige bicycle's front tyre comes close to the lower crop edge (rank 29), the custom cruiser has an unusual stretched shape (rank 27), and the black roadster is partly seen against grass (rank 31).
+
+All thirty-one suitable photographs were then standardised with `tools/stimuli/standardise.py` from their reviewed crops. Every downloaded preview matched its recorded hash. The outputs were inspected at 256 px and 128 px: each object is complete, uncut and as clear as in its reviewed crop.
+
+### Counts for the thirty-one suitable photographs
+
+Twenty-seven bicycles (targets) and four distractors (motor scooter, motorcycle, skateboard and small car).
+
+| Feature | Result | Target | Status |
+|---|---|---|---|
+| Strict side profiles | 18/31 (58%) overall; 15/27 (56%) of bicycles | at most about half | **not met** |
+| Shallow three-quarter views | 13/31 (42%) overall; 12/27 (44%) of bicycles | at least a third | met |
+| Facing direction | 16 left, 14 right, 1 not applicable (bicycles 14 left, 13 right) | neither above about 60% | met |
+| Most frequent colour | black: 8/31 (26%) overall, 7/27 (26%) of bicycles; blue-green about 7/31 (23%) | none above about a quarter | at the limit |
+| Supports | 9 kinds; most frequent: leaning against a wall, 10/31 (32%); kickstand in the open, 7/31 (23%) | at least four; none above half | met |
+| Settings | building wall or facade behind 18/31 (58%) overall; 16/27 (59%) of bicycles | none above half | **not met** |
+| Near-duplicate backdrops | Ranks 28 and 29 both include lavender, but differ in composition, frame colour and backdrop (dense lavender rows versus a garden border under sky) | no near-identical composition, colour and backdrop | met |
+| Cue to the answer | The four distractors are mostly side views by walls, while the additions are all three-quarter bicycles in open settings | no view, colour, setting or quality cue | **at risk**: balance views and settings by role when composing each nine-image set |
+
+Side profiles and wall settings remain above half. Five more clear three-quarter images in settings other than walls would bring both to half overall (18/36); three more bicycles would do so within the bicycle role (15/30). Adding varied three-quarter distractors in open settings would help both the overall counts and the balance between roles. Further black bicycles should be avoided.

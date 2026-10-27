@@ -24,17 +24,17 @@ Rights checks are quick and proportionate (see [Rights checks during image searc
 - **Licence:** [Unsplash License](https://unsplash.com/license): copy, modify and distribute, including commercially; no sale without significant modification; no compilation into a similar or competing service. The [terms](https://unsplash.com/terms) prohibit use in AI/ML datasets and exclude recognisable people, trademarks and artworks from the licence.
 - **Verify on:** the photo page, which names the creator and states "Free to use under the Unsplash License"; its `photo-…` image key must match the reviewed preview URL.
 - **Pitfalls:** the CDN may re-encode previews, so the hash changes; accept with `--accept-reencoded` only after visual comparison. Many landscape photographs are too wide for a square crop with margins. Clear three-quarter views are scarce.
-- **Yield:** 15 of the 20 suitable bicycle-theme photographs (27 October 2026).
+- **Yield:** 21 of the 31 suitable bicycle-theme photographs registered directly (27 October 2026). The later search for three-quarter views in open settings screened about 600 further Unsplash results for 4 additions.
 - **Last checked:** 27 October 2026.
 
 ### Pexels
 
 - **Status:** recommended; second choice.
-- **Access:** no connector. Search pages (`https://www.pexels.com/search/<query>/`) and photo pages load through the web fetcher; direct requests to `pexels.com` return HTTP 403. Previews download from `images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?w=1280`.
+- **Access:** no connector. Search pages (`https://www.pexels.com/search/<query>/`) and photo pages load through the web fetcher; direct requests to `pexels.com` return HTTP 403. Previews download from `images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?w=1280` with the project's identifying `User-Agent`.
 - **Licence:** [Pexels License](https://www.pexels.com/license/): free use and modification; no sale of unaltered copies; no redistribution on other stock or wallpaper platforms; no implied endorsement by people or brands. The [terms](https://www.pexels.com/terms-of-service/) prohibit standalone distribution (cropping or resizing does not change this) and scraping for machine learning.
 - **Verify on:** the photo page, which names the photographer, shows the "Free" label linking to the licence, and gives the photo ID and original size; the ID must match the preview URL.
-- **Pitfalls:** search pages return about 24 results per query, so run several queries. Alt texts are generic; judge the image itself.
-- **Yield:** 5 of the 20 suitable bicycle-theme photographs (27 October 2026).
+- **Pitfalls:** search pages return about 24 results per query and later pages are refused (HTTP 410), so run several queries. Alt texts are generic; judge the image itself.
+- **Yield:** 5 of the 31 suitable bicycle-theme photographs (27 October 2026).
 - **Last checked:** 27 October 2026.
 
 ### Wikimedia Commons
@@ -46,6 +46,24 @@ Rights checks are quick and proportionate (see [Rights checks during image searc
 - **Licence:** Commons accepts only free licences: public domain, CC0, CC BY and CC BY-SA, among others. Record the author and licence for attribution; note share-alike (CC BY-SA) as a condition for publishing edited versions.
 - **Check on:** the file page's summary and licensing sections. Where the stated author differs from the embedded metadata, record the author named in the summary.
 - **Yield:** none yet.
+- **Last checked:** 27 October 2026.
+
+### Flickr
+
+- **Status:** usable for Creative Commons and public-domain photographs; found through [Openverse](#openverse).
+- **Access:** photo pages (`https://www.flickr.com/photos/<owner>/<id>`) load through the web fetcher. Previews download from `live.staticflickr.com` (the 1,024 px `_b.jpg` size that Openverse returns) with the project's identifying `User-Agent`. Larger sizes have different secret keys and are not returned by Openverse.
+- **Licence:** per photograph. Accept any Creative Commons licence or public-domain mark; NonCommercial licences are fine while the project is non-commercial; avoid NoDerivatives for images to be edited. Never use photographs marked "All rights reserved".
+- **Check on:** the photo page, which shows the owner and "Some rights reserved" with the licence name. Record the title, owner, licence and licence URL for attribution.
+- **Pitfalls:** results are mostly event, travel and people photographs; few are clean single-object shots. Previews of 1,024 px leave little room for square crops of landscape frames (a crop side of at least 512 px is needed).
+- **Yield:** 1 of the 31 suitable bicycle-theme photographs (27 October 2026), from about 630 Openverse results screened.
+- **Last checked:** 27 October 2026.
+
+### Openverse
+
+- **Status:** index only; useful for discovering Flickr Creative Commons photographs.
+- **Access:** the API (`https://api.openverse.org/v1/images/?q=<query>&license_type=modification&category=photograph`) works anonymously from cloud sessions within its limits (about 20 requests a minute and 200 a day); it answered HTTP 429, 500 and 503 at times, so retry with back-off. `source` and `excluded_source` cannot be combined in one request. Results are mostly Flickr, with some StockSnap and Rawpixel; Wikimedia Commons results link to throttled previews (see [Wikimedia Commons](#wikimedia-commons)).
+- **Use:** candidate discovery only. Trace every image to its original page and confirm the licence there; the Openverse licence field is not evidence on its own.
+- **Yield:** 1 registered photograph, via Flickr (27 October 2026).
 - **Last checked:** 27 October 2026.
 
 ### Pixabay
@@ -86,15 +104,14 @@ Never use these, nor their previews, watermarked comps or images syndicated from
 
 Recorded so that later searches do not repeat failed attempts. Re-test occasionally and update this section.
 
-- **Openverse API:** timed out on 27 October 2026.
+- **StockSnap and Rawpixel** pages return HTTP 403 to the web fetcher (27 October 2026); their images appear in Openverse results, but licences cannot be confirmed on the image pages from cloud sessions.
+- **Openverse API:** timed out once on 27 October 2026, then worked later that day; see [Openverse](#openverse).
 
 ## Candidate sources (not yet evaluated)
 
 These are expected to be usable under the proportionate rights check; confirm access and yield, then move an entry to Evaluated sources when it supplies a registered image.
 
-- **Openverse:** an index of openly licensed media; trace each image to its original page.
-- **Flickr** (Creative Commons and public-domain filters): per-photo licences; any Creative Commons licence except NoDerivatives for images to be edited.
-- **StockSnap** and **Burst**: free stock sites; terms not yet checked.
+- **StockSnap** and **Burst**: free stock sites; terms not yet checked. StockSnap pages were not reachable from cloud sessions (see above).
 
 ## Generated and edited images
 
