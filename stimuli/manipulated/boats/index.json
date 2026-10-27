@@ -3,5 +3,11 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "boats",
-  "version_ids": []
+  "version_ids": [
+    "generated-boats-walking-yacht-v1",
+    "generated-boats-lighthouse-sailboat-v1",
+    "generated-boats-bathtub-boat-v1",
+    "generated-boats-duck-float-boat-v1",
+    "generated-boats-picnic-table-boat-v1"
+  ]
 }
