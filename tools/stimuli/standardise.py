@@ -1,9 +1,11 @@
-"""Standardise suitable collection photographs to the webp-512-256-v1 format.
+"""Standardise suitable photographs and edited or generated masters to webp-512-256-v1.
 
-For each suitable version of THEME without a standardised child, downloads the
-recorded preview to stimuli/.cache/, checks it against the recorded preview
-hash, applies orientation, sRGB conversion and the recorded square crop, and
-writes 512 and 256 px WebP files to stimuli/standardized/THEME/. A contact
+For each suitable or manipulated version of THEME without a standardised child,
+reads the version's local master file or downloads its recorded preview to
+stimuli/.cache/, checks the bytes against the recorded hash, applies
+orientation, sRGB conversion and the recorded square crop (the whole image for
+a square master without one), and writes 512 and 256 px WebP files to
+stimuli/standardized/THEME/. A contact
 sheet for review at tile size is written to stimuli/.cache/.
 
 Nothing is registered until the reviewer has inspected the outputs and supplies
@@ -48,6 +50,12 @@ def sha256(data: bytes) -> str:
 
 
 def download(version: dict, accepted: set) -> tuple[bytes, str | None]:
+    master = next((f for f in version["files"] if f["purpose"] == "master"), None)
+    if master:
+        data = (ROOT / master["path"]).read_bytes()
+        if sha256(data) != master["sha256"]:
+            raise SystemExit(f'{version["version_id"]}: master file {master["path"]} differs from its recorded hash.')
+        return data, None
     path = CACHE / f'{version["version_id"]}.preview'
     if not path.exists():
         request = urllib.request.Request(version["external_url"], headers={"User-Agent": "DHV-stimulus-research/1.0 (https://github.com/eelkedevries/department-of-human-verification)"})
@@ -93,8 +101,10 @@ def standardise(version: dict, theme: str, accepted: set, taken: set) -> dict:
     oriented = ImageOps.exif_transpose(source)
     image, colour = to_srgb(oriented)
     assessment = next(a for a in version["assessments"] if a["theme"] == theme)
-    crop = assessment["proposed_crop"]
-    if image.size != (crop["reference_width"], crop["reference_height"]) or crop["coordinate_space"] != "downloaded-preview-pixels":
+    crop = assessment.get("proposed_crop")
+    if crop is None and image.width == image.height:
+        crop = {"x": 0, "y": 0, "side": image.width, "reference_width": image.width, "reference_height": image.height, "coordinate_space": "master-pixels"}
+    if crop is None or image.size != (crop["reference_width"], crop["reference_height"]) or crop["coordinate_space"] not in ("downloaded-preview-pixels", "master-pixels"):
         raise SystemExit(f'{version["version_id"]}: crop reference does not match the {image.size} preview.')
     if crop["side"] < SIZES["large"]:
         raise SystemExit(f'{version["version_id"]}: a {crop["side"]} px crop would need upscaling.')
@@ -105,6 +115,7 @@ def standardise(version: dict, theme: str, accepted: set, taken: set) -> dict:
         number += 1
     version_id = f'{version["asset_id"]}-standardized-v{number}'
     folder = COLLECTION / "standardized" / theme
+    folder.mkdir(parents=True, exist_ok=True)
     files = []
     for purpose, size in SIZES.items():
         name = f"{version_id}{'-s' if purpose == 'small' else ''}.webp"
@@ -127,7 +138,8 @@ def standardise(version: dict, theme: str, accepted: set, taken: set) -> dict:
         "files": files,
         "small": square.resize((SIZES["small"],) * 2, Image.Resampling.LANCZOS),
         "operation": {
-            "input": {"url": version["external_url"], "sha256": sha256(data), "format": (source.format or "unknown").lower()}
+            "input": ({"path": next(f["path"] for f in version["files"] if f["purpose"] == "master")} if any(f["purpose"] == "master" for f in version["files"]) else {"url": version["external_url"]})
+            | {"sha256": sha256(data), "format": (source.format or "unknown").lower()}
             | ({"reviewed_preview_sha256": reviewed_hash, "notes": "The source CDN re-encoded the preview after review; same dimensions, content checked visually against the parent record."} if reviewed_hash else {}),
             "input_dimensions": {"width": image.width, "height": image.height},
             "crop": {"x": crop["x"], "y": crop["y"], "side": crop["side"]},
@@ -146,7 +158,7 @@ def contact_sheet(results: list, theme: str, assessments: dict) -> Path:
         x, y = (i % columns) * cell, (i // columns) * (cell + label)
         sheet.paste(result["small"], (x, y))
         a = assessments[result["parent"]["version_id"]]
-        draw.text((x + 4, y + cell + 3), f'#{a["rank"]} {a["role"]}', fill="black")
+        draw.text((x + 4, y + cell + 3), f'#{a.get("rank")} {a["role"]}', fill="black")
         draw.text((x + 4, y + cell + 17), result["parent"]["description"][:40], fill="black")
     path = CACHE / f"standardized-{theme}-sheet.png"
     sheet.save(path)
@@ -183,7 +195,8 @@ def register(catalogue: dict, results: list, theme: str, reviews: dict, actor: s
             "tool": "tools/stimuli/standardise.py",
             "content_changes": False,
             "allow_upscale": False,
-            "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used.",
+            "notes": ("Input is the parent's stored master file; the crop is its reviewed square." if "path" in result["operation"]["input"]
+                      else "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."),
         }
         catalogue["versions"].append({
             "version_id": result["version_id"],
@@ -222,9 +235,9 @@ def register(catalogue: dict, results: list, theme: str, reviews: dict, actor: s
             "set_ids": [],
             "parent_version_ids": [parent["version_id"]],
             "output_version_ids": [result["version_id"]],
-            "from": "suitable",
+            "from": "manipulated" if "manipulated" in parent["levels"] else "suitable",
             "to": "standardized",
-            "reason": f'{PROFILE}: {crop["side"]} px square crop at ({crop["x"]}, {crop["y"]}) of the {size["width"]} x {size["height"]} preview. Visual review: {reason}',
+            "reason": f'{PROFILE}: {crop["side"]} px square crop at ({crop["x"]}, {crop["y"]}) of the {size["width"]} x {size["height"]} {"master" if "path" in result["operation"]["input"] else "preview"}. Visual review: {reason}',
         })
     catalogue["updated_at"] = now
     CATALOGUE.write_text(json.dumps(catalogue, indent=2, ensure_ascii=False) + "\n")
@@ -245,10 +258,13 @@ def main() -> None:
     catalogue = json.loads(CATALOGUE.read_text())
     versions = {v["version_id"]: v for v in catalogue["versions"]}
     suitable = json.loads((COLLECTION / "suitable" / args.theme / "index.json").read_text())["version_ids"]
+    manipulated_index = COLLECTION / "manipulated" / args.theme / "index.json"
+    if manipulated_index.exists():
+        suitable += json.loads(manipulated_index.read_text())["version_ids"]
     done = {p for v in catalogue["versions"] if "standardized" in v["levels"] for p in v["parent_version_ids"]}
     pending = [versions[i] for i in suitable if i not in done]
     assessments = {v["version_id"]: next(a for a in v["assessments"] if a["theme"] == args.theme) for v in pending}
-    pending.sort(key=lambda v: assessments[v["version_id"]]["rank"] or 0)
+    pending.sort(key=lambda v: assessments[v["version_id"]].get("rank") or 0)
     if not pending:
         print(f"No suitable {args.theme} versions await standardisation.")
         return

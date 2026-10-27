@@ -83,6 +83,15 @@ Rights checks are quick and proportionate (see [Rights checks during image searc
 - **Yield:** the first 20-image search (26 October 2026).
 - **Last checked:** 26 October 2026.
 
+### FLUX.2 [klein] 4B local generation
+
+- **Status:** in use for edits and fully generated images (27 October 2026); `source.provider` of every generated asset.
+- **Access:** `tools/stimuli/manipulate.py` runs [FLUX.2 [klein] 4B](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B) at the pinned revision `e7b7dc27f91deacad38e78976d1f2b499d76a294` on the CPU with Hugging Face diffusers (bfloat16 weights, float32 computation). About 2 minutes per 512 px image from a prompt and about 3 minutes per edit of a 512 px photograph on a 4-core cloud session. Nothing is sent to a service, and inputs are not used for training.
+- **Licence:** the model is Apache-2.0; generated images are the project's own output. Edits keep the source photograph's licence and conditions.
+- **Use:** impossible ("member-bizarre") and borderline ("member-debatable") objects that no photograph shows. Prefer editing a verified photograph when the edit is reliable; generate from a prompt when it is not. Record the prompt, seed, steps, revision and software (the render sidecar) through `tools/stimuli/register.py ai`, and review every output at tile size: reject accidental artefacts, extra objects and anything that is merely strange rather than readable at a glance.
+- **Pitfalls:** "square wheels" tends to come out hexagonal; text in images is unreliable; hands and legs need checking. Generated images must be labelled as AI-generated (`content_origin: ai-generated`).
+- **Last checked:** 27 October 2026.
+
 ### existing-repository-catalogue
 
 - **Status:** internal; closed.

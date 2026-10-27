@@ -1,0 +1,16 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "suitable",
+  "theme": "clocks",
+  "version_ids": [
+    "photo-unsplash-1558395872-85709c6d3639-source-v1",
+    "photo-pexels-11747093-source-v1",
+    "photo-pexels-32815277-source-v1",
+    "photo-pexels-40273146-source-v1",
+    "photo-pexels-27183730-source-v1",
+    "photo-unsplash-1619213348491-b7b7602727f9-source-v1",
+    "photo-pexels-17343135-source-v1",
+    "photo-unsplash-1558978325-66dcf73b99b0-source-v1"
+  ]
+}

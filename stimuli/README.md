@@ -61,6 +61,7 @@ All operation records include `type`, `timestamp` and `actor`. Use these fields 
 |---|---|
 | `standardisation` | `profile: "webp-512-256-v1"`, `input_dimensions: {width, height}`, `crop: {x, y, side}` in oriented input pixels, `orientation`, `colour_conversion`, `resampling`, `encoder`, `content_changes: false`, `allow_upscale: false` |
 | `ai-edit` | `intended_change`, `instructions`, `tool`, `provider`, `model`, `model_revision`, `seed`; for unavailable values, use `null` and an explanation under `unavailable_fields.<field>` |
+| `generation` | The same fields as `ai-edit`, on the parentless manipulated root version of a `generated` asset (an image generated from a prompt alone, `content_origin: ai-generated`). |
 | `final-copy` | One approved standardised parent; local large/small copies must have the same hashes as that parent. |
 
 New versions also need approved visual/rights review records, version-specific content metadata, local file records, and matching history/stage entries. The final copy's category judgement must be `reviewed`, not provisional.
@@ -71,7 +72,17 @@ Use `final/<theme>/<set-id>/<version>/` for a complete selection. Its manifest p
 
 The imported G01 snapshot was exempt from new-stage review gates because it recorded an existing published set; it was retired on the owner's decision of 27 October 2026. A retired set keeps a tombstone in `retired_sets` with the removed file paths and a `set_retired` history event; its versions are withdrawn. Only the owner can retire a final set, and no new legacy imports may be made.
 
-Recording a final set does not publish it. The existing `tools/stimuli/source.json` → generation/review → `tools/stimuli/build.py` workflow still owns the live catalogue and opaque files in `public/stimuli/`. Use an explicit publishing task to integrate a reviewed final set; an external-photograph importer is not implemented here. Do not feed photographs into the existing renderer-only builder by pretending they have FLUX provenance. Keep collection metadata, source links, edit prompts and unpublished images outside the deployed bundle.
+Recording a final set does not publish it. `tools/stimuli/publish.py` publishes the final sets whose manifest says `"game": {"publish": true, ...}`: it copies their WebP pairs to `public/stimuli/` under opaque content-hash names and writes `src/stimuli/catalogue.json` with each tile's credit (creator, source page, licence and, for AI images, the model). Prompts, seeds, collection paths and unpublished images stay out of the deployed bundle. The legacy `tools/stimuli/build.py` route for generated renders is superseded.
+
+## Tools
+
+| Step | Tool |
+|---|---|
+| Register reviewed photographs (raw → suitable) or AI masters (→ manipulated) | `python3 tools/stimuli/register.py photos THEME RECORDS.json` or `… register.py ai THEME RECORDS.json` |
+| Render AI edits of standardised photographs and fully generated images | `python tools/stimuli/manipulate.py JOBS.json OUT` (FLUX.2 [klein] 4B on the CPU; needs torch, diffusers and transformers) |
+| Standardise suitable photographs and manipulated masters | `python3 tools/stimuli/standardise.py THEME [--reviews R --actor A]` |
+| Record a nine-image final set | `python3 tools/stimuli/finalise.py SET.json` |
+| Publish final sets to the game | `python3 tools/stimuli/publish.py` |
 
 ## Log and validation
 

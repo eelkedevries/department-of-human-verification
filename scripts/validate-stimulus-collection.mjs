@@ -146,7 +146,7 @@ for (const [id, a] of assets) {
   if (!text(s.provider_id) && !(text(s.catalogue_record?.provider) && text(s.catalogue_record?.photo_id))) fail(id, 'source needs a native provider ID or a known catalogue identity');
   const key = text(s.provider_id) ? `${s.provider}:${s.provider_id}` : `${s.catalogue_record?.provider}:${s.catalogue_record?.photo_id}`;
   if (sourceKeys.has(key)) fail(id, 'duplicate source identity'); sourceKeys.add(key);
-  url(s.publisher_url, `${id}.publisher_url`, true); url(s.direct_url, `${id}.direct_url`);
+  url(s.publisher_url, `${id}.publisher_url`, true); if (!(a.origin === 'generated' && s.direct_url === null)) url(s.direct_url, `${id}.direct_url`);
   const d = s.original_dimensions;
   if (!['reported', 'verified', 'unknown'].includes(d?.status) || (d?.status !== 'unknown' && (!positive(d?.width) || !positive(d?.height))) || !text(d?.basis)) fail(id, 'missing source dimensions/evidence basis');
   if (!text(l.name) || !text(l.attribution)) fail(id, 'licence name/attribution are required');
@@ -271,12 +271,16 @@ for (const [id, v] of versions) {
   // A processed version rejected before final use keeps its record, lineage and
   // removed hashes, so history stays resolvable, but no levels or bytes.
   if (v.withdrawn) {
-    if (!['standardisation', 'ai-edit'].includes(op.type) || !parents.length) fail(id, 'only unused standardised/edited versions can be withdrawn, without levels or files');
+    if (!(['standardisation', 'ai-edit'].includes(op.type) && parents.length) && !(op.type === 'generation' && a.origin === 'generated')) fail(id, 'only unused standardised, edited or generated versions can be withdrawn, without levels or files');
     checkWithdrawal(id, v);
     continue;
   }
   if (!processing) { if (op.type !== 'discovery') fail(id, 'raw/suitable versions use discovery operation'); continue; }
-  if (!parents.length || v.reviews?.visual?.status !== 'approved') fail(id, 'processed version requires parents and visual approval');
+  // A fully generated image starts its own lineage: a manipulated root version
+  // of a generated asset, with the same provenance fields as an edit.
+  const generatedRoot = op.type === 'generation' && a.origin === 'generated' && same(v.levels, ['manipulated']) && !parents.length;
+  if (op.type === 'generation' && !generatedRoot) fail(id, 'generation is limited to parentless manipulated versions of generated assets');
+  if ((!parents.length && !generatedRoot) || v.reviews?.visual?.status !== 'approved') fail(id, 'processed version requires parents and visual approval');
   if (parents.some((p) => versions.get(p)?.withdrawn)) fail(id, 'withdrawn versions cannot be parents');
   for (const p of parents) if (versions.get(p)?.reviews?.visual?.status !== 'approved' || versions.get(p)?.reviews?.rights?.status !== 'approved') fail(id, 'parents require approved visual and rights reviews');
   if (v.levels.includes('standardized')) {
@@ -286,7 +290,7 @@ for (const [id, v] of versions) {
     if (!positive(d?.width) || !positive(d?.height) || !positive(c?.side) || ![c?.x, c?.y].every((n) => Number.isInteger(n) && n >= 0) || c.x + c.side > d.width || c.y + c.side > d.height || c.side < 512) fail(id, 'record a valid input and square crop without upscaling');
     if (!parents.every((p) => versions.get(p)?.levels?.some((l) => ['suitable', 'manipulated'].includes(l)))) fail(id, 'standardise a suitable original or an edited master');
   } else if (v.levels.includes('manipulated')) {
-    if (op.type !== 'ai-edit') fail(id, 'manipulated versions need ai-edit provenance');
+    if (!['ai-edit', 'generation'].includes(op.type)) fail(id, 'manipulated versions need ai-edit or generation provenance');
     for (const field of ['intended_change', 'instructions', 'tool', 'provider', 'model', 'model_revision', 'seed']) {
       if (field === 'seed' && Number.isInteger(op[field])) continue;
       if (field !== 'seed' && text(op[field])) continue;

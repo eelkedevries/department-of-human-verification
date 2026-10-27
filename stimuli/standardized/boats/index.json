@@ -1,0 +1,15 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "standardized",
+  "theme": "boats",
+  "version_ids": [
+    "photo-unsplash-1724102894997-c30f6216cec6-standardized-v1",
+    "photo-unsplash-1587977706287-86d257db113f-standardized-v1",
+    "photo-unsplash-1632899806837-400e81b33686-standardized-v1",
+    "photo-unsplash-1733336650115-65565c0adae6-standardized-v1",
+    "photo-unsplash-1739615124112-d5760c5a26df-standardized-v1",
+    "photo-unsplash-1635958068287-2f496bea08a4-standardized-v1",
+    "photo-unsplash-1723022468974-e06843cef1ab-standardized-v1"
+  ]
+}

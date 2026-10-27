@@ -1,4 +1,7 @@
-"""Publish the raw renders as game assets and write the stimulus catalogue.
+"""Superseded legacy publisher: published the raw renders as game assets and wrote the stimulus catalogue.
+
+Kept for the record of how the retired generated G01 grid was built; use
+tools/stimuli/publish.py, which publishes reviewed final sets from stimuli/.
 
 Reads the published grids in tools/stimuli/source.json and their raw renders in
 tools/stimuli/.cache/raw/, writes resized WebP files with opaque, content-hashed
@@ -39,6 +42,9 @@ def encode(image: Image.Image, size: int) -> bytes:
 
 
 def main() -> None:
+    # The generated G01 grid was retired on 27 October 2026; the live catalogue now
+    # comes from reviewed collection final sets.
+    raise SystemExit("Superseded: publish reviewed collection final sets with tools/stimuli/publish.py.")
     spec = json.loads((HERE / "source.json").read_text())
     PUBLIC.mkdir(parents=True, exist_ok=True)
     published = set()

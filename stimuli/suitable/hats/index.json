@@ -1,0 +1,14 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "suitable",
+  "theme": "hats",
+  "version_ids": [
+    "photo-unsplash-1788055649221-db9c5dd368c9-source-v1",
+    "photo-unsplash-1645266729222-17cd32e06fd0-source-v1",
+    "photo-unsplash-1785336472737-78291368800d-source-v1",
+    "photo-unsplash-1678470162225-1e836562d7ae-source-v1",
+    "photo-unsplash-1780403919369-940f59a8b1b0-source-v1",
+    "photo-unsplash-1701754219783-a41248a31666-source-v1"
+  ]
+}

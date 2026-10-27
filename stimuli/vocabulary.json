@@ -92,6 +92,7 @@
     "standardisation",
     "ai-edit",
     "final-copy",
-    "legacy-import"
+    "legacy-import",
+    "generation"
   ]
 }
