@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "hats",
-  "set_keys": []
+  "set_keys": [
+    "C13@1"
+  ]
 }

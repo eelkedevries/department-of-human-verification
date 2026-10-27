@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-d7375e74dc",
+  "catalogue_version": "2026-10-27-6b4aeab26b",
   "families": [
     "recognition",
     "semantic",
@@ -2572,6 +2572,219 @@
       "borderline_tile_ids": [
         "C12-T5",
         "C12-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C13",
+      "version": 1,
+      "hash": "3626e9d58c1198cccc759dc931831ed51f2a5d6b2c0df39932989a4352315e68",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a hat.",
+      "instruction_variants": {
+        "direct": "Select all images containing a hat.",
+        "semantic": "Select all things made to be worn on the head."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary hats count, and so do the sunhat holding a duck pond and the bowler hat walking on legs: impossible, but still hats. The colander and the mushroom cap worn on the head are borderline cases, recorded without a verdict. The teacup, the plant pot and the lampshade are not hats.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Hats identified. The Department doffs its own.",
+          "Correct. Hats off to you."
+        ],
+        "partial": [
+          "Partially correct. A hat has blown away.",
+          "Partially correct. Some hats went unnoticed."
+        ],
+        "incorrect": [
+          "Incorrect. Please keep this under your hat.",
+          "Incorrect. The Department will eat its hat, eventually."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C13-T1",
+          "src": "118748320c5cc479.webp",
+          "src_small": "118748320c5cc479-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "118748320c5cc479d42c5ddc77115b12585c4af0c1ef553fb92de2174d1ea91d",
+          "alt": "Yellow baseball cap on a plain white background",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "sonu kumar",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-yellow-baseball-cap-on-a-white-background-8XZBP38QJFM",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by sonu kumar on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C13-T2",
+          "src": "8a186678bd06fe28.webp",
+          "src_small": "8a186678bd06fe28-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "8a186678bd06fe28dea540f23720ebfb51097f3ae5dfc923f36dbef5a63d2b27",
+          "alt": "Pink ribbed knitted beanie with a fur pompom on top of a wooden fence post in a field",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Lucas van Oort",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-pink-knitted-hat-on-a-wooden-post-9HL22MWcP4E",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Lucas van Oort on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C13-T3",
+          "src": "e42fdd222cbdac81.webp",
+          "src_small": "e42fdd222cbdac81-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "e42fdd222cbdac811f38fb4ee6f667904ff1fd63b0010ed67e339b86412748b0",
+          "alt": "Straw sunhat whose wide brim holds a shallow pond with three ducklings, on a garden table",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C13-T4",
+          "src": "508f9e6f02c314cd.webp",
+          "src_small": "508f9e6f02c314cd-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "508f9e6f02c314cd28b01807b48ba2013d1e40a1edc46d6d418033a44854631e",
+          "alt": "Black bowler hat walking along a park path on legs in black trousers and polished shoes, with no body",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C13-T5",
+          "src": "47851a45a6f4c576.webp",
+          "src_small": "47851a45a6f4c576-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "47851a45a6f4c5768c14870918cfb8d0dadeba8b28bb3a0d80330374c1dc60e6",
+          "alt": "Man wearing a metal kitchen colander as a hat, fastened with a chin strap",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C13-T6",
+          "src": "709b913459a27c85.webp",
+          "src_small": "709b913459a27c85-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "709b913459a27c85471f0ba525d4ba0d7930290dde12379e2a0e1dd5cd96757f",
+          "alt": "Woman in a forest wearing a giant red-capped mushroom as a hat",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C13-T7",
+          "src": "60beae092bcd82cd.webp",
+          "src_small": "60beae092bcd82cd-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "60beae092bcd82cd9f95bf53bcfe66e8b7eb5c679d67fbdb968c1ff31b29c90e",
+          "alt": "Blue porcelain teacup with a floral interior on a matching saucer, on a round wooden table",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Caroline Badran",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/elegant-blue-teacup-and-saucer-on-a-wooden-table-Pv005VYz0Q4",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Caroline Badran on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C13-T8",
+          "src": "d3146d0d0eda23ad.webp",
+          "src_small": "d3146d0d0eda23ad-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "d3146d0d0eda23adc492abd072a4b75b721cb86ff56573262bcf022a07c86916",
+          "alt": "Terracotta plant pot with dried plants on a brick ledge beside a whitewashed wall",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Marija Zaric",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-potted-plant-sitting-on-top-of-a-brick-wall-NsBjJKDhFtw",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Marija Zaric on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C13-T9",
+          "src": "df06e81e5e1fc030.webp",
+          "src_small": "df06e81e5e1fc030-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "df06e81e5e1fc030812eb8324bf058cb06f139d24534a50e16259c56e881b3b0",
+          "alt": "Cream fabric lampshade lying on its side on a wooden kitchen table",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        }
+      ],
+      "answer_key": [
+        "C13-T1",
+        "C13-T2",
+        "C13-T3",
+        "C13-T4"
+      ],
+      "borderline_tile_ids": [
+        "C13-T5",
+        "C13-T6"
       ]
     },
     {

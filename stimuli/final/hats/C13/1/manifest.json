@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C13@1",
+  "set_id": "C13",
+  "version": 1,
+  "theme": "hats",
+  "status": "approved",
+  "instruction": "Select all images containing a hat.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C13",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made to be worn on the head.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary hats count, and so do the sunhat holding a duck pond and the bowler hat walking on legs: impossible, but still hats. The colander and the mushroom cap worn on the head are borderline cases, recorded without a verdict. The teacup, the plant pot and the lampshade are not hats.",
+    "feedback": {
+      "correct": [
+        "Hats identified. The Department doffs its own.",
+        "Correct. Hats off to you."
+      ],
+      "partial": [
+        "Partially correct. A hat has blown away.",
+        "Partially correct. Some hats went unnoticed."
+      ],
+      "incorrect": [
+        "Incorrect. Please keep this under your hat.",
+        "Incorrect. The Department will eat its hat, eventually."
+      ]
+    },
+    "stimulus_id": "C13",
+    "version": 1,
+    "grid_hash": "3626e9d58c1198cccc759dc931831ed51f2a5d6b2c0df39932989a4352315e68"
+  },
+  "tiles": [
+    {
+      "tile_id": "C13-T1",
+      "version_id": "photo-unsplash-1645266729222-17cd32e06fd0-c13-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C13-T2",
+      "version_id": "photo-unsplash-1678470162225-1e836562d7ae-c13-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C13-T3",
+      "version_id": "generated-hats-pond-sunhat-c13-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C13-T4",
+      "version_id": "generated-hats-walking-bowler-c13-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C13-T5",
+      "version_id": "generated-hats-colander-hat-c13-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C13-T6",
+      "version_id": "generated-hats-mushroom-cap-hat-c13-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C13-T7",
+      "version_id": "photo-unsplash-1780403919369-940f59a8b1b0-c13-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C13-T8",
+      "version_id": "photo-unsplash-1701754219783-a41248a31666-c13-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C13-T9",
+      "version_id": "generated-hats-lampshade-c13-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C13-T1",
+    "C13-T2",
+    "C13-T3",
+    "C13-T4"
+  ],
+  "borderline_tile_ids": [
+    "C13-T5",
+    "C13-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:49:09Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary hats (yellow baseball cap on white; pink bobble beanie on a fence post), two impossible hats (generated straw sunhat whose brim holds a pond with ducklings; generated bowler hat walking on trousered legs with no body), two borderline headwear items (generated man wearing a colander with a chin strap; generated woman wearing a giant mushroom cap) and three hat-shaped non-members (blue teacup on a saucer, terracotta plant pot, generated lampshade lying on a table). Rounded crowns and brims appear among targets, borderline cases and non-members alike, so shape alone does not decide. Views, colours and settings vary within each role. The bowler hat photograph, the white cap and the bicycle helmet worn as a hat remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:49:09Z",
+  "actor": "claude"
+}
