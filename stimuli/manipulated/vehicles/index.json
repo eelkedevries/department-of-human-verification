@@ -3,5 +3,9 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "vehicles",
-  "version_ids": []
+  "version_ids": [
+    "generated-vehicles-stacked-buses-v1",
+    "generated-vehicles-motor-trolley-v1",
+    "generated-vehicles-robot-horse-v1"
+  ]
 }

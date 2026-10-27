@@ -895,7 +895,7 @@ None yet.
 
 ## vehicles
 
-Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 7 · manipulated: 0 · final sets: 0
+Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 10 · manipulated: 3 · final sets: 0
 
 ### Suitable
 
@@ -932,12 +932,23 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="standardized/vehicles/photo-unsplash-1721613877687-c9099b698faa-standardized-v1.webp"><img src="standardized/vehicles/photo-unsplash-1721613877687-c9099b698faa-standardized-v1-s.webp" width="240" alt="Stainless-steel side-by-side refrigerator with a water dispenser in a bright modern kitchen"></a><br><sub><b>#7</b> Stainless-steel side-by-side refrigerator with a water dispenser in a bright modern kitchen<br>refrigerator · photograph · distractor (non-member) · Meets target clarity<br>Lisa Anna · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (3)</summary>Frontal view<br><br>Built in beside a tall white cabinet that reads as part of the same unit<br><br>Grey appliance against white and light grey surroundings: moderate contrast</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/vehicles/generated-vehicles-stacked-buses-standardized-v1.webp"><img src="standardized/vehicles/generated-vehicles-stacked-buses-standardized-v1-s.webp" width="240" alt="Cream single-deck bus standing on the roof of another cream bus on a city street"></a><br><sub><b>#8</b> Cream single-deck bus standing on the roof of another cream bus on a city street<br>bus · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (3)</summary>Generated image.<br><br>The upper bus stands upright rather than upside down.<br><br>Distant parked cars and pedestrians are small in the background.</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/vehicles/generated-vehicles-motor-trolley-standardized-v1.webp"><img src="standardized/vehicles/generated-vehicles-motor-trolley-standardized-v1-s.webp" width="240" alt="Shopping trolley fitted with a driver's seat and a motor in a supermarket car park"></a><br><sub><b>#9</b> Shopping trolley fitted with a driver's seat and a motor in a supermarket car park<br>trolley-vehicle · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The steering wheel is hard to see at tile size.</details></sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="standardized/vehicles/generated-vehicles-robot-horse-standardized-v1.webp"><img src="standardized/vehicles/generated-vehicles-robot-horse-standardized-v1-s.webp" width="240" alt="Rideable metal robot horse with a saddle, handlebars and a control panel standing on a street"></a><br><sub><b>#10</b> Rideable metal robot horse with a saddle, handlebars and a control panel standing on a street<br>robot-horse · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
 ### Manipulated
 
-None yet.
+<table>
+<tr>
+<td width="33%" valign="top"><a href="manipulated/vehicles/generated-vehicles-stacked-buses-v1.png"><img src="manipulated/vehicles/generated-vehicles-stacked-buses-v1.png" width="240" alt="Cream single-deck bus standing on the roof of another cream bus on a city street"></a><br><sub>Cream single-deck bus standing on the roof of another cream bus on a city street<br>bus · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (3)</summary>Generated image.<br><br>The upper bus stands upright rather than upside down.<br><br>Distant parked cars and pedestrians are small in the background.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/vehicles/generated-vehicles-motor-trolley-v1.png"><img src="manipulated/vehicles/generated-vehicles-motor-trolley-v1.png" width="240" alt="Shopping trolley fitted with a driver's seat and a motor in a supermarket car park"></a><br><sub>Shopping trolley fitted with a driver's seat and a motor in a supermarket car park<br>trolley-vehicle · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The steering wheel is hard to see at tile size.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/vehicles/generated-vehicles-robot-horse-v1.png"><img src="manipulated/vehicles/generated-vehicles-robot-horse-v1.png" width="240" alt="Rideable metal robot horse with a saddle, handlebars and a control panel standing on a street"></a><br><sub>Rideable metal robot horse with a saddle, handlebars and a control panel standing on a street<br>robot-horse · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+</tr>
+</table>
 
 ### Final sets
 
