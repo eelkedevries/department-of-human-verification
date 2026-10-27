@@ -50,7 +50,7 @@ def sha256(data: bytes) -> str:
 def download(version: dict, accepted: set) -> tuple[bytes, str | None]:
     path = CACHE / f'{version["version_id"]}.preview'
     if not path.exists():
-        request = urllib.request.Request(version["external_url"], headers={"User-Agent": "department-of-human-verification"})
+        request = urllib.request.Request(version["external_url"], headers={"User-Agent": "DHV-stimulus-research/1.0 (https://github.com/eelkedevries/department-of-human-verification)"})
         with urllib.request.urlopen(request, timeout=60) as response:
             path.write_bytes(response.read())
     data = path.read_bytes()
