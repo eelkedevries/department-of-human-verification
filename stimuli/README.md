@@ -20,10 +20,14 @@ The usual route is raw → suitable → standardized → final. For an edited st
 
 ## Current contents
 
-- Fifty-two linked raw photographs: the original twenty, four earlier verified replacements, sixteen clarity-screened Unsplash replacements, six photographs found in the set-level variety review and six more found for the variety shortfall on 27 October 2026. Original gallery ranks and discovery history are preserved.
-- Thirty-one suitable photographs that meet the [target clarity standard](../docs/stimuli.md#target-clarity-standard), with approved visual and individual rights reviews: twenty-seven bicycles, a motor scooter, a motorcycle, a skateboard and a small car. The [latest counts](raw/bicycles/rights-review-2026-10-27.md#counts-for-the-thirty-one-suitable-photographs) show side profiles and wall settings still above target. Twenty-one sources are rejected for clarity and remain raw only, with their reasons, so that they are not added again. The rights reviews of [26 October](raw/bicycles/rights-review-2026-10-26.md) and [27 October](raw/bicycles/rights-review-2026-10-27.md) record publisher links, matching evidence, licence conditions and exclusions.
-- Thirty-one standardised 512/256 px WebP pairs, one for each suitable photograph, cropped as reviewed from the recorded previews. Sixteen earlier standardised versions of rejected photographs are withdrawn. No manipulated photographs yet; the empty manifest is intentional.
-- No final sets. The legacy G01 version 1 snapshot (nine generated images copied from the published grid) was removed on the owner's decision of 27 October 2026: its files and folder are deleted, and its records remain only as tombstones (`retired_sets` and `withdrawn` entries) so that the history stays resolvable.
+Fifteen themes, one for each pool of the [concept table](../docs/stimulus-concepts.md); each theme's dated review document under `raw/<theme>/` records its searches, rights checks, renders and rejections.
+
+- **Bicycles:** fifty-two linked raw photographs, thirty-one of them suitable (twenty-one rejected for clarity remain raw, with reasons); the rights reviews of [26 October](raw/bicycles/rights-review-2026-10-26.md) and [27 October](raw/bicycles/rights-review-2026-10-27.md) record publisher links, matching evidence, licence conditions and exclusions.
+- **Themes 2–15:** 107 suitable photographs from Unsplash and Pexels, found by screening about 9,800 search results, plus one bicycle photograph reused as a cars non-member.
+- 140 suitable photographs in all, and 214 standardised 512/256 px WebP pairs; earlier standardised versions of rejected photographs are withdrawn.
+- 75 AI masters under `manipulated/`: 71 images generated with FLUX.2 [klein] 4B and 4 AI edits of verified photographs, each with its prompt, seed, model revision and review. Rejected renders were not registered.
+- Twenty final sets: C01–C15, one per theme, and second versions of C02, C04, C08, C09 and C14 that add images re-rendered after the first versions. All are marked for publication; the game serves the latest version of each grid.
+- The legacy G01 version 1 snapshot was removed on the owner's decision of 27 October 2026; its records remain only as tombstones (`retired_sets` and `withdrawn` entries) so that the history stays resolvable.
 
 ## Metadata and tags
 

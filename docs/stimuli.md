@@ -12,7 +12,7 @@ The collection holds rights-checked photographs, AI-edited and AI-generated imag
 
 ## Current status and replacement direction
 
-**Currently published:** grids built from the collection's final sets, starting with C01 — “Select all images containing a bicycle” (ordinary and impossible bicycles as targets, unscored borderline cases, clear non-members). The generated G01 grid was retired on the owner's decision of 27 October 2026.
+**Currently published:** fifteen grids C01–C15 built from the collection's final sets, one per concept pool — for example “Select all images containing a bicycle” — each with ordinary and impossible members as targets, unscored borderline cases and clear non-members. The generated G01 grid was retired on the owner's decision of 27 October 2026.
 
 **New direction:** ordinary instructions, absurd-but-category-relevant photographs and debatable category boundaries. The [candidate-stimulus table](stimulus-concepts.md) gives **15 twelve-image concept pools** (three normal members, three bizarre members, three debatable candidates and three non-members). Each pool supplies alternatives for a separately curated **nine-image playable grid**; it is not a change to the 3 × 3 game format. Grids are published from them as each pool is completed.
 
