@@ -3,5 +3,10 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "hats",
-  "version_ids": []
+  "version_ids": [
+    "generated-hats-pond-sunhat-v1",
+    "generated-hats-colander-hat-v1",
+    "generated-hats-mushroom-cap-hat-v1",
+    "generated-hats-helmet-hat-v1"
+  ]
 }
