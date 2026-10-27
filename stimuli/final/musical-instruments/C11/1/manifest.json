@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C11@1",
+  "set_id": "C11",
+  "version": 1,
+  "theme": "musical-instruments",
+  "status": "approved",
+  "instruction": "Select all images containing a musical instrument.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C11",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made for playing music.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary musical instruments count, and so do the violin with a giraffe's neck and the piano playing itself with fingers growing from its keys: impossible, but still instruments. The garden hose with a horn bell and the vacuum cleaner turned into bagpipes are borderline cases, recorded without a verdict. The spade, the paint roller and the watering can are not musical instruments.",
+    "feedback": {
+      "correct": [
+        "Instruments identified. The Department applauds politely.",
+        "Correct. Music to the Department's ears."
+      ],
+      "partial": [
+        "Partially correct. An instrument has gone unplayed.",
+        "Partially correct. Some instruments missed their cue."
+      ],
+      "incorrect": [
+        "Incorrect. The Department is not amused, nor musical.",
+        "Incorrect. Please face the music."
+      ]
+    },
+    "stimulus_id": "C11",
+    "version": 1,
+    "grid_hash": "e51ffb6786f04537ba33defa130477ecfb07adc3662957486b26c2e5babb4275"
+  },
+  "tiles": [
+    {
+      "tile_id": "C11-T1",
+      "version_id": "photo-pexels-7577309-c11-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C11-T2",
+      "version_id": "photo-pexels-8520119-c11-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C11-T3",
+      "version_id": "generated-musical-instruments-giraffe-violin-c11-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C11-T4",
+      "version_id": "generated-musical-instruments-finger-piano-c11-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C11-T5",
+      "version_id": "generated-musical-instruments-hose-horn-c11-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C11-T6",
+      "version_id": "generated-musical-instruments-vacuum-bagpipes-c11-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C11-T7",
+      "version_id": "photo-unsplash-1700409955321-c9634b56b458-c11-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C11-T8",
+      "version_id": "photo-pexels-5641564-c11-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C11-T9",
+      "version_id": "photo-unsplash-1749414418679-39da8b9788b4-c11-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C11-T1",
+    "C11-T2",
+    "C11-T3",
+    "C11-T4"
+  ],
+  "borderline_tile_ids": [
+    "C11-T5",
+    "C11-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:39:59Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary instruments (brass trumpet standing on its bell on a living-room floor; red piano accordion on a wooden stool), two impossible instruments (generated violin on a stand whose neck becomes a living giraffe's neck and head; generated grand piano with human fingers sprouting from its keys beside an empty stool), two borderline instruments (generated coiled garden hose with a brass mouthpiece and horn bell; generated tartan-covered vacuum cleaner with drone pipes and a chanter) and three non-member tools (spade in a sand heap, paint roller on kraft paper, galvanised watering can whose spout and rose echo a horn). Brass bells and pipes appear among targets, borderline cases and the watering can alike, so shape alone does not decide. Views, colours and settings vary within each role. The two violin photographs, the gold trumpet, the saxophone with lips and the saucepan drums remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:39:59Z",
+  "actor": "claude"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-1f58fc07ea",
+  "catalogue_version": "2026-10-27-fcfa3e3ce7",
   "families": [
     "recognition",
     "semantic",
@@ -2146,6 +2146,219 @@
       "borderline_tile_ids": [
         "C10-T5",
         "C10-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C11",
+      "version": 1,
+      "hash": "e51ffb6786f04537ba33defa130477ecfb07adc3662957486b26c2e5babb4275",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a musical instrument.",
+      "instruction_variants": {
+        "direct": "Select all images containing a musical instrument.",
+        "semantic": "Select all things made for playing music."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary musical instruments count, and so do the violin with a giraffe's neck and the piano playing itself with fingers growing from its keys: impossible, but still instruments. The garden hose with a horn bell and the vacuum cleaner turned into bagpipes are borderline cases, recorded without a verdict. The spade, the paint roller and the watering can are not musical instruments.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Instruments identified. The Department applauds politely.",
+          "Correct. Music to the Department's ears."
+        ],
+        "partial": [
+          "Partially correct. An instrument has gone unplayed.",
+          "Partially correct. Some instruments missed their cue."
+        ],
+        "incorrect": [
+          "Incorrect. The Department is not amused, nor musical.",
+          "Incorrect. Please face the music."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C11-T1",
+          "src": "321b3d381024a288.webp",
+          "src_small": "321b3d381024a288-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "321b3d381024a288cfbe4f910140bff77f58a8b0c28546d97b824bda7ed17e82",
+          "alt": "Brass trumpet standing upright on its bell on a wooden floor in a living room",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "PNW Production",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/brass-trumpet-on-wooden-floor-7577309/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by PNW Production on Pexels"
+          }
+        },
+        {
+          "tile_id": "C11-T2",
+          "src": "bbb319db41c34f8d.webp",
+          "src_small": "bbb319db41c34f8d-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "bbb319db41c34f8d5739cf454f0900896ea560d6958a758f93992c7992c3234d",
+          "alt": "Red piano accordion standing on a round wooden stool with sheet music",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Yan Krukau",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/a-red-accordion-on-a-table-8520119/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Yan Krukau on Pexels"
+          }
+        },
+        {
+          "tile_id": "C11-T3",
+          "src": "babcd01a4a59a79c.webp",
+          "src_small": "babcd01a4a59a79c-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "babcd01a4a59a79c55b299500ec9d795127793d56b7058fe2110ff66641aae40",
+          "alt": "Violin on a stand whose neck continues into the neck and head of a living giraffe",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C11-T4",
+          "src": "0bb275851aab9e00.webp",
+          "src_small": "0bb275851aab9e00-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "0bb275851aab9e00679a040bda87e572479ad20e2d2bfece2fce2868688062ee",
+          "alt": "Black grand piano with small human fingers sprouting from its keys, playing itself beside an empty stool",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C11-T5",
+          "src": "322984aba0e9e316.webp",
+          "src_small": "322984aba0e9e316-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "322984aba0e9e316cb2c1bcbe6f21b62fe7ed9467b9bf8fed7fcca83b78c47ad",
+          "alt": "Green garden hose coiled like a French horn with a brass mouthpiece and bell, lying on a lawn",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C11-T6",
+          "src": "009618cb5c745207.webp",
+          "src_small": "009618cb5c745207-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "009618cb5c74520728fa4c47ef54044acfd089a2a26f1f956c634dc154777129",
+          "alt": "Cylinder vacuum cleaner covered in tartan with three drone pipes and a chanter on its hose",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C11-T7",
+          "src": "72f9205ac07f5fe4.webp",
+          "src_small": "72f9205ac07f5fe4-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "72f9205ac07f5fe420604b5320d59b983ccd0f87e9bfa825ab5b7909a27ae547",
+          "alt": "Spade with a teal D-handle stuck upright in a grey sand heap",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Jon Sailer",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/MPpXGi56Urs",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Jon Sailer on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C11-T8",
+          "src": "f4fd5866a8e4e3b2.webp",
+          "src_small": "f4fd5866a8e4e3b2-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "f4fd5866a8e4e3b216483b25f7e31dd112820a2af20afd1de498afdad2b9f3d1",
+          "alt": "White paint roller lying on brown kraft paper with small paint splashes",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Nataliya Vaitkevich",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/close-up-shot-of-a-paint-roller-and-flowers-on-a-brown-surface-5641564/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Nataliya Vaitkevich on Pexels"
+          }
+        },
+        {
+          "tile_id": "C11-T9",
+          "src": "90c25e9b514cd3df.webp",
+          "src_small": "90c25e9b514cd3df-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "90c25e9b514cd3dff8eafafa6588001ad1f517efb9b7f4cc00fbb1709ee8796e",
+          "alt": "Galvanised metal watering can with a yellow rose standing on grey asphalt",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "fr0ggy5",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/zvM9TyDR3wI",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by fr0ggy5 on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C11-T1",
+        "C11-T2",
+        "C11-T3",
+        "C11-T4"
+      ],
+      "borderline_tile_ids": [
+        "C11-T5",
+        "C11-T6"
       ]
     },
     {
