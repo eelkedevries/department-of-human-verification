@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C04@1",
+  "set_id": "C04",
+  "version": 1,
+  "theme": "cars",
+  "status": "approved",
+  "instruction": "Select all images containing a car.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C04",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all motor vehicles for carrying a few passengers.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary cars count, and so do the car with a tree growing out of its bonnet and the car pulled apart into two halves: impossible, but still cars. The foot-powered buggy and the shopping trolley turned into a driving cabin are borderline cases, recorded without a verdict. The motorcycle, the wheelbarrow and the bicycle are not cars.",
+    "feedback": {
+      "correct": [
+        "Cars identified. Please mind the horse.",
+        "Correct. Every car has been logged and towed."
+      ],
+      "partial": [
+        "Partially correct. A car remains unaccounted for.",
+        "Partially correct. Some cars have been left idling."
+      ],
+      "incorrect": [
+        "Incorrect. Your licence to identify cars is under review.",
+        "Incorrect. The Department has issued a parking ticket."
+      ]
+    },
+    "stimulus_id": "C04",
+    "version": 1,
+    "grid_hash": "d8bca7580864d02fa0f2a171f6eff9ffb6d99baed3f7cec0b4fac570749879b9"
+  },
+  "tiles": [
+    {
+      "tile_id": "C04-T1",
+      "version_id": "photo-unsplash-1763406348286-bf9067a05d5e-c04-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T2",
+      "version_id": "photo-unsplash-1662412765790-2b97cc3dbc6f-c04-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T3",
+      "version_id": "generated-cars-tree-car-c04-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T4",
+      "version_id": "generated-cars-split-car-c04-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T5",
+      "version_id": "generated-cars-foot-buggy-c04-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C04-T6",
+      "version_id": "generated-cars-trolley-cabin-c04-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C04-T7",
+      "version_id": "photo-pexels-17963040-c04-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C04-T8",
+      "version_id": "photo-pexels-5490910-c04-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C04-T9",
+      "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-c04-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C04-T1",
+    "C04-T2",
+    "C04-T3",
+    "C04-T4"
+  ],
+  "borderline_tile_ids": [
+    "C04-T5",
+    "C04-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T09:01:28Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T09:01:28Z",
+  "actor": "claude"
+}

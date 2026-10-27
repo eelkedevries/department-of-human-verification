@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C08@1",
+  "set_id": "C08",
+  "version": 1,
+  "theme": "clocks",
+  "status": "approved",
+  "instruction": "Select all images containing a clock.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C08",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made to tell the time.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary clocks count, and so does the alarm clock running on legs: impossible, but still a clock. The hourglass in a clock case, the phone hung on the wall showing a clock face and the sundial are borderline cases, recorded without a verdict. The mirror, the decorative plate and the compass are not clocks.",
+    "feedback": {
+      "correct": [
+        "Clocks identified. Your time has been well spent.",
+        "Correct. The Department will be on time for once."
+      ],
+      "partial": [
+        "Partially correct. A clock is still unaccounted for.",
+        "Partially correct. Some clocks ran out of time."
+      ],
+      "incorrect": [
+        "Incorrect. The Department has stopped the clock.",
+        "Incorrect. Time has been wasted, and recorded."
+      ]
+    },
+    "stimulus_id": "C08",
+    "version": 1,
+    "grid_hash": "0ae1fd325ee177f777f6f2615b92baac310d101ddbb112a825d0fecf05907166"
+  },
+  "tiles": [
+    {
+      "tile_id": "C08-T1",
+      "version_id": "photo-unsplash-1558395872-85709c6d3639-c08-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C08-T2",
+      "version_id": "photo-pexels-40273146-c08-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C08-T3",
+      "version_id": "generated-clocks-running-alarm-clock-c08-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C08-T4",
+      "version_id": "generated-clocks-hourglass-clock-c08-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C08-T5",
+      "version_id": "generated-clocks-phone-wall-clock-c08-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C08-T6",
+      "version_id": "photo-pexels-27183730-c08-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C08-T7",
+      "version_id": "photo-unsplash-1619213348491-b7b7602727f9-c08-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C08-T8",
+      "version_id": "photo-pexels-17343135-c08-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C08-T9",
+      "version_id": "photo-unsplash-1558978325-66dcf73b99b0-c08-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C08-T1",
+    "C08-T2",
+    "C08-T3"
+  ],
+  "borderline_tile_ids": [
+    "C08-T4",
+    "C08-T5",
+    "C08-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T09:01:28Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T09:01:28Z",
+  "actor": "claude"
+}

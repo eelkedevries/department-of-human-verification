@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T08:59:30Z",
+  "updated_at": "2026-10-27T09:01:28Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -52975,6 +52975,1737 @@
           "scope": "final-set"
         }
       ]
+    },
+    {
+      "version_id": "photo-unsplash-1763406348286-bf9067a05d5e-c04-1-final",
+      "asset_id": "photo-unsplash-1763406348286-bf9067a05d5e",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1.webp",
+          "sha256": "39519b8ee6f6ac6b2544d7e8f45132644049f5e536bb1a7c9d251798f6f24091",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 46212
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1-s.webp",
+          "sha256": "181dd4591a4f70977a98a47675133a33823da34d56d6f6731132c185f70780e2",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13820
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "rocky mountain roadside",
+        "support": "gravel lay-by",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Front three-quarter view rather than side-on",
+        "Front number plate and manufacturer badge visible",
+        "Offered for colour variety against the blue hatchback and estate"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Black convertible saloon with its roof down standing on a gravel mountain lay-by",
+      "object_type": "convertible",
+      "content_origin": "photograph",
+      "keywords": [
+        "convertible",
+        "cabriolet",
+        "roof-down",
+        "mountain-road",
+        "black-car"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the convertible spans about 86% of the crop, front three-quarter, black, against rocky mountain roadside; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1662412765790-2b97cc3dbc6f-c04-1-final",
+      "asset_id": "photo-unsplash-1662412765790-2b97cc3dbc6f",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1.webp",
+          "sha256": "e7846fe26f8c3e9d4e1be7f4b7f38e8dd692f132dfe4145df9ea46574c3b2875",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29944
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1-s.webp",
+          "sha256": "50e07c1d46e129d9e782395fad0eaad3e0e6d9bd7df11912f082a09b7bc6663e",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8694
+        }
+      ],
+      "characteristics": {
+        "colour": "ivory and pale blue",
+        "viewpoint": "Side",
+        "facing_direction": "right",
+        "environment": "cobbled street in front of a stone building",
+        "support": "cobbled kerbside",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Pale body against grey stonework gives only moderate contrast",
+        "Barred windows of the building fill the upper background"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Classic two-tone ivory and blue roadster with its roof down, parked side-on on a cobbled street",
+      "object_type": "convertible",
+      "content_origin": "photograph",
+      "keywords": [
+        "convertible",
+        "roadster",
+        "classic-car",
+        "roof-down",
+        "side-profile"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 3,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the convertible spans about 87% of the crop, side, ivory and pale blue, against cobbled street in front of a stone building; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-cars-tree-car-c04-1-final",
+      "asset_id": "generated-cars-tree-car",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-cars-tree-car-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/generated-cars-tree-car-standardized-v1.webp",
+          "sha256": "68334603688febd4d7dda75ff00ffd578ee761ed3d6a546fab9ac97f3f4c1c92",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 94792
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/generated-cars-tree-car-standardized-v1-s.webp",
+          "sha256": "9b450107277602929e7acb84736674dbf5cd14d4cfd153c75a91bfdd35907ac6",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 26358
+        }
+      ],
+      "characteristics": {
+        "colour": "blue",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "residential street with brick houses and hedges",
+        "support": "four wheels on the road, the tree rooted in the bonnet",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-cars-tree-car-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The tree grows from the bonnet rather than through the roof."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Blue hatchback parked on a residential street with a leafy tree growing up through its bonnet",
+      "object_type": "hatchback",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "car",
+        "hatchback",
+        "tree",
+        "impossible-object",
+        "street",
+        "blue"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "A blue hatchback with a leafy tree rising out of its bonnet: still plainly a car, with an impossible tree. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-cars-split-car-c04-1-final",
+      "asset_id": "generated-cars-split-car",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-cars-split-car-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/generated-cars-split-car-standardized-v1.webp",
+          "sha256": "272434195f24e07f2c5153c1ab30c90214cf55deb942c60627d9ec37a334b86c",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 54066
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/generated-cars-split-car-standardized-v1-s.webp",
+          "sha256": "7078828d2ecefe1da0de624834bde59722171447b5838f5d7def60ca48fc145b",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15118
+        }
+      ],
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Side",
+        "facing_direction": "left",
+        "environment": "empty two-lane road between trees",
+        "support": "both halves on their wheels on the road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-cars-split-car-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The halves do not visibly face opposite directions.",
+        "The car is long and low, so it spans the crop width but not its height."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "White car pulled apart into a front half and a rear half joined by a long bar on an empty road",
+      "object_type": "car",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "car",
+        "split-car",
+        "stretched-chassis",
+        "impossible-object",
+        "road",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "A white car pulled into two halves joined by a long chassis bar: an impossible car that still reads as a car. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-cars-foot-buggy-c04-1-final",
+      "asset_id": "generated-cars-foot-buggy",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-cars-foot-buggy-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/generated-cars-foot-buggy-standardized-v1.webp",
+          "sha256": "ec230fe9df62a008d890417f71ef84b95d60a04f9c3875c6557742826e03a4d4",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 66452
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/generated-cars-foot-buggy-standardized-v1-s.webp",
+          "sha256": "303ae54b7c994e97146ab110e7f7dbe4d7d6be447f9721cc187a480cd67afe76",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 21666
+        }
+      ],
+      "characteristics": {
+        "colour": "black and grey",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "left",
+        "environment": "village street with brick houses and trees",
+        "support": "four spoked wheels on the road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-cars-foot-buggy-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Foot-powered four-wheeled buggy with a canopy, two bench seats and a steering wheel on a village street",
+      "object_type": "pedal-buggy",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "buggy",
+        "pedal-car",
+        "canopy",
+        "street",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 10,
+          "grade": "Meets target clarity",
+          "reason": "A canopied four-wheeled buggy with two bench seats and a steering wheel but no engine: car-like, but is it a car? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-cars-trolley-cabin-c04-1-final",
+      "asset_id": "generated-cars-trolley-cabin",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-cars-trolley-cabin-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/generated-cars-trolley-cabin-standardized-v1.webp",
+          "sha256": "430534336738811b15df2840fbb7f680799feec660f2ba480b72dac25211b2e9",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 51638
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/generated-cars-trolley-cabin-standardized-v1-s.webp",
+          "sha256": "dea3ca186af465a479ed1cb82d231e968ed525f3099b6e96e66279f3bf8fe88d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15776
+        }
+      ],
+      "characteristics": {
+        "colour": "silver and black",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "front",
+        "environment": "supermarket car park under a canopy",
+        "support": "four castor wheels on the tarmac",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-cars-trolley-cabin-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Shopping trolley converted into a tiny driving cabin with a seat, steering wheel, roll bar and headlights",
+      "object_type": "trolley-vehicle",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "shopping-trolley",
+        "driving-cabin",
+        "headlights",
+        "car-park",
+        "silver"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "A shopping trolley with a driver's seat, steering wheel, windscreen and headlights: a self-driven little vehicle, but is it a car? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-17963040-c04-1-final",
+      "asset_id": "photo-pexels-17963040",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-17963040-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/photo-pexels-17963040-standardized-v1.webp",
+          "sha256": "33928c0a3429b27933fc35e20863134b86b9a4172ef3c520cf4b33622a33c18b",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 51898
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/photo-pexels-17963040-standardized-v1-s.webp",
+          "sha256": "ef61e64cc48f55e64a021da82eb8d3f4d1e195cff80d8f1fe62ab70371d23c60",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16424
+        }
+      ],
+      "characteristics": {
+        "colour": "yellow and black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "pale stone block wall with ivy above a kerb and grass verge",
+        "support": "side stand on the tarmac",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-17963040-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Brand badges are visible on the tank; no endorsement is implied."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Yellow and black motorcycle parked by a pale stone wall with ivy",
+      "object_type": "motorcycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "motorcycle",
+        "motorbike",
+        "outdoors",
+        "wall",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the motorcycle spans about 85% of the crop, side profile, yellow and black, against pale stone block wall with ivy above a kerb and grass verge; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-5490910-c04-1-final",
+      "asset_id": "photo-pexels-5490910",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-5490910-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/photo-pexels-5490910-standardized-v1.webp",
+          "sha256": "b000121a63ff7228df0722cd5b3eb45e797d258bdbe97220ac9657e28afec7f6",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 25158
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/photo-pexels-5490910-standardized-v1-s.webp",
+          "sha256": "db42f95f05c42ce0fda173cfc5e4f5559ddce057a7e38fa950ca9adceacc309d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8124
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side",
+        "facing_direction": "right",
+        "environment": "concrete yard beside a painted brick wall",
+        "support": "wheel and legs on concrete",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-5490910-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [
+        "Brand name painted on the tray",
+        "Red pillar at the left edge"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Red wheelbarrow with wooden handles and garden waste parked side-on against a white-painted brick wall",
+      "object_type": "wheelbarrow",
+      "content_origin": "photograph",
+      "keywords": [
+        "wheelbarrow",
+        "red",
+        "garden-waste",
+        "brick-wall",
+        "side-profile"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wheelbarrow spans about 86% of the crop, side, red, against concrete yard beside a painted brick wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-c04-1-final",
+      "asset_id": "photo-unsplash-1777675024325-d93b5c5fc71c",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/1/photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1.webp",
+          "sha256": "c1c378d4bffcde1876e1d4d7f4750538ae6adae3f86b814cea35c06e4bde8902",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29412
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/1/photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1-s.webp",
+          "sha256": "ea7d53a868e0cea5876c1f2fdc4c166701e616cf29439ebc682927651cb19635",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8452
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved ground before a plain grey-white wall",
+        "support": "deployed kickstand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C04@1: Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible saloon with its roof down, front three-quarter view; classic ivory and blue roadster in side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; generated white car pulled into two halves joined by a long chassis), two borderline vehicles (generated foot-powered canopied buggy; generated shopping trolley with a seat, steering wheel and headlights) and three non-members (yellow and black motorcycle, red wheelbarrow, black city bicycle reused from the bicycles theme). All non-members have wheels, so wheels alone do not decide. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The blue hatchback and the light-blue estate car remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1 for final set C04@1."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Black city bicycle with a basket against a grey wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "grade": "Meets target clarity",
+          "reason": "A black city bicycle with a basket in side profile against a grey wall: a road vehicle with wheels and a seat, but not a car. It spans about 82% of the crop, one instance, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "final-set",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1558395872-85709c6d3639-c08-1-final",
+      "asset_id": "photo-unsplash-1558395872-85709c6d3639",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1558395872-85709c6d3639-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/photo-unsplash-1558395872-85709c6d3639-standardized-v1.webp",
+          "sha256": "8857d32e43c323b3f42b0570839bb5d448113597dbd8623af16c7454d2c3a5bf",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18810
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/photo-unsplash-1558395872-85709c6d3639-standardized-v1-s.webp",
+          "sha256": "f19411d79fe91c035a137d83a602c644b346d00e52b2ccde417f7866bff18b0c",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 6992
+        }
+      ],
+      "characteristics": {
+        "colour": "mint green and white",
+        "viewpoint": "Frontal",
+        "facing_direction": "front",
+        "environment": "indoor wall",
+        "support": "hanging on a wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1558395872-85709c6d3639-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Frontal view; the hanging point is hidden behind the clock"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Round wall clock with a mint-green rim and white dial on a plain cream wall",
+      "object_type": "wall-clock",
+      "content_origin": "photograph",
+      "keywords": [
+        "wall-clock",
+        "analogue-clock",
+        "round",
+        "mint-green",
+        "plain-wall"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wall clock spans about 85.0% of the crop, frontal, mint green and white, against indoor wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-40273146-c08-1-final",
+      "asset_id": "photo-pexels-40273146",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-40273146-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/photo-pexels-40273146-standardized-v1.webp",
+          "sha256": "4cd40f74d89391b9e063524ab8bca7c217e391e2977ef4548a50690052ea4ea7",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14896
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/photo-pexels-40273146-standardized-v1-s.webp",
+          "sha256": "60c949b90266af900c3f72cde26629b7d6b5291cfb5590fd84b61e49bdaf2534",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 4910
+        }
+      ],
+      "characteristics": {
+        "colour": "black-stained wood with a cream dial",
+        "viewpoint": "Frontal",
+        "facing_direction": "front",
+        "environment": "bright interior with a concrete floor",
+        "support": "standing on a concrete floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-40273146-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Frontal view (the characteristic view of a longcase clock)",
+        "Tall, narrow object: about 30% of the crop width",
+        "A small black cable lies on the floor beneath the clock",
+        "Window frames at both crop edges"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Dark wooden longcase clock standing against a white wall between two windows",
+      "object_type": "longcase-clock",
+      "content_origin": "photograph",
+      "keywords": [
+        "grandfather-clock",
+        "longcase-clock",
+        "pendulum",
+        "dark-wood",
+        "interior"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the longcase clock spans about 88.9% of the crop, frontal, black-stained wood with a cream dial, against bright interior with a concrete floor; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-clocks-running-alarm-clock-c08-1-final",
+      "asset_id": "generated-clocks-running-alarm-clock",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-clocks-running-alarm-clock-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/generated-clocks-running-alarm-clock-standardized-v1.webp",
+          "sha256": "951d6052b669127aa3532002fd2b2ae5b69074a58405436a704322c6c1e82334",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 20358
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/generated-clocks-running-alarm-clock-standardized-v1-s.webp",
+          "sha256": "d193b5e3300af145bdd25484dbc3c2ff54fd5860c0a26b9a179f654340ecef80",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8216
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "front",
+        "environment": "sunlit bedroom with a bed and chest of drawers",
+        "support": "two small legs on the wooden floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-clocks-running-alarm-clock-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The legs are smooth red cartoon-like legs rather than human legs."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Red twin-bell alarm clock running across a bedroom floor on two little legs",
+      "object_type": "alarm-clock",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "alarm-clock",
+        "twin-bell",
+        "legs",
+        "running",
+        "impossible-object",
+        "red"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "A red twin-bell alarm clock striding across the floor on two legs: plainly a clock, impossibly on the move. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-clocks-hourglass-clock-c08-1-final",
+      "asset_id": "generated-clocks-hourglass-clock",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-clocks-hourglass-clock-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/generated-clocks-hourglass-clock-standardized-v1.webp",
+          "sha256": "e80335879b9ba770fb3e824579294d70af166ec88d67f7f2f1480835679f0332",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14658
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/generated-clocks-hourglass-clock-standardized-v1-s.webp",
+          "sha256": "f7cf2c4b07c42a3abc73bb7afcbf3b5981030b6f2a7c20799005adaa877b7d16",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 5594
+        }
+      ],
+      "characteristics": {
+        "colour": "dark wood and pale sand",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "front",
+        "environment": "living room with a sofa and window",
+        "support": "the clock case standing on a wooden shelf",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-clocks-hourglass-clock-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Hourglass with running sand inside the wooden case of a mantel clock, on a wooden shelf",
+      "object_type": "hourglass-in-clock-case",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "hourglass",
+        "mantel-clock",
+        "clock-case",
+        "timekeeping",
+        "wood"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 10,
+          "grade": "Meets target clarity",
+          "reason": "An hourglass behind the glass door of a mantel clock case: it measures time, but is it a clock? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-clocks-phone-wall-clock-c08-1-final",
+      "asset_id": "generated-clocks-phone-wall-clock",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-clocks-phone-wall-clock-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/generated-clocks-phone-wall-clock-standardized-v1.webp",
+          "sha256": "5b4c2aafd65d577b0f21d6ef64db9049201fd36510ced1c801a070bbffd63d8b",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 27530
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/generated-clocks-phone-wall-clock-standardized-v1-s.webp",
+          "sha256": "b76ebec22e065b87c34a1e4d6385967ec8637510906d47e089d3b44c6aa5723c",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 7340
+        }
+      ],
+      "characteristics": {
+        "colour": "black with a light-blue screen",
+        "viewpoint": "Front",
+        "facing_direction": "front",
+        "environment": "white living-room wall beside a house plant",
+        "support": "mounted flat on the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-clocks-phone-wall-clock-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The numerals on the dial are slightly irregular."
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Smartphone hung on a living-room wall like a clock, its screen showing an analogue clock face",
+      "object_type": "smartphone",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "smartphone",
+        "wall-mounted",
+        "clock-face",
+        "screen",
+        "living-room"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "A phone hung on the wall and showing a clock dial: it tells the time like a wall clock, but is it a clock? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-27183730-c08-1-final",
+      "asset_id": "photo-pexels-27183730",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-27183730-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/photo-pexels-27183730-standardized-v1.webp",
+          "sha256": "2f091d6033c788cc39a3f47a074a7d96a793c0f1c8a984f1788c0225765072da",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29754
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/photo-pexels-27183730-standardized-v1-s.webp",
+          "sha256": "fe28b46e2898eb6ed07470044282fb586f402f1ce147fb7f4925093499cb5879",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9796
+        }
+      ],
+      "characteristics": {
+        "colour": "dark bronze and sandstone",
+        "viewpoint": "Three-quarter from slightly above",
+        "facing_direction": "not-applicable",
+        "environment": "park lawn",
+        "support": "stone pedestal",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-27183730-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Pedestal continues beyond the bottom edge of the crop",
+        "Pedestal top spans about 90% of the crop width, leaving narrow side margins",
+        "Slightly elevated viewpoint",
+        "Small engraved text on the dial plate"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Bronze octagonal sundial with a tall gnomon on a stone pedestal in a grassy park",
+      "object_type": "sundial",
+      "content_origin": "photograph",
+      "keywords": [
+        "sundial",
+        "gnomon",
+        "garden",
+        "stone-pedestal",
+        "bronze"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the sundial spans about 90.3% of the crop, three-quarter from slightly above, dark bronze and sandstone, against park lawn; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1619213348491-b7b7602727f9-c08-1-final",
+      "asset_id": "photo-unsplash-1619213348491-b7b7602727f9",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1619213348491-b7b7602727f9-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/photo-unsplash-1619213348491-b7b7602727f9-standardized-v1.webp",
+          "sha256": "d723b413a39d4e9736628082f381ce817b826daaa202b221a059d0ff330fd9bc",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14522
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/photo-unsplash-1619213348491-b7b7602727f9-standardized-v1-s.webp",
+          "sha256": "0289c720bf077a58be01b91c13b2e19981e9d13dc0f5a370beea1a69290ff9fb",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 5498
+        }
+      ],
+      "characteristics": {
+        "colour": "light wood and white",
+        "viewpoint": "Near-frontal",
+        "facing_direction": "front",
+        "environment": "bedroom interior",
+        "support": "hanging on a wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1619213348491-b7b7602727f9-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Reflection shows a brass bed frame and a skylight",
+        "Right margin narrower than the left (83 px against 144 px of 1,140)"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Round wall mirror with a thin wooden frame on a white wall, reflecting a bedroom skylight",
+      "object_type": "wall-mirror",
+      "content_origin": "photograph",
+      "keywords": [
+        "wall-mirror",
+        "round-mirror",
+        "wooden-frame",
+        "bedroom",
+        "interior"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wall mirror spans about 88.9% of the crop, near-frontal, light wood and white, against bedroom interior; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-17343135-c08-1-final",
+      "asset_id": "photo-pexels-17343135",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-17343135-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/photo-pexels-17343135-standardized-v1.webp",
+          "sha256": "becaa9680ae7efc712548f77ae0526fe67276aab6c3a97d0555cc39d82d247f8",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 75128
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/photo-pexels-17343135-standardized-v1-s.webp",
+          "sha256": "43884131b00cb23c6a5cb91154e92bdd73557ecc590bbd668d245a2e4b2e5a8b",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19788
+        }
+      ],
+      "characteristics": {
+        "colour": "red, yellow and blue on teal",
+        "viewpoint": "Frontal",
+        "facing_direction": "front",
+        "environment": "outdoor or indoor painted wall",
+        "support": "hanging on a wall by a hole near the rim",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-17343135-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Flat disc with a hanging hole; it may read as a painted tile rather than a plate",
+        "Edge of a second plate lies outside the crop at the top right of the photograph"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Hand-painted ceramic plate with red poppies hanging on a teal wall",
+      "object_type": "decorative-plate",
+      "content_origin": "photograph",
+      "keywords": [
+        "decorative-plate",
+        "hand-painted",
+        "ceramic",
+        "flowers",
+        "teal-wall"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the decorative plate spans about 85.5% of the crop, frontal, red, yellow and blue on teal, against outdoor or indoor painted wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1558978325-66dcf73b99b0-c08-1-final",
+      "asset_id": "photo-unsplash-1558978325-66dcf73b99b0",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1558978325-66dcf73b99b0-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/1/photo-unsplash-1558978325-66dcf73b99b0-standardized-v1.webp",
+          "sha256": "c2ffa3b6297108767e1d83496102c250588045897317ae2e6abd9c63da4dcc78",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 47074
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/1/photo-unsplash-1558978325-66dcf73b99b0-standardized-v1-s.webp",
+          "sha256": "297066c0649169cd3e5d9b941369ffedd0fa59295fdce30346adf572c388ccf4",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18290
+        }
+      ],
+      "characteristics": {
+        "colour": "silver and black",
+        "viewpoint": "Three-quarter from above",
+        "facing_direction": "not-applicable",
+        "environment": "outdoor, sawn wood surface",
+        "support": "resting on a tree stump",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Selected for C08@1: Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim on a cream wall; dark wooden longcase clock against a white wall), one impossible clock (generated red twin-bell alarm clock running on two legs), three borderline timekeepers (generated hourglass inside a mantel-clock case; generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a stone pedestal) and three non-members that share a clock's round, dial-like form (round wall mirror, hand-painted plate on a teal wall, magnetic compass on a tree stump). Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The two photographed twin-bell alarm clocks remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:01:28Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:01:28Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1558978325-66dcf73b99b0-standardized-v1 for final set C08@1."
+      },
+      "unresolved_issues": [
+        "Elevated three-quarter view, needed to show the dial",
+        "Warm, high-contrast processing",
+        "The Unsplash alt text calls it a pocket watch; it is a compass"
+      ],
+      "created_at": "2026-10-27T09:01:28Z",
+      "updated_at": "2026-10-27T09:01:28Z",
+      "actor": "claude",
+      "description": "Silver magnetic compass with a black dial lying on a sawn tree stump",
+      "object_type": "magnetic-compass",
+      "content_origin": "photograph",
+      "keywords": [
+        "compass",
+        "magnetic-compass",
+        "silver",
+        "wood",
+        "outdoor"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the magnetic compass spans about 85.1% of the crop, three-quarter from above, silver and black, against outdoor, sawn wood surface; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
     }
   ],
   "sets": [
@@ -52998,6 +54729,20 @@
       "version": 1,
       "theme": "boats",
       "manifest": "stimuli/final/boats/C09/1/manifest.json"
+    },
+    {
+      "set_key": "C04@1",
+      "set_id": "C04",
+      "version": 1,
+      "theme": "cars",
+      "manifest": "stimuli/final/cars/C04/1/manifest.json"
+    },
+    {
+      "set_key": "C08@1",
+      "set_id": "C08",
+      "version": 1,
+      "theme": "clocks",
+      "manifest": "stimuli/final/clocks/C08/1/manifest.json"
     }
   ],
   "retired_sets": [

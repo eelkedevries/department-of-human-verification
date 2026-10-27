@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "cars",
-  "set_keys": []
+  "set_keys": [
+    "C04@1"
+  ]
 }

@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "clocks",
-  "set_keys": []
+  "set_keys": [
+    "C08@1"
+  ]
 }
