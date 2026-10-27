@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C05@1",
+  "set_id": "C05",
+  "version": 1,
+  "theme": "houses",
+  "status": "approved",
+  "instruction": "Select all images containing a house.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C05",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all buildings that people live in.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary houses count, and so do the house standing on chicken legs and the house walking in boots: impossible, but still houses. The caravan carried by a tortoise and the hermit crab's brick house are borderline cases, recorded without a verdict. The office tower, the bus shelter and the shipping container are not houses.",
+    "feedback": {
+      "correct": [
+        "Houses identified. Please do not let them wander off.",
+        "Correct. Every house has been registered at its current address."
+      ],
+      "partial": [
+        "Partially correct. A house appears to have moved.",
+        "Partially correct. Some houses are not at home."
+      ],
+      "incorrect": [
+        "Incorrect. The houses have filed a complaint.",
+        "Incorrect. Your planning application has been refused."
+      ]
+    },
+    "stimulus_id": "C05",
+    "version": 1,
+    "grid_hash": "30af5de042f7691028e61a26e1a715e40a3e60012c66c56be3b3441643f93fd9"
+  },
+  "tiles": [
+    {
+      "tile_id": "C05-T1",
+      "version_id": "photo-pexels-9828297-c05-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C05-T2",
+      "version_id": "photo-unsplash-1542314820-e04ce1d3d81a-c05-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C05-T3",
+      "version_id": "generated-houses-chicken-legged-house-c05-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C05-T4",
+      "version_id": "generated-houses-booted-house-c05-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C05-T5",
+      "version_id": "generated-houses-tortoise-caravan-c05-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C05-T6",
+      "version_id": "generated-houses-hermit-crab-house-c05-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C05-T7",
+      "version_id": "photo-unsplash-1792745119435-73b06f2eabc9-c05-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C05-T8",
+      "version_id": "photo-unsplash-1781807763892-29f7f7b70b6a-c05-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C05-T9",
+      "version_id": "photo-unsplash-1790364755326-ad7b61618cf2-c05-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C05-T1",
+    "C05-T2",
+    "C05-T3",
+    "C05-T4"
+  ],
+  "borderline_tile_ids": [
+    "C05-T5",
+    "C05-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:12:09Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary houses (pale-blue terraced house with a yellow door, front view; black timber cottage with yellow window frames, front three-quarter view), two impossible houses (generated red-brick house on two giant chicken legs in a meadow; generated white clapboard house standing in two giant leather boots on a street), two borderline dwellings (generated caravan riding on a giant tortoise at a campsite; generated hermit crab carrying a tiny brick house as its shell) and three non-member structures (glass office tower on a canal bank, rural bus shelter beside a field, faded white shipping container at a woodland edge). All non-members are buildings or shelters, so a roof and walls alone do not decide. Views, colours and settings vary within each role. The two detached houses, the white bungalow and the human-sized dollhouse remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:12:09Z",
+  "actor": "claude"
+}

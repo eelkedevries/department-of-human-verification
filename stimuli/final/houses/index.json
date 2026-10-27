@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "houses",
-  "set_keys": []
+  "set_keys": [
+    "C05@1"
+  ]
 }

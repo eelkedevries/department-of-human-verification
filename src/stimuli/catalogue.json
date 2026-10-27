@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-b2ee6b26c5",
+  "catalogue_version": "2026-10-27-76af206e56",
   "families": [
     "recognition",
     "semantic",
@@ -862,6 +862,219 @@
       "borderline_tile_ids": [
         "C04-T5",
         "C04-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C05",
+      "version": 1,
+      "hash": "30af5de042f7691028e61a26e1a715e40a3e60012c66c56be3b3441643f93fd9",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a house.",
+      "instruction_variants": {
+        "direct": "Select all images containing a house.",
+        "semantic": "Select all buildings that people live in."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary houses count, and so do the house standing on chicken legs and the house walking in boots: impossible, but still houses. The caravan carried by a tortoise and the hermit crab's brick house are borderline cases, recorded without a verdict. The office tower, the bus shelter and the shipping container are not houses.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Houses identified. Please do not let them wander off.",
+          "Correct. Every house has been registered at its current address."
+        ],
+        "partial": [
+          "Partially correct. A house appears to have moved.",
+          "Partially correct. Some houses are not at home."
+        ],
+        "incorrect": [
+          "Incorrect. The houses have filed a complaint.",
+          "Incorrect. Your planning application has been refused."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C05-T1",
+          "src": "0d3e3ebc06060b76.webp",
+          "src_small": "0d3e3ebc06060b76-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "0d3e3ebc06060b768eb8b52998650d2e7b9aef578fa02ad70c098da44d4e10d9",
+          "alt": "Pale-blue two-storey terraced house with a yellow front door and a walled front garden in a city street",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Sonya Livshits",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/a-blue-house-with-a-yellow-door-9828297/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Sonya Livshits on Pexels"
+          }
+        },
+        {
+          "tile_id": "C05-T2",
+          "src": "ff358880d60b193a.webp",
+          "src_small": "ff358880d60b193a-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "ff358880d60b193a345fd167fd8824d8bdec5b8b68ff014872515617d163a2c1",
+          "alt": "Black timber single-storey cottage with yellow window frames on a shingle beach behind a gorse bush",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Zoltan Tasi",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/oeo9JeFXPwo",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Zoltan Tasi on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C05-T3",
+          "src": "d12dcb49ffd07136.webp",
+          "src_small": "d12dcb49ffd07136-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "d12dcb49ffd07136b68ee8dffba95703fd56eb6077a36124e160735b4e662f6b",
+          "alt": "Small red-brick house with a chimney standing on two enormous scaly chicken legs in a meadow",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C05-T4",
+          "src": "c1ccb9e465ffba70.webp",
+          "src_small": "c1ccb9e465ffba70-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "c1ccb9e465ffba70596533af952d7e7fa77e942f41394bc824424e7619576c06",
+          "alt": "White clapboard house walking along a suburban street on two enormous brown leather boots",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C05-T5",
+          "src": "944e7b200aa8aa59.webp",
+          "src_small": "944e7b200aa8aa59-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "944e7b200aa8aa598893ee98496fa804f91af782c5a33ef9b2bca49edc663c5a",
+          "alt": "Enormous tortoise carrying a white caravan on its shell across a grassy campsite",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C05-T6",
+          "src": "fd6f9cc90ed45982.webp",
+          "src_small": "fd6f9cc90ed45982-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "fd6f9cc90ed45982374c065565d4c082a05974be68d95b8226018d7f9f97fef3",
+          "alt": "Hermit crab on wet sand carrying a tiny red-brick house with a chimney as its shell",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C05-T7",
+          "src": "daa76ff433614d59.webp",
+          "src_small": "daa76ff433614d59-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "daa76ff433614d59122a26ad9ca4114b6255ea949fbd4f7a22493e7177c68f58",
+          "alt": "Glass office tower above a glazed podium on a canal embankment under a clear blue sky",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Wolfgang Weiser",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/v4uBjgAj5TQ",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Wolfgang Weiser on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C05-T8",
+          "src": "cd8d920ad71233d4.webp",
+          "src_small": "cd8d920ad71233d4-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "cd8d920ad71233d4ede24994f30b82ed16c4b36c0357b464cab39199abb4f12f",
+          "alt": "Rustic metal roadside bus shelter with a bench beside a green field",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Alexander Lunyov",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/YFU5TvatLjk",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Alexander Lunyov on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C05-T9",
+          "src": "46f47b557f585326.webp",
+          "src_small": "46f47b557f585326-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "46f47b557f585326cdfbf37bfde7d287324687d5dc272118be161e7fa79c0eef",
+          "alt": "Faded white shipping container standing on dry grass at the edge of woodland",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Arlind Photography",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/c0VnfrG3Owc",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Arlind Photography on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C05-T1",
+        "C05-T2",
+        "C05-T3",
+        "C05-T4"
+      ],
+      "borderline_tile_ids": [
+        "C05-T5",
+        "C05-T6"
       ]
     },
     {
