@@ -86,7 +86,7 @@ Rights checks are quick and proportionate (see [Rights checks during image searc
 ### existing-repository-catalogue
 
 - **Status:** internal; closed.
-- **Use:** the project's own generated G01 images, imported once as a legacy snapshot. Do not add new imports from it (see `AGENTS.md`).
+- **Use:** the project's own generated G01 images, imported once as a legacy snapshot and removed on the owner's decision of 27 October 2026; only tombstone records remain. Do not add new imports from it (see `AGENTS.md`).
 
 ## Excluded sources
 

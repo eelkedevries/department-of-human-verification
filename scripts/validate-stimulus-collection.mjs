@@ -113,6 +113,15 @@ const has = (field, value, at) => { if (!vocab[field]?.includes(value)) fail(at,
 const assets = indexBy(cat.assets, 'asset_id', 'assets');
 const versions = indexBy(cat.versions, 'version_id', 'versions');
 const sets = indexBy(cat.sets, 'set_key', 'sets');
+// A final set the owner retired keeps a tombstone (identity, reason and removed
+// files) so that history stays resolvable; its manifest and bytes are gone.
+const retiredSets = indexBy(cat.retired_sets ?? [], 'set_key', 'retired_sets');
+for (const [key, r] of retiredSets) {
+  if (sets.has(key)) fail(key, 'a retired set cannot also be active');
+  recordStamp(r.retired, `${key}.retired`);
+  if (!text(r.retired?.reason) || !Array.isArray(r.retired?.files) || !r.retired.files.length) fail(key, 'retirement needs a reason and the removed file paths');
+  for (const f of r.retired?.files ?? []) if (text(f) && existsSync(resolve(ROOT, f))) fail(key, `retired set file still present: ${f}`);
+}
 const prof = cat.standardisation_profiles?.['webp-512-256-v1'];
 const profile = { large: [512, 512], small: [256, 256], format: 'webp', colour_mode: 'RGB', colour_space: 'sRGB', quality: 82, method: 6, resampling: 'Lanczos', publisher: 'tools/stimuli/build.py', content_changes: false, allow_upscale: false };
 if (!same(prof, profile)) fail('standardisation_profiles', 'webp-512-256-v1 must match the implemented publisher');
@@ -146,6 +155,14 @@ for (const [id, a] of assets) {
   for (const u of strings(l.evidence_urls, `${id}.licence.evidence_urls`, { nonempty: true })) url(u, id);
   if (l.evidence_status === 'verified' && (!text(l.verified_by) || !utc(l.verified_at) || !text(s.publisher_url))) fail(id, 'verified rights require source page, reviewer and time');
   if (l.evidence_status === 'inherited' && a.origin !== 'legacy-generated') fail(id, 'inherited rights are limited to existing generated imports');
+}
+
+function checkWithdrawal(id, v) {
+  const w = v.withdrawn;
+  if (v.levels.length || v.files.length) fail(id, 'withdrawn versions keep no levels or files');
+  recordStamp(w, `${id}.withdrawn`);
+  if (!text(w.reason) || !Array.isArray(w.files) || !w.files.length || !w.files.every((f) => text(f?.path) && hashPattern.test(f?.sha256 ?? ''))) fail(id, 'withdrawal needs a reason and the removed file records');
+  for (const f of w.files ?? []) if (text(f?.path) && existsSync(resolve(ROOT, f.path))) fail(id, `withdrawn file still present: ${f.path}`);
 }
 
 const referencedFiles = new Set();
@@ -243,8 +260,10 @@ for (const [id, v] of versions) {
   const op = v.operation ?? {}, parents = v.parent_version_ids ?? [];
   const processing = v.levels?.some((l) => ['standardized', 'manipulated', 'final'].includes(l));
   if (op.type === 'legacy-import') {
-    if (a.origin !== 'legacy-generated' || !same(v.levels, ['final']) || parents.length || op.source_commit !== '5177c6aaa464adbed203ac7b5af67c440e29d7a9' || !op.original_tile?.tile_id?.startsWith('G01-T') || v.files.find((f) => f.purpose === 'large')?.sha256 !== op.original_tile.sha256) fail(id, 'invalid legacy import exemption');
+    if (a.origin !== 'legacy-generated' || !same(v.levels, v.withdrawn ? [] : ['final']) || parents.length || op.source_commit !== '5177c6aaa464adbed203ac7b5af67c440e29d7a9' || !op.original_tile?.tile_id?.startsWith('G01-T')) fail(id, 'invalid legacy import exemption');
     if (!same(op.original_tile?.provenance, a.source.generation_provenance)) fail(id, 'legacy generation provenance changed');
+    if (v.withdrawn) checkWithdrawal(id, v);
+    else if (v.files.find((f) => f.purpose === 'large')?.sha256 !== op.original_tile.sha256) fail(id, 'invalid legacy import exemption');
     continue;
   }
   if (v.levels.includes('suitable') && (!rightsCleared(id) || v.reviews?.rights?.status !== 'approved')) fail(id, 'suitable selection requires verified rights and derivative permission during the search');
@@ -252,11 +271,8 @@ for (const [id, v] of versions) {
   // A processed version rejected before final use keeps its record, lineage and
   // removed hashes, so history stays resolvable, but no levels or bytes.
   if (v.withdrawn) {
-    const w = v.withdrawn;
-    if (v.levels.length || v.files.length || !['standardisation', 'ai-edit'].includes(op.type) || !parents.length) fail(id, 'only unused standardised/edited versions can be withdrawn, without levels or files');
-    recordStamp(w, `${id}.withdrawn`);
-    if (!text(w.reason) || !Array.isArray(w.files) || !w.files.length || !w.files.every((f) => text(f?.path) && hashPattern.test(f?.sha256 ?? ''))) fail(id, 'withdrawal needs a reason and the removed file records');
-    for (const f of w.files ?? []) if (text(f?.path) && existsSync(resolve(ROOT, f.path))) fail(id, `withdrawn file still present: ${f.path}`);
+    if (!['standardisation', 'ai-edit'].includes(op.type) || !parents.length) fail(id, 'only unused standardised/edited versions can be withdrawn, without levels or files');
+    checkWithdrawal(id, v);
     continue;
   }
   if (!processing) { if (op.type !== 'discovery') fail(id, 'raw/suitable versions use discovery operation'); continue; }
@@ -360,7 +376,7 @@ for (const [i, line] of historyText.trimEnd().split('\n').entries()) {
   if (!text(e.event_id) || eventIds.has(e.event_id)) fail(`history:${i + 1}`, 'event ID missing/duplicated'); eventIds.add(e.event_id);
   recordStamp(e, e.event_id); has('actions', e.action, e.event_id);
   if (!text(e.reason) || !Object.hasOwn(e, 'from') || !Object.hasOwn(e, 'to')) fail(e.event_id, 'reason/from/to required');
-  for (const [field, map] of [['asset_ids', assets], ['version_ids', versions], ['set_ids', sets], ['parent_version_ids', versions], ['output_version_ids', versions]]) for (const id of strings(e[field], `${e.event_id}.${field}`)) if (!map.has(id)) fail(e.event_id, `unknown ${field}: ${id}`);
+  for (const [field, map] of [['asset_ids', assets], ['version_ids', versions], ['set_ids', new Map([...sets, ...retiredSets])], ['parent_version_ids', versions], ['output_version_ids', versions]]) for (const id of strings(e[field], `${e.event_id}.${field}`)) if (!map.has(id)) fail(e.event_id, `unknown ${field}: ${id}`);
   if (events.length && e.timestamp < events.at(-1).timestamp) fail(e.event_id, 'history timestamps are out of order');
   events.push(e);
 }
@@ -369,6 +385,7 @@ for (const [id, v] of versions) {
   for (const level of v.levels ?? []) if (!events.some((e) => e.version_ids?.includes(id) && e.to === level && ({ raw: ['discovered'], suitable: ['selected'], standardized: ['standardized'], manipulated: ['manipulated'], final: ['final_selected', 'legacy_imported'] })[level]?.includes(e.action))) fail(id, `missing ${level} history event`);
 }
 for (const key of sets.keys()) if (!events.some((e) => e.set_ids?.includes(key) && ['final_selected', 'legacy_set_imported'].includes(e.action))) fail(key, 'missing set history event');
+for (const key of retiredSets.keys()) if (!events.some((e) => e.set_ids?.includes(key) && e.action === 'set_retired')) fail(key, 'missing set retirement history event');
 
 // When Git history is available, reject deleted source/version records, edited
 // version bytes and rewritten log lines. Shallow archives may lack HEAD^.
@@ -388,6 +405,7 @@ for (const ref of ['HEAD', 'HEAD^']) {
     if (!current || !same([current.asset_id, current.parent_version_ids, files], [v.asset_id, v.parent_version_ids, v.files])) fail(v.version_id, 'version identity, parents or files changed; create a new version');
   }
   for (const s of old.sets ?? []) {
+    if (retiredSets.has(s.set_key)) { if (!same(retiredSets.get(s.set_key).manifest, s.manifest)) fail(s.set_key, 'retired set lost its former manifest path'); continue; }
     if (!same(sets.get(s.set_key), s)) { fail(s.set_key, 'existing set reference changed/removed'); continue; }
     const before = previous(ref, s.manifest), after = readJson(s.manifest);
     if (before && !same(JSON.parse(before), after)) fail(s.set_key, 'final set manifest changed; create a new set version');

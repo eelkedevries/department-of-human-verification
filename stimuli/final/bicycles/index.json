@@ -3,7 +3,5 @@
   "schema_version": 1,
   "level": "final",
   "theme": "bicycles",
-  "set_keys": [
-    "G01@1"
-  ]
+  "set_keys": []
 }

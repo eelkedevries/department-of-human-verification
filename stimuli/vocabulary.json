@@ -79,7 +79,8 @@
     "legacy_imported",
     "legacy_set_imported",
     "corrected",
-    "withdrawn"
+    "withdrawn",
+    "set_retired"
   ],
   "set_statuses": [
     "approved",

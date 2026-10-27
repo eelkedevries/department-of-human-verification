@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T02:39:07Z",
+  "updated_at": "2026-10-27T02:54:32Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -4887,35 +4887,10 @@
     {
       "version_id": "legacy-g01-t1-final-v1",
       "asset_id": "legacy-g01-t1",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/dcd2d84006fe66df.webp",
-          "sha256": "dcd2d84006fe66df35faabcb40d7f77d4fc47f36f935fd11a412910e1c7abf90",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 66544
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/dcd2d84006fe66df-s.webp",
-          "sha256": "a75ffef5abdf3f5b1a94e664fce752e1ca1b452e0e1fd3e3d36d048d36a5a825",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 18602
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -4972,7 +4947,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A black city bicycle leaning against a green wooden door on a cobbled street",
       "object_type": "bicycle",
@@ -4995,40 +4970,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/dcd2d84006fe66df.webp",
+            "sha256": "dcd2d84006fe66df35faabcb40d7f77d4fc47f36f935fd11a412910e1c7abf90",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 66544
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/dcd2d84006fe66df-s.webp",
+            "sha256": "a75ffef5abdf3f5b1a94e664fce752e1ca1b452e0e1fd3e3d36d048d36a5a825",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 18602
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t2-final-v1",
       "asset_id": "legacy-g01-t2",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/0b9440ab514dced4.webp",
-          "sha256": "0b9440ab514dced406a42245ca6332da1c0783de53e25d47c5eb5cc80945e857",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 113088
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/0b9440ab514dced4-s.webp",
-          "sha256": "06f7847a582a4f737fe269f4fdccd90c59dd4a200b554a25205dc9fac24fb14a",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 29918
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5085,7 +5064,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A red bicycle with a wicker basket parked against a brick wall",
       "object_type": "bicycle",
@@ -5108,40 +5087,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/0b9440ab514dced4.webp",
+            "sha256": "0b9440ab514dced406a42245ca6332da1c0783de53e25d47c5eb5cc80945e857",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 113088
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/0b9440ab514dced4-s.webp",
+            "sha256": "06f7847a582a4f737fe269f4fdccd90c59dd4a200b554a25205dc9fac24fb14a",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 29918
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t3-final-v1",
       "asset_id": "legacy-g01-t3",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731.webp",
-          "sha256": "ce37edf2dc0a2731f47189d8bd56ad675f67796a544bfa4ada75e077d9f294ac",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 44246
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731-s.webp",
-          "sha256": "e3e12b5f683875bff8dab3b152ec46510497d63c007446037e241cd2afa5a745",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 14876
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5198,7 +5181,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A blue road bicycle on an empty country road",
       "object_type": "bicycle",
@@ -5221,40 +5204,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731.webp",
+            "sha256": "ce37edf2dc0a2731f47189d8bd56ad675f67796a544bfa4ada75e077d9f294ac",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 44246
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731-s.webp",
+            "sha256": "e3e12b5f683875bff8dab3b152ec46510497d63c007446037e241cd2afa5a745",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 14876
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t4-final-v1",
       "asset_id": "legacy-g01-t4",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/1285019de39d43eb.webp",
-          "sha256": "1285019de39d43eb7295e9a6465d1a94a33812b9825c828e089ff8499c5495a7",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 63146
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/1285019de39d43eb-s.webp",
-          "sha256": "d7dc19d5a942d0a0bdce37390771ae4acd408cf0c0bd8cf7f57b5768c353c4d0",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 22032
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5311,7 +5298,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A small yellow child's bicycle with training wheels on a lawn",
       "object_type": "bicycle",
@@ -5334,40 +5321,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/1285019de39d43eb.webp",
+            "sha256": "1285019de39d43eb7295e9a6465d1a94a33812b9825c828e089ff8499c5495a7",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 63146
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/1285019de39d43eb-s.webp",
+            "sha256": "d7dc19d5a942d0a0bdce37390771ae4acd408cf0c0bd8cf7f57b5768c353c4d0",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 22032
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t5-final-v1",
       "asset_id": "legacy-g01-t5",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/72718790afe43ab8.webp",
-          "sha256": "72718790afe43ab8985c8c15cd5220e96fbda633426559ccf5f3bbf821298969",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 40438
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/72718790afe43ab8-s.webp",
-          "sha256": "65e2a9806164ca823287cd57e782fe8fd41f5bae3b8fc5f61b16b9ef91fff7d0",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 16458
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5424,7 +5415,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A red vintage motor scooter parked on a street",
       "object_type": "motor-scooter",
@@ -5447,40 +5438,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/72718790afe43ab8.webp",
+            "sha256": "72718790afe43ab8985c8c15cd5220e96fbda633426559ccf5f3bbf821298969",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 40438
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/72718790afe43ab8-s.webp",
+            "sha256": "65e2a9806164ca823287cd57e782fe8fd41f5bae3b8fc5f61b16b9ef91fff7d0",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 16458
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t6-final-v1",
       "asset_id": "legacy-g01-t6",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790.webp",
-          "sha256": "9f7aeb69bd32e790d1519a00d52d298bba22aab433a28e4ea680563d0af55371",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 50034
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790-s.webp",
-          "sha256": "f71c4e58e920668c7d3ff5ec1b3a1a1af8c062a8f625ac978672713e23de3647",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 18458
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5537,7 +5532,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A blue motorcycle parked on a cobbled square",
       "object_type": "motorcycle",
@@ -5560,40 +5555,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790.webp",
+            "sha256": "9f7aeb69bd32e790d1519a00d52d298bba22aab433a28e4ea680563d0af55371",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 50034
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790-s.webp",
+            "sha256": "f71c4e58e920668c7d3ff5ec1b3a1a1af8c062a8f625ac978672713e23de3647",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 18458
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t7-final-v1",
       "asset_id": "legacy-g01-t7",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4.webp",
-          "sha256": "4e5e0b454064aaf4a64450078685cc52fd0e78267c807b0336279da30a01ba12",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 28428
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4-s.webp",
-          "sha256": "074ba21238450122b6838a80f27a7abca581fb93909ea0ce7632d745de00f45a",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 10346
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5650,7 +5649,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A child's kick scooter on a pavement",
       "object_type": "kick-scooter",
@@ -5673,40 +5672,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4.webp",
+            "sha256": "4e5e0b454064aaf4a64450078685cc52fd0e78267c807b0336279da30a01ba12",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 28428
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4-s.webp",
+            "sha256": "074ba21238450122b6838a80f27a7abca581fb93909ea0ce7632d745de00f45a",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 10346
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t8-final-v1",
       "asset_id": "legacy-g01-t8",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f.webp",
-          "sha256": "b2bf2dac95c24e8f5cc9e3c36d14f236fb87000e098ce6c6b67177864c153bfc",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 67784
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f-s.webp",
-          "sha256": "f56cee28db2ef3bbf8a2c259097ffb815e94dbda1a63134460e72f993c0de56e",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 19796
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5763,7 +5766,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A skateboard on paving stones",
       "object_type": "skateboard",
@@ -5786,40 +5789,44 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f.webp",
+            "sha256": "b2bf2dac95c24e8f5cc9e3c36d14f236fb87000e098ce6c6b67177864c153bfc",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 67784
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f-s.webp",
+            "sha256": "f56cee28db2ef3bbf8a2c259097ffb815e94dbda1a63134460e72f993c0de56e",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 19796
+          }
+        ]
+      }
     },
     {
       "version_id": "legacy-g01-t9-final-v1",
       "asset_id": "legacy-g01-t9",
-      "levels": [
-        "final"
-      ],
+      "levels": [],
       "parent_version_ids": [],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/final/bicycles/G01/1/60c45b81b625a9a4.webp",
-          "sha256": "60c45b81b625a9a42fd186482b56d49030456174c7ef2de4f8d15acb9f2dd1c5",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 45950
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/final/bicycles/G01/1/60c45b81b625a9a4-s.webp",
-          "sha256": "cdb36fe742626b7a7a08aafeaa71ae00cb81f1872850375704ba97c6052e81e2",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 18086
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "unknown",
         "viewpoint": "unknown",
@@ -5876,7 +5883,7 @@
         "Historical intermediate files and review timestamps are unavailable; they have not been fabricated."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:27:00Z",
+      "updated_at": "2026-10-27T02:54:32Z",
       "actor": "codex",
       "description": "A small white vintage car parked on a street",
       "object_type": "car",
@@ -5899,7 +5906,36 @@
           "scope": "existing-published-image",
           "proposed_crop": null
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/final/bicycles/G01/1/60c45b81b625a9a4.webp",
+            "sha256": "60c45b81b625a9a42fd186482b56d49030456174c7ef2de4f8d15acb9f2dd1c5",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 45950
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/final/bicycles/G01/1/60c45b81b625a9a4-s.webp",
+            "sha256": "cdb36fe742626b7a7a08aafeaa71ae00cb81f1872850375704ba97c6052e81e2",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 18086
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e0fed-2b99-7df3-9285-402da53ce583-source-v1",
@@ -14178,13 +14214,41 @@
       ]
     }
   ],
-  "sets": [
+  "sets": [],
+  "retired_sets": [
     {
       "set_key": "G01@1",
       "set_id": "G01",
       "version": 1,
       "theme": "bicycles",
-      "manifest": "stimuli/final/bicycles/G01/1/manifest.json"
+      "manifest": "stimuli/final/bicycles/G01/1/manifest.json",
+      "retired": {
+        "timestamp": "2026-10-27T02:54:32Z",
+        "actor": "claude",
+        "reason": "Owner's decision (27 October 2026): remove the legacy G01 images completely from the collection. Their image files and the G01 version 1 final-set folder are deleted; the records remain only as tombstones so that the append-only history stays resolvable.",
+        "files": [
+          "stimuli/final/bicycles/G01/1/0b9440ab514dced4-s.webp",
+          "stimuli/final/bicycles/G01/1/0b9440ab514dced4.webp",
+          "stimuli/final/bicycles/G01/1/1285019de39d43eb-s.webp",
+          "stimuli/final/bicycles/G01/1/1285019de39d43eb.webp",
+          "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4-s.webp",
+          "stimuli/final/bicycles/G01/1/4e5e0b454064aaf4.webp",
+          "stimuli/final/bicycles/G01/1/60c45b81b625a9a4-s.webp",
+          "stimuli/final/bicycles/G01/1/60c45b81b625a9a4.webp",
+          "stimuli/final/bicycles/G01/1/72718790afe43ab8-s.webp",
+          "stimuli/final/bicycles/G01/1/72718790afe43ab8.webp",
+          "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790-s.webp",
+          "stimuli/final/bicycles/G01/1/9f7aeb69bd32e790.webp",
+          "stimuli/final/bicycles/G01/1/README.md",
+          "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f-s.webp",
+          "stimuli/final/bicycles/G01/1/b2bf2dac95c24e8f.webp",
+          "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731-s.webp",
+          "stimuli/final/bicycles/G01/1/ce37edf2dc0a2731.webp",
+          "stimuli/final/bicycles/G01/1/dcd2d84006fe66df-s.webp",
+          "stimuli/final/bicycles/G01/1/dcd2d84006fe66df.webp",
+          "stimuli/final/bicycles/G01/1/manifest.json"
+        ]
+      }
     }
   ]
 }

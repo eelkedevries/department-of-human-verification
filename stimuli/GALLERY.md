@@ -6,7 +6,7 @@ Linked photographs are shown from their source sites and keep their recorded lic
 
 ## bicycles
 
-Suitable: 31 · awaiting review: 0 · rejected: 21 · standardised: 31 · manipulated: 0 · final sets: 1
+Suitable: 31 · awaiting review: 0 · rejected: 21 · standardised: 31 · manipulated: 0 · final sets: 0
 
 ### Suitable
 
@@ -134,24 +134,4 @@ None yet.
 
 ### Final sets
 
-#### G01@1 — legacy-import
-
-“Select all images containing a bicycle.” ([manifest](final/bicycles/G01/1/manifest.json))
-
-<table>
-<tr>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/dcd2d84006fe66df.webp"><img src="final/bicycles/G01/1/dcd2d84006fe66df-s.webp" width="240" alt="A black city bicycle leaning against a green wooden door on a cobbled street"></a><br><sub><b>G01-T1 ✓</b> A black city bicycle leaning against a green wooden door on a cobbled street<br>bicycle · ai-generated · target (member-normal) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/0b9440ab514dced4.webp"><img src="final/bicycles/G01/1/0b9440ab514dced4-s.webp" width="240" alt="A red bicycle with a wicker basket parked against a brick wall"></a><br><sub><b>G01-T2 ✓</b> A red bicycle with a wicker basket parked against a brick wall<br>bicycle · ai-generated · target (member-normal) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/ce37edf2dc0a2731.webp"><img src="final/bicycles/G01/1/ce37edf2dc0a2731-s.webp" width="240" alt="A blue road bicycle on an empty country road"></a><br><sub><b>G01-T3 ✓</b> A blue road bicycle on an empty country road<br>bicycle · ai-generated · target (member-normal) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/1285019de39d43eb.webp"><img src="final/bicycles/G01/1/1285019de39d43eb-s.webp" width="240" alt="A small yellow child's bicycle with training wheels on a lawn"></a><br><sub><b>G01-T4 ✓</b> A small yellow child's bicycle with training wheels on a lawn<br>bicycle · ai-generated · target (member-normal) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/72718790afe43ab8.webp"><img src="final/bicycles/G01/1/72718790afe43ab8-s.webp" width="240" alt="A red vintage motor scooter parked on a street"></a><br><sub><b>G01-T5</b> A red vintage motor scooter parked on a street<br>motor-scooter · ai-generated · distractor (non-member) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/9f7aeb69bd32e790.webp"><img src="final/bicycles/G01/1/9f7aeb69bd32e790-s.webp" width="240" alt="A blue motorcycle parked on a cobbled square"></a><br><sub><b>G01-T6</b> A blue motorcycle parked on a cobbled square<br>motorcycle · ai-generated · distractor (non-member) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/4e5e0b454064aaf4.webp"><img src="final/bicycles/G01/1/4e5e0b454064aaf4-s.webp" width="240" alt="A child's kick scooter on a pavement"></a><br><sub><b>G01-T7</b> A child's kick scooter on a pavement<br>kick-scooter · ai-generated · distractor (non-member) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/b2bf2dac95c24e8f.webp"><img src="final/bicycles/G01/1/b2bf2dac95c24e8f-s.webp" width="240" alt="A skateboard on paving stones"></a><br><sub><b>G01-T8</b> A skateboard on paving stones<br>skateboard · ai-generated · distractor (non-member) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-<td width="33%" valign="top"><a href="final/bicycles/G01/1/60c45b81b625a9a4.webp"><img src="final/bicycles/G01/1/60c45b81b625a9a4-s.webp" width="240" alt="A small white vintage car parked on a street"></a><br><sub><b>G01-T9</b> A small white vintage car parked on a street<br>car · ai-generated · distractor (non-member) · Existing published tile<br>Department of Human Verification · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a><br>Visual: inherited · rights: inherited<br><details><summary>Unresolved (1)</summary>Historical intermediate files and review timestamps are unavailable; they have not been fabricated.</details></sub></td>
-</tr>
-</table>
+None yet.

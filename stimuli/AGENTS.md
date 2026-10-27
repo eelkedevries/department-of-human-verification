@@ -26,7 +26,7 @@ These instructions apply to every AI agent working on stimulus discovery, select
 - Keep actual `object_type` separate from the instructed theme. Record description, object type, keywords and theme-specific assessments on each version: an edit can change category membership without rewriting the original source. Use `target`, `distractor`, `borderline` or `unassigned`; a role is not a global property of an object. Use `member-normal`, `member-bizarre`, `member-debatable` or `non-member` only when defensible.
 - Use descriptive kebab-case keywords and record colour, camera view, facing direction, environment, support, people and additional category members. Do not infer an unchecked detail from the search query. A crop-specific assessment must identify its crop; the full source may contain something outside it.
 - Each new standardised/manipulated version requires approved parent visual review, cleared rights for every contributing source, recorded operations and local bytes. Each new final version copies an approved standardised version byte-for-byte. New final sets require approved visual/set review and defensible roles. Retain documented licence conditions on derivatives.
-- The G01 legacy import is a historical snapshot of the existing published catalogue, not a shortcut around these gates. Do not add new legacy exemptions.
+- The G01 legacy import was retired on the owner's decision of 27 October 2026; its images are deleted and only tombstone records remain. Do not add new legacy exemptions or restore it.
 
 ## History and verification
 
