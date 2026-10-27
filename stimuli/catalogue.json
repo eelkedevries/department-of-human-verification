@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T09:17:36Z",
+  "updated_at": "2026-10-27T09:19:42Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -10255,6 +10255,56 @@
       },
       "created_at": "2026-10-27T09:17:26Z",
       "updated_at": "2026-10-27T09:17:26Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1749414418679-39da8b9788b4",
+      "origin": "internet-photo",
+      "description": "Galvanised metal watering can with a yellow rose standing on grey asphalt",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "zvM9TyDR3wI",
+        "creator": "fr0ggy5",
+        "publisher_url": "https://unsplash.com/photos/zvM9TyDR3wI",
+        "direct_url": "https://images.unsplash.com/photo-1749414418679-39da8b9788b4?w=1280",
+        "discovered_at": "2026-10-27T09:19:32Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 6000,
+          "height": 4000,
+          "status": "reported",
+          "basis": "Unsplash API record or publisher page, 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by fr0ggy5 on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/zvM9TyDR3wI",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T09:19:32Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "Unsplash photo page (checked 27 October 2026) names fr0ggy5 (@fr0ggy5) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1749414418679-39da8b9788b4 matches the preview; original size 6000x4000 from the connector record.",
+            "matching_basis": "The publisher page's image key photo-1749414418679-39da8b9788b4 is the key of the reviewed preview URL.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/musical-instruments/review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T09:19:32Z",
+      "updated_at": "2026-10-27T09:19:32Z",
       "actor": "claude"
     }
   ],
@@ -56024,6 +56074,215 @@
           "grade": "Meets target clarity",
           "reason": "A coiled garden hose with a brass mouthpiece and horn bell: it can be played like a horn, but is it a musical instrument? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
           "preparation_notes": "Standardise the whole square master.",
+          "scope": "standardised-crop"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1749414418679-39da8b9788b4-source-v1",
+      "asset_id": "photo-unsplash-1749414418679-39da8b9788b4",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1749414418679-39da8b9788b4?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "d312ff2ccee83b7dc994a3690f4f1be15fdeb1e3da17956be0a10c634efeb41f",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "galvanised grey with a yellow rose",
+        "viewpoint": "Side, slightly from above",
+        "facing_direction": "left",
+        "environment": "grey gravel asphalt in sunlight",
+        "support": "standing on the asphalt",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:19:32Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the watering can spans about 87% of the crop, side, slightly from above, galvanised grey with a yellow rose, against grey gravel asphalt in sunlight; one instance, unobstructed, recognisable at 128 px.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:19:32Z",
+          "reason": "Unsplash photo page (checked 27 October 2026) names fr0ggy5 (@fr0ggy5) as creator, states \"Free to use under the Unsplash License\", is not Unsplash+, and its main image key photo-1749414418679-39da8b9788b4 matches the preview; original size 6000x4000 from the connector record. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement. The publisher page's image key photo-1749414418679-39da8b9788b4 is the key of the reviewed preview URL."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T09:19:32Z",
+        "actor": "claude",
+        "notes": "Unsplash connector search for \"metal watering can\" (24 results) after searches for \"bicycle floor pump\" and \"megaphone\" (40 results) found no usable third non-member for the musical instruments pool; the watering can, whose spout and rose echo a horn, substitutes for the bicycle pump. Reviewed by claude at 256 and 128 px."
+      },
+      "unresolved_issues": [
+        "Small handwritten marks on the side of the can",
+        "A soft shadow band crosses the lower part of the frame",
+        "Grey can on grey asphalt: contrast is moderate, carried by the yellow rose and the dark opening"
+      ],
+      "created_at": "2026-10-27T09:19:32Z",
+      "updated_at": "2026-10-27T09:19:32Z",
+      "actor": "claude",
+      "description": "Galvanised metal watering can with a yellow rose standing on grey asphalt",
+      "object_type": "watering-can",
+      "content_origin": "photograph",
+      "keywords": [
+        "watering-can",
+        "galvanised-metal",
+        "garden-tool",
+        "asphalt",
+        "grey"
+      ],
+      "assessments": [
+        {
+          "theme": "musical-instruments",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 10,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the watering can spans about 87% of the crop, side, slightly from above, galvanised grey with a yellow rose, against grey gravel asphalt in sunlight; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 385,
+            "y": 20,
+            "side": 820,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1749414418679-39da8b9788b4-standardized-v1",
+      "asset_id": "photo-unsplash-1749414418679-39da8b9788b4",
+      "levels": [
+        "standardized"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1749414418679-39da8b9788b4-source-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/standardized/musical-instruments/photo-unsplash-1749414418679-39da8b9788b4-standardized-v1.webp",
+          "sha256": "90c25e9b514cd3dff8eafafa6588001ad1f517efb9b7f4cc00fbb1709ee8796e",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 67254
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/standardized/musical-instruments/photo-unsplash-1749414418679-39da8b9788b4-standardized-v1-s.webp",
+          "sha256": "be9418154b735503571f1b4b888268443b3eae6aabb6c833e51bf77cb5a267fd",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19446
+        }
+      ],
+      "characteristics": {
+        "colour": "galvanised grey with a yellow rose",
+        "viewpoint": "Side, slightly from above",
+        "facing_direction": "left",
+        "environment": "grey gravel asphalt in sunlight",
+        "support": "standing on the asphalt",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "standardised-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:19:42Z",
+          "reason": "Whole subject from the reviewed crop (galvanised metal watering can with a yellow rose standing on grey asphalt), complete and uncut. No clipping, stretching or content change; checked at 256 px and 128 px tile size.",
+          "scope": "standardised-512-256"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:19:42Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "standardisation",
+        "timestamp": "2026-10-27T09:19:42Z",
+        "actor": "claude",
+        "profile": "webp-512-256-v1",
+        "input": {
+          "url": "https://images.unsplash.com/photo-1749414418679-39da8b9788b4?w=1280",
+          "sha256": "d312ff2ccee83b7dc994a3690f4f1be15fdeb1e3da17956be0a10c634efeb41f",
+          "format": "jpeg"
+        },
+        "input_dimensions": {
+          "width": 1280,
+          "height": 853
+        },
+        "crop": {
+          "x": 385,
+          "y": 20,
+          "side": 820
+        },
+        "orientation": "EXIF orientation 1 (none needed)",
+        "colour_conversion": "Embedded ICC profile 'sRGB IEC61966-2.1' converted to sRGB (perceptual intent); output untagged sRGB.",
+        "resampling": "Lanczos",
+        "encoder": "Pillow 12.3.0 WebP (libwebp 1.6.0), quality 82, method 6",
+        "tool": "tools/stimuli/standardise.py",
+        "content_changes": false,
+        "allow_upscale": false,
+        "notes": "Input is the reviewed preview recorded on the parent; the crop is the parent's reviewed proposed crop. The original master was not used."
+      },
+      "unresolved_issues": [
+        "Small handwritten marks on the side of the can",
+        "A soft shadow band crosses the lower part of the frame",
+        "Grey can on grey asphalt: contrast is moderate, carried by the yellow rose and the dark opening"
+      ],
+      "created_at": "2026-10-27T09:19:42Z",
+      "updated_at": "2026-10-27T09:19:42Z",
+      "actor": "claude",
+      "description": "Galvanised metal watering can with a yellow rose standing on grey asphalt",
+      "object_type": "watering-can",
+      "content_origin": "photograph",
+      "keywords": [
+        "watering-can",
+        "galvanised-metal",
+        "garden-tool",
+        "asphalt",
+        "grey"
+      ],
+      "assessments": [
+        {
+          "theme": "musical-instruments",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 10,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the watering can spans about 87% of the crop, side, slightly from above, galvanised grey with a yellow rose, against grey gravel asphalt in sunlight; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
           "scope": "standardised-crop"
         }
       ]
