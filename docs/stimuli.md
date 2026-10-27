@@ -8,7 +8,7 @@ All stimulus work uses the [staged collection](../stimuli/README.md) and its man
 
 Licensed photographs may supply ordinary images or inputs for later AI edits. Verify each source and its derivative permission automatically during the search, before presenting it as suitable or adding it to `suitable`; see the search procedure below. Third-party licences remain distinct from the code licence. Both ordinary and manipulated selections must meet the photography guidelines below; edited masters must be standardised before final selection.
 
-The collection includes 46 linked raw candidates, of which twenty meet the target clarity standard and are suitable (four of them standardised), plus a versioned snapshot of the existing G01 files. Five more are reserves; twenty-one are rejected and remain raw only. The [source review](../stimuli/raw/bicycles/rights-review-2026-10-26.md) records the evidence. The collection does not replace the live catalogue or add a photograph-import path to the renderer-only publisher. Recording a final set is separate from changing the game or deploying it. The current 512/256 px WebP pipeline remains in use.
+The collection includes 46 linked raw candidates, of which twenty-five meet the target clarity standard and are suitable (four of them standardised), plus a versioned snapshot of the existing G01 files. The other twenty-one are rejected and remain raw only. The [source review](../stimuli/raw/bicycles/rights-review-2026-10-26.md) records the evidence. The collection does not replace the live catalogue or add a photograph-import path to the renderer-only publisher. Recording a final set is separate from changing the game or deploying it. The current 512/256 px WebP pipeline remains in use.
 
 ## Current status and replacement direction
 
@@ -157,7 +157,7 @@ Record **placement, support, contact points and intended exception** in each gen
 
 #### Set-level variety targets
 
-Apply these targets to every candidate pool and to every nine-image selection, counting images already selected. Check them within each role as well as across the whole set. All images must still meet the [target clarity standard](#target-clarity-standard); where both cannot be met, keep searching rather than relaxing either.
+Apply these targets to every candidate pool and to every nine-image selection, counting images already selected. Plan searches so that the suitable pool meets them, and every nine-image selection must meet them. Never remove a suitable image to improve the pool's counts; there is no reserve status. Close a shortfall by adding images that fill the gap, or by choosing a varied nine-image set from the pool. Check them within each role as well as across the whole set. All images must still meet the [target clarity standard](#target-clarity-standard); where both cannot be met, keep searching rather than relaxing either.
 
 | Feature | Target |
 |---|---|

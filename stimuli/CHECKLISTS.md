@@ -38,6 +38,7 @@ For the whole set, after selection:
 - [ ] The reason is recorded on the version's review and in a history event.
 - [ ] Only the relevant stage membership is removed; the raw record remains so that the source is not added again.
 - [ ] Every unused standardised or edited derivative of a rejected source is withdrawn (files deleted, `withdrawn` entry and event).
+- [ ] The image was rejected because it fails the clarity standard or the rights check, not to improve set-level variety (there is no reserve status).
 - [ ] The remaining selection is re-checked against the set-level variety targets, and any shortfall is reported.
 
 ## Standardisation (suitable or manipulated → standardized)

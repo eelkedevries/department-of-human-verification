@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T01:07:23Z",
+  "updated_at": "2026-10-27T01:48:29Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -8499,7 +8499,8 @@
       "version_id": "photo-unsplash-1631443412966-2a2ab5e18c3b-source-v1",
       "asset_id": "photo-unsplash-1631443412966-2a2ab5e18c3b",
       "levels": [
-        "raw"
+        "raw",
+        "suitable"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1631443412966-2a2ab5e18c3b?w=1280",
@@ -8545,7 +8546,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T01:48:29Z",
       "actor": "claude",
       "description": "Black roadster bicycle with a front basket against a white wall",
       "object_type": "bicycle",
@@ -8564,8 +8565,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": null,
-          "grade": "Reserve: set variety",
+          "rank": 21,
+          "grade": "Meets target clarity",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -9017,7 +9018,8 @@
       "version_id": "photo-unsplash-1592419044706-39796d40f98c-source-v1",
       "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
       "levels": [
-        "raw"
+        "raw",
+        "suitable"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=1280",
@@ -9063,7 +9065,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T01:48:29Z",
       "actor": "claude",
       "description": "Navy road bicycle against a two-tone wall",
       "object_type": "bicycle",
@@ -9081,8 +9083,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": null,
-          "grade": "Reserve: set variety",
+          "rank": 22,
+          "grade": "Meets target clarity",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, dark frame against a pale rendered wall; a soft wall shadow does not cross the bicycle; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -9190,7 +9192,8 @@
       "version_id": "photo-unsplash-1667837896876-012372133bbd-source-v1",
       "asset_id": "photo-unsplash-1667837896876-012372133bbd",
       "levels": [
-        "raw"
+        "raw",
+        "suitable"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1667837896876-012372133bbd?w=1280",
@@ -9236,7 +9239,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T01:48:29Z",
       "actor": "claude",
       "description": "Copper fixed-gear bicycle against a white wall",
       "object_type": "bicycle",
@@ -9254,8 +9257,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": null,
-          "grade": "Reserve: set variety",
+          "rank": 23,
+          "grade": "Meets target clarity",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing right, copper frame and black wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -9448,7 +9451,8 @@
       "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-source-v1",
       "asset_id": "photo-unsplash-1777675024325-d93b5c5fc71c",
       "levels": [
-        "raw"
+        "raw",
+        "suitable"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1777675024325-d93b5c5fc71c?w=1280",
@@ -9494,7 +9498,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T01:48:29Z",
       "actor": "claude",
       "description": "Black city bicycle with a basket against a grey wall",
       "object_type": "bicycle",
@@ -9513,8 +9517,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": null,
-          "grade": "Reserve: set variety",
+          "rank": 24,
+          "grade": "Meets target clarity",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a light grey wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -9620,7 +9624,8 @@
       "version_id": "photo-unsplash-1559348349-86f1f65817fe-source-v1",
       "asset_id": "photo-unsplash-1559348349-86f1f65817fe",
       "levels": [
-        "raw"
+        "raw",
+        "suitable"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1559348349-86f1f65817fe?w=1280",
@@ -9666,7 +9671,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T01:48:29Z",
       "actor": "claude",
       "description": "Black fixed-gear bicycle against a grey concrete wall",
       "object_type": "bicycle",
@@ -9684,8 +9689,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": null,
-          "grade": "Reserve: set variety",
+          "rank": 25,
+          "grade": "Meets target clarity",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a mid-grey concrete wall; contrast adequate at 128 px; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",

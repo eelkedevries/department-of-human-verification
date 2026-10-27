@@ -71,3 +71,7 @@ Pexels photographs follow the [Pexels License](https://www.pexels.com/license/) 
 | Cue to the answer | Distractors and targets share views, colours and settings | no view, colour, setting or quality cue | met |
 
 Two targets remain unmet: side profiles (13/20 (65%)) and wall settings (13/20 (65%)). Meeting both needs about three more clear three-quarter bicycles in settings other than walls to replace side-profile, wall-backed ones. The searched sources did not provide them. A further source, commissioned photographs, or generated or edited images with the documented provenance would be needed.
+
+## Correction: no reserve status, 27 October 2026
+
+On the owner's decision, the five side-profile bicycles removed in the set-level variety review were restored to `suitable` as ranks 21–25, because they meet the clarity standard and the rights check. The suitable pool now holds 25 photographs; its view, setting and three-quarter shares are further from the targets, so variety must come from adding varied images and from choosing varied nine-image sets.
