@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C03@1",
+  "set_id": "C03",
+  "version": 1,
+  "theme": "ducks",
+  "status": "approved",
+  "instruction": "Select all images containing a duck.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C03",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all birds that quack.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary ducks count, and so do the duck reading a newspaper on a bench and the duck standing on wheels: impossible, but still ducks. The robot duck and the wooden decoy are borderline cases, recorded without a verdict. The swan, the penguin and the pigeon are not ducks.",
+    "feedback": {
+      "correct": [
+        "Ducks identified. They have been told to carry on.",
+        "Correct. All ducks are in a row."
+      ],
+      "partial": [
+        "Partially correct. A duck has slipped away unnoticed.",
+        "Partially correct. Your duck count is under review."
+      ],
+      "incorrect": [
+        "Incorrect. The ducks are unimpressed.",
+        "Incorrect. The Department will not be ruffled by this."
+      ]
+    },
+    "stimulus_id": "C03",
+    "version": 1,
+    "grid_hash": "97e5f53bb2aa435416efe441d3cdcdf61adf958778eaffdd9c75291596460cfa"
+  },
+  "tiles": [
+    {
+      "tile_id": "C03-T1",
+      "version_id": "photo-unsplash-1759296207466-1ffa84064931-c03-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C03-T2",
+      "version_id": "photo-unsplash-1758817514661-3c506b9c28ae-c03-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C03-T3",
+      "version_id": "generated-ducks-bench-reader-duck-c03-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C03-T4",
+      "version_id": "generated-ducks-wheel-footed-duck-c03-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C03-T5",
+      "version_id": "generated-ducks-robot-duck-c03-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C03-T6",
+      "version_id": "generated-ducks-decoy-duck-c03-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C03-T7",
+      "version_id": "photo-unsplash-1712605102130-59444841cba8-c03-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C03-T8",
+      "version_id": "photo-unsplash-1778909236557-0e1fd2b3a675-c03-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C03-T9",
+      "version_id": "photo-unsplash-1786223252518-db0026329748-c03-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C03-T1",
+    "C03-T2",
+    "C03-T3",
+    "C03-T4"
+  ],
+  "borderline_tile_ids": [
+    "C03-T5",
+    "C03-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:01:12Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary ducks (white Pekin duck on a lawn, three-quarter view; mandarin drake swimming, side view), two impossible ducks (generated mallard on a park bench holding a newspaper in human hands; generated female mallard standing on small wheels), two borderline objects shaped like ducks (generated metal robot duck on a lake shore; generated carved wooden decoy floating on a lake) and three non-member birds (mute swan, gentoo penguin, feral pigeon). Water and white plumage appear among targets, borderline cases and non-members alike, so neither decides. Views, colours and settings vary within each role. The mallard drake, the walking mandarin, the rubber duck, the three-headed duck and the earlier renders remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:01:12Z",
+  "actor": "claude"
+}

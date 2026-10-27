@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "ducks",
-  "set_keys": []
+  "set_keys": [
+    "C03@1"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-a3113a2ec4",
+  "catalogue_version": "2026-10-27-b2ee6b26c5",
   "families": [
     "recognition",
     "semantic",
@@ -436,6 +436,219 @@
       "borderline_tile_ids": [
         "C02-T5",
         "C02-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C03",
+      "version": 1,
+      "hash": "97e5f53bb2aa435416efe441d3cdcdf61adf958778eaffdd9c75291596460cfa",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a duck.",
+      "instruction_variants": {
+        "direct": "Select all images containing a duck.",
+        "semantic": "Select all birds that quack."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary ducks count, and so do the duck reading a newspaper on a bench and the duck standing on wheels: impossible, but still ducks. The robot duck and the wooden decoy are borderline cases, recorded without a verdict. The swan, the penguin and the pigeon are not ducks.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Ducks identified. They have been told to carry on.",
+          "Correct. All ducks are in a row."
+        ],
+        "partial": [
+          "Partially correct. A duck has slipped away unnoticed.",
+          "Partially correct. Your duck count is under review."
+        ],
+        "incorrect": [
+          "Incorrect. The ducks are unimpressed.",
+          "Incorrect. The Department will not be ruffled by this."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C03-T1",
+          "src": "7f6c6ce3919a873c.webp",
+          "src_small": "7f6c6ce3919a873c-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "7f6c6ce3919a873c9e06e4d2dbb17a2d17c833d537fd5635858f8460e7e1af09",
+          "alt": "White Pekin duck standing on a mown lawn",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Nico Fabian",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/SBm6u3azgF0",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Nico Fabian on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C03-T2",
+          "src": "9503521475b8d5cb.webp",
+          "src_small": "9503521475b8d5cb-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "9503521475b8d5cb4b9c55e22051242d6960fae9fc0f99c7abb8a2c79406af60",
+          "alt": "Mandarin drake swimming on calm blue water",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Victoria Wang",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/FNhDTC_kKpA",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Victoria Wang on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C03-T3",
+          "src": "287a8d3b0cfcc85b.webp",
+          "src_small": "287a8d3b0cfcc85b-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "287a8d3b0cfcc85bded0202c50478627811d2871183325165f1f7e96f86e27e9",
+          "alt": "Mallard sitting upright on a park bench holding a newspaper in two human hands",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C03-T4",
+          "src": "5835a7c8895d8f1b.webp",
+          "src_small": "5835a7c8895d8f1b-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "5835a7c8895d8f1b4c42f951cbb3f6ae78aba4441ef74f362f09c8da9e850d3f",
+          "alt": "Female mallard standing on a park path on two small spoked wheels attached to its feet",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C03-T5",
+          "src": "7f090d655b0ad9cc.webp",
+          "src_small": "7f090d655b0ad9cc-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "7f090d655b0ad9ccba7fb51d27391788b3ddc243187478a96ef317ea04d6e075",
+          "alt": "Life-sized metal robot duck standing alone on a grassy lake shore",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C03-T6",
+          "src": "df66024ac41b056d.webp",
+          "src_small": "df66024ac41b056d-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "df66024ac41b056db7459a63638ed26fbd24da0aac524169405cc1b78da1808a",
+          "alt": "Carved and painted wooden mallard decoy floating alone on a calm lake with its anchor cord",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C03-T7",
+          "src": "5e68a4b0527e1d81.webp",
+          "src_small": "5e68a4b0527e1d81-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "5e68a4b0527e1d8172a11a34b7d5fa71e8c9bb1c73395ff4f42209d4ebe7c506",
+          "alt": "Mute swan swimming on rippled green water",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Kristina Kutleša",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/Kr7Z_un_TaQ",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Kristina Kutleša on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C03-T8",
+          "src": "5ed8aa8e18051c09.webp",
+          "src_small": "5ed8aa8e18051c09-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "5ed8aa8e18051c093d7135f894c35364a39c5b80263ab63c729e2c1cece01711",
+          "alt": "Gentoo penguin walking on a sandy beach with its flippers spread",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Danielle Barnes",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/jTqm82C1TE8",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Danielle Barnes on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C03-T9",
+          "src": "f56dd36c1d8eac4f.webp",
+          "src_small": "f56dd36c1d8eac4f-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "f56dd36c1d8eac4f487272fac560c1683a07020a67488a1aef8aa9401bb95664",
+          "alt": "Dark grey feral pigeon with an iridescent neck standing on paving",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Suryagayathri C.K",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/gdSq3I2ri8k",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Suryagayathri C.K on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C03-T1",
+        "C03-T2",
+        "C03-T3",
+        "C03-T4"
+      ],
+      "borderline_tile_ids": [
+        "C03-T5",
+        "C03-T6"
       ]
     },
     {

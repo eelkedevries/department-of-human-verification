@@ -5,6 +5,9 @@
   "theme": "ducks",
   "version_ids": [
     "generated-ducks-wheel-footed-duck-v1",
-    "generated-ducks-three-headed-duck-v1"
+    "generated-ducks-three-headed-duck-v1",
+    "generated-ducks-bench-reader-duck-v1",
+    "generated-ducks-robot-duck-v1",
+    "generated-ducks-decoy-duck-v1"
   ]
 }
