@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C09@2",
+  "set_id": "C09",
+  "version": 2,
+  "theme": "boats",
+  "status": "approved",
+  "instruction": "Select all images containing a boat.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C09",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all craft made to travel on water.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary boats count, and so do the rowing boat with human arms for oars and the sailboat carrying a lighthouse: impossible, but still boats. The inflatable duck with an outboard motor and the floating picnic table are borderline cases, recorded without a verdict. The car, the picnic table on land and the wheelbarrow are not boats.",
+    "feedback": {
+      "correct": [
+        "Boats identified. Please do not rock them.",
+        "Correct. Every boat has been moored."
+      ],
+      "partial": [
+        "Partially correct. A boat has drifted out of view.",
+        "Partially correct. Some boats sailed past you."
+      ],
+      "incorrect": [
+        "Incorrect. The Department is all at sea.",
+        "Incorrect. Your harbour permit is under review."
+      ]
+    },
+    "stimulus_id": "C09",
+    "version": 2,
+    "grid_hash": "38f838fb980a6971d0ce91f416132411a0977d5486095141b971b8c93ef05c7f"
+  },
+  "tiles": [
+    {
+      "tile_id": "C09-T1",
+      "version_id": "photo-unsplash-1724102894997-c30f6216cec6-c09-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T2",
+      "version_id": "photo-unsplash-1733336650115-65565c0adae6-c09-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T3",
+      "version_id": "photo-unsplash-1587977706287-86d257db113f-c09-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T4",
+      "version_id": "generated-boats-lighthouse-sailboat-c09-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T5",
+      "version_id": "generated-boats-duck-float-boat-c09-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C09-T6",
+      "version_id": "generated-boats-picnic-table-boat-c09-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C09-T7",
+      "version_id": "photo-unsplash-1739615124112-d5760c5a26df-c09-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C09-T8",
+      "version_id": "photo-unsplash-1635958068287-2f496bea08a4-c09-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C09-T9",
+      "version_id": "photo-unsplash-1723022468974-e06843cef1ab-c09-2-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C09-T1",
+    "C09-T2",
+    "C09-T3",
+    "C09-T4"
+  ],
+  "borderline_tile_ids": [
+    "C09-T5",
+    "C09-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:37:48Z",
+    "reason": "Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection."
+  },
+  "created_at": "2026-10-27T10:37:48Z",
+  "actor": "claude"
+}

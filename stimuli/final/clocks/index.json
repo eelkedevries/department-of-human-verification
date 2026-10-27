@@ -4,6 +4,7 @@
   "level": "final",
   "theme": "clocks",
   "set_keys": [
-    "C08@1"
+    "C08@1",
+    "C08@2"
   ]
 }

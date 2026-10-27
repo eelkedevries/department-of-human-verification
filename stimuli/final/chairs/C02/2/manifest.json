@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C02@2",
+  "set_id": "C02",
+  "version": 2,
+  "theme": "chairs",
+  "status": "approved",
+  "instruction": "Select all images containing a chair.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C02",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made for sitting on.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary chairs count, and so does the office chair on crab legs: impossible, but still a chair. The person wearing a strapped-on chair seat, the tree stump carved into a seat and the toilet with an armchair's back and arms are borderline cases, recorded without a verdict. The floor lamp, the chest of drawers and the clothes rail are not chairs.",
+    "feedback": {
+      "correct": [
+        "Chairs identified. Please remain seated.",
+        "Correct. The Department has taken a seat to celebrate."
+      ],
+      "partial": [
+        "Partially correct. Some chairs remain standing.",
+        "Partially correct. A chair has been left unattended."
+      ],
+      "incorrect": [
+        "Incorrect. No policy currently exists for this kind of seating.",
+        "Incorrect. The chairs have been asked to stand down."
+      ]
+    },
+    "stimulus_id": "C02",
+    "version": 2,
+    "grid_hash": "3dbaddd46b4d105fa3166f3704a69689f1a681156d60088b5b6441c6c728abe3"
+  },
+  "tiles": [
+    {
+      "tile_id": "C02-T1",
+      "version_id": "photo-unsplash-1650476524564-f94dc9669067-c02-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C02-T2",
+      "version_id": "photo-unsplash-1538850207400-2987d0be964f-c02-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C02-T3",
+      "version_id": "generated-chairs-crab-office-chair-c02-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C02-T4",
+      "version_id": "generated-chairs-human-chair-c02-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C02-T5",
+      "version_id": "photo-unsplash-1505418681079-9baf9a339393-c02-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C02-T6",
+      "version_id": "generated-chairs-toilet-armchair-c02-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C02-T7",
+      "version_id": "photo-pexels-11545385-c02-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C02-T8",
+      "version_id": "photo-pexels-9914680-c02-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C02-T9",
+      "version_id": "photo-pexels-6045058-c02-2-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C02-T1",
+    "C02-T2",
+    "C02-T3"
+  ],
+  "borderline_tile_ids": [
+    "C02-T4",
+    "C02-T5",
+    "C02-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:37:48Z",
+    "reason": "Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection."
+  },
+  "created_at": "2026-10-27T10:37:48Z",
+  "actor": "claude"
+}

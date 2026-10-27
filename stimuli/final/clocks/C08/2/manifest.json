@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C08@2",
+  "set_id": "C08",
+  "version": 2,
+  "theme": "clocks",
+  "status": "approved",
+  "instruction": "Select all images containing a clock.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C08",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made to tell the time.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary clocks count, and so do the clock whose hands are human arms and the grandfather clock with a cuckoo bursting out of it: impossible, but still clocks. The phone hung on the wall showing a clock face and the sundial are borderline cases, recorded without a verdict. The mirror, the decorative plate and the compass are not clocks.",
+    "feedback": {
+      "correct": [
+        "Clocks identified. Your time has been well spent.",
+        "Correct. The Department will be on time for once."
+      ],
+      "partial": [
+        "Partially correct. A clock is still unaccounted for.",
+        "Partially correct. Some clocks ran out of time."
+      ],
+      "incorrect": [
+        "Incorrect. The Department has stopped the clock.",
+        "Incorrect. Time has been wasted, and recorded."
+      ]
+    },
+    "stimulus_id": "C08",
+    "version": 2,
+    "grid_hash": "444c61668b218e328f370c85e0a437121e32e603c14066bcdfb8169a414b02d7"
+  },
+  "tiles": [
+    {
+      "tile_id": "C08-T1",
+      "version_id": "photo-unsplash-1558395872-85709c6d3639-c08-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C08-T2",
+      "version_id": "photo-pexels-11747093-c08-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C08-T3",
+      "version_id": "generated-clocks-arm-hands-clock-c08-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C08-T4",
+      "version_id": "generated-clocks-cuckoo-burst-c08-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C08-T5",
+      "version_id": "generated-clocks-phone-wall-clock-c08-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C08-T6",
+      "version_id": "photo-pexels-27183730-c08-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C08-T7",
+      "version_id": "photo-unsplash-1619213348491-b7b7602727f9-c08-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C08-T8",
+      "version_id": "photo-pexels-17343135-c08-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C08-T9",
+      "version_id": "photo-unsplash-1558978325-66dcf73b99b0-c08-2-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C08-T1",
+    "C08-T2",
+    "C08-T3",
+    "C08-T4"
+  ],
+  "borderline_tile_ids": [
+    "C08-T5",
+    "C08-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:37:48Z",
+    "reason": "Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection."
+  },
+  "created_at": "2026-10-27T10:37:48Z",
+  "actor": "claude"
+}

@@ -72,7 +72,7 @@ Use `final/<theme>/<set-id>/<version>/` for a complete selection. Its manifest p
 
 The imported G01 snapshot was exempt from new-stage review gates because it recorded an existing published set; it was retired on the owner's decision of 27 October 2026. A retired set keeps a tombstone in `retired_sets` with the removed file paths and a `set_retired` history event; its versions are withdrawn. Only the owner can retire a final set, and no new legacy imports may be made.
 
-Recording a final set does not publish it. `tools/stimuli/publish.py` publishes the final sets whose manifest says `"game": {"publish": true, ...}`: it copies their WebP pairs to `public/stimuli/` under opaque content-hash names and writes `src/stimuli/catalogue.json` with each tile's credit (creator, source page, licence and, for AI images, the model). Prompts, seeds, collection paths and unpublished images stay out of the deployed bundle. The legacy `tools/stimuli/build.py` route for generated renders is superseded.
+Recording a final set does not publish it. `tools/stimuli/publish.py` publishes the final sets whose manifest says `"game": {"publish": true, ...}`: it copies their WebP pairs to `public/stimuli/` under opaque content-hash names and writes `src/stimuli/catalogue.json` with each tile's credit (creator, source page, licence and, for AI images, the model). Where a grid has several published versions, only the latest is served; earlier versions stay recorded in the collection. Prompts, seeds, collection paths and unpublished images stay out of the deployed bundle. The legacy `tools/stimuli/build.py` route for generated renders is superseded.
 
 ## Tools
 

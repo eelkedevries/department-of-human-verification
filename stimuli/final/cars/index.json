@@ -4,6 +4,7 @@
   "level": "final",
   "theme": "cars",
   "set_keys": [
-    "C04@1"
+    "C04@1",
+    "C04@2"
   ]
 }

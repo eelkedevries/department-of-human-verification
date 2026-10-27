@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C04@2",
+  "set_id": "C04",
+  "version": 2,
+  "theme": "cars",
+  "status": "approved",
+  "instruction": "Select all images containing a car.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C04",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all motor vehicles for carrying a few passengers.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary cars count, and so do the car with a tree growing out of its bonnet and the estate car standing on horse legs: impossible, but still cars. The foot-powered buggy and the shopping trolley turned into a driving cabin are borderline cases, recorded without a verdict. The motorcycle, the wheelbarrow and the bicycle are not cars.",
+    "feedback": {
+      "correct": [
+        "Cars identified. Please mind the horse.",
+        "Correct. Every car has been logged and towed."
+      ],
+      "partial": [
+        "Partially correct. A car remains unaccounted for.",
+        "Partially correct. Some cars have been left idling."
+      ],
+      "incorrect": [
+        "Incorrect. Your licence to identify cars is under review.",
+        "Incorrect. The Department has issued a parking ticket."
+      ]
+    },
+    "stimulus_id": "C04",
+    "version": 2,
+    "grid_hash": "84f2e3746f2f8cd8f2e456bacb7ebe4604070f9967c6143930a29e8db0f11a12"
+  },
+  "tiles": [
+    {
+      "tile_id": "C04-T1",
+      "version_id": "photo-unsplash-1763406348286-bf9067a05d5e-c04-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T2",
+      "version_id": "photo-unsplash-1662412765790-2b97cc3dbc6f-c04-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T3",
+      "version_id": "generated-cars-tree-car-c04-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T4",
+      "version_id": "photo-unsplash-1760162754961-ed27f26b394f-c04-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C04-T5",
+      "version_id": "generated-cars-foot-buggy-c04-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C04-T6",
+      "version_id": "generated-cars-trolley-cabin-c04-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C04-T7",
+      "version_id": "photo-pexels-17963040-c04-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C04-T8",
+      "version_id": "photo-pexels-5490910-c04-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C04-T9",
+      "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-c04-2-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C04-T1",
+    "C04-T2",
+    "C04-T3",
+    "C04-T4"
+  ],
+  "borderline_tile_ids": [
+    "C04-T5",
+    "C04-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:37:48Z",
+    "reason": "Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection."
+  },
+  "created_at": "2026-10-27T10:37:48Z",
+  "actor": "claude"
+}

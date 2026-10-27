@@ -70,6 +70,7 @@ For the whole set, after selection:
 ## Publishing (final → game)
 
 - [ ] Only final sets whose manifest sets `"game": {"publish": true}` are published, with `tools/stimuli/publish.py`.
+- [ ] A changed grid is a new set version (same grid ID, version + 1); only the latest published version of each grid is served.
 - [ ] `src/stimuli/catalogue.json` gives every tile its credit (creator, source page, licence and, for AI images, the model) and no prompts, seeds or collection paths; the About dialog lists the credits.
 - [ ] `npm run check`, the end-to-end tests and the public-build check pass; the live page is checked after the deploy.
 

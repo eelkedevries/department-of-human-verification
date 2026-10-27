@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-f59f14f4fd",
+  "catalogue_version": "2026-10-27-1f58fc07ea",
   "families": [
     "recognition",
     "semantic",
@@ -227,8 +227,8 @@
     },
     {
       "stimulus_id": "C02",
-      "version": 1,
-      "hash": "5c921f46363eeff560f8bba9f6598e4dcefb168cb5fab1d077f56d8981162a27",
+      "version": 2,
+      "hash": "3dbaddd46b4d105fa3166f3704a69689f1a681156d60088b5b6441c6c728abe3",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a chair.",
@@ -237,7 +237,7 @@
         "semantic": "Select all things made for sitting on."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Ordinary chairs count, and so do the office chair on crab legs and the armchair reading a newspaper: impossible, but still chairs. The person wearing a strapped-on chair seat and the tree stump carved into a seat are borderline cases, recorded without a verdict. The floor lamp, the chest of drawers and the clothes rail are not chairs.",
+      "explanation": "Ordinary chairs count, and so does the office chair on crab legs: impossible, but still a chair. The person wearing a strapped-on chair seat, the tree stump carved into a seat and the toilet with an armchair's back and arms are borderline cases, recorded without a verdict. The floor lamp, the chest of drawers and the clothes rail are not chairs.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
@@ -314,25 +314,6 @@
         },
         {
           "tile_id": "C02-T4",
-          "src": "28a8426e7e4b3f23.webp",
-          "src_small": "28a8426e7e4b3f23-s.webp",
-          "width": 512,
-          "height": 512,
-          "sha256": "28a8426e7e4b3f23fd3a415e82f23752f91fdc3f3b90c5bfaac4973902d15a88",
-          "alt": "Green armchair with human arms holding open a newspaper",
-          "provenance": {
-            "kind": "ai-generated",
-            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
-            "licence": "Apache-2.0",
-            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
-            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
-          }
-        },
-        {
-          "tile_id": "C02-T5",
           "src": "fb16954773ffcd33.webp",
           "src_small": "fb16954773ffcd33-s.webp",
           "width": 512,
@@ -351,7 +332,7 @@
           }
         },
         {
-          "tile_id": "C02-T6",
+          "tile_id": "C02-T5",
           "src": "8bf53340b968e601.webp",
           "src_small": "8bf53340b968e601-s.webp",
           "width": 512,
@@ -367,6 +348,25 @@
             "licence": "Unsplash License",
             "licence_url": "https://unsplash.com/license",
             "attribution": "Photo by Laurent Peignault on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C02-T6",
+          "src": "b5dd86b8aa29e69c.webp",
+          "src_small": "b5dd86b8aa29e69c-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "b5dd86b8aa29e69c66f2a08da8c699282a657ffb97c283eca70326bedd5bf258",
+          "alt": "White toilet fitted with a green velvet backrest and padded armrests in a tiled bathroom",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
         },
         {
@@ -430,10 +430,10 @@
       "answer_key": [
         "C02-T1",
         "C02-T2",
-        "C02-T3",
-        "C02-T4"
+        "C02-T3"
       ],
       "borderline_tile_ids": [
+        "C02-T4",
         "C02-T5",
         "C02-T6"
       ]
@@ -653,8 +653,8 @@
     },
     {
       "stimulus_id": "C04",
-      "version": 1,
-      "hash": "d8bca7580864d02fa0f2a171f6eff9ffb6d99baed3f7cec0b4fac570749879b9",
+      "version": 2,
+      "hash": "84f2e3746f2f8cd8f2e456bacb7ebe4604070f9967c6143930a29e8db0f11a12",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a car.",
@@ -663,7 +663,7 @@
         "semantic": "Select all motor vehicles for carrying a few passengers."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Ordinary cars count, and so do the car with a tree growing out of its bonnet and the car pulled apart into two halves: impossible, but still cars. The foot-powered buggy and the shopping trolley turned into a driving cabin are borderline cases, recorded without a verdict. The motorcycle, the wheelbarrow and the bicycle are not cars.",
+      "explanation": "Ordinary cars count, and so do the car with a tree growing out of its bonnet and the estate car standing on horse legs: impossible, but still cars. The foot-powered buggy and the shopping trolley turned into a driving cabin are borderline cases, recorded without a verdict. The motorcycle, the wheelbarrow and the bicycle are not cars.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
@@ -740,19 +740,21 @@
         },
         {
           "tile_id": "C04-T4",
-          "src": "272434195f24e07f.webp",
-          "src_small": "272434195f24e07f-s.webp",
+          "src": "61ec1b511a102240.webp",
+          "src_small": "61ec1b511a102240-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "272434195f24e07f2c5153c1ab30c90214cf55deb942c60627d9ec37a334b86c",
-          "alt": "White car pulled apart into a front half and a rear half joined by a long bar on an empty road",
+          "sha256": "61ec1b511a10224072ba9fd0fce237c31b2c4957ee9316eab9e30ba769b231ff",
+          "alt": "Light-blue estate car with a roof box standing on four brown horse legs with hooves",
           "provenance": {
-            "kind": "ai-generated",
-            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
-            "licence": "Apache-2.0",
-            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
-            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "kind": "ai-edited-photograph",
+            "edits": "Edited with FLUX.2 [klein] 4B: Replace the car's four wheels with tall realistic horse legs ending in hooves. Then cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Xingdong Yu",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/SSkIAZUb9VM",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Xingdong Yu on Unsplash",
             "model": "black-forest-labs/FLUX.2-klein-4B",
             "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
@@ -1507,8 +1509,8 @@
     },
     {
       "stimulus_id": "C08",
-      "version": 1,
-      "hash": "0ae1fd325ee177f777f6f2615b92baac310d101ddbb112a825d0fecf05907166",
+      "version": 2,
+      "hash": "444c61668b218e328f370c85e0a437121e32e603c14066bcdfb8169a414b02d7",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a clock.",
@@ -1517,7 +1519,7 @@
         "semantic": "Select all things made to tell the time."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Ordinary clocks count, and so does the alarm clock running on legs: impossible, but still a clock. The hourglass in a clock case, the phone hung on the wall showing a clock face and the sundial are borderline cases, recorded without a verdict. The mirror, the decorative plate and the compass are not clocks.",
+      "explanation": "Ordinary clocks count, and so do the clock whose hands are human arms and the grandfather clock with a cuckoo bursting out of it: impossible, but still clocks. The phone hung on the wall showing a clock face and the sundial are borderline cases, recorded without a verdict. The mirror, the decorative plate and the compass are not clocks.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
@@ -1556,31 +1558,31 @@
         },
         {
           "tile_id": "C08-T2",
-          "src": "4cd40f74d89391b9.webp",
-          "src_small": "4cd40f74d89391b9-s.webp",
+          "src": "7409f2d0c7441fc9.webp",
+          "src_small": "7409f2d0c7441fc9-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "4cd40f74d89391b9e063524ab8bca7c217e391e2977ef4548a50690052ea4ea7",
-          "alt": "Dark wooden longcase clock standing against a white wall between two windows",
+          "sha256": "7409f2d0c7441fc9e5dc09d9e88d8788f383aba02f7296ff49bc68ffd2c66507",
+          "alt": "Lime-green twin-bell alarm clock standing on a beige surface",
           "provenance": {
             "kind": "photograph",
             "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Klaus Nenning",
+            "creator": "Jafaris Mustafa",
             "source": "Pexels",
-            "source_url": "https://www.pexels.com/photo/classic-grandfather-clock-in-bright-interior-40273146/",
+            "source_url": "https://www.pexels.com/photo/close-up-photo-of-a-green-alarm-clock-11747093/",
             "licence": "Pexels License",
             "licence_url": "https://www.pexels.com/license/",
-            "attribution": "Photo by Klaus Nenning on Pexels"
+            "attribution": "Photo by Jafaris Mustafa on Pexels"
           }
         },
         {
           "tile_id": "C08-T3",
-          "src": "951d6052b669127a.webp",
-          "src_small": "951d6052b669127a-s.webp",
+          "src": "3cdee893443f8ea2.webp",
+          "src_small": "3cdee893443f8ea2-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "951d6052b669127aa3532002fd2b2ae5b69074a58405436a704322c6c1e82334",
-          "alt": "Red twin-bell alarm clock running across a bedroom floor on two little legs",
+          "sha256": "3cdee893443f8ea27ecfcbefc7905cde8c7670532a3489f01d12696b6e0998fc",
+          "alt": "Round white wall clock whose two hands are small human arms pointing at the numbers",
           "provenance": {
             "kind": "ai-generated",
             "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
@@ -1594,12 +1596,12 @@
         },
         {
           "tile_id": "C08-T4",
-          "src": "e80335879b9ba770.webp",
-          "src_small": "e80335879b9ba770-s.webp",
+          "src": "f6dfa7fea3cdfdce.webp",
+          "src_small": "f6dfa7fea3cdfdce-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "e80335879b9ba770fb3e824579294d70af166ec88d67f7f2f1480835679f0332",
-          "alt": "Hourglass with running sand inside the wooden case of a mantel clock, on a wooden shelf",
+          "sha256": "f6dfa7fea3cdfdce7bcbe8df6a880ce2046828937ebc3f964b299e87f0b07af3",
+          "alt": "Grey cuckoo bursting out of a wooden grandfather clock with wings spread and splinters flying",
           "provenance": {
             "kind": "ai-generated",
             "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
@@ -1710,18 +1712,18 @@
       "answer_key": [
         "C08-T1",
         "C08-T2",
-        "C08-T3"
+        "C08-T3",
+        "C08-T4"
       ],
       "borderline_tile_ids": [
-        "C08-T4",
         "C08-T5",
         "C08-T6"
       ]
     },
     {
       "stimulus_id": "C09",
-      "version": 1,
-      "hash": "401600b4af9c24327b87835bc8c60718aa52a11d9f614c11eaa9f1d66e8ee52d",
+      "version": 2,
+      "hash": "38f838fb980a6971d0ce91f416132411a0977d5486095141b971b8c93ef05c7f",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a boat.",
@@ -1730,7 +1732,7 @@
         "semantic": "Select all craft made to travel on water."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Ordinary boats count, and so do the yacht standing on mechanical legs and the sailboat carrying a lighthouse: impossible, but still boats. The inflatable duck with an outboard motor and the floating picnic table are borderline cases, recorded without a verdict. The car, the picnic table on land and the wheelbarrow are not boats.",
+      "explanation": "Ordinary boats count, and so do the rowing boat with human arms for oars and the sailboat carrying a lighthouse: impossible, but still boats. The inflatable duck with an outboard motor and the floating picnic table are borderline cases, recorded without a verdict. The car, the picnic table on land and the wheelbarrow are not boats.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
@@ -1788,19 +1790,21 @@
         },
         {
           "tile_id": "C09-T3",
-          "src": "bfba11850111f619.webp",
-          "src_small": "bfba11850111f619-s.webp",
+          "src": "f01a94c7a0dafae3.webp",
+          "src_small": "f01a94c7a0dafae3-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "bfba11850111f619db42680b4e1f5c109398aacf0975c6e5bfc456f92b3d2cdc",
-          "alt": "White sailing yacht standing on a sandy beach on four articulated mechanical legs",
+          "sha256": "f01a94c7a0dafae33dd17ca7154aad19994d8dcf19d9d9e904151d6464e41802",
+          "alt": "Empty varnished rowing boat with eight human arms growing from its hull and reaching into the water like oars",
           "provenance": {
-            "kind": "ai-generated",
-            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
-            "licence": "Apache-2.0",
-            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
-            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "kind": "ai-edited-photograph",
+            "edits": "Edited with FLUX.2 [klein] 4B: Make eight realistic human arms grow out of the empty boat's hull, reaching into the water like oars. Then cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "V",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/PUOQLdE0T6w",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by V on Unsplash",
             "model": "black-forest-labs/FLUX.2-klein-4B",
             "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }

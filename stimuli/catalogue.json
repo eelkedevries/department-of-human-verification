@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T10:36:06Z",
+  "updated_at": "2026-10-27T10:37:48Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -70685,6 +70685,3464 @@
           "scope": "standardised-crop"
         }
       ]
+    },
+    {
+      "version_id": "photo-unsplash-1650476524564-f94dc9669067-c02-2-final",
+      "asset_id": "photo-unsplash-1650476524564-f94dc9669067",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1650476524564-f94dc9669067-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/photo-unsplash-1650476524564-f94dc9669067-standardized-v1.webp",
+          "sha256": "fd16d53ac444b3a88c92d095cc90ec9fb165820f924202a90c35579a6ec74cd9",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13908
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/photo-unsplash-1650476524564-f94dc9669067-standardized-v1-s.webp",
+          "sha256": "ca414ee2aa5e98d122ba0855344ec26a247c9f0b90d4a82eac8ceb2042ec42df",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 4502
+        }
+      ],
+      "characteristics": {
+        "colour": "natural weathered wood",
+        "viewpoint": "Shallow three-quarter",
+        "facing_direction": "right",
+        "environment": "indoor room with plain grey wall",
+        "support": "wooden floorboards",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1650476524564-f94dc9669067-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Chair spans about 91% of the crop height, slightly above the 90% guideline"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Weathered wooden spindle-back chair on a wooden floor against a plain grey wall",
+      "object_type": "dining-chair",
+      "content_origin": "photograph",
+      "keywords": [
+        "chair",
+        "wooden-chair",
+        "spindle-back",
+        "rustic",
+        "indoor"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the dining chair spans about 91% of the crop, shallow three-quarter, natural weathered wood, against indoor room with plain grey wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1538850207400-2987d0be964f-c02-2-final",
+      "asset_id": "photo-unsplash-1538850207400-2987d0be964f",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1538850207400-2987d0be964f-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/photo-unsplash-1538850207400-2987d0be964f-standardized-v1.webp",
+          "sha256": "e82ffa53658c794631efd32bcf218ccc04051d535741b385529a5bcaae65d237",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 66082
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/photo-unsplash-1538850207400-2987d0be964f-standardized-v1-s.webp",
+          "sha256": "50826b4932aaa14a81022f0f9e5dca8d75bcd2f0367e83e7080ab11f039fafce",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 17884
+        }
+      ],
+      "characteristics": {
+        "colour": "bright pink",
+        "viewpoint": "Three-quarter, slightly elevated",
+        "facing_direction": "left",
+        "environment": "outdoor street corner beside a painted wall",
+        "support": "asphalt ground",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1538850207400-2987d0be964f-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Slightly elevated three-quarter view",
+        "Small grey electrical box on the wall at top left"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Pink metal folding bistro chair standing against a green painted brick wall",
+      "object_type": "folding-chair",
+      "content_origin": "photograph",
+      "keywords": [
+        "folding-chair",
+        "bistro-chair",
+        "metal-chair",
+        "pink",
+        "outdoor"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 3,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the folding chair spans about 83% of the crop, three-quarter, slightly elevated, bright pink, against outdoor street corner beside a painted wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-chairs-crab-office-chair-c02-2-final",
+      "asset_id": "generated-chairs-crab-office-chair",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-chairs-crab-office-chair-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/generated-chairs-crab-office-chair-standardized-v1.webp",
+          "sha256": "87f9d3c002afd22c8932086d4534bc83d8eb634e6cd7ee2191dcf0124341c515",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 31466
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/generated-chairs-crab-office-chair-standardized-v1-s.webp",
+          "sha256": "a18e2241323b61411e92e3e01960d53c459f165f5a91c0a5b0a1c245a7dd9021",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 11182
+        }
+      ],
+      "characteristics": {
+        "colour": "black with red legs",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "front",
+        "environment": "office corridor with grey carpet and glass partitions",
+        "support": "dozens of red crab legs instead of a wheeled base",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-chairs-crab-office-chair-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Black office chair standing on red crab legs in an office corridor",
+      "object_type": "office-chair",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "office-chair",
+        "crab-legs",
+        "impossible-object",
+        "office",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "A clear black office chair on a cluster of red crab legs: still plainly a chair, with an impossible base. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-chairs-human-chair-c02-2-final",
+      "asset_id": "generated-chairs-human-chair",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-chairs-human-chair-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/generated-chairs-human-chair-standardized-v1.webp",
+          "sha256": "fb16954773ffcd3346bdf49a6537d0e10644f1786d4b9edf36c146b042ee58ae",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 42528
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/generated-chairs-human-chair-standardized-v1-s.webp",
+          "sha256": "bb3aa1e1dba59edfad831de8a34e1744264237ea1d6675b0abca0ecd7e25945f",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15824
+        }
+      ],
+      "characteristics": {
+        "colour": "teal top and honey wood",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "living room with a red patterned rug and bookshelves",
+        "support": "the person's hands and knees on the rug",
+        "people": "one person forming the chair, essential to the image",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-chairs-human-chair-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Person on all fours on a rug with a chair seat and backrest strapped on",
+      "object_type": "person-as-chair",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "chair",
+        "person",
+        "human-furniture",
+        "living-room",
+        "wood"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 12,
+          "grade": "Meets target clarity",
+          "reason": "A person on hands and knees wearing a strapped-on chair seat and backrest: a seat for sitting on, but is it a chair? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1505418681079-9baf9a339393-c02-2-final",
+      "asset_id": "photo-unsplash-1505418681079-9baf9a339393",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1505418681079-9baf9a339393-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/photo-unsplash-1505418681079-9baf9a339393-standardized-v1.webp",
+          "sha256": "8bf53340b968e6015bd29dbfe172fdaed9bc9f8b4b7e85f55d03f02574f3447a",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 63714
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/photo-unsplash-1505418681079-9baf9a339393-standardized-v1-s.webp",
+          "sha256": "da33e71cd8c1c12dbde34d25725c52645e0306e43d23725257569e7be08594e2",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19038
+        }
+      ],
+      "characteristics": {
+        "colour": "pale bare wood with brown bark",
+        "viewpoint": "Three-quarter front",
+        "facing_direction": "left",
+        "environment": "coniferous forest",
+        "support": "rooted in the forest floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1505418681079-9baf9a339393-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Dappled sunlight casts leaf shadows over the seat and back",
+        "Stump sits right of centre with a narrow right-hand margin (about 20 px)",
+        "Arms are low carved sides rather than distinct armrests"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Tree stump carved into a chair with a high back and low side arms in a forest",
+      "object_type": "stump-chair",
+      "content_origin": "photograph",
+      "keywords": [
+        "stump-chair",
+        "tree-stump",
+        "carved-wood",
+        "forest",
+        "outdoor-seat"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the stump chair spans about 85% of the crop, three-quarter front, pale bare wood with brown bark, against coniferous forest; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-chairs-toilet-armchair-c02-2-final",
+      "asset_id": "generated-chairs-toilet-armchair",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-chairs-toilet-armchair-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/generated-chairs-toilet-armchair-standardized-v1.webp",
+          "sha256": "b5dd86b8aa29e69c66f2a08da8c699282a657ffb97c283eca70326bedd5bf258",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16862
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/generated-chairs-toilet-armchair-standardized-v1-s.webp",
+          "sha256": "1906e2d6657e632102a09ae04a52a570dfe765dc37a5b4ccc0614f369490a968",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 6396
+        }
+      ],
+      "characteristics": {
+        "colour": "white with green velvet",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "left",
+        "environment": "bathroom with beige floor and wall tiles",
+        "support": "toilet pedestal on the tiled floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-chairs-toilet-armchair-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "White toilet fitted with a green velvet backrest and padded armrests in a tiled bathroom",
+      "object_type": "toilet",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "toilet",
+        "armrests",
+        "backrest",
+        "upholstery",
+        "bathroom",
+        "green"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 14,
+          "grade": "Meets target clarity",
+          "reason": "A toilet with an upholstered backrest and armrests: built for sitting on like an armchair, but is it a chair? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-11545385-c02-2-final",
+      "asset_id": "photo-pexels-11545385",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-11545385-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/photo-pexels-11545385-standardized-v1.webp",
+          "sha256": "36203e05b5c4a664175e8cf16b1c2a649c5d594308447c2d6703fb31037f4487",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15988
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/photo-pexels-11545385-standardized-v1-s.webp",
+          "sha256": "33975df0e654ced5c5cac5f9a4874f614cdb26619464e7d34aa9ce90b9d81ece",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 5582
+        }
+      ],
+      "characteristics": {
+        "colour": "pink shade, brass stand",
+        "viewpoint": "Front",
+        "facing_direction": "not-applicable",
+        "environment": "period interior with painted wall decoration and a doorway",
+        "support": "wooden floor on a round base",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-11545385-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Busy decorated wall, doorway and framed picture behind the lamp",
+        "Thin stand reads less clearly at 128 px",
+        "Shade overlaps the lower edge of a framed picture",
+        "Marginal: no clearer floor lamp without a chair or sofa in shot was found"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Floor lamp with a pink fabric shade and slender brass stand in a decorated period room",
+      "object_type": "floor-lamp",
+      "content_origin": "photograph",
+      "keywords": [
+        "floor-lamp",
+        "standard-lamp",
+        "lampshade",
+        "brass",
+        "interior"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the floor lamp spans about 90% of the crop, front, pink shade, brass stand, against period interior with painted wall decoration and a doorway; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-9914680-c02-2-final",
+      "asset_id": "photo-pexels-9914680",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-9914680-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/photo-pexels-9914680-standardized-v1.webp",
+          "sha256": "c7f65ebae060355094b8a1a2662697319588c21ab9ddf007e03209b5d1fb94cb",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 17164
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/photo-pexels-9914680-standardized-v1-s.webp",
+          "sha256": "697b90f137a3a03bf4311524f941decdda89a1b82a04174ad78d685ff585c94b",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 4986
+        }
+      ],
+      "characteristics": {
+        "colour": "sage green",
+        "viewpoint": "Front, slightly from the left",
+        "facing_direction": "front",
+        "environment": "room corner with neutral walls",
+        "support": "speckled floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-9914680-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "Low two-drawer commode style, less archetypal than a tall chest"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Sage-green painted chest of drawers with curved legs standing in a room corner",
+      "object_type": "chest-of-drawers",
+      "content_origin": "photograph",
+      "keywords": [
+        "chest-of-drawers",
+        "commode",
+        "painted-furniture",
+        "green",
+        "interior"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the chest of drawers spans about 85% of the crop, front, slightly from the left, sage green, against room corner with neutral walls; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-6045058-c02-2-final",
+      "asset_id": "photo-pexels-6045058",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-6045058-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/chairs/C02/2/photo-pexels-6045058-standardized-v1.webp",
+          "sha256": "53ef1f2a35ee4e23fe53c63a467f78130d1358604c3082eb0b99777c60d77330",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15234
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/chairs/C02/2/photo-pexels-6045058-standardized-v1-s.webp",
+          "sha256": "db5019badeb1dc88717055c3a1afb6377f8fe27aa7802fe18161bda19e6df94d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 6110
+        }
+      ],
+      "characteristics": {
+        "colour": "silver rail, black coat",
+        "viewpoint": "Front",
+        "facing_direction": "not-applicable",
+        "environment": "bright room with white curtains",
+        "support": "floor on a metal base",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C02@2: Version 2 of C02, adding the re-rendered toilet armchair so that all three borderline concepts of the chairs pool appear. Nine distinct, standardised images reviewed together at tile size: two ordinary chairs (weathered wooden spindle-back chair; pink metal folding chair against a green wall), one impossible chair (generated black office chair on red crab legs), three borderline seats (generated person on all fours wearing a chair seat and backrest; photographed tree stump carved into a high-backed seat; generated toilet with a green velvet backrest and armrests) and three non-members (floor lamp, sage-green chest of drawers, clothes rail). Generated images appear among targets and borderline cases alike; views, colours and settings vary within each role. The reading armchair and the walking chair remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-6045058-standardized-v1 for final set C02@2."
+      },
+      "unresolved_issues": [
+        "A clothes rail rather than a classic coat stand",
+        "Black coat dominates the rail"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Free-standing metal clothes rail holding a black puffer coat in front of white curtains",
+      "object_type": "clothes-rail",
+      "content_origin": "photograph",
+      "keywords": [
+        "clothes-rail",
+        "coat-rack",
+        "puffer-coat",
+        "minimal",
+        "interior"
+      ],
+      "assessments": [
+        {
+          "theme": "chairs",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the clothes rail spans about 89% of the crop, front, silver rail, black coat, against bright room with white curtains; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1763406348286-bf9067a05d5e-c04-2-final",
+      "asset_id": "photo-unsplash-1763406348286-bf9067a05d5e",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1.webp",
+          "sha256": "39519b8ee6f6ac6b2544d7e8f45132644049f5e536bb1a7c9d251798f6f24091",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 46212
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1-s.webp",
+          "sha256": "181dd4591a4f70977a98a47675133a33823da34d56d6f6731132c185f70780e2",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13820
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "rocky mountain roadside",
+        "support": "gravel lay-by",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Front three-quarter view rather than side-on",
+        "Front number plate and manufacturer badge visible",
+        "Offered for colour variety against the blue hatchback and estate"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Black convertible saloon with its roof down standing on a gravel mountain lay-by",
+      "object_type": "convertible",
+      "content_origin": "photograph",
+      "keywords": [
+        "convertible",
+        "cabriolet",
+        "roof-down",
+        "mountain-road",
+        "black-car"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the convertible spans about 86% of the crop, front three-quarter, black, against rocky mountain roadside; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1662412765790-2b97cc3dbc6f-c04-2-final",
+      "asset_id": "photo-unsplash-1662412765790-2b97cc3dbc6f",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1.webp",
+          "sha256": "e7846fe26f8c3e9d4e1be7f4b7f38e8dd692f132dfe4145df9ea46574c3b2875",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29944
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1-s.webp",
+          "sha256": "50e07c1d46e129d9e782395fad0eaad3e0e6d9bd7df11912f082a09b7bc6663e",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8694
+        }
+      ],
+      "characteristics": {
+        "colour": "ivory and pale blue",
+        "viewpoint": "Side",
+        "facing_direction": "right",
+        "environment": "cobbled street in front of a stone building",
+        "support": "cobbled kerbside",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Pale body against grey stonework gives only moderate contrast",
+        "Barred windows of the building fill the upper background"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Classic two-tone ivory and blue roadster with its roof down, parked side-on on a cobbled street",
+      "object_type": "convertible",
+      "content_origin": "photograph",
+      "keywords": [
+        "convertible",
+        "roadster",
+        "classic-car",
+        "roof-down",
+        "side-profile"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 3,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the convertible spans about 87% of the crop, side, ivory and pale blue, against cobbled street in front of a stone building; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-cars-tree-car-c04-2-final",
+      "asset_id": "generated-cars-tree-car",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-cars-tree-car-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/generated-cars-tree-car-standardized-v1.webp",
+          "sha256": "68334603688febd4d7dda75ff00ffd578ee761ed3d6a546fab9ac97f3f4c1c92",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 94792
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/generated-cars-tree-car-standardized-v1-s.webp",
+          "sha256": "9b450107277602929e7acb84736674dbf5cd14d4cfd153c75a91bfdd35907ac6",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 26358
+        }
+      ],
+      "characteristics": {
+        "colour": "blue",
+        "viewpoint": "Front three-quarter",
+        "facing_direction": "left",
+        "environment": "residential street with brick houses and hedges",
+        "support": "four wheels on the road, the tree rooted in the bonnet",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-cars-tree-car-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The tree grows from the bonnet rather than through the roof."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Blue hatchback parked on a residential street with a leafy tree growing up through its bonnet",
+      "object_type": "hatchback",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "car",
+        "hatchback",
+        "tree",
+        "impossible-object",
+        "street",
+        "blue"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "A blue hatchback with a leafy tree rising out of its bonnet: still plainly a car, with an impossible tree. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1760162754961-ed27f26b394f-c04-2-final",
+      "asset_id": "photo-unsplash-1760162754961-ed27f26b394f",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1760162754961-ed27f26b394f-standardized-v2"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1760162754961-ed27f26b394f-standardized-v2.webp",
+          "sha256": "61ec1b511a10224072ba9fd0fce237c31b2c4957ee9316eab9e30ba769b231ff",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 33188
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1760162754961-ed27f26b394f-standardized-v2-s.webp",
+          "sha256": "f512dd49e27bd414aa255a276be9aa5f922359c81b1aa06f5cf48556b5113c44",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10366
+        }
+      ],
+      "characteristics": {
+        "colour": "light blue with brown legs",
+        "viewpoint": "Side",
+        "facing_direction": "left",
+        "environment": "street in front of a white wall and a building",
+        "support": "four horse legs with hooves on the road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1760162754961-ed27f26b394f-standardized-v2 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "Parts of the original wheels remain visible behind the horse legs."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Light-blue estate car with a roof box standing on four brown horse legs with hooves",
+      "object_type": "estate-car",
+      "content_origin": "ai-edited-photograph",
+      "keywords": [
+        "car",
+        "estate-car",
+        "horse-legs",
+        "hooves",
+        "impossible-object",
+        "light-blue"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 12,
+          "grade": "Meets target clarity",
+          "reason": "The light-blue estate car raised on four brown horse legs with hooves: plainly a car, impossibly legged. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-cars-foot-buggy-c04-2-final",
+      "asset_id": "generated-cars-foot-buggy",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-cars-foot-buggy-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/generated-cars-foot-buggy-standardized-v1.webp",
+          "sha256": "ec230fe9df62a008d890417f71ef84b95d60a04f9c3875c6557742826e03a4d4",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 66452
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/generated-cars-foot-buggy-standardized-v1-s.webp",
+          "sha256": "303ae54b7c994e97146ab110e7f7dbe4d7d6be447f9721cc187a480cd67afe76",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 21666
+        }
+      ],
+      "characteristics": {
+        "colour": "black and grey",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "left",
+        "environment": "village street with brick houses and trees",
+        "support": "four spoked wheels on the road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-cars-foot-buggy-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Foot-powered four-wheeled buggy with a canopy, two bench seats and a steering wheel on a village street",
+      "object_type": "pedal-buggy",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "buggy",
+        "pedal-car",
+        "canopy",
+        "street",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 10,
+          "grade": "Meets target clarity",
+          "reason": "A canopied four-wheeled buggy with two bench seats and a steering wheel but no engine: car-like, but is it a car? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-cars-trolley-cabin-c04-2-final",
+      "asset_id": "generated-cars-trolley-cabin",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-cars-trolley-cabin-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/generated-cars-trolley-cabin-standardized-v1.webp",
+          "sha256": "430534336738811b15df2840fbb7f680799feec660f2ba480b72dac25211b2e9",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 51638
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/generated-cars-trolley-cabin-standardized-v1-s.webp",
+          "sha256": "dea3ca186af465a479ed1cb82d231e968ed525f3099b6e96e66279f3bf8fe88d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15776
+        }
+      ],
+      "characteristics": {
+        "colour": "silver and black",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "front",
+        "environment": "supermarket car park under a canopy",
+        "support": "four castor wheels on the tarmac",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-cars-trolley-cabin-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Shopping trolley converted into a tiny driving cabin with a seat, steering wheel, roll bar and headlights",
+      "object_type": "trolley-vehicle",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "shopping-trolley",
+        "driving-cabin",
+        "headlights",
+        "car-park",
+        "silver"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "A shopping trolley with a driver's seat, steering wheel, windscreen and headlights: a self-driven little vehicle, but is it a car? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-17963040-c04-2-final",
+      "asset_id": "photo-pexels-17963040",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-17963040-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/photo-pexels-17963040-standardized-v1.webp",
+          "sha256": "33928c0a3429b27933fc35e20863134b86b9a4172ef3c520cf4b33622a33c18b",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 51898
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/photo-pexels-17963040-standardized-v1-s.webp",
+          "sha256": "ef61e64cc48f55e64a021da82eb8d3f4d1e195cff80d8f1fe62ab70371d23c60",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 16424
+        }
+      ],
+      "characteristics": {
+        "colour": "yellow and black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "pale stone block wall with ivy above a kerb and grass verge",
+        "support": "side stand on the tarmac",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-17963040-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Brand badges are visible on the tank; no endorsement is implied."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Yellow and black motorcycle parked by a pale stone wall with ivy",
+      "object_type": "motorcycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "motorcycle",
+        "motorbike",
+        "outdoors",
+        "wall",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the motorcycle spans about 85% of the crop, side profile, yellow and black, against pale stone block wall with ivy above a kerb and grass verge; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-5490910-c04-2-final",
+      "asset_id": "photo-pexels-5490910",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-5490910-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/photo-pexels-5490910-standardized-v1.webp",
+          "sha256": "b000121a63ff7228df0722cd5b3eb45e797d258bdbe97220ac9657e28afec7f6",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 25158
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/photo-pexels-5490910-standardized-v1-s.webp",
+          "sha256": "db42f95f05c42ce0fda173cfc5e4f5559ddce057a7e38fa950ca9adceacc309d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8124
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side",
+        "facing_direction": "right",
+        "environment": "concrete yard beside a painted brick wall",
+        "support": "wheel and legs on concrete",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-5490910-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [
+        "Brand name painted on the tray",
+        "Red pillar at the left edge"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Red wheelbarrow with wooden handles and garden waste parked side-on against a white-painted brick wall",
+      "object_type": "wheelbarrow",
+      "content_origin": "photograph",
+      "keywords": [
+        "wheelbarrow",
+        "red",
+        "garden-waste",
+        "brick-wall",
+        "side-profile"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wheelbarrow spans about 86% of the crop, side, red, against concrete yard beside a painted brick wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-c04-2-final",
+      "asset_id": "photo-unsplash-1777675024325-d93b5c5fc71c",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1.webp",
+          "sha256": "c1c378d4bffcde1876e1d4d7f4750538ae6adae3f86b814cea35c06e4bde8902",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29412
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/cars/C04/2/photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1-s.webp",
+          "sha256": "ea7d53a868e0cea5876c1f2fdc4c166701e616cf29439ebc682927651cb19635",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8452
+        }
+      ],
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved ground before a plain grey-white wall",
+        "support": "deployed kickstand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C04@2: Version 2 of C04, replacing the split car with the estate-car photograph edited onto four horse legs, which reads more clearly as an impossible car. Nine distinct, standardised images reviewed together at tile size: two ordinary cars (black convertible, front three-quarter view; ivory and blue roadster, side view), two impossible cars (generated blue hatchback with a tree growing from its bonnet; light-blue estate car edited to stand on horse legs), two borderline vehicles (generated foot-powered buggy; generated shopping-trolley driving cabin) and three wheeled non-members (motorcycle, wheelbarrow, bicycle). Edited, generated and photographed images appear among targets; views, colours and settings vary within each role. The split car remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1777675024325-d93b5c5fc71c-standardized-v1 for final set C04@2."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Black city bicycle with a basket against a grey wall",
+      "object_type": "bicycle",
+      "content_origin": "photograph",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "cars",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "grade": "Meets target clarity",
+          "reason": "A black city bicycle with a basket in side profile against a grey wall: a road vehicle with wheels and a seat, but not a car. It spans about 82% of the crop, one instance, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "final-set",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1558395872-85709c6d3639-c08-2-final",
+      "asset_id": "photo-unsplash-1558395872-85709c6d3639",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1558395872-85709c6d3639-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/photo-unsplash-1558395872-85709c6d3639-standardized-v1.webp",
+          "sha256": "8857d32e43c323b3f42b0570839bb5d448113597dbd8623af16c7454d2c3a5bf",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18810
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/photo-unsplash-1558395872-85709c6d3639-standardized-v1-s.webp",
+          "sha256": "f19411d79fe91c035a137d83a602c644b346d00e52b2ccde417f7866bff18b0c",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 6992
+        }
+      ],
+      "characteristics": {
+        "colour": "mint green and white",
+        "viewpoint": "Frontal",
+        "facing_direction": "front",
+        "environment": "indoor wall",
+        "support": "hanging on a wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1558395872-85709c6d3639-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Frontal view; the hanging point is hidden behind the clock"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Round wall clock with a mint-green rim and white dial on a plain cream wall",
+      "object_type": "wall-clock",
+      "content_origin": "photograph",
+      "keywords": [
+        "wall-clock",
+        "analogue-clock",
+        "round",
+        "mint-green",
+        "plain-wall"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wall clock spans about 85.0% of the crop, frontal, mint green and white, against indoor wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-11747093-c08-2-final",
+      "asset_id": "photo-pexels-11747093",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-11747093-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/photo-pexels-11747093-standardized-v1.webp",
+          "sha256": "7409f2d0c7441fc9e5dc09d9e88d8788f383aba02f7296ff49bc68ffd2c66507",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 24606
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/photo-pexels-11747093-standardized-v1-s.webp",
+          "sha256": "1e27ecabad63a14a271e2dd1e3dffccf9394b37234563aba5f89d34c2d7a3066",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 8182
+        }
+      ],
+      "characteristics": {
+        "colour": "lime green",
+        "viewpoint": "Shallow three-quarter",
+        "facing_direction": "right",
+        "environment": "tabletop against a plain beige backdrop",
+        "support": "standing on its feet on a beige surface",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-11747093-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Plain studio-like backdrop rather than a room setting",
+        "Small 'World Time' and 'QUARTZ' text on the dial"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Lime-green twin-bell alarm clock standing on a beige surface",
+      "object_type": "alarm-clock",
+      "content_origin": "photograph",
+      "keywords": [
+        "alarm-clock",
+        "twin-bell",
+        "lime-green",
+        "tabletop",
+        "analogue-clock"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 2,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the alarm clock spans about 80.6% of the crop, shallow three-quarter, lime green, against tabletop against a plain beige backdrop; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-clocks-arm-hands-clock-c08-2-final",
+      "asset_id": "generated-clocks-arm-hands-clock",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-clocks-arm-hands-clock-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/generated-clocks-arm-hands-clock-standardized-v1.webp",
+          "sha256": "3cdee893443f8ea27ecfcbefc7905cde8c7670532a3489f01d12696b6e0998fc",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10746
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/generated-clocks-arm-hands-clock-standardized-v1-s.webp",
+          "sha256": "40fa30a687a6663e8071e30138632ac9a178c407c271f2df50e5c41fa7bb454a",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 3798
+        }
+      ],
+      "characteristics": {
+        "colour": "white with black numerals",
+        "viewpoint": "Front",
+        "facing_direction": "front",
+        "environment": "living-room wall above a side table",
+        "support": "hanging on the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-clocks-arm-hands-clock-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The arms are small relative to the dial rather than full-sized."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Round white wall clock whose two hands are small human arms pointing at the numbers",
+      "object_type": "wall-clock",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "wall-clock",
+        "human-arms",
+        "clock-hands",
+        "impossible-object",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 12,
+          "grade": "Meets target clarity",
+          "reason": "A white wall clock whose hands are two small human arms pointing at the numbers: plainly a clock, with impossible hands. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-clocks-cuckoo-burst-c08-2-final",
+      "asset_id": "generated-clocks-cuckoo-burst",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-clocks-cuckoo-burst-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/generated-clocks-cuckoo-burst-standardized-v1.webp",
+          "sha256": "f6dfa7fea3cdfdce7bcbe8df6a880ce2046828937ebc3f964b299e87f0b07af3",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15980
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/generated-clocks-cuckoo-burst-standardized-v1-s.webp",
+          "sha256": "03d648c7aa52fbd50e96880d408715a7057e51d5e835dcc747679ef7b3acbadd",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 6158
+        }
+      ],
+      "characteristics": {
+        "colour": "brown wood with a grey bird",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "front",
+        "environment": "white hallway with a wooden floor",
+        "support": "standing on the hallway floor",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-clocks-cuckoo-burst-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The bird bursts from the front of the case rather than a cuckoo door near the top."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Grey cuckoo bursting out of a wooden grandfather clock with wings spread and splinters flying",
+      "object_type": "longcase-clock",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "grandfather-clock",
+        "cuckoo",
+        "bird",
+        "impossible-object",
+        "hallway"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 13,
+          "grade": "Meets target clarity",
+          "reason": "A living cuckoo bursting out of a grandfather clock's case in a spray of splinters: plainly a clock, impossibly inhabited. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-clocks-phone-wall-clock-c08-2-final",
+      "asset_id": "generated-clocks-phone-wall-clock",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-clocks-phone-wall-clock-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/generated-clocks-phone-wall-clock-standardized-v1.webp",
+          "sha256": "5b4c2aafd65d577b0f21d6ef64db9049201fd36510ced1c801a070bbffd63d8b",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 27530
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/generated-clocks-phone-wall-clock-standardized-v1-s.webp",
+          "sha256": "b76ebec22e065b87c34a1e4d6385967ec8637510906d47e089d3b44c6aa5723c",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 7340
+        }
+      ],
+      "characteristics": {
+        "colour": "black with a light-blue screen",
+        "viewpoint": "Front",
+        "facing_direction": "front",
+        "environment": "white living-room wall beside a house plant",
+        "support": "mounted flat on the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-clocks-phone-wall-clock-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The numerals on the dial are slightly irregular."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Smartphone hung on a living-room wall like a clock, its screen showing an analogue clock face",
+      "object_type": "smartphone",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "smartphone",
+        "wall-mounted",
+        "clock-face",
+        "screen",
+        "living-room"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "A phone hung on the wall and showing a clock dial: it tells the time like a wall clock, but is it a clock? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-27183730-c08-2-final",
+      "asset_id": "photo-pexels-27183730",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-27183730-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/photo-pexels-27183730-standardized-v1.webp",
+          "sha256": "2f091d6033c788cc39a3f47a074a7d96a793c0f1c8a984f1788c0225765072da",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 29754
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/photo-pexels-27183730-standardized-v1-s.webp",
+          "sha256": "fe28b46e2898eb6ed07470044282fb586f402f1ce147fb7f4925093499cb5879",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9796
+        }
+      ],
+      "characteristics": {
+        "colour": "dark bronze and sandstone",
+        "viewpoint": "Three-quarter from slightly above",
+        "facing_direction": "not-applicable",
+        "environment": "park lawn",
+        "support": "stone pedestal",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-27183730-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Pedestal continues beyond the bottom edge of the crop",
+        "Pedestal top spans about 90% of the crop width, leaving narrow side margins",
+        "Slightly elevated viewpoint",
+        "Small engraved text on the dial plate"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Bronze octagonal sundial with a tall gnomon on a stone pedestal in a grassy park",
+      "object_type": "sundial",
+      "content_origin": "photograph",
+      "keywords": [
+        "sundial",
+        "gnomon",
+        "garden",
+        "stone-pedestal",
+        "bronze"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the sundial spans about 90.3% of the crop, three-quarter from slightly above, dark bronze and sandstone, against park lawn; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1619213348491-b7b7602727f9-c08-2-final",
+      "asset_id": "photo-unsplash-1619213348491-b7b7602727f9",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1619213348491-b7b7602727f9-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/photo-unsplash-1619213348491-b7b7602727f9-standardized-v1.webp",
+          "sha256": "d723b413a39d4e9736628082f381ce817b826daaa202b221a059d0ff330fd9bc",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 14522
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/photo-unsplash-1619213348491-b7b7602727f9-standardized-v1-s.webp",
+          "sha256": "0289c720bf077a58be01b91c13b2e19981e9d13dc0f5a370beea1a69290ff9fb",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 5498
+        }
+      ],
+      "characteristics": {
+        "colour": "light wood and white",
+        "viewpoint": "Near-frontal",
+        "facing_direction": "front",
+        "environment": "bedroom interior",
+        "support": "hanging on a wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1619213348491-b7b7602727f9-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Reflection shows a brass bed frame and a skylight",
+        "Right margin narrower than the left (83 px against 144 px of 1,140)"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Round wall mirror with a thin wooden frame on a white wall, reflecting a bedroom skylight",
+      "object_type": "wall-mirror",
+      "content_origin": "photograph",
+      "keywords": [
+        "wall-mirror",
+        "round-mirror",
+        "wooden-frame",
+        "bedroom",
+        "interior"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wall mirror spans about 88.9% of the crop, near-frontal, light wood and white, against bedroom interior; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-17343135-c08-2-final",
+      "asset_id": "photo-pexels-17343135",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-17343135-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/photo-pexels-17343135-standardized-v1.webp",
+          "sha256": "becaa9680ae7efc712548f77ae0526fe67276aab6c3a97d0555cc39d82d247f8",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 75128
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/photo-pexels-17343135-standardized-v1-s.webp",
+          "sha256": "43884131b00cb23c6a5cb91154e92bdd73557ecc590bbd668d245a2e4b2e5a8b",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19788
+        }
+      ],
+      "characteristics": {
+        "colour": "red, yellow and blue on teal",
+        "viewpoint": "Frontal",
+        "facing_direction": "front",
+        "environment": "outdoor or indoor painted wall",
+        "support": "hanging on a wall by a hole near the rim",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-17343135-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Flat disc with a hanging hole; it may read as a painted tile rather than a plate",
+        "Edge of a second plate lies outside the crop at the top right of the photograph"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Hand-painted ceramic plate with red poppies hanging on a teal wall",
+      "object_type": "decorative-plate",
+      "content_origin": "photograph",
+      "keywords": [
+        "decorative-plate",
+        "hand-painted",
+        "ceramic",
+        "flowers",
+        "teal-wall"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the decorative plate spans about 85.5% of the crop, frontal, red, yellow and blue on teal, against outdoor or indoor painted wall; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1558978325-66dcf73b99b0-c08-2-final",
+      "asset_id": "photo-unsplash-1558978325-66dcf73b99b0",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1558978325-66dcf73b99b0-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/clocks/C08/2/photo-unsplash-1558978325-66dcf73b99b0-standardized-v1.webp",
+          "sha256": "c2ffa3b6297108767e1d83496102c250588045897317ae2e6abd9c63da4dcc78",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 47074
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/clocks/C08/2/photo-unsplash-1558978325-66dcf73b99b0-standardized-v1-s.webp",
+          "sha256": "297066c0649169cd3e5d9b941369ffedd0fa59295fdce30346adf572c388ccf4",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18290
+        }
+      ],
+      "characteristics": {
+        "colour": "silver and black",
+        "viewpoint": "Three-quarter from above",
+        "facing_direction": "not-applicable",
+        "environment": "outdoor, sawn wood surface",
+        "support": "resting on a tree stump",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C08@2: Version 2 of C08, adding the re-rendered clock with human arms as hands and the cuckoo bursting from a grandfather clock. Nine distinct, standardised images reviewed together at tile size: two ordinary clocks (round wall clock with a mint-green rim; lime-green twin-bell alarm clock), two impossible clocks (generated wall clock whose hands are small human arms; generated grandfather clock with a living cuckoo bursting out in a spray of splinters), two borderline timekeepers (generated smartphone hung on a wall showing an analogue dial; photographed bronze sundial on a pedestal) and three round, dial-like non-members (wall mirror, painted plate, compass). Views, colours and settings vary within each role. The running alarm clock, the hourglass clock and the longcase clock photograph remain in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1558978325-66dcf73b99b0-standardized-v1 for final set C08@2."
+      },
+      "unresolved_issues": [
+        "Elevated three-quarter view, needed to show the dial",
+        "Warm, high-contrast processing",
+        "The Unsplash alt text calls it a pocket watch; it is a compass"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Silver magnetic compass with a black dial lying on a sawn tree stump",
+      "object_type": "magnetic-compass",
+      "content_origin": "photograph",
+      "keywords": [
+        "compass",
+        "magnetic-compass",
+        "silver",
+        "wood",
+        "outdoor"
+      ],
+      "assessments": [
+        {
+          "theme": "clocks",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the magnetic compass spans about 85.1% of the crop, three-quarter from above, silver and black, against outdoor, sawn wood surface; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1724102894997-c30f6216cec6-c09-2-final",
+      "asset_id": "photo-unsplash-1724102894997-c30f6216cec6",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1724102894997-c30f6216cec6-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1724102894997-c30f6216cec6-standardized-v1.webp",
+          "sha256": "5a0dbd54d3b1c1d4cd231711b3b3fb4a75fb22575de128ce8dee053a0ba14521",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 32518
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1724102894997-c30f6216cec6-standardized-v1-s.webp",
+          "sha256": "f4a739c031ae3f8dd35ad7946d5cf5c9838aa050a4086ac5c7e0b50b814ec6b2",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10610
+        }
+      ],
+      "characteristics": {
+        "colour": "dark red and brown",
+        "viewpoint": "Shallow three-quarter side view",
+        "facing_direction": "left",
+        "environment": "calm harbour or lake",
+        "support": "floating on water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1724102894997-c30f6216cec6-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Crop side only 560 px in the preview (above the 512 px minimum)",
+        "Reflections of mooring posts in the water above the boat",
+        "Part of the mooring line enters at the left edge; the buoy itself is outside the crop"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Red-brown wooden rowing boat moored on calm grey-blue water",
+      "object_type": "rowing-boat",
+      "content_origin": "photograph",
+      "keywords": [
+        "rowing-boat",
+        "dinghy",
+        "wooden-boat",
+        "moored",
+        "calm-water"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the rowing boat spans about 85.2% of the crop, shallow three-quarter side view, dark red and brown, against calm harbour or lake; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1733336650115-65565c0adae6-c09-2-final",
+      "asset_id": "photo-unsplash-1733336650115-65565c0adae6",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1733336650115-65565c0adae6-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1733336650115-65565c0adae6-standardized-v1.webp",
+          "sha256": "f35a9c5c35847866650a87d8d4af6b4b1c3980efea5078c571b110f66f94d445",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 32574
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1733336650115-65565c0adae6-standardized-v1-s.webp",
+          "sha256": "e55c70d47ccd559c3d116bc8ae853c2650abd816aeec295ad600856d56b96c12",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9788
+        }
+      ],
+      "characteristics": {
+        "colour": "black, white and red",
+        "viewpoint": "Shallow three-quarter",
+        "facing_direction": "right",
+        "environment": "coastal water below hills",
+        "support": "floating on water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1733336650115-65565c0adae6-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Operator name painted small on the hull (Caledonian MacBrayne)",
+        "Crop side 626 px in the preview",
+        "Purple-brown hills behind are busier than open sky"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Black-and-white passenger and vehicle ferry crossing open water with hills behind",
+      "object_type": "ferry",
+      "content_origin": "photograph",
+      "keywords": [
+        "ferry",
+        "passenger-ferry",
+        "ship",
+        "coastal-water",
+        "hills"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the ferry spans about 85.0% of the crop, shallow three-quarter, black, white and red, against coastal water below hills; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1587977706287-86d257db113f-c09-2-final",
+      "asset_id": "photo-unsplash-1587977706287-86d257db113f",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1587977706287-86d257db113f-standardized-v2"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1587977706287-86d257db113f-standardized-v2.webp",
+          "sha256": "f01a94c7a0dafae33dd17ca7154aad19994d8dcf19d9d9e904151d6464e41802",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 56656
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1587977706287-86d257db113f-standardized-v2-s.webp",
+          "sha256": "9e29d0ef14fcdb7f5ea0a852a234947102455cfc2cc2a2a63a4c6fd9ff231f0d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 20604
+        }
+      ],
+      "characteristics": {
+        "colour": "orange-brown varnished wood",
+        "viewpoint": "Three-quarter side view",
+        "facing_direction": "left",
+        "environment": "rippled dark blue water",
+        "support": "floating on the water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1587977706287-86d257db113f-standardized-v2 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The image is deliberately uncanny; the arms are long and pale."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Empty varnished rowing boat with eight human arms growing from its hull and reaching into the water like oars",
+      "object_type": "rowing-boat",
+      "content_origin": "ai-edited-photograph",
+      "keywords": [
+        "rowing-boat",
+        "human-arms",
+        "oars",
+        "impossible-object",
+        "water",
+        "wood"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 13,
+          "grade": "Meets target clarity",
+          "reason": "An empty wooden rowing boat with eight bare human arms growing from its sides and dipping into the water: plainly a boat, impossibly rowing itself. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-boats-lighthouse-sailboat-c09-2-final",
+      "asset_id": "generated-boats-lighthouse-sailboat",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-boats-lighthouse-sailboat-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/generated-boats-lighthouse-sailboat-standardized-v1.webp",
+          "sha256": "55548d1a18dbb02e717c0d2f8432760335527ea7b486ae1f706d92467715ea82",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 34774
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/generated-boats-lighthouse-sailboat-standardized-v1-s.webp",
+          "sha256": "2078fc2b8e131393817d8b55b4c2ea705bd0561cdc6a4ab04fd4b36ca88d782e",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10336
+        }
+      ],
+      "characteristics": {
+        "colour": "white hull, red and white lighthouse",
+        "viewpoint": "Side",
+        "facing_direction": "right",
+        "environment": "open blue sea under a pale sky",
+        "support": "floating on the sea",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-boats-lighthouse-sailboat-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The lighthouse is boat-sized rather than full-sized and stands beside the mast."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Small sailboat at sea with a red and white lighthouse rising from its deck",
+      "object_type": "sailboat",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "sailboat",
+        "lighthouse",
+        "sea",
+        "impossible-object",
+        "red-and-white"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "A small sailing boat carrying a red and white lighthouse tower on its deck beside the mast: plainly a boat, with an impossible lighthouse. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-boats-duck-float-boat-c09-2-final",
+      "asset_id": "generated-boats-duck-float-boat",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-boats-duck-float-boat-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/generated-boats-duck-float-boat-standardized-v1.webp",
+          "sha256": "60753542fe850b6d3192307164a1a166f7c34842a0374c392da39d3aef465f00",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 35814
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/generated-boats-duck-float-boat-standardized-v1-s.webp",
+          "sha256": "95ef196dc9f93c3ca46bbe7edc3acd29b5d5ec5d13ca8f85c45483780208b40d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13514
+        }
+      ],
+      "characteristics": {
+        "colour": "yellow with an orange beak",
+        "viewpoint": "Side three-quarter",
+        "facing_direction": "left",
+        "environment": "calm lake with a wooded shore",
+        "support": "floating on the water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-boats-duck-float-boat-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "No rudder is visible apart from the motor."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Giant yellow inflatable duck float with an outboard motor on a lake",
+      "object_type": "inflatable-float",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "inflatable-duck",
+        "pool-float",
+        "outboard-motor",
+        "lake",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "A yellow inflatable duck with an outboard motor at its tail: a powered float, but is it a boat? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-boats-picnic-table-boat-c09-2-final",
+      "asset_id": "generated-boats-picnic-table-boat",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-boats-picnic-table-boat-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/generated-boats-picnic-table-boat-standardized-v1.webp",
+          "sha256": "247e5ae2fae5976b04c90458725d960e01d1d56c35dedcf3cd8f516b0c91bef4",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 51656
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/generated-boats-picnic-table-boat-standardized-v1-s.webp",
+          "sha256": "7af6fb99a260826c3189954704a863a47639c7cec626436cb1f3c68e848243de",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19560
+        }
+      ],
+      "characteristics": {
+        "colour": "weathered grey wood with a black motor",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "right",
+        "environment": "pond with reeds, trees and a house on the bank",
+        "support": "floating on the water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-boats-picnic-table-boat-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Wooden picnic table with an outboard motor floating on a pond",
+      "object_type": "picnic-table-boat",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "picnic-table",
+        "outboard-motor",
+        "pond",
+        "improvised-boat",
+        "wood"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 12,
+          "grade": "Meets target clarity",
+          "reason": "A picnic table afloat with an outboard motor clamped to it: it moves on water, but is it a boat? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1739615124112-d5760c5a26df-c09-2-final",
+      "asset_id": "photo-unsplash-1739615124112-d5760c5a26df",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1739615124112-d5760c5a26df-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1739615124112-d5760c5a26df-standardized-v1.webp",
+          "sha256": "fe2238a85047020ee2b175e7a69411426203c4523b7a75cfe7d998028e826857",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 77638
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1739615124112-d5760c5a26df-standardized-v1-s.webp",
+          "sha256": "e27c1f900199ccb4515383055822e6f10e0c46b5463d269774be0799446fe64a",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 17354
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side view",
+        "facing_direction": "left",
+        "environment": "urban street",
+        "support": "parked on a road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1739615124112-d5760c5a26df-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Recognisable car model (Fiat 500), though no badge is prominent",
+        "Wet road with reflections below the car"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Red classic Fiat 500 parked on a wet street in front of a grey wall with a roller shutter",
+      "object_type": "car",
+      "content_origin": "photograph",
+      "keywords": [
+        "car",
+        "small-car",
+        "classic-car",
+        "red",
+        "street"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the car spans about 85.0% of the crop, side view, red, against urban street; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1635958068287-2f496bea08a4-c09-2-final",
+      "asset_id": "photo-unsplash-1635958068287-2f496bea08a4",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1635958068287-2f496bea08a4-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1635958068287-2f496bea08a4-standardized-v1.webp",
+          "sha256": "8b764298c7f46909e144667b469e67817d891f421ae9b55c4b8e494e4671b6c4",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 68064
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1635958068287-2f496bea08a4-standardized-v1-s.webp",
+          "sha256": "e83fdd821388a28ef3a0220d6a21c85afe1c1f5590d1f3843bbfce3c4aa806d0",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19136
+        }
+      ],
+      "characteristics": {
+        "colour": "grey-brown wood",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "not-applicable",
+        "environment": "woodland clearing",
+        "support": "standing on earth and grass",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1635958068287-2f496bea08a4-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "A dark barbecue grill stands behind the table",
+        "Dark forest background lowers contrast with the table legs"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Weathered wooden picnic table with attached benches in a woodland clearing",
+      "object_type": "picnic-table",
+      "content_origin": "photograph",
+      "keywords": [
+        "picnic-table",
+        "bench",
+        "wooden",
+        "woodland",
+        "outdoor"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the picnic table spans about 85.2% of the crop, three-quarter, grey-brown wood, against woodland clearing; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1723022468974-e06843cef1ab-c09-2-final",
+      "asset_id": "photo-unsplash-1723022468974-e06843cef1ab",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1723022468974-e06843cef1ab-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1723022468974-e06843cef1ab-standardized-v1.webp",
+          "sha256": "f45be95395d22db6ec4a8d5168baa0269229ac63524c097f54182668a9689e0d",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 68508
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/2/photo-unsplash-1723022468974-e06843cef1ab-standardized-v1-s.webp",
+          "sha256": "48ef46744271991eed2d28bc0842fb82513a1918abf9338a85ed07d9de859e70",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 22210
+        }
+      ],
+      "characteristics": {
+        "colour": "silver and red",
+        "viewpoint": "Three-quarter side view",
+        "facing_direction": "left",
+        "environment": "garden edge or roadside",
+        "support": "standing on its wheel and legs on soil",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Selected for C09@2: Version 2 of C09, replacing the yacht on mechanical legs with the varnished rowing-boat photograph edited to row itself with eight human arms. Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown rowing boat; black-and-white ferry), two impossible boats (edited rowing boat with human arms as oars; generated sailboat carrying a lighthouse), two borderline craft (generated inflatable duck with a motor; generated picnic table afloat with a motor) and three non-members (red Fiat 500, picnic table on land, wheelbarrow). The picnic table appears afloat and on land, so the setting decides; views, colours and settings vary within each role. The walking yacht remains in the collection.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T10:37:48Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T10:37:48Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1723022468974-e06843cef1ab-standardized-v1 for final set C09@2."
+      },
+      "unresolved_issues": [
+        "Crop limited by the 720 px preview height; the wheelbarrow spans 88%",
+        "Small blue object inside the tray",
+        "Grey tray against mixed green and brown background"
+      ],
+      "created_at": "2026-10-27T10:37:48Z",
+      "updated_at": "2026-10-27T10:37:48Z",
+      "actor": "claude",
+      "description": "Galvanised wheelbarrow with a red wheel standing on rough ground beside shrubs",
+      "object_type": "wheelbarrow",
+      "content_origin": "photograph",
+      "keywords": [
+        "wheelbarrow",
+        "galvanised",
+        "red-wheel",
+        "garden",
+        "outdoor"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wheelbarrow spans about 88.2% of the crop, three-quarter side view, silver and red, against garden edge or roadside; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
     }
   ],
   "sets": [
@@ -70771,6 +74229,34 @@
       "version": 1,
       "theme": "computers",
       "manifest": "stimuli/final/computers/C10/1/manifest.json"
+    },
+    {
+      "set_key": "C02@2",
+      "set_id": "C02",
+      "version": 2,
+      "theme": "chairs",
+      "manifest": "stimuli/final/chairs/C02/2/manifest.json"
+    },
+    {
+      "set_key": "C04@2",
+      "set_id": "C04",
+      "version": 2,
+      "theme": "cars",
+      "manifest": "stimuli/final/cars/C04/2/manifest.json"
+    },
+    {
+      "set_key": "C08@2",
+      "set_id": "C08",
+      "version": 2,
+      "theme": "clocks",
+      "manifest": "stimuli/final/clocks/C08/2/manifest.json"
+    },
+    {
+      "set_key": "C09@2",
+      "set_id": "C09",
+      "version": 2,
+      "theme": "boats",
+      "manifest": "stimuli/final/boats/C09/2/manifest.json"
     }
   ],
   "retired_sets": [

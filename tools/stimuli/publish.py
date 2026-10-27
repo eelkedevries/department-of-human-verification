@@ -6,7 +6,8 @@ Reads every final set in stimuli/catalogue.json whose manifest has
 "game": {"publish": true, ...}, copies its 512 and 256 px WebP files (already
 standardised and byte-identical to the final set) to public/stimuli/ under
 opaque content-hash names, and writes src/stimuli/catalogue.json with each
-tile's provenance and credit. Files no grid uses any more are removed. The
+tile's provenance and credit. Where a grid has several published versions,
+only the latest is served. Files no grid uses any more are removed. The
 grid hash covers the instruction, mode, answer key, tile hashes and borderline
 tiles, as scripts/validate-stimuli.mjs recomputes it.
 
@@ -61,11 +62,17 @@ def main() -> None:
     versions = {v["version_id"]: v for v in catalogue["versions"]}
     assets = {a["asset_id"]: a for a in catalogue["assets"]}
     PUBLIC.mkdir(parents=True, exist_ok=True)
+    manifests = [json.loads((ROOT / ref["manifest"]).read_text()) for ref in sorted(catalogue["sets"], key=lambda s: s["set_key"])]
+    # A newer published version of a grid supersedes the older ones; only the latest is served.
+    latest = {}
+    for manifest in manifests:
+        if manifest["game"].get("publish"):
+            grid = manifest["game"]["grid_id"]
+            latest[grid] = max(latest.get(grid, 0), manifest["version"])
     published, stimuli = set(), []
-    for ref in sorted(catalogue["sets"], key=lambda s: s["set_key"]):
-        manifest = json.loads((ROOT / ref["manifest"]).read_text())
+    for manifest in manifests:
         game = manifest["game"]
-        if not game.get("publish"):
+        if not game.get("publish") or manifest["version"] != latest[game["grid_id"]]:
             continue
         tiles = []
         for tile in manifest["tiles"]:
