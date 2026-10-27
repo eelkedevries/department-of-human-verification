@@ -1,0 +1,16 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "standardized",
+  "theme": "chairs",
+  "version_ids": [
+    "photo-unsplash-1650476524564-f94dc9669067-standardized-v1",
+    "photo-unsplash-1506332088442-9e0024864f5d-standardized-v1",
+    "photo-unsplash-1538850207400-2987d0be964f-standardized-v1",
+    "photo-unsplash-1576528418822-5ddc2568621b-standardized-v1",
+    "photo-unsplash-1505418681079-9baf9a339393-standardized-v1",
+    "photo-pexels-11545385-standardized-v1",
+    "photo-pexels-9914680-standardized-v1",
+    "photo-pexels-6045058-standardized-v1"
+  ]
+}

@@ -16,11 +16,13 @@ test('five rounds answered correctly earn a verdict, and a replay starts a new s
   const { requests } = await installGuards(page);
   await startGame(page);
   const first: { id: string; order: string }[] = [];
+  let clearCut = 0;
   for (let round = 0; round < 5; round++) {
     await expect(page.getByText(`Assessment ${round + 1} of 5.`)).toBeAttached();
     await expectNoHorizontalOverflow(page);
-    const { stimulus, alts } = await currentGrid(page);
+    const { stimulus, alts, borderline } = await currentGrid(page);
     first.push({ id: stimulus.stimulus_id, order: alts.join('|') });
+    clearCut += alts.length - borderline.length;
     await answerCorrectly(page);
     await expect(page.locator('.stamp')).toHaveText('Verified');
     await expectNoHorizontalOverflow(page);
@@ -28,7 +30,7 @@ test('five rounds answered correctly earn a verdict, and a replay starts a new s
   }
   await expect(page.getByRole('heading', { name: 'Human Verification Report' })).toBeVisible();
   await expect(page.locator('.fact').first()).toContainText('5 of 5');
-  await expect(page.locator('.fact').nth(1)).toContainText('45 of 45');
+  await expect(page.locator('.fact').nth(1)).toContainText(`${clearCut} of ${clearCut}`);
   await expect(page.getByText('This verdict is fiction.')).toBeVisible();
   await expectNoHorizontalOverflow(page);
   await expect(page.getByRole('button', { name: /Export session log/ })).toHaveCount(0);
@@ -78,7 +80,7 @@ test('wrong, partial and empty answers are handled and explained', async ({ page
 
   // Round 2: only wrong images. In a single-selection grid a new choice replaces the old one.
   const second = await currentGrid(page);
-  const wrong = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((p) => !second.targets.includes(p));
+  const wrong = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((p) => !second.targets.includes(p) && !second.borderline.includes(p));
   await page.locator('.tile').nth(wrong[0]).click();
   await page.locator('.tile').nth(wrong[1]).click();
   const single = second.stimulus.mode === 'single';

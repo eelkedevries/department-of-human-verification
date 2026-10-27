@@ -12,7 +12,7 @@ It is a game. The Department does not exist, its verdicts mean nothing, and it i
 
 The Department asks ordinary multiple-choice CAPTCHA questions, but its images will mix normal members of a category with surreal versions and borderline cases: a square-wheeled bicycle, an exercise machine or a horse furnished with pedals. The interesting answer is sometimes a judgement, not a mistake. The game now supports recording borderline selections without scoring them as right or wrong. See the [15-grid candidate table](docs/stimulus-concepts.md).
 
-**Status:** The new catalogue consists of ideas, not rendered assets. Only the original bicycle grid is live; the other legacy drafts must be replaced and reviewed before publication. No camera or research collection is added to version 1.
+**Status:** The live grids are published from the stimulus collection's reviewed final sets: photographs with their credits, plus AI-edited and AI-generated impossible and borderline objects. The bicycle grid (C01) is live; the other concept pools follow as they are completed. The generated G01 grid has been retired. No camera or research collection is added to version 1.
 
 ## Versions
 

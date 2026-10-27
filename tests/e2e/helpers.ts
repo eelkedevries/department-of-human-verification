@@ -11,6 +11,7 @@ interface Stimulus {
   mode: 'single' | 'multiple';
   tiles: Tile[];
   answer_key: string[];
+  borderline_tile_ids?: string[];
 }
 
 interface Catalogue {
@@ -71,7 +72,7 @@ export async function startGame(page: Page, query = ''): Promise<void> {
 }
 
 /** Identifies the grid on screen from its instruction and alternative texts. */
-export async function currentGrid(page: Page): Promise<{ stimulus: Stimulus & { family: string }; targets: number[]; alts: string[] }> {
+export async function currentGrid(page: Page): Promise<{ stimulus: Stimulus & { family: string }; targets: number[]; borderline: number[]; alts: string[] }> {
   await expect(page.locator('.grid:not(.loading)')).toBeVisible();
   const instruction = (await page.locator('h1.instruction').textContent())!.trim();
   const alts = await page.locator('.tile img').evaluateAll((imgs) => imgs.map((img) => (img as HTMLImageElement).alt));
@@ -81,7 +82,12 @@ export async function currentGrid(page: Page): Promise<{ stimulus: Stimulus & { 
     const tile = stimulus.tiles.find((t) => t.alt === alt)!;
     return stimulus.answer_key.includes(tile.tile_id) ? [position] : [];
   });
-  return { stimulus, targets, alts };
+  // Borderline tiles are recorded but never scored, so tests treat them apart.
+  const borderline = alts.flatMap((alt, position) => {
+    const tile = stimulus.tiles.find((t) => t.alt === alt)!;
+    return (stimulus.borderline_tile_ids ?? []).includes(tile.tile_id) ? [position] : [];
+  });
+  return { stimulus, targets, borderline, alts };
 }
 
 export async function answerCorrectly(page: Page): Promise<string> {
@@ -92,8 +98,8 @@ export async function answerCorrectly(page: Page): Promise<string> {
 }
 
 export async function answerWrongly(page: Page): Promise<string> {
-  const { stimulus, targets } = await currentGrid(page);
-  const wrong = [0, 1, 2, 3, 4, 5, 6, 7, 8].find((p) => !targets.includes(p))!;
+  const { stimulus, targets, borderline } = await currentGrid(page);
+  const wrong = [0, 1, 2, 3, 4, 5, 6, 7, 8].find((p) => !targets.includes(p) && !borderline.includes(p))!;
   await page.locator('.tile').nth(wrong).click();
   await page.getByRole('button', { name: 'Submit selection' }).click();
   return stimulus.stimulus_id;

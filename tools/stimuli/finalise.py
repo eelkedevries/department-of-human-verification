@@ -73,11 +73,17 @@ def main() -> None:
         tiles.append({"tile_id": f"{set_id}-T{n}", "version_id": version_id, "role": tile["role"]})
     answer = [t["tile_id"] for t in tiles if t["role"] == "target"]
     borderline = [t["tile_id"] for t in tiles if t["role"] == "borderline"]
+    # The same grid hash the game catalogue records (tools/stimuli/publish.py, scripts/validate-stimuli.mjs).
+    parts = [spec["instruction"], "multiple", answer, [next(f["sha256"] for f in v["files"] if f["purpose"] == "large") for v in new_versions]]
+    if borderline:
+        parts.append(borderline)
+    game = dict(spec["game"], stimulus_id=spec["game"]["grid_id"], version=number,
+                grid_hash=hashlib.sha256(json.dumps(parts, separators=(",", ":"), ensure_ascii=False).encode()).hexdigest())
     manifest = {
         "schema": "dhv-stimulus-final-set-v1", "schema_version": 1, "set_key": key, "set_id": set_id, "version": number, "theme": theme,
         "status": "approved", "instruction": spec["instruction"], "mode": "multiple",
         "research_class": "category_judgement" if borderline else "unambiguous",
-        "game": spec["game"], "tiles": tiles, "answer_key": answer, "borderline_tile_ids": borderline,
+        "game": game, "tiles": tiles, "answer_key": answer, "borderline_tile_ids": borderline,
         "selection_review": {"status": "approved", "actor": "claude", "timestamp": stamp, "reason": spec["selection_review"]},
         "created_at": stamp, "actor": "claude",
     }

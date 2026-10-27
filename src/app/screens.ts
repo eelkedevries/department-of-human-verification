@@ -5,7 +5,8 @@ import type { RoundResult } from '../game/round';
 import { button, ICON_CHECKBOX, stamp } from '../components/chrome';
 import { h } from '../components/dom';
 import { FAMILY_LABELS, FICTION_NOTICE, STAMPS, VERDICTS } from '../content/copy';
-import type { Stimulus } from '../stimuli/types';
+import { catalogue } from '../stimuli/catalogue';
+import type { Stimulus, StimulusTile } from '../stimuli/types';
 import { TIME_LIMITS, type TimeOption } from './session';
 
 /** Builds made with VITE_EYE_TRACKING=1 offer the optional eye-tracking preview, and say so. */
@@ -171,6 +172,20 @@ export function reportScreen(input: ReportInput): HTMLElement {
   );
 }
 
+/** One line of credit per published image, as the photographs' licences ask. */
+function credit(tile: StimulusTile): HTMLElement {
+  const p = tile.provenance;
+  const licence = h('a', { href: p.licence_url }, p.licence);
+  if (p.kind === 'ai-generated') return h('li', {}, `${tile.alt}: generated with FLUX.2 [klein] 4B (`, licence, ').');
+  const source = h('a', { href: p.source_url }, p.attribution);
+  return h('li', {}, `${tile.alt}: `, source, ' (', licence, p.kind === 'ai-edited-photograph' ? '), edited with FLUX.2 [klein] 4B.' : ').');
+}
+
+function imageCredits(): HTMLElement {
+  const tiles = catalogue.stimuli.flatMap((s) => s.tiles).sort((a, b) => a.alt.localeCompare(b.alt));
+  return h('details', { class: 'credits' }, h('summary', {}, `Image credits (${tiles.length})`), h('ul', {}, ...tiles.map(credit)));
+}
+
 export function aboutDialog(): HTMLDialogElement {
   const close = h('button', { type: 'button', class: 'button secondary', onclick: () => dialog.close() }, 'Close');
   const dialog = h(
@@ -202,8 +217,9 @@ export function aboutDialog(): HTMLDialogElement {
       h(
         'p',
         {},
-        'Every image was generated for this game with FLUX.2 [klein] 4B, an openly licensed model (Apache 2.0), from a written description and a fixed seed. The answer keys were set when the descriptions were written and checked by eye afterwards. The prompts, seeds and licences are listed in the project’s stimulus catalogue.',
+        'Most images are photographs shared under free licences (Unsplash, Pexels and Creative Commons). The impossible and borderline objects were edited or generated for this game with FLUX.2 [klein] 4B, an openly licensed model (Apache 2.0), on the project’s own computer. Every image is cropped and resized; sources, licences, prompts and seeds are recorded in the project’s stimulus collection.',
       ),
+      imageCredits(),
       h('h3', {}, 'Source'),
       h(
         'p',

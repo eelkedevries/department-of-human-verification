@@ -7,7 +7,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 
 const CATALOGUE = 'src/stimuli/catalogue.json';
 const DIR = 'public/stimuli';
-const LICENCES = new Set(['Apache-2.0']);
+const LICENCES = new Set(['Apache-2.0', 'Unsplash License', 'Pexels License', 'CC BY-NC 2.0']);
+const KINDS = ['photograph', 'ai-edited-photograph', 'ai-generated'];
 const FAMILIES = ['recognition', 'semantic', 'odd_one_out', 'functional', 'absurd'];
 const OPAQUE = /^[0-9a-f]{16}(-s)?\.webp$/;
 const REVEALING = /\b(target|distractor|correct|incorrect|answer|lure)\b/i;
@@ -75,9 +76,13 @@ for (const s of catalogue.stimuli) {
     if (!t.alt?.trim()) fail(at, 'missing alternative text');
     if (REVEALING.test(t.alt)) fail(at, 'alternative text gives the answer away');
     const p = t.provenance ?? {};
+    // Every tile carries its credit; prompts and seeds stay in the authoring collection.
+    if (!KINDS.includes(p.kind)) fail(at, `unknown provenance kind ${p.kind}`);
     if (!LICENCES.has(p.licence)) fail(at, `licence ${p.licence} is not on the approved list`);
-    for (const field of ['model', 'model_revision', 'prompt', 'generated_at', 'edits']) if (!p[field]) fail(at, `provenance lacks ${field}`);
-    if (!Number.isInteger(p.seed)) fail(at, 'provenance lacks a seed');
+    for (const field of ['creator', 'licence_url', 'attribution', 'edits']) if (!p[field]) fail(at, `provenance lacks ${field}`);
+    if (p.kind !== 'ai-generated' && (!p.source || !p.source_url)) fail(at, 'a photograph needs its source and source page');
+    if (p.kind !== 'photograph' && (!p.model || !p.model_revision)) fail(at, 'an edited or generated image needs its model and revision');
+    if ('prompt' in p || 'seed' in p) fail(at, 'prompts and seeds belong in the stimulus collection, not the game');
 
     for (const [file, expected] of [[t.src, t.width], [t.src_small, t.width / 2]]) {
       referenced.add(file);

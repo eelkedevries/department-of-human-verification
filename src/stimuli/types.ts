@@ -11,15 +11,19 @@ export type SelectionMode = 'single' | 'multiple';
  */
 export type ResearchClass = 'unambiguous' | 'entertainment' | 'category_judgement';
 
+/** Credit and origin of a published image. Prompts and seeds stay in the authoring collection (stimuli/). */
 export interface TileProvenance {
-  model: string;
-  model_revision: string;
+  kind: 'photograph' | 'ai-edited-photograph' | 'ai-generated';
+  creator: string;
+  /** Photograph source (for example Unsplash) and the photo's own page. */
+  source?: string;
+  source_url?: string;
   licence: string;
-  prompt: string;
-  seed: number;
-  steps: number;
-  guidance_scale: number;
-  generated_at: string;
+  licence_url: string;
+  attribution: string;
+  /** Model used to edit or generate the image. */
+  model?: string;
+  model_revision?: string;
   edits: string;
 }
 

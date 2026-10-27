@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-20-03576daede",
+  "catalogue_version": "2026-10-27-1a8a64f765",
   "families": [
     "recognition",
     "semantic",
@@ -10,9 +10,9 @@
   ],
   "stimuli": [
     {
-      "stimulus_id": "G01",
+      "stimulus_id": "C01",
       "version": 1,
-      "hash": "7f33800a4a0e82a8dbff37f29dd56f0aca37c9ff751fcc5c614948e439f136f6",
+      "hash": "56651a5edb4c8ca528f999671ee6e5cc29756ba4b350ad1849a6f5a458501466",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a bicycle.",
@@ -21,214 +21,208 @@
         "semantic": "Select all vehicles powered by pedals."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Four images contain a bicycle, including the child's bicycle with training wheels. Scooters, motorcycles, skateboards and cars are not bicycles, whatever their aspirations.",
-      "difficulty": "easy",
-      "research_class": "unambiguous",
+      "explanation": "Ordinary bicycles count, and so does the bicycle with hexagonal wheels: impossible to ride, but still a bicycle. The exercise bike, the horse with pedals and the pedal-powered office chair are borderline cases, recorded without a verdict. The rocking horse, the kick scooter and the motorcycle are not bicycles.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
       "feedback": {
         "correct": [
           "Your understanding of bicycles has been noted.",
           "All bicycles accounted for. A copy has been placed on file.",
-          "Correct. The Department had expected nothing less, and is mildly disappointed.",
-          "Bicycles identified. The Department is satisfied, for the time being."
+          "Correct. The square-wheeled bicycle has been recognised. Its roadworthiness has not."
         ],
         "partial": [
           "Partially correct. Your relationship with bicycles will be reviewed.",
-          "Some bicycles escaped your attention. They have been informed.",
-          "Partially correct. A bicycle remains unaccounted for, or a non-bicycle has been accounted for."
+          "Some bicycles escaped your attention. They have been informed."
         ],
         "incorrect": [
-          "Incorrect. The Department is not angry about the bicycles, merely disappointed.",
-          "Incorrect. Please do not take this personally; the Department takes it personally on your behalf.",
-          "Incorrect. The bicycles have asked not to be contacted further."
+          "Incorrect. The bicycles have asked not to be contacted further.",
+          "Incorrect. The Department is not angry about the bicycles, merely disappointed."
         ]
       },
       "tiles": [
         {
-          "tile_id": "G01-T1",
-          "src": "dcd2d84006fe66df.webp",
-          "src_small": "dcd2d84006fe66df-s.webp",
+          "tile_id": "C01-T1",
+          "src": "4a0aaa6073b920ed.webp",
+          "src_small": "4a0aaa6073b920ed-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "dcd2d84006fe66df35faabcb40d7f77d4fc47f36f935fd11a412910e1c7abf90",
-          "alt": "A black city bicycle leaning against a green wooden door on a cobbled street",
+          "sha256": "4a0aaa6073b920ed3d6dc2cdcf16f6f725b64468646015270f9fbf00dbe2a617",
+          "alt": "Orange and teal mountain bike on grass by driftwood",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-            "licence": "Apache-2.0",
-            "prompt": "a black city bicycle leaning against a green wooden door on a cobbled street, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1001,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:26:09+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Yasin Aydın",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/mountain-bike-parked-on-grass-field-4995281/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Yasin Aydın on Pexels"
           }
         },
         {
-          "tile_id": "G01-T2",
-          "src": "0b9440ab514dced4.webp",
-          "src_small": "0b9440ab514dced4-s.webp",
+          "tile_id": "C01-T2",
+          "src": "b22f3aa52b96bd79.webp",
+          "src_small": "b22f3aa52b96bd79-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "0b9440ab514dced406a42245ca6332da1c0783de53e25d47c5eb5cc80945e857",
-          "alt": "A red bicycle with a wicker basket parked against a brick wall",
+          "sha256": "b22f3aa52b96bd791038e689bd1073fa5baddf8f4ceb69748c0db7e32b77c659",
+          "alt": "Red vintage bicycle against a blue clapboard wall",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-            "licence": "Apache-2.0",
-            "prompt": "a red bicycle with a wicker front basket parked against an old brick wall, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1002,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:28:40+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Jason Gooljar",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/red-vintage-bicycle-leaning-against-a-blue-wall-lQh76MKnY6g",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Jason Gooljar on Unsplash"
           }
         },
         {
-          "tile_id": "G01-T3",
-          "src": "ce37edf2dc0a2731.webp",
-          "src_small": "ce37edf2dc0a2731-s.webp",
+          "tile_id": "C01-T3",
+          "src": "d58686b955ebb6e7.webp",
+          "src_small": "d58686b955ebb6e7-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "ce37edf2dc0a2731f47189d8bd56ad675f67796a544bfa4ada75e077d9f294ac",
-          "alt": "A blue road bicycle on an empty country road",
+          "sha256": "d58686b955ebb6e774b23f78ad19c54b6adb581e4e6bf60b3ad78e158359162b",
+          "alt": "Lavender bicycle with hexagonal wheels against a white brick wall",
           "provenance": {
+            "kind": "ai-edited-photograph",
+            "edits": "Edited with FLUX.2 [klein] 4B: Replace both round wheels with angular, polygonal wheels (asked for square; the model drew hexagons), keeping the frame, wall and ground unchanged. Then cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Tiffany Nutt",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/yellow-and-purple-bicycle-near-white-wall-at-daytime-0ClfreiNppM",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Tiffany Nutt on Unsplash",
             "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-            "licence": "Apache-2.0",
-            "prompt": "a blue road racing bicycle standing on its own on an empty country road, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1003,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:31:13+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
         },
         {
-          "tile_id": "G01-T4",
-          "src": "1285019de39d43eb.webp",
-          "src_small": "1285019de39d43eb-s.webp",
+          "tile_id": "C01-T4",
+          "src": "d4da8273dad6138a.webp",
+          "src_small": "d4da8273dad6138a-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "1285019de39d43eb7295e9a6465d1a94a33812b9825c828e089ff8499c5495a7",
-          "alt": "A small yellow child's bicycle with training wheels on a lawn",
+          "sha256": "d4da8273dad6138a93236dc06af0dd96c9bf5be691462b0468c052ba50cde68d",
+          "alt": "Dark grey recumbent exercise bike on a pale rooftop terrace",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-            "licence": "Apache-2.0",
-            "prompt": "a small yellow child's bicycle with training wheels standing on a garden lawn, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1004,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T12:41:15+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Intenza Fitness",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-recumbent-bike-with-a-monitor-on-top-of-it-2sRgd9QdRG0",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Intenza Fitness on Unsplash"
           }
         },
         {
-          "tile_id": "G01-T5",
-          "src": "72718790afe43ab8.webp",
-          "src_small": "72718790afe43ab8-s.webp",
+          "tile_id": "C01-T5",
+          "src": "381c40d4243224fd.webp",
+          "src_small": "381c40d4243224fd-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "72718790afe43ab8985c8c15cd5220e96fbda633426559ccf5f3bbf821298969",
-          "alt": "A red vintage motor scooter parked on a street",
+          "sha256": "381c40d4243224fd50868170f5957f8718087ac13064ddfadff8a572a4ce7fb3",
+          "alt": "Chestnut horse fitted with handlebars, a saddle, pedals and a bicycle wheel on a country road",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
             "licence": "Apache-2.0",
-            "prompt": "a red vintage motor scooter parked on a quiet European street, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1005,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:33:39+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
         },
         {
-          "tile_id": "G01-T6",
-          "src": "9f7aeb69bd32e790.webp",
-          "src_small": "9f7aeb69bd32e790-s.webp",
+          "tile_id": "C01-T6",
+          "src": "00cf57301e796814.webp",
+          "src_small": "00cf57301e796814-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "9f7aeb69bd32e790d1519a00d52d298bba22aab433a28e4ea680563d0af55371",
-          "alt": "A blue motorcycle parked on a cobbled square",
+          "sha256": "00cf57301e7968147d56a16d5c9250bae70297a6ee727b09690dbdab406d2db6",
+          "alt": "Grey mesh office chair mounted between two bicycle wheels with pedals, in a car park",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
             "licence": "Apache-2.0",
-            "prompt": "a blue motorcycle parked on a cobbled square, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1006,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:36:07+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
         },
         {
-          "tile_id": "G01-T7",
-          "src": "4e5e0b454064aaf4.webp",
-          "src_small": "4e5e0b454064aaf4-s.webp",
+          "tile_id": "C01-T7",
+          "src": "4acb4ea2debee15c.webp",
+          "src_small": "4acb4ea2debee15c-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "4e5e0b454064aaf4a64450078685cc52fd0e78267c807b0336279da30a01ba12",
-          "alt": "A child's kick scooter on a pavement",
+          "sha256": "4acb4ea2debee15c1b5f54a68fbe275b4fd68acde6ae2a8eefa28a860e133024",
+          "alt": "Vintage dappled rocking horse on a wooden floor",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-            "licence": "Apache-2.0",
-            "prompt": "a silver child's kick scooter standing on a pavement, side view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1007,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:38:26+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Georgii Eletskikh",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-vintage-rocking-horse-on-a-wooden-floor-IM536k4QvVI",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Georgii Eletskikh on Unsplash"
           }
         },
         {
-          "tile_id": "G01-T8",
-          "src": "b2bf2dac95c24e8f.webp",
-          "src_small": "b2bf2dac95c24e8f-s.webp",
+          "tile_id": "C01-T8",
+          "src": "9daf811aae24cac6.webp",
+          "src_small": "9daf811aae24cac6-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "b2bf2dac95c24e8f5cc9e3c36d14f236fb87000e098ce6c6b67177864c153bfc",
-          "alt": "A skateboard on paving stones",
+          "sha256": "9daf811aae24cac60b3f4f265cae69fd25416dab9da7a68f0d6fdc93526a3f9e",
+          "alt": "Turquoise electric kick scooter by a waterfront railing",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-            "licence": "Apache-2.0",
-            "prompt": "a wooden skateboard lying on grey paving stones, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1008,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:40:47+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Şahin Sezer Dinçer",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/blue-and-black-kick-scooter-near-the-fence-9371876/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Şahin Sezer Dinçer on Pexels"
           }
         },
         {
-          "tile_id": "G01-T9",
-          "src": "60c45b81b625a9a4.webp",
-          "src_small": "60c45b81b625a9a4-s.webp",
+          "tile_id": "C01-T9",
+          "src": "a7c3cae520ece5f0.webp",
+          "src_small": "a7c3cae520ece5f0-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "60c45b81b625a9a42fd186482b56d49030456174c7ef2de4f8d15acb9f2dd1c5",
-          "alt": "A small white vintage car parked on a street",
+          "sha256": "a7c3cae520ece5f0689fd2209643524d2170615917ccddf662410de398ec27f5",
+          "alt": "Black cruiser motorcycle against a stone building",
           "provenance": {
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-            "licence": "Apache-2.0",
-            "prompt": "a small white vintage car parked on a cobbled street, three-quarter view, realistic photograph, natural light, sharp focus, rich colour, single subject centred in a square frame, no people, no text",
-            "seed": 1009,
-            "steps": 4,
-            "guidance_scale": 1.0,
-            "generated_at": "2026-10-20T13:43:12+00:00",
-            "edits": "Published at the rendered 512 x 512 pixels and as a 256 x 256 copy (Lanczos), both encoded as WebP at quality 82. No other edits."
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Iván Antonio",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/black-cruiser-motorcycle-against-stone-wall-SstfyOxCJuc",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Iván Antonio on Unsplash"
           }
         }
       ],
       "answer_key": [
-        "G01-T1",
-        "G01-T2",
-        "G01-T3",
-        "G01-T4"
+        "C01-T1",
+        "C01-T2",
+        "C01-T3"
+      ],
+      "borderline_tile_ids": [
+        "C01-T4",
+        "C01-T5",
+        "C01-T6"
       ]
     }
   ]

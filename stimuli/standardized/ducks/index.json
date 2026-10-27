@@ -1,0 +1,16 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "standardized",
+  "theme": "ducks",
+  "version_ids": [
+    "photo-unsplash-1465247431621-ae634a2477be-standardized-v1",
+    "photo-unsplash-1759296207466-1ffa84064931-standardized-v1",
+    "photo-unsplash-1758817514661-3c506b9c28ae-standardized-v1",
+    "photo-unsplash-1648927684519-e98033e18b50-standardized-v1",
+    "photo-unsplash-1632877943287-64636ca57b7e-standardized-v1",
+    "photo-unsplash-1712605102130-59444841cba8-standardized-v1",
+    "photo-unsplash-1778909236557-0e1fd2b3a675-standardized-v1",
+    "photo-unsplash-1786223252518-db0026329748-standardized-v1"
+  ]
+}

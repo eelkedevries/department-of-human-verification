@@ -11,14 +11,48 @@ and no input is used for training.
 
 Usage (from a virtual environment with torch, diffusers and transformers):
     python tools/stimuli/manipulate.py JOBS.json OUTPUT_FOLDER
+or, much faster, on the model makers' public Hugging Face Space (same model,
+GPU, 1,024 px; needs gradio_client and network access to *.hf.space):
+    python tools/stimuli/manipulate.py --space JOBS.json OUTPUT_FOLDER
+Space outputs are saved exactly as received (WebP) with the same sidecar.
 JOBS.json is a list of {"id", "prompt", "seed", "image" (optional), "steps"
 (default 4), "size" (default 512)}. Jobs whose output already exists are
 skipped. Outputs are working files; inspect them before registering any.
 """
 import gc, json, sys, time
 from pathlib import Path
-import diffusers, torch, transformers
 from PIL import Image
+
+SPACE = "black-forest-labs/FLUX.2-klein-4B"
+if sys.argv[1] == "--space":
+    import shutil
+    import gradio_client
+    jobs = json.loads(Path(sys.argv[2]).read_text()); out = Path(sys.argv[3]); out.mkdir(parents=True, exist_ok=True)
+    client = gradio_client.Client(SPACE, verbose=False)
+    for n, j in enumerate(jobs, 1):
+        if (out / f"{j['id']}.json").exists():
+            continue
+        size = j.get("size", 1024); t = time.time()
+        images = [gradio_client.handle_file(j["image"])] if j.get("image") else []
+        try:
+            result, seed = client.predict(j["prompt"], images, "Distilled (4 steps)", j["seed"], False, size, size, j.get("steps", 4), 1.0, False, api_name="/infer")
+        except Exception as error:
+            print(f"[{n}/{len(jobs)}] {j['id']} failed: {error}", flush=True)
+            if "quota" in str(error).lower():
+                break
+            continue
+        source = Path(result["path"] if isinstance(result, dict) else result)
+        target = out / f"{j['id']}{source.suffix}"
+        shutil.copyfile(source, target)
+        record = dict(j, model="black-forest-labs/FLUX.2-klein-4B", model_revision="e7b7dc27f91deacad38e78976d1f2b499d76a294 (Space default; not pinned by the client)",
+                      guidance_scale=1.0, steps=j.get("steps", 4), width=size, height=size, precision=f"GPU on the Hugging Face Space {SPACE} (ZeroGPU)",
+                      software={"gradio_client": gradio_client.__version__, "space": SPACE}, generated_at=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                      seconds=round(time.time() - t), output_file=target.name)
+        (out / f"{j['id']}.json").write_text(json.dumps(record, indent=2) + "\n")
+        print(f"[{n}/{len(jobs)}] {j['id']} {time.time() - t:.0f}s", flush=True)
+    sys.exit()
+
+import diffusers, torch, transformers
 MODEL = 'black-forest-labs/FLUX.2-klein-4B'; REV = 'e7b7dc27f91deacad38e78976d1f2b499d76a294'
 
 def _linear_fp32(self, x):

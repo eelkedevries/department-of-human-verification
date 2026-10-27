@@ -1,0 +1,104 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C01@1",
+  "set_id": "C01",
+  "version": 1,
+  "theme": "bicycles",
+  "status": "approved",
+  "instruction": "Select all images containing a bicycle.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C01",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all vehicles powered by pedals.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary bicycles count, and so does the bicycle with hexagonal wheels: impossible to ride, but still a bicycle. The exercise bike, the horse with pedals and the pedal-powered office chair are borderline cases, recorded without a verdict. The rocking horse, the kick scooter and the motorcycle are not bicycles.",
+    "feedback": {
+      "correct": [
+        "Your understanding of bicycles has been noted.",
+        "All bicycles accounted for. A copy has been placed on file.",
+        "Correct. The square-wheeled bicycle has been recognised. Its roadworthiness has not."
+      ],
+      "partial": [
+        "Partially correct. Your relationship with bicycles will be reviewed.",
+        "Some bicycles escaped your attention. They have been informed."
+      ],
+      "incorrect": [
+        "Incorrect. The bicycles have asked not to be contacted further.",
+        "Incorrect. The Department is not angry about the bicycles, merely disappointed."
+      ]
+    },
+    "stimulus_id": "C01",
+    "version": 1,
+    "grid_hash": "56651a5edb4c8ca528f999671ee6e5cc29756ba4b350ad1849a6f5a458501466"
+  },
+  "tiles": [
+    {
+      "tile_id": "C01-T1",
+      "version_id": "photo-pexels-4995281-c01-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C01-T2",
+      "version_id": "photo-unsplash-1778800051130-a7466c7ae19a-c01-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C01-T3",
+      "version_id": "photo-unsplash-1507035895480-2b3156c31fc8-c01-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C01-T4",
+      "version_id": "photo-unsplash-1637714102098-6514a99eefd3-c01-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C01-T5",
+      "version_id": "generated-bicycles-pedal-horse-brown-c01-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C01-T6",
+      "version_id": "generated-bicycles-pedal-office-chair-c01-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C01-T7",
+      "version_id": "photo-unsplash-1755092756284-226aea1995b6-c01-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C01-T8",
+      "version_id": "photo-pexels-9371876-c01-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C01-T9",
+      "version_id": "photo-unsplash-1792271031903-cbf76565581d-c01-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C01-T1",
+    "C01-T2",
+    "C01-T3"
+  ],
+  "borderline_tile_ids": [
+    "C01-T4",
+    "C01-T5",
+    "C01-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T07:45:29Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary bicycles (orange and teal mountain bike on grass, three-quarter view; red vintage bicycle against a blue wall, side view), one impossible bicycle (hexagonal wheels, edited photograph), three borderline cases (recumbent exercise bike, generated chestnut horse with bicycle parts, generated pedal-powered office chair) and three non-members (rocking horse, kick scooter, motorcycle). Views, facing directions and settings vary within each role; no view, colour or setting singles out the targets. Grey is the most frequent colour (exercise bike, office chair, rocking horse: 3 of 9)."
+  },
+  "created_at": "2026-10-27T07:45:29Z",
+  "actor": "claude"
+}

@@ -8,13 +8,13 @@ All stimulus work uses the [staged collection](../stimuli/README.md) and its man
 
 Licensed photographs may supply ordinary images or inputs for later AI edits. Verify each source and its derivative permission automatically during the search, before presenting it as suitable or adding it to `suitable`; see the search procedure below. Third-party licences remain distinct from the code licence. Both ordinary and manipulated selections must meet the photography guidelines below; edited masters must be standardised before final selection.
 
-The collection includes 46 linked raw candidates, of which twenty-five meet the target clarity standard and are suitable (four of them standardised), plus a versioned snapshot of the existing G01 files. The other twenty-one are rejected and remain raw only. The [source review](../stimuli/raw/bicycles/rights-review-2026-10-26.md) records the evidence. The collection does not replace the live catalogue or add a photograph-import path to the renderer-only publisher. Recording a final set is separate from changing the game or deploying it. The current 512/256 px WebP pipeline remains in use.
+The collection holds rights-checked photographs, AI-edited and AI-generated images and versioned nine-image final sets for the concept pools; see its [README](../stimuli/README.md) and [gallery](../stimuli/GALLERY.md). `tools/stimuli/publish.py` publishes final sets marked for publication to the live catalogue with each image's credit; recording a final set is separate from publishing or deploying it. The 512/256 px WebP format is unchanged.
 
 ## Current status and replacement direction
 
-**Currently published:** G01 — “Select all images containing a bicycle”, with four ordinary bicycle targets. Its images and current scoring are still valid; this grid is temporarily reused when no other published grid exists.
+**Currently published:** grids built from the collection's final sets, starting with C01 — “Select all images containing a bicycle” (ordinary and impossible bicycles as targets, unscored borderline cases, clear non-members). The generated G01 grid was retired on the owner's decision of 27 October 2026.
 
-**New direction:** ordinary instructions, absurd-but-category-relevant photographs and debatable category boundaries. The [candidate-stimulus table](stimulus-concepts.md) gives **15 twelve-image concept pools** (three normal members, three bizarre members, three debatable candidates and three non-members). Each pool supplies alternatives for a separately curated **nine-image playable grid**; it is not a change to the 3 × 3 game format. None of those images has been rendered and published yet.
+**New direction:** ordinary instructions, absurd-but-category-relevant photographs and debatable category boundaries. The [candidate-stimulus table](stimulus-concepts.md) gives **15 twelve-image concept pools** (three normal members, three bizarre members, three debatable candidates and three non-members). Each pool supplies alternatives for a separately curated **nine-image playable grid**; it is not a change to the 3 × 3 game format. Grids are published from them as each pool is completed.
 
 **Earlier unpublished drafts:** G02–G10 remain as legacy entries in [`tools/stimuli/source.json`](../tools/stimuli/source.json). Their single-target and unusual-instruction ideas are **superseded**. Do not publish them as-is. Replace them one grid at a time with the new approach.
 
@@ -34,7 +34,7 @@ For a new category-judgement grid, include at least one clear target and one cle
 
 ## Game selection and randomisation
 
-The game currently samples five rounds in a fixed family order and shuffles tile positions using a recorded seed. When a family lacks published content it borrows another grid, so G01 appears five times at present. Future distinct categories must be integrated into the round-selection design without repeated base categories in one short playthrough where the pool allows. Existing time limits remain unchanged pending usability testing.
+The game currently samples five rounds in a fixed family order and shuffles tile positions using a recorded seed. When a family lacks published content it borrows another grid, avoiding grids already shown in the session where the pool allows. Future distinct categories must be integrated into the round-selection design without repeated base categories in one short playthrough where the pool allows. Existing time limits remain unchanged pending usability testing.
 
 For **systematic stimulus variation**, define matched grid variants that keep the wording, definite targets, image count, framing, and rendering quality stable. Independently vary visual resemblance, functional resemblance, or bizarreness; record a variant/condition ID and pilot the difference with human ratings. The concept table is a stimulus backlog, not yet a randomised factorial experiment.
 
