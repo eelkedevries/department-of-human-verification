@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-90bb40e671",
+  "catalogue_version": "2026-10-27-ec7cc3b167",
   "families": [
     "recognition",
     "semantic",
@@ -436,6 +436,219 @@
       "borderline_tile_ids": [
         "C02-T5",
         "C02-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C09",
+      "version": 1,
+      "hash": "401600b4af9c24327b87835bc8c60718aa52a11d9f614c11eaa9f1d66e8ee52d",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a boat.",
+      "instruction_variants": {
+        "direct": "Select all images containing a boat.",
+        "semantic": "Select all craft made to travel on water."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary boats count, and so do the yacht standing on mechanical legs and the sailboat carrying a lighthouse: impossible, but still boats. The inflatable duck with an outboard motor and the floating picnic table are borderline cases, recorded without a verdict. The car, the picnic table on land and the wheelbarrow are not boats.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Boats identified. Please do not rock them.",
+          "Correct. Every boat has been moored."
+        ],
+        "partial": [
+          "Partially correct. A boat has drifted out of view.",
+          "Partially correct. Some boats sailed past you."
+        ],
+        "incorrect": [
+          "Incorrect. The Department is all at sea.",
+          "Incorrect. Your harbour permit is under review."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C09-T1",
+          "src": "5a0dbd54d3b1c1d4.webp",
+          "src_small": "5a0dbd54d3b1c1d4-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "5a0dbd54d3b1c1d4cd231711b3b3fb4a75fb22575de128ce8dee053a0ba14521",
+          "alt": "Red-brown wooden rowing boat moored on calm grey-blue water",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Rusty Watson",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/qGUPhiqSKZM",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Rusty Watson on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C09-T2",
+          "src": "f35a9c5c35847866.webp",
+          "src_small": "f35a9c5c35847866-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "f35a9c5c35847866650a87d8d4af6b4b1c3980efea5078c571b110f66f94d445",
+          "alt": "Black-and-white passenger and vehicle ferry crossing open water with hills behind",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Maarten Zaanen",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/8PSuYwiN5c8",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Maarten Zaanen on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C09-T3",
+          "src": "bfba11850111f619.webp",
+          "src_small": "bfba11850111f619-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "bfba11850111f619db42680b4e1f5c109398aacf0975c6e5bfc456f92b3d2cdc",
+          "alt": "White sailing yacht standing on a sandy beach on four articulated mechanical legs",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C09-T4",
+          "src": "55548d1a18dbb02e.webp",
+          "src_small": "55548d1a18dbb02e-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "55548d1a18dbb02e717c0d2f8432760335527ea7b486ae1f706d92467715ea82",
+          "alt": "Small sailboat at sea with a red and white lighthouse rising from its deck",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C09-T5",
+          "src": "60753542fe850b6d.webp",
+          "src_small": "60753542fe850b6d-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "60753542fe850b6d3192307164a1a166f7c34842a0374c392da39d3aef465f00",
+          "alt": "Giant yellow inflatable duck float with an outboard motor on a lake",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C09-T6",
+          "src": "247e5ae2fae5976b.webp",
+          "src_small": "247e5ae2fae5976b-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "247e5ae2fae5976b04c90458725d960e01d1d56c35dedcf3cd8f516b0c91bef4",
+          "alt": "Wooden picnic table with an outboard motor floating on a pond",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C09-T7",
+          "src": "fe2238a85047020e.webp",
+          "src_small": "fe2238a85047020e-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "fe2238a85047020ee2b175e7a69411426203c4523b7a75cfe7d998028e826857",
+          "alt": "Red classic Fiat 500 parked on a wet street in front of a grey wall with a roller shutter",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Andrea Ranalletta",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/u2dRP7YZorU",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Andrea Ranalletta on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C09-T8",
+          "src": "8b764298c7f46909.webp",
+          "src_small": "8b764298c7f46909-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "8b764298c7f46909e144667b469e67817d891f421ae9b55c4b8e494e4671b6c4",
+          "alt": "Weathered wooden picnic table with attached benches in a woodland clearing",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Adrian Hernandez",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/4JshwFfOcR4",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Adrian Hernandez on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C09-T9",
+          "src": "f45be95395d22db6.webp",
+          "src_small": "f45be95395d22db6-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "f45be95395d22db6ec4a8d5168baa0269229ac63524c097f54182668a9689e0d",
+          "alt": "Galvanised wheelbarrow with a red wheel standing on rough ground beside shrubs",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Marc Pell",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/KVaHPMdAdWQ",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Marc Pell on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C09-T1",
+        "C09-T2",
+        "C09-T3",
+        "C09-T4"
+      ],
+      "borderline_tile_ids": [
+        "C09-T5",
+        "C09-T6"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T08:59:01Z",
+  "updated_at": "2026-10-27T08:59:30Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -52108,6 +52108,873 @@
           "scope": "standardised-crop"
         }
       ]
+    },
+    {
+      "version_id": "photo-unsplash-1724102894997-c30f6216cec6-c09-1-final",
+      "asset_id": "photo-unsplash-1724102894997-c30f6216cec6",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1724102894997-c30f6216cec6-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1724102894997-c30f6216cec6-standardized-v1.webp",
+          "sha256": "5a0dbd54d3b1c1d4cd231711b3b3fb4a75fb22575de128ce8dee053a0ba14521",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 32518
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1724102894997-c30f6216cec6-standardized-v1-s.webp",
+          "sha256": "f4a739c031ae3f8dd35ad7946d5cf5c9838aa050a4086ac5c7e0b50b814ec6b2",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10610
+        }
+      ],
+      "characteristics": {
+        "colour": "dark red and brown",
+        "viewpoint": "Shallow three-quarter side view",
+        "facing_direction": "left",
+        "environment": "calm harbour or lake",
+        "support": "floating on water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1724102894997-c30f6216cec6-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Crop side only 560 px in the preview (above the 512 px minimum)",
+        "Reflections of mooring posts in the water above the boat",
+        "Part of the mooring line enters at the left edge; the buoy itself is outside the crop"
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Red-brown wooden rowing boat moored on calm grey-blue water",
+      "object_type": "rowing-boat",
+      "content_origin": "photograph",
+      "keywords": [
+        "rowing-boat",
+        "dinghy",
+        "wooden-boat",
+        "moored",
+        "calm-water"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the rowing boat spans about 85.2% of the crop, shallow three-quarter side view, dark red and brown, against calm harbour or lake; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1733336650115-65565c0adae6-c09-1-final",
+      "asset_id": "photo-unsplash-1733336650115-65565c0adae6",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1733336650115-65565c0adae6-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1733336650115-65565c0adae6-standardized-v1.webp",
+          "sha256": "f35a9c5c35847866650a87d8d4af6b4b1c3980efea5078c571b110f66f94d445",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 32574
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1733336650115-65565c0adae6-standardized-v1-s.webp",
+          "sha256": "e55c70d47ccd559c3d116bc8ae853c2650abd816aeec295ad600856d56b96c12",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 9788
+        }
+      ],
+      "characteristics": {
+        "colour": "black, white and red",
+        "viewpoint": "Shallow three-quarter",
+        "facing_direction": "right",
+        "environment": "coastal water below hills",
+        "support": "floating on water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1733336650115-65565c0adae6-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Operator name painted small on the hull (Caledonian MacBrayne)",
+        "Crop side 626 px in the preview",
+        "Purple-brown hills behind are busier than open sky"
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Black-and-white passenger and vehicle ferry crossing open water with hills behind",
+      "object_type": "ferry",
+      "content_origin": "photograph",
+      "keywords": [
+        "ferry",
+        "passenger-ferry",
+        "ship",
+        "coastal-water",
+        "hills"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the ferry spans about 85.0% of the crop, shallow three-quarter, black, white and red, against coastal water below hills; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-boats-walking-yacht-c09-1-final",
+      "asset_id": "generated-boats-walking-yacht",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-boats-walking-yacht-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/generated-boats-walking-yacht-standardized-v1.webp",
+          "sha256": "bfba11850111f619db42680b4e1f5c109398aacf0975c6e5bfc456f92b3d2cdc",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 40068
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/generated-boats-walking-yacht-standardized-v1-s.webp",
+          "sha256": "89ae82792c870cd3fce4cce567f82f766309db17d3f5df4620da00f3e4e0c92b",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 12988
+        }
+      ],
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Side three-quarter",
+        "facing_direction": "left",
+        "environment": "sandy beach with the sea and blue sky behind",
+        "support": "four mechanical legs ending in wheels on the sand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-boats-walking-yacht-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The legs end in wheels rather than feet."
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "White sailing yacht standing on a sandy beach on four articulated mechanical legs",
+      "object_type": "sailing-yacht",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "yacht",
+        "sailing-boat",
+        "mechanical-legs",
+        "beach",
+        "impossible-object",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "A white yacht with mast and rigging raised out of the water on four jointed mechanical legs: plainly a boat, impossibly ashore. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-boats-lighthouse-sailboat-c09-1-final",
+      "asset_id": "generated-boats-lighthouse-sailboat",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-boats-lighthouse-sailboat-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/generated-boats-lighthouse-sailboat-standardized-v1.webp",
+          "sha256": "55548d1a18dbb02e717c0d2f8432760335527ea7b486ae1f706d92467715ea82",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 34774
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/generated-boats-lighthouse-sailboat-standardized-v1-s.webp",
+          "sha256": "2078fc2b8e131393817d8b55b4c2ea705bd0561cdc6a4ab04fd4b36ca88d782e",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 10336
+        }
+      ],
+      "characteristics": {
+        "colour": "white hull, red and white lighthouse",
+        "viewpoint": "Side",
+        "facing_direction": "right",
+        "environment": "open blue sea under a pale sky",
+        "support": "floating on the sea",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-boats-lighthouse-sailboat-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "The lighthouse is boat-sized rather than full-sized and stands beside the mast."
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Small sailboat at sea with a red and white lighthouse rising from its deck",
+      "object_type": "sailboat",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "sailboat",
+        "lighthouse",
+        "sea",
+        "impossible-object",
+        "red-and-white"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "A small sailing boat carrying a red and white lighthouse tower on its deck beside the mast: plainly a boat, with an impossible lighthouse. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-boats-duck-float-boat-c09-1-final",
+      "asset_id": "generated-boats-duck-float-boat",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-boats-duck-float-boat-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/generated-boats-duck-float-boat-standardized-v1.webp",
+          "sha256": "60753542fe850b6d3192307164a1a166f7c34842a0374c392da39d3aef465f00",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 35814
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/generated-boats-duck-float-boat-standardized-v1-s.webp",
+          "sha256": "95ef196dc9f93c3ca46bbe7edc3acd29b5d5ec5d13ca8f85c45483780208b40d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13514
+        }
+      ],
+      "characteristics": {
+        "colour": "yellow with an orange beak",
+        "viewpoint": "Side three-quarter",
+        "facing_direction": "left",
+        "environment": "calm lake with a wooded shore",
+        "support": "floating on the water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-boats-duck-float-boat-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "No rudder is visible apart from the motor."
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Giant yellow inflatable duck float with an outboard motor on a lake",
+      "object_type": "inflatable-float",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "inflatable-duck",
+        "pool-float",
+        "outboard-motor",
+        "lake",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "A yellow inflatable duck with an outboard motor at its tail: a powered float, but is it a boat? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-boats-picnic-table-boat-c09-1-final",
+      "asset_id": "generated-boats-picnic-table-boat",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-boats-picnic-table-boat-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/generated-boats-picnic-table-boat-standardized-v1.webp",
+          "sha256": "247e5ae2fae5976b04c90458725d960e01d1d56c35dedcf3cd8f516b0c91bef4",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 51656
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/generated-boats-picnic-table-boat-standardized-v1-s.webp",
+          "sha256": "7af6fb99a260826c3189954704a863a47639c7cec626436cb1f3c68e848243de",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19560
+        }
+      ],
+      "characteristics": {
+        "colour": "weathered grey wood with a black motor",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "right",
+        "environment": "pond with reeds, trees and a house on the bank",
+        "support": "floating on the water",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-boats-picnic-table-boat-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Wooden picnic table with an outboard motor floating on a pond",
+      "object_type": "picnic-table-boat",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "picnic-table",
+        "outboard-motor",
+        "pond",
+        "improvised-boat",
+        "wood"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 12,
+          "grade": "Meets target clarity",
+          "reason": "A picnic table afloat with an outboard motor clamped to it: it moves on water, but is it a boat? The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1739615124112-d5760c5a26df-c09-1-final",
+      "asset_id": "photo-unsplash-1739615124112-d5760c5a26df",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1739615124112-d5760c5a26df-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1739615124112-d5760c5a26df-standardized-v1.webp",
+          "sha256": "fe2238a85047020ee2b175e7a69411426203c4523b7a75cfe7d998028e826857",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 77638
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1739615124112-d5760c5a26df-standardized-v1-s.webp",
+          "sha256": "e27c1f900199ccb4515383055822e6f10e0c46b5463d269774be0799446fe64a",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 17354
+        }
+      ],
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side view",
+        "facing_direction": "left",
+        "environment": "urban street",
+        "support": "parked on a road",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1739615124112-d5760c5a26df-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Recognisable car model (Fiat 500), though no badge is prominent",
+        "Wet road with reflections below the car"
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Red classic Fiat 500 parked on a wet street in front of a grey wall with a roller shutter",
+      "object_type": "car",
+      "content_origin": "photograph",
+      "keywords": [
+        "car",
+        "small-car",
+        "classic-car",
+        "red",
+        "street"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the car spans about 85.0% of the crop, side view, red, against urban street; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1635958068287-2f496bea08a4-c09-1-final",
+      "asset_id": "photo-unsplash-1635958068287-2f496bea08a4",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1635958068287-2f496bea08a4-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1635958068287-2f496bea08a4-standardized-v1.webp",
+          "sha256": "8b764298c7f46909e144667b469e67817d891f421ae9b55c4b8e494e4671b6c4",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 68064
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1635958068287-2f496bea08a4-standardized-v1-s.webp",
+          "sha256": "e83fdd821388a28ef3a0220d6a21c85afe1c1f5590d1f3843bbfce3c4aa806d0",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 19136
+        }
+      ],
+      "characteristics": {
+        "colour": "grey-brown wood",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "not-applicable",
+        "environment": "woodland clearing",
+        "support": "standing on earth and grass",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1635958068287-2f496bea08a4-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "A dark barbecue grill stands behind the table",
+        "Dark forest background lowers contrast with the table legs"
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Weathered wooden picnic table with attached benches in a woodland clearing",
+      "object_type": "picnic-table",
+      "content_origin": "photograph",
+      "keywords": [
+        "picnic-table",
+        "bench",
+        "wooden",
+        "woodland",
+        "outdoor"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the picnic table spans about 85.2% of the crop, three-quarter, grey-brown wood, against woodland clearing; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1723022468974-e06843cef1ab-c09-1-final",
+      "asset_id": "photo-unsplash-1723022468974-e06843cef1ab",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1723022468974-e06843cef1ab-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1723022468974-e06843cef1ab-standardized-v1.webp",
+          "sha256": "f45be95395d22db6ec4a8d5168baa0269229ac63524c097f54182668a9689e0d",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 68508
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/boats/C09/1/photo-unsplash-1723022468974-e06843cef1ab-standardized-v1-s.webp",
+          "sha256": "48ef46744271991eed2d28bc0842fb82513a1918abf9338a85ed07d9de859e70",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 22210
+        }
+      ],
+      "characteristics": {
+        "colour": "silver and red",
+        "viewpoint": "Three-quarter side view",
+        "facing_direction": "left",
+        "environment": "garden edge or roadside",
+        "support": "standing on its wheel and legs on soil",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Selected for C09@1: Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T08:59:30Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T08:59:30Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1723022468974-e06843cef1ab-standardized-v1 for final set C09@1."
+      },
+      "unresolved_issues": [
+        "Crop limited by the 720 px preview height; the wheelbarrow spans 88%",
+        "Small blue object inside the tray",
+        "Grey tray against mixed green and brown background"
+      ],
+      "created_at": "2026-10-27T08:59:30Z",
+      "updated_at": "2026-10-27T08:59:30Z",
+      "actor": "claude",
+      "description": "Galvanised wheelbarrow with a red wheel standing on rough ground beside shrubs",
+      "object_type": "wheelbarrow",
+      "content_origin": "photograph",
+      "keywords": [
+        "wheelbarrow",
+        "galvanised",
+        "red-wheel",
+        "garden",
+        "outdoor"
+      ],
+      "assessments": [
+        {
+          "theme": "boats",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the wheelbarrow spans about 88.2% of the crop, three-quarter side view, silver and red, against garden edge or roadside; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
     }
   ],
   "sets": [
@@ -52124,6 +52991,13 @@
       "version": 1,
       "theme": "chairs",
       "manifest": "stimuli/final/chairs/C02/1/manifest.json"
+    },
+    {
+      "set_key": "C09@1",
+      "set_id": "C09",
+      "version": 1,
+      "theme": "boats",
+      "manifest": "stimuli/final/boats/C09/1/manifest.json"
     }
   ],
   "retired_sets": [

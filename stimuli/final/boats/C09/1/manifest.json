@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C09@1",
+  "set_id": "C09",
+  "version": 1,
+  "theme": "boats",
+  "status": "approved",
+  "instruction": "Select all images containing a boat.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C09",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all craft made to travel on water.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary boats count, and so do the yacht standing on mechanical legs and the sailboat carrying a lighthouse: impossible, but still boats. The inflatable duck with an outboard motor and the floating picnic table are borderline cases, recorded without a verdict. The car, the picnic table on land and the wheelbarrow are not boats.",
+    "feedback": {
+      "correct": [
+        "Boats identified. Please do not rock them.",
+        "Correct. Every boat has been moored."
+      ],
+      "partial": [
+        "Partially correct. A boat has drifted out of view.",
+        "Partially correct. Some boats sailed past you."
+      ],
+      "incorrect": [
+        "Incorrect. The Department is all at sea.",
+        "Incorrect. Your harbour permit is under review."
+      ]
+    },
+    "stimulus_id": "C09",
+    "version": 1,
+    "grid_hash": "401600b4af9c24327b87835bc8c60718aa52a11d9f614c11eaa9f1d66e8ee52d"
+  },
+  "tiles": [
+    {
+      "tile_id": "C09-T1",
+      "version_id": "photo-unsplash-1724102894997-c30f6216cec6-c09-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T2",
+      "version_id": "photo-unsplash-1733336650115-65565c0adae6-c09-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T3",
+      "version_id": "generated-boats-walking-yacht-c09-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T4",
+      "version_id": "generated-boats-lighthouse-sailboat-c09-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C09-T5",
+      "version_id": "generated-boats-duck-float-boat-c09-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C09-T6",
+      "version_id": "generated-boats-picnic-table-boat-c09-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C09-T7",
+      "version_id": "photo-unsplash-1739615124112-d5760c5a26df-c09-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C09-T8",
+      "version_id": "photo-unsplash-1635958068287-2f496bea08a4-c09-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C09-T9",
+      "version_id": "photo-unsplash-1723022468974-e06843cef1ab-c09-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C09-T1",
+    "C09-T2",
+    "C09-T3",
+    "C09-T4"
+  ],
+  "borderline_tile_ids": [
+    "C09-T5",
+    "C09-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T08:59:30Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary boats (red-brown wooden rowing boat on calm water, shallow three-quarter view; black-and-white ferry crossing open water), two impossible boats (generated white yacht on four mechanical legs on a beach; generated sailboat carrying a red and white lighthouse), two borderline craft (generated inflatable duck float with an outboard motor; generated picnic table with an outboard motor afloat on a pond) and three non-members (red Fiat 500 in side view, weathered picnic table in a woodland clearing, galvanised wheelbarrow). The picnic table appears both afloat (borderline) and on land (non-member), so the setting rather than the object decides. Views, colours and settings vary within each role; generated images appear among targets and borderline cases alike. The varnished rowing boat, the white sloop and the motorised bathtub remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T08:59:30Z",
+  "actor": "claude"
+}
