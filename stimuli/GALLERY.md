@@ -367,7 +367,7 @@ Rights-verified and visually reviewed, by rank.
 
 ## cars
 
-Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 11 · manipulated: 4 · final sets: 1
+Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 12 · manipulated: 5 · final sets: 1
 
 ### Suitable
 
@@ -410,6 +410,7 @@ Rights-verified and visually reviewed, by rank.
 <tr>
 <td width="33%" valign="top"><a href="standardized/cars/generated-cars-foot-buggy-standardized-v1.webp"><img src="standardized/cars/generated-cars-foot-buggy-standardized-v1-s.webp" width="240" alt="Foot-powered four-wheeled buggy with a canopy, two bench seats and a steering wheel on a village street"></a><br><sub><b>#10</b> Foot-powered four-wheeled buggy with a canopy, two bench seats and a steering wheel on a village street<br>pedal-buggy · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 <td width="33%" valign="top"><a href="standardized/cars/generated-cars-trolley-cabin-standardized-v1.webp"><img src="standardized/cars/generated-cars-trolley-cabin-standardized-v1-s.webp" width="240" alt="Shopping trolley converted into a tiny driving cabin with a seat, steering wheel, roll bar and headlights"></a><br><sub><b>#11</b> Shopping trolley converted into a tiny driving cabin with a seat, steering wheel, roll bar and headlights<br>trolley-vehicle · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/cars/photo-unsplash-1760162754961-ed27f26b394f-standardized-v2.webp"><img src="standardized/cars/photo-unsplash-1760162754961-ed27f26b394f-standardized-v2-s.webp" width="240" alt="Light-blue estate car with a roof box standing on four brown horse legs with hooves"></a><br><sub><b>#12</b> Light-blue estate car with a roof box standing on four brown horse legs with hooves<br>estate-car · ai-edited-photograph · target (member-bizarre) · Meets target clarity<br>Xingdong Yu · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>Parts of the original wheels remain visible behind the horse legs.</details></sub></td>
 </tr>
 </table>
 
@@ -423,6 +424,7 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="manipulated/cars/generated-cars-trolley-cabin-v1.png"><img src="manipulated/cars/generated-cars-trolley-cabin-v1.png" width="240" alt="Shopping trolley converted into a tiny driving cabin with a seat, steering wheel, roll bar and headlights"></a><br><sub>Shopping trolley converted into a tiny driving cabin with a seat, steering wheel, roll bar and headlights<br>trolley-vehicle · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/cars/photo-unsplash-1760162754961-ed27f26b394f-horse-legs-v1.png"><img src="manipulated/cars/photo-unsplash-1760162754961-ed27f26b394f-horse-legs-v1.png" width="240" alt="Light-blue estate car with a roof box standing on four brown horse legs with hooves"></a><br><sub>Light-blue estate car with a roof box standing on four brown horse legs with hooves<br>estate-car · ai-edited-photograph · target (member-bizarre) · Meets target clarity<br>Xingdong Yu · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>Parts of the original wheels remain visible behind the horse legs.</details></sub></td>
 </tr>
 </table>
 
@@ -988,7 +990,7 @@ None yet.
 
 ## hats
 
-Suitable: 6 · awaiting review: 0 · rejected: 0 · standardised: 10 · manipulated: 4 · final sets: 0
+Suitable: 6 · awaiting review: 0 · rejected: 0 · standardised: 11 · manipulated: 5 · final sets: 0
 
 ### Suitable
 
@@ -1027,6 +1029,7 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="standardized/hats/generated-hats-helmet-hat-standardized-v1.webp"><img src="standardized/hats/generated-hats-helmet-hat-standardized-v1-s.webp" width="240" alt="Man in a business suit wearing a bicycle helmet at a bus stop"></a><br><sub><b>#10</b> Man in a business suit wearing a bicycle helmet at a bus stop<br>bicycle-helmet · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/hats/generated-hats-lampshade-standardized-v1.webp"><img src="standardized/hats/generated-hats-lampshade-standardized-v1-s.webp" width="240" alt="Cream fabric lampshade lying on its side on a wooden kitchen table"></a><br><sub><b>#11</b> Cream fabric lampshade lying on its side on a wooden kitchen table<br>lampshade · ai-generated · distractor (non-member) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
@@ -1040,6 +1043,7 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="manipulated/hats/generated-hats-helmet-hat-v1.png"><img src="manipulated/hats/generated-hats-helmet-hat-v1.png" width="240" alt="Man in a business suit wearing a bicycle helmet at a bus stop"></a><br><sub>Man in a business suit wearing a bicycle helmet at a bus stop<br>bicycle-helmet · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/hats/generated-hats-lampshade-v1.png"><img src="manipulated/hats/generated-hats-lampshade-v1.png" width="240" alt="Cream fabric lampshade lying on its side on a wooden kitchen table"></a><br><sub>Cream fabric lampshade lying on its side on a wooden kitchen table<br>lampshade · ai-generated · distractor (non-member) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
