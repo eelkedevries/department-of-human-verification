@@ -20,9 +20,9 @@ The usual route is raw → suitable → standardized → final. For an edited st
 
 ## Current contents
 
-- Twenty-four linked raw photographs: the original twenty and four verified replacements. Original gallery ranks and discovery history are preserved.
-- Four suitable photographs that meet the [target clarity standard](../docs/stimuli.md#target-clarity-standard), with approved visual and individual rights reviews: two bicycles, a motor scooter and a skateboard. The other twenty sources are rejected for clarity and remain raw only, with their reasons, so that they are not added again. The [rights review](raw/bicycles/rights-review-2026-10-26.md) records publisher links, matching evidence, licence conditions and exclusions.
-- Four standardised 512/256 px WebP pairs, one for each suitable photograph, cropped as reviewed from the recorded previews. Sixteen earlier standardised versions of rejected photographs are withdrawn. No manipulated photographs yet; the empty manifest is intentional.
+- Forty linked raw photographs: the original twenty, four earlier verified replacements and sixteen clarity-screened Unsplash replacements found on 27 October 2026. Original gallery ranks and discovery history are preserved.
+- Twenty suitable photographs that meet the [target clarity standard](../docs/stimuli.md#target-clarity-standard), with approved visual and individual rights reviews: sixteen bicycles, a motor scooter, a motorcycle, a skateboard and a small car. Twenty earlier sources are rejected for clarity and remain raw only, with their reasons, so that they are not added again. The rights reviews of [26 October](raw/bicycles/rights-review-2026-10-26.md) and [27 October](raw/bicycles/rights-review-2026-10-27.md) record publisher links, matching evidence, licence conditions and exclusions.
+- Four standardised 512/256 px WebP pairs, one for each of the four suitable photographs retained from the first search, cropped as reviewed from the recorded previews. Sixteen earlier standardised versions of rejected photographs are withdrawn. No manipulated photographs yet; the empty manifest is intentional.
 - A [G01 version 1 snapshot](final/bicycles/G01/1/README.md) containing byte-identical copies of the existing published grid. It is an import of the existing selection, with inherited provenance and no invented intermediate stages.
 
 ## Metadata and tags

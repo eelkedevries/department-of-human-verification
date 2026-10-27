@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T00:03:14Z",
+  "updated_at": "2026-10-27T00:24:04Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -1767,6 +1767,806 @@
           }
         }
       }
+    },
+    {
+      "asset_id": "photo-unsplash-1593764592116-bfb2a97c642a",
+      "origin": "internet-photo",
+      "description": "Black track bicycle against a white wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "s6DiDMLK0jk",
+        "creator": "Alonso Talbert",
+        "publisher_url": "https://unsplash.com/photos/black-and-gray-city-bicycle-s6DiDMLK0jk",
+        "direct_url": "https://images.unsplash.com/photo-1593764592116-bfb2a97c642a?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 2505,
+          "height": 3479,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Alonso Talbert on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-and-gray-city-bicycle-s6DiDMLK0jk",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Alonso Talbert (@alonsotal) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1593764592116-bfb2a97c642a is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1505705694340-019e1e335916",
+      "origin": "internet-photo",
+      "description": "White road bicycle against a teal wooden wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "igKjieyjcko",
+        "creator": "Carl Nenzen Loven",
+        "publisher_url": "https://unsplash.com/photos/white-road-bike-leaning-on-teal-wooden-wall-during-daytime-igKjieyjcko",
+        "direct_url": "https://images.unsplash.com/photo-1505705694340-019e1e335916?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 5020,
+          "height": 2824,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Carl Nenzen Loven on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/white-road-bike-leaning-on-teal-wooden-wall-during-daytime-igKjieyjcko",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Carl Nenzen Loven (@archduk3) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1505705694340-019e1e335916 is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1631443412966-2a2ab5e18c3b",
+      "origin": "internet-photo",
+      "description": "Black roadster bicycle with a front basket against a white wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "6dL_lk-rbJE",
+        "creator": "Naura Ra",
+        "publisher_url": "https://unsplash.com/photos/a-bicycle-parked-against-a-wall-with-a-basket-6dL_lk-rbJE",
+        "direct_url": "https://images.unsplash.com/photo-1631443412966-2a2ab5e18c3b?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 2592,
+          "height": 3455,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Naura Ra on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-bicycle-parked-against-a-wall-with-a-basket-6dL_lk-rbJE",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Naura Ra (@naurara) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1631443412966-2a2ab5e18c3b is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1776905252705-9d5c2fe29c84",
+      "origin": "internet-photo",
+      "description": "Light blue bicycle with a wooden crate against a white wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "15kjAml4vx4",
+        "creator": "Kris Tian",
+        "publisher_url": "https://unsplash.com/photos/a-light-blue-vintage-bicycle-with-a-wooden-crate-15kjAml4vx4",
+        "direct_url": "https://images.unsplash.com/photo-1776905252705-9d5c2fe29c84?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 2609,
+          "height": 3652,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Kris Tian on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-light-blue-vintage-bicycle-with-a-wooden-crate-15kjAml4vx4",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Kris Tian (@kris_tian) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1776905252705-9d5c2fe29c84 is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1507035895480-2b3156c31fc8",
+      "origin": "internet-photo",
+      "description": "Lavender bicycle with orange tyres against a white brick wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "0ClfreiNppM",
+        "creator": "Tiffany Nutt",
+        "publisher_url": "https://unsplash.com/photos/yellow-and-purple-bicycle-near-white-wall-at-daytime-0ClfreiNppM",
+        "direct_url": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4758,
+          "height": 3172,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Tiffany Nutt on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/yellow-and-purple-bicycle-near-white-wall-at-daytime-0ClfreiNppM",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Tiffany Nutt (@tiffanylnutt) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1507035895480-2b3156c31fc8 is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1792271031903-cbf76565581d",
+      "origin": "internet-photo",
+      "description": "Black cruiser motorcycle against a stone building",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "SstfyOxCJuc",
+        "creator": "Iván Antonio",
+        "publisher_url": "https://unsplash.com/photos/black-cruiser-motorcycle-against-stone-wall-SstfyOxCJuc",
+        "direct_url": "https://images.unsplash.com/photo-1792271031903-cbf76565581d?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 5839,
+          "height": 3893,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Iván Antonio on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-cruiser-motorcycle-against-stone-wall-SstfyOxCJuc",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Iván Antonio (@ivan_antonio) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1792271031903-cbf76565581d is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1603399301857-4871de8d64d9",
+      "origin": "internet-photo",
+      "description": "White road bicycle against black and red facade panels",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "xIlPAyVnYcE",
+        "creator": "streetwaw_",
+        "publisher_url": "https://unsplash.com/photos/white-and-red-road-bike-xIlPAyVnYcE",
+        "direct_url": "https://images.unsplash.com/photo-1603399301857-4871de8d64d9?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 2500,
+          "height": 3127,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by streetwaw_ on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/white-and-red-road-bike-xIlPAyVnYcE",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names streetwaw_ (@streetwaw_) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1603399301857-4871de8d64d9 is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1604946457342-39e980c6050e",
+      "origin": "internet-photo",
+      "description": "Black city bicycle against a yellow house",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "mxpobFxYRUA",
+        "creator": "Razvan Mirel",
+        "publisher_url": "https://unsplash.com/photos/black-bicycle-parked-beside-yellow-painted-house-mxpobFxYRUA",
+        "direct_url": "https://images.unsplash.com/photo-1604946457342-39e980c6050e?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4000,
+          "height": 6000,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Razvan Mirel on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-bicycle-parked-beside-yellow-painted-house-mxpobFxYRUA",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Razvan Mirel (@razvan_mirel) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1604946457342-39e980c6050e is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
+      "origin": "internet-photo",
+      "description": "Navy road bicycle against a two-tone wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "6DTGGRoW5WI",
+        "creator": "Zoltan Tasi",
+        "publisher_url": "https://unsplash.com/photos/black-and-gray-city-bike-leaning-on-white-wall-6DTGGRoW5WI",
+        "direct_url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4200,
+          "height": 2956,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Zoltan Tasi on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-and-gray-city-bike-leaning-on-white-wall-6DTGGRoW5WI",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Zoltan Tasi (@zoltantasi) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1592419044706-39796d40f98c is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1774722396639-a0a6fed00deb",
+      "origin": "internet-photo",
+      "description": "Yellow cruiser bicycle with a flower basket against a wooden door",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "yG_Iv4a1HO4",
+        "creator": "Mehmet Guzel",
+        "publisher_url": "https://unsplash.com/photos/yellow-bicycle-with-flowers-in-a-basket-yG_Iv4a1HO4",
+        "direct_url": "https://images.unsplash.com/photo-1774722396639-a0a6fed00deb?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4187,
+          "height": 3633,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Mehmet Guzel on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/yellow-bicycle-with-flowers-in-a-basket-yG_Iv4a1HO4",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Mehmet Guzel (@kaptanmemonun_seyir_defteri) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1774722396639-a0a6fed00deb is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1667837896876-012372133bbd",
+      "origin": "internet-photo",
+      "description": "Copper fixed-gear bicycle against a white wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "gvmxJHJRbYw",
+        "creator": "Markus Spiske",
+        "publisher_url": "https://unsplash.com/photos/a-bicycle-leaning-against-a-wall-gvmxJHJRbYw",
+        "direct_url": "https://images.unsplash.com/photo-1667837896876-012372133bbd?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 3500,
+          "height": 2334,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Markus Spiske on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-bicycle-leaning-against-a-wall-gvmxJHJRbYw",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Markus Spiske (@markusspiske) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1667837896876-012372133bbd is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1698366395517-688b6c1b4d90",
+      "origin": "internet-photo",
+      "description": "Small red car parked before a hedge",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "eIejTwJZRd4",
+        "creator": "CrowN",
+        "publisher_url": "https://unsplash.com/photos/a-small-red-car-parked-in-front-of-a-house-eIejTwJZRd4",
+        "direct_url": "https://images.unsplash.com/photo-1698366395517-688b6c1b4d90?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4032,
+          "height": 3024,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by CrowN on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-small-red-car-parked-in-front-of-a-house-eIejTwJZRd4",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names CrowN (@cosmicomicfox) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1698366395517-688b6c1b4d90 is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1778800051130-a7466c7ae19a",
+      "origin": "internet-photo",
+      "description": "Red vintage bicycle against a blue clapboard wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "lQh76MKnY6g",
+        "creator": "Jason Gooljar",
+        "publisher_url": "https://unsplash.com/photos/red-vintage-bicycle-leaning-against-a-blue-wall-lQh76MKnY6g",
+        "direct_url": "https://images.unsplash.com/photo-1778800051130-a7466c7ae19a?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4114,
+          "height": 3291,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Jason Gooljar on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/red-vintage-bicycle-leaning-against-a-blue-wall-lQh76MKnY6g",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Jason Gooljar (@jasongooljar24) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1778800051130-a7466c7ae19a is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1777675024325-d93b5c5fc71c",
+      "origin": "internet-photo",
+      "description": "Black city bicycle with a basket against a grey wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "czNXupVwHdU",
+        "creator": "Abhishek Ravi",
+        "publisher_url": "https://unsplash.com/photos/a-vintage-bicycle-leans-against-a-textured-wall-czNXupVwHdU",
+        "direct_url": "https://images.unsplash.com/photo-1777675024325-d93b5c5fc71c?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 6000,
+          "height": 4000,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Abhishek Ravi on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-vintage-bicycle-leans-against-a-textured-wall-czNXupVwHdU",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Abhishek Ravi (@greensyntax) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1777675024325-d93b5c5fc71c is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1569943228307-a66beab7cd96",
+      "origin": "internet-photo",
+      "description": "Green bicycle against an ivy-covered white wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "bF4Ab0gpaPs",
+        "creator": "Robin Popa",
+        "publisher_url": "https://unsplash.com/photos/black-bike-beside-wall-bF4Ab0gpaPs",
+        "direct_url": "https://images.unsplash.com/photo-1569943228307-a66beab7cd96?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 4352,
+          "height": 3030,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Robin Popa on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-bike-beside-wall-bF4Ab0gpaPs",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Robin Popa (@robin_popa) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1569943228307-a66beab7cd96 is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1559348349-86f1f65817fe",
+      "origin": "internet-photo",
+      "description": "Black fixed-gear bicycle against a grey concrete wall",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "BRDO4C-0h_s",
+        "creator": "Howard Bouchevereau",
+        "publisher_url": "https://unsplash.com/photos/black-road-bike-BRDO4C-0h_s",
+        "direct_url": "https://images.unsplash.com/photo-1559348349-86f1f65817fe?w=1280",
+        "discovered_at": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 6058,
+          "height": 4039,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Howard Bouchevereau on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/black-road-bike-BRDO4C-0h_s",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:24:04Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Howard Bouchevereau (@howardbouchevereau) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1559348349-86f1f65817fe is the key of the reviewed preview URL; the creator and the described subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
     }
   ],
   "versions": [
@@ -1906,7 +2706,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:24:04Z",
       "actor": "codex",
       "description": "Blue motor scooter beside a white wall",
       "object_type": "motor-scooter",
@@ -1922,7 +2722,7 @@
           "role": "distractor",
           "semantic_class": "non-member",
           "role_status": "provisional",
-          "rank": 2,
+          "rank": 3,
           "grade": "Strong base",
           "reason": "Unoccupied scooter with a clear silhouette, deployed parking stand and simple street background.",
           "preparation_notes": "The conventional motor scooter requested as a distractor. Small brand details can be removed during preparation.",
@@ -2243,7 +3043,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:24:04Z",
       "actor": "codex",
       "description": "Skateboard resting on pavement",
       "object_type": "skateboard",
@@ -2259,7 +3059,7 @@
           "role": "distractor",
           "semantic_class": "non-member",
           "role_status": "provisional",
-          "rank": 6,
+          "rank": 12,
           "grade": "Strong base",
           "reason": "Complete deck and wheels on a believable surface, with no rider, limbs or other target objects.",
           "preparation_notes": "A clear skateboard distractor. Soft background detail and visible ground contact make it a useful photographic match.",
@@ -2328,7 +3128,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:24:04Z",
       "actor": "codex",
       "description": "Cream bicycle with a rear carrier",
       "object_type": "bicycle",
@@ -2344,7 +3144,7 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": 7,
+          "rank": 10,
           "grade": "Strong base",
           "reason": "One complete bicycle against a natural exterior wall, with a readable step-through frame and credible support.",
           "preparation_notes": "The rear carrier adds ordinary detail. Keep it intact unless it is the intended part of a later manipulation.",
@@ -3264,7 +4064,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:24:04Z",
       "actor": "codex",
       "description": "Red city bicycle against a light wall",
       "object_type": "bicycle",
@@ -3280,7 +4080,7 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": 15,
+          "rank": 6,
           "grade": "Reserve",
           "reason": "Unoccupied bicycle with complete wheels, baskets and a conventional exterior-wall placement.",
           "preparation_notes": "The light is harder and the baskets add detail. A useful reserve when additional red city-bicycle images are needed.",
@@ -7169,6 +7969,1374 @@
           }
         ]
       }
+    },
+    {
+      "version_id": "photo-unsplash-1593764592116-bfb2a97c642a-source-v1",
+      "asset_id": "photo-unsplash-1593764592116-bfb2a97c642a",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1593764592116-bfb2a97c642a?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1778,
+        "sha256": "6fa8e1f4274ae54e75178a04e8ec585e1387fa12ff8874ed907cf458f298df00",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "outdoor pavement before a plain white wall",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame and deep-rim wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Alonso Talbert (@alonsotal) and states 'Free to use under the Unsplash License'; its image key photo-1593764592116-bfb2a97c642a matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Black track bicycle against a white wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "track-bicycle",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame and deep-rim wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 200,
+            "y": 493,
+            "side": 1045,
+            "reference_width": 1280,
+            "reference_height": 1778,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1505705694340-019e1e335916-source-v1",
+      "asset_id": "photo-unsplash-1505705694340-019e1e335916",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1505705694340-019e1e335916?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 720,
+        "sha256": "d56e28935ca31ff6df013d56b3bd1f488aacbb4dcdca21304f5ae9e3e56aeeef",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "pale pavement before a teal timber wall",
+        "support": "deployed kickstand beside the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, white frame and black tyres against a saturated teal wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Carl Nenzen Loven (@archduk3) and states 'Free to use under the Unsplash License'; its image key photo-1505705694340-019e1e335916 matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "White road bicycle against a teal wooden wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "outdoors",
+        "wall",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 2,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, white frame and black tyres against a saturated teal wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 315,
+            "y": 33,
+            "side": 624,
+            "reference_width": 1280,
+            "reference_height": 720,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1631443412966-2a2ab5e18c3b-source-v1",
+      "asset_id": "photo-unsplash-1631443412966-2a2ab5e18c3b",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1631443412966-2a2ab5e18c3b?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1706,
+        "sha256": "a0a32067107dfc0d3b4e0de494ae23a6d1ec12fa2e59fbd4078f605823ac3ac0",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "white wall with a dark plinth above dusty ground",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Naura Ra (@naurara) and states 'Free to use under the Unsplash License'; its image key photo-1631443412966-2a2ab5e18c3b matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Black roadster bicycle with a front basket against a white wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "roadster-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 217,
+            "y": 638,
+            "side": 858,
+            "reference_width": 1280,
+            "reference_height": 1706,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1776905252705-9d5c2fe29c84-source-v1",
+      "asset_id": "photo-unsplash-1776905252705-9d5c2fe29c84",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1776905252705-9d5c2fe29c84?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1792,
+        "sha256": "64910d17c9618d886c0ef34359c875279e298af0d48c23bf71e144bdb3afc519",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "light blue",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "white wall beside a dark doorway, paved ground",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, light blue frame and dark tyres against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Kris Tian (@kris_tian) and states 'Free to use under the Unsplash License'; its image key photo-1776905252705-9d5c2fe29c84 matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Light blue bicycle with a wooden crate against a white wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "crate",
+        "outdoors",
+        "wall",
+        "light-blue"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, light blue frame and dark tyres against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 47,
+            "y": 746,
+            "side": 1045,
+            "reference_width": 1280,
+            "reference_height": 1792,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1507035895480-2b3156c31fc8-source-v1",
+      "asset_id": "photo-unsplash-1507035895480-2b3156c31fc8",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "47b1f0fc45531210df7285e713948cefa552df4a9e15889ae10326b121d62888",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "lavender frame, orange tyres",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "white-painted brick wall above pavement",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, orange tyres and lavender frame against a white-painted wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Tiffany Nutt (@tiffanylnutt) and states 'Free to use under the Unsplash License'; its image key photo-1507035895480-2b3156c31fc8 matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Lavender bicycle with orange tyres against a white brick wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fixed-gear-bicycle",
+        "outdoors",
+        "wall",
+        "orange"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, orange tyres and lavender frame against a white-painted wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 311,
+            "y": 182,
+            "side": 671,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1792271031903-cbf76565581d-source-v1",
+      "asset_id": "photo-unsplash-1792271031903-cbf76565581d",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1792271031903-cbf76565581d?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "228d3464b54abab9f24e07827bc7d978fe7c1769100b1c002a28d4f8a2bce76a",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved alcove before a sandstone building with a window",
+        "support": "side stand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the motorcycle spans about 84% of the crop in a side profile facing left, black motorcycle against a pale sandstone wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Iván Antonio (@ivan_antonio) and states 'Free to use under the Unsplash License'; its image key photo-1792271031903-cbf76565581d matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Black cruiser motorcycle against a stone building",
+      "object_type": "motorcycle",
+      "keywords": [
+        "motorcycle",
+        "cruiser-motorcycle",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the motorcycle spans about 84% of the crop in a side profile facing left, black motorcycle against a pale sandstone wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 342,
+            "y": 0,
+            "side": 853,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1603399301857-4871de8d64d9-source-v1",
+      "asset_id": "photo-unsplash-1603399301857-4871de8d64d9",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1603399301857-4871de8d64d9?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1601,
+        "sha256": "f80d2855003a23c346c99f27e0a18e9a8ceed84f7ddf96ff53f95edecceddd69",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "white",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved ground before black, grey, white and red facade panels",
+        "support": "deployed kickstand beside the facade",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, white frame against dark facade panels; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names streetwaw_ (@streetwaw_) and states 'Free to use under the Unsplash License'; its image key photo-1603399301857-4871de8d64d9 matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "White road bicycle against black and red facade panels",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "outdoors",
+        "wall",
+        "white"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, white frame against dark facade panels; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 71,
+            "y": 399,
+            "side": 1201,
+            "reference_width": 1280,
+            "reference_height": 1601,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1604946457342-39e980c6050e-source-v1",
+      "asset_id": "photo-unsplash-1604946457342-39e980c6050e",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1604946457342-39e980c6050e?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1920,
+        "sha256": "249c830903f3593d3da5006f6e48bf206ced780fad1381a2eb7b0dc5cbf29540",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "cobbled street before a yellow house with white windows",
+        "support": "deployed kickstand beside the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a plain yellow wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Razvan Mirel (@razvan_mirel) and states 'Free to use under the Unsplash License'; its image key photo-1604946457342-39e980c6050e matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Black city bicycle against a yellow house",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "outdoors",
+        "wall",
+        "cobbles",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a plain yellow wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 190,
+            "y": 866,
+            "side": 874,
+            "reference_width": 1280,
+            "reference_height": 1920,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1592419044706-39796d40f98c-source-v1",
+      "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 901,
+        "sha256": "c0be1e05c3570b8044e65de804d93d8aa099c0e4a33b21c197068621c542ca0a",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "dark navy",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "pale two-tone rendered wall above a gravel verge",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, dark frame against a pale rendered wall; a soft wall shadow does not cross the bicycle; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Zoltan Tasi (@zoltantasi) and states 'Free to use under the Unsplash License'; its image key photo-1592419044706-39796d40f98c matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Navy road bicycle against a two-tone wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "road-bicycle",
+        "outdoors",
+        "wall",
+        "navy"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 13,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, dark frame against a pale rendered wall; a soft wall shadow does not cross the bicycle; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 268,
+            "y": 50,
+            "side": 718,
+            "reference_width": 1280,
+            "reference_height": 901,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1774722396639-a0a6fed00deb-source-v1",
+      "asset_id": "photo-unsplash-1774722396639-a0a6fed00deb",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1774722396639-a0a6fed00deb?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1111,
+        "sha256": "63995d25af7ea664158fecd19aacb8f01f459e1e7981210b4afdff193b8f6fca",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "yellow",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "paved street before a carved wooden door",
+        "support": "leaning against the door",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 86% of the crop in a shallow front-left three-quarter facing left, yellow frame against a dark wooden door; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Mehmet Guzel (@kaptanmemonun_seyir_defteri) and states 'Free to use under the Unsplash License'; its image key photo-1774722396639-a0a6fed00deb matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Yellow cruiser bicycle with a flower basket against a wooden door",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "cruiser-bicycle",
+        "basket",
+        "flowers",
+        "outdoors",
+        "door",
+        "yellow"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 14,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 86% of the crop in a shallow front-left three-quarter facing left, yellow frame against a dark wooden door; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 104,
+            "y": 0,
+            "side": 1111,
+            "reference_width": 1280,
+            "reference_height": 1111,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1667837896876-012372133bbd-source-v1",
+      "asset_id": "photo-unsplash-1667837896876-012372133bbd",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1667837896876-012372133bbd?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 854,
+        "sha256": "e1300243f661184b16fcd966ab721c54552243abe63892ba86048317d3b4022b",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "copper",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "indoor corridor with a white wall and a reflective tiled floor",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing right, copper frame and black wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Markus Spiske (@markusspiske) and states 'Free to use under the Unsplash License'; its image key photo-1667837896876-012372133bbd matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Copper fixed-gear bicycle against a white wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fixed-gear-bicycle",
+        "indoors",
+        "wall",
+        "copper"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 15,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing right, copper frame and black wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 207,
+            "y": 0,
+            "side": 854,
+            "reference_width": 1280,
+            "reference_height": 854,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1698366395517-688b6c1b4d90-source-v1",
+      "asset_id": "photo-unsplash-1698366395517-688b6c1b4d90",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1698366395517-688b6c1b4d90?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 960,
+        "sha256": "15cb6f0adfde7ba1b80c2dec0cab75a6432e9d3a06ca9d0a22ccdc1322d95fee",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "grass verge before a hedge and a white house",
+        "support": "parked on its wheels",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the car spans about 85% of the crop in a side profile facing right, red bodywork against a dark green hedge; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names CrowN (@cosmicomicfox) and states 'Free to use under the Unsplash License'; its image key photo-1698366395517-688b6c1b4d90 matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Small red car parked before a hedge",
+      "object_type": "car",
+      "keywords": [
+        "car",
+        "small-car",
+        "outdoors",
+        "hedge",
+        "red"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "provisional",
+          "rank": 16,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the car spans about 85% of the crop in a side profile facing right, red bodywork against a dark green hedge; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 186,
+            "y": 0,
+            "side": 960,
+            "reference_width": 1280,
+            "reference_height": 960,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1778800051130-a7466c7ae19a-source-v1",
+      "asset_id": "photo-unsplash-1778800051130-a7466c7ae19a",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1778800051130-a7466c7ae19a?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1024,
+        "sha256": "1b10e6f4fe12cb20b93253e2a21abcf678d07177cf127921708db7387461308e",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "red",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "grass verge before a pale blue clapboard house with a window",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, red frame against a pale blue wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Jason Gooljar (@jasongooljar24) and states 'Free to use under the Unsplash License'; its image key photo-1778800051130-a7466c7ae19a matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Red vintage bicycle against a blue clapboard wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "vintage-bicycle",
+        "outdoors",
+        "wall",
+        "grass",
+        "red"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 17,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, red frame against a pale blue wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 283,
+            "y": 146,
+            "side": 842,
+            "reference_width": 1280,
+            "reference_height": 1024,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-source-v1",
+      "asset_id": "photo-unsplash-1777675024325-d93b5c5fc71c",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1777675024325-d93b5c5fc71c?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "eeacfbbd5b9a4d3a077dcb2bccf88f72bbbda1a5d3275cf06e889d461213d776",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved ground before a plain grey-white wall",
+        "support": "deployed kickstand",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a light grey wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Abhishek Ravi (@greensyntax) and states 'Free to use under the Unsplash License'; its image key photo-1777675024325-d93b5c5fc71c matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Black city bicycle with a basket against a grey wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 18,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a light grey wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 503,
+            "y": 182,
+            "side": 671,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1569943228307-a66beab7cd96-source-v1",
+      "asset_id": "photo-unsplash-1569943228307-a66beab7cd96",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1569943228307-a66beab7cd96?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 891,
+        "sha256": "7e31abec4fbab9f55ea4a64b8dc49e99fe7f201112e128461adb7857dc1b3b99",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "green with cream tyres",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "paved ground before a white wall with climbing ivy",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing left, green frame against a white wall; ivy stays mostly above and behind the frame; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Robin Popa (@robin_popa) and states 'Free to use under the Unsplash License'; its image key photo-1569943228307-a66beab7cd96 matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Green bicycle against an ivy-covered white wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "outdoors",
+        "wall",
+        "ivy",
+        "green"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 19,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing left, green frame against a white wall; ivy stays mostly above and behind the frame; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 342,
+            "y": 0,
+            "side": 891,
+            "reference_width": 1280,
+            "reference_height": 891,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1559348349-86f1f65817fe-source-v1",
+      "asset_id": "photo-unsplash-1559348349-86f1f65817fe",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1559348349-86f1f65817fe?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "b837465db07999fa4d886fedba31c097f3b075d44b26049b5a515004861b706a",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this key, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "black",
+        "viewpoint": "Side profile",
+        "facing_direction": "left",
+        "environment": "kerbside before a grey concrete wall",
+        "support": "leaning against the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a mid-grey concrete wall; contrast adequate at 128 px; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:24:04Z",
+          "reason": "Publisher page names Howard Bouchevereau (@howardbouchevereau) and states 'Free to use under the Unsplash License'; its image key photo-1559348349-86f1f65817fe matches the reviewed preview. The licence permits copying and modification; the terms exclude AI/ML datasets and do not cover recognisable people, trademarks or artworks."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:24:04Z",
+        "actor": "claude",
+        "notes": "Found through Unsplash searches with the Unsplash connector and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude",
+      "description": "Black fixed-gear bicycle against a grey concrete wall",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "fixed-gear-bicycle",
+        "outdoors",
+        "wall",
+        "black"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 20,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a mid-grey concrete wall; contrast adequate at 128 px; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 326,
+            "y": 72,
+            "side": 640,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
     }
   ],
   "sets": [
