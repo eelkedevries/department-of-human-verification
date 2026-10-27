@@ -3,5 +3,9 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "lamps",
-  "version_ids": []
+  "version_ids": [
+    "generated-lamps-storm-lamp-v1",
+    "generated-lamps-firefly-jar-v1",
+    "generated-lamps-traffic-light-lamp-v1"
+  ]
 }

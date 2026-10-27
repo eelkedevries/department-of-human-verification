@@ -463,7 +463,7 @@ None yet.
 
 ## lamps
 
-Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 7 · manipulated: 0 · final sets: 0
+Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 10 · manipulated: 3 · final sets: 0
 
 ### Suitable
 
@@ -500,12 +500,23 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="standardized/lamps/photo-unsplash-1692651771569-95dd3ed878a8-standardized-v1.webp"><img src="standardized/lamps/photo-unsplash-1692651771569-95dd3ed878a8-standardized-v1-s.webp" width="240" alt="Yellow plastic watering can standing on mossy ground in front of a dark ivy hedge"></a><br><sub><b>#7</b> Yellow plastic watering can standing on mossy ground in front of a dark ivy hedge<br>watering-can · photograph · distractor (non-member) · Meets target clarity<br>Willy the Wizard · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved</sub></td>
+<td width="33%" valign="top"><a href="standardized/lamps/generated-lamps-storm-lamp-standardized-v1.webp"><img src="standardized/lamps/generated-lamps-storm-lamp-standardized-v1-s.webp" width="240" alt="Desk lamp with a miniature thunderstorm under its shade, lightning and rain falling onto a wooden desk"></a><br><sub><b>#8</b> Desk lamp with a miniature thunderstorm under its shade, lightning and rain falling onto a wooden desk<br>desk-lamp · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/lamps/generated-lamps-firefly-jar-standardized-v1.webp"><img src="standardized/lamps/generated-lamps-firefly-jar-standardized-v1-s.webp" width="240" alt="Glass jar full of glowing fireflies on a bedside table in a dark bedroom"></a><br><sub><b>#9</b> Glass jar full of glowing fireflies on a bedside table in a dark bedroom<br>firefly-jar · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="standardized/lamps/generated-lamps-traffic-light-lamp-standardized-v1.webp"><img src="standardized/lamps/generated-lamps-traffic-light-lamp-standardized-v1-s.webp" width="240" alt="Traffic light glowing red, amber and green on a bedside table next to a bed"></a><br><sub><b>#10</b> Traffic light glowing red, amber and green on a bedside table next to a bed<br>traffic-light · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
 ### Manipulated
 
-None yet.
+<table>
+<tr>
+<td width="33%" valign="top"><a href="manipulated/lamps/generated-lamps-storm-lamp-v1.png"><img src="manipulated/lamps/generated-lamps-storm-lamp-v1.png" width="240" alt="Desk lamp with a miniature thunderstorm under its shade, lightning and rain falling onto a wooden desk"></a><br><sub>Desk lamp with a miniature thunderstorm under its shade, lightning and rain falling onto a wooden desk<br>desk-lamp · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/lamps/generated-lamps-firefly-jar-v1.png"><img src="manipulated/lamps/generated-lamps-firefly-jar-v1.png" width="240" alt="Glass jar full of glowing fireflies on a bedside table in a dark bedroom"></a><br><sub>Glass jar full of glowing fireflies on a bedside table in a dark bedroom<br>firefly-jar · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/lamps/generated-lamps-traffic-light-lamp-v1.png"><img src="manipulated/lamps/generated-lamps-traffic-light-lamp-v1.png" width="240" alt="Traffic light glowing red, amber and green on a bedside table next to a bed"></a><br><sub>Traffic light glowing red, amber and green on a bedside table next to a bed<br>traffic-light · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+</tr>
+</table>
 
 ### Final sets
 
