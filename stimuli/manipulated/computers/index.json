@@ -3,5 +3,9 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "computers",
-  "version_ids": []
+  "version_ids": [
+    "generated-computers-ocean-monitor-v1",
+    "generated-computers-tiny-office-monitor-v1",
+    "generated-computers-calculator-computer-v1"
+  ]
 }
