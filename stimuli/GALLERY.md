@@ -183,7 +183,7 @@ Rights-verified and visually reviewed, by rank.
 
 ## chairs
 
-Suitable: 8 · awaiting review: 0 · rejected: 0 · standardised: 13 · manipulated: 5 · final sets: 1
+Suitable: 8 · awaiting review: 0 · rejected: 0 · standardised: 14 · manipulated: 6 · final sets: 1
 
 ### Suitable
 
@@ -231,6 +231,7 @@ Rights-verified and visually reviewed, by rank.
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="standardized/chairs/generated-chairs-stump-chair-generated-standardized-v1.webp"><img src="standardized/chairs/generated-chairs-stump-chair-generated-standardized-v1-s.webp" width="240" alt="Wooden chair back and armrests fitted onto a tree stump in a forest"></a><br><sub><b>#13</b> Wooden chair back and armrests fitted onto a tree stump in a forest<br>stump-chair · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/chairs/generated-chairs-toilet-armchair-standardized-v1.webp"><img src="standardized/chairs/generated-chairs-toilet-armchair-standardized-v1-s.webp" width="240" alt="White toilet fitted with a green velvet backrest and padded armrests in a tiled bathroom"></a><br><sub><b>#14</b> White toilet fitted with a green velvet backrest and padded armrests in a tiled bathroom<br>toilet · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
@@ -245,6 +246,7 @@ Rights-verified and visually reviewed, by rank.
 <tr>
 <td width="33%" valign="top"><a href="manipulated/chairs/generated-chairs-human-chair-v1.png"><img src="manipulated/chairs/generated-chairs-human-chair-v1.png" width="240" alt="Person on all fours on a rug with a chair seat and backrest strapped on"></a><br><sub>Person on all fours on a rug with a chair seat and backrest strapped on<br>person-as-chair · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 <td width="33%" valign="top"><a href="manipulated/chairs/generated-chairs-stump-chair-generated-v1.png"><img src="manipulated/chairs/generated-chairs-stump-chair-generated-v1.png" width="240" alt="Wooden chair back and armrests fitted onto a tree stump in a forest"></a><br><sub>Wooden chair back and armrests fitted onto a tree stump in a forest<br>stump-chair · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/chairs/generated-chairs-toilet-armchair-v1.png"><img src="manipulated/chairs/generated-chairs-toilet-armchair-v1.png" width="240" alt="White toilet fitted with a green velvet backrest and padded armrests in a tiled bathroom"></a><br><sub>White toilet fitted with a green velvet backrest and padded armrests in a tiled bathroom<br>toilet · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
 </table>
 
