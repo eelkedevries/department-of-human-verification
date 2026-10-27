@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T00:28:29Z",
+  "updated_at": "2026-10-27T00:54:20Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -2566,6 +2566,306 @@
       },
       "created_at": "2026-10-27T00:24:04Z",
       "updated_at": "2026-10-27T00:24:04Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1782851938244-7b632c31bd61",
+      "origin": "internet-photo",
+      "description": "Pink step-through bicycle before dark foliage",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "_umXErOUXwQ",
+        "creator": "Kadir Kvs",
+        "publisher_url": "https://unsplash.com/photos/a-pink-bicycle-parked-on-grass-with-green-trees-_umXErOUXwQ",
+        "direct_url": "https://images.unsplash.com/photo-1782851938244-7b632c31bd61?w=1280",
+        "discovered_at": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 3200,
+          "height": 4000,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Kadir Kvs on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-pink-bicycle-parked-on-grass-with-green-trees-_umXErOUXwQ",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:54:20Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Kadir Kvs (@kadirkvs) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1782851938244-7b632c31bd61 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-pexels-4995281",
+      "origin": "internet-photo",
+      "description": "Orange and teal mountain bike on grass by driftwood",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "4995281",
+        "creator": "Yasin Aydın",
+        "publisher_url": "https://www.pexels.com/photo/mountain-bike-parked-on-grass-field-4995281/",
+        "direct_url": "https://images.pexels.com/photos/4995281/pexels-photo-4995281.jpeg?w=1280",
+        "discovered_at": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 6000,
+          "height": 4000,
+          "status": "reported",
+          "basis": "Individual Pexels publisher page, fetched on 27 October 2026."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Yasin Aydın on Pexels",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell or distribute standalone source images; resizing or cropping alone does not remove this restriction. Keep repository copies within the authored game and its provenance context.",
+            "Observe the source terms on brands, people and misleading uses; no commercial brand endorsement is authorised.",
+            "Pexels terms prohibit scraping content for machine learning; do not use in AI/ML datasets or train models, and use AI editing tools/settings that do not train on these inputs."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/photo/mountain-bike-parked-on-grass-field-4995281/",
+            "https://www.pexels.com/license/",
+            "https://www.pexels.com/terms-of-service/"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:54:20Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Yasin Aydın (pexels.com/@yasinaydin), labels the photo Free with a link to the Pexels License, and gives its original size as 6000 × 4000 px.",
+            "matching_basis": "The publisher page's photo ID 4995281 is the ID in the reviewed preview URL; the page's description and the inspected image agree.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-pexels-9078472",
+      "origin": "internet-photo",
+      "description": "Copper city bicycle leaning against a street pole",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "9078472",
+        "creator": "Volker Thimm",
+        "publisher_url": "https://www.pexels.com/photo/a-bicycle-leaning-on-a-metal-pole-9078472/",
+        "direct_url": "https://images.pexels.com/photos/9078472/pexels-photo-9078472.jpeg?w=1280",
+        "discovered_at": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 3579,
+          "height": 3579,
+          "status": "reported",
+          "basis": "Individual Pexels publisher page, fetched on 27 October 2026."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Volker Thimm on Pexels",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell or distribute standalone source images; resizing or cropping alone does not remove this restriction. Keep repository copies within the authored game and its provenance context.",
+            "Observe the source terms on brands, people and misleading uses; no commercial brand endorsement is authorised.",
+            "Pexels terms prohibit scraping content for machine learning; do not use in AI/ML datasets or train models, and use AI editing tools/settings that do not train on these inputs."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/photo/a-bicycle-leaning-on-a-metal-pole-9078472/",
+            "https://www.pexels.com/license/",
+            "https://www.pexels.com/terms-of-service/"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:54:20Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Volker Thimm (pexels.com/@volkerthimm), labels the photo Free with a link to the Pexels License, and gives its original size as 3579 × 3579 px.",
+            "matching_basis": "The publisher page's photo ID 9078472 is the ID in the reviewed preview URL; the page's description and the inspected image agree.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-pexels-10848028",
+      "origin": "internet-photo",
+      "description": "Turquoise bicycle with a crate against a dune fence",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "10848028",
+        "creator": "Soumia Sol",
+        "publisher_url": "https://www.pexels.com/photo/blue-bike-leaning-on-wooden-fence-10848028/",
+        "direct_url": "https://images.pexels.com/photos/10848028/pexels-photo-10848028.jpeg?w=1280",
+        "discovered_at": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 3024,
+          "height": 4032,
+          "status": "reported",
+          "basis": "Individual Pexels publisher page, fetched on 27 October 2026."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Soumia Sol on Pexels",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell or distribute standalone source images; resizing or cropping alone does not remove this restriction. Keep repository copies within the authored game and its provenance context.",
+            "Observe the source terms on brands, people and misleading uses; no commercial brand endorsement is authorised.",
+            "Pexels terms prohibit scraping content for machine learning; do not use in AI/ML datasets or train models, and use AI editing tools/settings that do not train on these inputs."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/photo/blue-bike-leaning-on-wooden-fence-10848028/",
+            "https://www.pexels.com/license/",
+            "https://www.pexels.com/terms-of-service/"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:54:20Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Soumia Sol (pexels.com/@soumia-sol-163344409), labels the photo Free with a link to the Pexels License, and gives its original size as 3024 × 4032 px.",
+            "matching_basis": "The publisher page's photo ID 10848028 is the ID in the reviewed preview URL; the page's description and the inspected image agree.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-unsplash-1698871999765-2fbadbaaae82",
+      "origin": "internet-photo",
+      "description": "Teal city bicycle against a canal-bridge railing",
+      "source": {
+        "provider": "Unsplash",
+        "provider_id": "kHXkz7_FmuU",
+        "creator": "Dmitrii E.",
+        "publisher_url": "https://unsplash.com/photos/a-bicycle-parked-on-a-bridge-over-a-river-kHXkz7_FmuU",
+        "direct_url": "https://images.unsplash.com/photo-1698871999765-2fbadbaaae82?w=1280",
+        "discovered_at": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 3915,
+          "height": 3435,
+          "status": "reported",
+          "basis": "Unsplash API photo record for this ID, retrieved through the Unsplash connector on 27 October 2026."
+        },
+        "licence": {
+          "name": "Unsplash License",
+          "url": "https://unsplash.com/license",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Dmitrii E. on Unsplash",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell the image without significant modification or compile Unsplash images into a similar or competing service.",
+            "Do not use in AI/ML datasets or train models. Later AI editing must use tools/settings that do not train on these inputs.",
+            "The licence does not cover recognisable people, trademarks, logos or artworks that appear in the image; no brand endorsement is authorised."
+          ],
+          "evidence_urls": [
+            "https://unsplash.com/photos/a-bicycle-parked-on-a-bridge-over-a-river-kHXkz7_FmuU",
+            "https://unsplash.com/license",
+            "https://unsplash.com/terms"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:54:20Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Dmitrii E. (@dmitriielj) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+).",
+            "matching_basis": "The publisher page's image key photo-1698871999765-2fbadbaaae82 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude"
+    },
+    {
+      "asset_id": "photo-pexels-35826964",
+      "origin": "internet-photo",
+      "description": "Pale green bicycle with a basket beside a wooden door",
+      "source": {
+        "provider": "Pexels",
+        "provider_id": "35826964",
+        "creator": "Thomas P",
+        "publisher_url": "https://www.pexels.com/photo/vintage-green-bicycle-leaning-against-rustic-door-35826964/",
+        "direct_url": "https://images.pexels.com/photos/35826964/pexels-photo-35826964.jpeg?w=1280",
+        "discovered_at": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "original_dimensions": {
+          "width": 5184,
+          "height": 3888,
+          "status": "reported",
+          "basis": "Individual Pexels publisher page, fetched on 27 October 2026."
+        },
+        "licence": {
+          "name": "Pexels License",
+          "url": "https://www.pexels.com/license/",
+          "evidence_status": "verified",
+          "modification_permission": "allowed",
+          "attribution": "Photo by Thomas P on Pexels",
+          "conditions": [
+            "Use within the authored game or illustrated research gallery; preserve the per-image licence and credit, with no implied endorsement.",
+            "Do not sell or distribute standalone source images; resizing or cropping alone does not remove this restriction. Keep repository copies within the authored game and its provenance context.",
+            "Observe the source terms on brands, people and misleading uses; no commercial brand endorsement is authorised.",
+            "Pexels terms prohibit scraping content for machine learning; do not use in AI/ML datasets or train models, and use AI editing tools/settings that do not train on these inputs."
+          ],
+          "evidence_urls": [
+            "https://www.pexels.com/photo/vintage-green-bicycle-leaning-against-rustic-door-35826964/",
+            "https://www.pexels.com/license/",
+            "https://www.pexels.com/terms-of-service/"
+          ],
+          "verified_by": "claude",
+          "verified_at": "2026-10-27T00:54:20Z",
+          "notes": "Verified for the authored game and later modifications under the recorded conditions. This is not permission for model training.",
+          "verification": {
+            "publisher_evidence": "The individual publisher page, fetched on 27 October 2026, names Thomas P (pexels.com/@pth686817), labels the photo Free with a link to the Pexels License, and gives its original size as 5184 × 3888 px.",
+            "matching_basis": "The publisher page's photo ID 35826964 is the ID in the reviewed preview URL; the page's description and the inspected image agree.",
+            "intended_use": "Department of Human Verification game, illustrated selection review and later object edits",
+            "evidence_document": "stimuli/raw/bicycles/rights-review-2026-10-27.md"
+          }
+        }
+      },
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
       "actor": "claude"
     }
   ],
@@ -8144,8 +8444,7 @@
       "version_id": "photo-unsplash-1631443412966-2a2ab5e18c3b-source-v1",
       "asset_id": "photo-unsplash-1631443412966-2a2ab5e18c3b",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1631443412966-2a2ab5e18c3b?w=1280",
@@ -8191,7 +8490,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:54:20Z",
       "actor": "claude",
       "description": "Black roadster bicycle with a front basket against a white wall",
       "object_type": "bicycle",
@@ -8209,8 +8508,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": 4,
-          "grade": "Meets target clarity",
+          "rank": null,
+          "grade": "Reserve: set variety",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, black frame against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -8657,8 +8956,7 @@
       "version_id": "photo-unsplash-1592419044706-39796d40f98c-source-v1",
       "asset_id": "photo-unsplash-1592419044706-39796d40f98c",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=1280",
@@ -8704,7 +9002,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:54:20Z",
       "actor": "claude",
       "description": "Navy road bicycle against a two-tone wall",
       "object_type": "bicycle",
@@ -8721,8 +9019,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": 13,
-          "grade": "Meets target clarity",
+          "rank": null,
+          "grade": "Reserve: set variety",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, dark frame against a pale rendered wall; a soft wall shadow does not cross the bicycle; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -8829,8 +9127,7 @@
       "version_id": "photo-unsplash-1667837896876-012372133bbd-source-v1",
       "asset_id": "photo-unsplash-1667837896876-012372133bbd",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1667837896876-012372133bbd?w=1280",
@@ -8876,7 +9173,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:54:20Z",
       "actor": "claude",
       "description": "Copper fixed-gear bicycle against a white wall",
       "object_type": "bicycle",
@@ -8893,8 +9190,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": 15,
-          "grade": "Meets target clarity",
+          "rank": null,
+          "grade": "Reserve: set variety",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing right, copper frame and black wheels against a plain white wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -9085,8 +9382,7 @@
       "version_id": "photo-unsplash-1777675024325-d93b5c5fc71c-source-v1",
       "asset_id": "photo-unsplash-1777675024325-d93b5c5fc71c",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1777675024325-d93b5c5fc71c?w=1280",
@@ -9132,7 +9428,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:54:20Z",
       "actor": "claude",
       "description": "Black city bicycle with a basket against a grey wall",
       "object_type": "bicycle",
@@ -9150,8 +9446,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": 18,
-          "grade": "Meets target clarity",
+          "rank": null,
+          "grade": "Reserve: set variety",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a light grey wall; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -9256,8 +9552,7 @@
       "version_id": "photo-unsplash-1559348349-86f1f65817fe-source-v1",
       "asset_id": "photo-unsplash-1559348349-86f1f65817fe",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1559348349-86f1f65817fe?w=1280",
@@ -9303,7 +9598,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:54:20Z",
       "actor": "claude",
       "description": "Black fixed-gear bicycle against a grey concrete wall",
       "object_type": "bicycle",
@@ -9320,8 +9615,8 @@
           "role": "target",
           "semantic_class": "member-normal",
           "role_status": "provisional",
-          "rank": 20,
-          "grade": "Meets target clarity",
+          "rank": null,
+          "grade": "Reserve: set variety",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing left, black frame against a mid-grey concrete wall; contrast adequate at 128 px; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",
@@ -9331,6 +9626,523 @@
             "side": 640,
             "reference_width": 1280,
             "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1782851938244-7b632c31bd61-source-v1",
+      "asset_id": "photo-unsplash-1782851938244-7b632c31bd61",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1782851938244-7b632c31bd61?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1600,
+        "sha256": "4a3791f91496ee9c095ee588a4f3ba31beafc84323f10331eed508061a634c03",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "pink",
+        "viewpoint": "Shallow rear three-quarter",
+        "facing_direction": "right",
+        "environment": "garden edge with a mossy rock before dark foliage",
+        "support": "deployed kickstand on a rock",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow rear three-quarter facing right, pink frame against dark green foliage; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Kadir Kvs (@kadirkvs) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+). The publisher page's image key photo-1782851938244-7b632c31bd61 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "notes": "Found in Unsplash searches planned against the set-level variety targets and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude",
+      "description": "Pink step-through bicycle before dark foliage",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "step-through-bicycle",
+        "outdoors",
+        "garden",
+        "pink"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 4,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow rear three-quarter facing right, pink frame against dark green foliage; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 87,
+            "y": 233,
+            "side": 1030,
+            "reference_width": 1280,
+            "reference_height": 1600,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-4995281-source-v1",
+      "asset_id": "photo-pexels-4995281",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/4995281/pexels-photo-4995281.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "b3f30bf96f8fc63b4cf25df68774aa970cf59bc6c955e3c506fb513fef9f7741",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "orange and teal",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "grassy shore with driftwood logs under a pale sky",
+        "support": "deployed kickstand on grass",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, orange frame against a pale sky and dry grass; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Yasin Aydın (pexels.com/@yasinaydin), labels the photo Free with a link to the Pexels License, and gives its original size as 6000 × 4000 px. The publisher page's photo ID 4995281 is the ID in the reviewed preview URL; the page's description and the inspected image agree. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "notes": "Found in Pexels searches planned against the set-level variety targets and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude",
+      "description": "Orange and teal mountain bike on grass by driftwood",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "mountain-bicycle",
+        "outdoors",
+        "grass",
+        "orange"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 13,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, orange frame against a pale sky and dry grass; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 176,
+            "y": 193,
+            "side": 608,
+            "reference_width": 1280,
+            "reference_height": 853,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-9078472-source-v1",
+      "asset_id": "photo-pexels-9078472",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/9078472/pexels-photo-9078472.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1280,
+        "sha256": "3b9d60ab3cd16340a5d34e9715690d8d5f99f9ef46c8fc10618478d4356a9f38",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "copper",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "street with road markings before a low building",
+        "support": "leaning against a metal pole behind the frame",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, copper frame against grey asphalt; the pole stays behind the frame; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Volker Thimm (pexels.com/@volkerthimm), labels the photo Free with a link to the Pexels License, and gives its original size as 3579 × 3579 px. The publisher page's photo ID 9078472 is the ID in the reviewed preview URL; the page's description and the inspected image agree. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "notes": "Found in Pexels searches planned against the set-level variety targets and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude",
+      "description": "Copper city bicycle leaning against a street pole",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "outdoors",
+        "street",
+        "pole",
+        "copper"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 15,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, copper frame against grey asphalt; the pole stays behind the frame; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 80,
+            "y": 55,
+            "side": 967,
+            "reference_width": 1280,
+            "reference_height": 1280,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-10848028-source-v1",
+      "asset_id": "photo-pexels-10848028",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/10848028/pexels-photo-10848028.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1707,
+        "sha256": "7f62899a098210b25ba76e734c15e0c95895435f07be2c32926792df9aeb8c5f",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "turquoise",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "paved path before a wooden dune fence, with the sea behind",
+        "support": "leaning against the fence",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 83% of the crop in a side profile facing right, turquoise frame against a weathered fence and dune grass; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Soumia Sol (pexels.com/@soumia-sol-163344409), labels the photo Free with a link to the Pexels License, and gives its original size as 3024 × 4032 px. The publisher page's photo ID 10848028 is the ID in the reviewed preview URL; the page's description and the inspected image agree. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "notes": "Found in Pexels searches planned against the set-level variety targets and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude",
+      "description": "Turquoise bicycle with a crate against a dune fence",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "transport-bicycle",
+        "crate",
+        "outdoors",
+        "fence",
+        "beach",
+        "turquoise"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 18,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 83% of the crop in a side profile facing right, turquoise frame against a weathered fence and dune grass; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 0,
+            "y": 427,
+            "side": 1280,
+            "reference_width": 1280,
+            "reference_height": 1707,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1698871999765-2fbadbaaae82-source-v1",
+      "asset_id": "photo-unsplash-1698871999765-2fbadbaaae82",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.unsplash.com/photo-1698871999765-2fbadbaaae82?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 1123,
+        "sha256": "8880127c25829a2dcd470f2f5b3d435b6a63ba551a1c51ade6e1805546f47b21",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "teal with white tyres",
+        "viewpoint": "Side profile",
+        "facing_direction": "right",
+        "environment": "wet canal bridge before water and trees",
+        "support": "leaning against the railing",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, teal frame and white tyres against grey water; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Dmitrii E. (@dmitriielj) and states 'Free to use under the Unsplash License'; the Unsplash API record marks the photo as free (not Unsplash+). The publisher page's image key photo-1698871999765-2fbadbaaae82 is the key of the reviewed preview URL; the creator and subject agree with the API record and the inspected image. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "notes": "Found in Unsplash searches planned against the set-level variety targets and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude",
+      "description": "Teal city bicycle against a canal-bridge railing",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "railing",
+        "canal",
+        "teal"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 19,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a side profile facing right, teal frame and white tyres against grey water; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 175,
+            "y": 60,
+            "side": 764,
+            "reference_width": 1280,
+            "reference_height": 1123,
+            "coordinate_space": "downloaded-preview-pixels",
+            "applied": false
+          }
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-35826964-source-v1",
+      "asset_id": "photo-pexels-35826964",
+      "levels": [
+        "raw",
+        "suitable"
+      ],
+      "parent_version_ids": [],
+      "external_url": "https://images.pexels.com/photos/35826964/pexels-photo-35826964.jpeg?w=1280",
+      "files": [],
+      "observed_preview": {
+        "width": 1280,
+        "height": 960,
+        "sha256": "01d5dbd9eff818e947b22d4a2987429d4cb35f23a4b169880f20dce655508984",
+        "format": "jpeg",
+        "stored_in_repository": false,
+        "notes": "Hash identifies the 1280 px preview served for this image, not the original master; the CDN may re-encode previews."
+      },
+      "characteristics": {
+        "colour": "pale green",
+        "viewpoint": "Shallow front-left three-quarter",
+        "facing_direction": "left",
+        "environment": "paved alley before a white wall and a slatted wooden door",
+        "support": "deployed kickstand beside the wall",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "proposed-preview-crop"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, pale green frame against a white wall and brown door; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "scope": "proposed-preview-crop"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:54:20Z",
+          "reason": "The individual publisher page, fetched on 27 October 2026, names Thomas P (pexels.com/@pth686817), labels the photo Free with a link to the Pexels License, and gives its original size as 5184 × 3888 px. The publisher page's photo ID 35826964 is the ID in the reviewed preview URL; the page's description and the inspected image agree. The licence permits modification; recorded conditions include no AI/ML datasets or training and no brand endorsement."
+        }
+      },
+      "operation": {
+        "type": "discovery",
+        "timestamp": "2026-10-27T00:54:20Z",
+        "actor": "claude",
+        "notes": "Found in Pexels searches planned against the set-level variety targets and screened for target clarity at thumbnail and crop stage."
+      },
+      "unresolved_issues": [],
+      "created_at": "2026-10-27T00:54:20Z",
+      "updated_at": "2026-10-27T00:54:20Z",
+      "actor": "claude",
+      "description": "Pale green bicycle with a basket beside a wooden door",
+      "object_type": "bicycle",
+      "keywords": [
+        "bicycle",
+        "city-bicycle",
+        "basket",
+        "outdoors",
+        "wall",
+        "door",
+        "green"
+      ],
+      "assessments": [
+        {
+          "theme": "bicycles",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "provisional",
+          "rank": 20,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 82% of the crop in a shallow front-left three-quarter facing left, pale green frame against a white wall and brown door; no obstruction, one instance, recognisable at 128 px. The whole bicycle and its support are visible. Selected in the set-level variety review for its view or setting.",
+          "preparation_notes": "Use the proposed crop; it keeps the whole bicycle and its support with small margins.",
+          "scope": "proposed-preview-crop",
+          "proposed_crop": {
+            "x": 298,
+            "y": 0,
+            "side": 952,
+            "reference_width": 1280,
+            "reference_height": 960,
             "coordinate_space": "downloaded-preview-pixels",
             "applied": false
           }

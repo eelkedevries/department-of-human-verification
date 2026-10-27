@@ -37,3 +37,37 @@ The four retained photographs (ranks 3, 6, 10 and 12) keep their evidence in the
 ## Correction, 27 October 2026
 
 Rank 19, the green bicycle against an ivy-covered wall, was rejected on the owner's review: the green frame has too little contrast against the green ivy behind it. Its rights evidence remains valid; it stays raw only.
+
+## Set-level variety review, 27 October 2026
+
+The owner's review found too many side-profile bicycles. Before this rework, 15 of the 19 suitable photographs (79%) were strict side profiles, 4 (21%) were three-quarter views, 6 (32%) were black, and nearly all bicycles leant against or stood beside a wall.
+
+Following the [set-level variety targets](../../../docs/stimuli.md#set-level-variety-targets), five side-profile, wall-backed bicycles were removed from the selection and kept raw as reserves: Black roadster bicycle with a front basket against a white wall (previous rank 4); Navy road bicycle against a two-tone wall (previous rank 13); Copper fixed-gear bicycle against a white wall (previous rank 15); Black city bicycle with a basket against a grey wall (previous rank 18); Black fixed-gear bicycle against a grey concrete wall (previous rank 20). They still meet the clarity standard individually.
+
+About 1,100 further Unsplash and Pexels results were screened for clear three-quarter views and settings other than walls. Clear three-quarter views are scarce: most are steep, cropped, obstructed or cluttered. Pixabay previews could not be downloaded from this environment (HTTP 403). Six photographs met both the clarity standard and the plan, and were individually rights-verified on their publisher pages:
+
+| Rank | Photograph | Creator | Source ID | View | Support | Crop share |
+|---|---|---|---|---|---|---|
+| 4 | [Pink step-through bicycle before dark foliage](https://unsplash.com/photos/a-pink-bicycle-parked-on-grass-with-green-trees-_umXErOUXwQ) | Kadir Kvs (Unsplash) | `photo-1782851938244-7b632c31bd61` | shallow rear three-quarter, facing right | deployed kickstand on a rock | about 82% |
+| 13 | [Orange and teal mountain bike on grass by driftwood](https://www.pexels.com/photo/mountain-bike-parked-on-grass-field-4995281/) | Yasin Aydın (Pexels) | `Pexels 4995281` | shallow front-left three-quarter, facing left | deployed kickstand on grass | about 82% |
+| 15 | [Copper city bicycle leaning against a street pole](https://www.pexels.com/photo/a-bicycle-leaning-on-a-metal-pole-9078472/) | Volker Thimm (Pexels) | `Pexels 9078472` | shallow front-left three-quarter, facing left | leaning against a metal pole behind the frame | about 82% |
+| 18 | [Turquoise bicycle with a crate against a dune fence](https://www.pexels.com/photo/blue-bike-leaning-on-wooden-fence-10848028/) | Soumia Sol (Pexels) | `Pexels 10848028` | side profile, facing right | leaning against the fence | about 83% |
+| 19 | [Teal city bicycle against a canal-bridge railing](https://unsplash.com/photos/a-bicycle-parked-on-a-bridge-over-a-river-kHXkz7_FmuU) | Dmitrii E. (Unsplash) | `photo-1698871999765-2fbadbaaae82` | side profile, facing right | leaning against the railing | about 82% |
+| 20 | [Pale green bicycle with a basket beside a wooden door](https://www.pexels.com/photo/vintage-green-bicycle-leaning-against-rustic-door-35826964/) | Thomas P (Pexels) | `Pexels 35826964` | shallow front-left three-quarter, facing left | deployed kickstand beside the wall | about 82% |
+
+Pexels photographs follow the [Pexels License](https://www.pexels.com/license/) and [terms](https://www.pexels.com/terms-of-service/): modification is allowed; unaltered copies may not be sold or redistributed on a standalone basis or through other stock platforms; endorsement by people or brands may not be implied; and the terms prohibit scraping for machine learning. These are recorded as conditions on each photograph. Unsplash photographs carry the conditions recorded above.
+
+### Counts for the twenty suitable photographs
+
+| Feature | Result | Target | Status |
+|---|---|---|---|
+| Strict side profiles | 13/20 (65%) overall; 10/16 (62%) of bicycles | at most about half | **not met** |
+| Shallow three-quarter views | 7/20 (35%) overall; 6/16 (38%) of bicycles | at least a third | met |
+| Facing direction | 10 left, 9 right (bicycles 8 and 8) | neither above about 60% | met |
+| Most frequent colour | blue-green: 5/20 (25%); black 3/20 (15%) | none above about a quarter | met (at the limit) |
+| Supports | 9 kinds; most frequent: leans on wall, 6/20 (30%) | at least four; none above half | met |
+| Settings | 8 kinds; building wall 13/20 (65%) | none above half | **not met** |
+| Near-duplicate backdrops | Four side-profile bicycles stand against plain light walls (ranks 1, 5, 7, 10); they differ in colour and frame type | no near-identical composition, colour and backdrop | met |
+| Cue to the answer | Distractors and targets share views, colours and settings | no view, colour, setting or quality cue | met |
+
+Two targets remain unmet: side profiles (13/20 (65%)) and wall settings (13/20 (65%)). Meeting both needs about three more clear three-quarter bicycles in settings other than walls to replace side-profile, wall-backed ones. The searched sources did not provide them. A further source, commissioned photographs, or generated or edited images with the documented provenance would be needed.
