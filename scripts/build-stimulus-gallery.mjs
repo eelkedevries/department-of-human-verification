@@ -21,6 +21,12 @@ const local = (path) => posix.relative('stimuli', path);
 
 const catalogue = readJson('stimuli/catalogue.json');
 const vocabulary = readJson('stimuli/vocabulary.json');
+// The latest decision moving a version out of suitable explains why it is a reserve.
+const leftSuitable = new Map();
+for (const line of readFileSync(resolve(ROOT, 'stimuli/history.jsonl'), 'utf8').split('\n').filter(Boolean)) {
+  const e = JSON.parse(line);
+  if (e.from === 'suitable' && e.to === 'raw') for (const id of e.version_ids) leftSuitable.set(id, e.reason);
+}
 const versions = new Map(catalogue.versions.map((v) => [v.version_id, v]));
 const assets = new Map(catalogue.assets.map((a) => [a.asset_id, a]));
 
@@ -43,6 +49,7 @@ function caption(v, theme, heading) {
   if (credit || licence) lines.push([credit && esc(credit), licence && link(licence.url, licence.name)].filter(Boolean).join(' · '));
   lines.push(`Visual: ${esc(v.reviews?.visual?.status)} · rights: ${esc(v.reviews?.rights?.status)}`);
   const issues = v.unresolved_issues ?? [];
+  if (leftSuitable.has(v.version_id) && v.reviews?.visual?.status === 'approved') lines.push(`<details><summary>Why a reserve</summary>${esc(leftSuitable.get(v.version_id))}</details>`);
   if (issues.length) lines.push(`<details><summary>Unresolved (${issues.length})</summary>${issues.map(esc).join('<br><br>')}</details>`);
   return `<sub>${lines.join('<br>')}</sub>`;
 }
@@ -82,20 +89,25 @@ for (const theme of vocabulary.themes) {
 
   const suitableIds = suitable?.version_ids ?? [];
   const notSuitable = (raw?.version_ids ?? []).filter((id) => !suitableIds.includes(id));
-  const isRejected = (id) => versions.get(id)?.reviews?.visual?.status === 'rejected';
-  const rawOnly = notSuitable.filter((id) => !isRejected(id));
-  const rejected = notSuitable.filter(isRejected);
+  const visual = (id) => versions.get(id)?.reviews?.visual?.status;
+  const reserves = notSuitable.filter((id) => visual(id) === 'approved');
+  const pending = notSuitable.filter((id) => !['approved', 'rejected'].includes(visual(id)));
+  const rejected = notSuitable.filter((id) => visual(id) === 'rejected');
   const ranked = [...suitableIds].sort(byRank(theme));
   const sets = (final?.set_keys ?? []).map((key) => catalogue.sets.find((s) => s.set_key === key)).filter(Boolean);
 
   out.push(`## ${theme}`, '');
-  out.push(`Suitable: ${ranked.length} · raw only: ${rawOnly.length} · rejected: ${rejected.length} · standardised: ${standardized?.version_ids?.length ?? 0} · manipulated: ${manipulated?.version_ids?.length ?? 0} · final sets: ${sets.length}`, '');
+  out.push(`Suitable: ${ranked.length} · reserves: ${reserves.length} · awaiting review: ${pending.length} · rejected: ${rejected.length} · standardised: ${standardized?.version_ids?.length ?? 0} · manipulated: ${manipulated?.version_ids?.length ?? 0} · final sets: ${sets.length}`, '');
 
   out.push('### Suitable', '', 'Rights-verified and visually reviewed, by rank.', '');
   out.push(grid(cardsFor(ranked, theme, (v) => `#${rank(v, theme) ?? '–'}`)));
 
-  out.push('### Raw only', '', 'Linked candidates not (yet) promoted to suitable, with their original rank.', '');
-  out.push(grid(cardsFor(rawOnly, theme, (v) => `Original #${rank(v, theme) ?? '–'}`)));
+  out.push('### Reserves', '', 'Approved in the visual and rights reviews but not in the current selection, usually for set-level variety. They can replace a suitable photograph without a new image review; recheck the set-level variety targets when swapping.', '');
+  out.push(grid(cardsFor(reserves, theme, () => 'Reserve')));
+  if (pending.length) {
+    out.push('### Awaiting review', '', 'Registered candidates without a visual decision yet.', '');
+    out.push(grid(cardsFor(pending, theme, (v) => `Original #${rank(v, theme) ?? '–'}`)));
+  }
   if (rejected.length) {
     // Rejected sources stay registered to prevent re-adding them; list them without images.
     const items = rejected.map((id) => versions.get(id)).map((v) => `<li>${link(assets.get(v.asset_id)?.source?.publisher_url ?? v.external_url, v.description)}: ${esc(v.reviews.visual.reason)}</li>`);
