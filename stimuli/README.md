@@ -23,10 +23,10 @@ The usual route is raw → suitable → standardized → final. For an edited st
 Fifteen themes, one for each pool of the [concept table](../docs/stimulus-concepts.md); each theme's dated review document under `raw/<theme>/` records its searches, rights checks, renders and rejections.
 
 - **Bicycles:** fifty-two linked raw photographs, thirty-one of them suitable (twenty-one rejected for clarity remain raw, with reasons); the rights reviews of [26 October](raw/bicycles/rights-review-2026-10-26.md) and [27 October](raw/bicycles/rights-review-2026-10-27.md) record publisher links, matching evidence, licence conditions and exclusions.
-- **Themes 2–15:** 107 suitable photographs from Unsplash and Pexels, found by screening about 9,800 search results, plus one bicycle photograph reused as a cars non-member.
-- 140 suitable photographs in all, and 214 standardised 512/256 px WebP pairs; earlier standardised versions of rejected photographs are withdrawn.
-- 75 AI masters under `manipulated/`: 71 images generated with FLUX.2 [klein] 4B and 4 AI edits of verified photographs, each with its prompt, seed, model revision and review. Rejected renders were not registered.
-- Twenty final sets: C01–C15, one per theme, and second versions of C02, C04, C08, C09 and C14 that add images re-rendered after the first versions. All are marked for publication; the game serves the latest version of each grid.
+- **Themes 2–15:** 110 suitable photographs from Unsplash and Pexels, found by screening about 9,900 search results, plus one bicycle photograph reused as a cars non-member. The computers theme was redone on 27 October 2026 after the owner's correction that a screen on its own is not a computer.
+- 143 suitable photographs in all, and 221 standardised 512/256 px WebP pairs; earlier standardised versions of rejected photographs are withdrawn.
+- 78 AI masters under `manipulated/`: 72 images generated with FLUX.2 [klein] 4B and 6 AI edits of verified photographs, each with its prompt, seed, model revision and review. Rejected renders were not registered.
+- Twenty-one final sets: C01–C15, one per theme, and second versions of C02, C04, C08, C09 and C14 that add images re-rendered after the first versions, and of C10 that corrects the computers grid. All are marked for publication; the game serves the latest version of each grid.
 - The legacy G01 version 1 snapshot was removed on the owner's decision of 27 October 2026; its records remain only as tombstones (`retired_sets` and `withdrawn` entries) so that the history stays resolvable.
 
 ## Metadata and tags

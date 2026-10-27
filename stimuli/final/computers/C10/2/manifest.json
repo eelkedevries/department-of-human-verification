@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C10@2",
+  "set_id": "C10",
+  "version": 2,
+  "theme": "computers",
+  "status": "approved",
+  "instruction": "Select all images containing a computer.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C10",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all machines that run programs.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Laptops and desktop computers count, and so do the laptop pouring out a real ocean and the desktop tower with a tiny office inside it: impossible, but still computers. A screen on its own is not a computer. The bare circuit-board computer and the potato wired to a keyboard and monitor are borderline cases, recorded without a verdict. The radio, the toaster and the microwave oven are not computers.",
+    "feedback": {
+      "correct": [
+        "Computers identified. Have you tried turning them off and on again?",
+        "Correct. Your answer has been saved."
+      ],
+      "partial": [
+        "Partially correct. A computer has gone to sleep.",
+        "Partially correct. Some computers were not responding."
+      ],
+      "incorrect": [
+        "Incorrect. The Department's computer says no.",
+        "Incorrect. Please restart and try again."
+      ]
+    },
+    "stimulus_id": "C10",
+    "version": 2,
+    "grid_hash": "3beeab7074d6fc9f98570c306aaf6872015e8695443fc2049b429f3bbb549169"
+  },
+  "tiles": [
+    {
+      "tile_id": "C10-T1",
+      "version_id": "photo-unsplash-1593642532973-d31b6557fa68-c10-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T2",
+      "version_id": "photo-unsplash-1538580486261-01980bbc7c8c-c10-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T3",
+      "version_id": "generated-computers-ocean-laptop-c10-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T4",
+      "version_id": "photo-unsplash-1634891392987-e91db6bf9557-c10-2-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T5",
+      "version_id": "photo-unsplash-1638734255266-7597abac8571-c10-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C10-T6",
+      "version_id": "generated-computers-potato-computer-c10-2-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C10-T7",
+      "version_id": "photo-unsplash-1651742713300-28e36b3c4fd3-c10-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C10-T8",
+      "version_id": "photo-pexels-7936648-c10-2-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C10-T9",
+      "version_id": "photo-pexels-4686822-c10-2-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C10-T1",
+    "C10-T2",
+    "C10-T3",
+    "C10-T4"
+  ],
+  "borderline_tile_ids": [
+    "C10-T5",
+    "C10-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T13:22:15Z",
+    "reason": "Version 2 of C10, correcting version 1, which counted a desktop monitor and an all-in-one screen as computers: a screen on its own is not a computer (owner's correction, 27 October 2026). Every target now shows the computer itself. Nine distinct, standardised images reviewed together at tile size: two ordinary computers (white laptop on a café table, front three-quarter view; black desktop tower with its side panel removed), two impossible computers (generated laptop whose screen holds a real ocean pouring over its keyboard; desktop photograph edited so that the glass-sided tower holds a miniature office with a tiny worker), two borderline cases (photographed bare single-board computer; generated potato wired to a keyboard and monitor) and three non-member appliances with dials or buttons (vintage radio, toaster, microwave oven). The only monitor in the set belongs to the edited desktop and the potato set-up, so a screen alone never decides. Views, colours and settings vary within each role. The laptop with arms typing out of its screen, the tablets and the mechanical calculator remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T13:22:15Z",
+  "actor": "claude"
+}

@@ -10,7 +10,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 
 - **Scaffold** from `eek-a-template` (Vite + TypeScript, static, base path `/department-of-human-verification/`). No GitHub Pages: hosting is SiteGround under eelkedevries.com.
 - **Stimulus tools** (`tools/stimuli/`): `register.py` (photographs, AI edits and generated images into the collection), `manipulate.py` (FLUX.2 [klein] 4B on the CPU, or the hosted Space), `standardise.py`, `finalise.py` (nine-image final sets with game metadata) and `publish.py` (latest version of each published final set → opaque WebP files and `src/stimuli/catalogue.json`, validated by `scripts/validate-stimuli.mjs`). The legacy `source.json`/`generate.py`/`build.py` route for the retired G01 grid is superseded.
-- **Stimulus collection** (`stimuli/`): fifteen themes from `docs/stimulus-concepts.md`; 242 assets and 657 versions, including 140 suitable photographs (Unsplash, Pexels, Flickr), 75 AI masters (71 generated, 4 edits of photographs) and 214 standardised WebP pairs; twenty final sets (C01–C15, with second versions of C02, C04, C08, C09 and C14). Each theme has a dated review document under `raw/<theme>/`. The legacy G01 snapshot was removed on the owner's decision (27 October 2026), leaving tombstone records only. Rights checks happen during every search; all stimulus agents follow `stimuli/AGENTS.md`, search through `stimuli/SOURCES.md` and keep it current; every version records its `content_origin`. `stimuli/GALLERY.md`, checked for staleness by `npm run check`, shows every image on GitHub.
+- **Stimulus collection** (`stimuli/`): fifteen themes from `docs/stimulus-concepts.md`; 246 assets and 678 versions, including 143 suitable photographs (Unsplash, Pexels, Flickr), 78 AI masters (72 generated, 6 edits of photographs) and 221 standardised WebP pairs; twenty-one final sets (C01–C15, with second versions of C02, C04, C08, C09, C10 and C14). A screen or monitor on its own is not a computer (owner's correction, 27 October 2026; see `docs/stimulus-concepts.md`). Each theme has a dated review document under `raw/<theme>/`. The legacy G01 snapshot was removed on the owner's decision (27 October 2026), leaving tombstone records only. Rights checks happen during every search; all stimulus agents follow `stimuli/AGENTS.md`, search through `stimuli/SOURCES.md` and keep it current; every version records its `content_origin`. `stimuli/GALLERY.md`, checked for staleness by `npm run check`, shows every image on GitHub.
 - **The game** (`src/`): controller and screens (`app/`), seeded sessions, rounds, scoring and timer (`game/`), local event log and developer export (`analytics/`), copy (`content/`). Unit tests in `tests/unit/`.
 - **End-to-end tests** (`tests/e2e/`, Playwright): Chromium desktop and phone, Firefox with `E2E_FIREFOX=1`; run in CI.
 - **Deployment**: `deploy-department-of-human-verification.yml` in eelkedevries.com, started by `npm run deploy`; the main site's deploy protects the folder.
@@ -29,7 +29,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 
 ## In progress / next
 
-- **V1 next:** nine concept items still lack a usable image after two render attempts (listed in `stimuli/SOURCES.md`); later grid versions may add them. The set-level variety targets of `docs/stimuli.md` were checked per set by review but not yet measured across all fifteen pools.
+- **V1 next:** eight concept items still lack a usable image after two render attempts (listed in `stimuli/SOURCES.md`); later grid versions may add them. The set-level variety targets of `docs/stimuli.md` were checked per set by review but not yet measured across all fifteen pools.
 - Real-webcam tests of the separately flagged preview remain a deferred project.
 
 ## Prompts run
@@ -57,3 +57,4 @@ This file records what *is* (current reality). The binding design canon is `docs
 - `021`–`025` (variety additions; G01 removed; AI image tools; concept-pool photographs; bicycles grid C01 published)
 - `026`–`039` (generated and edited images for every concept pool; grids C02–C15 published; latest-version publishing and second versions of C02, C04, C08 and C09)
 - `040_concept_table_complete.md` (bridges C14 version 2; documentation and specification 1.20)
+- `041_computers_screens_not_computers.md` (computers theme redone: screens are not computers; C10 version 2)

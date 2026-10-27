@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-48e403cf71",
+  "catalogue_version": "2026-10-27-01fc43f216",
   "families": [
     "recognition",
     "semantic",
@@ -1937,8 +1937,8 @@
     },
     {
       "stimulus_id": "C10",
-      "version": 1,
-      "hash": "9ec87e4f910de8772869019479e897948955c53b9663b3aff48911619bf14bdd",
+      "version": 2,
+      "hash": "3beeab7074d6fc9f98570c306aaf6872015e8695443fc2049b429f3bbb549169",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a computer.",
@@ -1947,7 +1947,7 @@
         "semantic": "Select all machines that run programs."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Ordinary computers count, and so do the monitor holding a real ocean and the screen with a tiny office inside: impossible, but still computers. The potato wired to a keyboard and monitor and the typewriter with a touchscreen are borderline cases, recorded without a verdict. The radio, the toaster and the microwave oven are not computers.",
+      "explanation": "Laptops and desktop computers count, and so do the laptop pouring out a real ocean and the desktop tower with a tiny office inside it: impossible, but still computers. A screen on its own is not a computer. The bare circuit-board computer and the potato wired to a keyboard and monitor are borderline cases, recorded without a verdict. The radio, the toaster and the microwave oven are not computers.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
@@ -1967,50 +1967,50 @@
       "tiles": [
         {
           "tile_id": "C10-T1",
-          "src": "0b6be0f7e3a51cc3.webp",
-          "src_small": "0b6be0f7e3a51cc3-s.webp",
+          "src": "e4cf010715363e61.webp",
+          "src_small": "e4cf010715363e61-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "0b6be0f7e3a51cc3c510d1dfb2adbfb522c0e60c5318169f089bea57c854bb27",
-          "alt": "Space-grey laptop standing open on a white table beside a window",
+          "sha256": "e4cf010715363e61542229bd591c73bf2f07a673720a664754759fe20a86f027",
+          "alt": "White laptop open on a wooden café table, showing a mountain landscape on its screen",
           "provenance": {
             "kind": "photograph",
             "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Rahul Chakraborty",
+            "creator": "Dell",
             "source": "Unsplash",
-            "source_url": "https://unsplash.com/photos/O7tTy-bZ9as",
+            "source_url": "https://unsplash.com/photos/YNliXm_hMn8",
             "licence": "Unsplash License",
             "licence_url": "https://unsplash.com/license",
-            "attribution": "Photo by Rahul Chakraborty on Unsplash"
+            "attribution": "Photo by Dell on Unsplash"
           }
         },
         {
           "tile_id": "C10-T2",
-          "src": "5bb0a7469d54a05a.webp",
-          "src_small": "5bb0a7469d54a05a-s.webp",
+          "src": "62931813985806dd.webp",
+          "src_small": "62931813985806dd-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "5bb0a7469d54a05a7e3f90803d7451a8095ea30f2970b6dcd70449b375557cba",
-          "alt": "Desktop computer with monitor, glass-sided tower and keyboard on a white trestle desk",
+          "sha256": "62931813985806ddff29bc4fced7ea48c704a289c88531bf930cfc206a509979",
+          "alt": "Black desktop tower computer with its side panel removed, showing fans and drive bays, on a white background",
           "provenance": {
             "kind": "photograph",
             "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "I'M ZION",
+            "creator": "Rainier Ridao",
             "source": "Unsplash",
-            "source_url": "https://unsplash.com/photos/wcoXr9o83o8",
+            "source_url": "https://unsplash.com/photos/plRVZ8MXw8Y",
             "licence": "Unsplash License",
             "licence_url": "https://unsplash.com/license",
-            "attribution": "Photo by I'M ZION on Unsplash"
+            "attribution": "Photo by Rainier Ridao on Unsplash"
           }
         },
         {
           "tile_id": "C10-T3",
-          "src": "8473f1ebcad2bac4.webp",
-          "src_small": "8473f1ebcad2bac4-s.webp",
+          "src": "ab5288b367dd27b7.webp",
+          "src_small": "ab5288b367dd27b7-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "8473f1ebcad2bac4226fcf1193758e7a655050deb442e8a451eab8d2ac6ca859",
-          "alt": "Desktop monitor containing a real ocean with fish, water spilling out of the screen onto the desk",
+          "sha256": "ab5288b367dd27b77c66d29154d1820b2e3c064e1f2c6db36749a0adc631932d",
+          "alt": "Silver laptop on a wooden desk with a real ocean and fish in its screen, sea water pouring over its keyboard",
           "provenance": {
             "kind": "ai-generated",
             "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
@@ -2024,50 +2024,52 @@
         },
         {
           "tile_id": "C10-T4",
-          "src": "4a52e6d0f52c358f.webp",
-          "src_small": "4a52e6d0f52c358f-s.webp",
+          "src": "63d0946edfd9bace.webp",
+          "src_small": "63d0946edfd9bace-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "4a52e6d0f52c358f4458f20f5dc57cf06487fbbe97166a0cf58d4a11d9867eea",
-          "alt": "All-in-one computer whose screen holds a miniature office with a tiny worker climbing out",
+          "sha256": "63d0946edfd9baceecf376370008819f5e8477f5753cbd8640b5e44c51a919a1",
+          "alt": "Glass-sided desktop tower computer containing a real miniature office with a tiny worker, beside its monitor and keyboard",
           "provenance": {
-            "kind": "ai-generated",
-            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
-            "licence": "Apache-2.0",
-            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
-            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "kind": "ai-edited-photograph",
+            "edits": "Edited with FLUX.2 [klein] 4B: Replace the components inside the glass-sided tower with a real miniature office and a tiny worker stepping out. Then cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "I'M ZION",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/wcoXr9o83o8",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by I'M ZION on Unsplash",
             "model": "black-forest-labs/FLUX.2-klein-4B",
             "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
         },
         {
           "tile_id": "C10-T5",
+          "src": "9bb1f10189436c39.webp",
+          "src_small": "9bb1f10189436c39-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "9bb1f10189436c3976457a86d2f27303a786e458c52931d1a8d2fe66410ef7ff",
+          "alt": "Bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Denis Nuțiu",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/TZ4vpPY5VTQ",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Denis Nuțiu on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C10-T6",
           "src": "91ecd01fce37ea55.webp",
           "src_small": "91ecd01fce37ea55-s.webp",
           "width": 512,
           "height": 512,
           "sha256": "91ecd01fce37ea559521ca264c74b6b5933dd64fb0b15721131dccb697c3eb4d",
           "alt": "Large potato with copper wires and clips running to a keyboard and a lit computer monitor on a desk",
-          "provenance": {
-            "kind": "ai-generated",
-            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
-            "licence": "Apache-2.0",
-            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
-            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
-            "model": "black-forest-labs/FLUX.2-klein-4B",
-            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
-          }
-        },
-        {
-          "tile_id": "C10-T6",
-          "src": "2fed2352f1c27309.webp",
-          "src_small": "2fed2352f1c27309-s.webp",
-          "width": 512,
-          "height": 512,
-          "sha256": "2fed2352f1c2730913d8240079fb16f7fb26afbbc05baae00b4b806cf4567a1e",
-          "alt": "Black vintage typewriter with a lit touchscreen tablet mounted where the paper should be",
           "provenance": {
             "kind": "ai-generated",
             "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",

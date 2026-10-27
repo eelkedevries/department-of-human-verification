@@ -4,6 +4,7 @@
   "level": "final",
   "theme": "computers",
   "set_keys": [
-    "C10@1"
+    "C10@1",
+    "C10@2"
   ]
 }
