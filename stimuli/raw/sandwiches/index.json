@@ -1,0 +1,17 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "raw",
+  "theme": "sandwiches",
+  "version_ids": [
+    "photo-unsplash-1768966741319-0ab742d22eb8-source-v1",
+    "photo-unsplash-1567234669013-216f3a40e02e-source-v1",
+    "photo-unsplash-1626203050468-9308df7964fc-source-v1",
+    "photo-unsplash-1678033382919-fa907632fdda-source-v1",
+    "photo-unsplash-1753656681797-3234c89d6d4d-source-v1",
+    "photo-unsplash-1764018601476-e5fac1f27893-source-v1",
+    "photo-unsplash-1595854341625-f33ee10dbf94-source-v1",
+    "photo-unsplash-1603208614636-aa308b918a32-source-v1",
+    "photo-unsplash-1604497181015-76590d828b75-source-v1"
+  ]
+}

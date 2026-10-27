@@ -1,0 +1,17 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "standardized",
+  "theme": "bridges",
+  "version_ids": [
+    "photo-unsplash-1618079266919-9613251ec24d-standardized-v1",
+    "photo-unsplash-1708792994363-be2e2e7924b6-standardized-v1",
+    "photo-unsplash-1667017898252-10a7894b428e-standardized-v1",
+    "photo-pexels-8244134-standardized-v1",
+    "photo-unsplash-1745558773418-6eda097cd9bc-standardized-v1",
+    "photo-pexels-37358201-standardized-v1",
+    "photo-unsplash-1787372818035-787d68d5d1a7-standardized-v1",
+    "photo-pexels-8802009-standardized-v1",
+    "photo-unsplash-1776899228602-3200d9c0d0a4-standardized-v1"
+  ]
+}

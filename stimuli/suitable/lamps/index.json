@@ -1,0 +1,15 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "suitable",
+  "theme": "lamps",
+  "version_ids": [
+    "photo-unsplash-1647345287361-b2de799c49a1-source-v1",
+    "photo-unsplash-1632090944927-8dd1068e5f40-source-v1",
+    "photo-pexels-19227253-source-v1",
+    "photo-unsplash-1723779232054-6f6be572c0e8-source-v1",
+    "photo-unsplash-1610635966675-f6fcaaf9b833-source-v1",
+    "photo-unsplash-1573066380308-24ff4c273dbc-source-v1",
+    "photo-unsplash-1692651771569-95dd3ed878a8-source-v1"
+  ]
+}

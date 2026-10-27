@@ -1,0 +1,14 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "standardized",
+  "theme": "cars",
+  "version_ids": [
+    "photo-unsplash-1777998567525-b48a50c54d1c-standardized-v1",
+    "photo-unsplash-1760162754961-ed27f26b394f-standardized-v1",
+    "photo-unsplash-1662412765790-2b97cc3dbc6f-standardized-v1",
+    "photo-unsplash-1763406348286-bf9067a05d5e-standardized-v1",
+    "photo-pexels-5490910-standardized-v1",
+    "photo-pexels-17963040-standardized-v1"
+  ]
+}

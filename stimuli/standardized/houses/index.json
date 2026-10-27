@@ -1,0 +1,16 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "standardized",
+  "theme": "houses",
+  "version_ids": [
+    "photo-pexels-9828297-standardized-v1",
+    "photo-unsplash-1761406938960-2f26b923a24e-standardized-v1",
+    "photo-pexels-3935320-standardized-v1",
+    "photo-pexels-30762640-standardized-v1",
+    "photo-unsplash-1542314820-e04ce1d3d81a-standardized-v1",
+    "photo-unsplash-1792745119435-73b06f2eabc9-standardized-v1",
+    "photo-unsplash-1781807763892-29f7f7b70b6a-standardized-v1",
+    "photo-unsplash-1790364755326-ad7b61618cf2-standardized-v1"
+  ]
+}

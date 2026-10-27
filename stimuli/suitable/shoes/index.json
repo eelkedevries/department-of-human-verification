@@ -1,0 +1,15 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "suitable",
+  "theme": "shoes",
+  "version_ids": [
+    "photo-unsplash-1595805737846-ab795bc2c782-source-v1",
+    "photo-unsplash-1634304138376-43a922e96c80-source-v1",
+    "photo-pexels-37722620-source-v1",
+    "photo-pexels-5405827-source-v1",
+    "photo-unsplash-1751522925876-79bfeae6fbfb-source-v1",
+    "photo-unsplash-1702693008936-112724759019-source-v1",
+    "photo-unsplash-1673294861057-4584f92b91d2-source-v1"
+  ]
+}

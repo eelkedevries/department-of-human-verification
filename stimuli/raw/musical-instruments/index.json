@@ -1,0 +1,15 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "raw",
+  "theme": "musical-instruments",
+  "version_ids": [
+    "photo-unsplash-1704961625677-dc57dcf6cef1-source-v1",
+    "photo-unsplash-1558556405-3071bd8d3ee6-source-v1",
+    "photo-pexels-7577309-source-v1",
+    "photo-pexels-36752793-source-v1",
+    "photo-pexels-8520119-source-v1",
+    "photo-unsplash-1700409955321-c9634b56b458-source-v1",
+    "photo-pexels-5641564-source-v1"
+  ]
+}

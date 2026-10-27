@@ -48,13 +48,15 @@ For the whole set, after selection:
 - [ ] Every output is inspected at 256 px and about 128 px; the object is complete, uncut and as clear as in the reviewed crop.
 - [ ] The versions are registered only with approved visual reviews; transformations, hashes and licence conditions are recorded, and `content_origin` is inherited from the parent.
 
-## AI editing (→ manipulated)
+## AI editing or generation (→ manipulated)
 
-- [ ] The source licence permits modification (not NoDerivatives), and the image is not added to any AI training dataset.
+- [ ] For an edit: the source licence permits modification (not NoDerivatives), and the image is not added to any AI training dataset. For a generated image: the generator has an entry in [SOURCES.md](SOURCES.md) and no third-party image was used as input.
 - [ ] Instructions, tool, provider, model, revision, seed (or the reason it is unavailable), actor, timestamp, parents and output hash are recorded.
 - [ ] Only the intended change is present: support, shadows, functional parts and category features are otherwise intact.
 - [ ] The edited image still meets the target clarity standard; its role and semantic class are reassessed for the edited content.
 - [ ] `content_origin` is `ai-edited-photograph` for an edited photograph, or stays `ai-generated` for an edited generated image.
+- [ ] The output is free of borders, frames, text, extra category members and broken anatomy, and the impossibility or category question reads at once at 128 px (the one-second, no-caption test in [stimulus-concepts.md](../docs/stimulus-concepts.md)); failures are not registered or are withdrawn.
+- [ ] The render sidecar (prompt, seed, steps, revision, software) is recorded through `tools/stimuli/register.py ai`.
 - [ ] The edit is standardised before any final selection.
 
 ## Final set (→ final)
@@ -64,6 +66,12 @@ For the whole set, after selection:
 - [ ] The nine-tile contact sheet meets the set-level variety targets and gives no cue to the answer through view, colour, setting or quality.
 - [ ] The manifest, catalogue and history are complete; earlier set versions are unchanged.
 - [ ] Publishing to the game is a separate task and has not happened implicitly.
+
+## Publishing (final → game)
+
+- [ ] Only final sets whose manifest sets `"game": {"publish": true}` are published, with `tools/stimuli/publish.py`.
+- [ ] `src/stimuli/catalogue.json` gives every tile its credit (creator, source page, licence and, for AI images, the model) and no prompts, seeds or collection paths; the About dialog lists the credits.
+- [ ] `npm run check`, the end-to-end tests and the public-build check pass; the live page is checked after the deploy.
 
 ## Closing checklist (every procedure)
 

@@ -1,0 +1,16 @@
+{
+  "schema": "dhv-stimulus-stage-v1",
+  "schema_version": 1,
+  "level": "raw",
+  "theme": "computers",
+  "version_ids": [
+    "photo-unsplash-1639087595550-e9770a85f8c0-source-v1",
+    "photo-unsplash-1634891392987-e91db6bf9557-source-v1",
+    "photo-unsplash-1636485043041-e1d05b9f0662-source-v1",
+    "photo-unsplash-1708765779373-f029c94ea8a1-source-v1",
+    "photo-pexels-187041-source-v1",
+    "photo-unsplash-1651742713300-28e36b3c4fd3-source-v1",
+    "photo-pexels-7936648-source-v1",
+    "photo-pexels-4686822-source-v1"
+  ]
+}
