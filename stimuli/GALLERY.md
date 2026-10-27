@@ -810,7 +810,7 @@ Rights-verified and visually reviewed, by rank.
 
 ## boats
 
-Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 12 · manipulated: 5 · final sets: 1
+Suitable: 7 · awaiting review: 0 · rejected: 0 · standardised: 13 · manipulated: 6 · final sets: 1
 
 ### Suitable
 
@@ -855,6 +855,9 @@ Rights-verified and visually reviewed, by rank.
 <td width="33%" valign="top"><a href="standardized/boats/generated-boats-duck-float-boat-standardized-v1.webp"><img src="standardized/boats/generated-boats-duck-float-boat-standardized-v1-s.webp" width="240" alt="Giant yellow inflatable duck float with an outboard motor on a lake"></a><br><sub><b>#11</b> Giant yellow inflatable duck float with an outboard motor on a lake<br>inflatable-float · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>No rudder is visible apart from the motor.</details></sub></td>
 <td width="33%" valign="top"><a href="standardized/boats/generated-boats-picnic-table-boat-standardized-v1.webp"><img src="standardized/boats/generated-boats-picnic-table-boat-standardized-v1-s.webp" width="240" alt="Wooden picnic table with an outboard motor floating on a pond"></a><br><sub><b>#12</b> Wooden picnic table with an outboard motor floating on a pond<br>picnic-table-boat · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
 </tr>
+<tr>
+<td width="33%" valign="top"><a href="standardized/boats/photo-unsplash-1587977706287-86d257db113f-standardized-v2.webp"><img src="standardized/boats/photo-unsplash-1587977706287-86d257db113f-standardized-v2-s.webp" width="240" alt="Empty varnished rowing boat with eight human arms growing from its hull and reaching into the water like oars"></a><br><sub><b>#13</b> Empty varnished rowing boat with eight human arms growing from its hull and reaching into the water like oars<br>rowing-boat · ai-edited-photograph · target (member-bizarre) · Meets target clarity<br>V · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The image is deliberately uncanny; the arms are long and pale.</details></sub></td>
+</tr>
 </table>
 
 ### Manipulated
@@ -868,6 +871,7 @@ Rights-verified and visually reviewed, by rank.
 <tr>
 <td width="33%" valign="top"><a href="manipulated/boats/generated-boats-duck-float-boat-v1.png"><img src="manipulated/boats/generated-boats-duck-float-boat-v1.png" width="240" alt="Giant yellow inflatable duck float with an outboard motor on a lake"></a><br><sub>Giant yellow inflatable duck float with an outboard motor on a lake<br>inflatable-float · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>No rudder is visible apart from the motor.</details></sub></td>
 <td width="33%" valign="top"><a href="manipulated/boats/generated-boats-picnic-table-boat-v1.png"><img src="manipulated/boats/generated-boats-picnic-table-boat-v1.png" width="240" alt="Wooden picnic table with an outboard motor floating on a pond"></a><br><sub>Wooden picnic table with an outboard motor floating on a pond<br>picnic-table-boat · ai-generated · borderline (member-debatable) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Generated image.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/boats/photo-unsplash-1587977706287-86d257db113f-arm-oars-v1.png"><img src="manipulated/boats/photo-unsplash-1587977706287-86d257db113f-arm-oars-v1.png" width="240" alt="Empty varnished rowing boat with eight human arms growing from its hull and reaching into the water like oars"></a><br><sub>Empty varnished rowing boat with eight human arms growing from its hull and reaching into the water like oars<br>rowing-boat · ai-edited-photograph · target (member-bizarre) · Meets target clarity<br>V · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The image is deliberately uncanny; the arms are long and pale.</details></sub></td>
 </tr>
 </table>
 
