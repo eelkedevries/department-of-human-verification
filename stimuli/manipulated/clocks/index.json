@@ -6,6 +6,8 @@
   "version_ids": [
     "generated-clocks-running-alarm-clock-v1",
     "generated-clocks-hourglass-clock-v1",
-    "generated-clocks-phone-wall-clock-v1"
+    "generated-clocks-phone-wall-clock-v1",
+    "generated-clocks-arm-hands-clock-v1",
+    "generated-clocks-cuckoo-burst-v1"
   ]
 }
