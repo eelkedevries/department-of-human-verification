@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T00:54:20Z",
+  "updated_at": "2026-10-27T01:07:23Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -2924,6 +2924,7 @@
       "actor": "codex",
       "description": "White folding bicycle against a wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "folding-bicycle",
@@ -3010,6 +3011,7 @@
       "actor": "codex",
       "description": "Blue motor scooter beside a white wall",
       "object_type": "motor-scooter",
+      "content_origin": "photograph",
       "keywords": [
         "motor-scooter",
         "outdoors",
@@ -3094,6 +3096,7 @@
       "actor": "codex",
       "description": "Red bicycle against a grey metal wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -3178,6 +3181,7 @@
       "actor": "codex",
       "description": "Road bicycle leaning against a tree",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -3263,6 +3267,7 @@
       "actor": "codex",
       "description": "Blue city bicycle beside a red bench",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -3347,6 +3352,7 @@
       "actor": "codex",
       "description": "Skateboard resting on pavement",
       "object_type": "skateboard",
+      "content_origin": "photograph",
       "keywords": [
         "outdoors",
         "pavement",
@@ -3432,6 +3438,7 @@
       "actor": "codex",
       "description": "Cream bicycle with a rear carrier",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "carrier",
@@ -3516,6 +3523,7 @@
       "actor": "codex",
       "description": "Small green bicycle by a brick wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "brick",
@@ -3601,6 +3609,7 @@
       "actor": "codex",
       "description": "Motorcycle parked in front of a brick wall",
       "object_type": "motorcycle",
+      "content_origin": "photograph",
       "keywords": [
         "brick",
         "motorcycle",
@@ -3688,6 +3697,7 @@
       "actor": "codex",
       "description": "Black folding bicycle beside a drainpipe",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "folding-bicycle",
@@ -3774,6 +3784,7 @@
       "actor": "codex",
       "description": "Red-and-white bicycle against a pale wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -3858,6 +3869,7 @@
       "actor": "codex",
       "description": "Bicycle leaning against a metal fence",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fence",
@@ -3942,6 +3954,7 @@
       "actor": "codex",
       "description": "Silver bicycle beside a pastel wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -4026,6 +4039,7 @@
       "actor": "codex",
       "description": "Red road bicycle by a timber railing",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -4111,6 +4125,7 @@
       "actor": "codex",
       "description": "Green city bicycle against a stone wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -4198,6 +4213,7 @@
       "actor": "codex",
       "description": "Red bicycle beside a stone building",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -4282,6 +4298,7 @@
       "actor": "codex",
       "description": "Turquoise road bicycle against a wooden fence",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fence",
@@ -4368,6 +4385,7 @@
       "actor": "codex",
       "description": "Red city bicycle against a light wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -4452,6 +4470,7 @@
       "actor": "codex",
       "description": "Blue bicycle with a yellow front fork",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -4537,6 +4556,7 @@
       "actor": "codex",
       "description": "Mint-coloured microcar outside a café",
       "object_type": "car",
+      "content_origin": "photograph",
       "keywords": [
         "car",
         "microcar",
@@ -4659,6 +4679,7 @@
       "actor": "codex",
       "description": "A black city bicycle leaning against a green wooden door on a cobbled street",
       "object_type": "bicycle",
+      "content_origin": "ai-generated",
       "keywords": [
         "bicycle",
         "legacy-g01",
@@ -4771,6 +4792,7 @@
       "actor": "codex",
       "description": "A red bicycle with a wicker basket parked against a brick wall",
       "object_type": "bicycle",
+      "content_origin": "ai-generated",
       "keywords": [
         "bicycle",
         "legacy-g01",
@@ -4883,6 +4905,7 @@
       "actor": "codex",
       "description": "A blue road bicycle on an empty country road",
       "object_type": "bicycle",
+      "content_origin": "ai-generated",
       "keywords": [
         "bicycle",
         "legacy-g01",
@@ -4995,6 +5018,7 @@
       "actor": "codex",
       "description": "A small yellow child's bicycle with training wheels on a lawn",
       "object_type": "bicycle",
+      "content_origin": "ai-generated",
       "keywords": [
         "bicycle",
         "legacy-g01",
@@ -5107,6 +5131,7 @@
       "actor": "codex",
       "description": "A red vintage motor scooter parked on a street",
       "object_type": "motor-scooter",
+      "content_origin": "ai-generated",
       "keywords": [
         "motor-scooter",
         "legacy-g01",
@@ -5219,6 +5244,7 @@
       "actor": "codex",
       "description": "A blue motorcycle parked on a cobbled square",
       "object_type": "motorcycle",
+      "content_origin": "ai-generated",
       "keywords": [
         "motorcycle",
         "legacy-g01",
@@ -5331,6 +5357,7 @@
       "actor": "codex",
       "description": "A child's kick scooter on a pavement",
       "object_type": "kick-scooter",
+      "content_origin": "ai-generated",
       "keywords": [
         "kick-scooter",
         "legacy-g01",
@@ -5443,6 +5470,7 @@
       "actor": "codex",
       "description": "A skateboard on paving stones",
       "object_type": "skateboard",
+      "content_origin": "ai-generated",
       "keywords": [
         "skateboard",
         "legacy-g01",
@@ -5555,6 +5583,7 @@
       "actor": "codex",
       "description": "A small white vintage car parked on a street",
       "object_type": "car",
+      "content_origin": "ai-generated",
       "keywords": [
         "car",
         "legacy-g01",
@@ -5580,6 +5609,7 @@
       "asset_id": "photo-019e0fed-2b99-7df3-9285-402da53ce583",
       "description": "Silver city bicycle against a weathered wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -5665,6 +5695,7 @@
       "asset_id": "photo-019e147c-0ae7-7793-8c79-b26344f176fb",
       "description": "City bicycle at a worn street-corner wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -5749,6 +5780,7 @@
       "asset_id": "photo-019e1476-12d8-7676-86f1-09354d8187c1",
       "description": "Orange road bicycle against a wire fence",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fence",
@@ -5834,6 +5866,7 @@
       "asset_id": "photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b",
       "description": "Small red microcar under a leafy tree",
       "object_type": "car",
+      "content_origin": "photograph",
       "keywords": [
         "car",
         "microcar",
@@ -5983,6 +6016,7 @@
       "actor": "claude",
       "description": "White folding bicycle against a wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "folding-bicycle",
@@ -6127,6 +6161,7 @@
       "actor": "claude",
       "description": "Blue motor scooter beside a white wall",
       "object_type": "motor-scooter",
+      "content_origin": "photograph",
       "keywords": [
         "motor-scooter",
         "outdoors",
@@ -6216,6 +6251,7 @@
       "actor": "claude",
       "description": "Red bicycle against a grey metal wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -6334,6 +6370,7 @@
       "actor": "claude",
       "description": "Road bicycle leaning against a tree",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -6453,6 +6490,7 @@
       "actor": "claude",
       "description": "Blue city bicycle beside a red bench",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -6595,6 +6633,7 @@
       "actor": "claude",
       "description": "Skateboard resting on pavement",
       "object_type": "skateboard",
+      "content_origin": "photograph",
       "keywords": [
         "outdoors",
         "pavement",
@@ -6709,6 +6748,7 @@
       "actor": "claude",
       "description": "Cream bicycle with a rear carrier",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "carrier",
@@ -6800,6 +6840,7 @@
       "actor": "claude",
       "description": "Small green bicycle by a brick wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "brick",
@@ -6919,6 +6960,7 @@
       "actor": "claude",
       "description": "Motorcycle parked in front of a brick wall",
       "object_type": "motorcycle",
+      "content_origin": "photograph",
       "keywords": [
         "brick",
         "motorcycle",
@@ -7038,6 +7080,7 @@
       "actor": "claude",
       "description": "Bicycle leaning against a metal fence",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fence",
@@ -7156,6 +7199,7 @@
       "actor": "claude",
       "description": "Silver bicycle beside a pastel wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -7274,6 +7318,7 @@
       "actor": "claude",
       "description": "Red road bicycle by a timber railing",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -7393,6 +7438,7 @@
       "actor": "claude",
       "description": "Green city bicycle against a stone wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -7512,6 +7558,7 @@
       "actor": "claude",
       "description": "Turquoise road bicycle against a wooden fence",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fence",
@@ -7656,6 +7703,7 @@
       "actor": "claude",
       "description": "Red city bicycle against a light wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -7745,6 +7793,7 @@
       "actor": "claude",
       "description": "Blue bicycle with a yellow front fork",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -7862,6 +7911,7 @@
       "actor": "claude",
       "description": "City bicycle at a worn street-corner wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -7980,6 +8030,7 @@
       "actor": "claude",
       "description": "Silver city bicycle against a weathered wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "outdoors",
@@ -8099,6 +8150,7 @@
       "actor": "claude",
       "description": "Orange road bicycle against a wire fence",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fence",
@@ -8218,6 +8270,7 @@
       "actor": "claude",
       "description": "Small red microcar under a leafy tree",
       "object_type": "car",
+      "content_origin": "photograph",
       "keywords": [
         "car",
         "microcar",
@@ -8325,6 +8378,7 @@
       "actor": "claude",
       "description": "Black track bicycle against a white wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "track-bicycle",
@@ -8410,6 +8464,7 @@
       "actor": "claude",
       "description": "White road bicycle against a teal wooden wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "road-bicycle",
@@ -8494,6 +8549,7 @@
       "actor": "claude",
       "description": "Black roadster bicycle with a front basket against a white wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "roadster-bicycle",
@@ -8580,6 +8636,7 @@
       "actor": "claude",
       "description": "Light blue bicycle with a wooden crate against a white wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "city-bicycle",
@@ -8666,6 +8723,7 @@
       "actor": "claude",
       "description": "Lavender bicycle with orange tyres against a white brick wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fixed-gear-bicycle",
@@ -8751,6 +8809,7 @@
       "actor": "claude",
       "description": "Black cruiser motorcycle against a stone building",
       "object_type": "motorcycle",
+      "content_origin": "photograph",
       "keywords": [
         "motorcycle",
         "cruiser-motorcycle",
@@ -8836,6 +8895,7 @@
       "actor": "claude",
       "description": "White road bicycle against black and red facade panels",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "road-bicycle",
@@ -8921,6 +8981,7 @@
       "actor": "claude",
       "description": "Black city bicycle against a yellow house",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "city-bicycle",
@@ -9006,6 +9067,7 @@
       "actor": "claude",
       "description": "Navy road bicycle against a two-tone wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "road-bicycle",
@@ -9091,6 +9153,7 @@
       "actor": "claude",
       "description": "Yellow cruiser bicycle with a flower basket against a wooden door",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "cruiser-bicycle",
@@ -9177,6 +9240,7 @@
       "actor": "claude",
       "description": "Copper fixed-gear bicycle against a white wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fixed-gear-bicycle",
@@ -9262,6 +9326,7 @@
       "actor": "claude",
       "description": "Small red car parked before a hedge",
       "object_type": "car",
+      "content_origin": "photograph",
       "keywords": [
         "car",
         "small-car",
@@ -9347,6 +9412,7 @@
       "actor": "claude",
       "description": "Red vintage bicycle against a blue clapboard wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "vintage-bicycle",
@@ -9432,6 +9498,7 @@
       "actor": "claude",
       "description": "Black city bicycle with a basket against a grey wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "city-bicycle",
@@ -9517,6 +9584,7 @@
       "actor": "claude",
       "description": "Green bicycle against an ivy-covered white wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "city-bicycle",
@@ -9602,6 +9670,7 @@
       "actor": "claude",
       "description": "Black fixed-gear bicycle against a grey concrete wall",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "fixed-gear-bicycle",
@@ -9687,6 +9756,7 @@
       "actor": "claude",
       "description": "Pink step-through bicycle before dark foliage",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "step-through-bicycle",
@@ -9772,6 +9842,7 @@
       "actor": "claude",
       "description": "Orange and teal mountain bike on grass by driftwood",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "mountain-bicycle",
@@ -9857,6 +9928,7 @@
       "actor": "claude",
       "description": "Copper city bicycle leaning against a street pole",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "city-bicycle",
@@ -9943,6 +10015,7 @@
       "actor": "claude",
       "description": "Turquoise bicycle with a crate against a dune fence",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "transport-bicycle",
@@ -10030,6 +10103,7 @@
       "actor": "claude",
       "description": "Teal city bicycle against a canal-bridge railing",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "city-bicycle",
@@ -10117,6 +10191,7 @@
       "actor": "claude",
       "description": "Pale green bicycle with a basket beside a wooden door",
       "object_type": "bicycle",
+      "content_origin": "photograph",
       "keywords": [
         "bicycle",
         "city-bicycle",

@@ -204,6 +204,7 @@ def register(catalogue: dict, results: list, theme: str, reviews: dict, actor: s
             "actor": actor,
             "description": parent["description"],
             "object_type": parent["object_type"],
+            "content_origin": parent["content_origin"],
             "keywords": list(parent["keywords"]),
             "assessments": assessments,
         })

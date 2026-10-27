@@ -42,6 +42,11 @@
     "generated",
     "legacy-generated"
   ],
+  "content_origins": [
+    "photograph",
+    "ai-edited-photograph",
+    "ai-generated"
+  ],
   "review_statuses": [
     "pending",
     "approved",

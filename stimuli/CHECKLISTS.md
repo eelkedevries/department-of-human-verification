@@ -12,6 +12,7 @@ Before searching:
 - [ ] Count what the request needs, by role (targets, distractors, borderline) and by object type.
 - [ ] Write a pool plan that meets the [set-level variety targets](../docs/stimuli.md#set-level-variety-targets), counting images already selected: views, facing directions, colours, supports and settings. Vary the search terms to match the plan (for example “side view”, “three-quarter”, “bike rack”, “fence”, “railing”), not only side profiles.
 - [ ] Check `catalogue.json` for duplicates and for previously rejected sources.
+- [ ] Read [SOURCES.md](SOURCES.md); search the recommended sources first, and use index sources only for discovery.
 
 For each image presented or selected:
 
@@ -20,6 +21,7 @@ For each image presented or selected:
 - [ ] Crop side is at least 512 px of the reviewed preview, needs no upscaling and cuts nothing.
 - [ ] No people; natural placement with visible support; complete defining parts.
 - [ ] Rights verified on the original publisher page: exact image ID, creator, licence, modification permission and conditions (attribution, AI training, brands and people) recorded with evidence URLs, reviewer and date.
+- [ ] `content_origin` recorded (`photograph` for an unedited photograph).
 - [ ] Description, object type, role, keywords and characteristics (colour, viewpoint, facing direction, environment, support, people) recorded from the image, not from the search query.
 
 For the whole set, after selection:
@@ -28,7 +30,8 @@ For the whole set, after selection:
 - [ ] Meets the [set-level variety targets](../docs/stimuli.md#set-level-variety-targets) for views, facing direction, colour and support/setting, within each role as well as overall.
 - [ ] No near-duplicates in composition, colour or backdrop.
 - [ ] Neither view, colour, setting nor image quality distinguishes targets from distractors.
-- [ ] The set-level assessment (counts per view, facing direction, colour and support) is written in the dated review document.
+- [ ] The set-level assessment (counts per view, facing direction, colour and support) is written in the dated review document, together with the sources and queries searched and roughly how many results were screened.
+- [ ] [SOURCES.md](SOURCES.md) is updated for every source used or tried: status, access, pitfalls, yield and the date last checked; any new source added under Evaluated sources.
 
 ## Rejection or demotion
 
@@ -42,7 +45,7 @@ For the whole set, after selection:
 - [ ] Each parent has approved visual and rights reviews and a reviewed crop.
 - [ ] `tools/stimuli/standardise.py` is used; a preview whose bytes changed is accepted only after visual comparison and recorded as such.
 - [ ] Every output is inspected at 256 px and about 128 px; the object is complete, uncut and as clear as in the reviewed crop.
-- [ ] The versions are registered only with approved visual reviews; transformations, hashes and licence conditions are recorded.
+- [ ] The versions are registered only with approved visual reviews; transformations, hashes and licence conditions are recorded, and `content_origin` is inherited from the parent.
 
 ## AI editing (→ manipulated)
 
@@ -50,6 +53,7 @@ For the whole set, after selection:
 - [ ] Instructions, tool, provider, model, revision, seed (or the reason it is unavailable), actor, timestamp, parents and output hash are recorded.
 - [ ] Only the intended change is present: support, shadows, functional parts and category features are otherwise intact.
 - [ ] The edited image still meets the target clarity standard; its role and semantic class are reassessed for the edited content.
+- [ ] `content_origin` is `ai-edited-photograph` for an edited photograph, or stays `ai-generated` for an edited generated image.
 - [ ] The edit is standardised before any final selection.
 
 ## Final set (→ final)
@@ -64,6 +68,7 @@ For the whole set, after selection:
 
 - [ ] `catalogue.json`, the affected stage manifests and `history.jsonl` are updated together.
 - [ ] `npm run gallery:collection` has regenerated [GALLERY.md](GALLERY.md).
+- [ ] [SOURCES.md](SOURCES.md) reflects any source used, tried or newly found useful or unusable.
 - [ ] Every document that states collection counts is updated: this folder's `README.md` and level READMEs, `docs/stimuli.md`, the root `README.md` and `docs-dev/planning/current_state.md`.
 - [ ] `npm run validate:collection` and `npm run check` pass.
 - [ ] The work is committed and pushed to `main`.

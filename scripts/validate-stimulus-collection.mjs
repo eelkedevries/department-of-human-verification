@@ -108,7 +108,7 @@ const vocab = readJson('stimuli/vocabulary.json');
 const levels = ['raw', 'suitable', 'standardized', 'manipulated', 'final'];
 if (cat.schema !== 'dhv-stimulus-collection-v1' || cat.schema_version !== 1 || vocab.schema_version !== 1) fail('collection', 'unsupported schema');
 if (!same(vocab.levels, levels)) fail('vocabulary', 'the five level names/order must be preserved');
-for (const field of ['themes', 'roles', 'semantic_classes', 'origins', 'review_statuses', 'licence_statuses', 'modification_permissions', 'actions', 'set_statuses', 'operations']) strings(vocab[field], `vocabulary.${field}`, { nonempty: true });
+for (const field of ['themes', 'roles', 'semantic_classes', 'origins', 'content_origins', 'review_statuses', 'licence_statuses', 'modification_permissions', 'actions', 'set_statuses', 'operations']) strings(vocab[field], `vocabulary.${field}`, { nonempty: true });
 const has = (field, value, at) => { if (!vocab[field]?.includes(value)) fail(at, `unknown ${field}: ${value}`); };
 const assets = indexBy(cat.assets, 'asset_id', 'assets');
 const versions = indexBy(cat.versions, 'version_id', 'versions');
@@ -117,6 +117,11 @@ const prof = cat.standardisation_profiles?.['webp-512-256-v1'];
 const profile = { large: [512, 512], small: [256, 256], format: 'webp', colour_mode: 'RGB', colour_space: 'sRGB', quality: 82, method: 6, resampling: 'Lanczos', publisher: 'tools/stimuli/build.py', content_changes: false, allow_upscale: false };
 if (!same(prof, profile)) fail('standardisation_profiles', 'webp-512-256-v1 must match the implemented publisher');
 
+// Every provider must be documented under "Evaluated sources" in SOURCES.md.
+const sourcesText = existsSync(resolve(ROOT, 'stimuli/SOURCES.md')) ? readFileSync(resolve(ROOT, 'stimuli/SOURCES.md'), 'utf8') : '';
+const evaluated = sourcesText.split(/^## /m).find((s) => s.startsWith('Evaluated sources')) ?? '';
+const documentedProviders = new Set([...evaluated.matchAll(/^### (.+)$/gm)].map((m) => m[1].trim()));
+if (!documentedProviders.size) fail('stimuli/SOURCES.md', 'missing "Evaluated sources" entries');
 const sourceKeys = new Set();
 for (const [id, a] of assets) {
   if (!idPattern.test(id) || !text(a.description)) fail(id, 'invalid source identity or description');
@@ -124,6 +129,7 @@ for (const [id, a] of assets) {
   recordStamp(a, id, 'created_at'); if (!utc(a.updated_at)) fail(id, 'missing updated_at');
   const s = a.source ?? {}, l = s.licence ?? {};
   for (const k of ['provider', 'creator']) if (!text(s[k])) fail(id, `source lacks ${k}`);
+  for (const p of [s.provider, s.catalogue_record?.provider]) if (text(p) && !documentedProviders.has(p)) fail(id, `source provider "${p}" has no entry under Evaluated sources in stimuli/SOURCES.md`);
   if (!text(s.provider_id) && !(text(s.catalogue_record?.provider) && text(s.catalogue_record?.photo_id))) fail(id, 'source needs a native provider ID or a known catalogue identity');
   const key = text(s.provider_id) ? `${s.provider}:${s.provider_id}` : `${s.catalogue_record?.provider}:${s.catalogue_record?.photo_id}`;
   if (sourceKeys.has(key)) fail(id, 'duplicate source identity'); sourceKeys.add(key);
@@ -207,6 +213,22 @@ function visit(id) {
   visiting.delete(id); visited.add(id);
 }
 for (const id of versions.keys()) visit(id);
+// The pixels' origin follows from lineage: generated roots make an image
+// ai-generated; otherwise any ai-edit makes a photograph ai-edited.
+function contentOrigin(id, seen = new Set()) {
+  if (seen.has(id)) return null; seen.add(id);
+  const v = versions.get(id), parents = v?.parent_version_ids ?? [];
+  if (!v) return null;
+  if (!parents.length) return ['generated', 'legacy-generated'].includes(assets.get(v.asset_id)?.origin) ? 'ai-generated' : 'photograph';
+  const inherited = parents.map((p) => contentOrigin(p, new Set(seen)));
+  if (inherited.includes('ai-generated')) return 'ai-generated';
+  return v.operation?.type === 'ai-edit' || inherited.includes('ai-edited-photograph') ? 'ai-edited-photograph' : 'photograph';
+}
+for (const [id, v] of versions) {
+  has('content_origins', v.content_origin, id);
+  const expected = contentOrigin(id);
+  if (expected && v.content_origin !== expected) fail(id, `content_origin must be ${expected} for this lineage`);
+}
 function rightsCleared(id, seen = new Set()) {
   if (seen.has(id)) return false; seen.add(id);
   const v = versions.get(id), a = assets.get(v?.asset_id), l = a?.source?.licence;

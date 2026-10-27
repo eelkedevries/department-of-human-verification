@@ -1,6 +1,6 @@
 # Stimulus collection
 
-This folder holds possible stimuli and records how they become game images. Browse the images in the [gallery](GALLERY.md). Start with [AGENTS.md](AGENTS.md) for mandatory agent instructions and [CHECKLISTS.md](CHECKLISTS.md) for the checklists that every procedure must complete. The [catalogue](catalogue.json) is the canonical record; stage manifests select its version IDs without duplicating source metadata. [history.jsonl](history.jsonl) records decisions and transformations in order.
+This folder holds possible stimuli and records how they become game images. Browse the images in the [gallery](GALLERY.md). Start with [AGENTS.md](AGENTS.md) for mandatory agent instructions and [CHECKLISTS.md](CHECKLISTS.md) for the checklists that every procedure must complete. [SOURCES.md](SOURCES.md) is the registry of image sources. The [catalogue](catalogue.json) is the canonical record; stage manifests select its version IDs without duplicating source metadata. [history.jsonl](history.jsonl) records decisions and transformations in order.
 
 ## Levels
 
@@ -30,12 +30,14 @@ The usual route is raw → suitable → standardized → final. For an edited st
 `catalogue.json` separates three kinds of records:
 
 - `assets`: source identity and original description, source URLs, creator, source dimensions and licence evidence.
-- `versions`: visible-content description, actual object type, keywords, theme-specific assessments, stage membership, parent version IDs, review state, local files and hashes, visual characteristics, operation details and unresolved issues.
+- `versions`: visible-content description, actual object type, content origin, keywords, theme-specific assessments, stage membership, parent version IDs, review state, local files and hashes, visual characteristics, operation details and unresolved issues.
 - `sets`: stable `set-id@version` keys pointing to the final selection manifests.
 
 IDs are immutable. Internet assets use `photo-<stable-source-id>` (the initial collection uses Pexafy photo IDs); imported legacy assets use `legacy-<grid>-<tile>`. Native stock-provider IDs and catalogue IDs are recorded separately; an unresolved native ID stays `null`. Versions append a meaningful suffix, such as `-source-v1`, `-square-wheels-v1` or `-standardized-v1`. Do not reuse an ID for different bytes. Stage `index.json` files contain only selected version IDs, or set keys for `final`.
 
 Descriptions, object types and roles are version-specific. An edit may turn a clear bicycle target into a debatable hybrid; record that on the edited version while preserving the original source's description and its raw version's role. Reusing the same source does not force all its derivatives to share a category judgement.
+
+`content_origin` records how the version's pixels came about: `photograph` (a camera photograph, changed at most by standardisation), `ai-edited-photograph` (a photograph whose content an AI edit has altered) or `ai-generated` (generated entirely by a model, including later edits). It is distinct from the asset's `origin`, which describes how the source entered the collection. The validator derives the expected value from the lineage. The names avoid "natural", which the guidelines use for settings and placement, and "manipulated", which is a level name.
 
 Controlled fields are listed in `vocabulary.json`: levels, themes, roles, origins, semantic classes, review states, rights-evidence states and log actions. Keywords are descriptive lowercase kebab-case tags; add as many as are useful without creating synonyms for the same concept. Store colour, viewpoint, facing direction, environment, support, people and additional category members in `characteristics`. Use `unknown` or an explicit unresolved issue when a detail has not been checked.
 

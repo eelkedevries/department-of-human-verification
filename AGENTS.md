@@ -36,6 +36,8 @@ Before finding, selecting, generating, standardising, manipulating or publishing
 
 Before finishing any stimulus procedure, complete its checklist in [`stimuli/CHECKLISTS.md`](stimuli/CHECKLISTS.md), including the set-level variety and closing checks, and include it in the final report.
 
+Search images through the source registry [`stimuli/SOURCES.md`](stimuli/SOURCES.md). Whenever a source proves useful or unusable, or its access or terms change, update its entry before finishing; a new source must be added before any image from it is registered (the collection validator enforces this). Record every image version's `content_origin`: `photograph`, `ai-edited-photograph` or `ai-generated`.
+
 Individual rights checks are an automatic part of every image search. Without waiting for a separate request, trace each shortlisted photograph to its original publisher page, match the exact image and creator, check its applicable licence permits the intended game use and later AI manipulation, and record the evidence URLs, conditions, reviewer and date. A stock catalogue's `free` label or a platform's general licence alone is insufficient. Complete these checks before presenting an image as suitable or adding it to `suitable`; retain unresolved candidates only in `raw`, clearly flagged, and continue searching for verified replacements when needed to fulfil the requested selection.
 
 | Level | Organisation and purpose |

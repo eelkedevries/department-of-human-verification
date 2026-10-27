@@ -42,6 +42,8 @@ For **systematic stimulus variation**, define matched grid variants that keep th
 
 The existing renderer generates images locally with [FLUX.2 [klein] 4B](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B), followed by visual review. The collection also accepts licensed photographs and AI-edited derivatives with verified permissions. Preserve source identity, creator, licences, parent versions, prompts/instructions, seeds where available, model revisions, hashes, output dimensions and edits. Do not invent FLUX provenance for a photograph. Photographic context should be plausible and consistent; spectacular errors unrelated to the instructed category are not the goal.
 
+Every collection image records its `content_origin`: `photograph`, `ai-edited-photograph` or `ai-generated` (see [`stimuli/README.md`](../stimuli/README.md#metadata-and-tags)). Where sources yield no suitable photograph, [`stimuli/SOURCES.md`](../stimuli/SOURCES.md#generated-and-edited-images) describes the generated and edited routes.
+
 Never use TV-programme stills or reconstruct recognisable proprietary props because an idea mentioned a programme. Cultural references can inspire original, rights-cleared satire.
 
 ## Creative direction: ridiculous realities, not novelty products
@@ -70,7 +72,7 @@ The standard is **an ordinary photograph of an impossible reality**. As a concep
 
 Source and rights verification belongs to the search procedure and must happen without a separate user request. For every photograph that will be presented as suitable:
 
-1. Find the original publisher page and match the exact photograph, creator and native image ID. Do not substitute a similar photograph or infer identity from a caption alone.
+1. Search through the source registry [`stimuli/SOURCES.md`](../stimuli/SOURCES.md), recommended sources first, and update it with what you learn. Find the original publisher page and match the exact photograph, creator and native image ID. Do not substitute a similar photograph or infer identity from a caption alone.
 2. Read the licence applying to that individual image and its current terms. Confirm that it permits the intended website/game use and later manipulation, including AI edits. Check any attribution, share-alike, non-commercial, branding, privacy and redistribution restrictions relevant to that use. An aggregator's `free` label or general platform terms without an image match is insufficient.
 3. Record the publisher URL, licence/evidence URLs, matching basis, permissions, conditions, reviewer and verification date in `stimuli/catalogue.json`; append the rights decision to `stimuli/history.jsonl`.
 4. Complete visual and quality review: the [target clarity standard](#target-clarity-standard) in the planned square crop; no people for an unused-object search; natural placement and visible support; complete defining parts; sufficient resolution for the crop and the 512/256 px outputs. Evaluate the proposed crop as well as the full source. Screen clarity first, at thumbnail size, so that rights checks are spent only on clear candidates.

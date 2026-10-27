@@ -37,7 +37,7 @@ function caption(v, theme, heading) {
   const licence = assets.get(v.asset_id)?.source?.licence;
   const lines = [
     `${heading ? `<b>${esc(heading)}</b> ` : ''}${esc(v.description)}`,
-    `${esc(v.object_type)} · ${esc(a?.role ?? 'no role')}${a?.semantic_class ? ` (${esc(a.semantic_class)})` : ''}${a?.grade ? ` · ${esc(a.grade)}` : ''}`,
+    `${esc(v.object_type)} · ${esc(v.content_origin ?? 'origin unknown')} · ${esc(a?.role ?? 'no role')}${a?.semantic_class ? ` (${esc(a.semantic_class)})` : ''}${a?.grade ? ` · ${esc(a.grade)}` : ''}`,
   ];
   const credit = assets.get(v.asset_id)?.source?.creator;
   if (credit || licence) lines.push([credit && esc(credit), licence && link(licence.url, licence.name)].filter(Boolean).join(' · '));
