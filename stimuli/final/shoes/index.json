@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "shoes",
-  "set_keys": []
+  "set_keys": [
+    "C07@1"
+  ]
 }

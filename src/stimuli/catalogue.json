@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-7d3da929ac",
+  "catalogue_version": "2026-10-27-4f19ec3824",
   "families": [
     "recognition",
     "semantic",
@@ -1290,6 +1290,219 @@
       "borderline_tile_ids": [
         "C06-T5",
         "C06-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C07",
+      "version": 1,
+      "hash": "3d46a4be9363cb87754109d4d2a084f523abf21ff70611cdeadf895784a2fb38",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a shoe.",
+      "instruction_variants": {
+        "direct": "Select all images containing a shoe.",
+        "semantic": "Select all things made to be worn on the feet."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary shoes count, and so do the empty boots walking on wooden legs and the high heel standing on a human hand: impossible, but still shoes. The banana with laces and a sole and the horseshoe on a horse's hoof are borderline cases, recorded without a verdict. The handbag, the cycling helmet and the glove are not shoes.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Shoes identified. Please wipe them on the way out.",
+          "Correct. Every pair has been matched."
+        ],
+        "partial": [
+          "Partially correct. A shoe has gone missing, as they do.",
+          "Partially correct. One shoe was left behind."
+        ],
+        "incorrect": [
+          "Incorrect. The Department will not be walked over.",
+          "Incorrect. Please step back and try again."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C07-T1",
+          "src": "f09afd770dd3fbba.webp",
+          "src_small": "f09afd770dd3fbba-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "f09afd770dd3fbbaa35495ac426cbce7474009ce3d0221c053d5a5f1848a1b98",
+          "alt": "Single tan whole-cut lace-up dress shoe with hand-tooled floral leather on a glossy black surface",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Prateek Chawla",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/87luO7iL1mM",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Prateek Chawla on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C07-T2",
+          "src": "ff4872d1d85f896d.webp",
+          "src_small": "ff4872d1d85f896d-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "ff4872d1d85f896db07ce57ee918132c13a4850e58e5ebbeb041e984e563008f",
+          "alt": "Single red children's wellington boot with a bunny print and buckle strap standing on moss under hawthorn leaves",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Lee Hanson",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/red-children-s-welly-amidst-mossy-woodland-37722620/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Lee Hanson on Pexels"
+          }
+        },
+        {
+          "tile_id": "C07-T3",
+          "src": "f0b2aeb8c941dd71.webp",
+          "src_small": "f0b2aeb8c941dd71-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "f0b2aeb8c941dd71efe5324cb909b360625a580925540cd83688cd4f15782943",
+          "alt": "Pair of empty brown leather boots walking along a pavement on jointed wooden mannequin legs",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C07-T4",
+          "src": "491afa359916006e.webp",
+          "src_small": "491afa359916006e-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "491afa359916006ef796558c8f919d6c973bacbcd5b98e544b0ec3970abb99ab",
+          "alt": "Red high-heeled shoe held up by a human hand in place of its heel on a marble floor",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C07-T5",
+          "src": "844b8556eb6b2d43.webp",
+          "src_small": "844b8556eb6b2d43-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "844b8556eb6b2d436422a9349bcf02fda447f6c6d8e453829c09d43279920849",
+          "alt": "Ripe banana laced with white shoelaces and fixed on a black rubber sole on a wooden floor",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C07-T6",
+          "src": "e77a90fde75826ca.webp",
+          "src_small": "e77a90fde75826ca-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "e77a90fde75826cae71c10e5f696edff725dd1632ef7df4b96a77e204fb821bf",
+          "alt": "Close-up of a pale horse's lower leg and hoof standing on a gravel road, with the metal horseshoe visible along the hoof's edge",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Ollie Craig",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/horse-with-metal-shoe-standing-on-road-5405827/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Ollie Craig on Pexels"
+          }
+        },
+        {
+          "tile_id": "C07-T7",
+          "src": "3a5fa5e7b45cf6b1.webp",
+          "src_small": "3a5fa5e7b45cf6b1-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "3a5fa5e7b45cf6b16bd1639acbc3018e3aea99918b4b8085a0070a76a6242d07",
+          "alt": "Red and navy leather top-handle handbag with a gold clasp standing on a plain grey surface",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Fashion Needles",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/8mm_11iGqI8",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Fashion Needles on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C07-T8",
+          "src": "68cd061723b6deb7.webp",
+          "src_small": "68cd061723b6deb7-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "68cd061723b6deb7bbc50701eb501f9405e5443cd81dd56cf21eb1a57ab827eb",
+          "alt": "Green, yellow and orange vented cycling helmet resting on a weathered concrete wall top",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Danilo Lessa Bernardineli",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/AV9c8hWk_8Y",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Danilo Lessa Bernardineli on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C07-T9",
+          "src": "130cd023fd32cac4.webp",
+          "src_small": "130cd023fd32cac4-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "130cd023fd32cac4a857099903e606b62c3dad5e595d87158c5bc993041aec2f",
+          "alt": "Single worn yellow leather work glove lying flat on a light-grey surface",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Nicolas Solerieu",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/RLShnUiFFNA",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Nicolas Solerieu on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C07-T1",
+        "C07-T2",
+        "C07-T3",
+        "C07-T4"
+      ],
+      "borderline_tile_ids": [
+        "C07-T5",
+        "C07-T6"
       ]
     },
     {

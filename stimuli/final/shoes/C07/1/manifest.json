@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C07@1",
+  "set_id": "C07",
+  "version": 1,
+  "theme": "shoes",
+  "status": "approved",
+  "instruction": "Select all images containing a shoe.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C07",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made to be worn on the feet.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary shoes count, and so do the empty boots walking on wooden legs and the high heel standing on a human hand: impossible, but still shoes. The banana with laces and a sole and the horseshoe on a horse's hoof are borderline cases, recorded without a verdict. The handbag, the cycling helmet and the glove are not shoes.",
+    "feedback": {
+      "correct": [
+        "Shoes identified. Please wipe them on the way out.",
+        "Correct. Every pair has been matched."
+      ],
+      "partial": [
+        "Partially correct. A shoe has gone missing, as they do.",
+        "Partially correct. One shoe was left behind."
+      ],
+      "incorrect": [
+        "Incorrect. The Department will not be walked over.",
+        "Incorrect. Please step back and try again."
+      ]
+    },
+    "stimulus_id": "C07",
+    "version": 1,
+    "grid_hash": "3d46a4be9363cb87754109d4d2a084f523abf21ff70611cdeadf895784a2fb38"
+  },
+  "tiles": [
+    {
+      "tile_id": "C07-T1",
+      "version_id": "photo-unsplash-1634304138376-43a922e96c80-c07-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C07-T2",
+      "version_id": "photo-pexels-37722620-c07-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C07-T3",
+      "version_id": "generated-shoes-walking-boots-c07-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C07-T4",
+      "version_id": "generated-shoes-hand-heel-c07-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C07-T5",
+      "version_id": "generated-shoes-banana-shoe-c07-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C07-T6",
+      "version_id": "photo-pexels-5405827-c07-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C07-T7",
+      "version_id": "photo-unsplash-1751522925876-79bfeae6fbfb-c07-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C07-T8",
+      "version_id": "photo-unsplash-1702693008936-112724759019-c07-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C07-T9",
+      "version_id": "photo-unsplash-1673294861057-4584f92b91d2-c07-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C07-T1",
+    "C07-T2",
+    "C07-T3",
+    "C07-T4"
+  ],
+  "borderline_tile_ids": [
+    "C07-T5",
+    "C07-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:23:10Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary shoes (tan hand-tooled lace-up dress shoe, shallow three-quarter view; red child's wellington boot with a bunny print, side view), two impossible shoes (generated brown leather boots walking on jointed wooden mannequin legs; generated red court shoe whose heel is a human hand), two borderline items of footwear (generated banana with laces on a rubber sole; photographed horseshoe on a living horse's hoof) and three non-members that are also worn or carried (red and navy handbag, vented cycling helmet, worn yellow work glove). Leather and red appear among targets and non-members alike, so neither decides. Views, colours and settings vary within each role. The white trainer, the trainer on tiny trainers and the sock with a rubber sole remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:23:10Z",
+  "actor": "claude"
+}
