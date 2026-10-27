@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C06@1",
+  "set_id": "C06",
+  "version": 1,
+  "theme": "lamps",
+  "status": "approved",
+  "instruction": "Select all images containing a lamp.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C06",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made to give light.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary lamps count, and so do the desk lamp with a thunderstorm under its shade and the floor lamp walking on human legs: impossible, but still lamps. The jar of fireflies and the traffic light on a bedside table are borderline cases, recorded without a verdict. The vase, the coffee grinder and the watering can are not lamps.",
+    "feedback": {
+      "correct": [
+        "Lamps identified. Lights out in ten minutes.",
+        "Correct. A bright idea has been noted."
+      ],
+      "partial": [
+        "Partially correct. A lamp is still in the dark.",
+        "Partially correct. Some lamps went unnoticed."
+      ],
+      "incorrect": [
+        "Incorrect. The Department remains unenlightened.",
+        "Incorrect. Please do not take this lightly."
+      ]
+    },
+    "stimulus_id": "C06",
+    "version": 1,
+    "grid_hash": "59aea3260796f5b6dcd72b47c4bbd9214d898e7ad44a5e0be7ea8b166a9c927c"
+  },
+  "tiles": [
+    {
+      "tile_id": "C06-T1",
+      "version_id": "photo-unsplash-1647345287361-b2de799c49a1-c06-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C06-T2",
+      "version_id": "photo-pexels-19227253-c06-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C06-T3",
+      "version_id": "generated-lamps-storm-lamp-c06-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C06-T4",
+      "version_id": "photo-unsplash-1632090944927-8dd1068e5f40-c06-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C06-T5",
+      "version_id": "generated-lamps-firefly-jar-c06-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C06-T6",
+      "version_id": "generated-lamps-traffic-light-lamp-c06-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C06-T7",
+      "version_id": "photo-unsplash-1610635966675-f6fcaaf9b833-c06-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C06-T8",
+      "version_id": "photo-unsplash-1573066380308-24ff4c273dbc-c06-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C06-T9",
+      "version_id": "photo-unsplash-1692651771569-95dd3ed878a8-c06-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C06-T1",
+    "C06-T2",
+    "C06-T3",
+    "C06-T4"
+  ],
+  "borderline_tile_ids": [
+    "C06-T5",
+    "C06-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:17:21Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary lamps (black jointed desk lamp on a small white table, side view; table lamp with a white shade and patterned base on a bedside table), two impossible lamps (generated desk lamp with a storm cloud, lightning and rain under its shade; floor-lamp photograph edited so that its shade walks on human legs in suit trousers and formal shoes), two borderline lights (generated jar of glowing fireflies on a bedside table; generated traffic light used as a bedside lamp) and three non-members of similar size and shape (white and grey vase with a eucalyptus sprig, wooden box coffee grinder, yellow plastic watering can). Light and bedside settings appear among targets and borderline cases alike, so light alone does not decide. Views, colours and settings vary within each role. The unedited floor lamp, the staircase-of-light lamp and the painted blue vase remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:17:21Z",
+  "actor": "claude"
+}

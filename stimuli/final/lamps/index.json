@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "lamps",
-  "set_keys": []
+  "set_keys": [
+    "C06@1"
+  ]
 }

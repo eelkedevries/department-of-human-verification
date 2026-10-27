@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-76af206e56",
+  "catalogue_version": "2026-10-27-7d3da929ac",
   "families": [
     "recognition",
     "semantic",
@@ -1075,6 +1075,221 @@
       "borderline_tile_ids": [
         "C05-T5",
         "C05-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C06",
+      "version": 1,
+      "hash": "59aea3260796f5b6dcd72b47c4bbd9214d898e7ad44a5e0be7ea8b166a9c927c",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a lamp.",
+      "instruction_variants": {
+        "direct": "Select all images containing a lamp.",
+        "semantic": "Select all things made to give light."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary lamps count, and so do the desk lamp with a thunderstorm under its shade and the floor lamp walking on human legs: impossible, but still lamps. The jar of fireflies and the traffic light on a bedside table are borderline cases, recorded without a verdict. The vase, the coffee grinder and the watering can are not lamps.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Lamps identified. Lights out in ten minutes.",
+          "Correct. A bright idea has been noted."
+        ],
+        "partial": [
+          "Partially correct. A lamp is still in the dark.",
+          "Partially correct. Some lamps went unnoticed."
+        ],
+        "incorrect": [
+          "Incorrect. The Department remains unenlightened.",
+          "Incorrect. Please do not take this lightly."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C06-T1",
+          "src": "90050dda69937f02.webp",
+          "src_small": "90050dda69937f02-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "90050dda69937f026bbe5844af46ad5064d4739921089ad9b02c81fff24a586b",
+          "alt": "Black enamelled jointed-arm desk lamp on a small white table against an olive-green wall",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Steffen Petermann",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/9SPJIiiM_GA",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Steffen Petermann on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C06-T2",
+          "src": "527e3674712b32ff.webp",
+          "src_small": "527e3674712b32ff-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "527e3674712b32ffd2900711e42cff71c744ebce95d0e8a9918c8786f11d65bc",
+          "alt": "Table lamp with a white shade and patterned ceramic base on a dark bedside table beside a bed and a small glass of yellow roses",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Curtis Adams",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/lamp-on-a-bedside-table-19227253/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Curtis Adams on Pexels"
+          }
+        },
+        {
+          "tile_id": "C06-T3",
+          "src": "08c03c0d394d179a.webp",
+          "src_small": "08c03c0d394d179a-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "08c03c0d394d179aba3484d9c45ea1427cc255d1811c2bbbea3e2dedefef2d8b",
+          "alt": "Desk lamp with a miniature thunderstorm under its shade, lightning and rain falling onto a wooden desk",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C06-T4",
+          "src": "e66b90ccfbd6f7b9.webp",
+          "src_small": "e66b90ccfbd6f7b9-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "e66b90ccfbd6f7b94b98a9d8993a6a1e0c34fc9a5bfd7ed841775a0a97437251",
+          "alt": "Lit floor lamp shade walking across a dark room on human legs in black trousers and formal shoes",
+          "provenance": {
+            "kind": "ai-edited-photograph",
+            "edits": "Edited with FLUX.2 [klein] 4B: Replace the floor lamp's three wooden legs with a pair of human legs in black suit trousers and formal shoes, mid-stride. Then cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Javier Miranda",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/_qRw7eL5lNI",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Javier Miranda on Unsplash",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C06-T5",
+          "src": "bb55c5f5406b31a1.webp",
+          "src_small": "bb55c5f5406b31a1-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "bb55c5f5406b31a1b6564da6309aad53b6d835a3e7e1357aec3ee6144fdbc61b",
+          "alt": "Glass jar full of glowing fireflies on a bedside table in a dark bedroom",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C06-T6",
+          "src": "b65200dbc7908b1b.webp",
+          "src_small": "b65200dbc7908b1b-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "b65200dbc7908b1ba20d39ab30783200c0a0db30f289a562a090da0691bab548",
+          "alt": "Traffic light glowing red, amber and green on a bedside table next to a bed",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C06-T7",
+          "src": "20c8ab05e2f3a7fb.webp",
+          "src_small": "20c8ab05e2f3a7fb-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "20c8ab05e2f3a7fba3e6bb14a540a5c9e647976dafbb2079a174d6af6b42a197",
+          "alt": "White and grey ceramic vase with a green eucalyptus sprig on a white tablecloth against a grey wall",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Shashi Chaturvedula",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/oBkdr5tEjEI",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Shashi Chaturvedula on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C06-T8",
+          "src": "49133aff57d35e9e.webp",
+          "src_small": "49133aff57d35e9e-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "49133aff57d35e9ef8d0df527197949bb412f2cb302daa2247ff8130b625010b",
+          "alt": "Wooden box hand coffee grinder with a black hopper and crank handle on a wooden table against a dark teal wall",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Ashkan Forouzani",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/2AWQLHn7VLI",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Ashkan Forouzani on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C06-T9",
+          "src": "09b9f266cde9d7a1.webp",
+          "src_small": "09b9f266cde9d7a1-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "09b9f266cde9d7a116b2ab0b1abc778cd7f78e052e82f90745e43cf60f6fb469",
+          "alt": "Yellow plastic watering can standing on mossy ground in front of a dark ivy hedge",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Willy the Wizard",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/vtuqNYc5xgo",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Willy the Wizard on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C06-T1",
+        "C06-T2",
+        "C06-T3",
+        "C06-T4"
+      ],
+      "borderline_tile_ids": [
+        "C06-T5",
+        "C06-T6"
       ]
     },
     {
