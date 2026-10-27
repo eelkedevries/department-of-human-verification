@@ -6,6 +6,8 @@
   "version_ids": [
     "generated-computers-ocean-monitor-v1",
     "generated-computers-tiny-office-monitor-v1",
-    "generated-computers-calculator-computer-v1"
+    "generated-computers-calculator-computer-v1",
+    "generated-computers-potato-computer-v1",
+    "generated-computers-touchscreen-typewriter-v1"
   ]
 }

@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "computers",
-  "set_keys": []
+  "set_keys": [
+    "C10@1"
+  ]
 }

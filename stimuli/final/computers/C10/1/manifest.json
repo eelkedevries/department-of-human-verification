@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C10@1",
+  "set_id": "C10",
+  "version": 1,
+  "theme": "computers",
+  "status": "approved",
+  "instruction": "Select all images containing a computer.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C10",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all machines that run programs.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary computers count, and so do the monitor holding a real ocean and the screen with a tiny office inside: impossible, but still computers. The potato wired to a keyboard and monitor and the typewriter with a touchscreen are borderline cases, recorded without a verdict. The radio, the toaster and the microwave oven are not computers.",
+    "feedback": {
+      "correct": [
+        "Computers identified. Have you tried turning them off and on again?",
+        "Correct. Your answer has been saved."
+      ],
+      "partial": [
+        "Partially correct. A computer has gone to sleep.",
+        "Partially correct. Some computers were not responding."
+      ],
+      "incorrect": [
+        "Incorrect. The Department's computer says no.",
+        "Incorrect. Please restart and try again."
+      ]
+    },
+    "stimulus_id": "C10",
+    "version": 1,
+    "grid_hash": "9ec87e4f910de8772869019479e897948955c53b9663b3aff48911619bf14bdd"
+  },
+  "tiles": [
+    {
+      "tile_id": "C10-T1",
+      "version_id": "photo-unsplash-1639087595550-e9770a85f8c0-c10-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T2",
+      "version_id": "photo-unsplash-1634891392987-e91db6bf9557-c10-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T3",
+      "version_id": "generated-computers-ocean-monitor-c10-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T4",
+      "version_id": "generated-computers-tiny-office-monitor-c10-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C10-T5",
+      "version_id": "generated-computers-potato-computer-c10-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C10-T6",
+      "version_id": "generated-computers-touchscreen-typewriter-c10-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C10-T7",
+      "version_id": "photo-unsplash-1651742713300-28e36b3c4fd3-c10-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C10-T8",
+      "version_id": "photo-pexels-7936648-c10-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C10-T9",
+      "version_id": "photo-pexels-4686822-c10-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C10-T1",
+    "C10-T2",
+    "C10-T3",
+    "C10-T4"
+  ],
+  "borderline_tile_ids": [
+    "C10-T5",
+    "C10-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:33:09Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary computers (space-grey laptop open on a white table; desktop computer with monitor, glass-sided tower and keyboard on a white desk), two impossible computers (generated monitor containing a real ocean spilling onto the desk; generated all-in-one computer whose screen holds a miniature office with a tiny worker climbing out), two borderline machines (generated potato wired to a keyboard and a lit monitor; generated typewriter with a touchscreen tablet in place of its paper) and three non-member household appliances with dials or buttons (light-blue vintage radio, cream toaster with bread, cream retro microwave oven). Screens and keyboards appear among targets and borderline cases alike, so neither alone decides. Views, colours and settings vary within each role. The two tablets, the all-in-one desktop photograph and the mechanical calculator with a monitor remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:33:09Z",
+  "actor": "claude"
+}
