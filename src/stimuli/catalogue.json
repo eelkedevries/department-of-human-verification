@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-88fb979367",
+  "catalogue_version": "2026-10-27-836e2fc371",
   "families": [
     "recognition",
     "semantic",
@@ -1075,6 +1075,219 @@
       "borderline_tile_ids": [
         "C09-T5",
         "C09-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C14",
+      "version": 1,
+      "hash": "27aad1ae52a50af8b91efbfc3279720517549c82afe8360ac350531179082ee3",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a bridge.",
+      "instruction_variants": {
+        "direct": "Select all images containing a bridge.",
+        "semantic": "Select all structures built for crossing over something."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary bridges count, and so do the bridge held up by two giant hands and the footbridge standing on insect legs: impossible, but still bridges. The fallen log across the river and the stepping stones are borderline crossings, recorded without a verdict. The tunnel entrance, the outdoor staircase and the railway platform are not bridges.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Bridges identified. Please cross them when you come to them.",
+          "Correct. Every bridge has been inspected."
+        ],
+        "partial": [
+          "Partially correct. A bridge has been left uncrossed.",
+          "Partially correct. Some bridges escaped inspection."
+        ],
+        "incorrect": [
+          "Incorrect. That bridge has been burnt.",
+          "Incorrect. The Department remains on the other side."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C14-T1",
+          "src": "f27e7b3dd3e94a32.webp",
+          "src_small": "f27e7b3dd3e94a32-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "f27e7b3dd3e94a326b48eff86477fc74dd61b54ad60525da5e1717984942b3e8",
+          "alt": "Grey stone packhorse arch bridge over a dark river among trees under a blue sky",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Welmoed Wigarda",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/gray-concrete-bridge-over-river-during-daytime-DYLfpeN1BaY",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Welmoed Wigarda on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C14-T2",
+          "src": "6931d2432fac30b9.webp",
+          "src_small": "6931d2432fac30b9-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "6931d2432fac30b9886f3509474d1de12f9d401ba194a47c0fdb7e082101601c",
+          "alt": "Suspension bridge with two stone towers and hanging cables above a wooded gorge",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Korng Sok",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-stone-bridge-over-a-forest-with-clifton-suspension-bridge-in-the-background-UR8LnDmipiE",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Korng Sok on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C14-T3",
+          "src": "e7aac64d49c20a1c.webp",
+          "src_small": "e7aac64d49c20a1c-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "e7aac64d49c20a1c7da2d5fafa2ef9c26c2238fa6c3ab0400f921a8eb1a058e1",
+          "alt": "Road bridge over a river held up by two enormous human hands rising from the water",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C14-T4",
+          "src": "77dd4a969122e851.webp",
+          "src_small": "77dd4a969122e851-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "77dd4a969122e851a27adb890624985509311dd00de802fe348f99ff55008d67",
+          "alt": "Wooden footbridge over a forest stream standing on many jointed insect-like legs",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C14-T5",
+          "src": "9a554a1facee8dd8.webp",
+          "src_small": "9a554a1facee8dd8-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "9a554a1facee8dd8a7479ab82e87b43c7e6c2dd2ef238de62aaa3f3a5bb2ed39",
+          "alt": "Single fallen log lying across a rushing river between forested banks",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Veronica Dudarev",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-log-bridge-spans-a-rushing-river-G4ntwNFLnNc",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Veronica Dudarev on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C14-T6",
+          "src": "60610efd2e23b3ed.webp",
+          "src_small": "60610efd2e23b3ed-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "60610efd2e23b3eda71ed2871d914f6cb3c4b3d30449726252d9776e23a53da9",
+          "alt": "Row of large round concrete stepping stones crossing a calm stream to a grassy bank",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Vincere L",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/serene-stone-pathway-across-a-peaceful-stream-37358201/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Vincere L on Pexels"
+          }
+        },
+        {
+          "tile_id": "C14-T7",
+          "src": "585948a1de9e3b54.webp",
+          "src_small": "585948a1de9e3b54-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "585948a1de9e3b54065544da7339035d476e818fc0e246042ea366226994b5c7",
+          "alt": "Stone-faced railway tunnel portal with a white arch and dark interior",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Attila Pál",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/stone-tunnel-with-railway-tracks-S1_xMg8FQ-o",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Attila Pál on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C14-T8",
+          "src": "811bb7d66c6f0730.webp",
+          "src_small": "811bb7d66c6f0730-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "811bb7d66c6f0730f4539c8d1ef2a5748753cefc69f8d4f67661852520b3cc1c",
+          "alt": "Wooden staircase with metal handrails climbing a sand dune to a viewing platform",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Viktorya Sergeeva",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/metal-stairs-on-brown-sand-8802009/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Viktorya Sergeeva on Pexels"
+          }
+        },
+        {
+          "tile_id": "C14-T9",
+          "src": "16ec780acb361b1c.webp",
+          "src_small": "16ec780acb361b1c-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "16ec780acb361b1c59e329827cab7930d6af8263858cd796e7c885162211883f",
+          "alt": "Empty railway station platform with a yellow canopy, benches and adjacent tracks",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Maria Vasiliki Kassou",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/empty-train-station-platform-with-tracks-and-benches-ahXYCrhKa9Q",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Maria Vasiliki Kassou on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C14-T1",
+        "C14-T2",
+        "C14-T3",
+        "C14-T4"
+      ],
+      "borderline_tile_ids": [
+        "C14-T5",
+        "C14-T6"
       ]
     }
   ]

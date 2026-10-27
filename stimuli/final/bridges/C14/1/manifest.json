@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C14@1",
+  "set_id": "C14",
+  "version": 1,
+  "theme": "bridges",
+  "status": "approved",
+  "instruction": "Select all images containing a bridge.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C14",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all structures built for crossing over something.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary bridges count, and so do the bridge held up by two giant hands and the footbridge standing on insect legs: impossible, but still bridges. The fallen log across the river and the stepping stones are borderline crossings, recorded without a verdict. The tunnel entrance, the outdoor staircase and the railway platform are not bridges.",
+    "feedback": {
+      "correct": [
+        "Bridges identified. Please cross them when you come to them.",
+        "Correct. Every bridge has been inspected."
+      ],
+      "partial": [
+        "Partially correct. A bridge has been left uncrossed.",
+        "Partially correct. Some bridges escaped inspection."
+      ],
+      "incorrect": [
+        "Incorrect. That bridge has been burnt.",
+        "Incorrect. The Department remains on the other side."
+      ]
+    },
+    "stimulus_id": "C14",
+    "version": 1,
+    "grid_hash": "27aad1ae52a50af8b91efbfc3279720517549c82afe8360ac350531179082ee3"
+  },
+  "tiles": [
+    {
+      "tile_id": "C14-T1",
+      "version_id": "photo-unsplash-1618079266919-9613251ec24d-c14-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T2",
+      "version_id": "photo-unsplash-1667017898252-10a7894b428e-c14-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T3",
+      "version_id": "generated-bridges-hand-bridge-c14-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T4",
+      "version_id": "generated-bridges-insect-bridge-c14-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C14-T5",
+      "version_id": "photo-unsplash-1745558773418-6eda097cd9bc-c14-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C14-T6",
+      "version_id": "photo-pexels-37358201-c14-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C14-T7",
+      "version_id": "photo-unsplash-1787372818035-787d68d5d1a7-c14-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C14-T8",
+      "version_id": "photo-pexels-8802009-c14-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C14-T9",
+      "version_id": "photo-unsplash-1776899228602-3200d9c0d0a4-c14-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C14-T1",
+    "C14-T2",
+    "C14-T3",
+    "C14-T4"
+  ],
+  "borderline_tile_ids": [
+    "C14-T5",
+    "C14-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T09:43:05Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T09:43:05Z",
+  "actor": "claude"
+}

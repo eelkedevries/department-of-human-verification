@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T09:42:42Z",
+  "updated_at": "2026-10-27T09:43:05Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -58932,6 +58932,870 @@
           "scope": "standardised-crop"
         }
       ]
+    },
+    {
+      "version_id": "photo-unsplash-1618079266919-9613251ec24d-c14-1-final",
+      "asset_id": "photo-unsplash-1618079266919-9613251ec24d",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1618079266919-9613251ec24d-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1618079266919-9613251ec24d-standardized-v1.webp",
+          "sha256": "f27e7b3dd3e94a326b48eff86477fc74dd61b54ad60525da5e1717984942b3e8",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 63270
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1618079266919-9613251ec24d-standardized-v1-s.webp",
+          "sha256": "d375f5a7103620978c9866253e19d4ae84d5841ce69b31834eef4ebac4519aca",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18032
+        }
+      ],
+      "characteristics": {
+        "colour": "grey",
+        "viewpoint": "Side",
+        "facing_direction": "not-applicable",
+        "environment": "river in woodland (Carrbridge, Scotland)",
+        "support": "rocky river banks",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1618079266919-9613251ec24d-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Bridge spans about 95% of the crop width, so the side margins are tight",
+        "Abutments merge into rocky banks"
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Grey stone packhorse arch bridge over a dark river among trees under a blue sky",
+      "object_type": "stone-arch-footbridge",
+      "content_origin": "photograph",
+      "keywords": [
+        "stone-bridge",
+        "arch-bridge",
+        "packhorse-bridge",
+        "footbridge",
+        "river"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 1,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the stone arch footbridge spans about 95% of the crop, side, grey, against river in woodland (Carrbridge, Scotland); one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1667017898252-10a7894b428e-c14-1-final",
+      "asset_id": "photo-unsplash-1667017898252-10a7894b428e",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1667017898252-10a7894b428e-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1667017898252-10a7894b428e-standardized-v1.webp",
+          "sha256": "6931d2432fac30b9886f3509474d1de12f9d401ba194a47c0fdb7e082101601c",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 53836
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1667017898252-10a7894b428e-standardized-v1-s.webp",
+          "sha256": "0103464476bb4ab7c487987689072d1ffb66385fe79a41d2a2306c986a9bfe3e",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 13868
+        }
+      ],
+      "characteristics": {
+        "colour": "sandstone and grey",
+        "viewpoint": "Three-quarter",
+        "facing_direction": "right",
+        "environment": "wooded gorge (Clifton, Bristol)",
+        "support": "stone towers on the gorge sides",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1667017898252-10a7894b428e-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Road suspension bridge rather than a footbridge; well-known landmark (Clifton Suspension Bridge)",
+        "Tower bases partly screened by trees",
+        "Left back-stay cables run close to the left edge"
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Suspension bridge with two stone towers and hanging cables above a wooded gorge",
+      "object_type": "suspension-bridge",
+      "content_origin": "photograph",
+      "keywords": [
+        "suspension-bridge",
+        "bridge-tower",
+        "cables",
+        "gorge",
+        "landmark"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "target",
+          "semantic_class": "member-normal",
+          "role_status": "reviewed",
+          "rank": 3,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the suspension bridge spans about 85% of the crop, three-quarter, sandstone and grey, against wooded gorge (Clifton, Bristol); one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-bridges-hand-bridge-c14-1-final",
+      "asset_id": "generated-bridges-hand-bridge",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-bridges-hand-bridge-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/generated-bridges-hand-bridge-standardized-v1.webp",
+          "sha256": "e7aac64d49c20a1c7da2d5fafa2ef9c26c2238fa6c3ab0400f921a8eb1a058e1",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 48784
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/generated-bridges-hand-bridge-standardized-v1-s.webp",
+          "sha256": "d1acb3eda3c946e376cf8ea1d6a1b10171f793507c89b51cdbdc594dcd184c21",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15486
+        }
+      ],
+      "characteristics": {
+        "colour": "grey concrete and skin tone",
+        "viewpoint": "Side three-quarter",
+        "facing_direction": "left",
+        "environment": "wide river with wooded banks under a blue sky",
+        "support": "two giant hands rising from the water in place of pillars",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-bridges-hand-bridge-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Generated image."
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Road bridge over a river held up by two enormous human hands rising from the water",
+      "object_type": "road-bridge",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "bridge",
+        "road-bridge",
+        "human-hands",
+        "river",
+        "impossible-object"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 10,
+          "grade": "Meets target clarity",
+          "reason": "A road bridge carried on two giant hands that rise out of the river: plainly a bridge, impossibly held up. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "generated-bridges-insect-bridge-c14-1-final",
+      "asset_id": "generated-bridges-insect-bridge",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "generated-bridges-insect-bridge-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/generated-bridges-insect-bridge-standardized-v1.webp",
+          "sha256": "77dd4a969122e851a27adb890624985509311dd00de802fe348f99ff55008d67",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 118060
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/generated-bridges-insect-bridge-standardized-v1-s.webp",
+          "sha256": "a27c15705339ab7a0e80fda6ade1a5c70385e1d0e4e100a0b064dcf6a00b609d",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 30472
+        }
+      ],
+      "characteristics": {
+        "colour": "weathered brown wood",
+        "viewpoint": "Side three-quarter",
+        "facing_direction": "left",
+        "environment": "forest stream with mossy rocks",
+        "support": "dozens of thin jointed legs standing in the stream",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of generated-bridges-insect-bridge-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Generated image.",
+        "At tile size the legs can be read as angled stilts."
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Wooden footbridge over a forest stream standing on many jointed insect-like legs",
+      "object_type": "wooden-footbridge",
+      "content_origin": "ai-generated",
+      "keywords": [
+        "footbridge",
+        "wooden-bridge",
+        "insect-legs",
+        "forest-stream",
+        "impossible-object"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "target",
+          "semantic_class": "member-bizarre",
+          "role_status": "reviewed",
+          "rank": 11,
+          "grade": "Meets target clarity",
+          "reason": "A wooden footbridge across a stream propped on many jointed, insect-like legs: plainly a bridge, impossibly legged. The whole subject is in view, with no border, text or stray artefacts at tile size; recognisable at 128 px.",
+          "preparation_notes": "Standardise the whole square master.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1745558773418-6eda097cd9bc-c14-1-final",
+      "asset_id": "photo-unsplash-1745558773418-6eda097cd9bc",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1745558773418-6eda097cd9bc-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1745558773418-6eda097cd9bc-standardized-v1.webp",
+          "sha256": "9a554a1facee8dd8a7479ab82e87b43c7e6c2dd2ef238de62aaa3f3a5bb2ed39",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 69516
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1745558773418-6eda097cd9bc-standardized-v1-s.webp",
+          "sha256": "200a11333fd6a4dc5f19ace2abed2fc631bdd9469290dd6af9af409dbb55dfbb",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 20356
+        }
+      ],
+      "characteristics": {
+        "colour": "brown",
+        "viewpoint": "Side",
+        "facing_direction": "not-applicable",
+        "environment": "conifer forest river (North Vancouver)",
+        "support": "both river banks",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1745558773418-6eda097cd9bc-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Marginal: the log is thin and reads as a horizontal line at 128 px",
+        "Dark forest background",
+        "A rope or cable is attached at the right end; no better alternative found"
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Single fallen log lying across a rushing river between forested banks",
+      "object_type": "fallen-tree-log",
+      "content_origin": "photograph",
+      "keywords": [
+        "fallen-tree",
+        "log",
+        "river",
+        "forest",
+        "natural-bridge"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 5,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the fallen tree log spans about 92% of the crop, side, brown, against conifer forest river (North Vancouver); one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-37358201-c14-1-final",
+      "asset_id": "photo-pexels-37358201",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-37358201-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/photo-pexels-37358201-standardized-v1.webp",
+          "sha256": "60610efd2e23b3eda71ed2871d914f6cb3c4b3d30449726252d9776e23a53da9",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 78956
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/photo-pexels-37358201-standardized-v1-s.webp",
+          "sha256": "de27a9a6162b52885718c437f5622823bea1c2cdc4c52316a1d58930fbc4826b",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 18304
+        }
+      ],
+      "characteristics": {
+        "colour": "grey",
+        "viewpoint": "High three-quarter",
+        "facing_direction": "not-applicable",
+        "environment": "park stream (Singapore)",
+        "support": "stream bed",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-37358201-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Nearest stone is cut by the bottom edge of the photograph",
+        "Perspective view along the crossing"
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Row of large round concrete stepping stones crossing a calm stream to a grassy bank",
+      "object_type": "stepping-stones",
+      "content_origin": "photograph",
+      "keywords": [
+        "stepping-stones",
+        "stream",
+        "crossing",
+        "park",
+        "water"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "borderline",
+          "semantic_class": "member-debatable",
+          "role_status": "reviewed",
+          "rank": 6,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the stepping stones spans about 95% of the crop, high three-quarter, grey, against park stream (Singapore); one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1787372818035-787d68d5d1a7-c14-1-final",
+      "asset_id": "photo-unsplash-1787372818035-787d68d5d1a7",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1787372818035-787d68d5d1a7-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1787372818035-787d68d5d1a7-standardized-v1.webp",
+          "sha256": "585948a1de9e3b54065544da7339035d476e818fc0e246042ea366226994b5c7",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 52256
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1787372818035-787d68d5d1a7-standardized-v1-s.webp",
+          "sha256": "138eb4bf91a839f754183788d45be237a97a4a7ff054f0f39aaeda3b7349e35f",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15392
+        }
+      ],
+      "characteristics": {
+        "colour": "grey and white",
+        "viewpoint": "Front",
+        "facing_direction": "front",
+        "environment": "wooded railway line in autumn (Lillafüred, Hungary)",
+        "support": "ground and hillside",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1787372818035-787d68d5d1a7-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Small white sign at the right edge",
+        "Very dark interior"
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Stone-faced railway tunnel portal with a white arch and dark interior",
+      "object_type": "tunnel-portal",
+      "content_origin": "photograph",
+      "keywords": [
+        "tunnel",
+        "railway",
+        "stone-portal",
+        "arch",
+        "autumn"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 7,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the tunnel portal spans about 92% of the crop, front, grey and white, against wooded railway line in autumn (Lillafüred, Hungary); one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-pexels-8802009-c14-1-final",
+      "asset_id": "photo-pexels-8802009",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-pexels-8802009-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/photo-pexels-8802009-standardized-v1.webp",
+          "sha256": "811bb7d66c6f0730f4539c8d1ef2a5748753cefc69f8d4f67661852520b3cc1c",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 57758
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/photo-pexels-8802009-standardized-v1-s.webp",
+          "sha256": "eb7573040b3a1f1ed576e91c4656d01061e92676bfd7a7c1daa0769d1021c050",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 15524
+        }
+      ],
+      "characteristics": {
+        "colour": "brown and grey",
+        "viewpoint": "Front, slightly from below",
+        "facing_direction": "front",
+        "environment": "coastal sand dunes",
+        "support": "sand dune",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-pexels-8802009-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "Thin handrails at 128 px"
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Wooden staircase with metal handrails climbing a sand dune to a viewing platform",
+      "object_type": "outdoor-staircase",
+      "content_origin": "photograph",
+      "keywords": [
+        "staircase",
+        "steps",
+        "handrail",
+        "dune",
+        "beach"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 8,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the outdoor staircase spans about 82% of the crop, front, slightly from below, brown and grey, against coastal sand dunes; one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
+    },
+    {
+      "version_id": "photo-unsplash-1776899228602-3200d9c0d0a4-c14-1-final",
+      "asset_id": "photo-unsplash-1776899228602-3200d9c0d0a4",
+      "levels": [
+        "final"
+      ],
+      "parent_version_ids": [
+        "photo-unsplash-1776899228602-3200d9c0d0a4-standardized-v1"
+      ],
+      "external_url": null,
+      "files": [
+        {
+          "purpose": "large",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1776899228602-3200d9c0d0a4-standardized-v1.webp",
+          "sha256": "16ec780acb361b1c59e329827cab7930d6af8263858cd796e7c885162211883f",
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 41672
+        },
+        {
+          "purpose": "small",
+          "path": "stimuli/final/bridges/C14/1/photo-unsplash-1776899228602-3200d9c0d0a4-standardized-v1-s.webp",
+          "sha256": "df725fdece6b5956363798ac0816284c10c1d2e21ad246a78c6601eca4d42970",
+          "width": 256,
+          "height": 256,
+          "format": "webp",
+          "colour_mode": "RGB",
+          "colour_space": "sRGB",
+          "bytes": 12706
+        }
+      ],
+      "characteristics": {
+        "colour": "terracotta and yellow",
+        "viewpoint": "Perspective along the platform",
+        "facing_direction": "not-applicable",
+        "environment": "small town station (Alexandroupoli, Greece)",
+        "support": "ground",
+        "people": "none-observed-in-proposed-crop",
+        "additional_category_members": "none-observed",
+        "assessment_scope": "final-set"
+      },
+      "reviews": {
+        "visual": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Selected for C14@1: Nine distinct, standardised images reviewed together at tile size: two ordinary bridges (grey stone packhorse arch over a dark river, side view; suspension bridge with stone towers above a wooded gorge, three-quarter view), two impossible bridges (generated road bridge held up by two giant hands rising from a river; generated wooden footbridge on many insect-like legs over a forest stream), two borderline crossings (photographed fallen log over a rushing river; photographed concrete stepping stones across a calm stream) and three non-members that are also built ways through or up (stone railway tunnel portal, wooden dune staircase with handrails, empty railway platform). Water appears among targets and borderline cases alike, so water alone does not decide. Views, colours and settings vary within each role. The second stone arch bridge, the wooden garden footbridge and the knotted bridge remain in the collection for later versions.",
+          "scope": "final-set"
+        },
+        "rights": {
+          "status": "approved",
+          "actor": "claude",
+          "timestamp": "2026-10-27T09:43:05Z",
+          "reason": "Derivative of the parent's individually verified source; its licence permits modification and its recorded conditions apply unchanged."
+        }
+      },
+      "operation": {
+        "type": "final-copy",
+        "timestamp": "2026-10-27T09:43:05Z",
+        "actor": "claude",
+        "notes": "Byte-identical copy of photo-unsplash-1776899228602-3200d9c0d0a4-standardized-v1 for final set C14@1."
+      },
+      "unresolved_issues": [
+        "End-on perspective view; the platform runs out of frame (inherent to the subject)",
+        "Benches and canopy pillars are visible"
+      ],
+      "created_at": "2026-10-27T09:43:05Z",
+      "updated_at": "2026-10-27T09:43:05Z",
+      "actor": "claude",
+      "description": "Empty railway station platform with a yellow canopy, benches and adjacent tracks",
+      "object_type": "railway-platform",
+      "content_origin": "photograph",
+      "keywords": [
+        "railway-platform",
+        "station",
+        "canopy",
+        "tracks",
+        "bench"
+      ],
+      "assessments": [
+        {
+          "theme": "bridges",
+          "role": "distractor",
+          "semantic_class": "non-member",
+          "role_status": "reviewed",
+          "rank": 9,
+          "grade": "Meets target clarity",
+          "reason": "Meets the target clarity standard in the proposed crop: the railway platform spans about 100% of the crop, perspective along the platform, terracotta and yellow, against small town station (Alexandroupoli, Greece); one instance, unobstructed, recognisable at 128 px.",
+          "preparation_notes": "Use the proposed crop.",
+          "scope": "final-set"
+        }
+      ]
     }
   ],
   "sets": [
@@ -58969,6 +59833,13 @@
       "version": 1,
       "theme": "clocks",
       "manifest": "stimuli/final/clocks/C08/1/manifest.json"
+    },
+    {
+      "set_key": "C14@1",
+      "set_id": "C14",
+      "version": 1,
+      "theme": "bridges",
+      "manifest": "stimuli/final/bridges/C14/1/manifest.json"
     }
   ],
   "retired_sets": [
