@@ -158,12 +158,12 @@ for (const [id, v] of versions) {
     }
   }
   recordStamp(v, id, 'created_at'); if (!utc(v.updated_at)) fail(id, 'missing updated_at');
-  for (const level of strings(v.levels, `${id}.levels`, { nonempty: true })) has('levels', level, id);
+  for (const level of strings(v.levels, `${id}.levels`, { nonempty: !v.withdrawn })) has('levels', level, id);
   if (v.levels.length > 1 && !same(v.levels, ['raw', 'suitable'])) fail(id, 'only unchanged raw/suitable versions share levels');
   const parents = strings(v.parent_version_ids, `${id}.parents`);
   for (const p of parents) if (!versions.has(p) || p === id) fail(id, `unknown/self parent ${p}`);
   if (!Array.isArray(v.files)) { fail(id, 'files must be an array'); continue; }
-  if (!v.files.length) url(v.external_url, `${id}.external_url`);
+  if (!v.files.length && !v.withdrawn) url(v.external_url, `${id}.external_url`);
   for (const key of ['colour', 'viewpoint', 'facing_direction', 'environment', 'support', 'people', 'additional_category_members', 'assessment_scope']) if (!text(v.characteristics?.[key])) fail(id, `missing characteristic ${key}`);
   for (const key of ['visual', 'rights']) {
     const r = v.reviews?.[key]; has('review_statuses', r?.status, id); recordStamp(r, `${id}.${key}`);
@@ -224,8 +224,19 @@ for (const [id, v] of versions) {
   }
   if (v.levels.includes('suitable') && (!rightsCleared(id) || v.reviews?.rights?.status !== 'approved')) fail(id, 'suitable selection requires verified rights and derivative permission during the search');
   if ((processing || v.files.length) && (!rightsCleared(id) || v.reviews?.rights?.status !== 'approved')) fail(id, 'local/processed images require verified rights and derivative permission for all contributing sources');
+  // A processed version rejected before final use keeps its record, lineage and
+  // removed hashes, so history stays resolvable, but no levels or bytes.
+  if (v.withdrawn) {
+    const w = v.withdrawn;
+    if (v.levels.length || v.files.length || !['standardisation', 'ai-edit'].includes(op.type) || !parents.length) fail(id, 'only unused standardised/edited versions can be withdrawn, without levels or files');
+    recordStamp(w, `${id}.withdrawn`);
+    if (!text(w.reason) || !Array.isArray(w.files) || !w.files.length || !w.files.every((f) => text(f?.path) && hashPattern.test(f?.sha256 ?? ''))) fail(id, 'withdrawal needs a reason and the removed file records');
+    for (const f of w.files ?? []) if (text(f?.path) && existsSync(resolve(ROOT, f.path))) fail(id, `withdrawn file still present: ${f.path}`);
+    continue;
+  }
   if (!processing) { if (op.type !== 'discovery') fail(id, 'raw/suitable versions use discovery operation'); continue; }
   if (!parents.length || v.reviews?.visual?.status !== 'approved') fail(id, 'processed version requires parents and visual approval');
+  if (parents.some((p) => versions.get(p)?.withdrawn)) fail(id, 'withdrawn versions cannot be parents');
   for (const p of parents) if (versions.get(p)?.reviews?.visual?.status !== 'approved' || versions.get(p)?.reviews?.rights?.status !== 'approved') fail(id, 'parents require approved visual and rights reviews');
   if (v.levels.includes('standardized')) {
     if (op.type !== 'standardisation' || op.profile !== 'webp-512-256-v1' || op.content_changes !== false || op.allow_upscale !== false) fail(id, 'standardisation profile and no-content-change/no-upscale declarations required');
@@ -329,6 +340,7 @@ for (const [i, line] of historyText.trimEnd().split('\n').entries()) {
   events.push(e);
 }
 for (const [id, v] of versions) {
+  if (v.withdrawn && !events.some((e) => e.version_ids?.includes(id) && e.action === 'withdrawn' && e.to === 'withdrawn')) fail(id, 'missing withdrawal history event');
   for (const level of v.levels ?? []) if (!events.some((e) => e.version_ids?.includes(id) && e.to === level && ({ raw: ['discovered'], suitable: ['selected'], standardized: ['standardized'], manipulated: ['manipulated'], final: ['final_selected', 'legacy_imported'] })[level]?.includes(e.action))) fail(id, `missing ${level} history event`);
 }
 for (const key of sets.keys()) if (!events.some((e) => e.set_ids?.includes(key) && ['final_selected', 'legacy_set_imported'].includes(e.action))) fail(key, 'missing set history event');
@@ -347,7 +359,8 @@ for (const ref of ['HEAD', 'HEAD^']) {
   for (const a of old.assets ?? []) if (!assets.has(a.asset_id)) fail(a.asset_id, 'source record was deleted');
   for (const v of old.versions ?? []) {
     const current = versions.get(v.version_id);
-    if (!current || !same([current.asset_id, current.parent_version_ids, current.files], [v.asset_id, v.parent_version_ids, v.files])) fail(v.version_id, 'version identity, parents or files changed; create a new version');
+    const files = current?.withdrawn && v.files.length ? current.withdrawn.files : current?.files;
+    if (!current || !same([current.asset_id, current.parent_version_ids, files], [v.asset_id, v.parent_version_ids, v.files])) fail(v.version_id, 'version identity, parents or files changed; create a new version');
   }
   for (const s of old.sets ?? []) {
     if (!same(sets.get(s.set_key), s)) { fail(s.set_key, 'existing set reference changed/removed'); continue; }

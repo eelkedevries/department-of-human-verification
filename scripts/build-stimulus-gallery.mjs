@@ -81,18 +81,26 @@ for (const theme of vocabulary.themes) {
   if (![raw, suitable, standardized, manipulated, final].some(Boolean)) continue;
 
   const suitableIds = suitable?.version_ids ?? [];
-  const rawOnly = (raw?.version_ids ?? []).filter((id) => !suitableIds.includes(id));
+  const notSuitable = (raw?.version_ids ?? []).filter((id) => !suitableIds.includes(id));
+  const isRejected = (id) => versions.get(id)?.reviews?.visual?.status === 'rejected';
+  const rawOnly = notSuitable.filter((id) => !isRejected(id));
+  const rejected = notSuitable.filter(isRejected);
   const ranked = [...suitableIds].sort(byRank(theme));
   const sets = (final?.set_keys ?? []).map((key) => catalogue.sets.find((s) => s.set_key === key)).filter(Boolean);
 
   out.push(`## ${theme}`, '');
-  out.push(`Suitable: ${ranked.length} · raw only: ${rawOnly.length} · standardised: ${standardized?.version_ids?.length ?? 0} · manipulated: ${manipulated?.version_ids?.length ?? 0} · final sets: ${sets.length}`, '');
+  out.push(`Suitable: ${ranked.length} · raw only: ${rawOnly.length} · rejected: ${rejected.length} · standardised: ${standardized?.version_ids?.length ?? 0} · manipulated: ${manipulated?.version_ids?.length ?? 0} · final sets: ${sets.length}`, '');
 
   out.push('### Suitable', '', 'Rights-verified and visually reviewed, by rank.', '');
   out.push(grid(cardsFor(ranked, theme, (v) => `#${rank(v, theme) ?? '–'}`)));
 
   out.push('### Raw only', '', 'Linked candidates not (yet) promoted to suitable, with their original rank.', '');
   out.push(grid(cardsFor(rawOnly, theme, (v) => `Original #${rank(v, theme) ?? '–'}`)));
+  if (rejected.length) {
+    // Rejected sources stay registered to prevent re-adding them; list them without images.
+    const items = rejected.map((id) => versions.get(id)).map((v) => `<li>${link(assets.get(v.asset_id)?.source?.publisher_url ?? v.external_url, v.description)}: ${esc(v.reviews.visual.reason)}</li>`);
+    out.push(`<details><summary>Rejected photographs (${rejected.length}), not shown</summary><ul>${items.join('')}</ul></details>`, '');
+  }
 
   out.push('### Standardised', '');
   out.push(grid(cardsFor([...(standardized?.version_ids ?? [])].sort(byRank(theme)), theme, (v) => `#${rank(v, theme) ?? '–'}`)));

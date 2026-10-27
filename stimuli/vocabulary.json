@@ -73,7 +73,8 @@
     "final_replaced",
     "legacy_imported",
     "legacy_set_imported",
-    "corrected"
+    "corrected",
+    "withdrawn"
   ],
   "set_statuses": [
     "approved",

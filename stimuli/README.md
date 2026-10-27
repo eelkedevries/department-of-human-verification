@@ -14,15 +14,15 @@ This folder holds possible stimuli and records how they become game images. Brow
 
 Within each level, use a theme folder, such as `bicycles/` or `chairs/`. Create other themes when needed and add them to [vocabulary.json](vocabulary.json). A theme is the instructed category. The object's actual type is recorded separately: a motorcycle is a distractor for the bicycle theme and may be a target for another theme.
 
-An unchanged photograph keeps the same version ID when it enters `suitable`. A change to its pixels creates a new version with parent IDs. Raw records remain available after selection or rejection. Multiple edited versions can share the same parent.
+An unchanged photograph keeps the same version ID when it enters `suitable`. A change to its pixels creates a new version with parent IDs. Raw records remain available after selection or rejection. Multiple edited versions can share the same parent. A standardised or edited version that is rejected before any final set uses it is withdrawn rather than deleted: its files are removed, while its record keeps its identity, parents and a `withdrawn` entry with the reason and the removed file records, and a `withdrawn` history event is appended. Final-set versions are never withdrawn.
 
 The usual route is raw → suitable → standardized → final. For an edited stimulus, use suitable → manipulated → standardized → final. The folder order is not a requirement to edit every image or to put an unstandardised edit directly into a final set.
 
 ## Current contents
 
 - Twenty-four linked raw photographs: the original twenty and four verified replacements. Original gallery ranks and discovery history are preserved.
-- Twenty suitable photographs with approved visual and individual rights reviews: sixteen bicycles, a motor scooter, a motorcycle, a skateboard and a quirky car. Sixteen originals are retained; four unresolved originals remain raw only. The [rights review](raw/bicycles/rights-review-2026-10-26.md) records publisher links, matching evidence, licence conditions and exclusions.
-- Twenty standardised 512/256 px WebP pairs, one for each suitable photograph, cropped as reviewed from the recorded previews. No manipulated photographs yet; the empty manifest is intentional.
+- Four suitable photographs that meet the [target clarity standard](../docs/stimuli.md#target-clarity-standard), with approved visual and individual rights reviews: two bicycles, a motor scooter and a skateboard. The other twenty sources are rejected for clarity and remain raw only, with their reasons, so that they are not added again. The [rights review](raw/bicycles/rights-review-2026-10-26.md) records publisher links, matching evidence, licence conditions and exclusions.
+- Four standardised 512/256 px WebP pairs, one for each suitable photograph, cropped as reviewed from the recorded previews. Sixteen earlier standardised versions of rejected photographs are withdrawn. No manipulated photographs yet; the empty manifest is intentional.
 - A [G01 version 1 snapshot](final/bicycles/G01/1/README.md) containing byte-identical copies of the existing published grid. It is an import of the existing selection, with inherited provenance and no invented intermediate stages.
 
 ## Metadata and tags

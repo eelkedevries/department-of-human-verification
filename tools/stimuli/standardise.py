@@ -86,7 +86,7 @@ def encode(image: Image.Image, size: int) -> bytes:
     return buffer.getvalue()
 
 
-def standardise(version: dict, theme: str, accepted: set) -> dict:
+def standardise(version: dict, theme: str, accepted: set, taken: set) -> dict:
     data, reviewed_hash = download(version, accepted)
     source = Image.open(io.BytesIO(data))
     orientation = source.getexif().get(0x0112, 1)
@@ -100,7 +100,10 @@ def standardise(version: dict, theme: str, accepted: set) -> dict:
         raise SystemExit(f'{version["version_id"]}: a {crop["side"]} px crop would need upscaling.')
     square = image.crop((crop["x"], crop["y"], crop["x"] + crop["side"], crop["y"] + crop["side"]))
 
-    version_id = f'{version["asset_id"]}-standardized-v1'
+    number = 1
+    while f'{version["asset_id"]}-standardized-v{number}' in taken:
+        number += 1
+    version_id = f'{version["asset_id"]}-standardized-v{number}'
     folder = COLLECTION / "standardized" / theme
     files = []
     for purpose, size in SIZES.items():
@@ -250,7 +253,8 @@ def main() -> None:
         return
 
     CACHE.mkdir(parents=True, exist_ok=True)
-    results = [standardise(v, args.theme, set(args.accept_reencoded)) for v in pending]
+    taken = {v["version_id"] for v in catalogue["versions"]}
+    results = [standardise(v, args.theme, set(args.accept_reencoded), taken) for v in pending]
     print(f"Wrote {len(results)} standardised pairs; review sheet: {contact_sheet(results, args.theme, assessments)}")
     if not args.reviews:
         print("Inspect the outputs, then rerun with --reviews and --actor to register them.")

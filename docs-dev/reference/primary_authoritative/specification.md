@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.12 · **Last updated:** 27 October 2026
+**Version:** 1.13 · **Last updated:** 27 October 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -57,7 +57,7 @@ Other games from the same proposal; a public leaderboard; any real verification 
 - **Flow:** notice → briefing (time-limit choice) → round 1…5 (each round reveals its own feedback in place) → report → replay, which starts a new session directly at round 1 with the same settings.
 - Gameplay, display, stimulus data and metrics are separate modules so that version 2 can add a gaze source and research conditions without rewriting the game.
 - **Stimulus pipeline:** `tools/stimuli/source.json` (prompts, seeds, instructions, answer keys) → `generate.py` (local render) → human review with `review.py` contact sheets → `build.py` (publish WebP files with opaque names, write the catalogue) → `scripts/validate-stimuli.mjs` (part of `npm run check`).
-- **Stimulus collection:** `stimuli/` is the mandatory authoring collection, organised by `raw`, `suitable`, `standardized`, `manipulated` and `final`, then theme. `catalogue.json` records source assets and immutable derived versions; stage manifests select them, `vocabulary.json` defines tags, and `history.jsonl` records decisions and edits. Raw/suitable photographs may remain external links. Standardised files, edited masters and versioned final nine-image sets are stored in the repository, with parent references, actual file hashes, source/creator/licence evidence, theme-specific roles and review records. Existing G01 is imported as a historical final snapshot without fabricated intermediate history. This collection does not automatically update the renderer-only publisher, live catalogue or deployment. Collection metadata, source links and edit prompts must remain outside the deployed bundle. See `stimuli/AGENTS.md` and `stimuli/README.md`.
+- **Stimulus collection:** `stimuli/` is the mandatory authoring collection, organised by `raw`, `suitable`, `standardized`, `manipulated` and `final`, then theme. `catalogue.json` records source assets and immutable derived versions; stage manifests select them, `vocabulary.json` defines tags, and `history.jsonl` records decisions and edits. Raw/suitable photographs may remain external links. Standardised files, edited masters and versioned final nine-image sets are stored in the repository, with parent references, actual file hashes, source/creator/licence evidence, theme-specific roles and review records. An unused standardised or edited version of a rejected source is withdrawn: its files are deleted, while its record, lineage and removed hashes are kept. Final-set versions are never withdrawn. Existing G01 is imported as a historical final snapshot without fabricated intermediate history. This collection does not automatically update the renderer-only publisher, live catalogue or deployment. Collection metadata, source links and edit prompts must remain outside the deployed bundle. See `stimuli/AGENTS.md` and `stimuli/README.md`.
 - **Hosting:** SiteGround under eelkedevries.com, deployed by a dedicated workflow in `eelkedevries/eelkedevries.com` that reuses that repository's SSH secrets. Never GitHub Pages. This repository holds no secrets.
 
 ## Data schemas
@@ -117,6 +117,8 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 - Licence: GPL-3.0-or-later for the code, documentation and existing generated assets (owner's decision, 20 October 2026), so that the game can be published together with WebGazer. Third-party images and derivatives retain their recorded licences and conditions (owner's source-photograph workflow decision, 26 October 2026).
 
 ## Changelog
+
+- **1.13 (27 October 2026):** unused standardised or edited versions of rejected sources may be withdrawn: their files are deleted, and their records keep identity, lineage, removed hashes and a logged reason. Final-set versions cannot be withdrawn.
 
 - **1.12 (27 October 2026):** added a measurable target clarity standard for all stimulus images and roles (one dominant, unobstructed object filling about 75–90% of the square crop, side or shallow three-quarter view, clear figure–ground contrast, recognisable at tile size). Searches screen for it before rights checks; variety operates within it.
 

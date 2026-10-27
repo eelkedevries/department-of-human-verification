@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-26T23:43:25Z",
+  "updated_at": "2026-10-27T00:03:14Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -1774,8 +1774,7 @@
       "version_id": "photo-019e294a-a808-7bd3-8b64-191398afb207-source-v1",
       "asset_id": "photo-019e294a-a808-7bd3-8b64-191398afb207",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e294a-a808-7bd3-8b64-191398afb207/1280w.jpg?s=c9981c618a29ff70",
@@ -1800,10 +1799,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Complete folding frame, pedals and both wheels; quiet paving and wall; visible deployed kickstand. A strong base for changes to wheel shape or frame geometry. Preserve the folding joint and stand.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: about 72% of the crop, white frame against a pale wall, empty foreground.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -1821,7 +1820,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "White folding bicycle against a wall",
       "object_type": "bicycle",
@@ -1839,7 +1838,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 1,
-          "grade": "Strong base",
+          "grade": "Rejected: target clarity",
           "reason": "Complete folding frame, pedals and both wheels; quiet paving and wall; visible deployed kickstand.",
           "preparation_notes": "A strong base for changes to wheel shape or frame geometry. Preserve the folding joint and stand.",
           "scope": "proposed-preview-crop",
@@ -1945,8 +1944,7 @@
       "version_id": "photo-019e2922-adab-744d-b31d-127e879330c3-source-v1",
       "asset_id": "photo-019e2922-adab-744d-b31d-127e879330c3",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e2922-adab-744d-b31d-127e879330c3/1280w.jpg?s=5c7383f63ff1ef2a",
@@ -1971,10 +1969,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "One intact bicycle against a restrained background; both wheels and frame remain legible after a square crop. Useful neutral base for wheel or frame edits. The lower framing is corrected by the proposed crop.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: about 67% of the crop, the lower limit.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -1992,7 +1990,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Red bicycle against a grey metal wall",
       "object_type": "bicycle",
@@ -2009,7 +2007,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 3,
-          "grade": "Strong base",
+          "grade": "Rejected: target clarity",
           "reason": "One intact bicycle against a restrained background; both wheels and frame remain legible after a square crop.",
           "preparation_notes": "Useful neutral base for wheel or frame edits. The lower framing is corrected by the proposed crop.",
           "scope": "proposed-preview-crop",
@@ -2030,8 +2028,7 @@
       "version_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-source-v1",
       "asset_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e1626-f1ef-7ffc-9319-08fb96ff3414/1280w.jpg?s=645fb6ddffa1b3b7",
@@ -2056,10 +2053,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Credible contact with the tree, soft outdoor light, and clear drop handlebars, frame and wheels. Useful alternative to wall scenes. The tree partly overlaps the central frame, so wheel edits are easier than major frame edits.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: the tree trunk overlaps the frame, the silver frame has low contrast against the grey road, and the bicycle spans only about 62% of the crop.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2077,7 +2074,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Road bicycle leaning against a tree",
       "object_type": "bicycle",
@@ -2095,7 +2092,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 4,
-          "grade": "Strong base",
+          "grade": "Rejected: target clarity",
           "reason": "Credible contact with the tree, soft outdoor light, and clear drop handlebars, frame and wheels.",
           "preparation_notes": "Useful alternative to wall scenes. The tree partly overlaps the central frame, so wheel edits are easier than major frame edits.",
           "scope": "proposed-preview-crop",
@@ -2116,8 +2113,7 @@
       "version_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a-source-v1",
       "asset_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e1dda-7a82-7950-8d92-51b335fed43a/1280w.jpg?s=83bc8b22e4882320",
@@ -2142,10 +2138,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Clear conventional bicycle in an ordinary street placement; readable wheels and contrasting colours. The crop removes much of the empty wall. The vivid red background should be balanced across target and distractor tiles.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: the bicycle spans only about 62% of the crop above a large empty foreground; the 600 px crop cannot be tightened without upscaling.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2163,7 +2159,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Blue city bicycle beside a red bench",
       "object_type": "bicycle",
@@ -2179,7 +2175,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 5,
-          "grade": "Strong base",
+          "grade": "Rejected: target clarity",
           "reason": "Clear conventional bicycle in an ordinary street placement; readable wheels and contrasting colours.",
           "preparation_notes": "The crop removes much of the empty wall. The vivid red background should be balanced across target and distractor tiles.",
           "scope": "proposed-preview-crop",
@@ -2370,8 +2366,7 @@
       "version_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-source-v1",
       "asset_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1518596306109-f402fdd955d8?w=1280",
@@ -2396,10 +2391,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Distinct small-wheel bicycle against a quiet textured wall; complete wheels, saddle and handlebars. Adds bicycle-type variety. Its proportions differ from a city bicycle, so keep its category cues clear in later edits.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: about 70% of the crop, with a dark doorway at the edge.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2417,7 +2412,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Small green bicycle by a brick wall",
       "object_type": "bicycle",
@@ -2435,7 +2430,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 8,
-          "grade": "Strong base",
+          "grade": "Rejected: target clarity",
           "reason": "Distinct small-wheel bicycle against a quiet textured wall; complete wheels, saddle and handlebars.",
           "preparation_notes": "Adds bicycle-type variety. Its proportions differ from a city bicycle, so keep its category cues clear in later edits.",
           "scope": "proposed-preview-crop",
@@ -2456,8 +2451,7 @@
       "version_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899-source-v1",
       "asset_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e23a6-5d30-793b-bd37-6789b6499899/1280w.jpg?s=6813c52eccd806fe",
@@ -2482,10 +2476,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "One unoccupied motorcycle on its parking stand; engine, fuel tank and front wheel make the non-bicycle category clear. The frontal three-quarter view avoids another side profile. Remove conspicuous manufacturer branding during final preparation.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: front three-quarter view of about 45 degrees, beyond the 30-degree limit.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2503,7 +2497,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Motorcycle parked in front of a brick wall",
       "object_type": "motorcycle",
@@ -2521,7 +2515,7 @@
           "semantic_class": "non-member",
           "role_status": "provisional",
           "rank": 9,
-          "grade": "Strong base",
+          "grade": "Rejected: target clarity",
           "reason": "One unoccupied motorcycle on its parking stand; engine, fuel tank and front wheel make the non-bicycle category clear.",
           "preparation_notes": "The frontal three-quarter view avoids another side profile. Remove conspicuous manufacturer branding during final preparation.",
           "scope": "proposed-preview-crop",
@@ -2567,10 +2561,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "pending",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:27:00Z",
-          "reason": "Natural street placement with visible contact and complete small wheels, pedals, saddle and folding frame. A useful compact bicycle alternative. The pipe overlaps the frame, making extensive frame edits less convenient.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: a drainpipe crosses the bicycle, and the black frame has little contrast against the dark ground.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2590,7 +2584,7 @@
         "Excluded from the verified selection: original publisher page could not be conclusively verified after source searches; replaced by a verified alternative. This is unresolved evidence, not a finding of infringement."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:59:35Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Black folding bicycle beside a drainpipe",
       "object_type": "bicycle",
@@ -2607,7 +2601,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 10,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "Natural street placement with visible contact and complete small wheels, pedals, saddle and folding frame.",
           "preparation_notes": "A useful compact bicycle alternative. The pipe overlaps the frame, making extensive frame edits less convenient.",
           "scope": "proposed-preview-crop",
@@ -2653,10 +2647,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "pending",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:27:00Z",
-          "reason": "Single complete parked bicycle; a restrained background and oblique view make the silhouette readable. Useful for changing wheel geometry while retaining believable wall contact and ground shadows.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: close, steep front three-quarter view.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2676,7 +2670,7 @@
         "Excluded from the verified selection: original publisher page could not be conclusively verified after source searches; replaced by a verified alternative. This is unresolved evidence, not a finding of infringement."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:59:35Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Red-and-white bicycle against a pale wall",
       "object_type": "bicycle",
@@ -2693,7 +2687,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 11,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "Single complete parked bicycle; a restrained background and oblique view make the silhouette readable.",
           "preparation_notes": "Useful for changing wheel geometry while retaining believable wall contact and ground shadows.",
           "scope": "proposed-preview-crop",
@@ -2714,8 +2708,7 @@
       "version_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba-source-v1",
       "asset_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.pexels.com/photos/12322815/pexels-photo-12322815.jpeg?w=1280",
@@ -2740,10 +2733,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Clear physical support, quiet pavement and soft light; a different viewpoint from the side-on candidates. The frontal angle overlaps the wheels and frame. Best when the intended modification remains visible from this angle.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: near-frontal steep view; the dark bicycle has little contrast against the dark ribbed fence.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2761,7 +2754,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Bicycle leaning against a metal fence",
       "object_type": "bicycle",
@@ -2778,7 +2771,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 10,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "Clear physical support, quiet pavement and soft light; a different viewpoint from the side-on candidates.",
           "preparation_notes": "The frontal angle overlaps the wheels and frame. Best when the intended modification remains visible from this angle.",
           "scope": "proposed-preview-crop",
@@ -2799,8 +2792,7 @@
       "version_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba-source-v1",
       "asset_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e2732-b457-73b7-9026-14b72e9692ba/1280w.jpg?s=e7b7ea549c5558c9",
@@ -2825,10 +2817,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Ordinary wall support and an uncluttered square-crop region; complete frame and wheels are visible. The square crop excludes a second bicycle at the far right of the full photograph. Retain that crop; the dappled wall adds some background texture.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: silver bicycle with low contrast against a grey and pastel wall, partly shaded, off-centre and about 65% of the crop.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2846,7 +2838,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Silver bicycle beside a pastel wall",
       "object_type": "bicycle",
@@ -2863,7 +2855,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 11,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "Ordinary wall support and an uncluttered square-crop region; complete frame and wheels are visible.",
           "preparation_notes": "The square crop excludes a second bicycle at the far right of the full photograph. Retain that crop; the dappled wall adds some background texture.",
           "scope": "proposed-preview-crop",
@@ -2884,8 +2876,7 @@
       "version_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-source-v1",
       "asset_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e1bc3-5b48-75d1-8ef8-8191e5a7e654/1280w.jpg?s=92446dd54d00e149",
@@ -2910,10 +2901,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Plausible railing support with both wheels, drop handlebars and the frame visible; no rider. Adds a rural setting and a three-quarter view. Vegetation is busier than the higher-ranked wall backgrounds.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: steep three-quarter view, with the railing and foliage behind the frame.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -2931,7 +2922,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Red road bicycle by a timber railing",
       "object_type": "bicycle",
@@ -2949,7 +2940,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 12,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "Plausible railing support with both wheels, drop handlebars and the frame visible; no rider.",
           "preparation_notes": "Adds a rural setting and a three-quarter view. Vegetation is busier than the higher-ranked wall backgrounds.",
           "scope": "proposed-preview-crop",
@@ -2970,8 +2961,7 @@
       "version_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-source-v1",
       "asset_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1510736594446-2832676f52c7?w=1280",
@@ -2996,10 +2986,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Natural wall contact, complete wheels and a recognisable city-bicycle silhouette from an alternative angle. The rear view hides some drivetrain detail. Prefer wheel or saddle edits over changes requiring a clear view of the crank.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: close, steeply oblique rear view that foreshortens the bicycle.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -3017,7 +3007,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Green city bicycle against a stone wall",
       "object_type": "bicycle",
@@ -3035,7 +3025,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 13,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "Natural wall contact, complete wheels and a recognisable city-bicycle silhouette from an alternative angle.",
           "preparation_notes": "The rear view hides some drivetrain detail. Prefer wheel or saddle edits over changes requiring a clear view of the crank.",
           "scope": "proposed-preview-crop",
@@ -3081,10 +3071,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "pending",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:27:00Z",
-          "reason": "Single parked bicycle with clear railing/wall contact and recognisable wheels and handlebars. Provides an oblique view. Stonework and window details make the background less neutral than the highest-ranked choices.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: rear three-quarter view of about 45 degrees, beyond the 30-degree limit.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -3104,7 +3094,7 @@
         "Excluded from the verified selection: original publisher page could not be conclusively verified after source searches; replaced by a verified alternative. This is unresolved evidence, not a finding of infringement."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:59:35Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Red bicycle beside a stone building",
       "object_type": "bicycle",
@@ -3121,7 +3111,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 16,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "Single parked bicycle with clear railing/wall contact and recognisable wheels and handlebars.",
           "preparation_notes": "Provides an oblique view. Stonework and window details make the background less neutral than the highest-ranked choices.",
           "scope": "proposed-preview-crop",
@@ -3142,8 +3132,7 @@
       "version_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-source-v1",
       "asset_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://thumb.pexafy.com/019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2/1280w.jpg?s=4ea65e42f49f822f",
@@ -3168,10 +3157,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "A complete bicycle in a natural rural location, resting against a substantial fence; no people. Good colour and setting variety. The fence overlaps the bicycle, which complicates major frame edits.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: the bicycle spans only about 47% of the crop, in a three-quarter view against fence and field detail.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -3189,7 +3178,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Turquoise road bicycle against a wooden fence",
       "object_type": "bicycle",
@@ -3207,7 +3196,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 14,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "A complete bicycle in a natural rural location, resting against a substantial fence; no people.",
           "preparation_notes": "Good colour and setting variety. The fence overlaps the bicycle, which complicates major frame edits.",
           "scope": "proposed-preview-crop",
@@ -3313,8 +3302,7 @@
       "version_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e-source-v1",
       "asset_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.pexels.com/photos/18999320/pexels-photo-18999320.jpeg?w=1280",
@@ -3339,10 +3327,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Single bicycle parked against brickwork; the full object fits a square crop without losing a wheel. Lower prominence and more wall texture than the top candidates. The proposed crop improves tile-scale readability.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: the bicycle spans only about 60% of the crop above a large paving foreground.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -3360,7 +3348,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Blue bicycle with a yellow front fork",
       "object_type": "bicycle",
@@ -3376,7 +3364,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 16,
-          "grade": "Reserve",
+          "grade": "Rejected: target clarity",
           "reason": "Single bicycle parked against brickwork; the full object fits a square crop without losing a wheel.",
           "preparation_notes": "Lower prominence and more wall texture than the top candidates. The proposed crop improves tile-scale readability.",
           "scope": "proposed-preview-crop",
@@ -3422,10 +3410,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "pending",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:27:00Z",
-          "reason": "An unoccupied, unusually shaped small car parked in a believable street setting; no television still or performer. The requested funny-looking car alternative. The background is busier and the left margin is tighter; favour the displayed square crop.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: busy cafe frontage behind the car, about 70% of the crop.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -3445,7 +3433,7 @@
         "Excluded from the verified selection: original publisher page could not be conclusively verified after source searches; replaced by a verified alternative. This is unresolved evidence, not a finding of infringement."
       ],
       "created_at": "2026-10-26T22:27:00Z",
-      "updated_at": "2026-10-26T22:59:35Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "description": "Mint-coloured microcar outside a café",
       "object_type": "car",
@@ -3462,7 +3450,7 @@
           "semantic_class": "non-member",
           "role_status": "provisional",
           "rank": 20,
-          "grade": "Reserve",
+          "grade": "Rejected: target clarity",
           "reason": "An unoccupied, unusually shaped small car parked in a believable street setting; no television still or performer.",
           "preparation_notes": "The requested funny-looking car alternative. The background is busier and the left margin is tighter; favour the displayed square crop.",
           "scope": "proposed-preview-crop",
@@ -4500,8 +4488,7 @@
         "wall"
       ],
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.pexels.com/photos/36095859/pexels-photo-36095859.jpeg?w=1280",
@@ -4532,10 +4519,10 @@
           "reason": "The individual Pexels page labels the photograph free and links its licence. Exact-photo retrieval supplies this publisher/native image ID; the individual page confirms the same creator, matching scene and original dimensions."
         },
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Complete bicycle in a front three-quarter view, leaning naturally against a quiet wall; no people or additional bicycles. Reserve: the warm, muted colour cast needs comparison with the rest of the set during standardisation. Preserve the complete front wheel and visible pedals.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: silver bicycle with low contrast against a grey-olive wall, about 62% of the crop.",
           "scope": "proposed-preview-crop"
         }
       },
@@ -4547,7 +4534,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:59:35Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "assessments": [
         {
@@ -4558,7 +4545,7 @@
           "scope": "proposed-preview-crop",
           "rank": 18,
           "original_gallery_rank": null,
-          "grade": "Reserve",
+          "grade": "Rejected: target clarity",
           "reason": "Complete bicycle in a front three-quarter view, leaning naturally against a quiet wall; no people or additional bicycles.",
           "preparation_notes": "Reserve: the warm, muted colour cast needs comparison with the rest of the set during standardisation. Preserve the complete front wheel and visible pedals.",
           "proposed_crop": {
@@ -4585,8 +4572,7 @@
         "wall"
       ],
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.pexels.com/photos/4946807/pexels-photo-4946807.jpeg?w=1280",
@@ -4617,10 +4603,10 @@
           "reason": "The individual Pexels page labels the photograph free and links its licence. Exact-photo retrieval supplies this publisher/native image ID; the individual page confirms the same creator, matching scene and original dimensions."
         },
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "An intact bicycle leans against a masonry wall; a lower square crop gives a readable three-quarter view and excludes the traffic mirror. Keep the proposed lower-right crop: the full photograph includes a road and traffic mirror. The source crop remains well above 512 px.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: about 72% of the crop, with a pole close behind the rear wheel.",
           "scope": "proposed-preview-crop"
         }
       },
@@ -4632,7 +4618,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:59:35Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "assessments": [
         {
@@ -4643,7 +4629,7 @@
           "scope": "proposed-preview-crop",
           "rank": 17,
           "original_gallery_rank": null,
-          "grade": "Good alternative",
+          "grade": "Rejected: target clarity",
           "reason": "An intact bicycle leans against a masonry wall; a lower square crop gives a readable three-quarter view and excludes the traffic mirror.",
           "preparation_notes": "Keep the proposed lower-right crop: the full photograph includes a road and traffic mirror. The source crop remains well above 512 px.",
           "proposed_crop": {
@@ -4671,8 +4657,7 @@
         "parked"
       ],
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.pexels.com/photos/25849065/pexels-photo-25849065.jpeg?w=1280",
@@ -4703,10 +4688,10 @@
           "reason": "The individual Pexels page labels the photograph free and links its licence. Exact-photo retrieval supplies this publisher/native image ID; the individual page confirms the same creator, matching scene and original dimensions."
         },
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "Complete orange bicycle with yellow handlebars, resting against a fence with visible ground contact; useful colour and support variety. Reserve: vines and wire mesh make the background busier than the strongest bases. Retain the saddle, both wheels and crank area.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Below the target clarity standard: thin frame parts and spokes are lost against the wire mesh and graffiti behind.",
           "scope": "proposed-preview-crop"
         }
       },
@@ -4718,7 +4703,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:59:35Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "assessments": [
         {
@@ -4729,7 +4714,7 @@
           "scope": "proposed-preview-crop",
           "rank": 19,
           "original_gallery_rank": null,
-          "grade": "Reserve",
+          "grade": "Rejected: target clarity",
           "reason": "Complete orange bicycle with yellow handlebars, resting against a fence with visible ground contact; useful colour and support variety.",
           "preparation_notes": "Reserve: vines and wire mesh make the background busier than the strongest bases. Retain the saddle, both wheels and crank area.",
           "proposed_crop": {
@@ -4758,8 +4743,7 @@
         "tree"
       ],
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.pexels.com/photos/27851602/pexels-photo-27851602.jpeg?w=1280",
@@ -4790,10 +4774,10 @@
           "reason": "The individual Pexels page labels the photograph free and links its licence. Exact-photo retrieval supplies this publisher/native image ID; the individual page confirms the same creator, matching scene and original dimensions."
         },
         "visual": {
-          "status": "approved",
-          "actor": "codex",
-          "timestamp": "2026-10-26T22:59:35Z",
-          "reason": "A complete, unusually small car parked on cobblestones beside a stone building; empty interior, natural tyre contact and no bicycles. Reserve: foliage casts dappled light. Use the lower crop to keep the whole body and tyres; this is a real microcar, with no television material.",
+          "status": "rejected",
+          "actor": "claude",
+          "timestamp": "2026-10-27T00:03:14Z",
+          "reason": "Only nearly meets the target clarity standard: the car touches the right edge of the crop, in an angled front view.",
           "scope": "proposed-preview-crop"
         }
       },
@@ -4805,7 +4789,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T22:59:35Z",
-      "updated_at": "2026-10-26T23:03:03Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "codex",
       "assessments": [
         {
@@ -4816,7 +4800,7 @@
           "scope": "proposed-preview-crop",
           "rank": 20,
           "original_gallery_rank": null,
-          "grade": "Reserve",
+          "grade": "Rejected: target clarity",
           "reason": "A complete, unusually small car parked on cobblestones beside a stone building; empty interior, natural tyre contact and no bicycles.",
           "preparation_notes": "Reserve: foliage casts dappled light. Use the lower crop to keep the whole body and tyres; this is a real microcar, with no television material.",
           "proposed_crop": {
@@ -4834,37 +4818,12 @@
     {
       "version_id": "photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1",
       "asset_id": "photo-019e294a-a808-7bd3-8b64-191398afb207",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e294a-a808-7bd3-8b64-191398afb207-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1.webp",
-          "sha256": "6a16d09c0691b9d77dd6406e038cbda824b7a0daf9190eda7dacacdd599a4d18",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 56644
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1-s.webp",
-          "sha256": "1c1b5561b045a89b3e76fc6347a32d46962113a0c492e6513a143482b58f9c09",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 13598
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "white",
         "viewpoint": "Near-side profile",
@@ -4920,7 +4879,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "White folding bicycle against a wall",
       "object_type": "bicycle",
@@ -4944,7 +4903,36 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 1
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1.webp",
+            "sha256": "6a16d09c0691b9d77dd6406e038cbda824b7a0daf9190eda7dacacdd599a4d18",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 56644
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e294a-a808-7bd3-8b64-191398afb207-standardized-v1-s.webp",
+            "sha256": "1c1b5561b045a89b3e76fc6347a32d46962113a0c492e6513a143482b58f9c09",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 13598
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e1ff4-3acd-7afb-a7c8-dacc74dfb8fd-standardized-v1",
@@ -5063,37 +5051,12 @@
     {
       "version_id": "photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1",
       "asset_id": "photo-019e2922-adab-744d-b31d-127e879330c3",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e2922-adab-744d-b31d-127e879330c3-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1.webp",
-          "sha256": "183068d1f1e04aaf6d195fc49ffa03cd4b0257c70f4bb85dc8387d496df1433c",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 26774
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1-s.webp",
-          "sha256": "5a5ca7b3e6fea62e4a99da1500eff83c5919f30c5ec35cbcdbdd64d0ddb759ba",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 7526
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "red",
         "viewpoint": "Side / slight three-quarter",
@@ -5149,7 +5112,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Red bicycle against a grey metal wall",
       "object_type": "bicycle",
@@ -5172,42 +5135,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 3
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1.webp",
+            "sha256": "183068d1f1e04aaf6d195fc49ffa03cd4b0257c70f4bb85dc8387d496df1433c",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 26774
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e2922-adab-744d-b31d-127e879330c3-standardized-v1-s.webp",
+            "sha256": "5a5ca7b3e6fea62e4a99da1500eff83c5919f30c5ec35cbcdbdd64d0ddb759ba",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 7526
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1",
       "asset_id": "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1.webp",
-          "sha256": "df7d7738cbd742f93e73cef75eacecce91f06a5f12eb64820d6c90ad2e5d2db7",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 59286
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1-s.webp",
-          "sha256": "72a4a68039f7fe0dcd7c896e0cc90a456bbfdf10036e651a73c5315a65988851",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 17458
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "dark metallic",
         "viewpoint": "Front three-quarter",
@@ -5263,7 +5230,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Road bicycle leaning against a tree",
       "object_type": "bicycle",
@@ -5287,42 +5254,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 4
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1.webp",
+            "sha256": "df7d7738cbd742f93e73cef75eacecce91f06a5f12eb64820d6c90ad2e5d2db7",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 59286
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e1626-f1ef-7ffc-9319-08fb96ff3414-standardized-v1-s.webp",
+            "sha256": "72a4a68039f7fe0dcd7c896e0cc90a456bbfdf10036e651a73c5315a65988851",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 17458
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1",
       "asset_id": "photo-019e1dda-7a82-7950-8d92-51b335fed43a",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e1dda-7a82-7950-8d92-51b335fed43a-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1.webp",
-          "sha256": "671f27f119ea5f549dc2a060dc0b6eba1a90d7d3761d2390610ea29b8c616f96",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 37558
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1-s.webp",
-          "sha256": "fd8d9a08a6396b78b306ae3b5c650af0d188c61caeb43b1f056e38e87f9dd373",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 9454
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "blue",
         "viewpoint": "Side profile",
@@ -5378,7 +5349,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Blue city bicycle beside a red bench",
       "object_type": "bicycle",
@@ -5400,7 +5371,36 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 5
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1.webp",
+            "sha256": "671f27f119ea5f549dc2a060dc0b6eba1a90d7d3761d2390610ea29b8c616f96",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 37558
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e1dda-7a82-7950-8d92-51b335fed43a-standardized-v1-s.webp",
+            "sha256": "fd8d9a08a6396b78b306ae3b5c650af0d188c61caeb43b1f056e38e87f9dd373",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 9454
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e1d6c-7703-7a28-ab59-a40afa456fa9-standardized-v1",
@@ -5633,37 +5633,12 @@
     {
       "version_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1",
       "asset_id": "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1.webp",
-          "sha256": "d1f9506d6555d77854cdab0075b4ecb3968767ae6d9c8dc2fddedb0401d22141",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 46908
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1-s.webp",
-          "sha256": "8009cdda9ebffa6f6f075d954f3f96c4e95f184a1f0388c886a5bde2237d54ab",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 13184
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "green and grey",
         "viewpoint": "Side / slight three-quarter",
@@ -5721,7 +5696,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Small green bicycle by a brick wall",
       "object_type": "bicycle",
@@ -5745,42 +5720,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 8
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1.webp",
+            "sha256": "d1f9506d6555d77854cdab0075b4ecb3968767ae6d9c8dc2fddedb0401d22141",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 46908
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e21a6-ec6f-71b4-9a8b-9c0c1fd6e84e-standardized-v1-s.webp",
+            "sha256": "8009cdda9ebffa6f6f075d954f3f96c4e95f184a1f0388c886a5bde2237d54ab",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 13184
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1",
       "asset_id": "photo-019e23a6-5d30-793b-bd37-6789b6499899",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e23a6-5d30-793b-bd37-6789b6499899-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1.webp",
-          "sha256": "71931b6aa1cba933dc90d72da10d60b41c478b07ea5e5ec537363f84b65d77d2",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 50194
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1-s.webp",
-          "sha256": "e7d90987a8e2f6db09dd434c109e688a15433ed7606bfd5004826ab2a5d25bd6",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 16496
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "black",
         "viewpoint": "Front three-quarter",
@@ -5836,7 +5815,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Motorcycle parked in front of a brick wall",
       "object_type": "motorcycle",
@@ -5860,42 +5839,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 9
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1.webp",
+            "sha256": "71931b6aa1cba933dc90d72da10d60b41c478b07ea5e5ec537363f84b65d77d2",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 50194
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e23a6-5d30-793b-bd37-6789b6499899-standardized-v1-s.webp",
+            "sha256": "e7d90987a8e2f6db09dd434c109e688a15433ed7606bfd5004826ab2a5d25bd6",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 16496
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1",
       "asset_id": "photo-019e144a-b43a-738a-8bc8-a9756e805dba",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e144a-b43a-738a-8bc8-a9756e805dba-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1.webp",
-          "sha256": "9499b7e4984ed97d2dec0e98f0f816935e95d5540d95f9684ff0a5ce935c941e",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 38112
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1-s.webp",
-          "sha256": "91063b87a8a579f3798b8bd6263077c95365dc57bcff42bd5806979434c524e8",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 11142
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "black",
         "viewpoint": "Front three-quarter",
@@ -5951,7 +5934,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Bicycle leaning against a metal fence",
       "object_type": "bicycle",
@@ -5974,42 +5957,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 12
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1.webp",
+            "sha256": "9499b7e4984ed97d2dec0e98f0f816935e95d5540d95f9684ff0a5ce935c941e",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 38112
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e144a-b43a-738a-8bc8-a9756e805dba-standardized-v1-s.webp",
+            "sha256": "91063b87a8a579f3798b8bd6263077c95365dc57bcff42bd5806979434c524e8",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 11142
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1",
       "asset_id": "photo-019e2732-b457-73b7-9026-14b72e9692ba",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e2732-b457-73b7-9026-14b72e9692ba-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1.webp",
-          "sha256": "571cb8322a1285c28e00d63ad0c610beb54c79f505f52e040f42fe1898f24eb6",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 25486
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1-s.webp",
-          "sha256": "da6388376e56c0805759f28fc19d921cb59d3882417ee392143de0389215116e",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 8552
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "silver",
         "viewpoint": "Side / slight three-quarter",
@@ -6065,7 +6052,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Silver bicycle beside a pastel wall",
       "object_type": "bicycle",
@@ -6088,42 +6075,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 13
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1.webp",
+            "sha256": "571cb8322a1285c28e00d63ad0c610beb54c79f505f52e040f42fe1898f24eb6",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 25486
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e2732-b457-73b7-9026-14b72e9692ba-standardized-v1-s.webp",
+            "sha256": "da6388376e56c0805759f28fc19d921cb59d3882417ee392143de0389215116e",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 8552
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1",
       "asset_id": "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1.webp",
-          "sha256": "77cf4e2cd92bacf3b7709ecfa83dd17110569bcb849377bed1102054a91596e2",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 77682
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1-s.webp",
-          "sha256": "85cb8ffa9ebd909d978e1e0003e9a19cae91fd5cd268f053ddc262ec201dec83",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 22684
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "red",
         "viewpoint": "Front three-quarter",
@@ -6179,7 +6170,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Red road bicycle by a timber railing",
       "object_type": "bicycle",
@@ -6203,42 +6194,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 14
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1.webp",
+            "sha256": "77cf4e2cd92bacf3b7709ecfa83dd17110569bcb849377bed1102054a91596e2",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 77682
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e1bc3-5b48-75d1-8ef8-8191e5a7e654-standardized-v1-s.webp",
+            "sha256": "85cb8ffa9ebd909d978e1e0003e9a19cae91fd5cd268f053ddc262ec201dec83",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 22684
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1",
       "asset_id": "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1.webp",
-          "sha256": "7aa99719461f9c695bd21c4361c6cc679eda0167b8b27485a9536d5e6b3e8376",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 48284
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1-s.webp",
-          "sha256": "1f3c1ba2b3deffce5e1e6dc4a4936b80ba0c2b5f3c994bca202b4c6e499972c8",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 16022
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "pale green",
         "viewpoint": "Rear three-quarter",
@@ -6294,7 +6289,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Green city bicycle against a stone wall",
       "object_type": "bicycle",
@@ -6318,42 +6313,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 15
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1.webp",
+            "sha256": "7aa99719461f9c695bd21c4361c6cc679eda0167b8b27485a9536d5e6b3e8376",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 48284
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e21c4-06ac-7d87-9a69-da4691fb9ad9-standardized-v1-s.webp",
+            "sha256": "1f3c1ba2b3deffce5e1e6dc4a4936b80ba0c2b5f3c994bca202b4c6e499972c8",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 16022
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1",
       "asset_id": "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1.webp",
-          "sha256": "482a516e0befe80f7d69b66e2eca237a878bdc82711de89e5fa3ace4235056b1",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 83078
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1-s.webp",
-          "sha256": "5352d596366f0daa7657567d38d55c9361ee4a92a5c26a2677d6e57dbfedb34f",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 18400
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "turquoise",
         "viewpoint": "Rear three-quarter",
@@ -6409,7 +6408,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Turquoise road bicycle against a wooden fence",
       "object_type": "bicycle",
@@ -6433,7 +6432,36 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 17
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1.webp",
+            "sha256": "482a516e0befe80f7d69b66e2eca237a878bdc82711de89e5fa3ace4235056b1",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 83078
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e20ab-ec8b-7f7e-aa03-90e0eb46d9f2-standardized-v1-s.webp",
+            "sha256": "5352d596366f0daa7657567d38d55c9361ee4a92a5c26a2677d6e57dbfedb34f",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 18400
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e24a0-8170-7687-ad86-d5bce14c1020-standardized-v1",
@@ -6552,37 +6580,12 @@
     {
       "version_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1",
       "asset_id": "photo-019e1970-796f-731f-90ce-232d86c4eb1e",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e1970-796f-731f-90ce-232d86c4eb1e-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1.webp",
-          "sha256": "d1032c98610e17a7892b3933d2c1e149f4694e09f69f0208a3ec18977500284c",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 92590
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1-s.webp",
-          "sha256": "8621eb1e2c987fb7711d9af91d396f150e99d8e4038b1d6f6fe3fbd90b2663f9",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 22178
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "blue and yellow",
         "viewpoint": "Front three-quarter",
@@ -6638,7 +6641,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Blue bicycle with a yellow front fork",
       "object_type": "bicycle",
@@ -6660,42 +6663,46 @@
           "scope": "standardised-crop",
           "original_gallery_rank": 19
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1.webp",
+            "sha256": "d1032c98610e17a7892b3933d2c1e149f4694e09f69f0208a3ec18977500284c",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 92590
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e1970-796f-731f-90ce-232d86c4eb1e-standardized-v1-s.webp",
+            "sha256": "8621eb1e2c987fb7711d9af91d396f150e99d8e4038b1d6f6fe3fbd90b2663f9",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 22178
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1",
       "asset_id": "photo-019e147c-0ae7-7793-8c79-b26344f176fb",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e147c-0ae7-7793-8c79-b26344f176fb-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1.webp",
-          "sha256": "da9729666a89872ebc4fe51dd8fd1107b97cd486e266e59e3971fda4d4fbfb69",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 78730
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1-s.webp",
-          "sha256": "b5001f74a556de1f9dd41f06989a2077c49230aff15312b26c1bc52e961a05ff",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 20192
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "dark grey",
         "viewpoint": "Front three-quarter",
@@ -6751,7 +6758,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "City bicycle at a worn street-corner wall",
       "object_type": "bicycle",
@@ -6774,42 +6781,46 @@
           "reason": "An intact bicycle leans against a masonry wall; a lower square crop gives a readable three-quarter view and excludes the traffic mirror.",
           "preparation_notes": "Keep the proposed lower-right crop: the full photograph includes a road and traffic mirror. The source crop remains well above 512 px."
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1.webp",
+            "sha256": "da9729666a89872ebc4fe51dd8fd1107b97cd486e266e59e3971fda4d4fbfb69",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 78730
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e147c-0ae7-7793-8c79-b26344f176fb-standardized-v1-s.webp",
+            "sha256": "b5001f74a556de1f9dd41f06989a2077c49230aff15312b26c1bc52e961a05ff",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 20192
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1",
       "asset_id": "photo-019e0fed-2b99-7df3-9285-402da53ce583",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e0fed-2b99-7df3-9285-402da53ce583-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1.webp",
-          "sha256": "9eb81ec45d85b4e81e6f7bac710485256f897ba8f7c6189c118cf9d6a307e18b",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 28642
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1-s.webp",
-          "sha256": "6decec9ee637ac18a7c10a46c473abcc629e484d1e4bfa97999dc2bd9fd79493",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 9374
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "silver / grey",
         "viewpoint": "Front three-quarter",
@@ -6865,7 +6876,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Silver city bicycle against a weathered wall",
       "object_type": "bicycle",
@@ -6889,42 +6900,46 @@
           "reason": "Complete bicycle in a front three-quarter view, leaning naturally against a quiet wall; no people or additional bicycles.",
           "preparation_notes": "Reserve: the warm, muted colour cast needs comparison with the rest of the set during standardisation. Preserve the complete front wheel and visible pedals."
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1.webp",
+            "sha256": "9eb81ec45d85b4e81e6f7bac710485256f897ba8f7c6189c118cf9d6a307e18b",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 28642
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e0fed-2b99-7df3-9285-402da53ce583-standardized-v1-s.webp",
+            "sha256": "6decec9ee637ac18a7c10a46c473abcc629e484d1e4bfa97999dc2bd9fd79493",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 9374
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1",
       "asset_id": "photo-019e1476-12d8-7676-86f1-09354d8187c1",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e1476-12d8-7676-86f1-09354d8187c1-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1.webp",
-          "sha256": "89bce4c1a7fc97496ac5c5b6f2b5dedec23d278aa1d11603aa72f0f7efb64ded",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 100864
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1-s.webp",
-          "sha256": "55ca1d4d69189a32e4f5fa1b4f821f5c544ebb543b906cbfee6f4a24b508ac4a",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 24856
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "orange / yellow",
         "viewpoint": "Side profile",
@@ -6980,7 +6995,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Orange road bicycle against a wire fence",
       "object_type": "bicycle",
@@ -7004,42 +7019,46 @@
           "reason": "Complete orange bicycle with yellow handlebars, resting against a fence with visible ground contact; useful colour and support variety.",
           "preparation_notes": "Reserve: vines and wire mesh make the background busier than the strongest bases. Retain the saddle, both wheels and crank area."
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1.webp",
+            "sha256": "89bce4c1a7fc97496ac5c5b6f2b5dedec23d278aa1d11603aa72f0f7efb64ded",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 100864
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e1476-12d8-7676-86f1-09354d8187c1-standardized-v1-s.webp",
+            "sha256": "55ca1d4d69189a32e4f5fa1b4f821f5c544ebb543b906cbfee6f4a24b508ac4a",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 24856
+          }
+        ]
+      }
     },
     {
       "version_id": "photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1",
       "asset_id": "photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b",
-      "levels": [
-        "standardized"
-      ],
+      "levels": [],
       "parent_version_ids": [
         "photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-source-v1"
       ],
       "external_url": null,
-      "files": [
-        {
-          "purpose": "large",
-          "path": "stimuli/standardized/bicycles/photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1.webp",
-          "sha256": "64d23cb330e38999deb4f7d78368c22f18a6b7392dd50a28a4495bf7efbcbd4d",
-          "width": 512,
-          "height": 512,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 63686
-        },
-        {
-          "purpose": "small",
-          "path": "stimuli/standardized/bicycles/photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1-s.webp",
-          "sha256": "2b9bd954faf54777a9725c70da2efe4200603b5233f4ed51bae358d151ee38af",
-          "width": 256,
-          "height": 256,
-          "format": "webp",
-          "colour_mode": "RGB",
-          "colour_space": "sRGB",
-          "bytes": 20042
-        }
-      ],
+      "files": [],
       "characteristics": {
         "colour": "red",
         "viewpoint": "Side / slight three-quarter",
@@ -7095,7 +7114,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-26T23:43:25Z",
-      "updated_at": "2026-10-26T23:43:25Z",
+      "updated_at": "2026-10-27T00:03:14Z",
       "actor": "claude",
       "description": "Small red microcar under a leafy tree",
       "object_type": "car",
@@ -7120,7 +7139,36 @@
           "reason": "A complete, unusually small car parked on cobblestones beside a stone building; empty interior, natural tyre contact and no bicycles.",
           "preparation_notes": "Reserve: foliage casts dappled light. Use the lower crop to keep the whole body and tyres; this is a real microcar, with no television material."
         }
-      ]
+      ],
+      "withdrawn": {
+        "timestamp": "2026-10-27T00:03:14Z",
+        "actor": "claude",
+        "reason": "Parent photograph rejected under the target clarity standard; the derivative is unused by any final set, so its files are deleted.",
+        "files": [
+          {
+            "purpose": "large",
+            "path": "stimuli/standardized/bicycles/photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1.webp",
+            "sha256": "64d23cb330e38999deb4f7d78368c22f18a6b7392dd50a28a4495bf7efbcbd4d",
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 63686
+          },
+          {
+            "purpose": "small",
+            "path": "stimuli/standardized/bicycles/photo-019e1c8c-e6d3-7bba-a08c-af0141e7f27b-standardized-v1-s.webp",
+            "sha256": "2b9bd954faf54777a9725c70da2efe4200603b5233f4ed51bae358d151ee38af",
+            "width": 256,
+            "height": 256,
+            "format": "webp",
+            "colour_mode": "RGB",
+            "colour_space": "sRGB",
+            "bytes": 20042
+          }
+        ]
+      }
     }
   ],
   "sets": [
