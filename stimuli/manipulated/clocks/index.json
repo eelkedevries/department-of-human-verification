@@ -3,5 +3,9 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "clocks",
-  "version_ids": []
+  "version_ids": [
+    "generated-clocks-running-alarm-clock-v1",
+    "generated-clocks-hourglass-clock-v1",
+    "generated-clocks-phone-wall-clock-v1"
+  ]
 }
