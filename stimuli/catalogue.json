@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T00:24:04Z",
+  "updated_at": "2026-10-27T00:28:29Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -9171,8 +9171,7 @@
       "version_id": "photo-unsplash-1569943228307-a66beab7cd96-source-v1",
       "asset_id": "photo-unsplash-1569943228307-a66beab7cd96",
       "levels": [
-        "raw",
-        "suitable"
+        "raw"
       ],
       "parent_version_ids": [],
       "external_url": "https://images.unsplash.com/photo-1569943228307-a66beab7cd96?w=1280",
@@ -9197,10 +9196,10 @@
       },
       "reviews": {
         "visual": {
-          "status": "approved",
+          "status": "rejected",
           "actor": "claude",
-          "timestamp": "2026-10-27T00:24:04Z",
-          "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing left, green frame against a white wall; ivy stays mostly above and behind the frame; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
+          "timestamp": "2026-10-27T00:28:29Z",
+          "reason": "Below the target clarity standard (owner's review, 27 October 2026): the green frame has too little figure-ground contrast against the green and autumn-coloured ivy behind it.",
           "scope": "proposed-preview-crop"
         },
         "rights": {
@@ -9218,7 +9217,7 @@
       },
       "unresolved_issues": [],
       "created_at": "2026-10-27T00:24:04Z",
-      "updated_at": "2026-10-27T00:24:04Z",
+      "updated_at": "2026-10-27T00:28:29Z",
       "actor": "claude",
       "description": "Green bicycle against an ivy-covered white wall",
       "object_type": "bicycle",
@@ -9237,7 +9236,7 @@
           "semantic_class": "member-normal",
           "role_status": "provisional",
           "rank": 19,
-          "grade": "Meets target clarity",
+          "grade": "Rejected: target clarity",
           "reason": "Meets the target clarity standard in the proposed crop: the bicycle spans about 88% of the crop in a side profile facing left, green frame against a white wall; ivy stays mostly above and behind the frame; no obstruction, one instance, recognisable at 128 px. The whole object and its support are visible.",
           "preparation_notes": "Use the proposed crop; it keeps the whole object and its support with small margins.",
           "scope": "proposed-preview-crop",

@@ -33,3 +33,7 @@ Recorded conditions: use within the authored game or illustrated research galler
 | 20 | [Black fixed-gear bicycle against a grey concrete wall](https://unsplash.com/photos/black-road-bike-BRDO4C-0h_s) | Howard Bouchevereau | `photo-1559348349-86f1f65817fe` | target | about 82% of the crop, side profile, facing left |
 
 The four retained photographs (ranks 3, 6, 10 and 12) keep their evidence in the [earlier review](rights-review-2026-10-26.md).
+
+## Correction, 27 October 2026
+
+Rank 19, the green bicycle against an ivy-covered wall, was rejected on the owner's review: the green frame has too little contrast against the green ivy behind it. Its rights evidence remains valid; it stays raw only.
