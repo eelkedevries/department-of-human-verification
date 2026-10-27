@@ -2,7 +2,7 @@
   "schema": "dhv-stimulus-collection-v1",
   "schema_version": 1,
   "created_at": "2026-10-26T22:27:00Z",
-  "updated_at": "2026-10-27T13:22:15Z",
+  "updated_at": "2026-10-27T13:26:36Z",
   "standardisation_profiles": {
     "webp-512-256-v1": {
       "large": [
@@ -35753,7 +35753,7 @@
         "Water bottle partly visible at the left edge"
       ],
       "created_at": "2026-10-27T07:16:45Z",
-      "updated_at": "2026-10-27T12:59:07Z",
+      "updated_at": "2026-10-27T13:26:36Z",
       "actor": "claude",
       "description": "White all-in-one desktop computer with keyboard and mouse on a white desk",
       "object_type": "desktop-computer",
@@ -35769,12 +35769,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-normal",
           "role_status": "reviewed",
           "rank": 3,
           "grade": "Meets target clarity",
-          "reason": "A white all-in-one desktop computer: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
+          "reason": "A white all-in-one desktop computer with keyboard and mouse: the computer is built into the display housing, so it is a computer. Reassessed on 27 October 2026 under the owner's rule: if it has a computer, it is a computer.",
           "preparation_notes": "Use the proposed crop.",
           "scope": "proposed-preview-crop",
           "proposed_crop": {
@@ -41321,7 +41321,7 @@
         "Water bottle partly visible at the left edge"
       ],
       "created_at": "2026-10-27T07:17:48Z",
-      "updated_at": "2026-10-27T12:59:07Z",
+      "updated_at": "2026-10-27T13:26:36Z",
       "actor": "claude",
       "description": "White all-in-one desktop computer with keyboard and mouse on a white desk",
       "object_type": "desktop-computer",
@@ -41337,12 +41337,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-normal",
           "role_status": "reviewed",
           "rank": 3,
           "grade": "Meets target clarity",
-          "reason": "A white all-in-one desktop computer: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
+          "reason": "A white all-in-one desktop computer with keyboard and mouse: the computer is built into the display housing, so it is a computer. Reassessed on 27 October 2026 under the owner's rule: if it has a computer, it is a computer.",
           "preparation_notes": "Use the proposed crop.",
           "scope": "standardised-crop"
         }
@@ -57055,7 +57055,7 @@
         "At tile size the office can be read as a picture on the screen."
       ],
       "created_at": "2026-10-27T09:09:25Z",
-      "updated_at": "2026-10-27T12:59:07Z",
+      "updated_at": "2026-10-27T13:26:36Z",
       "actor": "claude",
       "description": "All-in-one computer whose screen holds a miniature office with a tiny worker climbing out",
       "object_type": "desktop-computer",
@@ -57070,12 +57070,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-bizarre",
           "role_status": "reviewed",
           "rank": 10,
           "grade": "Meets target clarity",
-          "reason": "An all-in-one computer whose screen holds a miniature office: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
+          "reason": "An all-in-one computer whose screen holds a miniature office with a tiny worker: the computer is built into the display housing, so the image contains a computer, impossibly inhabited. Reassessed on 27 October 2026 under the owner's rule: if it has a computer, it is a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "master"
         }
@@ -57391,7 +57391,7 @@
         "At tile size the office can be read as a picture on the screen."
       ],
       "created_at": "2026-10-27T09:09:36Z",
-      "updated_at": "2026-10-27T12:59:07Z",
+      "updated_at": "2026-10-27T13:26:36Z",
       "actor": "claude",
       "description": "All-in-one computer whose screen holds a miniature office with a tiny worker climbing out",
       "object_type": "desktop-computer",
@@ -57406,12 +57406,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-bizarre",
           "role_status": "reviewed",
           "rank": 10,
           "grade": "Meets target clarity",
-          "reason": "An all-in-one computer whose screen holds a miniature office: the computer is built into the display housing, so it looks like a screen and whether it reads as a computer is debatable. Reassessed on 27 October 2026 after the owner's correction that a screen or monitor on its own is not a computer.",
+          "reason": "An all-in-one computer whose screen holds a miniature office with a tiny worker: the computer is built into the display housing, so the image contains a computer, impossibly inhabited. Reassessed on 27 October 2026 under the owner's rule: if it has a computer, it is a computer.",
           "preparation_notes": "Standardise the whole square master.",
           "scope": "standardised-crop"
         }
@@ -79896,7 +79896,7 @@
         "Lay viewers may read it as a component rather than a whole computer, which is the intended category question"
       ],
       "created_at": "2026-10-27T12:58:42Z",
-      "updated_at": "2026-10-27T12:58:42Z",
+      "updated_at": "2026-10-27T13:26:36Z",
       "actor": "claude",
       "description": "Bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface",
       "object_type": "single-board-computer",
@@ -79911,12 +79911,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-normal",
           "role_status": "reviewed",
           "rank": 16,
           "grade": "Meets target clarity",
-          "reason": "Meets the target clarity standard in the proposed crop: the single board computer spans about 76% of the crop, side, slightly from above, green circuit board with silver ports, against plain beige surface and backdrop; one instance, unobstructed, recognisable at 128 px.",
+          "reason": "A bare single-board computer: a complete computer on one circuit board, without a case, screen or keyboard. Reassessed on 27 October 2026 under the owner's rule: if it has a computer, it is a computer.",
           "preparation_notes": "Use the proposed crop.",
           "scope": "proposed-preview-crop",
           "proposed_crop": {
@@ -80259,7 +80259,7 @@
         "Lay viewers may read it as a component rather than a whole computer, which is the intended category question"
       ],
       "created_at": "2026-10-27T13:00:12Z",
-      "updated_at": "2026-10-27T13:00:12Z",
+      "updated_at": "2026-10-27T13:26:36Z",
       "actor": "claude",
       "description": "Bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface",
       "object_type": "single-board-computer",
@@ -80274,12 +80274,12 @@
       "assessments": [
         {
           "theme": "computers",
-          "role": "borderline",
-          "semantic_class": "member-debatable",
+          "role": "target",
+          "semantic_class": "member-normal",
           "role_status": "reviewed",
           "rank": 16,
           "grade": "Meets target clarity",
-          "reason": "Meets the target clarity standard in the proposed crop: the single board computer spans about 76% of the crop, side, slightly from above, green circuit board with silver ports, against plain beige surface and backdrop; one instance, unobstructed, recognisable at 128 px.",
+          "reason": "A bare single-board computer: a complete computer on one circuit board, without a case, screen or keyboard. Reassessed on 27 October 2026 under the owner's rule: if it has a computer, it is a computer.",
           "preparation_notes": "Use the proposed crop.",
           "scope": "standardised-crop"
         }
