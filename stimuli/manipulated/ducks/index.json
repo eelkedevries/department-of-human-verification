@@ -3,5 +3,8 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "ducks",
-  "version_ids": []
+  "version_ids": [
+    "generated-ducks-wheel-footed-duck-v1",
+    "generated-ducks-three-headed-duck-v1"
+  ]
 }

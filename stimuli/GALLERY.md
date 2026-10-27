@@ -274,7 +274,7 @@ Rights-verified and visually reviewed, by rank.
 
 ## ducks
 
-Suitable: 8 · awaiting review: 0 · rejected: 0 · standardised: 8 · manipulated: 0 · final sets: 0
+Suitable: 8 · awaiting review: 0 · rejected: 0 · standardised: 10 · manipulated: 2 · final sets: 0
 
 ### Suitable
 
@@ -313,12 +313,21 @@ Rights-verified and visually reviewed, by rank.
 <tr>
 <td width="33%" valign="top"><a href="standardized/ducks/photo-unsplash-1778909236557-0e1fd2b3a675-standardized-v1.webp"><img src="standardized/ducks/photo-unsplash-1778909236557-0e1fd2b3a675-standardized-v1-s.webp" width="240" alt="Gentoo penguin walking on a sandy beach with its flippers spread"></a><br><sub><b>#7</b> Gentoo penguin walking on a sandy beach with its flippers spread<br>gentoo-penguin · photograph · distractor (non-member) · Meets target clarity<br>Danielle Barnes · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved</sub></td>
 <td width="33%" valign="top"><a href="standardized/ducks/photo-unsplash-1786223252518-db0026329748-standardized-v1.webp"><img src="standardized/ducks/photo-unsplash-1786223252518-db0026329748-standardized-v1-s.webp" width="240" alt="Dark grey feral pigeon with an iridescent neck standing on paving"></a><br><sub><b>#8</b> Dark grey feral pigeon with an iridescent neck standing on paving<br>feral-pigeon · photograph · distractor (non-member) · Meets target clarity<br>Suryagayathri C.K · <a href="https://unsplash.com/license">Unsplash License</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (1)</summary>Dark plumage against mid-grey paving gives moderate rather than strong contrast</details></sub></td>
+<td width="33%" valign="top"><a href="standardized/ducks/generated-ducks-wheel-footed-duck-standardized-v1.webp"><img src="standardized/ducks/generated-ducks-wheel-footed-duck-standardized-v1-s.webp" width="240" alt="Female mallard standing on a park path on two small spoked wheels attached to its feet"></a><br><sub><b>#9</b> Female mallard standing on a park path on two small spoked wheels attached to its feet<br>mallard · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The wheels are small and the webbed feet remain partly visible above them.</details></sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="standardized/ducks/generated-ducks-three-headed-duck-standardized-v1.webp"><img src="standardized/ducks/generated-ducks-three-headed-duck-standardized-v1-s.webp" width="240" alt="White duck with three long necks and three heads, each wearing a yellow rain hat, on a lakeside lawn"></a><br><sub><b>#10</b> White duck with three long necks and three heads, each wearing a yellow rain hat, on a lakeside lawn<br>domestic-duck · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The long necks give the bird a goose-like outline.</details></sub></td>
 </tr>
 </table>
 
 ### Manipulated
 
-None yet.
+<table>
+<tr>
+<td width="33%" valign="top"><a href="manipulated/ducks/generated-ducks-wheel-footed-duck-v1.png"><img src="manipulated/ducks/generated-ducks-wheel-footed-duck-v1.png" width="240" alt="Female mallard standing on a park path on two small spoked wheels attached to its feet"></a><br><sub>Female mallard standing on a park path on two small spoked wheels attached to its feet<br>mallard · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The wheels are small and the webbed feet remain partly visible above them.</details></sub></td>
+<td width="33%" valign="top"><a href="manipulated/ducks/generated-ducks-three-headed-duck-v1.png"><img src="manipulated/ducks/generated-ducks-three-headed-duck-v1.png" width="240" alt="White duck with three long necks and three heads, each wearing a yellow rain hat, on a lakeside lawn"></a><br><sub>White duck with three long necks and three heads, each wearing a yellow rain hat, on a lakeside lawn<br>domestic-duck · ai-generated · target (member-bizarre) · Meets target clarity<br>Department of Human Verification (generated with FLUX.2 [klein] 4B) · <a href="https://www.apache.org/licenses/LICENSE-2.0">Project-generated image (FLUX.2 [klein] 4B, Apache-2.0 model)</a><br>Visual: approved · rights: approved<br><details><summary>Unresolved (2)</summary>Generated image.<br><br>The long necks give the bird a goose-like outline.</details></sub></td>
+</tr>
+</table>
 
 ### Final sets
 
