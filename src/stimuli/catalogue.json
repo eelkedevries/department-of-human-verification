@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-01fc43f216",
+  "catalogue_version": "2026-10-27-c4fe10014e",
   "families": [
     "recognition",
     "semantic",
@@ -1937,8 +1937,8 @@
     },
     {
       "stimulus_id": "C10",
-      "version": 2,
-      "hash": "3beeab7074d6fc9f98570c306aaf6872015e8695443fc2049b429f3bbb549169",
+      "version": 3,
+      "hash": "b185c95fbaa207ca05fe90eba9b38fa4380ff774ecfb7a42110f84c553e258cc",
       "family": "recognition",
       "mode": "multiple",
       "instruction": "Select all images containing a computer.",
@@ -1947,7 +1947,7 @@
         "semantic": "Select all machines that run programs."
       },
       "hint": "Select all that apply. If you are unsure, use your best judgement.",
-      "explanation": "Laptops and desktop computers count, and so do the laptop pouring out a real ocean and the desktop tower with a tiny office inside it: impossible, but still computers. A screen on its own is not a computer. The bare circuit-board computer and the potato wired to a keyboard and monitor are borderline cases, recorded without a verdict. The radio, the toaster and the microwave oven are not computers.",
+      "explanation": "Anything with a computer in it counts: the laptop, the desktop tower, the laptop pouring out a real ocean and the tower with a tiny office inside it. A screen on its own has no computer in it. The potato wired to a keyboard and monitor and the toy laptop are borderline cases, recorded without a verdict. The radio, the toaster and the microwave oven are not computers.",
       "difficulty": "medium",
       "research_class": "category_judgement",
       "feedback": {
@@ -2045,21 +2045,21 @@
         },
         {
           "tile_id": "C10-T5",
-          "src": "9bb1f10189436c39.webp",
-          "src_small": "9bb1f10189436c39-s.webp",
+          "src": "d0074c508c7d3d25.webp",
+          "src_small": "d0074c508c7d3d25-s.webp",
           "width": 512,
           "height": 512,
-          "sha256": "9bb1f10189436c3976457a86d2f27303a786e458c52931d1a8d2fe66410ef7ff",
-          "alt": "Bare credit-card-sized single-board computer with ports and a ribbon of wires, standing on a beige surface",
+          "sha256": "d0074c508c7d3d25f2989ab1e11cfa23206b9b6f689b836d104cf2bc48e8fbe1",
+          "alt": "Red and yellow children's plastic toy laptop with round coloured buttons and a printed cartoon picture for a screen, on a playroom rug",
           "provenance": {
-            "kind": "photograph",
-            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
-            "creator": "Denis Nuțiu",
-            "source": "Unsplash",
-            "source_url": "https://unsplash.com/photos/TZ4vpPY5VTQ",
-            "licence": "Unsplash License",
-            "licence_url": "https://unsplash.com/license",
-            "attribution": "Photo by Denis Nuțiu on Unsplash"
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
           }
         },
         {
