@@ -1,0 +1,103 @@
+{
+  "schema": "dhv-stimulus-final-set-v1",
+  "schema_version": 1,
+  "set_key": "C12@1",
+  "set_id": "C12",
+  "version": 1,
+  "theme": "vehicles",
+  "status": "approved",
+  "instruction": "Select all images containing a vehicle.",
+  "mode": "multiple",
+  "research_class": "category_judgement",
+  "game": {
+    "publish": true,
+    "grid_id": "C12",
+    "family": "recognition",
+    "difficulty": "medium",
+    "semantic_variant": "Select all things made to carry people or goods from place to place.",
+    "hint": "Select all that apply. If you are unsure, use your best judgement.",
+    "explanation": "Ordinary vehicles count, and so do the double-decker bus on chicken legs and the van floating like a balloon: impossible, but still vehicles. The rideable robot horse and the suitcase scooter are borderline cases, recorded without a verdict. The wardrobe, the park bench and the refrigerator are not vehicles.",
+    "feedback": {
+      "correct": [
+        "Vehicles identified. Please keep to the left.",
+        "Correct. All vehicles have been registered."
+      ],
+      "partial": [
+        "Partially correct. A vehicle has left the scene.",
+        "Partially correct. Some vehicles slipped through."
+      ],
+      "incorrect": [
+        "Incorrect. Your claim has been towed away.",
+        "Incorrect. The Department has issued a fine."
+      ]
+    },
+    "stimulus_id": "C12",
+    "version": 1,
+    "grid_hash": "a4478a7872872c95b48961f8d2a8b0c724bb03f41884b1e9f9f5b85e9da1524f"
+  },
+  "tiles": [
+    {
+      "tile_id": "C12-T1",
+      "version_id": "photo-unsplash-1598547647632-6c99bef57a94-c12-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C12-T2",
+      "version_id": "photo-unsplash-1529530385195-5f7be6bb3d12-c12-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C12-T3",
+      "version_id": "generated-vehicles-chicken-legged-bus-c12-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C12-T4",
+      "version_id": "generated-vehicles-balloon-van-c12-1-final",
+      "role": "target"
+    },
+    {
+      "tile_id": "C12-T5",
+      "version_id": "generated-vehicles-robot-horse-c12-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C12-T6",
+      "version_id": "generated-vehicles-suitcase-scooter-c12-1-final",
+      "role": "borderline"
+    },
+    {
+      "tile_id": "C12-T7",
+      "version_id": "photo-pexels-34339667-c12-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C12-T8",
+      "version_id": "photo-unsplash-1740759323892-3f1422108ccb-c12-1-final",
+      "role": "distractor"
+    },
+    {
+      "tile_id": "C12-T9",
+      "version_id": "photo-unsplash-1721613877687-c9099b698faa-c12-1-final",
+      "role": "distractor"
+    }
+  ],
+  "answer_key": [
+    "C12-T1",
+    "C12-T2",
+    "C12-T3",
+    "C12-T4"
+  ],
+  "borderline_tile_ids": [
+    "C12-T5",
+    "C12-T6"
+  ],
+  "selection_review": {
+    "status": "approved",
+    "actor": "claude",
+    "timestamp": "2026-10-27T10:45:12Z",
+    "reason": "Nine distinct, standardised images reviewed together at tile size: two ordinary vehicles (silver, blue and yellow electric train, front three-quarter view; yellow school bus in side profile), two impossible vehicles (generated red double-decker bus standing on giant chicken legs; generated white van floating above a street like a balloon), two borderline ride-on machines (generated metal robot horse with a saddle and handlebars; generated suitcase scooter in an airport terminal) and three large non-member objects (wooden wardrobe standing in a lavender field, park bench, stainless-steel refrigerator). Wheels and seats appear among targets and borderline cases alike, so neither alone decides. Views, colours and settings vary within each role. The panel van, the camper van, the stacked buses and the motorised shopping trolley remain in the collection for later versions."
+  },
+  "created_at": "2026-10-27T10:45:12Z",
+  "actor": "claude"
+}

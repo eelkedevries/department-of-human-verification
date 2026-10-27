@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalogue_version": "2026-10-27-fcfa3e3ce7",
+  "catalogue_version": "2026-10-27-d7375e74dc",
   "families": [
     "recognition",
     "semantic",
@@ -2359,6 +2359,219 @@
       "borderline_tile_ids": [
         "C11-T5",
         "C11-T6"
+      ]
+    },
+    {
+      "stimulus_id": "C12",
+      "version": 1,
+      "hash": "a4478a7872872c95b48961f8d2a8b0c724bb03f41884b1e9f9f5b85e9da1524f",
+      "family": "recognition",
+      "mode": "multiple",
+      "instruction": "Select all images containing a vehicle.",
+      "instruction_variants": {
+        "direct": "Select all images containing a vehicle.",
+        "semantic": "Select all things made to carry people or goods from place to place."
+      },
+      "hint": "Select all that apply. If you are unsure, use your best judgement.",
+      "explanation": "Ordinary vehicles count, and so do the double-decker bus on chicken legs and the van floating like a balloon: impossible, but still vehicles. The rideable robot horse and the suitcase scooter are borderline cases, recorded without a verdict. The wardrobe, the park bench and the refrigerator are not vehicles.",
+      "difficulty": "medium",
+      "research_class": "category_judgement",
+      "feedback": {
+        "correct": [
+          "Vehicles identified. Please keep to the left.",
+          "Correct. All vehicles have been registered."
+        ],
+        "partial": [
+          "Partially correct. A vehicle has left the scene.",
+          "Partially correct. Some vehicles slipped through."
+        ],
+        "incorrect": [
+          "Incorrect. Your claim has been towed away.",
+          "Incorrect. The Department has issued a fine."
+        ]
+      },
+      "tiles": [
+        {
+          "tile_id": "C12-T1",
+          "src": "5531ac17b120937e.webp",
+          "src_small": "5531ac17b120937e-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "5531ac17b120937ec9f479f08c6a8e661386b596a301dae9cb7be2e21a847134",
+          "alt": "Silver, blue and yellow electric passenger train on a tree-lined railway line",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "László Glatz",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/blue-and-white-train-on-rail-tracks-during-daytime-ktFGEjNAPqU",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by László Glatz on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C12-T2",
+          "src": "d735c5107a7f6ff0.webp",
+          "src_small": "d735c5107a7f6ff0-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "d735c5107a7f6ff0239f1c7087a1c5804a914e2e7ce6cef1a26b686bdba188ef",
+          "alt": "Yellow school bus parked side-on in an open car park under a clear blue sky",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Renan Kamikoga",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/yellow-bus-on-gray-road-KxCq-xveKcU",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Renan Kamikoga on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C12-T3",
+          "src": "0485159b4446f0ba.webp",
+          "src_small": "0485159b4446f0ba-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "0485159b4446f0badf40f5dd7e76d79265b0368c238b26b0fdd14fc76b00073b",
+          "alt": "Red double-decker bus standing on four giant yellow chicken legs on a city street",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C12-T4",
+          "src": "0f9fc9e5d9925288.webp",
+          "src_small": "0f9fc9e5d9925288-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "0f9fc9e5d992528830bc50cd637f9de06999819665e05110edfd15ba28822ea6",
+          "alt": "White delivery van with a puffed-up balloon-like roof floating above an empty street on a string",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C12-T5",
+          "src": "acfe2801bc858856.webp",
+          "src_small": "acfe2801bc858856-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "acfe2801bc858856d6182dd0e4c9f49c6ea8e458a7139f8d31a76fddfcea0291",
+          "alt": "Rideable metal robot horse with a saddle, handlebars and a control panel standing on a street",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C12-T6",
+          "src": "a4186213f53830b8.webp",
+          "src_small": "a4186213f53830b8-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "a4186213f53830b8f457b318ee2d09c657cec399fc669d11e3057fb56ddb85f0",
+          "alt": "Black hard-shell suitcase fitted with handlebars and a footboard as a ride-on scooter in an airport terminal",
+          "provenance": {
+            "kind": "ai-generated",
+            "edits": "Generated with FLUX.2 [klein] 4B from a written description. Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Department of Human Verification (generated with FLUX.2 [klein] 4B)",
+            "licence": "Apache-2.0",
+            "licence_url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Generated for the Department of Human Verification with FLUX.2 [klein] 4B",
+            "model": "black-forest-labs/FLUX.2-klein-4B",
+            "model_revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294"
+          }
+        },
+        {
+          "tile_id": "C12-T7",
+          "src": "494e17d4f2b22e17.webp",
+          "src_small": "494e17d4f2b22e17-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "494e17d4f2b22e17337b5d18e386f16941944ac395a80d9ca7a03b2b2ed0f19f",
+          "alt": "Old wooden wardrobe with a mirrored door standing in a lavender field",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Jylia Boblei",
+            "source": "Pexels",
+            "source_url": "https://www.pexels.com/photo/vintage-wardrobe-mirror-in-lavender-field-34339667/",
+            "licence": "Pexels License",
+            "licence_url": "https://www.pexels.com/license/",
+            "attribution": "Photo by Jylia Boblei on Pexels"
+          }
+        },
+        {
+          "tile_id": "C12-T8",
+          "src": "0d5704a0f51d1c7f.webp",
+          "src_small": "0d5704a0f51d1c7f-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "0d5704a0f51d1c7fa8a0bd37e1157a821afa564fc88d3d9c44a94832e7bf7c90",
+          "alt": "Park bench with red-brown wooden slats and black cast-iron ends on a lawn in front of a dark hedge",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Zoshua Colah",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-wooden-bench-sitting-in-the-middle-of-a-field-SEKr1us3wiU",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Zoshua Colah on Unsplash"
+          }
+        },
+        {
+          "tile_id": "C12-T9",
+          "src": "b066eb93200edbea.webp",
+          "src_small": "b066eb93200edbea-s.webp",
+          "width": 512,
+          "height": 512,
+          "sha256": "b066eb93200edbea7f3c4158517a303a950e8b39892fa1bb43c87b3cde58e52e",
+          "alt": "Stainless-steel side-by-side refrigerator with a water dispenser in a bright modern kitchen",
+          "provenance": {
+            "kind": "photograph",
+            "edits": "Cropped to a square, resized to 512 and 256 pixels (Lanczos) and encoded as WebP at quality 82.",
+            "creator": "Lisa Anna",
+            "source": "Unsplash",
+            "source_url": "https://unsplash.com/photos/a-refrigerator-in-a-kitchen-next-to-a-window-ZkWMfHPNWpw",
+            "licence": "Unsplash License",
+            "licence_url": "https://unsplash.com/license",
+            "attribution": "Photo by Lisa Anna on Unsplash"
+          }
+        }
+      ],
+      "answer_key": [
+        "C12-T1",
+        "C12-T2",
+        "C12-T3",
+        "C12-T4"
+      ],
+      "borderline_tile_ids": [
+        "C12-T5",
+        "C12-T6"
       ]
     },
     {
