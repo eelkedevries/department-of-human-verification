@@ -3,5 +3,10 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "cars",
-  "version_ids": []
+  "version_ids": [
+    "generated-cars-tree-car-v1",
+    "generated-cars-split-car-v1",
+    "generated-cars-foot-buggy-v1",
+    "generated-cars-trolley-cabin-v1"
+  ]
 }
