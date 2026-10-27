@@ -43,10 +43,15 @@ test('five rounds answered correctly earn a verdict, and a replay starts a new s
     await answerCorrectly(page);
     await next(page, round);
   }
-  // A new session: a new layout, and the other grid wherever a family has more than one.
+  // A new session: a new layout, and a grid the first session did not show wherever the
+  // round's pool (its family's grids, or all grids) still holds one this session has not used.
   expect(second.some((s, i) => s.order !== first[i].order)).toBe(true);
+  const shown = first.map((f) => f.id);
   second.forEach((s, i) => {
-    if (catalogue.stimuli.filter((c) => c.family === s.family).length > 1) expect(s.id).not.toBe(first[i].id);
+    const own = catalogue.stimuli.filter((c) => c.family === s.family);
+    const pool = own.length ? own : catalogue.stimuli;
+    const fresh = pool.filter((c) => !shown.includes(c.stimulus_id) && !second.slice(0, i).some((p) => p.id === c.stimulus_id));
+    if (fresh.length) expect(shown).not.toContain(s.id);
   });
   await expectNothingLeft(page, requests);
 });

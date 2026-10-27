@@ -3,5 +3,11 @@
   "schema_version": 1,
   "level": "manipulated",
   "theme": "chairs",
-  "version_ids": []
+  "version_ids": [
+    "generated-chairs-crab-office-chair-v1",
+    "generated-chairs-reading-armchair-v1",
+    "generated-chairs-walking-chair-v1",
+    "generated-chairs-human-chair-v1",
+    "generated-chairs-stump-chair-generated-v1"
+  ]
 }

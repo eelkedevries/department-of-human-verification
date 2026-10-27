@@ -3,5 +3,7 @@
   "schema_version": 1,
   "level": "final",
   "theme": "chairs",
-  "set_keys": []
+  "set_keys": [
+    "C02@1"
+  ]
 }
