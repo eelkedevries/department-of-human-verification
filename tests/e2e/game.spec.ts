@@ -93,7 +93,9 @@ test('wrong, partial and empty answers are handled and explained', async ({ page
   await page.getByRole('button', { name: 'Submit selection' }).click();
   await expect(page.locator('.stamp')).toHaveText('Rejected');
   await expect(page.locator('.verdict-badge.false-alarm')).toHaveCount(single ? 1 : 2);
+  await page.getByRole('button', { name: 'Read explanation' }).click();
   await expect(page.locator('.feedback-explanation')).not.toBeEmpty();
+  await page.getByRole('button', { name: 'Close', exact: true }).click();
   await next(page, 1);
 
   for (let round = 2; round < 5; round++) {

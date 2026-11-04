@@ -4,6 +4,7 @@ import type { TrialAssignment } from '../app/session';
 import type { Collector, TrialRecord } from '../analytics/collector';
 import { button, ICON_CHECKBOX, ICON_TICK, progress, stamp } from '../components/chrome';
 import { h, svg } from '../components/dom';
+import { readingDialog } from '../components/viewport';
 import { FAMILY_LABELS, STAMPS, SUSPICIOUSLY_FAST, SUSPICIOUSLY_FAST_MS, TIMEOUT_LINES } from '../content/copy';
 import type { Stimulus, StimulusTile } from '../stimuli/types';
 import { assetUrl } from '../stimuli/catalogue';
@@ -111,7 +112,7 @@ export function renderRound(options: RoundOptions): HTMLElement {
   // Disabled until the images are on screen, so an early press cannot vanish silently.
   submit.disabled = true;
   const submitRow = h('div', { class: 'submit-row' }, submit, error);
-  const feedbackSlot = h('div', { 'aria-live': 'polite' });
+  const feedbackSlot = h('div', { class: 'round-feedback', 'aria-live': 'polite' });
 
   const buttons = tiles.map((tile, position) => {
     const el = h(
@@ -139,7 +140,8 @@ export function renderRound(options: RoundOptions): HTMLElement {
 
   const panel = h(
     'section',
-    { class: 'panel', 'aria-labelledby': instructionId },
+    { class: 'panel round-panel', 'aria-labelledby': instructionId },
+    h('div', { class: 'round-copy' },
     h(
       'div',
       { class: 'round-head' },
@@ -147,14 +149,18 @@ export function renderRound(options: RoundOptions): HTMLElement {
       h('p', { class: 'case-ref' }, `Case no. ${options.caseNumber}`, h('br'), `Subject: ${labels.subject}`),
     ),
     h('p', { class: 'label' }, options.stage ? `Experimental · ${options.stage}` : labels.category),
-    options.caseNote ? h('details', { class: 'case-note' }, h('summary', {}, 'Earlier decision on file'), h('p', {}, options.caseNote)) : null,
+    options.caseNote ? h('button', { type: 'button', class: 'link-button case-note-button', onclick: () => {
+      const dialog = readingDialog('Earlier decision on file', h('p', {}, options.caseNote));
+      document.body.append(dialog);
+      dialog.showModal();
+    } }, 'Earlier decision on file') : null,
     h('h1', { class: 'instruction', id: instructionId, tabindex: -1 }, stimulus.instruction),
     timerBox,
-    status,
-    grid,
-    submitRow,
-    feedbackSlot,
+    status),
+    h('div', { class: 'round-board' }, grid),
+    h('div', { class: 'round-controls' }, submitRow, feedbackSlot,
     h('p', { class: 'hint', id: hintId }, h('span', { class: 'hint-icon', 'aria-hidden': 'true' }, 'i'), h('span', {}, stimulus.hint)),
+    ),
   );
 
   void load();
@@ -337,17 +343,23 @@ export function renderRound(options: RoundOptions): HTMLElement {
     });
     submitRow.remove();
     const next = button(options.nextLabel, () => options.onNext(), { wide: true });
+    const explain = button('Read explanation', () => {
+      const dialog = readingDialog('Assessment explanation', h('div', {},
+        h('p', {}, line), h('p', { class: 'feedback-explanation' }, stimulus.explanation),
+        ...(stimulus.borderline_tile_ids?.length ? [h('p', {}, 'Borderline classifications have been recorded, not marked wrong.')] : []),
+      ));
+      document.body.append(dialog);
+      dialog.showModal();
+    }, { secondary: true });
     feedbackSlot.append(
       h(
         'div',
         { class: 'feedback' },
         stamp(STAMPS[evaluation.outcome], evaluation.outcome, !options.reducedMotion),
-        h('div', {}, h('p', { class: 'feedback-text' }, line), h('p', { class: 'feedback-explanation' }, stimulus.explanation),
-          ...(stimulus.borderline_tile_ids?.length ? [h('p', { class: 'fine-print' }, 'Borderline classifications have been recorded, not marked wrong.')] : [])),
+        h('p', { class: 'feedback-text' }, line),
       ),
-      h('div', { class: 'submit-row' }, next),
+      h('div', { class: 'round-actions' }, explain, next),
     );
     next.focus({ preventScroll: true });
-    next.scrollIntoView({ block: 'nearest', behavior: options.reducedMotion ? 'auto' : 'smooth' });
   }
 }

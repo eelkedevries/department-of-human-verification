@@ -9,6 +9,7 @@ import '../styles/main.css';
 import { buildExport, createCollector, type Collector } from '../analytics/collector';
 import { footer, letterhead } from '../components/chrome';
 import { h, prefersReducedMotion } from '../components/dom';
+import { disposePages, pagedView } from '../components/viewport';
 import { prefetch, renderRound, type RoundResult } from '../game/round';
 import { createRng, deriveSeed, randomSeed, type Rng } from '../game/rng';
 import { summarise, verdictFor } from '../game/scoring';
@@ -25,7 +26,7 @@ import type { GameMode } from './session';
 /** Eye-tracking code is left out entirely unless built with VITE_EYE_TRACKING=1. */
 const loadEyeTracking = import.meta.env.VITE_EYE_TRACKING === '1' ? () => import('../eyetracking') : null;
 
-const APP_VERSION = '1.1.0';
+const APP_VERSION = '1.2.0';
 
 const params = new URLSearchParams(location.search);
 const devMode = params.has('dev');
@@ -71,8 +72,8 @@ app.append(h('div', { class: 'page' }, letterhead(), main, footer(() => about.sh
 
 /** Replaces the screen. Later screens move focus to their heading so screen readers announce them; the first leaves focus alone. */
 function show(view: HTMLElement, moveFocus = true): void {
-  main.replaceChildren(view);
-  window.scrollTo(0, 0);
+  disposePages(main);
+  main.replaceChildren(view.classList.contains('round-panel') ? view : pagedView(view));
   if (moveFocus) view.querySelector<HTMLElement>('h1')?.focus({ preventScroll: true });
 }
 

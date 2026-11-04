@@ -7,18 +7,20 @@
 1. **Notice.** Choose **Standard** or **Experimental**, then press **Begin assessment**. Standard is selected by default.
 2. **Briefing.** Choose a time limit: *Standard* (15 seconds per assessment), *Extended* (30 seconds) or *No time limit*. Then press **Proceed to assessment 1**.
 3. **Five assessments.** Each shows one instruction and nine images. Select the images that satisfy the instruction — some ask for one image, some for all that apply — and press **Submit selection**. Selecting an image again withdraws it. If time runs out, whatever is selected is recorded and the game moves on.
-4. **Feedback.** After each assessment the Department stamps the result, says what it thinks, and marks each image: *Correct*, *Missed* or *Not a match*. Press **Continue** when ready; the feedback is not timed.
+4. **Feedback.** After each assessment the Department stamps the result and marks each image: *Correct*, *Missed* or *Not a match*. **Read explanation** opens the full explanation. Press **Continue** when ready; the feedback is not timed.
 5. **Report.** The *Human Verification Report* lists the assessments passed, the images classified correctly, the average response time, any timeouts, the verdict and an explanation of every answer. **Request re-assessment** starts a new session.
 
 The game has fifteen category grids. Standard chooses five distinct grids where the pool permits. Borderline choices appear as **Judgement noted** and are excluded from the clear-cut accuracy count. **Change game mode** on the report returns to the opening selector; re-assessment retains the chosen mode and time setting.
+
+The app fits the current window without horizontal or vertical scrollbars. Longer instructions, reviews, reports and image credits have **Previous page** and **Next page** controls. Keyboard focus also brings the relevant page into view. The assessment grid and Submit button stay together on one screen, including on short landscape displays.
 
 ## Experimental mode
 
 Experimental moves through first impressions, unreasonable objects, appearances, function and form, and a final houses case. An earlier judgement returns during the case file.
 
-After the fifth assessment, **Continue to case review** opens a supplementary definition challenge. The original house image, question and choice are shown as a precedent. Choose a working definition and include, exclude or leave the image unresolved under it. You may skip this review.
+After the fifth assessment, **Continue to case review** asks **Does this count as a house?** First choose what “house” means. Then answer **Yes, it counts**, **No, it does not** or **I cannot decide** about the named object, using that definition. Your earlier answer is shown for comparison. You may skip this review.
 
-The optional appeal lets you choose one disputed image, keep or reconsider your original judgement and give a reason. Both reviews are untimed and unscored. Original assessment choices are preserved. Your report shows specific decisions, the later interpretation and any appeal reply.
+The optional appeal lets you choose one disputed image using **Previous image** and **Next image**, keep or reconsider your original judgement and give a reason. Both reviews are untimed and unscored. Original assessment choices are preserved. Your report shows specific decisions, the later interpretation and any appeal reply.
 
 ### Shared cases
 

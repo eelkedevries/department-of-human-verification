@@ -50,13 +50,21 @@ export function definitionScreen(
     h('p', {}, 'No residence case is available for this review.'),
     h('div', { class: 'actions' }, button('Continue to appeal', onSkip, { wide: true })),
   );
+  const subject = decision.tile.tile_id === 'C05-T5' ? 'the caravan on the tortoise' : 'the object in this picture';
+  const question = h('p', { class: 'review-question', 'aria-live': 'polite' });
   const definitions = h('fieldset', { class: 'options review-options' },
-    h('legend', { class: 'label' }, 'Choose a working definition'),
+    h('legend', { class: 'label' }, '1. Choose what “house” means'),
     ...DEFINITIONS.map((definition, index) => h('label', { class: 'option definition-option' },
       h('input', { type: 'radio', name: 'definition', value: definition.id, checked: index === 0, 'aria-label': definition.title }),
       h('span', {}, h('strong', {}, definition.title), h('span', { class: 'mode-description' }, definition.detail)),
     )),
   );
+  const updateQuestion = () => {
+    const chosen = DEFINITIONS.find((d) => d.id === definitions.querySelector<HTMLInputElement>('input:checked')!.value)!;
+    question.textContent = `Using “${chosen.title}”, does ${subject} count as a house?`;
+  };
+  definitions.addEventListener('change', updateQuestion);
+  updateQuestion();
   const file = (choice: ReviewChoice) => onFile({
     stimulus_id: decision.stimulus.stimulus_id,
     stimulus_version: decision.stimulus.version,
@@ -69,15 +77,22 @@ export function definitionScreen(
   });
   return h('section', { class: 'panel', 'aria-labelledby': 'definition-title' },
     h('p', { class: 'label' }, 'Experimental · Form HV-7'),
-    h('h1', { id: 'definition-title', class: 'notice-title', tabindex: -1 }, 'A change of definition'),
-    h('p', { class: 'prose' }, 'The Housing desk has reopened one of your decisions. Choose a working definition, then decide whether this image qualifies under it.'),
-    h('div', { class: 'review-case' }, figure(decision), original(decision)),
+    h('h1', { id: 'definition-title', class: 'notice-title', tabindex: -1 }, 'Does this count as a house?'),
+    h('p', { class: 'prose' }, `Choose a definition of “house” below. Then decide whether ${subject} counts as a house under that definition.`),
+    h('div', { class: 'review-case' }, figure(decision), h('div', { class: 'original-decision' },
+      h('p', { class: 'label' }, `Your earlier answer · assessment ${decision.round + 1}`),
+      h('p', {}, decision.timedOut
+        ? `When time ran out, this picture was ${decision.selected ? 'selected' : 'not selected'}.`
+        : `You previously answered “${decision.selected ? 'yes' : 'no'}”: this picture ${decision.selected ? 'counted' : 'did not count'} as containing a house.`),
+    )),
     definitions,
-    h('p', { class: 'fine-print' }, 'This is a new question. There is no right-or-wrong badge, and your original judgement and assessment score stay on file.'),
+    h('h2', { class: 'section-title' }, '2. Answer using your chosen definition'),
+    question,
+    h('p', { class: 'fine-print' }, 'Your answer will be added to your report. Your original answer and score stay unchanged.'),
     h('div', { class: 'actions review-actions' },
-      button('Include it', () => file('include')),
-      button('Exclude it', () => file('exclude')),
-      button('Leave unresolved', () => file('unresolved'), { secondary: true }),
+      button('Yes, it counts', () => file('include')),
+      button('No, it does not', () => file('exclude')),
+      button('I cannot decide', () => file('unresolved'), { secondary: true }),
     ),
     h('div', { class: 'actions' }, button('Skip definition review', onSkip, { wide: true, secondary: true })),
   );
@@ -93,9 +108,10 @@ export function appealScreen(
   const initial = Math.max(0, decisions.findIndex((d) => d.tile.tile_id === interpretation?.tile_id && d.stimulus.stimulus_id === interpretation.stimulus_id));
   let chosen = initial;
   const preview = h('div', { class: 'review-case' });
-  const picker = h('select', { id: 'appeal-case', class: 'case-select' },
-    ...decisions.map((d, index) => h('option', { value: index, selected: index === initial }, `Assessment ${d.round + 1}: ${d.tile.alt}`)),
-  );
+  const position = h('span', { class: 'page-counter', 'aria-live': 'polite' });
+  const previousImage = button('Previous image', () => { chosen--; renderCase(); }, { secondary: true });
+  const nextImage = button('Next image', () => { chosen++; renderCase(); }, { secondary: true });
+  const picker = h('div', { class: 'case-picker-controls', role: 'group', 'aria-label': 'Disputed images' }, previousImage, position, nextImage);
   const positions = h('fieldset', { class: 'options review-options' },
     h('legend', { class: 'label' }, 'Your requested judgement'),
     ...([
@@ -114,8 +130,10 @@ export function appealScreen(
   const renderCase = () => {
     const d = decisions[chosen];
     preview.replaceChildren(figure(d), original(d));
+    position.textContent = `Image ${chosen + 1} of ${decisions.length}`;
+    previousImage.disabled = chosen === 0;
+    nextImage.disabled = chosen === decisions.length - 1;
   };
-  picker.addEventListener('change', () => { chosen = Number(picker.value); renderCase(); });
   if (decisions.length) renderCase();
   const submit = button('File appeal', () => {
     const d = decisions[chosen];
@@ -138,7 +156,8 @@ export function appealScreen(
     interpretation ? h('div', { class: 'case-notice' }, h('p', { class: 'label' }, 'Precedent reviewed'), h('p', {}, interpretationText(interpretation))) : null,
     h('p', {}, 'You may defend or reconsider one disputed classification. The Department will attach your reason to the final record.'),
     decisions.length ? h('div', {},
-      h('label', { for: 'appeal-case', class: 'label' }, 'Choose a disputed image'), picker, preview, positions, reasons, error,
+      h('h2', { class: 'section-title' }, 'Choose a disputed image'),
+      h('p', { class: 'fine-print' }, 'Use Previous image and Next image to choose the classification you want to appeal.'), picker, preview, positions, reasons, error,
       h('div', { class: 'actions' }, submit),
     ) : h('p', {}, 'There are no disputed classifications to appeal.'),
     h('div', { class: 'actions' }, button('Continue without appeal', onSkip, { wide: true, secondary: true })),

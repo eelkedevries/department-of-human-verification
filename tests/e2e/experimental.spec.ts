@@ -46,11 +46,13 @@ test('Experimental records a definition and an appeal without changing original 
   const seen = await finishAssessments(page);
   expect(new Set(seen.map((s) => s.id)).size).toBe(5);
   expect(seen[4].id).toBe('C05');
-  await expect(page.getByRole('heading', { name: 'A change of definition' })).toBeFocused();
-  await expect(page.getByText('Your original decision:')).toContainText('Included');
+  await expect(page.getByRole('heading', { name: 'Does this count as a house?' })).toBeFocused();
+  await expect(page.getByText('You previously answered', { exact: false })).toContainText('yes');
+  await expect(page.locator('.review-question')).toContainText('does the caravan on the tortoise count as a house?');
   await accessible(page);
   await page.getByRole('radio', { name: 'A home for any inhabitant', exact: true }).check();
-  await page.getByRole('button', { name: 'Exclude it', exact: true }).click();
+  await expect(page.locator('.review-question')).toContainText('A home for any inhabitant');
+  await page.getByRole('button', { name: 'No, it does not', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Optional appeal' })).toBeFocused();
   await expect(page.getByText('You distinguished this case', { exact: false })).toBeVisible();
   await accessible(page);

@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.22 · **Last updated:** 4 November 2026
+**Version:** 1.23 · **Last updated:** 4 November 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -40,6 +40,10 @@ The first screen offers **Standard** (selected by default) and **Experimental**.
 Experimental uses five seeded stages: first impressions (C07/C13/C08), unreasonable objects (C01/C02/C09), appearances (C03/C10), function and form (C04/C11/C12), and residence (C05). It uses existing published grids and answer keys. An earlier judgement is cited during the later case file. After the assessments, the player may skip or complete a supplementary house-definition review, then skip or file one appeal about a borderline image. The definition review explicitly changes the question, cites the original image/instruction/choice and allows inclusion, exclusion or an unresolved judgement. An appeal records a reason and a requested later judgement. Both are untimed and unscored; original trials and the fictional verdict thresholds stay unchanged. The report shows actual disputed decisions, the review and appeal, with truthful handling of timeouts.
 
 Experimental can copy a case-only link or an explicitly labelled comparison link. Links use a URL fragment, pin the seed, five grid IDs/versions/hashes and initial timing choice, and optionally contain original selections. A recipient may change the timing choice before play. Reference selections are concealed in the interface until the final report. Agreement is not scored as truth. Invalid or unavailable versions produce a clear message rather than silently substituting content. No persistent progress, backend, automatic submission or new images are added. Replay retains the chosen mode and starts a new case; Change game mode returns to the selector.
+
+### Viewport layout (owner decision, 4 November 2026)
+
+The app must not require horizontal or vertical scrollbars. Every assessment keeps all nine tiles and its controls in one viewport, adapting the grid to the available width and height, including phone landscape. Long instructions, reviews, reports, About text and image credits use explicit Previous/Next page controls, with keyboard focus revealing the relevant page. Content must remain accessible rather than being clipped or discarded. Full feedback explanations open in a paginated dialog. The definition review names the object being judged, asks the player to choose a definition first and then answer yes, no or undecided using it; the earlier answer is described plainly.
 
 ### Version 2 — optional eye-tracking and research mode (preview built, not deployed)
 
@@ -129,6 +133,7 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 ## Changelog
 
+- **1.23 (4 November 2026):** viewport-sized layouts and paginated reading content in both modes; compact assessment feedback with a complete explanation dialog; explicit two-step house review with yes/no/undecided answers.
 - **1.22 (4 November 2026):** named the existing implementation Standard and added a selectable Experimental mode with staged assessments, personal decisions, a definition/precedent review, one optional appeal and explicit version-pinned case/comparison links. Original scoring is unchanged; Experimental is separate from the eye-tracking preview.
 - **1.21 (4 November 2026):** extended the houses candidate pool with a shelled snail, treehouse, toy-sized dollhouse and residential houseboat; retained the existing human-sized dollhouse and the nine-tile published format. Image sourcing and publication remain pending.
 - **1.20 (27 October 2026):** all fifteen concept pools are published as grids C01–C15 from reviewed collection final sets; a changed grid is a new set version and only the latest published version of each grid is served.

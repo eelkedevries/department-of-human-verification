@@ -59,8 +59,16 @@ export async function expectNothingLeft(page: Page, requests: { method: string; 
 }
 
 export async function expectNoHorizontalOverflow(page: Page): Promise<void> {
-  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
-  expect(overflow, 'horizontal overflow in pixels').toBeLessThanOrEqual(0);
+  const dimensions = await page.evaluate(() => ({
+    horizontal: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+    vertical: document.documentElement.scrollHeight - innerHeight,
+    clipped: Array.from(document.querySelectorAll<HTMLElement>('.page-window, .round-panel, .round-board, .round-copy, .round-controls, dialog[open]'))
+      .filter((el) => el.getBoundingClientRect().height > 0)
+      .map((el) => ({ element: el.className, vertical: el.scrollHeight - el.clientHeight })),
+  }));
+  expect(dimensions.horizontal, 'horizontal page overflow in pixels').toBeLessThanOrEqual(1);
+  expect(dimensions.vertical, 'vertical page overflow in pixels').toBeLessThanOrEqual(1);
+  for (const item of dimensions.clipped) expect(item.vertical, `${item.element}: vertically clipped content`).toBeLessThanOrEqual(1);
 }
 
 /** Starts a game from the notice, with an optional seed and time option. */

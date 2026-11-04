@@ -4,6 +4,7 @@ import type { SessionSummary, VerdictCode } from '../game/scoring';
 import type { RoundResult } from '../game/round';
 import { button, ICON_CHECKBOX, stamp } from '../components/chrome';
 import { h } from '../components/dom';
+import { pagedView } from '../components/viewport';
 import { FAMILY_LABELS, FICTION_NOTICE, STAMPS, VERDICTS } from '../content/copy';
 import { catalogue } from '../stimuli/catalogue';
 import type { Stimulus, StimulusTile } from '../stimuli/types';
@@ -249,9 +250,10 @@ export function aboutDialog(): HTMLDialogElement {
         h('a', { href: 'https://github.com/eelkedevries/department-of-human-verification' }, 'GitHub'),
         '. Version 1: the game, without eye-tracking.',
       ),
-      h('div', { class: 'actions' }, close),
     ),
   );
+  const body = dialog.querySelector<HTMLElement>('.about-body')!;
+  dialog.replaceChildren(pagedView(body), h('div', { class: 'dialog-actions' }, close));
   dialog.addEventListener('click', (event) => {
     if (event.target === dialog) dialog.close();
   });
