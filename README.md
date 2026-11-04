@@ -2,7 +2,7 @@
 
 *Humanity cannot be self-certified.*
 
-A fictional, excessively bureaucratic agency would like you to prove that you are human. Five short image assessments are marked with deadpan severity, and the Department issues its verdict in a *Human Verification Report*. For now the Department owns a single set of images, bicycles, which it shows five times in a different order; more are drafted.
+A fictional, excessively bureaucratic agency would like you to prove that you are human. Five short image assessments are marked with deadpan severity, and the Department issues its verdict in a *Human Verification Report*. Fifteen category grids are available.
 
 **Live:** <https://eelkedevries.com/department-of-human-verification/> (version 1).
 
@@ -16,7 +16,7 @@ The Department asks ordinary multiple-choice CAPTCHA questions, but its images w
 
 ## Versions
 
-- **Version 1 (current):** the complete game. Five timed rounds of nine images, feedback after each, a final report, and replay in a new order. **No eye-tracking:** it never asks for a camera, sets no cookies, stores nothing and sends nothing anywhere.
+- **Version 1.1 (current):** choose **Standard** or **Experimental** at the start. Standard keeps the original five-assessment game. Experimental adds a staged case file, earlier decisions, an unscored definition challenge, one optional appeal, a personal report and shared cases. Explicit comparison links contain original selections and reveal them in the interface only after the recipient finishes. **No eye-tracking:** neither mode asks for a camera, sets cookies, stores progress or uploads answers.
 - **Version 2 (preview, not deployed):** an optional, clearly explained *Play with eye-tracking* mode for research — consent, calibration and validation first, a personal gaze reveal only when the measurement is good enough, and the ordinary game unchanged for everyone else. It exists only in builds made with `VITE_EYE_TRACKING=1` and waits on a licence decision and tests with a real webcam. Research data collection will stay switched off until its privacy, storage and consent arrangements have been approved. See [`docs-dev/planning/v2_notes.md`](docs-dev/planning/v2_notes.md).
 
 ## The images

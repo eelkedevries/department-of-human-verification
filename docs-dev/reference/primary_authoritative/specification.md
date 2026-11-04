@@ -1,6 +1,6 @@
 # Specification
 
-**Version:** 1.21 · **Last updated:** 4 November 2026
+**Version:** 1.22 · **Last updated:** 4 November 2026
 
 The authoritative design canon for this project. Only the sections that are filled in are binding. An empty or stubbed section means "not yet decided", not a constraint.
 
@@ -31,7 +31,15 @@ The project ships in two successive releases. **Version 1 must be complete, depl
 - Notice screen, briefing, five timed rounds, per-round feedback, final *Human Verification Report*, replay, About dialog.
 - Each round: one written instruction and a 3 × 3 grid of nine independent image tiles.
 - **Excluded from version 1, absolutely:** camera requests or permissions, eye-tracking or face libraries, calibration, gaze estimates, heatmaps or "your eyes looked here" displays, and any transmission or server-side storage of participant data.
-- Behavioural events are logged locally, in memory, and leave the page only through an explicitly labelled developer export.
+- Behavioural events are logged locally, in memory. The developer export is explicit. Experimental additionally offers a labelled comparison link containing original tile selections, copied only on request; no answers are submitted to a server.
+
+### Standard and Experimental modes (owner decision, 4 November 2026)
+
+The first screen offers **Standard** (selected by default) and **Experimental**. Standard retains the existing five-assessment selection, timing, scoring, feedback and replay. Experimental is an entertainment mode, separate from the version 2 research/eye-tracking preview, and never starts that preview.
+
+Experimental uses five seeded stages: first impressions (C07/C13/C08), unreasonable objects (C01/C02/C09), appearances (C03/C10), function and form (C04/C11/C12), and residence (C05). It uses existing published grids and answer keys. An earlier judgement is cited during the later case file. After the assessments, the player may skip or complete a supplementary house-definition review, then skip or file one appeal about a borderline image. The definition review explicitly changes the question, cites the original image/instruction/choice and allows inclusion, exclusion or an unresolved judgement. An appeal records a reason and a requested later judgement. Both are untimed and unscored; original trials and the fictional verdict thresholds stay unchanged. The report shows actual disputed decisions, the review and appeal, with truthful handling of timeouts.
+
+Experimental can copy a case-only link or an explicitly labelled comparison link. Links use a URL fragment, pin the seed, five grid IDs/versions/hashes and initial timing choice, and optionally contain original selections. A recipient may change the timing choice before play. Reference selections are concealed in the interface until the final report. Agreement is not scored as truth. Invalid or unavailable versions produce a clear message rather than silently substituting content. No persistent progress, backend, automatic submission or new images are added. Replay retains the chosen mode and starts a new case; Change game mode returns to the selector.
 
 ### Version 2 — optional eye-tracking and research mode (preview built, not deployed)
 
@@ -54,9 +62,10 @@ Other games from the same proposal; a public leaderboard; any real verification 
   - `stimuli/` — typed catalogue (`catalogue.json`, generated) and its loader.
   - `analytics/` — event schema, the local collector and the developer export.
   - `content/` — all player-facing copy.
+  - `experimental/` — staged case selection, supplementary judgements, report and version-pinned case links.
   - `research/` — version 2 record types and pure analysis (coordinate frames, validation measures, per-tile attention); nothing in it executes in the deployed build.
   - `eyetracking/` — the version 2 preview (consent, tracker adapter, calibration, validation, recording, testimony, reveal). Loaded only in eye-tracking builds, and only after the participant chooses it.
-- **Flow:** notice → briefing (time-limit choice) → round 1…5 (each round reveals its own feedback in place) → report → replay, which starts a new session directly at round 1 with the same settings.
+- **Flow:** notice (mode choice) → briefing (time-limit choice) → round 1…5 (each round reveals feedback in place) → report. Experimental inserts a skippable definition review and optional appeal before its report. Replay starts at round 1 in the same mode/settings; Change game mode returns to the notice.
 - Gameplay, display, stimulus data and metrics are separate modules so that version 2 can add a gaze source and research conditions without rewriting the game.
 - **Stimulus pipeline:** `tools/stimuli/source.json` (prompts, seeds, instructions, answer keys) → `generate.py` (local render) → human review with `review.py` contact sheets → `build.py` (publish WebP files with opaque names, write the catalogue) → `scripts/validate-stimuli.mjs` (part of `npm run check`).
 - **Stimulus collection:** `stimuli/` is the mandatory authoring collection, organised by `raw`, `suitable`, `standardized`, `manipulated` and `final`, then theme. `catalogue.json` records source assets and immutable derived versions; stage manifests select them, `vocabulary.json` defines tags, and `history.jsonl` records decisions and edits. Raw/suitable photographs may remain external links. Standardised files, edited masters and versioned final nine-image sets are stored in the repository, with parent references, actual file hashes, source/creator/licence evidence, theme-specific roles and review records. An unused standardised or edited version of a rejected source is withdrawn: its files are deleted, while its record, lineage and removed hashes are kept. Final-set versions are never withdrawn, except by the owner's explicit decision: the legacy G01 snapshot of generated images was retired on 27 October 2026, its files deleted and its set and version records kept only as tombstones (`retired_sets`, `withdrawn`) so that the history remains resolvable. This collection does not automatically update the renderer-only publisher, live catalogue or deployment. Collection metadata, source links and edit prompts must remain outside the deployed bundle. `stimuli/SOURCES.md` is the registry of image sources; it is consulted for every search, updated whenever a source proves useful or unusable, and must document every provider in the catalogue. Every version records `content_origin` (`photograph`, `ai-edited-photograph` or `ai-generated`), checked against its lineage. See `stimuli/AGENTS.md` and `stimuli/README.md`.
@@ -74,7 +83,7 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 ### `trial_assignment`
 
-`session_id`, `trial_index`, `condition` (`v1_standard`), `stimulus_id`, `stimulus_version`, `stimulus_hash`, `family`, `mode`, `instruction`, `layout` (tile IDs by display position, row-major from the top left), `instructed_targets`.
+`session_id`, `trial_index`, `condition` (`v1_standard` or `v1_experimental`), `stimulus_id`, `stimulus_version`, `stimulus_hash`, `family`, `mode`, `instruction`, `layout` (tile IDs by display position, row-major from the top left), `instructed_targets`. The session also records its game mode (`standard` or `experimental`), distinct from the grid's single/multiple selection mode. Experimental developer exports include the supplementary interpretation and appeal separately from the original trials.
 
 ### `trial`
 
@@ -90,7 +99,7 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 ## Domain rules
 
-1. **Five rounds, fixed family order:** recognition, semantic description, odd one out, functional categorisation, absurd finale. Round *i* uses a grid of the *i*-th family; a family with no published grid borrows one from the rest of the pool. Grids already used in the session, then those of the previous session, are avoided where the pool allows. Every round has its own seeded layout, so a grid shown twice is laid out differently. The pool holds the fifteen concept grids C01–C15 (27 October 2026), all in the recognition family as category-judgement grids, so round 1 draws from them and the other rounds borrow from the whole pool; a session therefore shows five different grids. (At launch the pool held one grid, shown in all five rounds — the owner's decision of 20 October 2026.)
+1. **Standard: five rounds, fixed family order:** recognition, semantic description, odd one out, functional categorisation, absurd finale. Round *i* uses a grid of the *i*-th family; a family with no published grid borrows one from the rest of the pool. Grids already used in the session, then those of the previous session, are avoided where the pool allows. Every round has its own seeded layout, so a grid shown twice is laid out differently. The pool holds the fifteen concept grids C01–C15 (27 October 2026), all in the recognition family as category-judgement grids, so round 1 draws from them and the other rounds borrow from the whole pool; a session therefore shows five different grids. (At launch the pool held one grid, shown in all five rounds — the owner's decision of 20 October 2026.)
 2. **Seeded randomisation:** one 32-bit session seed (from `crypto.getRandomValues`, or `?seed=` for testing) drives grid choice, tile layout and feedback-line choice through labelled sub-seeds. The seed is recorded.
 3. **Scoring:** in unambiguous grids, a round is passed only when the selected set equals the answer key exactly and the round did not time out. In `category_judgement` grids, borderline tile selections are recorded but ignored when computing correctness, hits, false alarms, correct rejections and the report's clear-cut accuracy denominator. Clear-category choices must match the answer key to pass. Outcomes are `correct`, `partial` (multiple-answer grids with at least one hit), `incorrect` and `timeout`. Tile-level hits, misses, false alarms and correct rejections are recorded.
 4. **Selection:** single-answer grids allow one selection (a new choice replaces the old); multiple-answer grids allow any number. Submitting with nothing selected is refused with a descriptive message; a timeout submits whatever is selected.
@@ -120,6 +129,7 @@ Each tile: `tile_id` (stable, never written into the page), `src` and `src_small
 
 ## Changelog
 
+- **1.22 (4 November 2026):** named the existing implementation Standard and added a selectable Experimental mode with staged assessments, personal decisions, a definition/precedent review, one optional appeal and explicit version-pinned case/comparison links. Original scoring is unchanged; Experimental is separate from the eye-tracking preview.
 - **1.21 (4 November 2026):** extended the houses candidate pool with a shelled snail, treehouse, toy-sized dollhouse and residential houseboat; retained the existing human-sized dollhouse and the nine-tile published format. Image sourcing and publication remain pending.
 - **1.20 (27 October 2026):** all fifteen concept pools are published as grids C01–C15 from reviewed collection final sets; a changed grid is a new set version and only the latest published version of each grid is served.
 - **1.19 (27 October 2026):** the live catalogue is published from reviewed collection final sets (`tools/stimuli/publish.py`), replacing the generated G01 grid; photographs carry their credits in the game, and impossible or borderline objects may be AI edits of verified photographs or images generated with FLUX.2 [klein] 4B, recorded with full provenance.

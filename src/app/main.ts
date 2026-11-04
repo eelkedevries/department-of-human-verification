@@ -17,18 +17,28 @@ import type { Stimulus } from '../stimuli/types';
 import { aboutDialog, briefingScreen, noticeScreen, reportScreen } from './screens';
 import { caseNumber, createSession, newSessionId, TIME_LIMITS, type Session, type TimeOption } from './session';
 import type { EyeTrackingContext, Testimony } from '../eyetracking';
+import { STAGES, borderlineDecisions, callbackNote, type ExperimentalRecord } from '../experimental/model';
+import { appealScreen, definitionScreen, experimentalReport } from '../experimental/screens';
+import { readCase, type SharedCase } from '../experimental/sharing';
+import type { GameMode } from './session';
 
-/** Null unless built with VITE_EYE_TRACKING=1, in which case the eye-tracking code is left out entirely. */
+/** Eye-tracking code is left out entirely unless built with VITE_EYE_TRACKING=1. */
 const loadEyeTracking = import.meta.env.VITE_EYE_TRACKING === '1' ? () => import('../eyetracking') : null;
 
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.1.0';
 
 const params = new URLSearchParams(location.search);
 const devMode = params.has('dev');
 const fixedSeed = params.get('seed');
 const presetTime = params.get('time');
+const importedCase = readCase(location.hash, catalogue);
+const initialSharedCase = importedCase.kind === 'valid' ? importedCase.value : null;
 
 interface State {
+  mode: GameMode;
+  pendingShared: SharedCase | null;
+  reference: string[][] | null;
+  experimental: ExperimentalRecord;
   timeOption: TimeOption;
   session: Session | null;
   collector: Collector | null;
@@ -40,7 +50,11 @@ interface State {
 }
 
 const state: State = {
-  timeOption: presetTime === 'extended' || presetTime === 'none' ? presetTime : 'standard',
+  mode: initialSharedCase || params.get('mode') === 'experimental' ? 'experimental' : 'standard',
+  pendingShared: initialSharedCase,
+  reference: null,
+  experimental: { interpretation: null, appeal: null },
+  timeOption: initialSharedCase?.time ?? (presetTime === 'extended' || presetTime === 'none' ? presetTime : 'standard'),
   session: null,
   collector: null,
   results: [],
@@ -63,10 +77,14 @@ function show(view: HTMLElement, moveFocus = true): void {
 }
 
 /** Drawn ahead of time so the notice and the first session share a case number. */
-let upcomingSeed = fixedSeed !== null ? Number(fixedSeed) >>> 0 : randomSeed();
+let upcomingSeed = initialSharedCase?.seed ?? (fixedSeed !== null ? Number(fixedSeed) >>> 0 : randomSeed());
 
 function startSession(sessionId: string = newSessionId()): void {
-  const seed = upcomingSeed;
+  const shared = state.mode === 'experimental' ? state.pendingShared : null;
+  state.pendingShared = null;
+  state.reference = shared?.answers ?? null;
+  state.experimental = { interpretation: null, appeal: null };
+  const seed = shared?.seed ?? upcomingSeed;
   upcomingSeed = randomSeed();
   state.session = createSession({
     catalogue,
@@ -74,6 +92,8 @@ function startSession(sessionId: string = newSessionId()): void {
     sessionId,
     settings: { time_option: state.timeOption, time_limit_ms: TIME_LIMITS[state.timeOption] },
     avoid: state.previous,
+    mode: state.mode,
+    gridOrder: shared?.grids.map((g) => g.id),
   });
   state.collector = createCollector(() => performance.now());
   state.collector.log({ type: 'session_start' });
@@ -107,22 +127,23 @@ function playRound(index: number): void {
       collector: state.collector!,
       rng: state.rng,
       reducedMotion: prefersReducedMotion(),
-      nextLabel: last ? 'View report' : `Continue to assessment ${index + 2}`,
+      stage: state.mode === 'experimental' ? STAGES[index].title : undefined,
+      caseNote: state.mode === 'experimental' && index === 3 ? callbackNote(state.results) : undefined,
+      nextLabel: last ? (state.mode === 'experimental' ? 'Continue to case review' : 'View report') : `Continue to assessment ${index + 2}`,
       onComplete: (result) => {
         state.collector!.addTrial(result.trial);
         state.results.push({ stimulus, result });
         if (!last) prefetch(stimulusById(session.assignments[index + 1].stimulus_id));
       },
-      onNext: () => (last ? void showReport() : playRound(index + 1)),
+      onNext: () => (last ? void finishAssessments() : playRound(index + 1)),
       instrumentation: state.eye?.recorder,
     }),
   );
   if (index === 0) prefetch(stimulusById(session.assignments[1].stimulus_id));
 }
 
-async function showReport(): Promise<void> {
+async function finishAssessments(): Promise<void> {
   const session = state.session!;
-  state.collector!.log({ type: 'session_end' });
   if (state.eye) {
     state.eye.end('finished');
     const eyetracking = await loadEyeTracking!();
@@ -130,6 +151,29 @@ async function showReport(): Promise<void> {
     const asked = session.assignments[1];
     state.testimony = await new Promise<Testimony>((resolve) => show(eyetracking.testimonyScreen(stimulusById(asked.stimulus_id), asked, resolve)));
   }
+  if (state.mode === 'experimental') {
+    const decisions = borderlineDecisions(state.results);
+    show(definitionScreen(decisions, () => state.collector!.now(), (record) => {
+      state.experimental.interpretation = record;
+      state.collector!.log({ type: 'definition_review', stimulus_id: record.stimulus_id, tile_id: record.tile_id });
+      showAppeal();
+    }, showAppeal));
+    return;
+  }
+  await showReport();
+}
+
+function showAppeal(): void {
+  show(appealScreen(borderlineDecisions(state.results), state.experimental.interpretation, () => state.collector!.now(), (record) => {
+    state.experimental.appeal = record;
+    state.collector!.log({ type: 'appeal_filed', stimulus_id: record.stimulus_id, tile_id: record.tile_id });
+    void showReport();
+  }, () => void showReport()));
+}
+
+async function showReport(): Promise<void> {
+  const session = state.session!;
+  state.collector!.log({ type: 'session_end' });
   const summary = summarise(state.results.map(({ result }) => ({ evaluation: result.evaluation, response_time_ms: result.trial.response_time_ms })));
   const report = reportScreen({
     caseNumber: session.case_number,
@@ -139,6 +183,9 @@ async function showReport(): Promise<void> {
     rounds: state.results,
     reducedMotion: prefersReducedMotion(),
     onReplay: replay,
+    mode: state.mode,
+    onChangeMode: () => showNotice(),
+    supplement: state.mode === 'experimental' ? experimentalReport(session, state.results, borderlineDecisions(state.results), state.experimental, state.reference) : undefined,
     devExport: devMode ? exportSession : undefined,
   });
   if (state.eye) {
@@ -172,6 +219,7 @@ async function exportSession(): Promise<void> {
     APP_VERSION,
   );
   let data: object = base;
+  if (state.mode === 'experimental') data = { ...base, experimental: state.experimental };
   if (state.eye) {
     const { testimonyResponses } = await loadEyeTracking!();
     const eye = state.eye;
@@ -204,14 +252,30 @@ function showBriefing(withTracking: boolean): void {
       const sessionId = newSessionId();
       state.eye = await eyetracking.setUpEyeTracking(show, sessionId);
       startSession(sessionId);
-    }),
+    }, state.mode),
   );
 }
 
 async function begin(): Promise<void> {
-  if (!loadEyeTracking) return showBriefing(false);
+  if (!loadEyeTracking || state.mode === 'experimental') return showBriefing(false);
   const { choiceScreen } = await loadEyeTracking();
   show(choiceScreen(() => showBriefing(false), () => showBriefing(true)));
 }
 
-show(noticeScreen(caseNumber(upcomingSeed, new Date().getFullYear()), () => void begin()), false);
+function showNotice(first = false): void {
+  state.eye?.badge.remove();
+  state.eye = null;
+  document.body.classList.remove('eyetracking');
+  const notice = state.pendingShared
+    ? (state.pendingShared.answers ? 'A shared Experimental comparison case is ready. The other selections stay hidden until your report. The timing setting is preselected; you may change it in the briefing.' : 'A shared Experimental case is ready. It contains no answers. The timing setting is preselected; you may change it in the briefing.')
+    : first && importedCase.kind === 'invalid' ? importedCase.message : undefined;
+  show(noticeScreen(caseNumber(upcomingSeed, new Date().getFullYear()), (mode) => {
+    if (mode === 'standard' && state.pendingShared) { state.pendingShared = null; upcomingSeed = randomSeed(); }
+    state.mode = mode;
+    // Consuming a shared case never leaves the previous sender's answers in a replay URL.
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+    void begin();
+  }, state.mode, notice), !first);
+}
+
+showNotice(true);

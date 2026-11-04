@@ -31,6 +31,8 @@ export interface RoundOptions {
   onComplete(result: RoundResult): void;
   onNext(): void;
   nextLabel: string;
+  stage?: string;
+  caseNote?: string;
   /** Optional observer of stimulus onset and offset (version 2 gaze recording). */
   instrumentation?: RoundInstrumentation;
 }
@@ -144,7 +146,8 @@ export function renderRound(options: RoundOptions): HTMLElement {
       progress(assignment.trial_index, options.total),
       h('p', { class: 'case-ref' }, `Case no. ${options.caseNumber}`, h('br'), `Subject: ${labels.subject}`),
     ),
-    h('p', { class: 'label' }, labels.category),
+    h('p', { class: 'label' }, options.stage ? `Experimental · ${options.stage}` : labels.category),
+    options.caseNote ? h('details', { class: 'case-note' }, h('summary', {}, 'Earlier decision on file'), h('p', {}, options.caseNote)) : null,
     h('h1', { class: 'instruction', id: instructionId, tabindex: -1 }, stimulus.instruction),
     timerBox,
     status,

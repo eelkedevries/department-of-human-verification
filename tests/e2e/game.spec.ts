@@ -108,6 +108,8 @@ test('the whole game can be played with the keyboard alone', async ({ page }) =>
   await page.goto('./');
   await page.keyboard.press('Tab'); // skip link
   await page.keyboard.press('Tab');
+  await expect(page.getByRole('radio', { name: 'Standard', exact: true })).toBeFocused();
+  await page.keyboard.press('Tab');
   await expect(page.getByRole('button', { name: 'Begin assessment' })).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.getByRole('heading', { name: 'How the assessments work' })).toBeFocused();

@@ -2,8 +2,10 @@
 
 import { createRng, deriveSeed, pick, shuffle } from '../game/rng';
 import type { Catalogue, Family, SelectionMode, Stimulus } from '../stimuli/types';
+import { experimentalOrder } from '../experimental/model';
 
 export type TimeOption = 'standard' | 'extended' | 'none';
+export type GameMode = 'standard' | 'experimental';
 
 export const TIME_LIMITS: Record<TimeOption, number | null> = {
   standard: 15_000,
@@ -19,8 +21,7 @@ export interface Settings {
 export interface TrialAssignment {
   session_id: string;
   trial_index: number;
-  /** V1 has a single condition; V2 adds instruction-phrasing conditions. */
-  condition: 'v1_standard';
+  condition: 'v1_standard' | 'v1_experimental';
   stimulus_id: string;
   stimulus_version: number;
   stimulus_hash: string;
@@ -33,6 +34,7 @@ export interface TrialAssignment {
 }
 
 export interface Session {
+  mode: GameMode;
   session_id: string;
   seed: number;
   case_number: string;
@@ -51,6 +53,9 @@ export interface SessionOptions {
   /** Stimuli shown in the previous session; avoided where the pool allows. */
   avoid?: readonly string[];
   now?: Date;
+  mode?: GameMode;
+  /** Validated, version-pinned shared cases bypass fresh grid selection. */
+  gridOrder?: readonly string[];
 }
 
 /**
@@ -76,8 +81,10 @@ export function caseNumber(seed: number, year: number): string {
  * small (at launch, one grid shown in all five rounds). Grids already used in
  * this session, then those of the previous session, are avoided where the pool allows.
  */
-export function createSession({ catalogue, seed, sessionId, settings, avoid = [], now = new Date() }: SessionOptions): Session {
+export function createSession({ catalogue, seed, sessionId, settings, avoid = [], now = new Date(), mode = 'standard', gridOrder }: SessionOptions): Session {
   if (catalogue.stimuli.length === 0) throw new Error('The catalogue has no grids.');
+  if (gridOrder && (mode !== 'experimental' || gridOrder.length !== 5 || new Set(gridOrder).size !== 5 || gridOrder.some((id) => !catalogue.stimuli.some((s) => s.stimulus_id === id)))) throw new Error('Invalid shared assessment order.');
+  const staged = mode === 'experimental' ? experimentalOrder(catalogue, seed, avoid) : null;
   const choose = createRng(deriveSeed(seed, 'grids'));
   const used: string[] = [];
   const assignments = FAMILY_ORDER.map((family, index): TrialAssignment => {
@@ -88,7 +95,9 @@ export function createSession({ catalogue, seed, sessionId, settings, avoid = []
       pool.filter((s) => !used.includes(s.stimulus_id)),
       pool,
     ].find((candidates) => candidates.length > 0)!;
-    const stimulus: Stimulus = pick(preferred, choose);
+    const stimulus: Stimulus = gridOrder
+      ? catalogue.stimuli.find((s) => s.stimulus_id === gridOrder[index])!
+      : staged ? staged[index] : pick(preferred, choose);
     used.push(stimulus.stimulus_id);
     // The round index is part of the seed, so a grid shown twice is laid out differently each time.
     const layout = shuffle(
@@ -98,7 +107,7 @@ export function createSession({ catalogue, seed, sessionId, settings, avoid = []
     return {
       session_id: sessionId,
       trial_index: index,
-      condition: 'v1_standard',
+      condition: mode === 'experimental' ? 'v1_experimental' : 'v1_standard',
       stimulus_id: stimulus.stimulus_id,
       stimulus_version: stimulus.version,
       stimulus_hash: stimulus.hash,
@@ -110,6 +119,7 @@ export function createSession({ catalogue, seed, sessionId, settings, avoid = []
     };
   });
   return {
+    mode,
     session_id: sessionId,
     seed,
     case_number: caseNumber(seed, now.getFullYear()),

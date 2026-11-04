@@ -1,7 +1,7 @@
 /**
  * Local-only behavioural log. Events stay in memory for the length of the page and
- * are never transmitted or stored: the only way out is the developer export, which
- * the player has to request explicitly.
+ * are never transmitted or stored. The developer export is explicit; Experimental
+ * may also copy original tile selections into an explicitly labelled comparison link.
  */
 
 import type { Session, TrialAssignment } from '../app/session';
@@ -17,7 +17,9 @@ export type GameEventType =
   | 'timeout'
   | 'trial_end'
   | 'visibility'
-  | 'session_end';
+  | 'session_end'
+  | 'definition_review'
+  | 'appeal_filed';
 
 export interface GameEvent {
   type: GameEventType;

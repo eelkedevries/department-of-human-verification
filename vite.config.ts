@@ -46,6 +46,8 @@ function webGazerAssets(): Plugin {
 
 export default defineConfig({
   base: BASE,
+  server: { allowedHosts: ['terminal.local'] },
+  preview: { allowedHosts: ['terminal.local'] },
   plugins: process.env.VITE_EYE_TRACKING === '1' ? [webGazerAssets()] : [],
   build: {
     sourcemap: false,

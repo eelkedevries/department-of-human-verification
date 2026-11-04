@@ -7,12 +7,22 @@ import { h } from '../components/dom';
 import { FAMILY_LABELS, FICTION_NOTICE, STAMPS, VERDICTS } from '../content/copy';
 import { catalogue } from '../stimuli/catalogue';
 import type { Stimulus, StimulusTile } from '../stimuli/types';
-import { TIME_LIMITS, type TimeOption } from './session';
+import { TIME_LIMITS, type GameMode, type TimeOption } from './session';
 
 /** Builds made with VITE_EYE_TRACKING=1 offer the optional eye-tracking preview, and say so. */
 const EYE_TRACKING_BUILD = import.meta.env.VITE_EYE_TRACKING === '1';
 
-export function noticeScreen(caseNumber: string, onBegin: () => void): HTMLElement {
+export function noticeScreen(caseNumber: string, onBegin: (mode: GameMode) => void, mode: GameMode = 'standard', sharedNotice?: string): HTMLElement {
+  const modes = h('fieldset', { class: 'options mode-options' },
+    h('legend', { class: 'label' }, 'Choose a game mode'),
+    ...([
+      ['standard', 'Standard', 'Five visual assessments and the original verification report.'],
+      ['experimental', 'Experimental', 'A case file with five staged assessments, earlier decisions, a definition challenge and an optional appeal.'],
+    ] as const).map(([value, title, description]) => h('label', { class: 'option mode-option' },
+      h('input', { type: 'radio', name: 'game-mode', value, checked: mode === value, 'aria-label': title }),
+      h('span', {}, h('strong', {}, title), h('span', { class: 'mode-description' }, description)),
+    )),
+  );
   return h(
     'section',
     { class: 'panel', 'aria-labelledby': 'notice-title' },
@@ -26,11 +36,13 @@ export function noticeScreen(caseNumber: string, onBegin: () => void): HTMLEleme
       h('p', {}, 'Recent developments in artificial intelligence have raised some concerns.'),
       h('p', {}, 'To maintain your human status, you must complete five routine visual assessments.'),
     ),
-    h('div', { class: 'actions' }, button('Begin assessment', onBegin, { wide: true })),
+    sharedNotice ? h('p', { class: 'case-notice', role: 'status' }, sharedNotice) : null,
+    modes,
+    h('div', { class: 'actions' }, button('Begin assessment', () => onBegin((modes.querySelector<HTMLInputElement>('input:checked')?.value as GameMode) ?? 'standard'), { wide: true })),
   );
 }
 
-export function briefingScreen(current: TimeOption, onProceed: (option: TimeOption) => void): HTMLElement {
+export function briefingScreen(current: TimeOption, onProceed: (option: TimeOption) => void, mode: GameMode = 'standard'): HTMLElement {
   const describe = (option: TimeOption) => {
     const ms = TIME_LIMITS[option];
     return ms === null ? 'take as long as you need' : `${ms / 1000} seconds per assessment`;
@@ -57,7 +69,7 @@ export function briefingScreen(current: TimeOption, onProceed: (option: TimeOpti
   return h(
     'section',
     { class: 'panel', 'aria-labelledby': 'briefing-title' },
-    h('p', { class: 'label' }, 'Briefing note'),
+    h('p', { class: 'label' }, `Briefing note · ${mode === 'experimental' ? 'Experimental' : 'Standard'}`),
     h('h1', { class: 'notice-title', id: 'briefing-title', tabindex: -1 }, 'How the assessments work'),
     h(
       'div',
@@ -72,6 +84,7 @@ export function briefingScreen(current: TimeOption, onProceed: (option: TimeOpti
       ),
       h('p', {}, 'The Department appreciates promptness but does not insist on it. Choose a longer limit if you prefer.'),
       h('p', {}, 'Some classifications are debatable. Use your judgement; disputed cases are recorded rather than marked wrong.'),
+      mode === 'experimental' ? h('p', {}, 'Your case moves from first impressions to a question of residence. Afterwards, you may revisit a decision under a different definition and file one appeal. These reviews are untimed and do not change your assessment score.') : null,
       h('p', { class: 'fine-print' }, 'Keyboard: arrow keys move between images, Space selects, and the keys 1 to 9 select an image directly.'),
     ),
     fieldset,
@@ -95,6 +108,9 @@ export interface ReportInput {
   rounds: { stimulus: Stimulus; result: RoundResult }[];
   reducedMotion: boolean;
   onReplay: () => void;
+  onChangeMode?: () => void;
+  mode?: GameMode;
+  supplement?: HTMLElement;
   devExport?: () => void;
 }
 
@@ -135,7 +151,7 @@ export function reportScreen(input: ReportInput): HTMLElement {
     h(
       'div',
       { class: 'report-head' },
-      h('div', {}, h('p', { class: 'label' }, 'Form HV-9'), h('h1', { class: 'notice-title', id: 'report-title', tabindex: -1 }, 'Human Verification Report')),
+      h('div', {}, h('p', { class: 'label' }, `Form HV-9 · ${input.mode === 'experimental' ? 'Experimental' : 'Standard'}`), h('h1', { class: 'notice-title', id: 'report-title', tabindex: -1 }, 'Human Verification Report')),
       h('p', { class: 'case-ref' }, `Case no. ${input.caseNumber}`, h('br'), `Issued ${dateText}`),
     ),
     h(
@@ -159,7 +175,8 @@ export function reportScreen(input: ReportInput): HTMLElement {
     ),
     h('h2', { class: 'label' }, 'Decisions on file'),
     decisions,
-    h('div', { class: 'actions' }, button('Request re-assessment', input.onReplay, { wide: true })),
+    input.supplement,
+    h('div', { class: 'actions' }, button('Request re-assessment', input.onReplay, { wide: true }), input.onChangeMode ? button('Change game mode', input.onChangeMode, { wide: true, secondary: true }) : null),
     input.devExport
       ? h(
           'div',
@@ -207,9 +224,11 @@ export function aboutDialog(): HTMLDialogElement {
         EYE_TRACKING_BUILD
           ? h('li', {}, 'It never turns on your camera unless you choose eye-tracking and agree to it. The camera picture is processed in your browser and never saved or sent.')
           : h('li', {}, 'It contains no eye-tracking and never asks for your camera.'),
-        h('li', {}, 'It sends nothing to a server and stores nothing on your device. Your answers exist only in this tab and disappear when you close it.'),
+        h('li', {}, 'It sends no answers to a server and stores no progress on your device. Answers exist in this tab. In Experimental mode, you may explicitly copy a comparison link containing your assessment choices; anyone with that link can read them.'),
         h('li', {}, 'It uses no cookies, analytics or third-party services.'),
       ),
+      h('h3', {}, 'Game modes'),
+      h('p', {}, 'Standard is the original five-assessment game. Experimental adds an ordered case file, specific decisions in your report, an unscored definition review, one optional appeal and shareable cases. Both modes keep borderline choices out of the clear-cut score. A comparison shows agreement and disagreement, not which person is right.'),
       EYE_TRACKING_BUILD
         ? h('p', {}, 'Eye-tracking is a research preview using WebGazer (Brown University, GPL-3.0). It is optional; the game is the same without it.')
         : h('p', {}, 'A later version may offer optional, clearly explained eye-tracking for research. It will ask first, and the game will always remain playable without it.'),
