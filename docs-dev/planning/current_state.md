@@ -29,6 +29,7 @@ This file records what *is* (current reality). The binding design canon is `docs
 
 ## In progress / next
 
+- **Houses additions (4 November 2026):** the owner requested a shelled snail, treehouse, dollhouse and “house boot” (interpreted as houseboat). The concept notes now distinguish an ordinary toy dollhouse from the existing human-sized generated variant. These are additional candidate concepts; images for the four new variants and a revised C05 selection are not yet produced. The published grid remains C05 version 1 and all collection counts above are unchanged.
 - **V1 next:** seven concept items still lack a usable image after two render attempts (listed in `stimuli/SOURCES.md`); later grid versions may add them. The set-level variety targets of `docs/stimuli.md` were checked per set by review but not yet measured across all fifteen pools.
 - Real-webcam tests of the separately flagged preview remain a deferred project.
 
@@ -60,3 +61,4 @@ This file records what *is* (current reality). The binding design canon is `docs
 - `041_computers_screens_not_computers.md` (computers theme redone: screens are not computers; C10 version 2)
 - `042_computers_contain_a_computer.md` (if it has a computer, it is a computer; C10 version 3)
 - `007_v1_surreal_bicycle_grid.md` (run last, on 27 October 2026: C01 version 2 with two impossible bicycles, three borderline cases and two non-members; borderline selections confirmed in the browser as “Judgement noted” and excluded from the clear-cut count. Its instruction to keep G01 as a fallback was not followed, because the specification records G01's retirement on the owner's decision.)
+- `043_houses_category_candidates.md` (4 November 2026: documented the four requested houses candidates and existing dollhouse availability; no image registration or publication)

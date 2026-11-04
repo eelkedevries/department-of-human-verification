@@ -36,6 +36,19 @@ The ordinary player-facing question is **“Select all images containing a [them
 
 **Computers: if it has a computer, it is a computer** (owner's rules, 27 October 2026). An image counts when it contains a computer: a laptop, a tablet, a desktop tower, an all-in-one (the computer is inside the display) or a bare single-board computer. A screen or monitor on its own has no computer in it and is not one, so impossible computers must keep the computer itself in view. Borderline cases are those where it is unclear whether there is a computer at all, such as a potato wired to a monitor or a toy laptop.
 
+### Additional houses candidates (4 November 2026)
+
+The owner requested four additions to the houses pool. These extend its twelve base ideas; they do not replace existing concepts or increase the nine-tile grid size. Keep the ordinary instruction “Select all images containing a house.” The proposed roles below require visual review before any final selection.
+
+| Candidate | Image brief | Proposed category treatment | Availability |
+|---|---|---|---|
+| Shelled snail | One ordinary living land snail with its complete spiral shell clearly visible on its back, on a leaf or stone. Keep the shell natural rather than replacing it with a miniature building. | Borderline candidate: a shell can be described as the snail's home or “house”, particularly in Dutch. Do not treat that interpretation as an objective error. | New concept; no image registered. The existing hermit crab carrying a brick house is a different concept. |
+| Treehouse | One recognisable wooden treehouse supported by a living tree, with its platform, door or windows and access visible in a quiet natural setting. | Review the distinction between a dwelling, a play structure and a shelter. Keep genuinely disputed cases borderline. | New concept; no image registered. |
+| Toy dollhouse | One ordinary toy-sized dollhouse on a table or floor, with scale evident and the complete house visible. | Borderline candidate: a representation of a house rather than a human dwelling. | New scale variant; no toy-sized image registered. A generated human-sized dollhouse with occupants already exists in the collection, but is not in C05 version 1. Reuse that asset if the human-sized variant is selected. |
+| Houseboat | One residential houseboat with a recognisable dwelling on a floating hull, visibly moored with a plausible waterline and access. An ordinary boat alone does not meet this brief. | Review residential function against building form and mobility; keep genuinely disputed membership borderline. | New concept; no image registered. “House boot” is interpreted as “houseboat” (woonboot), separately from the existing house walking in boots. |
+
+Use existing suitable photographs where available, then search for licensed photographs of these real objects. New files require the collection's usual rights, clarity, standardisation and review steps. Adding these concepts does not claim that images have been produced or that the live grid has changed.
+
 All pictures must have documented provenance and rights-cleared assets. These are **original creative briefs**, not claims that the exact objects already exist or permission to reproduce specific artworks. Avoid gratuitous gore, injury, copied characters or copyrighted stills.
 
 ### Editorial filter for bizarre and debatable ideas
