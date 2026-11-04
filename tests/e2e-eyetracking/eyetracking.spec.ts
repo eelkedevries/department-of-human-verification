@@ -1,7 +1,7 @@
 // Code tests of the optional eye-tracking path. The synthetic tracker reports the
 // pointer position as "gaze"; it exercises the flow, not the measurement.
 import { expect, test, type Page } from '@playwright/test';
-import { answerCorrectly, currentGrid, next } from '../e2e/helpers';
+import { answerCorrectly, clickOnScreen, currentGrid, next } from '../e2e/helpers';
 
 /** Records every camera stream the page opens, so the test can check that it was released. */
 async function watchCamera(page: Page, deny = false): Promise<{ requests: string[] }> {
@@ -31,9 +31,9 @@ const camera = (page: Page) =>
 
 async function toConsent(page: Page, query = ''): Promise<void> {
   await page.goto(`./${query}`);
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
-  await page.getByRole('button', { name: 'Play with eye-tracking' }).click();
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Begin assessment');
+  await clickOnScreen(page, 'Play with eye-tracking');
+  await clickOnScreen(page, 'Proceed to assessment 1');
   await expect(page.getByRole('heading', { name: 'Eye-tracking: what happens' })).toBeVisible();
 }
 
@@ -48,7 +48,7 @@ async function consent(page: Page): Promise<void> {
 
 async function calibrateAndValidate(page: Page, look: boolean): Promise<void> {
   await expect(page.getByRole('button', { name: 'Continue to calibration' })).toBeEnabled({ timeout: 20_000 });
-  await page.getByRole('button', { name: 'Continue to calibration' }).click();
+  await clickOnScreen(page, 'Continue to calibration');
   for (let i = 0; i < 9; i++) {
     const dot = page.locator('.calibration-dot');
     for (let c = 0; c < 3; c++) await dot.click();
@@ -67,9 +67,9 @@ async function calibrateAndValidate(page: Page, look: boolean): Promise<void> {
 test('playing normally never asks for the camera', async ({ page }) => {
   await watchCamera(page);
   await page.goto('./');
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
-  await page.getByRole('button', { name: 'Play normally' }).click();
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Begin assessment');
+  await clickOnScreen(page, 'Play normally');
+  await clickOnScreen(page, 'Proceed to assessment 1');
   for (let round = 0; round < 5; round++) {
     await answerCorrectly(page);
     await next(page, round);
@@ -82,7 +82,7 @@ test('playing normally never asks for the camera', async ({ page }) => {
 test('declining consent returns to the ordinary game without the camera', async ({ page }) => {
   await watchCamera(page);
   await toConsent(page);
-  await page.getByRole('button', { name: 'Play without eye-tracking' }).click();
+  await clickOnScreen(page, 'Play without eye-tracking');
   await currentGrid(page);
   expect((await camera(page)).calls).toBe(0);
 });
@@ -93,7 +93,7 @@ test('a refused camera falls back to the ordinary game', async ({ page }) => {
   await consent(page);
   await expect(page.getByRole('status').filter({ hasText: 'The camera was not allowed' })).toBeVisible({ timeout: 20_000 });
   await expect(page.getByRole('button', { name: 'Continue to calibration' })).toHaveCount(0);
-  await page.getByRole('button', { name: 'Play normally' }).click();
+  await clickOnScreen(page, 'Play normally');
   await currentGrid(page);
   await expect(page.locator('.camera-badge')).toHaveCount(0);
 });
@@ -106,7 +106,7 @@ test('WebGazer runs on a camera without a face, offers no calibration, and relea
   expect((await camera(page)).live).toBeGreaterThan(0);
   await page.waitForTimeout(3_000);
   await expect(page.getByRole('button', { name: 'Continue to calibration' })).toBeDisabled();
-  await page.getByRole('button', { name: 'Play without eye-tracking' }).click();
+  await clickOnScreen(page, 'Play without eye-tracking');
   await currentGrid(page);
   expect((await camera(page)).live).toBe(0);
   await expect(page.locator('#webgazerVideoContainer')).toHaveCount(0);
@@ -122,7 +122,7 @@ test('a failed check offers recalibration or the ordinary game, never tracking',
   await expect(page.getByRole('heading', { name: 'The check did not pass' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Continue with eye-tracking' })).toHaveCount(0);
   await expect(page.getByRole('button', { name: 'Calibrate again' })).toBeVisible();
-  await page.getByRole('button', { name: 'Continue without eye-tracking' }).click();
+  await clickOnScreen(page, 'Continue without eye-tracking');
   await currentGrid(page);
   expect((await camera(page)).live).toBe(0);
 });
@@ -133,7 +133,7 @@ test('a passed check records the rounds, asks for testimony before the reveal, a
   await consent(page);
   await calibrateAndValidate(page, true);
   await expect(page.getByRole('heading', { name: 'The check passed' })).toBeVisible();
-  await page.getByRole('button', { name: 'Continue with eye-tracking' }).click();
+  await clickOnScreen(page, 'Continue with eye-tracking');
   await expect(page.locator('.camera-badge')).toContainText('Camera on');
   for (let round = 0; round < 5; round++) {
     const { targets } = await currentGrid(page);
@@ -150,7 +150,7 @@ test('a passed check records the rounds, asks for testimony before the reveal, a
   await expect(page.getByText('Surveillance record')).toHaveCount(0);
   await page.locator('.testimony-grid .tile').nth(4).click();
   await page.getByLabel('What helped you decide? (optional)').fill('The tie.');
-  await page.getByRole('button', { name: 'Submit testimony' }).click();
+  await clickOnScreen(page, 'Submit testimony');
   await expect(page.getByRole('heading', { name: 'Human Verification Report' })).toBeVisible();
   await expect(page.getByText('Your file: three accounts')).toBeVisible();
   await expect(page.locator('.reveal-round')).toHaveCount(5);
@@ -159,7 +159,7 @@ test('a passed check records the rounds, asks for testimony before the reveal, a
   await expect(page.getByText(/You said the first image to catch your attention was/)).toBeVisible();
 
   const download = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Export session log (JSON)' }).click();
+  await clickOnScreen(page, 'Export session log (JSON)');
   const file = await download;
   const data = JSON.parse(Buffer.concat(await (await file.createReadStream()).toArray()).toString('utf8'));
   expect(data.eye_tracking.consent.camera_opt_in).toBe(true);
@@ -177,7 +177,7 @@ test('the Stop button switches the camera off mid-game and the game carries on',
   await toConsent(page, '?tracker=synthetic');
   await consent(page);
   await calibrateAndValidate(page, true);
-  await page.getByRole('button', { name: 'Continue with eye-tracking' }).click();
+  await clickOnScreen(page, 'Continue with eye-tracking');
   await answerCorrectly(page);
   await next(page, 0);
   await page.locator('.camera-badge').getByRole('button', { name: 'Stop' }).click();
@@ -187,7 +187,7 @@ test('the Stop button switches the camera off mid-game and the game carries on',
     await answerCorrectly(page);
     await next(page, round);
   }
-  await page.getByRole('button', { name: 'I do not remember' }).click();
+  await clickOnScreen(page, 'I do not remember');
   await expect(page.getByText(/You stopped eye-tracking during the game/)).toBeVisible();
   await expect(page.getByText(/No record shown/).first()).toBeVisible();
 });

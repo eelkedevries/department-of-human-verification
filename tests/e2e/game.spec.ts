@@ -2,6 +2,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import {
   answerCorrectly,
+  clickOnScreen,
   answerWrongly,
   catalogue,
   currentGrid,
@@ -35,7 +36,7 @@ test('five rounds answered correctly earn a verdict, and a replay starts a new s
   await expectNoHorizontalOverflow(page);
   await expect(page.getByRole('button', { name: /Export session log/ })).toHaveCount(0);
 
-  await page.getByRole('button', { name: 'Request re-assessment' }).click();
+  await clickOnScreen(page, 'Request re-assessment');
   const second: { id: string; order: string; family: string }[] = [];
   for (let round = 0; round < 5; round++) {
     const { stimulus, alts } = await currentGrid(page);
@@ -70,7 +71,7 @@ test('the game starts where crypto.randomUUID is missing (plain-http pages, olde
 
 test('wrong, partial and empty answers are handled and explained', async ({ page }) => {
   await startGame(page);
-  await page.getByRole('button', { name: 'Submit selection' }).click();
+  await clickOnScreen(page, 'Submit selection');
   await expect(page.getByRole('alert')).toContainText('Selection required');
 
   // A multiple-selection grid: one target alone is partial.
@@ -78,7 +79,7 @@ test('wrong, partial and empty answers are handled and explained', async ({ page
   test.skip(stimulus.mode !== 'multiple', 'round 1 is not a multiple-selection grid');
   await page.locator('.tile').nth(targets[0]).click();
   await expect(page.locator('.tile').nth(targets[0])).toHaveAttribute('aria-pressed', 'true');
-  await page.getByRole('button', { name: 'Submit selection' }).click();
+  await clickOnScreen(page, 'Submit selection');
   await expect(page.locator('.stamp')).toHaveText('Noted');
   await expect(page.locator('.verdict-badge.miss')).toHaveCount(targets.length - 1);
   await next(page, 0);
@@ -90,12 +91,12 @@ test('wrong, partial and empty answers are handled and explained', async ({ page
   await page.locator('.tile').nth(wrong[1]).click();
   const single = second.stimulus.mode === 'single';
   await expect(page.locator('.tile[aria-pressed="true"]')).toHaveCount(single ? 1 : 2);
-  await page.getByRole('button', { name: 'Submit selection' }).click();
+  await clickOnScreen(page, 'Submit selection');
   await expect(page.locator('.stamp')).toHaveText('Rejected');
   await expect(page.locator('.verdict-badge.false-alarm')).toHaveCount(single ? 1 : 2);
-  await page.getByRole('button', { name: 'Read explanation' }).click();
+  await clickOnScreen(page, 'Read explanation');
   await expect(page.locator('.feedback-explanation')).not.toBeEmpty();
-  await page.getByRole('button', { name: 'Close', exact: true }).click();
+  await clickOnScreen(page, 'Close');
   await next(page, 1);
 
   for (let round = 2; round < 5; round++) {
@@ -173,9 +174,9 @@ test('a round that runs out of time is recorded as a timeout and the game contin
 
 test('the untimed option shows no countdown', async ({ page }) => {
   await page.goto('./');
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
+  await clickOnScreen(page, 'Begin assessment');
   await page.getByRole('radio', { name: /No time limit/ }).check();
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Proceed to assessment 1');
   await expect(page.locator('.timer')).toHaveText('No time limit');
 });
 
@@ -186,7 +187,7 @@ test('the developer export is offered only with ?dev and contains the session lo
     await next(page, round);
   }
   const download = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Export session log (JSON)' }).click();
+  await clickOnScreen(page, 'Export session log (JSON)');
   const file = await download;
   expect(file.suggestedFilename()).toMatch(/^dhv-DHV-\d{4}-\d{4}-developer-export\.json$/);
   const data = JSON.parse(await (await file.createReadStream()).toArray().then((chunks) => Buffer.concat(chunks).toString('utf8')));
@@ -238,20 +239,20 @@ test('screens pass automated accessibility checks', async ({ page }) => {
   };
   await page.goto('./');
   await check('notice');
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
+  await clickOnScreen(page, 'Begin assessment');
   await check('briefing');
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Proceed to assessment 1');
   await currentGrid(page);
   await page.locator('.tile').first().click();
   await check('round');
-  await page.getByRole('button', { name: 'Submit selection' }).click();
+  await clickOnScreen(page, 'Submit selection');
   await check('feedback');
   for (let round = 0; round < 5; round++) {
     if (round > 0) await answerWrongly(page);
     await next(page, round);
   }
   await check('report');
-  await page.getByRole('button', { name: 'About this game' }).click();
+  await clickOnScreen(page, 'About this game');
   await expect(page.getByRole('dialog')).toBeVisible();
   await check('about');
 });

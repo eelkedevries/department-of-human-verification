@@ -20,6 +20,14 @@ interface Catalogue {
 
 export const catalogue: Catalogue = JSON.parse(readFileSync('src/stimuli/catalogue.json', 'utf8'));
 
+/** Reveal a reading-page control through native focus, then click it on screen. */
+export async function clickOnScreen(page: Page, name: string): Promise<void> {
+  const control = page.getByRole('button', { name, exact: true });
+  await control.focus();
+  await expect(control).toBeInViewport({ ratio: 1 });
+  await control.click();
+}
+
 /** Watches for anything version 1 must never do: camera access, storage, or sending data. */
 export async function installGuards(page: Page): Promise<{ requests: { method: string; url: string }[] }> {
   const requests: { method: string; url: string }[] = [];

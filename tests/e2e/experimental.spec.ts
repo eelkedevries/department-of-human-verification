@@ -1,12 +1,12 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page } from '@playwright/test';
-import { currentGrid, expectNoHorizontalOverflow, expectNothingLeft, installGuards } from './helpers';
+import { clickOnScreen, currentGrid, expectNoHorizontalOverflow, expectNothingLeft, installGuards } from './helpers';
 
 async function startExperimental(page: Page, query = '?time=none&seed=2026&dev'): Promise<void> {
   await page.goto(`./${query}`);
   await page.getByRole('radio', { name: 'Experimental', exact: true }).check();
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Begin assessment');
+  await clickOnScreen(page, 'Proceed to assessment 1');
 }
 
 async function finishAssessments(page: Page, includeBorderline = true): Promise<{ id: string; alts: string[]; selected: string[] }[]> {
@@ -23,15 +23,15 @@ async function finishAssessments(page: Page, includeBorderline = true): Promise<
     seen.push({ id: stimulus.stimulus_id, alts, selected });
     await expect(page.getByRole('heading', { name: 'Independent selection comparison' })).toHaveCount(0);
     await expectNoHorizontalOverflow(page);
-    await page.getByRole('button', { name: 'Submit selection' }).click();
-    await page.getByRole('button', { name: round < 4 ? `Continue to assessment ${round + 2}` : 'Continue to case review' }).click();
+    await clickOnScreen(page, 'Submit selection');
+    await clickOnScreen(page, round < 4 ? `Continue to assessment ${round + 2}` : 'Continue to case review');
   }
   return seen;
 }
 
 async function skipReviews(page: Page): Promise<void> {
-  await page.getByRole('button', { name: 'Skip definition review' }).click();
-  await page.getByRole('button', { name: 'Continue without appeal' }).click();
+  await clickOnScreen(page, 'Skip definition review');
+  await clickOnScreen(page, 'Continue without appeal');
 }
 
 async function accessible(page: Page): Promise<void> {
@@ -52,15 +52,15 @@ test('Experimental records a definition and an appeal without changing original 
   await accessible(page);
   await page.getByRole('radio', { name: 'A home for any inhabitant', exact: true }).check();
   await expect(page.locator('.review-question')).toContainText('A home for any inhabitant');
-  await page.getByRole('button', { name: 'No, it does not', exact: true }).click();
+  await clickOnScreen(page, 'No, it does not');
   await expect(page.getByRole('heading', { name: 'Optional appeal' })).toBeFocused();
   await expect(page.getByText('You distinguished this case', { exact: false })).toBeVisible();
   await accessible(page);
-  await page.getByRole('button', { name: 'File appeal', exact: true }).click();
+  await clickOnScreen(page, 'File appeal');
   await expect(page.getByRole('alert')).toHaveText('Choose a reason for your appeal.');
   await page.getByRole('radio', { name: 'Exclude it', exact: true }).check();
   await page.getByRole('radio', { name: 'What it is used for', exact: true }).check();
-  await page.getByRole('button', { name: 'File appeal', exact: true }).click();
+  await clickOnScreen(page, 'File appeal');
   await expect(page.getByRole('heading', { name: 'Human Verification Report' })).toBeVisible();
   await expect(page.locator('.fact').first()).toContainText('5 of 5');
   await expect(page.locator('.appeal-record')).toContainText('Function desk');
@@ -68,7 +68,7 @@ test('Experimental records a definition and an appeal without changing original 
   await expect(page.getByRole('heading', { name: 'Your decisions on file' })).toBeVisible();
   await accessible(page);
   const downloadPromise = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Export session log (JSON)' }).click();
+  await clickOnScreen(page, 'Export session log (JSON)');
   const download = await downloadPromise;
   const data = JSON.parse(await (await download.createReadStream()).toArray().then((chunks) => Buffer.concat(chunks).toString('utf8')));
   expect(data.session.mode).toBe('experimental');
@@ -85,16 +85,16 @@ test('both reviews can be skipped and the mode can be changed to Standard', asyn
   await skipReviews(page);
   await expect(page.getByText('No supplementary definition review was filed.')).toBeVisible();
   await expect(page.getByText('No appeal was filed.', { exact: false })).toBeVisible();
-  await page.getByRole('button', { name: 'Change game mode' }).click();
+  await clickOnScreen(page, 'Change game mode');
   await page.getByRole('radio', { name: 'Standard', exact: true }).check();
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Begin assessment');
+  await clickOnScreen(page, 'Proceed to assessment 1');
   await expect(page.getByText('Experimental · First impressions', { exact: true })).toHaveCount(0);
   for (let round = 0; round < 5; round++) {
     const { targets } = await currentGrid(page);
     for (const position of targets) await page.locator('.tile').nth(position).click();
-    await page.getByRole('button', { name: 'Submit selection' }).click();
-    await page.getByRole('button', { name: round < 4 ? `Continue to assessment ${round + 2}` : 'View report' }).click();
+    await clickOnScreen(page, 'Submit selection');
+    await clickOnScreen(page, round < 4 ? `Continue to assessment ${round + 2}` : 'View report');
   }
   await expect(page.locator('.experimental-report')).toHaveCount(0);
 });
@@ -103,18 +103,18 @@ test('a comparison link reproduces the case and conceals the other choices until
   await startExperimental(page);
   const original = await finishAssessments(page);
   await skipReviews(page);
-  await page.getByRole('button', { name: 'Copy case link', exact: true }).click();
+  await clickOnScreen(page, 'Copy case link');
   const caseOnly = await page.getByRole('textbox', { name: 'Link to copy' }).inputValue();
   expect(caseOnly).toContain('#case=');
-  await page.getByRole('button', { name: 'Copy comparison link', exact: true }).click();
+  await clickOnScreen(page, 'Copy comparison link');
   const comparison = await page.getByRole('textbox', { name: 'Link to copy' }).inputValue();
   expect(comparison).not.toBe(caseOnly);
   await page.goto(comparison);
   await expect(page.getByRole('radio', { name: 'Experimental', exact: true })).toBeChecked();
   await expect(page.getByText('The other selections stay hidden', { exact: false })).toBeVisible();
   await expect(page.locator('.comparison')).toHaveCount(0);
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Begin assessment');
+  await clickOnScreen(page, 'Proceed to assessment 1');
   const replayed = await finishAssessments(page, false);
   expect(replayed.map((s) => ({ id: s.id, alts: s.alts }))).toEqual(original.map((s) => ({ id: s.id, alts: s.alts })));
   await expect(page.locator('.comparison')).toHaveCount(0);
@@ -123,7 +123,7 @@ test('a comparison link reproduces the case and conceals the other choices until
   await expect(page.locator('.comparison')).toContainText('5 differences');
   await expect(page.locator('.comparison')).toContainText('Agreement is not an answer key.');
   await accessible(page);
-  await page.getByRole('button', { name: 'Request re-assessment' }).click();
+  await clickOnScreen(page, 'Request re-assessment');
   await expect(page.getByText('Experimental · First impressions', { exact: true })).toBeVisible();
   await expect(page.locator('.comparison')).toHaveCount(0);
 });
@@ -132,7 +132,7 @@ test('a malformed case is explained and does not prevent a new Standard game', a
   await page.goto('./#case=not-valid-json');
   await expect(page.getByRole('status')).toContainText('could not be read');
   await expect(page.getByRole('radio', { name: 'Standard', exact: true })).toBeChecked();
-  await page.getByRole('button', { name: 'Begin assessment' }).click();
-  await page.getByRole('button', { name: 'Proceed to assessment 1' }).click();
+  await clickOnScreen(page, 'Begin assessment');
+  await clickOnScreen(page, 'Proceed to assessment 1');
   await currentGrid(page);
 });
