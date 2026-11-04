@@ -55,9 +55,9 @@ export function feedbackLine(stimulus: Stimulus, evaluation: Evaluation, respons
 
 function tileImage(tile: StimulusTile): HTMLImageElement {
   return h('img', {
-    src: assetUrl(tile.src),
-    srcset: `${assetUrl(tile.src_small)} ${tile.width / 2}w, ${assetUrl(tile.src)} ${tile.width}w`,
     sizes: TILE_SIZES,
+    srcset: `${assetUrl(tile.src_small)} ${tile.width / 2}w, ${assetUrl(tile.src)} ${tile.width}w`,
+    src: assetUrl(tile.src),
     width: tile.width,
     height: tile.height,
     alt: tile.alt,
@@ -165,6 +165,9 @@ export function renderRound(options: RoundOptions): HTMLElement {
     status.hidden = false;
     status.textContent = 'Retrieving case materials…';
     try {
+      // Let the connected images settle on their responsive source before
+      // decoding. A cached source change can otherwise reject decode() in Firefox.
+      await new Promise(requestAnimationFrame);
       await Promise.all(Array.from(grid.querySelectorAll('img'), (img) => img.decode()));
     } catch {
       status.textContent = 'The case materials could not be retrieved. Please check your connection.';

@@ -12,8 +12,12 @@ async function startExperimental(page: Page, query = '?time=none&seed=2026&dev')
 async function finishAssessments(page: Page, includeBorderline = true): Promise<{ id: string; alts: string[]; selected: string[] }[]> {
   const seen: { id: string; alts: string[]; selected: string[] }[] = [];
   for (let round = 0; round < 5; round++) {
-    const { stimulus, targets, borderline, alts } = await currentGrid(page);
-    const positions = [...targets, ...(includeBorderline ? [borderline[0]] : [])];
+    const { stimulus, targets, alts } = await currentGrid(page);
+    // Select the actual precedent image, independently of its shuffled position.
+    const disputed = stimulus.tiles.find((tile) => tile.tile_id === stimulus.borderline_tile_ids?.[0])!;
+    const disputedPosition = alts.indexOf(disputed.alt);
+    expect(disputedPosition).toBeGreaterThanOrEqual(0);
+    const positions = [...targets, ...(includeBorderline ? [disputedPosition] : [])];
     for (const position of positions) await page.locator('.tile').nth(position).click();
     const selected = positions.map((position) => stimulus.tiles.find((t) => t.alt === alts[position])!.tile_id);
     seen.push({ id: stimulus.stimulus_id, alts, selected });
