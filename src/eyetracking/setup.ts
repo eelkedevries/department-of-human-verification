@@ -162,14 +162,16 @@ export function stimulusSkeleton(title: string, note: string): { view: HTMLEleme
   const overlay = h('div', { class: 'dot-layer' });
   const view = h(
     'section',
-    { class: 'panel', 'aria-labelledby': 'skeleton-title' },
+    { class: 'panel round-panel', 'aria-labelledby': 'skeleton-title' },
+    h('div', { class: 'round-copy' },
     h('div', { class: 'round-head' }, h('div', { class: 'progress' }, h('span', {}, note)), h('p', { class: 'case-ref' }, 'Outside the story', h('br'), 'Eye-tracking setup')),
     h('p', { class: 'label' }, 'Calibration'),
     h('h1', { class: 'instruction', id: 'skeleton-title', tabindex: -1 }, title),
-    h('div', { class: 'timer' }, h('span', {}, ' ')),
-    grid,
+    h('div', { class: 'timer' }, h('span', {}, ' '))),
+    h('div', { class: 'round-board' }, grid),
+    h('div', { class: 'round-controls' },
     h('div', { class: 'submit-row' }, h('div', { class: 'button wide skeleton-button', 'aria-hidden': 'true' }, ' ')),
-    h('p', { class: 'hint' }, h('span', { class: 'hint-icon', 'aria-hidden': 'true' }, 'i'), h('span', {}, 'Keep your head still. The dots appear where the images will be.')),
+    h('p', { class: 'hint' }, h('span', { class: 'hint-icon', 'aria-hidden': 'true' }, 'i'), h('span', {}, 'Keep your head still. The dots appear where the images will be.'))),
     overlay,
   );
   return { view, grid, overlay };

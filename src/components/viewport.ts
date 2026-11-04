@@ -11,7 +11,6 @@ export function disposePages(container: HTMLElement): void {
 export function pagedView(content: HTMLElement): HTMLElement {
   let page = 0;
   let pages = 1;
-  let previousOffset = 0;
   let scheduled = 0;
   const flow = h('div', { class: 'page-flow' }, content);
   const frame = h('div', { class: 'page-window' }, flow);
@@ -31,7 +30,10 @@ export function pagedView(content: HTMLElement): HTMLElement {
     page = Math.max(0, Math.min(pages - 1, index));
     const offset = page * stride();
     if (Math.abs(frame.scrollLeft - offset) > 1) frame.scrollLeft = offset;
-    previousOffset = frame.scrollLeft;
+    updateControls();
+  }
+
+  function updateControls(): void {
     previous.disabled = page === 0;
     next.disabled = page === pages - 1;
     counter.textContent = `Page ${page + 1} of ${pages}`;
@@ -52,14 +54,19 @@ export function pagedView(content: HTMLElement): HTMLElement {
   // Keyboard focus and browser accessibility navigation also turn the page.
   frame.addEventListener('focusin', (event) => {
     const target = event.target as HTMLElement;
-    const left = target.getBoundingClientRect().left - frame.getBoundingClientRect().left + frame.scrollLeft;
+    const rect = target.getBoundingClientRect();
+    const windowRect = frame.getBoundingClientRect();
+    // A pointer click can focus an already-visible control between pointerdown
+    // and pointerup. Moving it at that instant would cancel the click.
+    if (rect.left >= windowRect.left - 1 && rect.right <= windowRect.right + 1) return;
+    const left = rect.left - windowRect.left + frame.scrollLeft;
     go(Math.floor((left + 1) / stride()));
   });
   frame.addEventListener('scroll', () => {
-    const offset = frame.scrollLeft;
-    if (Math.abs(offset - previousOffset) < 1) return;
-    const index = offset > previousOffset ? Math.ceil(offset / stride()) : Math.floor(offset / stride());
-    go(index);
+    // Native focus/accessibility navigation may reveal a control directly.
+    // Update the page indicator without moving the control under the pointer.
+    page = Math.max(0, Math.min(pages - 1, Math.round(frame.scrollLeft / stride())));
+    updateControls();
   });
   const resize = new ResizeObserver(measure);
   resize.observe(frame);
