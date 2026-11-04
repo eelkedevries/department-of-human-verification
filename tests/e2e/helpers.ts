@@ -67,16 +67,28 @@ export async function expectNothingLeft(page: Page, requests: { method: string; 
 }
 
 export async function expectNoHorizontalOverflow(page: Page): Promise<void> {
-  const dimensions = await page.evaluate(() => ({
-    horizontal: document.documentElement.scrollWidth - document.documentElement.clientWidth,
-    vertical: document.documentElement.scrollHeight - innerHeight,
-    clipped: Array.from(document.querySelectorAll<HTMLElement>('.page-window, .round-panel, .round-board, .round-copy, .round-controls, dialog[open]'))
-      .filter((el) => el.getBoundingClientRect().height > 0)
-      .map((el) => ({ element: el.className, vertical: el.scrollHeight - el.clientHeight })),
-  }));
-  expect(dimensions.horizontal, 'horizontal page overflow in pixels').toBeLessThanOrEqual(1);
-  expect(dimensions.vertical, 'vertical page overflow in pixels').toBeLessThanOrEqual(1);
-  for (const item of dimensions.clipped) expect(item.vertical, `${item.element}: vertically clipped content`).toBeLessThanOrEqual(1);
+  // Wait for font loading, column measurement and dialog layout to settle.
+  // Persistent overflow still fails, with the overflowing fragments identified.
+  await expect(async () => {
+    const dimensions = await page.evaluate(() => ({
+      horizontal: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+      vertical: document.documentElement.scrollHeight - innerHeight,
+      clipped: Array.from(document.querySelectorAll<HTMLElement>('.page-window, .round-panel, .round-board, .round-copy, .round-controls, dialog[open]'))
+        .filter((el) => el.getBoundingClientRect().height > 0)
+        .map((el) => ({
+          element: el.className,
+          vertical: el.scrollHeight - el.clientHeight,
+          fragments: el.scrollHeight - el.clientHeight > 1
+            ? Array.from(el.querySelectorAll<HTMLElement>('h1, h2, h3, p, button, figure, label')).flatMap((child) =>
+                Array.from(child.getClientRects()).filter((rect) => rect.bottom > el.getBoundingClientRect().bottom + 1)
+                  .map((rect) => ({ element: child.className || child.tagName, text: child.textContent?.slice(0, 80), bottom: rect.bottom - el.getBoundingClientRect().bottom })))
+            : [],
+        })),
+    }));
+    expect(dimensions.horizontal, 'horizontal page overflow in pixels').toBeLessThanOrEqual(1);
+    expect(dimensions.vertical, 'vertical page overflow in pixels').toBeLessThanOrEqual(1);
+    for (const item of dimensions.clipped) expect(item.vertical, `${item.element}: vertically clipped content ${JSON.stringify(item.fragments)}`).toBeLessThanOrEqual(1);
+  }).toPass({ timeout: 5000 });
 }
 
 /** Starts a game from the notice, with an optional seed and time option. */

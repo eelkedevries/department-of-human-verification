@@ -19,7 +19,16 @@ export function pagedView(content: HTMLElement): HTMLElement {
   const next = button('Next page', () => go(page + 1), { secondary: true });
   const controls = h('nav', { class: 'page-controls', 'aria-label': 'Screen pages' }, previous, counter, next);
   const root = h('div', { class: 'viewport-pager' }, frame, controls);
-  const stride = () => frame.clientWidth + Number.parseFloat(getComputedStyle(flow).columnGap);
+  // clientWidth rounds to whole pixels; that error accumulates across columns
+  // and can invent an unreachable final page on a fractional-width viewport.
+  const stride = () => frame.getBoundingClientRect().width + Number.parseFloat(getComputedStyle(flow).columnGap);
+
+  function focusedPage(): number | undefined {
+    const target = document.activeElement;
+    if (!(target instanceof HTMLElement) || !frame.contains(target)) return;
+    const left = target.getBoundingClientRect().left - frame.getBoundingClientRect().left + frame.scrollLeft;
+    return Math.floor((left + 1) / stride());
+  }
 
   function go(index: number): void {
     // Focus may arrive immediately after opening a screen or expanding credits.
@@ -47,7 +56,7 @@ export function pagedView(content: HTMLElement): HTMLElement {
     scheduled = requestAnimationFrame(() => {
       if (!root.isConnected || !frame.clientWidth || !frame.clientHeight) return;
       pages = Math.max(1, Math.ceil((frame.scrollWidth + Number.parseFloat(getComputedStyle(flow).columnGap) - 1) / stride()));
-      go(page);
+      go(focusedPage() ?? page);
     });
   }
 
@@ -58,7 +67,11 @@ export function pagedView(content: HTMLElement): HTMLElement {
     const windowRect = frame.getBoundingClientRect();
     // A pointer click can focus an already-visible control between pointerdown
     // and pointerup. Moving it at that instant would cancel the click.
-    if (rect.left >= windowRect.left - 1 && rect.right <= windowRect.right + 1) return;
+    if (rect.left >= windowRect.left - 1 && rect.right <= windowRect.right + 1) {
+      page = Math.max(0, Math.min(pages - 1, Math.round(frame.scrollLeft / stride())));
+      updateControls();
+      return;
+    }
     const left = rect.left - windowRect.left + frame.scrollLeft;
     go(Math.floor((left + 1) / stride()));
   });
