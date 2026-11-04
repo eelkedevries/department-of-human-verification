@@ -1099,6 +1099,9 @@ dialog.about::backdrop {
 .page-flow .decision-card .case-figure { max-width: 22rem; }
 .review-question { font-weight: 600; padding: 0.75rem; border-left: 3px solid var(--action); background: rgb(52 73 94 / 0.055); break-inside: avoid; }
 .review-answer { break-inside: avoid; }
+.definition-review .case-figure img { height: min(17dvh, 10rem); }
+.definition-review .review-options { margin-block: 0.8rem; }
+.definition-review .review-actions { margin-top: 0.5rem; }
 .case-picker-controls { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.35rem; align-items: center; break-inside: avoid; }
 .case-picker-controls .button { font-size: 0.7rem; padding: 0.4rem; letter-spacing: 0.02em; }
 .share-output { resize: none; overflow: hidden; }
@@ -1140,6 +1143,8 @@ dialog.about::backdrop {
 dialog.about { width: min(48rem, calc(100% - 1rem)); height: min(48rem, calc(100dvh - 1rem)); max-height: calc(100dvh - 1rem); padding: 0.65rem; overflow: hidden; }
 dialog.about[open] { display: flex; flex-direction: column; gap: 0.5rem; }
 dialog.about .about-body { padding: 0.75rem; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.reading-dialog .about-body { padding-block: 0.5rem; }
+.reading-dialog p:last-child { margin-bottom: 0; }
 .dialog-actions { flex: none; display: flex; justify-content: end; }
 
 @media (max-height: 600px) {

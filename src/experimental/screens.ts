@@ -75,7 +75,7 @@ export function definitionScreen(
     choice,
     t_ms: clock(),
   });
-  return h('section', { class: 'panel', 'aria-labelledby': 'definition-title' },
+  return h('section', { class: 'panel definition-review', 'aria-labelledby': 'definition-title' },
     h('p', { class: 'label' }, 'Experimental · Form HV-7'),
     h('h1', { id: 'definition-title', class: 'notice-title', tabindex: -1 }, 'Does this count as a house?'),
     h('p', { class: 'prose' }, `Choose a definition of “house” below. Then decide whether ${subject} counts as a house under that definition.`),
